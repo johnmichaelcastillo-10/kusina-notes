@@ -33,8 +33,30 @@ if ( '' !== $kusina_meta['yield'] ) {
 $kusina_facts[ __( 'Difficulty', 'kusina-core' ) ] = esc_html( kusina_difficulty_label( $kusina_meta['difficulty'] ) );
 
 $kusina_qty_attr = static fn( ?float $value ): string => null === $value ? '' : (string) $value;
+
+// What "Add to shopping list" stores: the cleaned ingredients at the default servings. JSON
+// in a non-executable script tag, so the static site's CSP needs no hash for it.
+$kusina_list_data = array(
+	'slug'     => (string) get_post_field( 'post_name', $kusina_post_id ),
+	'title'    => kusina_plain_text( get_the_title( $kusina_post_id ) ),
+	'url'      => wp_make_link_relative( (string) get_permalink( $kusina_post_id ) ),
+	'course'   => kusina_recipe_course( $kusina_post_id ),
+	'servings' => $kusina_meta['servings'],
+	'items'    => array(),
+);
+foreach ( $kusina_recipe['groups'] as $kusina_group ) {
+	foreach ( $kusina_group['items'] as $kusina_item ) {
+		$kusina_list_data['items'][] = array(
+			'qty'  => $kusina_item['qty'],
+			'max'  => $kusina_item['max'],
+			'unit' => $kusina_item['unit'],
+			'name' => $kusina_item['name'],
+		);
+	}
+}
 ?>
 <section <?php echo get_block_wrapper_attributes( array( 'class' => 'recipe-card' ) ); ?> data-servings="<?php echo esc_attr( (string) $kusina_meta['servings'] ); ?>">
+	<script type="application/json" class="recipe-data"><?php echo wp_json_encode( $kusina_list_data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP ); ?></script>
 	<dl class="recipe-facts">
 		<?php foreach ( $kusina_facts as $kusina_label => $kusina_value ) : ?>
 			<div class="recipe-fact"><dt><?php echo esc_html( $kusina_label ); ?></dt><dd><?php echo $kusina_value; // Escaped above. ?></dd></div>
@@ -71,6 +93,11 @@ $kusina_qty_attr = static fn( ?float $value ): string => null === $value ? '' : 
 						<label><input type="radio" name="kusina-units" value="<?php echo esc_attr( $kusina_mode ); ?>"<?php checked( 'original', $kusina_mode ); ?>><span><?php echo esc_html( $kusina_mode_label ); ?></span></label>
 					<?php endforeach; ?>
 				</fieldset>
+				<button type="button" class="kn-btn list-add" data-list-add aria-pressed="false"
+					data-label-add="<?php esc_attr_e( 'Add to shopping list', 'kusina-core' ); ?>"
+					data-label-added="<?php esc_attr_e( 'On your shopping list', 'kusina-core' ); ?>"
+					data-msg-failed="<?php esc_attr_e( 'This browser blocked saving the list.', 'kusina-core' ); ?>"><?php esc_html_e( 'Add to shopping list', 'kusina-core' ); ?></button>
+				<p class="list-add-note" data-list-note hidden><a href="/list/"><?php esc_html_e( 'View your list', 'kusina-core' ); ?></a></p>
 				<p class="kn-visually-hidden" data-scale-status aria-live="polite"></p>
 			</div>
 			<?php foreach ( $kusina_recipe['groups'] as $kusina_group ) : ?>

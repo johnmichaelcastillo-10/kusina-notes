@@ -57,6 +57,20 @@
 		save: () => null,
 	} );
 
+	// Pantry finder and shopping list run in the visitor's browser; the editor shows a note.
+	const placeholder = ( text ) =>
+		function Edit() {
+			return el( 'div', useBlockProps( { className: 'kusina-placeholder' } ), el( 'p', null, text ) );
+		};
+	registerBlockType( 'kusina/pantry-finder', {
+		edit: placeholder( __( 'Pantry finder: ingredient chips and ranked recipes appear here on the site.', 'kusina-core' ) ),
+		save: () => null,
+	} );
+	registerBlockType( 'kusina/shopping-list', {
+		edit: placeholder( __( "Shopping list: the visitor's saved recipes and merged ingredients appear here on the site.", 'kusina-core' ) ),
+		save: () => null,
+	} );
+
 	registerBlockType( 'kusina/course-chips', {
 		edit( { attributes, setAttributes } ) {
 			return el(

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kusina/pantry-finder",
+	"version": "0.5.0",
+	"title": "Pantry finder",
+	"category": "widgets",
+	"icon": "search",
+	"description": "Tick what's in the kitchen; recipes are ranked by how few extra ingredients they need.",
+	"textdomain": "kusina-core",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": [ "wide" ]
+	},
+	"editorScript": "kusina-simple-blocks-editor",
+	"style": "file:./style.css",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}

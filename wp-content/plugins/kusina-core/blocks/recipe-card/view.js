@@ -247,7 +247,17 @@ function initScaler( card ) {
 		text: el.textContent,
 	} ) );
 
+	// A recipe already on the shopping list opens at the servings saved there.
 	let servings = base;
+	try {
+		const slug = JSON.parse( card.querySelector( '.recipe-data' ).textContent ).slug;
+		const saved = readList().recipes.find( ( r ) => r.slug === slug );
+		if ( saved && Number.isInteger( saved.servings ) ) {
+			servings = Math.min( MAX_SERVINGS, Math.max( 1, saved.servings ) );
+		}
+	} catch {
+		// No data or no list: default servings.
+	}
 	let mode = [ 'original', 'metric', 'us' ].includes( readStored( UNITS_KEY ) ) ? readStored( UNITS_KEY ) : 'original';
 
 	const radio = tools.querySelector( `input[name="kusina-units"][value="${ mode }"]` );
@@ -267,6 +277,7 @@ function initScaler( card ) {
 		input.value = String( servings );
 		down.disabled = servings <= 1;
 		up.disabled = servings >= MAX_SERVINGS;
+		card.dispatchEvent( new CustomEvent( 'kusina-servings', { detail: servings } ) );
 
 		if ( announce ) {
 			const noun = servings === 1 ? tools.dataset.nounOne : tools.dataset.nounMany;
@@ -302,8 +313,97 @@ function initScaler( card ) {
 		}
 	} );
 
+	initListButton( card, tools, () => servings );
 	render( false );
 	tools.hidden = false;
+}
+
+/* ---------- Add to shopping list ---------- */
+
+// Shared with the list page (blocks/shopping-list/view.js) and the header count
+// (theme assets/js/site.js): { recipes: [{ slug, title, url, course, base, servings,
+// items }], checked: [line keys] }.
+const LIST_KEY = 'kusina-list';
+
+function readList() {
+	try {
+		const list = JSON.parse( window.localStorage.getItem( LIST_KEY ) || 'null' );
+		if ( list && Array.isArray( list.recipes ) ) {
+			return { recipes: list.recipes, checked: Array.isArray( list.checked ) ? list.checked : [] };
+		}
+	} catch {
+		// Unreadable or blocked: start empty.
+	}
+	return { recipes: [], checked: [] };
+}
+
+function writeList( list ) {
+	try {
+		window.localStorage.setItem( LIST_KEY, JSON.stringify( list ) );
+	} catch {
+		return false;
+	}
+	window.dispatchEvent( new Event( 'kusina-list-change' ) );
+	return true;
+}
+
+function initListButton( card, tools, currentServings ) {
+	const button = tools.querySelector( '[data-list-add]' );
+	const note = tools.querySelector( '[data-list-note]' );
+	const source = card.querySelector( '.recipe-data' );
+	if ( ! button || ! source ) {
+		return;
+	}
+	let data;
+	try {
+		data = JSON.parse( source.textContent );
+	} catch {
+		button.remove();
+		return;
+	}
+
+	const onList = () => readList().recipes.some( ( r ) => r.slug === data.slug );
+	const show = () => {
+		const added = onList();
+		button.setAttribute( 'aria-pressed', String( added ) );
+		button.textContent = added ? button.dataset.labelAdded : button.dataset.labelAdd;
+		note.hidden = ! added;
+	};
+
+	button.addEventListener( 'click', () => {
+		const list = readList();
+		if ( onList() ) {
+			list.recipes = list.recipes.filter( ( r ) => r.slug !== data.slug );
+		} else {
+			list.recipes.push( {
+				slug: data.slug,
+				title: data.title,
+				url: data.url,
+				course: data.course,
+				base: data.servings,
+				servings: currentServings(),
+				items: data.items,
+			} );
+		}
+		if ( ! writeList( list ) ) {
+			note.hidden = false;
+			note.textContent = button.dataset.msgFailed;
+			return;
+		}
+		show();
+	} );
+
+	// Changing the servings while the recipe is on the list updates the list too.
+	card.addEventListener( 'kusina-servings', ( event ) => {
+		if ( onList() ) {
+			const list = readList();
+			list.recipes = list.recipes.map( ( r ) => ( r.slug === data.slug ? { ...r, servings: event.detail } : r ) );
+			writeList( list );
+		}
+	} );
+
+	window.addEventListener( 'storage', show );
+	show();
 }
 
 /* ---------- Cook mode ---------- */

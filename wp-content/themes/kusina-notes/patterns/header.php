@@ -6,7 +6,8 @@
  * Inserter: no
  *
  * Custom HTML instead of the Navigation block (heavy inline CSS and the Interactivity API
- * for two links). Links are root-relative so the static export needs no rewriting.
+ * for four links). Links are root-relative so the static export needs no rewriting. The
+ * list count is filled in by assets/js/site.js from the visitor's saved list.
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -17,6 +18,8 @@ defined( 'ABSPATH' ) || exit;
 	<nav class="site-nav" aria-label="<?php esc_attr_e( 'Main', 'kusina-notes' ); ?>">
 		<ul>
 			<li><a href="/recipes/"><?php esc_html_e( 'Recipes', 'kusina-notes' ); ?></a></li>
+			<li><a href="/pantry/"><?php esc_html_e( 'Pantry', 'kusina-notes' ); ?></a></li>
+			<li><a href="/list/"><?php esc_html_e( 'List', 'kusina-notes' ); ?><span class="nav-count" data-list-count hidden></span></a></li>
 			<li><a href="/about/"><?php esc_html_e( 'About', 'kusina-notes' ); ?></a></li>
 		</ul>
 	</nav>

@@ -12,7 +12,10 @@ defined( 'ABSPATH' ) || exit;
 add_action(
 	'wp_enqueue_scripts',
 	static function (): void {
-		wp_enqueue_style( 'kusina-notes', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
+		$version = wp_get_theme()->get( 'Version' );
+		wp_enqueue_style( 'kusina-notes', get_stylesheet_uri(), array(), $version );
+		// A module with no dependencies, so WordPress prints no inline import map.
+		wp_enqueue_script_module( 'kusina-notes-site', get_theme_file_uri( 'assets/js/site.js' ), array(), $version );
 	}
 );
 

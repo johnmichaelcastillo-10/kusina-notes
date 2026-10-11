@@ -13,8 +13,8 @@ Audience: someone cooking on a phone propped against the counter, often with wet
 That drives every interaction decision: big tap targets, no hover-only controls, nothing
 that moves the page while they read.
 
-Personality: a loud, warm Filipino home kitchen (enamelware, palengke signs, gingham
-oilcloth) with the voice of a tita who cooks. It must look nothing like the portfolio or
+Personality: a calm, warm Filipino home kitchen (enamel plates, a hint of colour per course,
+one gingham strip) with the voice of a tita who cooks. It must look nothing like the portfolio or
 Terra & Thread. Full direction in [`DESIGN.md`](DESIGN.md).
 
 ## 2. Pages
@@ -120,7 +120,8 @@ Same model as the other two projects: crawl local WordPress, export to `dist/`, 
 (CSP hashing of inline scripts, localhost-link and PHP-warning checks) and adapt:
 
 - Seed URLs: `/`, `/recipes/`, `/pantry/`, `/list/`, `/about/`, sitemap.
-- Write `recipes.json` from the REST route into `dist/`.
+- Write `recipes.json` from the REST route into `dist/`, and rewrite the pantry block's
+  `data-index` attribute (the REST URL) to `/recipes.json`.
 - CSP: `default-src 'self'`, scripts by hash, `img-src 'self' data:`, `font-src 'self'`,
   `connect-src 'self'`, `form-action 'self'` (no forms yet), `frame-ancestors 'none'`.
 - Nothing may need PHP at request time. Search uses the JSON index, not `?s=`.
@@ -166,8 +167,10 @@ almusal 60, inumin 45; 312 vegetarian, 246 pescatarian; 228 take 30 minutes or l
    course chips (`kusina/course-chips`), templates for home, recipe, recipes index, course,
    other taxonomies, page and 404, recipe card and cook mode restyled, emoji loader removed,
    About page seeded. Checked at 1440 and 390 px, light and dark.
-5. Pantry and list pages (templates exist for everything else).
-6. JS: tick boxes, then the index route, filters, Bahala na, pantry, list.
+5. **Done**: pantry finder (`/pantry/`, block `kusina/pantry-finder`, index at
+   `/wp-json/kusina/v1/index`) and shopping list (`/list/`, block `kusina/shopping-list`,
+   "Add to shopping list" on every recipe, header count). Theme redesigned calmer (DESIGN.md).
+6. JS still open: ingredient tick boxes, recipe index filters, Bahala na.
 7. **Done**: 1,022 recipes seeded (section 8). Still open: CC0 photos (overhead shots,
    for the plate crops) where matching ones exist.
 8. Exporter, CSP, Vercel project, `Deploy.cmd`.

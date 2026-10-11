@@ -1,10 +1,10 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-masthead"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group"><!-- wp:group {"align":"full","className":"hero gingham","layout":{"type":"constrained","contentSize":"74rem"}} -->
-<div class="wp-block-group alignfull hero gingham"><!-- wp:group {"className":"hero-inner","layout":{"type":"default"}} -->
-<div class="wp-block-group hero-inner"><!-- wp:group {"className":"hero-card","layout":{"type":"default"}} -->
-<div class="wp-block-group hero-card"><!-- wp:paragraph {"className":"eyebrow"} -->
+<main class="wp-block-group"><!-- wp:group {"align":"wide","className":"hero","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide hero"><!-- wp:group {"className":"hero-inner","layout":{"type":"default"}} -->
+<div class="wp-block-group hero-inner"><!-- wp:group {"className":"hero-text","layout":{"type":"default"}} -->
+<div class="wp-block-group hero-text"><!-- wp:paragraph {"className":"eyebrow"} -->
 <p class="eyebrow">Filipino home cooking</p>
 <!-- /wp:paragraph -->
 
@@ -13,11 +13,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hero-lede"} -->
-<p class="hero-lede">Dinner in under an hour, no life story first.</p>
+<p class="hero-lede">Over a thousand everyday recipes, from adobo to ube halaya. Dinner in under an hour, no life story first.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="hero-actions"><a class="btn btn-primary" href="/recipes/">See all recipes</a></div>
+<div class="hero-actions"><a class="btn btn-primary" href="/recipes/">Browse recipes</a><a class="btn" href="/pantry/">Cook from your pantry</a></div>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
@@ -50,9 +50,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide section"><!-- wp:heading {"className":"section-title"} -->
-<h2 class="wp-block-heading section-title">Fresh from the kusina</h2>
-<!-- /wp:heading -->
+<div class="wp-block-group alignwide section"><!-- wp:html -->
+<div class="section-head"><h2 class="wp-block-heading section-title">Fresh from the kusina</h2><a class="section-link" href="/recipes/">All recipes</a></div>
+<!-- /wp:html -->
 
 <!-- wp:query {"queryId":2,"query":{"perPage":6,"pages":0,"offset":1,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"className":"plates"} -->
 <div class="wp-block-query plates"><!-- wp:post-template -->
@@ -73,6 +73,18 @@
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide section"><!-- wp:html -->
+<div class="teaser">
+	<div>
+		<h2 class="wp-block-heading teaser-title">What's in the fridge?</h2>
+		<p class="teaser-text">Tick what you have and get recipes that need the fewest extra trips to the palengke.</p>
+	</div>
+	<a class="btn btn-primary" href="/pantry/">Open the pantry finder</a>
+</div>
+<!-- /wp:html --></div>
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 

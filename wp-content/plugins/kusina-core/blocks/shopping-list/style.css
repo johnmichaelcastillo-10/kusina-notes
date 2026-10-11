@@ -1,0 +1,244 @@
+/* Shopping list. Reads the Kusina Notes theme tokens. */
+
+.shopping-list {
+	--kn-ink: var(--wp--preset--color--ink, #16213E);
+	--kn-ink-2: var(--wp--preset--color--ink-2, #4A5372);
+	--kn-enamel: var(--wp--preset--color--enamel, #FBFAF6);
+	--kn-enamel-2: var(--wp--preset--color--enamel-2, #F0EEE6);
+	--kn-cobalt: var(--wp--preset--color--cobalt, #1F3FA8);
+	--kn-on-cobalt: var(--wp--preset--color--on-cobalt, #FFFFFF);
+	--kn-line: color-mix(in srgb, var(--kn-ink) 12%, transparent);
+	--kn-line-strong: color-mix(in srgb, var(--kn-ink) 24%, transparent);
+	margin-block: 1rem 2rem;
+}
+
+.shopping-list [hidden] {
+	display: none !important;
+}
+
+/* Buttons: same look as the recipe card's (that stylesheet only loads on recipe pages). */
+.shopping-list .kn-btn,
+.shopping-list .kn-icon-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 2.75rem;
+	padding: 0.5rem 1.15rem;
+	box-sizing: border-box;
+	font: inherit;
+	font-size: 0.9375rem;
+	font-weight: 700;
+	line-height: 1.2;
+	color: var(--kn-cobalt);
+	background: transparent;
+	border: 1.5px solid currentColor;
+	border-radius: 999px;
+	cursor: pointer;
+}
+
+.shopping-list .kn-btn:hover,
+.shopping-list .kn-icon-btn:hover {
+	color: var(--kn-on-cobalt);
+	background: var(--kn-cobalt);
+	border-color: var(--kn-cobalt);
+}
+
+.shopping-list .kn-btn-quiet {
+	border-color: transparent;
+}
+
+.shopping-list .kn-icon-btn {
+	width: 2.25rem;
+	min-height: 2.25rem;
+	padding: 0;
+	font-size: 1.1rem;
+	color: var(--kn-ink);
+	border-color: var(--kn-line-strong);
+	border-radius: 50%;
+}
+
+.shopping-list h2 {
+	margin: 0;
+	font-size: var(--wp--preset--font-size--large, 1.75rem);
+}
+
+.list-empty {
+	max-width: 36rem;
+}
+
+.list-empty-title {
+	margin: 0 0 0.5rem;
+	font-family: var(--wp--preset--font-family--display, sans-serif);
+	font-size: 1.75rem;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+.list-empty p {
+	color: var(--kn-ink-2);
+}
+
+.list-full {
+	display: grid;
+	gap: 3rem;
+}
+
+.list-recipes ul {
+	display: grid;
+	gap: 0;
+	margin: 1rem 0 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid var(--kn-line);
+}
+
+.list-recipe {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto auto;
+	gap: 0.75rem;
+	align-items: center;
+	padding-block: 0.6rem;
+	border-bottom: 1px solid var(--kn-line);
+}
+
+.list-recipe > a {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6rem;
+	min-width: 0;
+	font-weight: 700;
+	color: var(--kn-ink);
+}
+
+.list-recipe > a::before {
+	flex: none;
+	width: 0.55rem;
+	height: 0.55rem;
+	content: "";
+	background: var(--course, var(--kn-cobalt));
+	border-radius: 50%;
+}
+
+.list-recipe-servings {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 0.9375rem;
+	font-variant-numeric: tabular-nums;
+	color: var(--kn-ink-2);
+	white-space: nowrap;
+}
+
+.list-head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.list-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+}
+
+[data-list-aisles] {
+	columns: 2 22rem;
+	column-gap: 3rem;
+}
+
+.list-aisle {
+	break-inside: avoid;
+	margin-bottom: 2rem;
+}
+
+.list-aisle h3 {
+	margin: 0 0 0.35rem;
+	font-family: var(--wp--preset--font-family--body, sans-serif);
+	font-size: 0.8125rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--kn-ink-2);
+}
+
+.list-lines {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list-line {
+	display: grid;
+	grid-template-columns: 1.4rem minmax(0, 1fr);
+	gap: 0.75rem;
+	align-items: start;
+	padding-block: 0.6rem;
+	border-bottom: 1px solid var(--kn-line);
+}
+
+.list-line input {
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0.2rem 0 0;
+	accent-color: var(--kn-cobalt);
+	cursor: pointer;
+}
+
+.list-line label {
+	cursor: pointer;
+	line-height: 1.45;
+}
+
+/* Amounts in Bricolage: Atkinson has no ⅓ ⅔ ⅛ glyphs. */
+.list-qty {
+	font-family: var(--wp--preset--font-family--display, sans-serif);
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+}
+
+.list-for {
+	display: block;
+	font-size: 0.8125rem;
+	color: var(--kn-ink-2);
+}
+
+.list-line:has(input:checked) label {
+	color: var(--kn-ink-2);
+	text-decoration: line-through;
+	text-decoration-color: var(--kn-line-strong);
+}
+
+@media (max-width: 40rem) {
+	.list-recipe {
+		grid-template-columns: minmax(0, 1fr) auto;
+	}
+
+	.list-remove {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.list-recipe-servings {
+		grid-column: 1 / -1;
+	}
+}
+
+@media print {
+	.list-actions,
+	.list-recipe-servings button,
+	.list-remove,
+	.list-for {
+		display: none !important;
+	}
+
+	[data-list-aisles] {
+		columns: 2;
+	}
+
+	.list-line {
+		padding-block: 0.25rem;
+	}
+}

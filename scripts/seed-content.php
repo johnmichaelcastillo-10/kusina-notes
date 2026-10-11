@@ -129,36 +129,55 @@ foreach ( array( 'vegetarian' => 'Vegetarian', 'pescatarian' => 'Pescatarian' ) 
 	}
 }
 
-// About page, in the site's voice but only true statements.
-$kusina_about         = get_page_by_path( 'about' );
-$kusina_about_content = implode(
-	"\n\n",
-	array_map(
-		static fn( string $p ): string => "<!-- wp:paragraph -->\n<p>{$p}</p>\n<!-- /wp:paragraph -->",
-		array(
-			'Kusina Notes is a recipe site for everyday Filipino cooking: the ulam, sabaw and merienda people actually make on a weeknight.',
-			'Every recipe opens straight onto the recipe. Change the servings and the amounts follow, switch between metric and US measures, and press Cook mode to get one step at a time with timers, in big type, with the screen kept awake.',
-			'It is a personal project built on WordPress and published as a static site. Food photos, where there are any, are public domain.',
-		)
+/** Creates or updates a page by slug from paragraphs (plain text) and trailing block markup. */
+function kusina_seed_page( string $slug, string $title, array $paragraphs, string $blocks = '' ): void {
+	$existing = get_page_by_path( $slug );
+	$content  = implode(
+		"\n\n",
+		array_map( static fn( string $p ): string => "<!-- wp:paragraph -->\n<p>" . esc_html( $p ) . "</p>\n<!-- /wp:paragraph -->", $paragraphs )
+	) . ( '' !== $blocks ? "\n\n" . $blocks : '' );
+
+	$id = wp_insert_post(
+		wp_slash(
+			array(
+				'ID'           => $existing ? $existing->ID : 0,
+				'post_type'    => 'page',
+				'post_status'  => 'publish',
+				'post_name'    => $slug,
+				'post_title'   => $title,
+				'post_content' => $content,
+			)
+		),
+		true
+	);
+	if ( is_wp_error( $id ) ) {
+		WP_CLI::error( $id->get_error_message() );
+	}
+	WP_CLI::log( ( $existing ? 'Updated' : 'Created' ) . " page {$slug} (#{$id})" );
+}
+
+// Pages, in the site's voice but only true statements.
+kusina_seed_page(
+	'about',
+	'About',
+	array(
+		'Kusina Notes is a recipe site for everyday Filipino cooking: the ulam, sabaw and merienda people actually make on a weeknight.',
+		'Every recipe opens straight onto the recipe. Change the servings and the amounts follow, switch between metric and US measures, and press Cook mode to get one step at a time with timers, in big type, with the screen kept awake.',
+		'It is a personal project built on WordPress and published as a static site. Food photos, where there are any, are public domain or CC0.',
 	)
 );
-$kusina_about_id = wp_insert_post(
-	wp_slash(
-		array(
-			'ID'           => $kusina_about ? $kusina_about->ID : 0,
-			'post_type'    => 'page',
-			'post_status'  => 'publish',
-			'post_name'    => 'about',
-			'post_title'   => 'About',
-			'post_content' => $kusina_about_content,
-		)
-	),
-	true
+kusina_seed_page(
+	'pantry',
+	'What can I cook?',
+	array( 'Tick what you have. Recipes that need the fewest extra ingredients come first. The usual basics start ticked; untick any you are out of.' ),
+	'<!-- wp:kusina/pantry-finder {"align":"wide"} /-->'
 );
-if ( is_wp_error( $kusina_about_id ) ) {
-	WP_CLI::error( $kusina_about_id->get_error_message() );
-}
-WP_CLI::log( ( $kusina_about ? 'Updated' : 'Created' ) . " about (#{$kusina_about_id})" );
+kusina_seed_page(
+	'list',
+	'Shopping list',
+	array( 'Everything from the recipes you added, scaled to your servings, added together and sorted by aisle. It is saved in this browser only.' ),
+	'<!-- wp:kusina/shopping-list {"align":"wide"} /-->'
+);
 
 // Recipes. The validator (scripts/validate-recipes.mjs) is the real check; this only refuses
 // records missing the fields the seed reads.
@@ -207,3 +226,55 @@ foreach ( $kusina_order as $kusina_i => $kusina_slug ) {
 wp_defer_term_counting( false );
 
 WP_CLI::success( "Recipes: {$kusina_stats['created']} created, {$kusina_stats['updated']} updated, {$kusina_stats['failed']} failed." );
+
+// Photos: scripts/images/<slug>.webp becomes the recipe's featured image (CC0 / public
+// domain only, sources in scripts/images/*-credits.json). Re-imported only when the file
+// changed, tracked by a hash in the attachment's meta.
+require_once ABSPATH . 'wp-admin/includes/image.php';
+require_once ABSPATH . 'wp-admin/includes/file.php';
+require_once ABSPATH . 'wp-admin/includes/media.php';
+
+$kusina_photos = array( 'added' => 0, 'kept' => 0, 'skipped' => 0 );
+foreach ( glob( __DIR__ . '/images/*.webp' ) as $kusina_photo ) {
+	$kusina_slug = basename( $kusina_photo, '.webp' );
+	$kusina_post = get_page_by_path( $kusina_slug, OBJECT, 'recipe' );
+	if ( ! $kusina_post ) {
+		++$kusina_photos['skipped'];
+		WP_CLI::warning( "photo {$kusina_slug}.webp has no recipe" );
+		continue;
+	}
+	$kusina_hash    = md5_file( $kusina_photo );
+	$kusina_current = (int) get_post_thumbnail_id( $kusina_post );
+	if ( $kusina_current && get_post_meta( $kusina_current, '_kusina_source_hash', true ) === $kusina_hash ) {
+		++$kusina_photos['kept'];
+		continue;
+	}
+
+	// media_handle_sideload() moves the file, and /scripts is read-only: work on a copy.
+	$kusina_tmp = wp_tempnam( $kusina_slug . '.webp' );
+	copy( $kusina_photo, $kusina_tmp );
+	$kusina_attachment = media_handle_sideload(
+		array(
+			'name'     => $kusina_slug . '.webp',
+			'tmp_name' => $kusina_tmp,
+		),
+		$kusina_post->ID,
+		get_the_title( $kusina_post )
+	);
+	if ( is_wp_error( $kusina_attachment ) ) {
+		@unlink( $kusina_tmp );
+		++$kusina_photos['skipped'];
+		WP_CLI::warning( "{$kusina_slug}: " . $kusina_attachment->get_error_message() );
+		continue;
+	}
+	update_post_meta( $kusina_attachment, '_kusina_source_hash', $kusina_hash );
+	update_post_meta( $kusina_attachment, '_wp_attachment_image_alt', get_the_title( $kusina_post ) );
+	set_post_thumbnail( $kusina_post, $kusina_attachment );
+	if ( $kusina_current ) {
+		wp_delete_attachment( $kusina_current, true );
+	}
+	++$kusina_photos['added'];
+}
+WP_CLI::log( "Photos: {$kusina_photos['added']} added, {$kusina_photos['kept']} unchanged, {$kusina_photos['skipped']} skipped." );
+
+kusina_flush_recipe_index();

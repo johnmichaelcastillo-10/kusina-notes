@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kusina/shopping-list",
+	"version": "0.5.0",
+	"title": "Shopping list",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "The visitor's shopping list: recipes they added, ingredients merged and grouped by aisle.",
+	"textdomain": "kusina-core",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": [ "wide" ]
+	},
+	"editorScript": "kusina-simple-blocks-editor",
+	"style": "file:./style.css",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}
