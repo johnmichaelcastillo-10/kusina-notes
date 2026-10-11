@@ -1,0 +1,27 @@
+/*
+Theme Name:        Kusina Notes
+Author:            John Michael Castillo
+Description:       A recipe journal block theme. Pairs with the Kusina Core plugin for recipes.
+Version:           0.1.0
+Requires at least: 6.6
+Tested up to:      7.1
+Requires PHP:      8.1
+License:           GPL-2.0-or-later
+Text Domain:       kusina-notes
+*/
+
+/* Build plan and design direction: docs/SPEC.md at the repo root. Colour and type tokens
+   are theme.json presets (--wp--preset--*). */
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+:where(a) {
+	text-underline-offset: 0.15em;
+}
+
+:where(a, button, input, select):focus-visible {
+	outline: 2px solid var(--wp--preset--color--annatto);
+	outline-offset: 2px;
+}

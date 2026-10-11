@@ -1,0 +1,57 @@
+name: kusina-notes
+
+services:
+  db:
+    # 12.3 is the current LTS. Pinned to the minor version so a pull never jumps a major.
+    image: mariadb:12.3
+    restart: unless-stopped
+    environment:
+      MARIADB_AUTO_UPGRADE: "1"
+      MARIADB_DATABASE: ${DB_NAME}
+      MARIADB_USER: ${DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  wordpress:
+    image: wordpress:php8.5-apache
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${WP_PORT}:80"
+    environment: &wp_env
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_DEBUG: ${WP_DEBUG}
+      # Re-read theme files on every request so new patterns show up at once. Local only.
+      WORDPRESS_CONFIG_EXTRA: define('WP_DEVELOPMENT_MODE', 'theme');
+    volumes:
+      - wp_core:/var/www/html
+      - ./wp-content/themes/kusina-notes:/var/www/html/wp-content/themes/kusina-notes
+      - ./wp-content/plugins/kusina-core:/var/www/html/wp-content/plugins/kusina-core
+
+  # WP-CLI, run on demand: docker compose run --rm cli wp <command>
+  cli:
+    image: wordpress:cli-php8.5
+    profiles: ["cli"]
+    user: "33:33"
+    environment: *wp_env
+    volumes:
+      - wp_core:/var/www/html
+      - ./wp-content/themes/kusina-notes:/var/www/html/wp-content/themes/kusina-notes
+      - ./wp-content/plugins/kusina-core:/var/www/html/wp-content/plugins/kusina-core
+      - ./scripts:/scripts:ro
+
+volumes:
+  db_data:
+  wp_core:

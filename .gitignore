@@ -1,0 +1,15 @@
+.env
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Local database dumps
+backups/
+
+# Static export
+dist/
+
+# Vercel CLI link state and the token `vercel link` writes
+.vercel/
+.env.local
