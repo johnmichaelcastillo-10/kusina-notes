@@ -13,11 +13,15 @@ Audience: someone cooking on a phone propped against the counter, often with wet
 That drives every interaction decision: big tap targets, no hover-only controls, nothing
 that moves the page while they read.
 
+Personality: a loud, warm Filipino home kitchen (enamelware, palengke signs, gingham
+oilcloth) with the voice of a tita who cooks. It must look nothing like the portfolio or
+Terra & Thread. Full direction in [`DESIGN.md`](DESIGN.md).
+
 ## 2. Pages
 
 | URL | Template | Content |
 |---|---|---|
-| `/` | `front-page.html` | Short intro, "Tonight" pick (latest recipe), quick filters (≤30 min, Vegetarian, Merienda), latest 6 recipes, pantry finder teaser |
+| `/` | `front-page.html` | Gingham hero with headline, "Tonight" pick (latest recipe) as a big plate, "Bahala na" random-recipe button, course chips as quick filters, latest 6 recipes as plates, pantry finder teaser |
 | `/recipes/` | `archive-recipe.html` | All recipes, client-side filters (course, diet, time), URL query state (`?course=ulam&max=30`) |
 | `/recipes/<slug>/` | `single-recipe.html` | Recipe card, cook mode, add to list, print, related recipes (same course) |
 | `/course/<slug>/`, `/diet/<slug>/` | `taxonomy-*.html` | Filtered index, server-rendered |
@@ -50,30 +54,44 @@ Blog posts are off: no `post` archive, no comments anywhere.
 
 ## 4. Interactive features
 
-All in `assets/js/` as small ES modules, progressive enhancement: with JS off the recipe is
-still complete and readable at its default servings.
+Progressive enhancement: with JS off the recipe is still complete and readable at its
+default servings, and the controls stay hidden. Each feature is one self-contained ES
+module with no imports (the static exporter only collects files the HTML references, and
+no dependencies means WordPress prints no inline import map for the CSP to hash). The
+recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModule`).
 
-1. **Scaler and units**: `−`/`+` and a number input on servings. Quantities rendered as
-   `data-qty`/`data-unit` spans; JS rewrites the text. Display rounds to kitchen fractions
-   (⅛ steps for tsp/tbsp/cup, whole grams over 50 g). US ↔ metric for mass and volume only;
-   piece/clove/pinch never convert. Choice remembered in `localStorage` (try/catch).
-2. **Cook mode**: full-screen dialog, one step per screen, swipe / arrow keys / big
-   Next button, ingredient list in a drawer. Screen Wake Lock API where supported (silent
-   fallback). Timers: start/pause/reset per step, several can run; a chime from the Web
-   Audio API (no audio file) and the tab title shows the remaining time.
-3. **Recipe index (JSON)**: the plugin serves `GET /wp-json/kusina/v1/index` (slug, title,
+1. **Scaler and units** (built, tested in Edge): `−`/`+` and a number input on servings,
+   1 to 99. A three-way switch: As written / Metric / US. Rules: 1 cup = 240 ml; US mass
+   goes to oz/lb, volume to cups/tbsp/tsp; piece/clove/pinch never convert. Scaled amounts
+   snap to kitchen fractions and move between spoons and cups (¼ tbsp → ¾ tsp,
+   8 tbsp → ½ cup). At the default servings in "As written", the server's own text is
+   restored, so it always matches `kusina_format_qty()`. Unit choice remembered in
+   `localStorage` (try/catch). Live region announces "Ingredients updated for 6 servings".
+2. **Cook mode** (built, **not yet browser-tested**): full-screen `<dialog>` cloned from a
+   server-rendered `<template>` (labels go through `__()`), one step per screen, swipe /
+   arrow keys / big Next button, ingredients drawer (always visible from 64rem). Screen
+   Wake Lock where supported, requested again when the tab returns. Timers: start/pause/
+   reset per step, several at once (chips jump to other running timers), timestamps so
+   throttled tabs don't drift, a Web Audio chime plus vibration, remaining time in the tab
+   title.
+3. **Ingredient tick boxes**: tap an ingredient to tick it off while cooking, in the card
+   and the cook mode drawer (same state). Per recipe in `sessionStorage`, cleared on
+   leaving.
+4. **Bahala na**: a button on the home page and recipe index that opens a random recipe
+   from the JSON index (never the one you're on).
+5. **Recipe index (JSON)**: the plugin serves `GET /wp-json/kusina/v1/index` (slug, title,
    URL, thumbnail, course, diet, key ingredients, total minutes). The static export writes
    the same payload to `/recipes.json`; the JS fetches `recipes.json` on the static site and
    the REST route locally (same switch pattern as Terra & Thread's `staticApi()`).
-4. **Filters** on `/recipes/`: checkbox groups over the index, results update without
+6. **Filters** on `/recipes/`: course-coloured chips over the index, results update without
    reload, state mirrored in the query string, "n recipes" announced via `aria-live`.
-5. **Pantry finder**: chips for key ingredients (grouped: proteins, vegetables, pantry);
+7. **Pantry finder**: chips for key ingredients (grouped: proteins, vegetables, pantry);
    rank = matched ÷ needed, ties by total time; shows "missing: x, y".
-6. **Shopping list**: "Add to list" stores `{slug, servings}`; `/list/` rebuilds lines from
+8. **Shopping list**: "Add to list" stores `{slug, servings}`; `/list/` rebuilds lines from
    the index plus each recipe's ingredient data (add `ingredients` to the index), merges
    same name + unit, groups by aisle (a fixed map in the plugin), checkboxes, print button.
-7. **Print**: `@media print` hides header, footer, buttons, photo optional; fits one A4
-   page for typical recipes.
+9. **Print**: `@media print` hides header, footer, buttons, photo optional; fits one A4
+   page for typical recipes. Black on white: no course colours, gingham or tilted tags.
 
 ## 5. SEO and sharing
 
@@ -89,21 +107,10 @@ still complete and readable at its default servings.
 
 ## 6. Design direction
 
-Editorial cookbook, warm and quiet. Paper background, ink text, one strong accent.
-
-- Palette (theme.json slugs): `paper` #F7F2E8, `paper-2` #EFE7D7, `ink` #221C15,
-  `ink-2` #5A5046, `annatto` #B4441C (accent, links, buttons), `calamansi` #5E7A2C
-  (vegetarian/diet badges, timer running). Dark mode: `paper` #18140F, `ink` #EDE5D6,
-  `annatto` #E07A4F. Check all text pairs for WCAG AA in both modes.
-- Type: **Newsreader** (display, headings, optical sizes) and **Public Sans** (body, UI),
-  both OFL, self-hosted woff2, subset to Latin + Filipino characters (ñ, ng is plain).
-- Layout: single column on phones; on desktop the recipe card is two columns
-  (ingredients sticky left, steps right). Step numbers set large in Newsreader.
-- Photos: overhead or 45° food shots, warm light, cropped 3:2. **CC0 or public domain only**,
-  no credits on the page (sources listed in `CREDITS.md` in the repo).
-- Avoid the generic AI look: no gradient blobs, no glassmorphism, no emoji icons, no
-  three-identical-cards rows, no "Elevate your cooking" copy. Icons: Lucide (ISC), inline SVG.
-- Motion: none needed beyond focus/hover states; respect `prefers-reduced-motion`.
+Moved to [`DESIGN.md`](DESIGN.md): enamelware and palengke, a colour per course,
+Bricolage Grotesque + Atkinson Hyperlegible Next + Caveat, and the tita voice. The layout
+rule stays: one column on phones; on desktop the recipe card is two columns (ingredients
+sticky left, method right).
 
 ## 7. Static hosting
 
@@ -116,6 +123,9 @@ Same model as the other two projects: crawl local WordPress, export to `dist/`, 
 - CSP: `default-src 'self'`, scripts by hash, `img-src 'self' data:`, `font-src 'self'`,
   `connect-src 'self'`, `form-action 'self'` (no forms yet), `frame-ancestors 'none'`.
 - Nothing may need PHP at request time. Search uses the JSON index, not `?s=`.
+- WordPress currently prints an inline emoji-loader `<script type="module">` plus a
+  `wp-emoji-settings` JSON block on every page. Remove them in the theme (Terra & Thread did
+  the same) rather than hashing them.
 
 ## 8. Launch content
 
@@ -129,13 +139,24 @@ Seeded by a WP-CLI `eval-file` script (`scripts/seed-content.php`), idempotent b
 
 ## 9. Build order
 
-1. Scaffold (done): Docker, theme that activates, content model.
-2. Recipe card block: editor UI, server render, JSON-LD.
-3. Theme: tokens, fonts, header/footer, all templates.
-4. JS: scaler/units, cook mode, then index route + filters, pantry, list.
-5. Seed content and photos.
-6. Exporter, CSP, Vercel project, `Deploy.cmd`.
-7. Add the project to the portfolio (screenshots 1920×1200 WebP).
+1. **Done**: scaffold (Docker, theme that activates, content model).
+2. **Done**: recipe card block (editor UI, server render, JSON-LD), recipe details panel,
+   chicken adobo seed.
+3. **Mostly done**: scaler and unit switch (tested); cook mode built, needs a browser test
+   pass (step navigation, swipe, timers incl. one finishing, wake lock, focus return on close,
+   390 px).
+4. **Next: theme in the new direction** (`DESIGN.md`): theme.json tokens (enamel, ink,
+   cobalt, course colours, dark mode), self-hosted fonts, header and footer (Custom HTML
+   patterns, no Navigation block), gingham pattern, market tags, `single-recipe.html` with
+   the course-colour band. Then **restyle the recipe card** (its `style.css` still uses the
+   old paper/annatto look) and cook mode to match. Course colour reaches the card via a
+   `course-<slug>` class on the page.
+5. Home, recipes index, taxonomy, pantry, list, about and 404 templates, written in the
+   voice.
+6. JS: tick boxes, then the index route, filters, Bahala na, pantry, list.
+7. Seed the other 11 recipes and CC0 photos (overhead shots, for the plate crops).
+8. Exporter, CSP, emoji loader removal, Vercel project, `Deploy.cmd`.
+9. Add the project to the portfolio (screenshots 1920×1200 WebP).
 
 ## 10. Done means
 
