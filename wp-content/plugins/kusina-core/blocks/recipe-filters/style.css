@@ -79,7 +79,6 @@
 	flex-wrap: wrap;
 	align-items: baseline;
 	gap: 0.25rem 1rem;
-	min-height: 2.5rem;
 }
 
 .filter-summary {

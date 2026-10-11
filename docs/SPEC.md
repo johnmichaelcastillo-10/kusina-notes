@@ -78,8 +78,10 @@ recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModul
    tick it off, in the card and the cook mode drawer (same state, synced both ways). Per
    recipe in `sessionStorage`: a reload or Back keeps the ticks, arriving any other way
    starts fresh. Ticked lines are struck through; print hides the boxes.
-4. **Bahala na**: a button on the home page and recipe index that opens a random recipe
-   from the JSON index (never the one you're on).
+4. **Bahala na** (built, tested in Edge; block `kusina/bahala-na`): a button ("Bahala na ·
+   pick for me") in the home hero and the recipe index head that opens a random recipe from
+   the JSON index (never the one you're on). The index is fetched on hover/focus, not on
+   page load; if it fails the button goes to `/recipes/`. Hidden without JS.
 5. **Recipe index (JSON)**: the plugin serves `GET /wp-json/kusina/v1/index` (slug, title,
    URL, thumbnail, course, diet, key ingredients, total minutes). The static export writes
    the same payload to `/recipes.json`; the JS fetches `recipes.json` on the static site and
@@ -173,7 +175,7 @@ the JSON, validate, re-seed.
 5. **Done**: pantry finder (`/pantry/`, block `kusina/pantry-finder`, index at
    `/wp-json/kusina/v1/index`) and shopping list (`/list/`, block `kusina/shopping-list`,
    "Add to shopping list" on every recipe, header count). Theme redesigned calmer (DESIGN.md).
-6. Ingredient tick boxes and recipe index filters **done**. JS still open: Bahala na.
+6. **Done**: ingredient tick boxes, recipe index filters, Bahala na.
 7. **Done**: 50 recipes seeded, each with an AI-generated photo (section 8).
 8. **Done**: exporter, CSP, Vercel project, `Deploy.cmd`. Live at https://kusina-notes.vercel.app
    (2026-10-11). Open: Open Graph / Twitter meta tags (WordPress prints none; section 5).

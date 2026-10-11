@@ -2,7 +2,7 @@
 Theme Name:        Kusina Notes
 Author:            John Michael Castillo
 Description:       An editorial recipe journal block theme: rice-paper white, banana-leaf green, Instrument Serif. Pairs with the Kusina Core plugin for recipes.
-Version:           0.4.2
+Version:           0.4.3
 Requires at least: 6.6
 Tested up to:      7.1
 Requires PHP:      8.1
@@ -161,6 +161,29 @@ h1 em, h2 em, h3 em {
 
 .btn:hover {
 	border-color: var(--wp--preset--color--ink);
+}
+
+button.btn {
+	font-family: var(--wp--preset--font-family--body);
+	cursor: pointer;
+}
+
+/* Bahala na (plugin block kusina/bahala-na): hidden until its script runs. */
+.bahala-na[hidden] {
+	display: none;
+}
+
+.bahala-na {
+	justify-self: start;
+}
+
+.bahala-na[aria-busy="true"] {
+	cursor: progress;
+}
+
+.bahala-na-gloss {
+	font-weight: 400;
+	color: var(--wp--preset--color--ink-2);
 }
 
 .btn-primary {
@@ -473,6 +496,11 @@ h1 em, h2 em, h3 em {
 	flex-wrap: wrap;
 	gap: 0.75rem;
 	margin-top: 0.75rem !important;
+}
+
+/* A flow-layout group: drop its block-gap margins, the flex gap spaces the buttons. */
+.hero .hero-actions > * {
+	margin-block: 0;
 }
 
 .tonight .wp-block-post-template {

@@ -70,6 +70,10 @@
 		edit: placeholder( __( 'Recipe filters: course, diet and time toggles over the recipe list appear here on the site.', 'kusina-core' ) ),
 		save: () => null,
 	} );
+	registerBlockType( 'kusina/bahala-na', {
+		edit: placeholder( __( 'Bahala na: a button that opens a random recipe (shown only with JavaScript).', 'kusina-core' ) ),
+		save: () => null,
+	} );
 	registerBlockType( 'kusina/shopping-list', {
 		edit: placeholder( __( "Shopping list: the visitor's saved recipes and merged ingredients appear here on the site.", 'kusina-core' ) ),
 		save: () => null,

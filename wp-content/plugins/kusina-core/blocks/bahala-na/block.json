@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kusina/bahala-na",
+	"version": "0.1.0",
+	"title": "Bahala na",
+	"category": "widgets",
+	"icon": "randomize",
+	"description": "A button that opens a random recipe. Hidden without JavaScript.",
+	"textdomain": "kusina-core",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "kusina-simple-blocks-editor",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}
