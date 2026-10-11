@@ -1,18 +1,19 @@
-/* Pantry finder. Reads the Kusina Notes theme tokens; plate cards reuse the theme's
-   .plates / .plate-card styles. */
+/* Pantry finder. Reads the Kusina Notes theme presets; result tiles reuse the theme's
+   .tiles / .tile styles. */
 
 .pantry {
-	--kn-ink: var(--wp--preset--color--ink, #16213E);
-	--kn-ink-2: var(--wp--preset--color--ink-2, #4A5372);
-	--kn-enamel: var(--wp--preset--color--enamel, #FBFAF6);
-	--kn-enamel-2: var(--wp--preset--color--enamel-2, #F0EEE6);
-	--kn-cobalt: var(--wp--preset--color--cobalt, #1F3FA8);
-	--kn-on-cobalt: var(--wp--preset--color--on-cobalt, #FFFFFF);
-	--kn-line: color-mix(in srgb, var(--kn-ink) 12%, transparent);
-	--kn-line-strong: color-mix(in srgb, var(--kn-ink) 24%, transparent);
+	--kn-ink: var(--wp--preset--color--ink, #17221C);
+	--kn-ink-2: var(--wp--preset--color--ink-2, #55615A);
+	--kn-paper: var(--wp--preset--color--paper, #F7F7F2);
+	--kn-paper-2: var(--wp--preset--color--paper-2, #ECEFE5);
+	--kn-leaf: var(--wp--preset--color--leaf, #2D5A41);
+	--kn-on-leaf: var(--wp--preset--color--on-leaf, #FFFFFF);
+	--kn-leaf-soft: var(--wp--preset--color--leaf-soft, #DCE6D2);
+	--kn-line: color-mix(in srgb, var(--kn-ink) 11%, transparent);
+	--kn-line-strong: color-mix(in srgb, var(--kn-ink) 22%, transparent);
 	display: grid;
 	gap: 3rem;
-	margin-block: 1rem 2rem;
+	margin-block: 1.5rem 2rem;
 }
 
 .pantry [hidden] {
@@ -21,8 +22,11 @@
 
 .pantry-picker {
 	display: grid;
-	gap: 1.5rem;
+	gap: 1.75rem;
 	align-content: start;
+	padding: clamp(1.5rem, 1.2rem + 1vw, 2.25rem);
+	background: var(--kn-paper-2);
+	border-radius: 26px;
 }
 
 .pantry-group {
@@ -32,50 +36,51 @@
 }
 
 .pantry-group legend {
-	margin-bottom: 0.65rem;
+	margin-bottom: 0.75rem;
 	padding: 0;
-	font-size: 0.8125rem;
-	font-weight: 700;
-	letter-spacing: 0.1em;
+	font-size: 0.6875rem;
+	font-weight: 600;
+	letter-spacing: 0.16em;
 	text-transform: uppercase;
-	color: var(--kn-ink-2);
+	color: var(--kn-leaf);
 }
 
 .pantry-chips {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.45rem;
+	gap: 0.4rem;
 }
 
 .pantry-chip {
-	min-height: 2.5rem;
-	padding: 0.35rem 0.95rem;
+	min-height: 2.4rem;
+	padding: 0.3rem 0.95rem;
 	font: inherit;
 	font-size: 0.9375rem;
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--kn-ink);
-	background: var(--kn-enamel);
-	border: 1px solid var(--kn-line-strong);
+	background: var(--kn-paper);
+	border: 1px solid transparent;
 	border-radius: 999px;
 	cursor: pointer;
-	transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+	transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .pantry-chip:hover:not(:disabled) {
-	border-color: var(--kn-cobalt);
+	border-color: var(--kn-line-strong);
 }
 
-/* Ticked: a soft cobalt wash and a check, not a solid fill (a dozen solid chips is loud). */
+/* Ticked: young-leaf wash and green text, not a solid fill (ten pre-ticked basics in solid
+   green weigh the panel down). */
 .pantry-chip[aria-pressed="true"] {
-	color: var(--kn-cobalt);
-	background: color-mix(in srgb, var(--kn-cobalt) 12%, var(--kn-enamel));
-	border-color: var(--kn-cobalt);
+	font-weight: 600;
+	color: var(--kn-leaf);
+	background: var(--kn-leaf-soft);
+	border-color: color-mix(in srgb, var(--kn-leaf) 35%, transparent);
 }
 
 .pantry-chip[aria-pressed="true"]::before {
 	margin-right: 0.35rem;
 	content: "✓";
-	font-weight: 700;
 }
 
 .pantry-chip:disabled {
@@ -87,9 +92,26 @@
 	display: flex;
 }
 
+.pantry-actions .kn-btn {
+	display: inline-flex;
+	align-items: center;
+	min-height: 2.5rem;
+	padding: 0.4rem 1rem;
+	font: inherit;
+	font-size: 0.875rem;
+	font-weight: 600;
+	color: var(--kn-ink-2);
+	background: transparent;
+	border: 0;
+	border-radius: 999px;
+	cursor: pointer;
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
+}
+
 .pantry-results {
 	display: grid;
-	gap: 1.75rem;
+	gap: 2rem;
 	align-content: start;
 	min-width: 0;
 }
@@ -97,65 +119,76 @@
 .pantry-results-head {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: end;
 	justify-content: space-between;
 	gap: 0.75rem 1.5rem;
-	padding-bottom: 1rem;
+	padding-bottom: 1.25rem;
 	border-bottom: 1px solid var(--kn-line);
 }
 
 .pantry-summary {
 	margin: 0;
-	font-family: var(--wp--preset--font-family--display, sans-serif);
-	font-size: 1.35rem;
-	font-weight: 700;
-	letter-spacing: -0.01em;
+	font-family: var(--wp--preset--font-family--display, Georgia, serif);
+	font-size: 2rem;
+	line-height: 1.1;
 }
 
 .pantry-course {
 	display: inline-flex;
 	align-items: center;
 	gap: 0.6rem;
-	font-size: 0.875rem;
+	font-size: 0.6875rem;
 	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
 	color: var(--kn-ink-2);
 }
 
 .pantry-course select {
 	min-height: 2.5rem;
-	padding: 0 2rem 0 0.85rem;
+	padding: 0 2.25rem 0 1rem;
 	font: inherit;
-	font-weight: 600;
+	font-size: 0.9375rem;
+	font-weight: 500;
+	letter-spacing: 0;
+	text-transform: none;
 	color: var(--kn-ink);
-	background: var(--kn-enamel);
-	border: 1px solid var(--kn-line-strong);
+	background-color: var(--kn-paper-2);
+	border: 0;
 	border-radius: 999px;
 }
 
 .pantry-missing {
-	margin: -0.25rem 0 0;
+	margin: 0;
 	font-size: 0.875rem;
-	line-height: 1.4;
+	line-height: 1.45;
 	color: var(--kn-ink-2);
 }
 
 .pantry-more {
 	justify-self: center;
+	display: inline-flex;
+	align-items: center;
+	min-height: 2.75rem;
+	padding: 0.5rem 1.4rem;
+	font: inherit;
+	font-size: 0.9375rem;
+	font-weight: 600;
+	color: var(--kn-ink);
+	background: transparent;
+	border: 1px solid var(--kn-line-strong);
+	border-radius: 999px;
+	cursor: pointer;
 }
 
 .pantry-noscript {
 	font-size: 1.125rem;
 }
 
-/* Results take 4 columns beside the picker on wide screens (the theme's 6 is for full width). */
 @media (min-width: 64rem) {
 	.pantry {
-		grid-template-columns: minmax(0, 22rem) minmax(0, 1fr);
+		grid-template-columns: minmax(0, 23rem) minmax(0, 1fr);
 		gap: 4rem;
-	}
-
-	.pantry .plates .wp-block-post-template {
-		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 }
 

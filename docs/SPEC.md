@@ -13,8 +13,8 @@ Audience: someone cooking on a phone propped against the counter, often with wet
 That drives every interaction decision: big tap targets, no hover-only controls, nothing
 that moves the page while they read.
 
-Personality: a calm, warm Filipino home kitchen (enamel plates, a hint of colour per course,
-one gingham strip) with the voice of a tita who cooks. It must look nothing like the portfolio or
+Look: a modern Filipino cookbook (rice paper, banana-leaf greens, Instrument Serif, drawn
+banana leaves where photos are missing) with the voice of a tita who cooks. It must look nothing like the portfolio or
 Terra & Thread. Full direction in [`DESIGN.md`](DESIGN.md).
 
 ## 2. Pages

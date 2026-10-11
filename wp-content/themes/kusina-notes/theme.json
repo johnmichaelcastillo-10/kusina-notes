@@ -11,19 +11,14 @@
 			"custom": false,
 			"customGradient": false,
 			"palette": [
-				{ "slug": "enamel", "name": "Enamel", "color": "#FBFAF6" },
-				{ "slug": "enamel-2", "name": "Enamel 2", "color": "#F0EEE6" },
-				{ "slug": "ink", "name": "Ink", "color": "#16213E" },
-				{ "slug": "ink-2", "name": "Ink 2", "color": "#4A5372" },
-				{ "slug": "cobalt", "name": "Cobalt", "color": "#1F3FA8" },
-				{ "slug": "on-cobalt", "name": "On cobalt", "color": "#FFFFFF" },
-				{ "slug": "cardboard", "name": "Cardboard", "color": "#E2C48F" },
-				{ "slug": "ulam", "name": "Ulam (tomato)", "color": "#C93A26" },
-				{ "slug": "sabaw", "name": "Sabaw (kangkong)", "color": "#2B7A4B" },
-				{ "slug": "merienda", "name": "Merienda (mango)", "color": "#F4B62C" },
-				{ "slug": "panghimagas", "name": "Panghimagas (ube)", "color": "#6B48B3" },
-				{ "slug": "almusal", "name": "Almusal (egg yolk)", "color": "#EE8A27" },
-				{ "slug": "inumin", "name": "Inumin (calamansi)", "color": "#9CC43E" }
+				{ "slug": "paper", "name": "Rice paper", "color": "#F7F7F2" },
+				{ "slug": "paper-2", "name": "Rice paper 2", "color": "#ECEFE5" },
+				{ "slug": "ink", "name": "Ink", "color": "#17221C" },
+				{ "slug": "ink-2", "name": "Ink 2", "color": "#55615A" },
+				{ "slug": "leaf", "name": "Banana leaf", "color": "#2D5A41" },
+				{ "slug": "on-leaf", "name": "On leaf", "color": "#FFFFFF" },
+				{ "slug": "leaf-deep", "name": "Deep leaf", "color": "#1E3B2C" },
+				{ "slug": "leaf-soft", "name": "Young leaf", "color": "#DCE6D2" }
 			]
 		},
 		"typography": {
@@ -32,46 +27,51 @@
 			"fontFamilies": [
 				{
 					"slug": "display",
-					"name": "Bricolage Grotesque",
-					"fontFamily": "'Bricolage Grotesque', 'Arial Black', 'Helvetica Neue', sans-serif",
+					"name": "Instrument Serif",
+					"fontFamily": "'Instrument Serif', 'Iowan Old Style', Georgia, serif",
 					"fontFace": [
 						{
-							"fontFamily": "Bricolage Grotesque",
-							"fontWeight": "200 800",
-							"fontStretch": "75% 100%",
+							"fontFamily": "Instrument Serif",
+							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/bricolage-grotesque.woff2" ]
+							"src": [ "file:./assets/fonts/instrument-serif.woff2" ]
 						},
 						{
-							"fontFamily": "Bricolage Grotesque",
-							"fontWeight": "200 800",
-							"fontStretch": "75% 100%",
-							"fontStyle": "normal",
+							"fontFamily": "Instrument Serif",
+							"fontWeight": "400",
+							"fontStyle": "italic",
 							"fontDisplay": "swap",
-							"unicodeRange": "U+2150-215E",
-							"src": [ "file:./assets/fonts/bricolage-grotesque-fractions.woff2" ]
+							"src": [ "file:./assets/fonts/instrument-serif-italic.woff2" ]
 						}
 					]
 				},
 				{
 					"slug": "body",
-					"name": "Atkinson Hyperlegible Next",
-					"fontFamily": "'Atkinson Hyperlegible Next', 'Segoe UI', system-ui, sans-serif",
+					"name": "Figtree",
+					"fontFamily": "Figtree, 'Segoe UI', system-ui, sans-serif",
 					"fontFace": [
 						{
-							"fontFamily": "Atkinson Hyperlegible Next",
-							"fontWeight": "200 800",
+							"fontFamily": "Figtree",
+							"fontWeight": "300 800",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/atkinson-hyperlegible-next.woff2" ]
+							"src": [ "file:./assets/fonts/figtree.woff2" ]
 						},
 						{
-							"fontFamily": "Atkinson Hyperlegible Next",
-							"fontWeight": "200 800",
+							"fontFamily": "Figtree",
+							"fontWeight": "300 800",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"unicodeRange": "U+2150-215E",
+							"src": [ "file:./assets/fonts/figtree-fractions.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "300 800",
 							"fontStyle": "italic",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/atkinson-hyperlegible-next-italic.woff2" ]
+							"src": [ "file:./assets/fonts/figtree-italic.woff2" ]
 						}
 					]
 				},
@@ -91,16 +91,16 @@
 				}
 			],
 			"fontSizes": [
-				{ "slug": "small", "name": "Small", "size": "0.9375rem", "fluid": false },
-				{ "slug": "medium", "name": "Medium", "size": "1.125rem", "fluid": false },
-				{ "slug": "large", "name": "Large", "size": "1.75rem", "fluid": { "min": "1.5rem", "max": "2.125rem" } },
-				{ "slug": "x-large", "name": "Extra large", "size": "3rem", "fluid": { "min": "2.25rem", "max": "3.75rem" } },
-				{ "slug": "huge", "name": "Huge", "size": "5rem", "fluid": { "min": "3rem", "max": "6.25rem" } }
+				{ "slug": "small", "name": "Small", "size": "0.875rem", "fluid": false },
+				{ "slug": "medium", "name": "Medium", "size": "1.0625rem", "fluid": false },
+				{ "slug": "large", "name": "Large", "size": "2rem", "fluid": { "min": "1.75rem", "max": "2.5rem" } },
+				{ "slug": "x-large", "name": "Extra large", "size": "3.5rem", "fluid": { "min": "2.75rem", "max": "4.5rem" } },
+				{ "slug": "huge", "name": "Huge", "size": "5.5rem", "fluid": { "min": "3.5rem", "max": "6.75rem" } }
 			]
 		},
 		"layout": {
-			"contentSize": "44rem",
-			"wideSize": "74rem"
+			"contentSize": "42rem",
+			"wideSize": "76rem"
 		},
 		"spacing": {
 			"units": [ "px", "rem", "%", "vw" ]
@@ -108,32 +108,32 @@
 	},
 	"styles": {
 		"color": {
-			"background": "var(--wp--preset--color--enamel)",
+			"background": "var(--wp--preset--color--paper)",
 			"text": "var(--wp--preset--color--ink)"
 		},
 		"spacing": {
-			"padding": { "left": "1.25rem", "right": "1.25rem" },
+			"padding": { "left": "1.5rem", "right": "1.5rem" },
 			"blockGap": "1.25rem"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--body)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
-			"lineHeight": "1.6"
+			"lineHeight": "1.65"
 		},
 		"elements": {
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--display)",
-					"fontWeight": "800",
-					"lineHeight": "1",
-					"letterSpacing": "-0.025em"
+					"fontWeight": "400",
+					"lineHeight": "1.05",
+					"letterSpacing": "-0.01em"
 				}
 			},
 			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
 			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
-			"h3": { "typography": { "fontSize": "1.25rem" } },
+			"h3": { "typography": { "fontSize": "1.5rem" } },
 			"link": {
-				"color": { "text": "var(--wp--preset--color--cobalt)" },
+				"color": { "text": "var(--wp--preset--color--leaf)" },
 				"typography": { "textDecoration": "underline" }
 			}
 		}

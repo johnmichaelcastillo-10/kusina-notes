@@ -1,8 +1,9 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-masthead"} /-->
 
 <!-- wp:group {"tagName":"main","className":"recipe-page","layout":{"type":"constrained"}} -->
-<main class="wp-block-group recipe-page"><!-- wp:group {"align":"full","className":"recipe-band","layout":{"type":"constrained","contentSize":"74rem"}} -->
-<div class="wp-block-group alignfull recipe-band"><!-- wp:group {"className":"crumbs","layout":{"type":"flex","flexWrap":"wrap"}} -->
+<main class="wp-block-group recipe-page"><!-- wp:group {"align":"wide","className":"recipe-hero","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide recipe-hero"><!-- wp:group {"className":"recipe-hero-text","layout":{"type":"default"}} -->
+<div class="wp-block-group recipe-hero-text"><!-- wp:group {"className":"crumbs","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group crumbs"><!-- wp:html -->
 <a href="/recipes/">Recipes</a><span class="crumb-sep" aria-hidden="true">/</span>
 <!-- /wp:html -->
@@ -10,13 +11,14 @@
 <!-- wp:post-terms {"term":"course"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-title {"level":1,"className":"band-title"} /-->
+<!-- wp:post-title {"level":1,"className":"recipe-title"} /-->
 
-<!-- wp:kusina/recipe-tags {"show":["time","difficulty","diet"]} /--></div>
+<!-- wp:kusina/recipe-tags {"show":["time","difficulty","servings","diet"]} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"recipe-photo","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide recipe-photo"><!-- wp:post-featured-image {"aspectRatio":"3/2","sizeSlug":"large"} /--></div>
+<!-- wp:group {"className":"recipe-hero-media","layout":{"type":"default"}} -->
+<div class="wp-block-group recipe-hero-media"><!-- wp:post-featured-image {"sizeSlug":"large"} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:post-content {"align":"full","className":"recipe-content","layout":{"type":"constrained"}} /--></main>

@@ -1,33 +1,43 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-masthead"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group"><!-- wp:group {"align":"full","className":"page-band course-ulam","layout":{"type":"constrained","contentSize":"74rem"}} -->
-<div class="wp-block-group alignfull page-band course-ulam"><!-- wp:heading {"level":1,"className":"band-title"} -->
-<h1 class="wp-block-heading band-title">Naubos na.</h1>
+<main class="wp-block-group"><!-- wp:group {"align":"wide","className":"page-head","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide page-head"><!-- wp:paragraph {"className":"eyebrow"} -->
+<p class="eyebrow">Page not found</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"className":"page-title"} -->
+<h1 class="wp-block-heading page-title">Naubos <em>na.</em></h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"band-lede"} -->
-<p class="band-lede">Someone ate this page. Here is what's still on the table.</p>
+<!-- wp:paragraph {"className":"page-lede"} -->
+<p class="page-lede">Someone ate this page. Here is what's still on the table.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="band-actions"><a class="btn" href="/recipes/">All recipes</a></div>
+<div class="page-actions"><a class="btn btn-primary" href="/recipes/">All recipes</a></div>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"queryId":7,"query":{"perPage":6,"pages":0,"offset":0,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"align":"wide","className":"plates section"} -->
-<div class="wp-block-query alignwide plates section"><!-- wp:post-template -->
-<!-- wp:group {"className":"plate-card","layout":{"type":"default"}} -->
-<div class="wp-block-group plate-card"><!-- wp:group {"className":"plate","layout":{"type":"default"}} -->
-<div class="wp-block-group plate"><!-- wp:post-featured-image {"aspectRatio":"1","sizeSlug":"medium_large"} /--></div>
+<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide section"><!-- wp:query {"queryId":7,"query":{"perPage":4,"pages":0,"offset":0,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"className":"tiles tiles-4"} -->
+<div class="wp-block-query tiles tiles-4"><!-- wp:post-template -->
+<!-- wp:group {"className":"tile","layout":{"type":"default"}} -->
+<div class="wp-block-group tile"><!-- wp:group {"className":"tile-media","layout":{"type":"default"}} -->
+<div class="wp-block-group tile-media"><!-- wp:post-featured-image {"sizeSlug":"large"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-title {"level":2,"isLink":true,"className":"plate-title"} /-->
+<!-- wp:group {"className":"tile-body","layout":{"type":"default"}} -->
+<div class="wp-block-group tile-body"><!-- wp:post-terms {"term":"course","className":"tile-course"} /-->
+
+<!-- wp:post-title {"level":2,"isLink":true,"className":"tile-title"} /-->
 
 <!-- wp:kusina/recipe-tags {"show":["time","diet"]} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template --></div>
-<!-- /wp:query --></main>
+<!-- /wp:query --></div>
+<!-- /wp:group --></main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

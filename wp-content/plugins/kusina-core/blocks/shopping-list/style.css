@@ -1,12 +1,12 @@
 /* Shopping list. Reads the Kusina Notes theme tokens. */
 
 .shopping-list {
-	--kn-ink: var(--wp--preset--color--ink, #16213E);
-	--kn-ink-2: var(--wp--preset--color--ink-2, #4A5372);
-	--kn-enamel: var(--wp--preset--color--enamel, #FBFAF6);
-	--kn-enamel-2: var(--wp--preset--color--enamel-2, #F0EEE6);
-	--kn-cobalt: var(--wp--preset--color--cobalt, #1F3FA8);
-	--kn-on-cobalt: var(--wp--preset--color--on-cobalt, #FFFFFF);
+	--kn-ink: var(--wp--preset--color--ink, #17221C);
+	--kn-ink-2: var(--wp--preset--color--ink-2, #55615A);
+	--kn-paper: var(--wp--preset--color--paper, #F7F7F2);
+	--kn-paper-2: var(--wp--preset--color--paper-2, #ECEFE5);
+	--kn-leaf: var(--wp--preset--color--leaf, #2D5A41);
+	--kn-on-leaf: var(--wp--preset--color--on-leaf, #FFFFFF);
 	--kn-line: color-mix(in srgb, var(--kn-ink) 12%, transparent);
 	--kn-line-strong: color-mix(in srgb, var(--kn-ink) 24%, transparent);
 	margin-block: 1rem 2rem;
@@ -29,18 +29,18 @@
 	font-size: 0.9375rem;
 	font-weight: 700;
 	line-height: 1.2;
-	color: var(--kn-cobalt);
+	color: var(--kn-ink);
 	background: transparent;
-	border: 1.5px solid currentColor;
+	border: 1px solid var(--kn-line-strong);
 	border-radius: 999px;
 	cursor: pointer;
 }
 
 .shopping-list .kn-btn:hover,
 .shopping-list .kn-icon-btn:hover {
-	color: var(--kn-on-cobalt);
-	background: var(--kn-cobalt);
-	border-color: var(--kn-cobalt);
+	color: var(--kn-on-leaf);
+	background: var(--kn-leaf);
+	border-color: var(--kn-leaf);
 }
 
 .shopping-list .kn-btn-quiet {
@@ -66,12 +66,13 @@
 	max-width: 36rem;
 }
 
+/* Instrument Serif has one weight: never bold it (faux bold smears). */
 .list-empty-title {
-	margin: 0 0 0.5rem;
-	font-family: var(--wp--preset--font-family--display, sans-serif);
-	font-size: 1.75rem;
-	font-weight: 700;
-	letter-spacing: -0.02em;
+	margin: 0 0 0.75rem;
+	font-family: var(--wp--preset--font-family--display, Georgia, serif);
+	font-size: 2.5rem;
+	font-weight: 400;
+	line-height: 1.05;
 }
 
 .list-empty p {
@@ -115,7 +116,7 @@
 	width: 0.55rem;
 	height: 0.55rem;
 	content: "";
-	background: var(--course, var(--kn-cobalt));
+	background: var(--course, var(--kn-leaf));
 	border-radius: 50%;
 }
 
@@ -183,7 +184,7 @@
 	width: 1.2rem;
 	height: 1.2rem;
 	margin: 0.2rem 0 0;
-	accent-color: var(--kn-cobalt);
+	accent-color: var(--kn-leaf);
 	cursor: pointer;
 }
 
@@ -192,9 +193,8 @@
 	line-height: 1.45;
 }
 
-/* Amounts in Bricolage: Atkinson has no ⅓ ⅔ ⅛ glyphs. */
+/* Body font (Figtree has ⅓ ⅔ ⅛; the display serif doesn't). */
 .list-qty {
-	font-family: var(--wp--preset--font-family--display, sans-serif);
 	font-weight: 600;
 	font-variant-numeric: tabular-nums;
 }

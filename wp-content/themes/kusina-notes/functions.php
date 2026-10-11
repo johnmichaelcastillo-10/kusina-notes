@@ -19,15 +19,18 @@ add_action(
 	}
 );
 
-// Headlines are Bricolage Grotesque: fetch it before the CSS asks, it is the LCP text.
+// Headlines are Instrument Serif and body text Figtree: fetch both before the CSS asks, the
+// headline is the LCP text.
 add_action(
 	'wp_head',
 	static function (): void {
-		printf(
-			'<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>' . "\n",
-			esc_url( get_theme_file_uri( 'assets/fonts/bricolage-grotesque.woff2' ) )
-		);
-		// An enamel plate with the chip; no Site Icon in the database, so it travels with the theme.
+		foreach ( array( 'instrument-serif.woff2', 'figtree.woff2' ) as $font ) {
+			printf(
+				'<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>' . "\n",
+				esc_url( get_theme_file_uri( 'assets/fonts/' . $font ) )
+			);
+		}
+		// A banana leaf; no Site Icon in the database, so it travels with the theme.
 		printf(
 			'<link rel="icon" href="%s" type="image/svg+xml">' . "\n",
 			esc_url( get_theme_file_uri( 'assets/favicon.svg' ) )

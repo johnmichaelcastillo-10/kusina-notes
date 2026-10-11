@@ -9,7 +9,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"hero-title"} -->
-<h1 class="wp-block-heading hero-title">Ano'ng <span class="hl">ulam?</span></h1>
+<h1 class="wp-block-heading hero-title">Ano'ng ulam <em>tonight?</em></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hero-lede"} -->
@@ -24,17 +24,19 @@
 <!-- wp:query {"queryId":1,"query":{"perPage":1,"pages":0,"offset":0,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"className":"tonight"} -->
 <div class="wp-block-query tonight"><!-- wp:post-template -->
 <!-- wp:group {"className":"tonight-card","layout":{"type":"default"}} -->
-<div class="wp-block-group tonight-card"><!-- wp:group {"className":"plate plate-large","layout":{"type":"default"}} -->
-<div class="wp-block-group plate plate-large"><!-- wp:post-featured-image {"aspectRatio":"1","sizeSlug":"large"} /--></div>
+<div class="wp-block-group tonight-card"><!-- wp:group {"className":"tonight-media","layout":{"type":"default"}} -->
+<div class="wp-block-group tonight-media"><!-- wp:post-featured-image {"sizeSlug":"large"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"className":"eyebrow tonight-label"} -->
-<p class="eyebrow tonight-label">Tonight</p>
+<!-- wp:group {"className":"tonight-caption","layout":{"type":"default"}} -->
+<div class="wp-block-group tonight-caption"><!-- wp:paragraph {"className":"eyebrow"} -->
+<p class="eyebrow">Tonight</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-title {"level":2,"isLink":true,"className":"tonight-title"} /-->
 
 <!-- wp:kusina/recipe-tags {"show":["time","difficulty"]} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template --></div>
 <!-- /wp:query --></div>
@@ -42,28 +44,24 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide section"><!-- wp:heading {"className":"section-title"} -->
-<h2 class="wp-block-heading section-title">Pick a course</h2>
-<!-- /wp:heading -->
-
-<!-- wp:kusina/course-chips /--></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide section"><!-- wp:html -->
-<div class="section-head"><h2 class="wp-block-heading section-title">Fresh from the kusina</h2><a class="section-link" href="/recipes/">All recipes</a></div>
+<div class="section-head"><h2 class="wp-block-heading section-title">Fresh from the <em>kusina</em></h2><a class="section-link" href="/recipes/">All recipes</a></div>
 <!-- /wp:html -->
 
-<!-- wp:query {"queryId":2,"query":{"perPage":6,"pages":0,"offset":1,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"className":"plates"} -->
-<div class="wp-block-query plates"><!-- wp:post-template -->
-<!-- wp:group {"className":"plate-card","layout":{"type":"default"}} -->
-<div class="wp-block-group plate-card"><!-- wp:group {"className":"plate","layout":{"type":"default"}} -->
-<div class="wp-block-group plate"><!-- wp:post-featured-image {"aspectRatio":"1","sizeSlug":"medium_large"} /--></div>
+<!-- wp:query {"queryId":2,"query":{"perPage":6,"pages":0,"offset":1,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"className":"tiles"} -->
+<div class="wp-block-query tiles"><!-- wp:post-template -->
+<!-- wp:group {"className":"tile","layout":{"type":"default"}} -->
+<div class="wp-block-group tile"><!-- wp:group {"className":"tile-media","layout":{"type":"default"}} -->
+<div class="wp-block-group tile-media"><!-- wp:post-featured-image {"sizeSlug":"large"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-title {"level":3,"isLink":true,"className":"plate-title"} /-->
+<!-- wp:group {"className":"tile-body","layout":{"type":"default"}} -->
+<div class="wp-block-group tile-body"><!-- wp:post-terms {"term":"course","className":"tile-course"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"className":"tile-title"} /-->
 
 <!-- wp:kusina/recipe-tags {"show":["time","diet"]} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 
@@ -77,9 +75,17 @@
 
 <!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide section"><!-- wp:html -->
+<div class="section-head"><h2 class="wp-block-heading section-title">Cook by <em>course</em></h2></div>
+<!-- /wp:html -->
+
+<!-- wp:kusina/course-chips /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide section"><!-- wp:html -->
 <div class="teaser">
 	<div>
-		<h2 class="wp-block-heading teaser-title">What's in the fridge?</h2>
+		<h2 class="wp-block-heading teaser-title">What's in the <em>fridge?</em></h2>
 		<p class="teaser-text">Tick what you have and get recipes that need the fewest extra trips to the palengke.</p>
 	</div>
 	<a class="btn btn-primary" href="/pantry/">Open the pantry finder</a>

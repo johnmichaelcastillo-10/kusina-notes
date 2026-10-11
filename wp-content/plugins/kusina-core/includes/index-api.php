@@ -59,7 +59,7 @@ function kusina_recipe_index(): array {
 	foreach ( $query->posts as $post ) {
 		$meta  = kusina_recipe_meta( $post->ID );
 		$diets = get_the_terms( $post->ID, 'diet' );
-		$thumb = get_the_post_thumbnail_url( $post, 'medium' );
+		$thumb = get_the_post_thumbnail_url( $post, 'medium_large' );
 
 		$index[] = array(
 			's' => $post->post_name,

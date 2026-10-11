@@ -53,10 +53,11 @@ function el( tag, props = {}, children = [] ) {
 	return node;
 }
 
+// Same markup as the theme's recipe tiles (templates/*.html), so the theme styles it.
 function card( recipe, missing, msg ) {
-	const plate = el( 'div', { className: 'plate' } );
+	const media = el( 'div', { className: 'tile-media' } );
 	if ( recipe.i ) {
-		plate.append(
+		media.append(
 			el( 'figure', { className: 'wp-block-post-featured-image' }, [
 				el( 'img', { src: recipe.i, alt: '', loading: 'lazy', decoding: 'async' } ),
 			] )
@@ -69,15 +70,15 @@ function card( recipe, missing, msg ) {
 	if ( ! missing.length ) {
 		tags.append( el( 'li', { className: 'tag tag-diet', text: msg.all } ) );
 	}
-	const children = [
-		plate,
-		el( 'h3', { className: 'plate-title' }, [ el( 'a', { href: recipe.u, text: recipe.t } ) ] ),
-		tags,
-	];
-	if ( missing.length ) {
-		children.push( el( 'p', { className: 'pantry-missing', text: msg.missing.replace( '%s', missing.join( ', ' ) ) } ) );
+	const body = [];
+	if ( recipe.c && msg.courses[ recipe.c ] ) {
+		body.push( el( 'p', { className: 'tile-course', text: msg.courses[ recipe.c ] } ) );
 	}
-	return el( 'li', { className: `plate-card${ recipe.c ? ` course-${ recipe.c }` : '' }` }, children );
+	body.push( el( 'h3', { className: 'tile-title' }, [ el( 'a', { href: recipe.u, text: recipe.t } ) ] ), tags );
+	if ( missing.length ) {
+		body.push( el( 'p', { className: 'pantry-missing', text: msg.missing.replace( '%s', missing.join( ', ' ) ) } ) );
+	}
+	return el( 'li', {}, [ el( 'div', { className: 'tile' }, [ media, el( 'div', { className: 'tile-body' }, body ) ] ) ] );
 }
 
 async function init( root ) {

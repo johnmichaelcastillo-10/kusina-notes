@@ -5,16 +5,16 @@
  * Categories: footer
  * Inserter: no
  *
- * The only gingham on the site is the thin oilcloth strip style.css draws along its top.
+ * Deep banana-leaf green; style.css adds a large drawn leaf in the corner.
  */
 
 defined( 'ABSPATH' ) || exit;
 ?>
-<!-- wp:group {"className":"site-footer","layout":{"type":"constrained","contentSize":"74rem"}} -->
+<!-- wp:group {"className":"site-footer","layout":{"type":"constrained","contentSize":"76rem"}} -->
 <div class="wp-block-group site-footer"><!-- wp:group {"className":"footer-card","layout":{"type":"default"}} -->
 <div class="wp-block-group footer-card"><!-- wp:html -->
 <div class="footer-top">
-	<a class="wordmark" href="/" aria-label="<?php esc_attr_e( 'Kusina Notes, home', 'kusina-notes' ); ?>"><span class="wordmark-kusina">Kusina</span><span class="wordmark-notes" aria-hidden="true">notes</span></a>
+	<a class="wordmark" href="/"><span class="wordmark-kusina">Kusina</span> <span class="wordmark-notes">notes</span></a>
 	<p class="footer-line"><?php esc_html_e( 'Recipes for everyday Filipino cooking. Kain na.', 'kusina-notes' ); ?></p>
 </div>
 <!-- /wp:html -->

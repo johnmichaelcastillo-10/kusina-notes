@@ -197,10 +197,15 @@ foreach ( glob( __DIR__ . '/recipes/*.json' ) as $kusina_file ) {
 	}
 }
 
-// Publish dates: one hour apart, ordered by a hash of the slug so "latest" lists mix courses
-// instead of showing one writer's batch. Stable across re-runs. Chicken adobo stays newest.
-$kusina_order = array_keys( $kusina_recipes );
-usort( $kusina_order, static fn( string $a, string $b ): int => crc32( $a ) <=> crc32( $b ) );
+// Publish dates: one hour apart. Recipes with a photo are newest, so the home page and the
+// first index pages lead with photos; within each group a hash of the slug mixes the
+// courses. Stable across re-runs. Chicken adobo stays newest (the home page's "Tonight").
+$kusina_has_photo = static fn( string $slug ): bool => is_file( __DIR__ . "/images/{$slug}.webp" );
+$kusina_order     = array_keys( $kusina_recipes );
+usort(
+	$kusina_order,
+	static fn( string $a, string $b ): int => array( $kusina_has_photo( $a ), crc32( $a ) ) <=> array( $kusina_has_photo( $b ), crc32( $b ) )
+);
 $kusina_order = array_values( array_diff( $kusina_order, array( 'chicken-adobo' ) ) );
 if ( isset( $kusina_recipes['chicken-adobo'] ) ) {
 	$kusina_order[] = 'chicken-adobo';

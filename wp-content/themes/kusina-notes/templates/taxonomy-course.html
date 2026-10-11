@@ -1,27 +1,38 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-masthead"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group"><!-- wp:group {"align":"full","className":"page-band","layout":{"type":"constrained","contentSize":"74rem"}} -->
-<div class="wp-block-group alignfull page-band"><!-- wp:query-title {"type":"archive","showPrefix":false,"className":"band-title"} /-->
+<main class="wp-block-group"><!-- wp:group {"align":"wide","className":"page-head","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide page-head"><!-- wp:paragraph {"className":"eyebrow"} -->
+<p class="eyebrow">Course</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:term-description {"className":"band-lede"} /--></div>
+<!-- wp:query-title {"type":"archive","showPrefix":false,"className":"page-title"} /-->
+
+<!-- wp:term-description {"className":"page-lede"} /-->
+
+<!-- wp:kusina/course-chips /--></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"queryId":4,"query":{"perPage":12,"pages":0,"offset":0,"postType":"recipe","order":"desc","orderBy":"date","inherit":true},"align":"wide","className":"plates section"} -->
-<div class="wp-block-query alignwide plates section"><!-- wp:post-template -->
-<!-- wp:group {"className":"plate-card","layout":{"type":"default"}} -->
-<div class="wp-block-group plate-card"><!-- wp:group {"className":"plate","layout":{"type":"default"}} -->
-<div class="wp-block-group plate"><!-- wp:post-featured-image {"aspectRatio":"1","sizeSlug":"medium_large"} /--></div>
+<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide section"><!-- wp:query {"queryId":4,"query":{"perPage":12,"pages":0,"offset":0,"postType":"recipe","order":"desc","orderBy":"date","inherit":true},"className":"tiles tiles-4"} -->
+<div class="wp-block-query tiles tiles-4"><!-- wp:post-template -->
+<!-- wp:group {"className":"tile","layout":{"type":"default"}} -->
+<div class="wp-block-group tile"><!-- wp:group {"className":"tile-media","layout":{"type":"default"}} -->
+<div class="wp-block-group tile-media"><!-- wp:post-featured-image {"sizeSlug":"large"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-title {"level":2,"isLink":true,"className":"plate-title"} /-->
+<!-- wp:group {"className":"tile-body","layout":{"type":"default"}} -->
+<div class="wp-block-group tile-body"><!-- wp:post-title {"level":2,"isLink":true,"className":"tile-title"} /-->
 
 <!-- wp:kusina/recipe-tags {"show":["time","diet"]} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 
 <!-- wp:query-pagination {"className":"pagination","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
 
 <!-- wp:query-pagination-next /-->
 <!-- /wp:query-pagination -->
@@ -31,14 +42,7 @@
 <p class="empty-note">Nothing in this pot yet. Try another course.</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
-<!-- /wp:query -->
-
-<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide section"><!-- wp:heading {"className":"section-title"} -->
-<h2 class="wp-block-heading section-title">Other courses</h2>
-<!-- /wp:heading -->
-
-<!-- wp:kusina/course-chips /--></div>
+<!-- /wp:query --></div>
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 

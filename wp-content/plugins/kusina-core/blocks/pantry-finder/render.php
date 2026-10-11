@@ -30,6 +30,7 @@ $kusina_messages = array(
 	'missing'   => __( 'Missing: %s', 'kusina-core' ),
 	'more'      => __( 'Show more', 'kusina-core' ),
 	'loadError' => __( 'The recipe list did not load. Refresh to try again.', 'kusina-core' ),
+	'courses'   => array_map( static fn( array $c ): string => $c[0], kusina_courses() ),
 );
 ?>
 <div <?php echo get_block_wrapper_attributes( array( 'class' => 'pantry' ) ); ?>
@@ -70,7 +71,7 @@ $kusina_messages = array(
 				</select>
 			</label>
 		</div>
-		<div class="plates pantry-plates"><ul class="wp-block-post-template" data-pantry-list></ul></div>
+		<div class="tiles pantry-tiles"><ul class="wp-block-post-template" data-pantry-list></ul></div>
 		<button type="button" class="kn-btn pantry-more" data-pantry-more hidden></button>
 	</div>
 

@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 <!-- wp:html -->
 <div class="site-header">
-	<a class="wordmark" href="/" aria-label="<?php esc_attr_e( 'Kusina Notes, home', 'kusina-notes' ); ?>"><span class="wordmark-kusina">Kusina</span><span class="wordmark-notes" aria-hidden="true">notes</span></a>
+	<a class="wordmark" href="/"><span class="wordmark-kusina">Kusina</span> <span class="wordmark-notes">notes</span></a>
 	<nav class="site-nav" aria-label="<?php esc_attr_e( 'Main', 'kusina-notes' ); ?>">
 		<ul>
 			<li><a href="/recipes/"><?php esc_html_e( 'Recipes', 'kusina-notes' ); ?></a></li>

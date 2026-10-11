@@ -1,91 +1,72 @@
-# Kusina Notes: design direction ("quiet enamel")
+# Kusina Notes: design direction ("banana leaf editorial")
 
 Source of truth for how the site looks and sounds. Read before touching the theme or any
 plugin styles.
 
-History: the first direction (paper, serif, rust accent) was too close to Terra & Thread.
-The second ("enamelware and palengke": solid course-colour bands, thick 3px rims, tilted
-cardboard tags, gingham behind the hero) had personality but the owner found it too
-chaotic (2026-10-11). This version keeps the same ingredients and turns them down.
+History (all 2026-10-11): paper/serif/rust was too close to Terra & Thread; "enamelware and
+palengke" (solid course colours, thick rims, tilted tags) was too chaotic; "quiet enamel"
+was calmer but not aesthetic enough. The owner picked this direction from three options.
 
-## How it differs from the sibling projects
+## Idea
+
+A modern Filipino cookbook. Rice-paper white pages, banana-leaf greens, an elegant serif
+for everything you read as a title, a clean sans for everything you cook from. Photos are
+large and rounded; where a dish has no photo yet, a drawn banana leaf takes its place, so
+the page never looks unfinished. Restraint everywhere else.
 
 | | Portfolio | Terra & Thread | **Kusina Notes** |
 |---|---|---|---|
-| Mood | Monochrome product polish | Earthy, crafted | **Calm, warm, a little funny: a Filipino home kitchen** |
-| Colour | No hue at all | Parchment, clay, sage | **Enamel white, cobalt, a hint of colour per course** |
-| Type | Schibsted Grotesk | Fraunces + Instrument Sans | **Bricolage Grotesque + Atkinson Hyperlegible Next, Caveat for one note** |
-| Shape | Cards and shadows | Fine rules | **Round enamel plates, hairlines, pills** |
-| Voice | Professional | Gentle, artisanal | **A tita who cooks: direct, teasing, a little Taglish** |
-
-## Principles
-
-1. **One interface colour.** Cobalt does links, buttons, focus, selected states and step
-   numbers. Nothing else competes with it.
-2. **Course colour is a hint, never a block.** It shows up as a small dot (course chips,
-   crumbs, "Tonight", list rows), a soft 9% wash behind page heads, and the tinted disc on
-   a plate without a photo. Never a solid band, solid chip or text colour on enamel.
-3. **Photos carry the colour.** Food photos are the loudest thing on a page; the chrome
-   stays neutral around them.
-4. **Hairlines, not boxes.** 1px lines at 12% ink separate things. Fills (enamel-2) mark
-   the few tool panels (scaler, pantry teaser, footer). No 3px borders anywhere.
-5. **One playful detail per view.** The enamel plate, Tita's handwritten note, the "notes"
-   wordmark, the gingham strip: each appears in its place and nowhere else. Nothing tilts
-   except Tita's note (under 1°) and the wordmark.
-6. **The recipe reads first.** No decoration inside ingredients or method text.
+| Mood | Monochrome product polish | Earthy, crafted | **Calm, green, editorial cookbook** |
+| Colour | No hue | Parchment, clay, sage | **Rice paper, banana-leaf greens, nothing else** |
+| Type | Schibsted Grotesk | Fraunces + Instrument Sans | **Instrument Serif + Figtree, Caveat for one note** |
+| Signature | Code hero photo | Product customiser | **Drawn banana leaf, green italic word** |
 
 ## Colour
 
-| Role | Slug | Light | Dark ("kitchen at night") |
+One family of greens on rice paper. No per-course colours any more (course is a small
+uppercase label in green).
+
+| Role | Slug | Light | Dark |
 |---|---|---|---|
-| Background | `enamel` | #FBFAF6 | #10162B |
-| Surface (panels, footer) | `enamel-2` | #F0EEE6 | #19213D |
-| Text | `ink` | #16213E | #F3F1EA |
-| Muted text | `ink-2` | #4A5372 | #AEB5CC |
-| Interface accent | `cobalt` | #1F3FA8 | #93A9FF |
-| Text on cobalt | `on-cobalt` | #FFFFFF | #10162B |
+| Page | `paper` | #F7F7F2 | #0F1712 |
+| Panels (ingredients, pantry, placeholders) | `paper-2` | #ECEFE5 | #17221B |
+| Text | `ink` | #17221C | #ECEFE7 |
+| Muted text | `ink-2` | #55615A | #A9B5AC |
+| Accent: links, buttons, italics, step numbers | `leaf` | #2D5A41 | #9CC79A |
+| Text on leaf | `on-leaf` | #FFFFFF | #0F1712 |
+| Footer, teaser, hover on primary | `leaf-deep` | #1E3B2C | #0B120E |
+| Chips, time pills, selected states | `leaf-soft` | #DCE6D2 | #22332A |
 
-Course hues (`course-<slug>` sets `--course`; used as dots, washes and plate discs only):
-
-| Course (slug) | English | Hue |
-|---|---|---|
-| Ulam (`ulam`) | Mains | tomato #C93A26 |
-| Sabaw (`sabaw`) | Soups | kangkong #2B7A4B |
-| Merienda (`merienda`) | Snacks | mango #F4B62C |
-| Panghimagas (`panghimagas`) | Desserts | ube #6B48B3 |
-| Almusal (`almusal`) | Breakfast | egg yolk #EE8A27 |
-| Inumin (`inumin`) | Drinks | calamansi #9CC43E |
-
-Course names are Tagalog with the English gloss beside them (owner's choice). Search
-engines get English categories via `kusina_courses()`.
-
-Contrast (WCAG 2): ink on enamel 15.2, ink-2 on enamel 7.3, cobalt on enamel 8.6, white on
-cobalt 9.0; dark text 15.9, dark muted 8.8, dark cobalt 8.0. The headline's tomato word is
-4.9 on enamel and is brightened to #F0644C (5.7) on navy. Text never sits on a course hue.
+Contrast (WCAG 2): ink on paper 15.2, ink-2 on paper 6.0 (5.6 on paper-2), leaf on paper
+7.4, white on leaf 7.9, paper on leaf-deep 11.4, #B9CCB0 on leaf-deep 7.2; dark mode text
+15.7, muted 8.6, leaf 9.6. All AA for body text.
 
 ## Type
 
-All OFL, self-hosted woff2 (`assets/fonts/README.md`).
+All OFL, self-hosted (`assets/fonts/README.md`).
 
-- **Bricolage Grotesque** for headings, weight 700, normal width, -0.02 to -0.035em
-  tracking. Also ingredient amounts and step numbers (Atkinson has no ⅓ ⅔ ⅛).
-- **Atkinson Hyperlegible Next** for body and UI. Body 1.125rem/1.6. Labels are small caps
-  style: 0.75 to 0.8125rem, weight 700, 0.1em tracking, ink-2.
-- **Caveat** only for Tita's note and the "notes" in the wordmark.
+- **Instrument Serif** (one weight, plus italic) for headings, titles, the wordmark, the
+  intro paragraph, facts values and step numbers. Never bold it (faux bold smears).
+  Headlines can end in one **green italic word**: "Ano'ng ulam *tonight?*",
+  "Fresh from the *kusina*". One per heading, at most.
+- **Figtree** for body, UI and ingredient amounts (it has ⅓ ⅔ ⅛; the serif doesn't).
+  Labels: 0.6875 to 0.75rem, weight 600, 0.16em tracking, uppercase.
+- **Caveat** only for Tita's note.
 
 ## Shape and detail
 
-- **Plates**: photos crop round inside a white enamel rim with one thin cobalt hairline
-  and a soft shadow. No photo: a course-tinted disc.
-- **Tags**: flat pills, enamel-2 fill, ink text; diets get a faint green wash. No tilt, no
-  shadow.
-- **Chips**: outline pills with a course dot; selected = soft cobalt wash, cobalt border
-  and a check.
-- **Buttons**: pills, 1.5px cobalt outline or cobalt fill for the one primary action.
-- **Page heads**: a 9% course wash (cobalt on non-course pages) with a hairline below.
-- **Gingham**: one 14px oilcloth strip along the top of the footer.
-- **Tita's note**: paper note in Caveat with a strip of tape, rotated 0.6°.
-- Radius 14px for panels and photos; pills elsewhere.
+- Photos: 4:5 portrait in tiles and the recipe hero, radius 18px (28px for the big ones),
+  one soft shadow on hero images only. Slight zoom on hover.
+- No photo: `paper-2` with the drawn banana leaf (`assets/art/leaf-*.svg`, three
+  colourways). On a recipe page without a photo the media column goes away and the leaf
+  sits faintly behind the title.
+- Tiles: photo, green course label, serif title, a quiet meta line ("1 hr · Vegetarian").
+  No pills, no boxes.
+- Buttons: pills. Primary = leaf fill; secondary = 1px neutral outline.
+- Panels: `paper-2`, radius 26px (ingredients, pantry picker).
+- Deep-green blocks (footer, pantry teaser) carry a large faint leaf in a corner.
+- Hairlines (11% ink) separate sections; nothing else draws borders.
+- Tita's note: paper note with tape, Caveat, rotated -0.8°.
 
 ## Voice
 
@@ -94,10 +75,10 @@ teasing but never mean. Filipino food words stay as they are (ulam, sabaw, merie
 
 | Place | Line |
 |---|---|
-| Home headline | "Ano'ng ulam?" |
+| Home headline | "Ano'ng ulam *tonight?*" |
 | Pantry, nothing ticked | "Nothing yet. Add rice: there is always rice." |
 | Cook mode finish | "Kain na!" (the only exclamation mark) |
-| 404 | "Naubos na. Someone ate this page." |
+| 404 | "Naubos *na.* Someone ate this page." |
 | Empty list | "Your list is empty. Suspicious." |
 
 No "elevate", "journey" or "delve"; no invented testimonials, ratings or "readers love";
@@ -105,7 +86,9 @@ no history or health claims. Jokes live in the chrome, never in the method.
 
 ## Guard rails
 
-- No gradients (other than the plate disc), glass, emoji icons, cartoon chefs,
-  three-identical-cards rows.
-- Motion only on hover and focus (colour, a 4% photo zoom); none with reduced motion.
+- Greens and neutrals only; photos bring the other colours.
+- No gradients, glass, emoji icons, cartoon chefs, rotated tags.
+- Motion: colour and underline transitions, a 3.5% photo zoom on hover; nothing with
+  reduced motion.
 - Photos: **CC0 or public domain only**, matched to the dish (`scripts/images/README.md`).
+  Recipes with photos are dated newest so lists lead with them.
