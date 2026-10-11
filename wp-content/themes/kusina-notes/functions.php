@@ -27,6 +27,11 @@ add_action(
 			'<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>' . "\n",
 			esc_url( get_theme_file_uri( 'assets/fonts/bricolage-grotesque.woff2' ) )
 		);
+		// An enamel plate with the chip; no Site Icon in the database, so it travels with the theme.
+		printf(
+			'<link rel="icon" href="%s" type="image/svg+xml">' . "\n",
+			esc_url( get_theme_file_uri( 'assets/favicon.svg' ) )
+		);
 	},
 	1
 );

@@ -172,7 +172,8 @@ the JSON, validate, re-seed.
 6. JS still open: ingredient tick boxes, recipe index filters, Bahala na.
 7. **Done**: 50 recipes seeded, 25 with CC0/PD photos (section 8). Open: photos for the
    other 25 where matching ones exist.
-8. Exporter, CSP, Vercel project, `Deploy.cmd`.
+8. **Done**: exporter, CSP, Vercel project, `Deploy.cmd`. Live at https://kusina-notes.vercel.app
+   (2026-10-11). Open: Open Graph / Twitter meta tags (WordPress prints none; section 5).
 9. Add the project to the portfolio (screenshots 1920×1200 WebP).
 
 ## 10. Done means

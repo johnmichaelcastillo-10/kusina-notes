@@ -42,6 +42,15 @@ add_action(
 	}
 );
 
+// No users sitemap, so the static export never publishes an author archive (and with it the
+// admin username).
+add_filter(
+	'wp_sitemaps_add_provider',
+	static fn( $provider, string $name ) => 'users' === $name ? false : $provider,
+	10,
+	2
+);
+
 // Lets the theme colour a whole page by course: course-<slug> on <body> for a recipe or a
 // course archive (Query Loop items already get it from post_class()).
 add_filter(
