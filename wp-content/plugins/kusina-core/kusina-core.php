@@ -19,6 +19,7 @@ const KUSINA_CORE_VERSION = '0.7.1';
 require_once __DIR__ . '/includes/format.php';
 require_once __DIR__ . '/includes/schema.php';
 require_once __DIR__ . '/includes/index-api.php';
+require_once __DIR__ . '/includes/meta.php';
 
 add_action( 'init', 'kusina_register_content_model' );
 

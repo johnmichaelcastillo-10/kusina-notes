@@ -108,7 +108,12 @@ recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModul
   keywords, suitableForDiet (vegetarian, gluten-free only). No recipeCuisine: there is no
   cuisine taxonomy. **No `aggregateRating` or reviews**:
   there are none, and inventing them breaks the content rule.
-- Open Graph and Twitter tags, canonical, sitemap (users sitemap disabled).
+- Open Graph and Twitter tags, canonical, sitemap (users sitemap disabled). **Built**
+  (`includes/meta.php`): meta description, `og:*` (title, description, URL, type, site
+  name, locale, image with size and alt), `twitter:card` summary_large_image, and a canonical
+  on home and archives (WordPress prints one on singular pages only). Recipes share their
+  photo cropped to 1200 × 630 (image size `kusina-og`); other pages share the newest
+  recipe's. Nothing on 404 or search.
 - Validate with Google's Rich Results Test (paste the HTML: `*.vercel.app` is blocked on the
   owner's network).
 
@@ -178,7 +183,7 @@ the JSON, validate, re-seed.
 6. **Done**: ingredient tick boxes, recipe index filters, Bahala na.
 7. **Done**: 50 recipes seeded, each with an AI-generated photo (section 8).
 8. **Done**: exporter, CSP, Vercel project, `Deploy.cmd`. Live at https://kusina-notes.vercel.app
-   (2026-10-11). Open: Open Graph / Twitter meta tags (WordPress prints none; section 5).
+   (2026-10-11). Open Graph / Twitter tags added 2026-10-12 (section 5).
 9. Add the project to the portfolio (screenshots 1920×1200 WebP).
 
 ## 10. Done means

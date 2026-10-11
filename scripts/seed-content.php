@@ -179,6 +179,13 @@ kusina_seed_page(
 	'<!-- wp:kusina/shopping-list {"align":"wide"} /-->'
 );
 
+// WordPress installs a published "Sample Page"; the static export would publish it.
+$kusina_sample = get_page_by_path( 'sample-page' );
+if ( $kusina_sample && 'publish' === $kusina_sample->post_status ) {
+	wp_trash_post( $kusina_sample->ID );
+	WP_CLI::log( 'Trashed the default Sample Page' );
+}
+
 // Recipes. The validator (scripts/validate-recipes.mjs) is the real check; this only refuses
 // records missing the fields the seed reads.
 $kusina_recipes = array();
