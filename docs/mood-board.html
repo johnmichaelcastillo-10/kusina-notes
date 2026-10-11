@@ -1,0 +1,828 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kusina Notes Mood Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Caveat:wght@500;700&display=swap">
+<style>
+/* Layout: a long board of "stations" on an enamel table, each section a basin with a cobalt rim. */
+:root {
+	--enamel: #FBFAF6;
+	--enamel-2: #F0EEE6;
+	--ink: #16213E;
+	--ink-2: #4A5372;
+	--cobalt: #1F3FA8;
+	--on-cobalt: #FFFFFF;
+	--cardboard: #E2C48F;
+	--tag-ink: #16213E;
+	--tape: rgb(226 196 143 / 0.75);
+	--note: #FFF8E3;
+	--note-ink: #16213E;
+	--gingham: color-mix(in srgb, var(--cobalt) 34%, transparent);
+
+	--ulam: #C93A26; --on-ulam: #FFFFFF;
+	--sabaw: #2B7A4B; --on-sabaw: #FFFFFF;
+	--merienda: #F4B62C; --on-merienda: #16213E;
+	--dessert: #6B48B3; --on-dessert: #FFFFFF;
+	--breakfast: #EE8A27; --on-breakfast: #16213E;
+	--drink: #9CC43E; --on-drink: #16213E;
+
+	--display: "Bricolage Grotesque", "Arial Black", "Helvetica Neue", sans-serif;
+	--body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+	--hand: "Caveat", "Segoe Print", "Bradley Hand", cursive;
+
+	--rim: 3px;
+	--basin: 20px;
+}
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		--enamel: #10162B; --enamel-2: #19213D; --ink: #F3F1EA; --ink-2: #AEB5CC;
+		--cobalt: #93A9FF; --on-cobalt: #10162B; --note: #F3ECD6; --tape: rgb(226 196 143 / 0.6);
+		color-scheme: dark;
+	}
+}
+:root[data-theme="dark"] {
+	--enamel: #10162B; --enamel-2: #19213D; --ink: #F3F1EA; --ink-2: #AEB5CC;
+	--cobalt: #93A9FF; --on-cobalt: #10162B; --note: #F3ECD6; --tape: rgb(226 196 143 / 0.6);
+	color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+	margin: 0;
+	background: var(--enamel);
+	color: var(--ink);
+	font-family: var(--body);
+	font-size: 1.0625rem;
+	line-height: 1.6;
+}
+.wrap {
+	max-width: 74rem;
+	margin-inline: auto;
+	padding-inline: 1.25rem;
+}
+h1, h2, h3 {
+	font-family: var(--display);
+	text-wrap: balance;
+	margin: 0;
+}
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 3px; }
+
+/* ---------- Gingham band ---------- */
+.gingham {
+	background-color: var(--enamel);
+	background-image:
+		linear-gradient(90deg, var(--gingham) 50%, transparent 50%),
+		linear-gradient(var(--gingham) 50%, transparent 50%);
+	background-size: 28px 28px;
+}
+
+/* ---------- Hero ---------- */
+.hero { border-bottom: var(--rim) solid var(--cobalt); }
+.hero-inner {
+	display: grid;
+	grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+	gap: 2.5rem;
+	align-items: center;
+	padding-block: 3.5rem 4rem;
+}
+.hero-card {
+	background: var(--enamel);
+	border: var(--rim) solid var(--cobalt);
+	border-radius: var(--basin);
+	padding: 2rem 2rem 2.25rem;
+	display: grid;
+	gap: 1rem;
+}
+.eyebrow {
+	font-family: var(--display);
+	font-stretch: 75%;
+	font-variation-settings: "wdth" 75;
+	font-weight: 700;
+	font-size: 0.875rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--ink-2);
+}
+.hero h1 {
+	font-size: clamp(3rem, 2rem + 5vw, 6.25rem);
+	font-weight: 800;
+	line-height: 0.92;
+	letter-spacing: -0.035em;
+	font-variation-settings: "wdth" 88, "opsz" 96;
+}
+.hero h1 .tl { color: var(--ulam); }
+.hero-lede { font-size: 1.25rem; max-width: 34ch; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-top: 0.5rem; }
+.hand-note {
+	font-family: var(--hand);
+	font-size: 1.6rem;
+	line-height: 1.1;
+	color: var(--ink-2);
+	transform: rotate(-3deg);
+}
+
+/* ---------- Plate ---------- */
+.plate {
+	position: relative;
+	width: 100%;
+	max-width: 26rem;
+	aspect-ratio: 1;
+	margin-inline: auto;
+	border-radius: 50%;
+	background: #FFFFFF;
+	border: 10px solid var(--cobalt);
+	box-shadow: inset 0 0 0 14px #F3F2EC, inset 0 0 0 15px rgb(22 33 62 / 0.08);
+	display: grid;
+	place-items: center;
+}
+.plate::after { /* the chip in the enamel */
+	content: "";
+	position: absolute;
+	top: 9%;
+	right: 13%;
+	width: 26px;
+	height: 18px;
+	background: #16213E;
+	border-radius: 58% 42% 63% 37% / 45% 60% 40% 55%;
+	transform: rotate(28deg);
+}
+.plate-food {
+	width: 62%;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background:
+		radial-gradient(circle at 34% 30%, rgb(255 255 255 / 0.28) 0 9%, transparent 10%),
+		var(--ulam);
+	display: grid;
+	place-items: center;
+	text-align: center;
+	color: var(--on-ulam);
+	font-family: var(--hand);
+	font-size: clamp(1.4rem, 1rem + 1.4vw, 2rem);
+	line-height: 1.05;
+	padding: 1rem;
+}
+.plate .tag { position: absolute; bottom: 6%; left: -2%; }
+
+/* ---------- Market tags ---------- */
+.tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.35rem 0.75rem 0.3rem;
+	background: var(--cardboard);
+	color: var(--tag-ink);
+	font-family: var(--display);
+	font-stretch: 75%;
+	font-variation-settings: "wdth" 75;
+	font-weight: 800;
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	line-height: 1.1;
+	border-radius: 3px 5px 4px 2px;
+	box-shadow: 1px 2px 0 rgb(22 33 62 / 0.25);
+}
+.tag.r1 { transform: rotate(-3deg); }
+.tag.r2 { transform: rotate(2deg); }
+.tag.r3 { transform: rotate(-1deg); }
+.tag-row { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+
+/* ---------- Buttons ---------- */
+.btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	min-height: 3rem;
+	padding: 0.5rem 1.35rem;
+	border: 2px solid var(--cobalt);
+	border-radius: 999px;
+	background: transparent;
+	color: var(--ink);
+	font: 700 1rem/1.2 var(--body);
+	cursor: pointer;
+	text-decoration: none;
+}
+.btn-primary { background: var(--cobalt); color: var(--on-cobalt); }
+.btn:hover { transform: translateY(-1px); }
+@media (prefers-reduced-motion: reduce) { .btn:hover { transform: none; } }
+
+/* ---------- Sections ---------- */
+main { display: grid; gap: 4.5rem; padding-block: 4rem 5rem; }
+.section-head { display: grid; gap: 0.5rem; margin-bottom: 1.75rem; max-width: 46rem; }
+.section-head h2 {
+	font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
+	font-weight: 800;
+	line-height: 1;
+	letter-spacing: -0.025em;
+	font-variation-settings: "wdth" 90;
+}
+.section-head p { color: var(--ink-2); }
+
+/* Comparison */
+.compare { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.cmp {
+	border-radius: 14px;
+	padding: 1.25rem;
+	display: grid;
+	gap: 0.6rem;
+	align-content: start;
+	min-height: 11rem;
+}
+.cmp h3 { font-size: 1.125rem; font-weight: 700; }
+.cmp p { font-size: 0.9375rem; }
+.cmp .chips { display: flex; gap: 0.35rem; margin-top: auto; }
+.cmp .chips span { width: 1.6rem; height: 1.6rem; border-radius: 50%; border: 1px solid rgb(0 0 0 / 0.12); }
+.cmp-portfolio { background: #FAFAFA; color: #3F3F46; border: 1px solid #E4E4E7; }
+.cmp-portfolio h3 { font-family: "Helvetica Neue", Arial, sans-serif; color: #09090B; letter-spacing: -0.02em; }
+.cmp-terra { background: #FBF8F3; color: #6A574A; border: 1px solid #E8DDCD; }
+.cmp-terra h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; color: #2B211B; font-style: italic; }
+.cmp-kusina { background: var(--enamel); color: var(--ink); border: var(--rim) solid var(--cobalt); }
+.cmp-kusina h3 { font-weight: 800; font-size: 1.35rem; font-variation-settings: "wdth" 85; }
+.cmp-label { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.75; }
+
+/* Palette */
+.base-swatches { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }
+.sw { display: grid; gap: 0.5rem; }
+.sw-chip { aspect-ratio: 1.4; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent); }
+.sw-name { font-weight: 700; font-size: 0.9375rem; line-height: 1.2; }
+.sw-meta { font-size: 0.8125rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+.courses { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.course {
+	border-radius: var(--basin);
+	padding: 1.25rem 1.25rem 1.1rem;
+	display: grid;
+	gap: 0.25rem;
+	min-height: 10.5rem;
+	align-content: space-between;
+}
+.course .tl {
+	font-family: var(--display);
+	font-size: 2.25rem;
+	font-weight: 800;
+	line-height: 1;
+	letter-spacing: -0.02em;
+	font-variation-settings: "wdth" 85;
+}
+.course .en { font-size: 0.9375rem; opacity: 0.9; }
+.course .meta {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.5rem;
+	font-size: 0.8125rem;
+	font-variant-numeric: tabular-nums;
+	padding-top: 0.6rem;
+	border-top: 1px solid currentColor;
+	opacity: 0.9;
+}
+.c-ulam { background: var(--ulam); color: var(--on-ulam); }
+.c-sabaw { background: var(--sabaw); color: var(--on-sabaw); }
+.c-merienda { background: var(--merienda); color: var(--on-merienda); }
+.c-dessert { background: var(--dessert); color: var(--on-dessert); }
+.c-breakfast { background: var(--breakfast); color: var(--on-breakfast); }
+.c-drink { background: var(--drink); color: var(--on-drink); }
+.note-line { margin-top: 1rem; font-size: 0.9375rem; color: var(--ink-2); max-width: 60ch; }
+
+/* Type */
+.type-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 1rem; }
+.specimen {
+	border: var(--rim) solid var(--cobalt);
+	border-radius: var(--basin);
+	padding: 1.5rem;
+	display: grid;
+	gap: 1rem;
+	align-content: start;
+	min-width: 0;
+}
+.specimen-label { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.8125rem; color: var(--ink-2); }
+.specimen-label strong { color: var(--ink); font-size: 0.9375rem; }
+.spec-display {
+	font-family: var(--display);
+	font-weight: 800;
+	font-size: clamp(2.5rem, 1.6rem + 4vw, 4.75rem);
+	line-height: 0.95;
+	letter-spacing: -0.03em;
+	font-variation-settings: "wdth" 90, "opsz" 96;
+	overflow-wrap: anywhere;
+}
+.spec-widths { display: grid; gap: 0.25rem; }
+.spec-widths span { font-family: var(--display); font-weight: 800; font-size: 1.75rem; line-height: 1.1; overflow-wrap: anywhere; }
+.w75 { font-variation-settings: "wdth" 75; font-stretch: 75%; }
+.w88 { font-variation-settings: "wdth" 88; }
+.w100 { font-variation-settings: "wdth" 100; }
+.spec-body p { font-size: 1.125rem; max-width: 40ch; }
+.spec-body .small { font-size: 0.9375rem; color: var(--ink-2); }
+.spec-hand { font-family: var(--hand); font-size: 2.25rem; line-height: 1.05; }
+.glyphs { font-family: var(--body); font-size: 1.5rem; letter-spacing: 0.05em; color: var(--ink-2); overflow-wrap: anywhere; }
+
+/* Recipe page sketch */
+.recipe-mock { border: var(--rim) solid var(--cobalt); border-radius: var(--basin); overflow: hidden; background: var(--enamel); }
+.band { background: var(--ulam); color: var(--on-ulam); padding: 2rem 2rem 4.5rem; display: grid; gap: 1rem; }
+.band h3 {
+	font-size: clamp(2.5rem, 1.8rem + 3vw, 4.25rem);
+	font-weight: 800;
+	line-height: 0.95;
+	letter-spacing: -0.03em;
+	font-variation-settings: "wdth" 88, "opsz" 96;
+}
+.band .crumb { font-size: 0.875rem; opacity: 0.9; }
+.mock-body {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr);
+	gap: 2.5rem;
+	padding: 0 2rem 2rem;
+	margin-top: -2.75rem;
+}
+.mock-photo {
+	grid-column: 1 / -1;
+	height: 5.5rem;
+	border-radius: 14px;
+	border: var(--rim) solid var(--enamel);
+	background:
+		repeating-linear-gradient(135deg, color-mix(in srgb, var(--ink) 7%, transparent) 0 10px, transparent 10px 20px),
+		var(--enamel-2);
+	display: grid;
+	place-items: center;
+	color: var(--ink-2);
+	font-size: 0.875rem;
+}
+.mock-col h4 {
+	font-family: var(--display);
+	font-weight: 800;
+	font-size: 1.5rem;
+	margin: 0 0 0.75rem;
+	font-variation-settings: "wdth" 90;
+}
+.stepper { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap; }
+.stepper .lbl { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); margin-right: 0.25rem; }
+.round {
+	width: 2.75rem; height: 2.75rem; border-radius: 50%;
+	border: 2px solid var(--cobalt); background: transparent; color: var(--ink);
+	font: 700 1.25rem/1 var(--body); cursor: pointer;
+}
+.round:disabled { opacity: 0.4; cursor: default; }
+.count {
+	min-width: 3rem; text-align: center; font-weight: 700; font-size: 1.25rem;
+	font-variant-numeric: tabular-nums;
+}
+.units { display: inline-flex; border: 2px solid var(--cobalt); border-radius: 999px; overflow: hidden; margin-bottom: 1rem; }
+.units button {
+	border: 0; background: transparent; color: var(--ink);
+	font: 700 0.875rem/1 var(--body); padding: 0.75rem 0.9rem; cursor: pointer;
+}
+.units button + button { border-left: 2px solid var(--cobalt); }
+.units button[aria-pressed="true"] { background: var(--cobalt); color: var(--on-cobalt); }
+.ing { list-style: none; margin: 0; padding: 0; }
+.ing li { border-bottom: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); }
+.ing label { display: flex; gap: 0.7rem; align-items: baseline; padding: 0.55rem 0; cursor: pointer; }
+.ing input {
+	appearance: none; flex: none; width: 1.15rem; height: 1.15rem; margin: 0; translate: 0 0.15rem;
+	border: 2px solid var(--cobalt); border-radius: 5px; background: transparent; cursor: pointer;
+}
+.ing input:checked { background: var(--cobalt); box-shadow: inset 0 0 0 3px var(--enamel); }
+.ing input:checked ~ span { text-decoration: line-through; text-decoration-thickness: 2px; color: var(--ink-2); }
+.ing .q { font-weight: 700; font-variant-numeric: tabular-nums; }
+.ing .n { color: var(--ink-2); }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.1rem; counter-reset: s; }
+.steps li { display: grid; grid-template-columns: 3.25rem minmax(0, 1fr); gap: 0.75rem; counter-increment: s; }
+.steps li::before {
+	content: counter(s);
+	font-family: var(--display); font-weight: 800; font-size: 3rem; line-height: 0.85;
+	font-variation-settings: "wdth" 75; font-stretch: 75%;
+	color: var(--ulam);
+}
+.time-pill {
+	display: inline-block; margin-top: 0.4rem; padding: 0.15rem 0.65rem;
+	border: 2px solid var(--sabaw); border-radius: 999px;
+	color: var(--ink); font-size: 0.8125rem; font-weight: 700;
+}
+.tita {
+	position: relative;
+	margin-top: 1.75rem;
+	padding: 1.5rem 1.4rem 1.25rem;
+	background: var(--note);
+	color: var(--note-ink);
+	transform: rotate(1deg);
+	box-shadow: 2px 3px 0 rgb(22 33 62 / 0.18);
+	border-radius: 2px;
+	max-width: 32rem;
+}
+.tita::before { /* tape */
+	content: "";
+	position: absolute;
+	top: -0.7rem;
+	left: 50%;
+	width: 6rem;
+	height: 1.4rem;
+	background: var(--tape);
+	transform: translateX(-50%) rotate(-4deg);
+}
+.tita b { font-family: var(--hand); font-size: 1.75rem; font-weight: 700; display: block; line-height: 1; margin-bottom: 0.35rem; }
+.tita p { font-family: var(--hand); font-size: 1.45rem; line-height: 1.2; font-weight: 500; }
+
+/* Plates grid + cook mode */
+.duo { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2rem; align-items: start; }
+.plates { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem 1.25rem; }
+.mini { display: grid; gap: 0.6rem; justify-items: center; text-align: center; }
+.mini .disc {
+	width: 100%; aspect-ratio: 1; border-radius: 50%;
+	background: #FFFFFF; border: 6px solid var(--cobalt);
+	box-shadow: inset 0 0 0 8px #F3F2EC;
+	display: grid; place-items: center;
+}
+.mini .disc i { width: 58%; aspect-ratio: 1; border-radius: 50%; display: block; }
+.mini h4 { font-family: var(--display); font-weight: 800; font-size: 1.125rem; line-height: 1.1; margin: 0; font-variation-settings: "wdth" 90; }
+.mini .tag { font-size: 0.8125rem; }
+
+.phone {
+	width: 100%;
+	max-width: 21rem;
+	margin-inline: auto;
+	border: 10px solid #16213E;
+	border-radius: 2.5rem;
+	overflow: hidden;
+	background: color-mix(in srgb, var(--ulam) 9%, var(--enamel));
+	color: var(--ink);
+}
+.phone-inner { display: grid; gap: 1rem; padding: 1.25rem 1.1rem 1.1rem; min-height: 33rem; grid-template-rows: auto 1fr auto auto; }
+.ph-head { display: flex; justify-content: space-between; align-items: center; font-size: 0.8125rem; }
+.ph-head .stepno { font-family: var(--display); font-weight: 800; font-size: 1rem; font-variation-settings: "wdth" 75; letter-spacing: 0.06em; text-transform: uppercase; }
+.ph-head .x { border: 2px solid var(--cobalt); border-radius: 999px; padding: 0.2rem 0.7rem; font-weight: 700; }
+.ph-step { font-size: 1.6rem; line-height: 1.3; font-weight: 600; }
+.ph-step em { font-style: normal; background: color-mix(in srgb, var(--merienda) 55%, transparent); padding: 0 0.15em; }
+.ph-timer {
+	display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+	border: var(--rim) solid var(--sabaw); border-radius: 999px; padding: 0.5rem 0.5rem 0.5rem 1.25rem;
+}
+.ph-timer .t { font-family: var(--display); font-weight: 800; font-size: 2rem; font-variant-numeric: tabular-nums; font-variation-settings: "wdth" 80; }
+.ph-timer .btn { min-height: 2.75rem; }
+.ph-nav { display: grid; grid-template-columns: 1fr 1.6fr; gap: 0.6rem; }
+.ph-nav .btn { justify-content: center; min-height: 3.5rem; }
+.ph-nav .eat { background: var(--ulam); border-color: var(--ulam); color: var(--on-ulam); font-family: var(--display); font-weight: 800; font-size: 1.25rem; }
+
+/* Voice */
+.voice { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.line {
+	background: var(--enamel-2);
+	border-radius: 14px;
+	padding: 1.25rem;
+	display: grid;
+	gap: 0.5rem;
+	align-content: start;
+}
+.line .where { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); }
+.line q { quotes: none; font-family: var(--display); font-weight: 700; font-size: 1.35rem; line-height: 1.15; font-variation-settings: "wdth" 92; }
+.line .gloss { font-size: 0.875rem; color: var(--ink-2); }
+
+/* Rules */
+.rules { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.rules ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.5rem; }
+.rules h3 { font-size: 1.25rem; font-weight: 800; margin-bottom: 0.75rem; font-variation-settings: "wdth" 90; }
+.rules > div { border: var(--rim) solid var(--cobalt); border-radius: var(--basin); padding: 1.5rem; }
+.rules .no { border-color: var(--ulam); }
+
+footer.gingham { border-top: var(--rim) solid var(--cobalt); }
+.foot { padding-block: 2.5rem; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; }
+.foot-card { background: var(--enamel); border: var(--rim) solid var(--cobalt); border-radius: 999px; padding: 0.6rem 1.25rem; font-size: 0.9375rem; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 60rem) {
+	.hero-inner, .type-grid, .duo { grid-template-columns: minmax(0, 1fr); }
+	.base-swatches { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.voice { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.plate { max-width: 20rem; }
+}
+@media (max-width: 40rem) {
+	.wrap { padding-inline: 1rem; }
+	.hero-card { padding: 1.5rem 1.25rem; }
+	.compare, .courses, .voice, .rules { grid-template-columns: minmax(0, 1fr); }
+	.base-swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.mock-body { grid-template-columns: minmax(0, 1fr); padding: 0 1.25rem 1.5rem; gap: 2rem; }
+	.band { padding: 1.5rem 1.25rem 4rem; }
+	.plates { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.course { min-height: 8.5rem; }
+}
+</style>
+</head>
+<body>
+
+<header class="hero gingham">
+	<div class="wrap hero-inner">
+		<div class="hero-card">
+			<p class="eyebrow">Kusina Notes · design direction</p>
+			<h1>Ano'ng <span class="tl">ulam?</span></h1>
+			<p class="hero-lede">Dinner in under an hour, no life story first.</p>
+			<div class="hero-actions">
+				<button class="btn btn-primary" type="button">See tonight's recipe</button>
+				<button class="btn" type="button" id="bahala">Bahala na</button>
+				<span class="hand-note">← picks one for you</span>
+			</div>
+		</div>
+		<div class="plate" aria-label="Enamel plate: recipe photos are cropped round like this">
+			<div class="plate-food">your adobo<br>goes here</div>
+			<span class="tag r1">1 hr · easy</span>
+		</div>
+	</div>
+</header>
+
+<main class="wrap">
+
+	<section aria-labelledby="h-compare">
+		<div class="section-head">
+			<p class="eyebrow">Why a new look</p>
+			<h2 id="h-compare">Enamelware and the palengke</h2>
+			<p>The first draft looked like Terra &amp; Thread. This one borrows from a Filipino home kitchen instead: white enamel plates with blue rims, hand-lettered market signs, gingham oilcloth on the table.</p>
+		</div>
+		<div class="compare">
+			<div class="cmp cmp-portfolio">
+				<span class="cmp-label">Portfolio</span>
+				<h3>Calm monochrome</h3>
+				<p>No hue at all. Grotesk type, soft cards, product polish.</p>
+				<div class="chips"><span style="background:#09090B"></span><span style="background:#71717A"></span><span style="background:#FAFAFA"></span></div>
+			</div>
+			<div class="cmp cmp-terra">
+				<span class="cmp-label">Terra &amp; Thread</span>
+				<h3>Quiet and earthy</h3>
+				<p>Parchment, clay and sage. Serif headings, fine rules, lots of air.</p>
+				<div class="chips"><span style="background:#FBF8F3"></span><span style="background:#B5583A"></span><span style="background:#7F8C6E"></span></div>
+			</div>
+			<div class="cmp cmp-kusina">
+				<span class="cmp-label">Kusina Notes</span>
+				<h3>Loud, warm, funny</h3>
+				<p>Enamel white, cobalt rims, a bright colour for every course, and a tita's voice.</p>
+				<div class="chips"><span style="background:var(--cobalt)"></span><span style="background:var(--ulam)"></span><span style="background:var(--merienda)"></span><span style="background:var(--dessert)"></span></div>
+			</div>
+		</div>
+	</section>
+
+	<section aria-labelledby="h-colour">
+		<div class="section-head">
+			<p class="eyebrow">Colour</p>
+			<h2 id="h-colour">Every course gets its own colour</h2>
+			<p>The base is enamel and navy ink. A recipe page takes its course's colour for the header band and step numbers, so the site gets louder without one-off decoration.</p>
+		</div>
+		<div class="base-swatches">
+			<div class="sw"><div class="sw-chip" style="background:var(--enamel)"></div><span class="sw-name">Enamel</span><span class="sw-meta">Background</span></div>
+			<div class="sw"><div class="sw-chip" style="background:var(--enamel-2)"></div><span class="sw-name">Enamel 2</span><span class="sw-meta">Surfaces</span></div>
+			<div class="sw"><div class="sw-chip" style="background:var(--ink)"></div><span class="sw-name">Ink</span><span class="sw-meta">Text · 15.2:1</span></div>
+			<div class="sw"><div class="sw-chip" style="background:var(--ink-2)"></div><span class="sw-name">Ink 2</span><span class="sw-meta">Muted · 7.3:1</span></div>
+			<div class="sw"><div class="sw-chip" style="background:var(--cobalt)"></div><span class="sw-name">Cobalt</span><span class="sw-meta">Rims, links · 8.6:1</span></div>
+			<div class="sw"><div class="sw-chip" style="background:var(--cardboard)"></div><span class="sw-name">Cardboard</span><span class="sw-meta">Market tags · 9.5:1</span></div>
+		</div>
+		<div class="courses">
+			<div class="course c-ulam"><div><div class="tl">Ulam</div><div class="en">Mains · tomato</div></div><div class="meta"><span>#C93A26</span><span>white text 5.1:1</span></div></div>
+			<div class="course c-sabaw"><div><div class="tl">Sabaw</div><div class="en">Soups · kangkong</div></div><div class="meta"><span>#2B7A4B</span><span>white text 5.3:1</span></div></div>
+			<div class="course c-merienda"><div><div class="tl">Merienda</div><div class="en">Snacks · mango</div></div><div class="meta"><span>#F4B62C</span><span>ink text 8.8:1</span></div></div>
+			<div class="course c-dessert"><div><div class="tl">Panghimagas</div><div class="en">Desserts · ube</div></div><div class="meta"><span>#6B48B3</span><span>white text 6.6:1</span></div></div>
+			<div class="course c-breakfast"><div><div class="tl">Almusal</div><div class="en">Breakfast · egg yolk</div></div><div class="meta"><span>#EE8A27</span><span>ink text 6.3:1</span></div></div>
+			<div class="course c-drink"><div><div class="tl">Inumin</div><div class="en">Drinks · calamansi</div></div><div class="meta"><span>#9CC43E</span><span>ink text 7.9:1</span></div></div>
+		</div>
+		<p class="note-line">Course colours are always fills with a fixed text colour, never text on enamel. Switch your system to dark mode to see "kitchen at night": navy enamel, the same course colours.</p>
+	</section>
+
+	<section aria-labelledby="h-type">
+		<div class="section-head">
+			<p class="eyebrow">Type</p>
+			<h2 id="h-type">Chunky signs, readable recipes</h2>
+			<p>One loud face for headlines and tags, one face built for legibility for everything you cook from, and handwriting only for Tita's notes.</p>
+		</div>
+		<div class="type-grid">
+			<div class="specimen">
+				<div class="specimen-label"><strong>Bricolage Grotesque</strong><span>Display · weight 800 · width 75 to 100</span></div>
+				<div class="spec-display">Sinigang na baboy</div>
+				<div class="spec-widths">
+					<span class="w100">Width 100 · headlines</span>
+					<span class="w88">Width 88 · recipe titles</span>
+					<span class="w75">WIDTH 75 · MARKET TAGS 30 MIN</span>
+				</div>
+			</div>
+			<div class="specimen">
+				<div class="specimen-label"><strong>Atkinson Hyperlegible Next</strong><span>Body and UI</span></div>
+				<div class="spec-body">
+					<p>Bring to a boil, then add the tamarind. Simmer for 25 minutes until the pork is tender.</p>
+					<p class="small">Designed for low vision: easy to read from across the counter.</p>
+				</div>
+				<div class="glyphs">½ ⅓ ¼ ¾ ⅛ · 1–2 · ñ</div>
+				<div class="specimen-label"><strong>Caveat</strong><span>Tita's notes only</span></div>
+				<div class="spec-hand">Use the rice water. Trust me.</div>
+			</div>
+		</div>
+	</section>
+
+	<section aria-labelledby="h-recipe">
+		<div class="section-head">
+			<p class="eyebrow">Recipe page</p>
+			<h2 id="h-recipe">The recipe still reads first</h2>
+			<p>The colour band and tags are loud; the ingredients and method stay plain. Try the servings buttons, unit switch and tick boxes: they work.</p>
+		</div>
+		<div class="recipe-mock">
+			<div class="band">
+				<span class="crumb">Recipes / Ulam</span>
+				<h3>Chicken adobo</h3>
+				<div class="tag-row">
+					<span class="tag r1">1 hr</span>
+					<span class="tag r2">Easy</span>
+					<span class="tag r3">Serves <span data-serves>4</span></span>
+				</div>
+			</div>
+			<div class="mock-body">
+				<div class="mock-photo">Photo, 3:2, overlapping the band</div>
+				<div class="mock-col">
+					<h4>Ingredients</h4>
+					<div class="stepper">
+						<span class="lbl">Serves</span>
+						<button class="round" type="button" id="less" aria-label="Fewer servings">−</button>
+						<span class="count" id="count" aria-live="polite">4</span>
+						<button class="round" type="button" id="more" aria-label="More servings">+</button>
+					</div>
+					<div class="units" role="group" aria-label="Units">
+						<button type="button" aria-pressed="true" data-mode="as">As written</button>
+						<button type="button" aria-pressed="false" data-mode="metric">Metric</button>
+						<button type="button" aria-pressed="false" data-mode="us">US</button>
+					</div>
+					<ul class="ing" id="ing"></ul>
+				</div>
+				<div class="mock-col">
+					<h4>Method</h4>
+					<ol class="steps">
+						<li><div>Brown the chicken skin side down in batches, then set aside.<br><span class="time-pill">5 min</span></div></li>
+						<li><div>Fry the garlic in the fat until just golden. Do not let it brown.<br><span class="time-pill">1 min</span></div></li>
+						<li><div>Pour in the vinegar and let it boil <strong>without stirring</strong>, so its sharp edge cooks off.<br><span class="time-pill">3 min</span></div></li>
+					</ol>
+					<div class="tita">
+						<b>Tita's note</b>
+						<p>Adobo is better the next day. Make extra, hide some for tomorrow.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section aria-labelledby="h-plates">
+		<div class="section-head">
+			<p class="eyebrow">Index and cook mode</p>
+			<h2 id="h-plates">Plates on the table, one step at a time</h2>
+			<p>On index pages, recipe photos crop round like food on enamel plates. Cook mode fills the phone with one step, a big timer and a finish button you'll want to press.</p>
+		</div>
+		<div class="duo">
+			<div class="plates">
+				<div class="mini"><div class="disc"><i style="background:var(--sabaw)"></i></div><h4>Sinigang na baboy</h4><span class="tag r2">1 hr 15 min</span></div>
+				<div class="mini"><div class="disc"><i style="background:var(--breakfast)"></i></div><h4>Tortang talong</h4><span class="tag r1">25 min</span></div>
+				<div class="mini"><div class="disc"><i style="background:var(--merienda)"></i></div><h4>Turon</h4><span class="tag r3">Merienda</span></div>
+				<div class="mini"><div class="disc"><i style="background:var(--ulam)"></i></div><h4>Tokwa't baboy</h4><span class="tag r1">40 min</span></div>
+				<div class="mini"><div class="disc"><i style="background:var(--dessert)"></i></div><h4>Leche flan</h4><span class="tag r2">Make ahead</span></div>
+				<div class="mini"><div class="disc"><i style="background:var(--drink)"></i></div><h4>Calamansi juice</h4><span class="tag r3">5 min</span></div>
+			</div>
+			<div class="phone" aria-label="Cook mode on a phone">
+				<div class="phone-inner">
+					<div class="ph-head"><span class="stepno">Step 5 of 8</span><span class="x">Close</span></div>
+					<p class="ph-step">Cover, lower the heat and simmer until the chicken is tender. <em>Turn the pieces once halfway.</em></p>
+					<div class="ph-timer"><span class="t" id="timer">25:00</span><button class="btn btn-primary" type="button" id="timer-btn">Start timer</button></div>
+					<div class="ph-nav"><button class="btn" type="button">Previous</button><button class="btn eat" type="button">Kain na!</button></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section aria-labelledby="h-voice">
+		<div class="section-head">
+			<p class="eyebrow">Voice</p>
+			<h2 id="h-voice">Written like a tita who cooks</h2>
+			<p>Direct, teasing, never mean. Filipino food words stay as they are. The jokes live in the buttons and empty states, never in the method.</p>
+		</div>
+		<div class="voice">
+			<div class="line"><span class="where">Random recipe button</span><q>Bahala na</q><span class="gloss">"Leave it to fate."</span></div>
+			<div class="line"><span class="where">Cook mode, last step</span><q>Kain na!</q><span class="gloss">"Let's eat!" The only exclamation mark on the site.</span></div>
+			<div class="line"><span class="where">404 page</span><q>Naubos na. Someone ate this page.</q><span class="gloss">"It's all gone."</span></div>
+			<div class="line"><span class="where">Pantry finder, nothing ticked</span><q>Nothing yet. Add rice: there is always rice.</q><span class="gloss">Empty state that nudges.</span></div>
+			<div class="line"><span class="where">Shopping list, empty</span><q>Your list is empty. Suspicious.</q><span class="gloss">One word of teasing.</span></div>
+			<div class="line"><span class="where">Recipe tips heading</span><q>Tita's note</q><span class="gloss">Handwritten, taped to the page.</span></div>
+		</div>
+	</section>
+
+	<section aria-labelledby="h-rules">
+		<div class="section-head">
+			<p class="eyebrow">Guard rails</p>
+			<h2 id="h-rules">Loud chrome, quiet recipes</h2>
+		</div>
+		<div class="rules">
+			<div>
+				<h3>Do</h3>
+				<ul>
+					<li>One or two playful details per view: a tilted tag, gingham or handwriting, not all three.</li>
+					<li>Keep tag rotations fixed per tag type so pages and screenshots stay stable.</li>
+					<li>Gingham only in the hero and footer.</li>
+					<li>Overhead CC0 photos, so they crop well as plates.</li>
+					<li>Print in plain black on white.</li>
+				</ul>
+			</div>
+			<div class="no">
+				<h3>Don't</h3>
+				<ul>
+					<li>Decorate inside the ingredient list or method text.</li>
+					<li>Use course colours as text on enamel (several fail contrast there).</li>
+					<li>Gradients, glass effects, emoji icons, cartoon chefs.</li>
+					<li>Invented ratings, reviews or "readers love this".</li>
+					<li>Wiggling or animated tags.</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+</main>
+
+<footer class="gingham">
+	<div class="wrap foot">
+		<span class="foot-card"><strong>Kusina Notes</strong> · recipes for everyday cooking</span>
+		<span class="foot-card">Mood board for <code>docs/DESIGN.md</code></span>
+	</div>
+</footer>
+
+<script>
+(() => {
+	// Same rules as the site's scaler: kitchen fractions, 1 cup = 240 ml.
+	const FR = [[1/8,'⅛'],[1/4,'¼'],[1/3,'⅓'],[3/8,'⅜'],[1/2,'½'],[5/8,'⅝'],[2/3,'⅔'],[3/4,'¾'],[7/8,'⅞']];
+	const frac = (n) => {
+		const w = Math.floor(n), r = n - w;
+		if (r > 0.96) return String(w + 1);
+		if (r < 0.04 && w > 0) return String(w);
+		let best = null;
+		for (const [v, g] of FR) { const d = Math.abs(r - v); if (d <= 0.04 && (!best || d < best[0])) best = [d, g]; }
+		return best ? (w ? w : '') + best[1] : String(Number(n.toFixed(2)));
+	};
+	const snap = (n) => { const w = Math.floor(n), r = n - w; let b = 0, bd = r; if (1 - r < bd) { b = 1; bd = 1 - r; } for (const [v] of FR) { const d = Math.abs(r - v); if (d < bd) { b = v; bd = d; } } return w + b || 1/8; };
+	const items = [
+		{ q: 1, u: 'kg', n: 'bone-in chicken thighs and drumsticks' },
+		{ q: 10, u: 'clove', n: 'garlic', note: 'crushed' },
+		{ q: 0.5, u: 'cup', n: 'soy sauce' },
+		{ q: 1/3, u: 'cup', n: 'cane vinegar' },
+		{ q: 3, u: '', n: 'dried bay leaves' },
+		{ q: 1, u: 'tsp', n: 'whole black peppercorns' },
+	];
+	const label = (u, q) => ({ kg: 'kg', g: 'g', ml: 'ml', l: 'L', lb: 'lb', oz: 'oz', tsp: 'tsp', tbsp: 'tbsp', cup: q > 1 ? 'cups' : 'cup', clove: q > 1 ? 'cloves' : 'clove', '': '' })[u];
+	const convert = (q, u, mode) => {
+		if (mode === 'us' && (u === 'kg' || u === 'g')) { const oz = (u === 'kg' ? q * 1000 : q) / 28.3495; return oz >= 16 ? [Math.round(oz / 16 * 4) / 4, 'lb'] : [Math.round(oz * 4) / 4, 'oz']; }
+		if (mode === 'metric' && u === 'cup') { const ml = q * 240; return ml >= 1000 ? [ml / 1000, 'l'] : [ml, 'ml']; }
+		if (u === 'kg' && q < 1) return [q * 1000, 'g'];
+		return [q, u];
+	};
+	const fmt = (q, u) => {
+		if ((u === 'g' || u === 'ml') && q > 50) return Math.round(q) + ' ' + u;
+		const val = ['', 'tsp', 'tbsp', 'cup', 'clove'].includes(u) ? frac(snap(q)) : frac(q);
+		const l = label(u, q);
+		return l ? `${val} ${l}` : val;
+	};
+	let serves = 4, mode = 'as';
+	const list = document.getElementById('ing');
+	const count = document.getElementById('count');
+	const less = document.getElementById('less');
+	const tagServes = document.querySelector('[data-serves]');
+	list.innerHTML = items.map((it, i) => `<li><label><input type="checkbox" id="ing-${i}"><span><span class="q" data-i="${i}"></span> ${it.n}${it.note ? `<span class="n">, ${it.note}</span>` : ''}</span></label></li>`).join('');
+	const render = () => {
+		const f = serves / 4;
+		list.querySelectorAll('.q').forEach((el) => {
+			const it = items[+el.dataset.i];
+			const [q, u] = convert(it.q * f, it.u, mode);
+			el.textContent = fmt(q, u);
+		});
+		count.textContent = serves;
+		tagServes.textContent = serves;
+		less.disabled = serves <= 1;
+	};
+	less.addEventListener('click', () => { serves = Math.max(1, serves - 1); render(); });
+	document.getElementById('more').addEventListener('click', () => { serves = Math.min(99, serves + 1); render(); });
+	document.querySelectorAll('.units button').forEach((b) => b.addEventListener('click', () => {
+		mode = b.dataset.mode;
+		document.querySelectorAll('.units button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+		render();
+	}));
+	render();
+
+	// Demo timer: runs 60x fast so you can watch it count down.
+	const t = document.getElementById('timer'), tb = document.getElementById('timer-btn');
+	let left = 25 * 60, run = null;
+	const show = () => { t.textContent = `${Math.floor(left / 60)}:${String(left % 60).padStart(2, '0')}`; };
+	tb.addEventListener('click', () => {
+		if (run) { clearInterval(run); run = null; tb.textContent = 'Resume'; return; }
+		if (left === 0) { left = 25 * 60; }
+		tb.textContent = 'Pause';
+		run = setInterval(() => { left = Math.max(0, left - 60); show(); if (!left) { clearInterval(run); run = null; tb.textContent = 'Again'; t.textContent = 'Done'; } }, 250);
+	});
+
+	// "Bahala na" picks a dish name for the hero plate.
+	const dishes = ['your adobo<br>goes here', 'sinigang,<br>maybe?', 'tortang<br>talong', 'pancit for<br>long life', 'arroz caldo<br>weather', 'turon at<br>3 pm'];
+	let d = 0;
+	document.getElementById('bahala').addEventListener('click', () => {
+		d = (d + 1 + Math.floor(Math.random() * (dishes.length - 1))) % dishes.length;
+		document.querySelector('.plate-food').innerHTML = dishes[d];
+	});
+})();
+</script>
+</body>
+</html>
