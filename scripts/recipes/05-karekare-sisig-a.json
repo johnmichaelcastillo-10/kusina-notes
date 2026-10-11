@@ -1,145 +1,17 @@
 [
   {
-    "slug": "oxtail-kare-kare",
-    "title": "Oxtail kare-kare",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "peanut butter", "eggplant", "string beans", "banana blossom", "shrimp paste"],
-    "prep": 30,
-    "cook": 210,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "Oxtail simmered until it falls off the bone, then finished in a thick, mild peanut sauce with eggplant, string beans, banana blossom and bok choy. The sauce is gently seasoned on purpose: the salty sauteed shrimp paste on the side does the heavy lifting.",
-    "groups": [
-      {
-        "title": "For the oxtail",
-        "items": [
-          { "qty": 1.5, "max": null, "unit": "kg", "name": "oxtail", "note": "cut into 2-inch pieces" },
-          { "qty": 3, "max": null, "unit": "l", "name": "water", "note": "plus more for parboiling" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "steeped in 1/2 cup hot water" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "uncooked white rice", "note": "for toasting and grinding" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "unsweetened creamy peanut butter", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "finely ground" },
-          { "qty": 1, "max": 2, "unit": "tbsp", "name": "fish sauce", "note": "" }
-        ]
-      },
-      {
-        "title": "Vegetables",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "banana blossom", "note": "tough outer layers removed, cut into eighths" },
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 2-inch pieces" },
-          { "qty": 200, "max": null, "unit": "g", "name": "string beans", "note": "cut into 3-inch lengths" },
-          { "qty": 2, "max": null, "unit": "", "name": "bunches bok choy", "note": "ends trimmed" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "sauteed shrimp paste (bagoong alamang)", "note": "" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the oxtail in a large pot, cover with water and bring to a boil. Boil until gray scum rises, then drain and rinse the pieces and the pot.", "minutes": 10 },
-      { "text": "Return the oxtail to the pot with the 3 liters of water, the quartered onion and the salt. Bring to a boil, skim, then cover and simmer until the meat pulls easily from the bone. Top up with hot water if it drops below the meat.", "minutes": 180 },
-      { "text": "While the oxtail cooks, toast the rice in a dry pan over medium heat, stirring, until deep golden. Cool and grind it to a fine powder in a spice grinder.", "minutes": null },
-      { "text": "Rub the steeping annatto seeds with your fingers to release the color, then strain and keep the orange water. Discard the seeds.", "minutes": null },
-      { "text": "Lift out the oxtail and set aside. Measure 6 cups of the cooking liquid and skim off most of the fat.", "minutes": null },
-      { "text": "Bring the remaining liquid to a boil and blanch the vegetables one kind at a time until just tender: banana blossom about 5 minutes, string beans and eggplant about 3 minutes, bok choy 1 minute. Drain and set aside.", "minutes": 12 },
-      { "text": "Heat the oil in a wide pot over medium heat. Saute the garlic and onion until soft and fragrant.", "minutes": null },
-      { "text": "Add the annatto water, peanut butter, ground peanuts and the 6 cups of reserved liquid. Whisk until smooth and bring to a simmer.", "minutes": null },
-      { "text": "Mix the ground toasted rice with 1/2 cup water and stir it into the sauce. Simmer, stirring often so it does not catch, until the sauce is thick enough to coat a spoon.", "minutes": 10 },
-      { "text": "Return the oxtail to the sauce and simmer to heat through. Season lightly with fish sauce; it should taste mild because it is eaten with shrimp paste.", "minutes": 10 },
-      { "text": "Arrange the oxtail and vegetables on a platter or in the pot and spoon the sauce over. Serve with steamed rice and a dish of sauteed shrimp paste.", "minutes": null }
-    ],
-    "tips": "A pressure cooker cuts the oxtail time to about 50 minutes at high pressure. Kare-kare thickens as it cools; loosen leftovers with a splash of water when reheating."
-  },
-  {
-    "slug": "kare-kare-with-tripe-and-oxtail",
-    "title": "Kare-kare with tripe and oxtail",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "peanut butter", "eggplant", "string beans", "bok choy", "shrimp paste"],
-    "prep": 40,
-    "cook": 200,
-    "servings": 8,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "The fiesta-style kare-kare: oxtail and honeycomb tripe braised soft, then folded into a nutty, orange peanut sauce with vegetables. The tripe soaks up the sauce and adds a pleasant chew next to the silky oxtail.",
-    "groups": [
-      {
-        "title": "For the meat",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "oxtail", "note": "cut into 2-inch pieces" },
-          { "qty": 750, "max": null, "unit": "g", "name": "honeycomb beef tripe", "note": "cleaned" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "for scrubbing the tripe, plus 1 tsp for cooking" },
-          { "qty": 3.5, "max": null, "unit": "l", "name": "water", "note": "plus more for parboiling" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "steeped in 1/2 cup hot water" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "uncooked white rice", "note": "for toasting and grinding" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 2, "max": null, "unit": "", "name": "onions", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "unsweetened creamy peanut butter", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "finely ground" },
-          { "qty": 1, "max": 2, "unit": "tbsp", "name": "fish sauce", "note": "" }
-        ]
-      },
-      {
-        "title": "Vegetables",
-        "items": [
-          { "qty": 3, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 2-inch pieces" },
-          { "qty": 250, "max": null, "unit": "g", "name": "string beans", "note": "cut into 3-inch lengths" },
-          { "qty": 3, "max": null, "unit": "", "name": "bunches bok choy", "note": "ends trimmed" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "sauteed shrimp paste (bagoong alamang)", "note": "" },
-          { "qty": 8, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Scrub the tripe all over with the 2 tablespoons of salt, then rinse well under running water.", "minutes": null },
-      { "text": "Put the oxtail and tripe in a large pot, cover with water and boil until scum rises. Drain, rinse the meat and clean the pot.", "minutes": 10 },
-      { "text": "Return the oxtail and tripe to the pot with the 3.5 liters of water, onion, peppercorns and 1 teaspoon salt. Bring to a boil, skim, then cover and simmer until the oxtail is tender and the tripe is soft enough to cut with a spoon. Add hot water as needed.", "minutes": 180 },
-      { "text": "Meanwhile, toast the rice in a dry pan, stirring, until deep golden. Cool and grind it fine. Rub and strain the annatto seeds, keeping the orange water.", "minutes": null },
-      { "text": "Lift out the meat. Cut the tripe into bite-size strips. Measure 7 cups of the cooking liquid and skim off the fat.", "minutes": null },
-      { "text": "Blanch the eggplant and string beans in the remaining liquid for about 3 minutes and the bok choy for 1 minute. Drain and set aside.", "minutes": 4 },
-      { "text": "Heat the oil in a wide pot over medium heat and saute the garlic and onions until soft.", "minutes": null },
-      { "text": "Add the annatto water, peanut butter, ground peanuts and the 7 cups of liquid. Whisk until smooth and bring to a simmer.", "minutes": null },
-      { "text": "Stir the ground rice into 1/2 cup water and add it to the sauce. Simmer, stirring often, until it coats a spoon.", "minutes": 10 },
-      { "text": "Add the oxtail and tripe and simmer to heat through. Season lightly with fish sauce.", "minutes": 10 },
-      { "text": "Top with the vegetables and serve with rice and sauteed shrimp paste.", "minutes": null }
-    ],
-    "tips": "Ask the butcher for tripe that has already been bleached and cleaned; it saves a lot of scrubbing. The tripe needs the full time, so check it, not the oxtail, before you start the sauce."
-  },
-  {
     "slug": "pork-hock-kare-kare",
     "title": "Pork hock kare-kare",
     "course": "ulam",
     "diets": [],
-    "key_ingredients": ["pork", "peanut butter", "eggplant", "string beans", "bok choy", "shrimp paste"],
+    "key_ingredients": [
+      "pork",
+      "peanut butter",
+      "eggplant",
+      "string beans",
+      "bok choy",
+      "shrimp paste"
+    ],
     "prep": 25,
     "cook": 140,
     "servings": 6,
@@ -150,248 +22,203 @@
       {
         "title": "For the pork",
         "items": [
-          { "qty": 1.5, "max": null, "unit": "kg", "name": "pork hock (pata)", "note": "cut crosswise into 2-inch rounds" },
-          { "qty": 2.5, "max": null, "unit": "l", "name": "water", "note": "plus more for parboiling" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "kg",
+            "name": "pork hock (pata)",
+            "note": "cut crosswise into 2-inch rounds"
+          },
+          {
+            "qty": 2.5,
+            "max": null,
+            "unit": "l",
+            "name": "water",
+            "note": "plus more for parboiling"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "quartered"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
         ]
       },
       {
         "title": "For the sauce",
         "items": [
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "steeped in 1/2 cup hot water" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "uncooked white rice", "note": "for toasting and grinding" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "unsweetened creamy peanut butter", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "finely ground" },
-          { "qty": 1, "max": 2, "unit": "tbsp", "name": "fish sauce", "note": "" }
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "annatto seeds",
+            "note": "steeped in 1/2 cup hot water"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "uncooked white rice",
+            "note": "for toasting and grinding"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "chopped"
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "unsweetened creamy peanut butter",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "roasted peanuts",
+            "note": "finely ground"
+          },
+          {
+            "qty": 1,
+            "max": 2,
+            "unit": "tbsp",
+            "name": "fish sauce",
+            "note": ""
+          }
         ]
       },
       {
         "title": "Vegetables",
         "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 2-inch pieces" },
-          { "qty": 200, "max": null, "unit": "g", "name": "string beans", "note": "cut into 3-inch lengths" },
-          { "qty": 2, "max": null, "unit": "", "name": "bunches bok choy", "note": "ends trimmed" }
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "long eggplants",
+            "note": "cut into 2-inch pieces"
+          },
+          {
+            "qty": 200,
+            "max": null,
+            "unit": "g",
+            "name": "string beans",
+            "note": "cut into 3-inch lengths"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "bunches bok choy",
+            "note": "ends trimmed"
+          }
         ]
       },
       {
         "title": "To serve",
         "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "sauteed shrimp paste (bagoong alamang)", "note": "" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "sauteed shrimp paste (bagoong alamang)",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "cup",
+            "name": "steamed white rice",
+            "note": ""
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Scrape any hairs off the pork skin with a knife. Cover the pork with water, bring to a boil and boil until scum rises. Drain and rinse.", "minutes": 10 },
-      { "text": "Return the pork to the pot with the 2.5 liters of water, onion, bay leaves and salt. Bring to a boil, skim, cover and simmer until the skin is soft and the meat is fork-tender.", "minutes": 105 },
-      { "text": "While the pork cooks, toast the rice in a dry pan until deep golden, cool and grind fine. Rub and strain the annatto seeds, keeping the orange water.", "minutes": null },
-      { "text": "Lift out the pork. Measure 5 cups of the cooking liquid and skim off most of the fat.", "minutes": null },
-      { "text": "Blanch the eggplant and string beans in the remaining liquid for about 3 minutes and the bok choy for 1 minute. Drain.", "minutes": 4 },
-      { "text": "Heat the oil in a wide pot and saute the garlic and onion until soft. Add the annatto water, peanut butter, ground peanuts and the 5 cups of liquid, and whisk until smooth.", "minutes": null },
-      { "text": "Stir the ground rice into 1/2 cup water, add it to the sauce and simmer, stirring often, until thick.", "minutes": 10 },
-      { "text": "Return the pork to the sauce and simmer to heat through. Season lightly with fish sauce.", "minutes": 8 },
-      { "text": "Arrange the vegetables over the pork and serve with rice and sauteed shrimp paste.", "minutes": null }
+      {
+        "text": "Scrape any hairs off the pork skin with a knife. Cover the pork with water, bring to a boil and boil until scum rises. Drain and rinse.",
+        "minutes": 10
+      },
+      {
+        "text": "Return the pork to the pot with the 2.5 liters of water, onion, bay leaves and salt. Bring to a boil, skim, cover and simmer until the skin is soft and the meat is fork-tender.",
+        "minutes": 105
+      },
+      {
+        "text": "While the pork cooks, toast the rice in a dry pan until deep golden, cool and grind fine. Rub and strain the annatto seeds, keeping the orange water.",
+        "minutes": null
+      },
+      {
+        "text": "Lift out the pork. Measure 5 cups of the cooking liquid and skim off most of the fat.",
+        "minutes": null
+      },
+      {
+        "text": "Blanch the eggplant and string beans in the remaining liquid for about 3 minutes and the bok choy for 1 minute. Drain.",
+        "minutes": 4
+      },
+      {
+        "text": "Heat the oil in a wide pot and saute the garlic and onion until soft. Add the annatto water, peanut butter, ground peanuts and the 5 cups of liquid, and whisk until smooth.",
+        "minutes": null
+      },
+      {
+        "text": "Stir the ground rice into 1/2 cup water, add it to the sauce and simmer, stirring often, until thick.",
+        "minutes": 10
+      },
+      {
+        "text": "Return the pork to the sauce and simmer to heat through. Season lightly with fish sauce.",
+        "minutes": 8
+      },
+      {
+        "text": "Arrange the vegetables over the pork and serve with rice and sauteed shrimp paste.",
+        "minutes": null
+      }
     ],
     "tips": "Have the butcher saw the hock into rounds for you; home knives will not get through the bone. Front hocks are meatier than back hocks."
-  },
-  {
-    "slug": "seafood-kare-kare",
-    "title": "Seafood kare-kare",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["shrimp", "squid", "mussels", "peanut butter", "eggplant", "shrimp paste"],
-    "prep": 30,
-    "cook": 40,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "A quick kare-kare made with shrimp, squid and mussels in a peanut sauce built on a stock from the shrimp heads. It cooks in under an hour and tastes sweet and briny under the nutty sauce.",
-    "groups": [
-      {
-        "title": "For the seafood",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "large shrimp", "note": "heads and shells removed and kept, tails left on" },
-          { "qty": 500, "max": null, "unit": "g", "name": "squid", "note": "cleaned, cut into rings" },
-          { "qty": 500, "max": null, "unit": "g", "name": "mussels", "note": "scrubbed and debearded" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "steeped in 1/2 cup hot water" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "toasted ground rice", "note": "or 2 tbsp glutinous rice flour" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "unsweetened creamy peanut butter", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" }
-        ]
-      },
-      {
-        "title": "Vegetables",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 2-inch pieces" },
-          { "qty": 200, "max": null, "unit": "g", "name": "string beans", "note": "cut into 3-inch lengths" },
-          { "qty": 2, "max": null, "unit": "", "name": "bunches bok choy", "note": "ends trimmed" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "sauteed shrimp paste (bagoong alamang)", "note": "" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the shrimp heads and shells in a pot with the water. Simmer, pressing the heads with a spoon to release their juices, then strain and keep the stock.", "minutes": 15 },
-      { "text": "Rub and strain the annatto seeds, keeping the orange water.", "minutes": null },
-      { "text": "Bring a small pot of salted water to a boil and blanch the eggplant and string beans for about 3 minutes and the bok choy for 1 minute. Drain.", "minutes": 4 },
-      { "text": "Heat the oil in a wide pot over medium heat and saute the garlic and onion until soft.", "minutes": null },
-      { "text": "Add 4 cups of the shrimp stock, the annatto water and the peanut butter. Whisk until smooth and bring to a simmer.", "minutes": null },
-      { "text": "Mix the ground rice with 1/4 cup water, stir it in and simmer, stirring often, until the sauce coats a spoon. Season with the fish sauce.", "minutes": 8 },
-      { "text": "Add the mussels, cover and cook until the shells open. Discard any that stay closed.", "minutes": 4 },
-      { "text": "Add the shrimp and squid and cook just until the shrimp turn pink and the squid turns opaque. Do not overcook or the squid will toughen.", "minutes": 2 },
-      { "text": "Top with the vegetables and serve right away with rice and sauteed shrimp paste.", "minutes": null }
-    ],
-    "tips": "Add a little more stock if the sauce gets too thick once the seafood goes in. Leftovers reheat poorly because the squid turns rubbery, so cook only what you will eat."
-  },
-  {
-    "slug": "lechon-kawali-kare-kare",
-    "title": "Lechon kawali kare-kare",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork belly", "peanut butter", "eggplant", "string beans", "bok choy", "shrimp paste"],
-    "prep": 20,
-    "cook": 110,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "Boiled-then-fried crisp pork belly served on a pool of peanut kare-kare sauce with vegetables. You get crackling skin and a soft, nutty sauce in the same bite.",
-    "groups": [
-      {
-        "title": "For the lechon kawali",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "skin-on pork belly", "note": "in 2 or 3 thick slabs" },
-          { "qty": 2, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "plus more for rubbing the skin" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for deep-frying" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "steeped in 1/2 cup hot water" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "toasted ground rice", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "unsweetened creamy peanut butter", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "finely ground" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" }
-        ]
-      },
-      {
-        "title": "Vegetables",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 2-inch pieces" },
-          { "qty": 200, "max": null, "unit": "g", "name": "string beans", "note": "cut into 3-inch lengths" },
-          { "qty": 2, "max": null, "unit": "", "name": "bunches bok choy", "note": "ends trimmed" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "sauteed shrimp paste (bagoong alamang)", "note": "" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork belly in a pot with the water, salt, peppercorns and bay leaves. Bring to a boil, skim, then simmer covered until a knife slides into the meat easily.", "minutes": 45 },
-      { "text": "Lift out the pork and keep 4 cups of the cooking liquid for the sauce. Pat the pork completely dry, rub the skin with a little salt and leave it uncovered on a rack in the fridge so the skin dries.", "minutes": 30 },
-      { "text": "Meanwhile, rub and strain the annatto seeds. Blanch the eggplant and string beans in boiling salted water for about 3 minutes and the bok choy for 1 minute. Drain.", "minutes": null },
-      { "text": "Heat 2 tablespoons of the frying oil in a wide pan and saute the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the 4 cups of cooking liquid, annatto water, peanut butter and ground peanuts and whisk until smooth. Stir the ground rice into 1/4 cup water, add it and simmer, stirring often, until thick. Season with fish sauce and keep warm.", "minutes": 10 },
-      { "text": "Heat the remaining oil in a deep, heavy pot to about 350 F (175 C). Lower in the pork with tongs, skin side down, and partly cover with a lid because it spatters. Fry, turning once, until the skin blisters and turns deep golden.", "minutes": 15 },
-      { "text": "Drain the pork on a rack for 5 minutes, then chop into thick strips.", "minutes": 5 },
-      { "text": "Spoon the warm sauce onto a platter, arrange the vegetables around it and put the pork on top so the skin stays crisp. Serve with rice and shrimp paste.", "minutes": null }
-    ],
-    "tips": "For the crispest skin, boil and dry the pork the day before and leave it uncovered in the fridge overnight. Never pour the sauce over the pork; serve it underneath."
-  },
-  {
-    "slug": "vegetable-kare-kare",
-    "title": "Vegetable kare-kare",
-    "course": "ulam",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["tofu", "peanut butter", "eggplant", "string beans", "banana blossom", "bok choy"],
-    "prep": 25,
-    "cook": 35,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Fried tofu and a full basket of vegetables in a thick, orange peanut sauce made with vegetable broth. It is mild, nutty and filling, and ready in about an hour.",
-    "groups": [
-      {
-        "title": "For the tofu",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "firm tofu", "note": "drained, patted dry and cut into large cubes" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "steeped in 1/4 cup hot water" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "unsweetened creamy peanut butter", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "finely ground" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "vegetable broth", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "toasted ground rice", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "Vegetables",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "small banana blossom", "note": "tough outer layers removed, cut into eighths" },
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 2-inch pieces" },
-          { "qty": 150, "max": null, "unit": "g", "name": "string beans", "note": "cut into 3-inch lengths" },
-          { "qty": 2, "max": null, "unit": "", "name": "bunches bok choy", "note": "ends trimmed" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 4, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a frying pan over medium-high heat and fry the tofu, turning, until golden on all sides. Drain on paper towels.", "minutes": 8 },
-      { "text": "Bring a pot of salted water to a boil. Blanch the banana blossom until tender, about 5 minutes, then the eggplant and string beans for about 3 minutes and the bok choy for 1 minute. Drain.", "minutes": 10 },
-      { "text": "Rub and strain the annatto seeds, keeping the orange water.", "minutes": null },
-      { "text": "Pour off all but 2 tablespoons of oil from the frying pan, or use a wide pot with fresh oil. Saute the garlic and onion over medium heat until soft.", "minutes": null },
-      { "text": "Add the vegetable broth, annatto water, peanut butter and ground peanuts and whisk until smooth.", "minutes": null },
-      { "text": "Stir the ground rice into 1/4 cup water, add it and simmer, stirring often, until the sauce coats a spoon. Season with salt.", "minutes": 8 },
-      { "text": "Add the tofu and vegetables, spoon the sauce over and simmer just to heat through. Serve with rice.", "minutes": 3 }
-    ],
-    "tips": "If you are not cooking for vegetarians, serve it with sauteed shrimp paste on the side as usual and go easy on the salt."
   },
   {
     "slug": "pork-dinuguan",
     "title": "Pork dinuguan",
     "course": "ulam",
     "diets": [],
-    "key_ingredients": ["pork", "vinegar", "garlic", "onion", "chili", "fish sauce"],
+    "key_ingredients": [
+      "pork",
+      "vinegar",
+      "garlic",
+      "onion",
+      "chili",
+      "fish sauce"
+    ],
     "prep": 15,
     "cook": 60,
     "servings": 6,
@@ -402,579 +229,160 @@
       {
         "title": "",
         "items": [
-          { "qty": 750, "max": null, "unit": "g", "name": "pork shoulder (kasim)", "note": "cut into 1-inch cubes" },
-          { "qty": 250, "max": null, "unit": "g", "name": "pork belly", "note": "cut into 1-inch cubes" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "fresh pork blood", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "plus 1 tbsp for the blood" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "chopped" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "" },
-          { "qty": 1, "max": 2, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
+          {
+            "qty": 750,
+            "max": null,
+            "unit": "g",
+            "name": "pork shoulder (kasim)",
+            "note": "cut into 1-inch cubes"
+          },
+          {
+            "qty": 250,
+            "max": null,
+            "unit": "g",
+            "name": "pork belly",
+            "note": "cut into 1-inch cubes"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "fresh pork blood",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": "plus 1 tbsp for the blood"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "large onion",
+            "note": "chopped"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "fish sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "long green chilies (siling haba)",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": 2,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "salt and ground black pepper",
+            "note": ""
+          }
         ]
       },
       {
         "title": "To serve",
         "items": [
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "or puto" }
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "cup",
+            "name": "steamed white rice",
+            "note": "or puto"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Stir 1 tablespoon of vinegar into the blood and keep it in the fridge until needed. If it has started to clot, press it through a sieve.", "minutes": null },
-      { "text": "Heat the oil in a heavy pot over medium heat. Saute the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the pork and cook, stirring, until it loses its pink color and some fat renders. Season with the fish sauce and cook until the pork starts to brown.", "minutes": 8 },
-      { "text": "Add the water and bay leaves, bring to a boil, then cover and simmer until the pork is tender.", "minutes": 35 },
-      { "text": "Pour in the 1/2 cup vinegar and boil <strong>without stirring</strong> so the raw sharpness cooks off.", "minutes": 3 },
-      { "text": "Lower the heat to medium-low. Pour in the blood in a thin stream while stirring constantly so it does not curdle into lumps.", "minutes": null },
-      { "text": "Keep stirring and simmer until the sauce darkens and thickens to a gravy. Add the chilies and sugar in the last few minutes.", "minutes": 12 },
-      { "text": "Season with salt and pepper. Remove the bay leaves and serve hot with rice or puto.", "minutes": null }
+      {
+        "text": "Stir 1 tablespoon of vinegar into the blood and keep it in the fridge until needed. If it has started to clot, press it through a sieve.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a heavy pot over medium heat. Saute the garlic and onion until soft.",
+        "minutes": null
+      },
+      {
+        "text": "Add the pork and cook, stirring, until it loses its pink color and some fat renders. Season with the fish sauce and cook until the pork starts to brown.",
+        "minutes": 8
+      },
+      {
+        "text": "Add the water and bay leaves, bring to a boil, then cover and simmer until the pork is tender.",
+        "minutes": 35
+      },
+      {
+        "text": "Pour in the 1/2 cup vinegar and boil <strong>without stirring</strong> so the raw sharpness cooks off.",
+        "minutes": 3
+      },
+      {
+        "text": "Lower the heat to medium-low. Pour in the blood in a thin stream while stirring constantly so it does not curdle into lumps.",
+        "minutes": null
+      },
+      {
+        "text": "Keep stirring and simmer until the sauce darkens and thickens to a gravy. Add the chilies and sugar in the last few minutes.",
+        "minutes": 12
+      },
+      {
+        "text": "Season with salt and pepper. Remove the bay leaves and serve hot with rice or puto.",
+        "minutes": null
+      }
     ],
     "tips": "Buy the blood the same day you cook it and keep it cold. Constant stirring after the blood goes in is what keeps the sauce smooth."
-  },
-  {
-    "slug": "dinuguan-with-pork-intestines",
-    "title": "Dinuguan with pork intestines",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork", "pork offal", "vinegar", "garlic", "ginger", "chili"],
-    "prep": 40,
-    "cook": 100,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "Dinuguan made the old-fashioned way, with chewy pork intestines alongside pork belly in a dark, tangy blood gravy. The intestines add a soft bite and a deeper, meatier flavor.",
-    "groups": [
-      {
-        "title": "For the intestines",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pork small intestines", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "coarse salt", "note": "for cleaning" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "vinegar", "note": "for cleaning" },
-          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "l", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the dinuguan",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pork belly", "note": "cut into 1-inch cubes" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "fresh pork blood", "note": "mixed with 1 tbsp vinegar" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "chopped" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Turn the intestines inside out if they are not already. Rub them well with the coarse salt and vinegar, scrape off any fat and slime, and rinse in several changes of water until they no longer smell strong.", "minutes": null },
-      { "text": "Put the intestines in a pot with the 2 liters of water and the ginger. Boil, then drain, refill with fresh water and simmer until tender.", "minutes": 60 },
-      { "text": "Drain the intestines, let them cool a little and cut into 1-inch pieces.", "minutes": null },
-      { "text": "Heat the oil in a heavy pot over medium heat and saute the garlic and onion until soft. Add the pork belly and fish sauce and cook until lightly browned.", "minutes": 8 },
-      { "text": "Add the intestines and the 1 1/2 cups water. Cover and simmer until the pork belly is tender.", "minutes": 25 },
-      { "text": "Pour in the vinegar and boil without stirring.", "minutes": 3 },
-      { "text": "Lower the heat and pour in the blood in a thin stream, stirring constantly.", "minutes": null },
-      { "text": "Keep stirring and simmer until the sauce is thick and dark. Add the chilies and sugar near the end and season with salt and pepper.", "minutes": 12 },
-      { "text": "Serve hot with rice or puto.", "minutes": null }
-    ],
-    "tips": "Many wet markets sell intestines already cleaned; still give them a salt-and-vinegar rub and a first boil to drain off. You can boil the intestines a day ahead and keep them in the fridge."
-  },
-  {
-    "slug": "chicken-dinuguan",
-    "title": "Chicken dinuguan",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["chicken", "vinegar", "ginger", "garlic", "onion", "chili"],
-    "prep": 15,
-    "cook": 45,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Chicken pieces cooked in a dark, gingery blood gravy soured with vinegar. It is lighter and quicker than pork dinuguan but just as rich and savory.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "chicken", "note": "cut into small serving pieces" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "fresh pork or chicken blood", "note": "mixed with 1 tbsp vinegar" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 4, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a heavy pot over medium heat. Saute the garlic, onion and ginger until fragrant.", "minutes": null },
-      { "text": "Add the chicken and fish sauce and cook, stirring, until the chicken is lightly browned.", "minutes": 8 },
-      { "text": "Add the water, cover and simmer until the chicken is cooked through.", "minutes": 20 },
-      { "text": "Pour in the vinegar and boil without stirring.", "minutes": 3 },
-      { "text": "Lower the heat to medium-low and pour in the blood in a thin stream while stirring constantly.", "minutes": null },
-      { "text": "Keep stirring and simmer until the gravy is thick and dark. Add the chilies and sugar and season with salt and pepper.", "minutes": 10 },
-      { "text": "Serve hot with rice.", "minutes": null }
-    ],
-    "tips": "Chicken blood is hard to find in many places; pork blood from the market works the same way. Thighs and wings stay juicier than breast meat here."
-  },
-  {
-    "slug": "tuyong-dinuguan",
-    "title": "Tuyong dinuguan",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork belly", "vinegar", "garlic", "onion", "chili", "fish sauce"],
-    "prep": 15,
-    "cook": 75,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Dry-style dinuguan: pork belly is boiled, browned in its own fat, then cooked with blood until the sauce reduces to a dark, sticky coating. It is intense, savory and slightly sour, and it goes a long way with rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "pork belly", "note": "cut into 1-inch cubes" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "fresh pork blood", "note": "mixed with 1 tbsp vinegar" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 3, "max": 5, "unit": "", "name": "bird's eye chilies (siling labuyo)", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork belly, water and salt in a wide, heavy pan. Bring to a boil, then simmer uncovered until the water has evaporated and the pork is tender.", "minutes": 35 },
-      { "text": "Keep cooking over medium heat, stirring now and then, as the fat renders. Fry the pork in its own fat until the edges are golden brown.", "minutes": 12 },
-      { "text": "Spoon off all but about 3 tablespoons of fat. Add the garlic and onion and cook until soft and fragrant.", "minutes": null },
-      { "text": "Add the vinegar and let it boil without stirring until most of it has evaporated.", "minutes": 3 },
-      { "text": "Lower the heat to medium-low. Pour in the blood a little at a time, stirring constantly.", "minutes": null },
-      { "text": "Keep stirring and scraping the bottom of the pan until the blood darkens and reduces to a thick paste that clings to the pork with almost no liquid left.", "minutes": 15 },
-      { "text": "Stir in the fish sauce, chilies, pepper and sugar. Taste, adjust and serve hot with rice.", "minutes": null }
-    ],
-    "tips": "Use a nonstick or well-seasoned pan for the final reduction; the blood sticks easily once the liquid is gone. Keep the heat moderate so it darkens without burning."
-  },
-  {
-    "slug": "tinumis",
-    "title": "Tinumis",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork", "tamarind", "garlic", "onion", "chili", "fish sauce"],
-    "prep": 20,
-    "cook": 70,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "A dinuguan soured with fresh tamarind instead of vinegar, giving the dark blood gravy a fruity, rounder sourness. It is saucy and savory, with chili leaves stirred in at the end.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pork shoulder (kasim)", "note": "cut into 1-inch cubes" },
-          { "qty": 300, "max": null, "unit": "g", "name": "pork belly", "note": "cut into 1-inch cubes" },
-          { "qty": 250, "max": null, "unit": "g", "name": "unripe tamarind pods", "note": "or 2 tbsp tamarind paste" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "divided" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "fresh pork blood", "note": "mixed with 1 tbsp vinegar" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "chopped" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "chili leaves (dahon ng sili)", "note": "loosely packed, or young tamarind leaves" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rinse the tamarind pods and boil them in 1 1/2 cups of the water until soft and the skins split.", "minutes": 15 },
-      { "text": "Mash the tamarind in its water, then press it through a sieve and keep the sour juice. Discard the skins and seeds.", "minutes": null },
-      { "text": "Heat the oil in a heavy pot over medium heat and saute the garlic and onion until soft. Add the pork and fish sauce and cook until lightly browned.", "minutes": 8 },
-      { "text": "Add the remaining 1 1/2 cups water, cover and simmer until the pork is tender.", "minutes": 35 },
-      { "text": "Stir in the tamarind juice a little at a time, tasting, until the broth is as sour as you like.", "minutes": null },
-      { "text": "Lower the heat and pour in the blood in a thin stream, stirring constantly. Keep stirring and simmer until the sauce thickens and darkens.", "minutes": 12 },
-      { "text": "Add the long green chilies and chili leaves and cook until the leaves wilt. Season with salt and serve hot with rice.", "minutes": 2 }
-    ],
-    "tips": "Tamarind varies a lot in sourness, so always add the juice gradually. Leftovers thicken overnight; loosen them with a little water when reheating."
-  },
-  {
-    "slug": "tidtad",
-    "title": "Tidtad",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork", "pork offal", "vinegar", "garlic", "onion", "chili"],
-    "prep": 25,
-    "cook": 50,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "A Kapampangan-style dinuguan with the pork and liver chopped small, cooked down until the blood gravy is thick and spoonable. It is darker and more concentrated than the soupy kind, with a clean vinegar tang.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 600, "max": null, "unit": "g", "name": "pork shoulder (kasim)", "note": "cut into 1/2-inch dice" },
-          { "qty": 200, "max": null, "unit": "g", "name": "pork belly", "note": "cut into 1/2-inch dice" },
-          { "qty": 200, "max": null, "unit": "g", "name": "pork liver", "note": "cut into 1/2-inch dice" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "fresh pork blood", "note": "mixed with 1 tbsp vinegar" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "finely chopped" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "or puto" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a heavy pot over medium heat. Add the pork belly and cook until it renders some fat and starts to brown.", "minutes": 6 },
-      { "text": "Add the garlic and onion and saute until soft. Add the pork shoulder and fish sauce and cook, stirring, until no longer pink.", "minutes": 6 },
-      { "text": "Add the water, cover and simmer until the pork is tender and most of the liquid is gone.", "minutes": 25 },
-      { "text": "Pour in the vinegar and boil without stirring. Add the liver and cook just until it changes color.", "minutes": 3 },
-      { "text": "Lower the heat and pour in the blood in a thin stream, stirring constantly.", "minutes": null },
-      { "text": "Keep stirring and simmer until the gravy turns very dark and thick enough to mound on a spoon.", "minutes": 12 },
-      { "text": "Stir in the chilies and sugar, season with salt and pepper, and serve with rice or puto.", "minutes": null }
-    ],
-    "tips": "Cutting everything small is the point here: every spoonful should have meat, liver and gravy together. Add the liver late so it stays soft."
-  },
-  {
-    "slug": "igado",
-    "title": "Igado",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork", "pork offal", "soy sauce", "vinegar", "garlic", "bell pepper"],
-    "prep": 30,
-    "cook": 40,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Strips of pork tenderloin, liver and heart braised in soy sauce, vinegar and bay leaves, finished with green peas and red bell pepper. It is savory, tangy and peppery, a lot like adobo with the richness of liver.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pork tenderloin or shoulder", "note": "cut into thin strips" },
-          { "qty": 250, "max": null, "unit": "g", "name": "pork heart", "note": "trimmed, cut into thin strips" },
-          { "qty": 300, "max": null, "unit": "g", "name": "pork liver", "note": "cut into thin strips" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "or Ilocano sugarcane vinegar" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "green peas", "note": "frozen is fine" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork and heart in one bowl and the liver in another. Pour half of the soy sauce and vinegar over each and leave to marinate.", "minutes": 15 },
-      { "text": "Heat the oil in a wide pan over medium heat and saute the garlic and onion until soft.", "minutes": null },
-      { "text": "Lift the pork and heart out of the marinade and stir-fry until lightly browned.", "minutes": 6 },
-      { "text": "Add the marinade from the pork, the water, bay leaves and pepper. Bring to a boil, then cover and simmer until the pork and heart are tender.", "minutes": 25 },
-      { "text": "Add the liver with its marinade and cook, stirring, just until it is no longer pink inside.", "minutes": 4 },
-      { "text": "Add the bell pepper and peas and cook until the pepper softens slightly. Season with salt and serve with rice.", "minutes": 3 }
-    ],
-    "tips": "Liver turns grainy and hard if it cooks too long, so add it last and take the pan off the heat as soon as it is done. Kidney is a traditional addition; soak it in salted water for 30 minutes first."
-  },
-  {
-    "slug": "bopis",
-    "title": "Bopis",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork offal", "vinegar", "garlic", "chili", "carrot", "annatto"],
-    "prep": 30,
-    "cook": 75,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Pork lungs and heart, boiled and minced fine, then sauteed with garlic, chilies, vinegar and annatto until almost dry. It is spicy, tangy and savory, eaten with rice or as pulutan with drinks.",
-    "groups": [
-      {
-        "title": "For boiling",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pork lungs", "note": "rinsed well" },
-          { "qty": 300, "max": null, "unit": "g", "name": "pork heart", "note": "trimmed" },
-          { "qty": 2, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "For the saute",
-        "items": [
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "annatto powder", "note": "or 1 tbsp seeds fried in the oil and removed" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "finely diced" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "finely diced" },
-          { "qty": 3, "max": 6, "unit": "", "name": "bird's eye chilies (siling labuyo)", "note": "chopped" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "from boiling the offal" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the lungs and heart in a pot with the water, bay leaves, peppercorns and salt. Bring to a boil, skim off the foam, then simmer until both are tender.", "minutes": 45 },
-      { "text": "Drain, keeping 1 cup of the cooking water. Let the offal cool until you can handle it.", "minutes": 10 },
-      { "text": "Chop the lungs and heart very finely by hand or pulse briefly in a food processor. Squeeze the chopped lungs gently to remove excess water.", "minutes": null },
-      { "text": "Heat the oil with the annatto in a wide pan over medium heat. Saute the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the minced offal and stir-fry until it starts to dry out and sizzle.", "minutes": 5 },
-      { "text": "Pour in the vinegar and let it boil without stirring.", "minutes": 3 },
-      { "text": "Add the carrot, bell pepper, chilies, reserved cooking water, fish sauce and pepper. Simmer, stirring now and then, until the liquid is almost gone.", "minutes": 15 },
-      { "text": "Taste, adjust the salt and heat, and serve with rice.", "minutes": null }
-    ],
-    "tips": "Bopis keeps well for 3 days in the fridge and makes a good filling for pandesal. If you can find it, use some pork ear or snout for extra bite."
-  },
-  {
-    "slug": "papaitan",
-    "title": "Papaitan",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["goat", "ginger", "onion", "garlic", "chili", "fish sauce"],
-    "prep": 40,
-    "cook": 120,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "Goat meat and innards stewed in a gingery broth that is made pleasantly bitter with a little bile. It is hot, sour-bitter and deeply savory, and people who love it really love it.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "goat meat", "note": "cut into 1-inch pieces" },
-          { "qty": 500, "max": null, "unit": "g", "name": "goat tripe and intestines", "note": "cleaned, cut into 1-inch pieces" },
-          { "qty": 200, "max": null, "unit": "g", "name": "goat liver", "note": "cut into 1-inch pieces" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 3, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 1, "max": 2, "unit": "tsp", "name": "goat bile (apdo)", "note": "add to taste" },
-          { "qty": 4, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "chili leaves (dahon ng sili)", "note": "loosely packed" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rinse the tripe and intestines well. Put them in a pot with water, bring to a boil, then drain to remove the strong smell.", "minutes": 10 },
-      { "text": "Heat the oil in a large pot over medium heat. Saute the ginger, garlic and onion until fragrant.", "minutes": null },
-      { "text": "Add the goat meat, tripe and intestines and the fish sauce. Stir-fry until the meat changes color.", "minutes": 8 },
-      { "text": "Pour in the water, bring to a boil and skim. Cover and simmer until the meat and tripe are tender, adding hot water if needed to keep everything covered.", "minutes": 90 },
-      { "text": "Add the liver and simmer until cooked through.", "minutes": 5 },
-      { "text": "Mix 1/2 teaspoon of the bile with a ladle of the hot broth and stir it in. Taste, and add more the same way until the bitterness is to your liking.", "minutes": null },
-      { "text": "Add the long green chilies and chili leaves and simmer until the leaves wilt. Season with salt and pepper and serve hot.", "minutes": 2 }
-    ],
-    "tips": "Go slowly with the bile; you can always add more, but you cannot take it back. A pressure cooker cuts the goat simmering time to about 35 minutes."
-  },
-  {
-    "slug": "kilayin",
-    "title": "Kilayin",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork", "pork offal", "vinegar", "garlic", "onion"],
-    "prep": 25,
-    "cook": 70,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Diced pork, lungs, heart and liver simmered in plenty of vinegar with garlic, bay leaves and black pepper. The sauce is sharp, peppery and savory, and it is meant to be spooned over a lot of rice.",
-    "groups": [
-      {
-        "title": "For boiling",
-        "items": [
-          { "qty": 300, "max": null, "unit": "g", "name": "pork belly", "note": "in one piece" },
-          { "qty": 300, "max": null, "unit": "g", "name": "pork lungs", "note": "rinsed well" },
-          { "qty": 250, "max": null, "unit": "g", "name": "pork heart", "note": "trimmed" },
-          { "qty": 1.5, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "For the kilayin",
-        "items": [
-          { "qty": 200, "max": null, "unit": "g", "name": "pork liver", "note": "cut into 1/2-inch dice" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "chopped" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "from boiling the pork" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "coarsely ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork belly, lungs and heart in a pot with the water and salt. Bring to a boil, skim, then simmer until tender.", "minutes": 40 },
-      { "text": "Drain, keeping 1 cup of the cooking water. When cool enough to handle, cut everything into 1/2-inch dice.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium heat and saute the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the diced pork and offal and stir-fry until the edges brown a little.", "minutes": 5 },
-      { "text": "Pour in the vinegar and boil without stirring.", "minutes": 3 },
-      { "text": "Add the reserved cooking water, bay leaves and pepper. Simmer until the sauce reduces by about half.", "minutes": 12 },
-      { "text": "Add the liver and cook just until it is no longer pink. Stir in the sugar, season with salt and serve hot.", "minutes": 4 }
-    ],
-    "tips": "Kilayin should taste clearly sour; if yours is too mild, add a splash of vinegar at the end and let it boil for a minute."
-  },
-  {
-    "slug": "kilawing-kambing",
-    "title": "Kilawing kambing",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["goat", "vinegar", "ginger", "onion", "chili", "calamansi"],
-    "prep": 25,
-    "cook": 75,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Tender goat with its skin, boiled and lightly grilled, then sliced and tossed with sugarcane vinegar, ginger, red onion and chilies. It is sharp, smoky and fiery, a favorite pulutan that also works with rice.",
-    "groups": [
-      {
-        "title": "For the goat",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "skin-on goat meat", "note": "in large pieces" },
-          { "qty": 2, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "For dressing",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "Ilocano sugarcane vinegar (sukang Iloko)", "note": "or cane vinegar" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
-          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "finely chopped" },
-          { "qty": 2, "max": null, "unit": "", "name": "red onions", "note": "thinly sliced" },
-          { "qty": 4, "max": 8, "unit": "", "name": "bird's eye chilies (siling labuyo)", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "goat bile (apdo)", "note": "optional" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Scrape the goat skin clean with a knife and rinse. Put the goat in a pot with the water, sliced ginger and salt. Bring to a boil, skim, then cover and simmer until tender but not falling apart.", "minutes": 60 },
-      { "text": "Drain the goat and pat dry. Light a charcoal grill or heat a grill pan over high heat.", "minutes": null },
-      { "text": "Grill the goat, turning, until the skin blisters and chars in spots.", "minutes": 10 },
-      { "text": "Let it rest a few minutes, then slice thinly across the grain, skin and all.", "minutes": null },
-      { "text": "In a bowl, mix the vinegar, calamansi juice, chopped ginger, onions, chilies, salt, pepper and the bile if using.", "minutes": null },
-      { "text": "Add the warm goat, toss well and let it stand so the meat soaks up the dressing. Taste and adjust the salt and vinegar before serving.", "minutes": 10 }
-    ],
-    "tips": "Mixing the goat while it is still warm helps it absorb the vinegar. Add the bile a few drops at a time; it should give a faint bitterness, not overpower."
-  },
-  {
-    "slug": "dinakdakan",
-    "title": "Dinakdakan",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork", "pork offal", "onion", "ginger", "chili", "vinegar"],
-    "prep": 20,
-    "cook": 80,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Boiled and grilled pig's ears and face, sliced thin and tossed with onion, ginger, chilies and vinegar in a creamy dressing. It is smoky, chewy, tangy and hot, and it is usually served as pulutan.",
-    "groups": [
-      {
-        "title": "For the pork",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pig's ears", "note": "cleaned" },
-          { "qty": 500, "max": null, "unit": "g", "name": "pork face or jowl (maskara)", "note": "cleaned" },
-          { "qty": 2.5, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" }
-        ]
-      },
-      {
-        "title": "For the dressing",
-        "items": [
-          { "qty": 100, "max": null, "unit": "g", "name": "pork brain", "note": "or 1/3 cup mayonnaise" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "red onions", "note": "finely chopped" },
-          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "finely chopped" },
-          { "qty": 4, "max": 8, "unit": "", "name": "bird's eye chilies (siling labuyo)", "note": "chopped" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the ears and face in a pot with the water, salt, peppercorns and bay leaves. Bring to a boil, skim, then simmer until tender.", "minutes": 60 },
-      { "text": "If using the brain, add it to the pot for the last 10 minutes, then lift it out and mash it smooth with a fork.", "minutes": null },
-      { "text": "Drain the pork and pat dry. Grill over hot charcoal or in a grill pan, turning, until the skin is lightly charred and crisp at the edges.", "minutes": 15 },
-      { "text": "Slice the grilled pork into thin strips.", "minutes": null },
-      { "text": "In a large bowl, whisk the mashed brain or mayonnaise with the vinegar and calamansi juice. Stir in the onions, ginger and chilies.", "minutes": null },
-      { "text": "Add the pork, toss to coat and season with salt and pepper. Serve at room temperature.", "minutes": null }
-    ],
-    "tips": "Mayonnaise is the common home stand-in for brain and gives a similar creamy dressing. Toss the pork while it is still warm so it takes on the flavor."
   },
   {
     "slug": "pork-sisig",
     "title": "Pork sisig",
     "course": "ulam",
     "diets": [],
-    "key_ingredients": ["pork", "chicken liver", "onion", "calamansi", "chili"],
+    "key_ingredients": [
+      "pork",
+      "chicken liver",
+      "onion",
+      "calamansi",
+      "chili"
+    ],
     "prep": 20,
     "cook": 90,
     "servings": 6,
@@ -985,86 +393,135 @@
       {
         "title": "For the pork",
         "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pig's ears", "note": "cleaned" },
-          { "qty": 500, "max": null, "unit": "g", "name": "pork face or jowl (maskara)", "note": "cleaned" },
-          { "qty": 2.5, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" }
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pig's ears",
+            "note": "cleaned"
+          },
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork face or jowl (maskara)",
+            "note": "cleaned"
+          },
+          {
+            "qty": 2.5,
+            "max": null,
+            "unit": "l",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "whole black peppercorns",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          }
         ]
       },
       {
         "title": "For the sisig",
         "items": [
-          { "qty": 150, "max": null, "unit": "g", "name": "chicken livers", "note": "or pork liver" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "red onions", "note": "finely chopped" },
-          { "qty": 4, "max": 8, "unit": "", "name": "bird's eye chilies (siling labuyo)", "note": "chopped" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "calamansi juice", "note": "from about 10 calamansi, plus halves to serve" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
+          {
+            "qty": 150,
+            "max": null,
+            "unit": "g",
+            "name": "chicken livers",
+            "note": "or pork liver"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "red onions",
+            "note": "finely chopped"
+          },
+          {
+            "qty": 4,
+            "max": 8,
+            "unit": "",
+            "name": "bird's eye chilies (siling labuyo)",
+            "note": "chopped"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "calamansi juice",
+            "note": "from about 10 calamansi, plus halves to serve"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "salt",
+            "note": ""
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Put the ears and face in a pot with the water, salt, peppercorns and bay leaves. Bring to a boil, skim, then simmer until tender but not falling apart.", "minutes": 60 },
-      { "text": "Drain and pat completely dry. Grill over hot charcoal or under a hot broiler, turning, until the skin is blistered and crisp in places.", "minutes": 15 },
-      { "text": "Meanwhile, pan-fry or grill the livers in the oil until just cooked through. Chop them finely.", "minutes": 5 },
-      { "text": "Chop the grilled pork into very small pieces, about the size of a pea.", "minutes": null },
-      { "text": "Heat a wide, heavy pan over high heat with a spoonful of the pork fat that has collected. Add the pork and liver and stir-fry until sizzling and crisp at the edges.", "minutes": 4 },
-      { "text": "Take the pan off the heat and stir in most of the onions, the chilies, calamansi juice and pepper. Season with salt.", "minutes": null },
-      { "text": "Top with the rest of the onions and serve with calamansi halves for squeezing.", "minutes": null }
+      {
+        "text": "Put the ears and face in a pot with the water, salt, peppercorns and bay leaves. Bring to a boil, skim, then simmer until tender but not falling apart.",
+        "minutes": 60
+      },
+      {
+        "text": "Drain and pat completely dry. Grill over hot charcoal or under a hot broiler, turning, until the skin is blistered and crisp in places.",
+        "minutes": 15
+      },
+      {
+        "text": "Meanwhile, pan-fry or grill the livers in the oil until just cooked through. Chop them finely.",
+        "minutes": 5
+      },
+      {
+        "text": "Chop the grilled pork into very small pieces, about the size of a pea.",
+        "minutes": null
+      },
+      {
+        "text": "Heat a wide, heavy pan over high heat with a spoonful of the pork fat that has collected. Add the pork and liver and stir-fry until sizzling and crisp at the edges.",
+        "minutes": 4
+      },
+      {
+        "text": "Take the pan off the heat and stir in most of the onions, the chilies, calamansi juice and pepper. Season with salt.",
+        "minutes": null
+      },
+      {
+        "text": "Top with the rest of the onions and serve with calamansi halves for squeezing.",
+        "minutes": null
+      }
     ],
     "tips": "The grilling step is where the flavor comes from, so take the skin right to the edge of charring. Boiled pork can be kept in the fridge for 2 days and grilled when needed."
-  },
-  {
-    "slug": "sizzling-sisig",
-    "title": "Sizzling sisig",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork belly", "egg", "onion", "calamansi", "chili", "soy sauce"],
-    "prep": 15,
-    "cook": 80,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Crispy chopped pork belly and ears served on a smoking-hot iron plate, topped with a raw egg that cooks at the table. The edges crisp up as it sizzles, and the egg and butter make it rich and savory.",
-    "groups": [
-      {
-        "title": "For the pork",
-        "items": [
-          { "qty": 600, "max": null, "unit": "g", "name": "skin-on pork belly", "note": "in one piece" },
-          { "qty": 250, "max": null, "unit": "g", "name": "pig's ears", "note": "cleaned" },
-          { "qty": 2, "max": null, "unit": "l", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" }
-        ]
-      },
-      {
-        "title": "For the sisig",
-        "items": [
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "onions", "note": "finely chopped" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "plus halves to serve" },
-          { "qty": 3, "max": 6, "unit": "", "name": "bird's eye chilies (siling labuyo)", "note": "chopped" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "mayonnaise", "note": "optional" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork belly and ears in a pot with the water, salt and bay leaves. Bring to a boil, skim, then simmer until tender.", "minutes": 45 },
-      { "text": "Drain and pat dry. Grill or broil, turning, until the skin is crisp and charred in spots.", "minutes": 15 },
-      { "text": "Chop the pork and ears into small pieces.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium-high heat. Saute the garlic and half the onions until soft, then add the pork and stir-fry until the bits are crisp.", "minutes": 6 },
-      { "text": "Stir in the soy sauce, calamansi juice, chilies and pepper. Take off the heat and fold in the remaining onions and the mayonnaise if using.", "minutes": null },
-      { "text": "Heat a cast-iron sizzling plate directly over a high flame until very hot.", "minutes": 5 },
-      { "text": "Melt the butter on the plate, pile on the sisig and crack the egg in the center. Set the plate on its wooden board and serve right away, mixing the egg in at the table.", "minutes": null }
-    ],
-    "tips": "No sizzling plate? Use a very hot cast-iron skillet and serve straight from it. Always set the hot plate on its wooden base, never directly on the table."
   }
 ]

@@ -131,13 +131,14 @@ Same model as the other two projects: crawl local WordPress, export to `dist/`, 
 
 ## 8. Launch content
 
-**1,022 recipes** (owner asked for at least 1,000, 2026-10-11): Filipino dishes plus real
-home variations, no other cuisines. Ulam 559, merienda 189, sabaw 96, panghimagas 73,
-almusal 60, inumin 45; 312 vegetarian, 246 pescatarian; 228 take 30 minutes or less.
+**50 recipes**, the best-known dishes across every course: ulam 26, sabaw 6, merienda 7,
+almusal 4, panghimagas 4, inumin 3; 25 have photos. Owner's call (2026-10-11): 1,022
+were written and seeded first, then cut to these 50. The full 1,022 are in git at commit
+`4e01e02` (`git show 4e01e02:scripts/recipes/<file>.json`) if any are wanted back: restore
+the JSON, validate, re-seed.
 
 - Data lives in `scripts/recipes/*.json` (shape and writing rules in that folder's
-  README), one file group per dish family (01 adobo ... 21 inumin). Written by parallel
-  writers, each with an exclusive scope, then de-duplicated centrally.
+  README), file names kept from the original dish-family batches (01 adobo ... 21 inumin).
 - `node scripts/validate-recipes.mjs` must pass before seeding: field rules, unit
   whitelist, key-ingredient vocabulary, diet claims checked against the ingredient list,
   duplicate slugs and titles across files. `--own <files>` checks only those files.
@@ -146,12 +147,10 @@ almusal 60, inumin 45; 312 vegetarian, 246 pescatarian; 228 take 30 minutes or l
   Publish dates are one hour apart in a stable hash order so "latest" lists mix courses;
   chicken adobo is pinned newest (it's the home page's "Tonight").
 - Diet labels are only vegetarian and pescatarian: no allergen claims.
-- **Photos**: CC0/public-domain only, so most recipes have none and show the
-  course-coloured plate. Add photos per recipe as matching ones are found; never a
-  mismatched dish.
-- Some recipes were flagged by their writers as less certain (regional dishes with
-  varying methods, e.g. turrones de casuy, etag soup, baye-baye, pyanggang). They pass the
-  rules but are the first to check if a reader reports a problem.
+- **Photos**: CC0/public-domain only (`scripts/images/`, sources in `*-credits.json`), each
+  checked by eye to show that dish. 25 of 50 have one; the rest show the course-tinted
+  plate. Add photos as matching ones are found; never a mismatched dish. The photo search
+  was stopped by the owner on 2026-10-11.
 
 ## 9. Build order
 
@@ -171,8 +170,8 @@ almusal 60, inumin 45; 312 vegetarian, 246 pescatarian; 228 take 30 minutes or l
    `/wp-json/kusina/v1/index`) and shopping list (`/list/`, block `kusina/shopping-list`,
    "Add to shopping list" on every recipe, header count). Theme redesigned calmer (DESIGN.md).
 6. JS still open: ingredient tick boxes, recipe index filters, Bahala na.
-7. **Done**: 1,022 recipes seeded (section 8). Still open: CC0 photos (overhead shots,
-   for the plate crops) where matching ones exist.
+7. **Done**: 50 recipes seeded, 25 with CC0/PD photos (section 8). Open: photos for the
+   other 25 where matching ones exist.
 8. Exporter, CSP, Vercel project, `Deploy.cmd`.
 9. Add the project to the portfolio (screenshots 1920×1200 WebP).
 

@@ -38,9 +38,14 @@ docker compose run --rm cli wp core install --url=http://localhost:8092 --title=
   --admin_user=admin --admin_password=<password> --admin_email=<email> --skip-email
 docker compose run --rm cli wp theme activate kusina-notes
 docker compose run --rm cli wp plugin activate kusina-core
+docker compose run --rm cli wp rewrite structure '/%postname%/'
+node scripts/validate-recipes.mjs  # check the recipe data
+docker compose run --rm cli wp eval-file /scripts/seed-content.php --user=admin
 ```
 
 ## Status
 
-Scaffold only: Docker stack, a theme that activates, and the plugin's content model
-(recipe post type, taxonomies, meta). The full build plan is in [`docs/SPEC.md`](docs/SPEC.md).
+50 recipes (25 with public-domain or CC0 photos), recipe card with scaler, units and cook
+mode, pantry finder, shopping list, and the "quiet enamel" theme. Still open: recipe-index
+filters, ingredient tick boxes, "Bahala na", and the static export to Vercel. Plan and
+progress: [`docs/SPEC.md`](docs/SPEC.md); look and voice: [`docs/DESIGN.md`](docs/DESIGN.md).

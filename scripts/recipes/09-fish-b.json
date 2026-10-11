@@ -1,95 +1,19 @@
 [
   {
-    "slug": "homemade-spanish-style-sardines",
-    "title": "Homemade Spanish-style sardines",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "chili", "carrot"],
-    "prep": 45,
-    "cook": 75,
-    "servings": 8,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Fresh tamban pressure-cooked in oil with bay leaves, pickles, carrots and chilies until the bones turn soft enough to eat. Like the bottled kind, it is rich, mildly spicy and good straight from the jar with hot rice.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "fresh tamban (sardines)", "note": "heads and tails cut off, gutted" },
-          { "qty": 1, "max": null, "unit": "l", "name": "water", "note": "for the brine" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "for the brine" }
-        ]
-      },
-      {
-        "title": "For cooking",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "sliced into thin coins" },
-          { "qty": 4, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 5, "max": null, "unit": "", "name": "bird's eye chilies", "note": "or 3 long green chilies" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "sweet pickles", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "corn oil or olive oil", "note": "or half of each" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rinse the fish well. Stir the 2 tablespoons of salt into the liter of water and soak the fish in this brine to firm the flesh.", "minutes": 30 },
-      { "text": "Drain the fish and pat dry with paper towels.", "minutes": null },
-      { "text": "Scatter the carrot over the bottom of a pressure cooker. Pack the fish in snugly in rows, tucking the bay leaves, peppercorns, chilies and pickles between the layers.", "minutes": null },
-      { "text": "Sprinkle with the salt and pour in the oil and water. The oil should nearly cover the fish.", "minutes": null },
-      { "text": "Lock the lid and bring to full pressure over high heat. Lower the heat to keep the pressure steady and cook.", "minutes": 60 },
-      { "text": "Turn off the heat and let the pressure come down on its own. Leave the fish to cool completely in the pot, since warm fish breaks when moved.", "minutes": 30 },
-      { "text": "Lift the fish into clean jars with a spatula and pour the oil and aromatics over to cover. Refrigerate.", "minutes": null }
-    ],
-    "tips": "Without a pressure cooker, simmer covered on the lowest heat for about 3 hours until the bones are soft. Kept covered in oil, the sardines last 2 weeks in the fridge."
-  },
-  {
-    "slug": "inun-unan",
-    "title": "Inun-unan",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "vinegar", "ginger", "garlic", "onion"],
-    "prep": 15,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Fish cooked down in vinegar with plenty of ginger, garlic and onion until only a little glossy sauce is left. It is sharper and more gingery than a Tagalog paksiw, with no vegetables.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "alumahan (short mackerel)", "note": "about 800 g in all, gutted, or 2 bangus cut into pieces" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut vinegar or cane vinegar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Spread half the ginger, garlic and onion over the bottom of a shallow pan. Lay the fish on top and cover with the rest.", "minutes": null },
-      { "text": "Add the vinegar, water, salt, peppercorns and chilies.", "minutes": null },
-      { "text": "Bring to a boil over medium heat without stirring, uncovered, so the vinegar mellows.", "minutes": 5 },
-      { "text": "Cover, lower the heat and simmer until the fish is cooked through.", "minutes": 10 },
-      { "text": "Uncover, add the oil and keep simmering, tilting the pan now and then, until the liquid has reduced to a few spoonfuls.", "minutes": 8 },
-      { "text": "Taste for salt and serve with rice.", "minutes": null }
-    ],
-    "tips": "Because there is so little sauce, inun-unan keeps well for 3 days in the fridge and is often eaten cold."
-  },
-  {
     "slug": "escabecheng-lapu-lapu",
     "title": "Escabecheng lapu-lapu",
     "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "vinegar", "ginger", "bell pepper", "carrot", "brown sugar"],
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "fish",
+      "vinegar",
+      "ginger",
+      "bell pepper",
+      "carrot",
+      "brown sugar"
+    ],
     "prep": 20,
     "cook": 30,
     "servings": 4,
@@ -100,793 +24,156 @@
       {
         "title": "For the fish",
         "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "lapu-lapu (grouper)", "note": "about 1 kg, scaled, gutted and scored" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "lapu-lapu (grouper)",
+            "note": "about 1 kg, scaled, gutted and scored"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying"
+          }
         ]
       },
       {
         "title": "For the sauce",
         "items": [
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "cut into thin strips" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "banana ketchup", "note": "" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" }
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "thumb",
+            "name": "ginger",
+            "note": "cut into thin strips"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "medium onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "red bell pepper",
+            "note": "cut into strips"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small carrot",
+            "note": "cut into thin strips"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "banana ketchup",
+            "note": ""
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": "mixed with 2 tbsp water"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Pat the fish dry, rub it with the salt and dust it all over with the cornstarch, shaking off the excess.", "minutes": null },
-      { "text": "Heat the oil in a wide pan or wok over medium-high heat. Fry the fish until the underside is crisp and golden.", "minutes": 7 },
-      { "text": "Turn carefully and fry the other side until crisp and the flesh in the scores is opaque. Drain and move to a platter.", "minutes": 7 },
-      { "text": "In a clean pan, heat the tablespoon of oil over medium heat. Sauté the garlic, ginger and onion until fragrant, then add the bell pepper and carrot and cook for a minute.", "minutes": 2 },
-      { "text": "Add the vinegar and let it boil without stirring. Then stir in the sugar, ketchup, water and salt and simmer.", "minutes": 3 },
-      { "text": "Stir the cornstarch mixture, pour it in and stir until the sauce turns glossy and thickens. Taste: it should be equally sweet and sour.", "minutes": 1 },
-      { "text": "Pour the sauce and vegetables over the fish and serve right away while the skin is still crisp.", "minutes": null }
+      {
+        "text": "Pat the fish dry, rub it with the salt and dust it all over with the cornstarch, shaking off the excess.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a wide pan or wok over medium-high heat. Fry the fish until the underside is crisp and golden.",
+        "minutes": 7
+      },
+      {
+        "text": "Turn carefully and fry the other side until crisp and the flesh in the scores is opaque. Drain and move to a platter.",
+        "minutes": 7
+      },
+      {
+        "text": "In a clean pan, heat the tablespoon of oil over medium heat. Sauté the garlic, ginger and onion until fragrant, then add the bell pepper and carrot and cook for a minute.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the vinegar and let it boil without stirring. Then stir in the sugar, ketchup, water and salt and simmer.",
+        "minutes": 3
+      },
+      {
+        "text": "Stir the cornstarch mixture, pour it in and stir until the sauce turns glossy and thickens. Taste: it should be equally sweet and sour.",
+        "minutes": 1
+      },
+      {
+        "text": "Pour the sauce and vegetables over the fish and serve right away while the skin is still crisp.",
+        "minutes": null
+      }
     ],
     "tips": "Maya-maya or tilapia work just as well. Make the sauce while the fish fries so both are hot at the same time."
-  },
-  {
-    "slug": "steamed-lapu-lapu",
-    "title": "Steamed lapu-lapu",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "ginger", "soy sauce"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Whole grouper steamed with ginger, then dressed with soy sauce and finished with sizzling oil over scallions. The flesh is silky and sweet, and the sauce is light and savory.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "lapu-lapu (grouper)", "note": "about 800 g, scaled and gutted" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "half sliced, half cut into fine strips" },
-          { "qty": 4, "max": null, "unit": "", "name": "scallions", "note": "white parts cut in lengths, green parts in fine strips" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pat the fish dry and make 2 deep cuts on each side. Rub lightly with the salt.", "minutes": null },
-      { "text": "Lay the sliced ginger and scallion whites on a heatproof plate that fits your steamer and set the fish on top.", "minutes": null },
-      { "text": "Steam over rapidly boiling water, covered, until the flesh at the thickest part flakes from the bone.", "minutes": 13 },
-      { "text": "While it steams, warm the soy sauce, oyster sauce, sugar and water in a small pan until the sugar dissolves.", "minutes": null },
-      { "text": "Lift the plate out and pour off the cloudy steaming liquid. Scatter the ginger strips and scallion greens over the fish and pour the warm sauce around it.", "minutes": null },
-      { "text": "Heat the cooking oil and sesame oil in a small pan until just smoking and pour it over the ginger and scallions so they sizzle. Serve at once.", "minutes": 2 }
-    ],
-    "tips": "Steaming time depends on thickness: about 8 minutes per 2.5 cm at the thickest point. Maya-maya can be cooked the same way."
-  },
-  {
-    "slug": "sweet-and-sour-fish-fillet",
-    "title": "Sweet and sour fish fillet",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "pineapple", "bell pepper", "carrot", "vinegar", "egg"],
-    "prep": 20,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Crisp battered fish fillet tossed in a glossy sauce with pineapple, bell pepper and carrots. It is sweet, tangy and mild, so children like it as much as adults do.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "cream dory or tilapia fillet", "note": "cut into 4 cm pieces" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "cut into wedges" },
-          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into squares" },
-          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "sliced thin" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "pineapple chunks", "note": "plus 0.5 cup of the syrup" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pat the fish dry and season with the salt and pepper. Toss it in the beaten egg, then in the cornstarch and flour mixed together, shaking off the excess.", "minutes": null },
-      { "text": "Heat the oil in a deep pan to about 175°C (350°F). Fry the fish in batches, turning, until crisp and pale golden. Drain on a rack.", "minutes": 4 },
-      { "text": "In a wide pan, heat the tablespoon of oil over medium heat. Sauté the garlic and onion for a minute, then add the carrot and bell pepper and cook until crisp-tender.", "minutes": 3 },
-      { "text": "Add the pineapple and syrup, ketchup, vinegar, sugar, soy sauce and water. Bring to a boil and simmer.", "minutes": 2 },
-      { "text": "Stir the cornstarch mixture and pour it in, stirring until the sauce thickens and turns glossy.", "minutes": 1 },
-      { "text": "Add the fried fish, toss quickly to coat and serve right away with rice.", "minutes": null }
-    ],
-    "tips": "Toss the fish into the sauce only at the last moment, or serve the sauce on the side, so the coating stays crisp."
-  },
-  {
-    "slug": "salted-egg-fish-fillet",
-    "title": "Salted egg fish fillet",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "salted egg", "butter", "garlic", "chili"],
-    "prep": 20,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Crisp fried fish strips coated in a sandy, buttery sauce of mashed salted egg yolks, garlic and chili. It is rich, salty and a little spicy, and goes best with plain rice.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "cream dory or tilapia fillet", "note": "cut into strips" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "cooked salted eggs", "note": "yolks only, mashed fine" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 2, "max": null, "unit": "", "name": "bird's eye chilies", "note": "sliced" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Season the fish with the salt and pepper. Dip the strips in the beaten egg, then roll them in the cornstarch.", "minutes": null },
-      { "text": "Heat the oil to about 175°C (350°F) and fry the fish in batches until crisp and light golden. Drain on a rack.", "minutes": 5 },
-      { "text": "Melt the butter in a wide pan over low heat. Add the garlic and chilies and cook gently until fragrant.", "minutes": 1 },
-      { "text": "Add the mashed yolks and stir constantly until the mixture foams and smells toasty.", "minutes": 2 },
-      { "text": "Stir in the evaporated milk and sugar and cook until creamy and slightly thick.", "minutes": 1 },
-      { "text": "Turn off the heat, add the fish and toss until every piece is coated. Serve immediately.", "minutes": null }
-    ],
-    "tips": "Keep the heat low once the yolks go in: they turn grainy and bitter if they scorch. Discard the salted whites or chop them into a tomato salad."
-  },
-  {
-    "slug": "breaded-fish-fillet",
-    "title": "Breaded fish fillet",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "bread", "egg", "calamansi", "flour"],
-    "prep": 20,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Fish fingers seasoned with calamansi, coated in breadcrumbs and fried until crunchy. They come with a creamy calamansi mayonnaise dip and are a favorite school lunch.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "cream dory or tilapia fillet", "note": "cut into 2 cm wide strips" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "breadcrumbs", "note": "Japanese panko or regular" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
-        ]
-      },
-      {
-        "title": "For the dip",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "sweet pickle relish", "note": "" },
-          { "qty": 1, "max": null, "unit": "clove", "name": "garlic", "note": "grated" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Season the fish with the calamansi juice, salt and pepper and let it sit.", "minutes": 10 },
-      { "text": "Set out three plates: flour, beaten eggs and breadcrumbs. Pat the fish dry, then coat each strip in flour, then egg, then breadcrumbs, pressing the crumbs on.", "minutes": null },
-      { "text": "Stir the mayonnaise, calamansi juice, relish and garlic together for the dip.", "minutes": null },
-      { "text": "Heat the oil in a frying pan over medium heat. Fry the fish in batches, turning once, until golden on both sides and cooked through.", "minutes": 4 },
-      { "text": "Drain on a rack and serve hot with the dip and rice.", "minutes": null }
-    ],
-    "tips": "Breaded strips freeze well on a tray. Fry them straight from frozen over slightly lower heat for a minute or two longer."
-  },
-  {
-    "slug": "pritong-dalagang-bukid",
-    "title": "Pritong dalagang bukid",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "tomato", "onion", "fish sauce"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Red-tailed fusilier fried whole until the skin is crisp, with a fresh salad of tomatoes and onion on the side. The fish has sweet, flaky white flesh, and the bright salad cuts the oil.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "dalagang bukid", "note": "about 800 g, scaled and gutted" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
-        ]
-      },
-      {
-        "title": "For the tomato salad",
-        "items": [
-          { "qty": 3, "max": null, "unit": "", "name": "ripe tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Score each fish twice on both sides. Rub with the salt and let them sit.", "minutes": 10 },
-      { "text": "Toss the tomatoes, onion, fish sauce and vinegar together and set aside.", "minutes": null },
-      { "text": "Pat the fish dry and dust lightly with the flour.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium-high heat and fry the fish in batches until golden underneath.", "minutes": 4 },
-      { "text": "Turn and fry until the other side is crisp and the flesh is opaque at the bone.", "minutes": 4 },
-      { "text": "Drain and serve hot with the tomato salad and rice.", "minutes": null }
-    ],
-    "tips": "The light flour coating keeps the delicate skin from sticking and tearing."
-  },
-  {
-    "slug": "tanigue-steak",
-    "title": "Tanigue steak",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "soy sauce", "calamansi", "onion", "garlic", "butter"],
-    "prep": 20,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Thick slices of Spanish mackerel pan-fried and simmered briefly in soy sauce, calamansi and butter, topped with soft onion rings. It is fish cooked the bistek way: salty, tangy and savory.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "tanigue steaks", "note": "about 150 g each, 2 cm thick" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "about 8 calamansi" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium onions", "note": "sliced into rings" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Marinate the fish in the soy sauce, calamansi juice, garlic and pepper, turning once.", "minutes": 15 },
-      { "text": "Lift the fish out and pat dry, keeping the marinade. Heat the oil in a wide pan over medium-high heat and fry the steaks until browned on both sides. Set aside.", "minutes": 6 },
-      { "text": "In the same pan, cook the onion rings until just softened but still a little crisp. Scoop them out.", "minutes": 1 },
-      { "text": "Pour in the marinade, water and sugar and bring to a simmer.", "minutes": 2 },
-      { "text": "Stir in the butter, return the fish and simmer briefly, spooning the sauce over the steaks.", "minutes": 2 },
-      { "text": "Top with the onion rings and serve with rice and the sauce.", "minutes": null }
-    ],
-    "tips": "Tanigue dries out when overcooked: it is done when the center just turns opaque."
-  },
-  {
-    "slug": "inihaw-na-tuna-belly",
-    "title": "Inihaw na tuna belly",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["tuna", "calamansi", "garlic", "soy sauce", "chili"],
-    "prep": 40,
-    "cook": 10,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Fatty tuna belly rubbed with calamansi, garlic and pepper and grilled hot and fast until the fat sizzles. The flesh stays moist and rich, and a soy, calamansi and chili dip completes it.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 800, "max": null, "unit": "g", "name": "tuna belly", "note": "cut into 4 slabs" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      },
-      {
-        "title": "For the dip",
-        "items": [
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "bird's eye chilies", "note": "chopped" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rub the tuna with the calamansi juice, garlic, salt, pepper and oil. Cover and marinate in the fridge.", "minutes": 30 },
-      { "text": "Light a charcoal grill to hot, or heat a grill pan over high heat, and oil the grates.", "minutes": null },
-      { "text": "Grill the tuna until well marked underneath. Move it away from flare-ups as the fat drips.", "minutes": 4 },
-      { "text": "Turn and grill the other side until the flesh is just opaque in the center.", "minutes": 4 },
-      { "text": "Mix the soy sauce, calamansi juice and chilies for the dip and serve with the tuna and rice.", "minutes": null }
-    ],
-    "tips": "Ask for belly cut about 2.5 cm thick. Thinner pieces dry out before they char."
-  },
-  {
-    "slug": "inihaw-na-tuna-panga",
-    "title": "Inihaw na tuna panga",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["tuna", "soy sauce", "calamansi", "garlic", "brown sugar"],
-    "prep": 20,
-    "cook": 40,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Tuna jaw marinated in soy sauce, calamansi and garlic, then grilled slowly and basted until sticky and charred. The meaty pockets around the bone are juicy and rich, and it is a favorite at gatherings.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "tuna panga (jaw)", "note": "about 1.2 kg, split in half if large" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "calamansi juice", "note": "" },
-          { "qty": 10, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head)" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Mix the soy sauce, calamansi juice, garlic, sugar and pepper. Pour about two thirds over the panga in a dish and set the rest aside for basting.", "minutes": null },
-      { "text": "Cover and marinate in the fridge for at least 1 hour, turning once.", "minutes": null },
-      { "text": "Light a charcoal grill and let the coals burn down to medium. Stir the oil into the reserved marinade for basting.", "minutes": null },
-      { "text": "Grill the panga skin side down, basting now and then, until the skin is charred and crisp.", "minutes": 18 },
-      { "text": "Turn and grill the other side, basting, until the flesh near the bone is opaque and pulls away easily.", "minutes": 18 },
-      { "text": "Rest for a few minutes, then serve with rice and a soy and calamansi dip.", "minutes": 3 }
-    ],
-    "tips": "If the outside chars before the inside is done, wrap the panga loosely in foil and keep grilling. The marinating hour is not counted in the prep time."
-  },
-  {
-    "slug": "inihaw-na-salmon-belly",
-    "title": "Inihaw na salmon belly",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["salmon", "green mango", "tomato", "onion", "shrimp paste", "garlic"],
-    "prep": 20,
-    "cook": 10,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Salmon belly strips seasoned with salt, pepper and garlic, grilled until the fat crisps, and served with a sour green mango salad. The rich fish and the sharp, salty salad go well together.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 600, "max": null, "unit": "g", "name": "salmon belly strips", "note": "skin on" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "grated" }
-        ]
-      },
-      {
-        "title": "For the mango salad",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "green mango", "note": "peeled and cut into thin strips" },
-          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "sliced thin" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "sautéed shrimp paste (bagoong alamang)", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rub the salmon with the salt, pepper and garlic and let it sit while the grill heats.", "minutes": 10 },
-      { "text": "Toss the mango, tomatoes and onion together. Spoon the shrimp paste on top to stir in at the table.", "minutes": null },
-      { "text": "Heat a grill or grill pan over medium-high heat. Grill the salmon skin side down until the skin is crisp and the fat sizzles.", "minutes": 4 },
-      { "text": "Turn and grill until just cooked through.", "minutes": 3 },
-      { "text": "Serve hot with the mango salad and rice.", "minutes": null }
-    ],
-    "tips": "Salmon belly is fatty and flares up over charcoal. A grill pan or a wire grilling basket makes it easier to handle."
-  },
-  {
-    "slug": "crispy-salmon-belly",
-    "title": "Crispy salmon belly",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["salmon", "garlic", "vinegar", "chili"],
-    "prep": 15,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Salmon belly strips dusted in cornstarch and fried until the edges shatter, then topped with fried garlic. Dip them in spiced vinegar to cut the richness.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "salmon belly strips", "note": "cut into 5 cm pieces" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "for dipping" },
-          { "qty": 2, "max": null, "unit": "", "name": "bird's eye chilies", "note": "chopped, for dipping" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pat the salmon very dry and season with the salt and pepper. Toss in the cornstarch to coat thinly.", "minutes": null },
-      { "text": "Heat the oil in a frying pan over medium-low heat. Fry the garlic until pale gold and scoop it out onto paper towels.", "minutes": 3 },
-      { "text": "Raise the heat to medium-high. Fry the salmon in batches, turning, until golden and crisp at the edges. Keep a lid nearby: the fat spits.", "minutes": 5 },
-      { "text": "Drain on a rack. Mix the vinegar and chilies with a pinch of salt.", "minutes": null },
-      { "text": "Pile the salmon on a plate, scatter the fried garlic over and serve with the spiced vinegar and rice.", "minutes": null }
-    ],
-    "tips": "Salmon belly releases its own fat as it fries, so start with less oil than you think and pour some off if it gets deep."
-  },
-  {
-    "slug": "pritong-hito",
-    "title": "Pritong hito",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "vinegar", "garlic", "chili"],
-    "prep": 20,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Catfish fried until the skin is crackling and the soft, sweet flesh inside is just cooked. It is classic with spiced vinegar and rice, and the crisp skin is the best part.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "hito (catfish)", "note": "about 1 kg in all, gutted" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "coarse salt", "note": "for cleaning" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "for seasoning" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "for dipping" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "crushed, for dipping" },
-          { "qty": 2, "max": null, "unit": "", "name": "bird's eye chilies", "note": "chopped, for dipping" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rub the catfish all over with the coarse salt to scrub off the slime, then rinse well. Repeat if the skin still feels slick.", "minutes": null },
-      { "text": "Cut each fish in half crosswise, or leave whole and score twice on each side. Season with the salt and let it sit, then pat very dry.", "minutes": 10 },
-      { "text": "Mix the vinegar, garlic and chilies with a pinch of salt for the dip.", "minutes": null },
-      { "text": "Heat the oil in a deep pan over medium-high heat. Add the fish and cover with a splatter guard right away. Fry until the underside is crisp.", "minutes": 7 },
-      { "text": "Turn carefully and fry until the skin is crisp all over and the flesh near the bone is cooked.", "minutes": 7 },
-      { "text": "Drain on paper towels and serve hot with the spiced vinegar and rice.", "minutes": null }
-    ],
-    "tips": "Catfish spits more than any other fish. Get it as dry as you can before frying and keep the guard on for the first minutes."
-  },
-  {
-    "slug": "inihaw-na-hito",
-    "title": "Inihaw na hito",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "vinegar", "garlic", "tomato", "onion"],
-    "prep": 30,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Whole catfish marinated in garlicky vinegar and grilled over coals until the skin blisters and smokes. The flesh is soft and sweet, and a fresh tomato and onion salad goes alongside.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "hito (catfish)", "note": "about 1 kg in all, gutted" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "coarse salt", "note": "for cleaning" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      },
-      {
-        "title": "For the salad",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Scrub the catfish with the coarse salt to remove the slime and rinse well. Score each fish twice on both sides.", "minutes": null },
-      { "text": "Mix the vinegar, garlic, salt and pepper and rub it over the fish and into the cuts. Leave to marinate while the coals heat.", "minutes": 20 },
-      { "text": "Light a charcoal grill and let the coals burn to medium. Brush the fish with the oil and lay it in an oiled grilling basket.", "minutes": null },
-      { "text": "Grill until the skin is blistered and the underside releases easily.", "minutes": 10 },
-      { "text": "Turn and grill until the flesh is cooked through at the thickest part.", "minutes": 10 },
-      { "text": "Toss the tomatoes, onion and fish sauce together and serve with the fish and rice.", "minutes": null }
-    ],
-    "tips": "A grilling basket keeps the soft skin from tearing when you turn the fish."
-  },
-  {
-    "slug": "pritong-dalag",
-    "title": "Pritong dalag",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "soy sauce", "vinegar", "garlic"],
-    "prep": 20,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Mudfish cut into thick steaks, salted and fried until golden. The firm, meaty white flesh holds together well, and a soy and vinegar dip with garlic is the usual partner.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "dalag (mudfish)", "note": "about 800 g, scaled and gutted" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "for dipping" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "for dipping" },
-          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "minced, for dipping" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rinse the fish and cut it crosswise into steaks about 3 cm thick, keeping the head for frying too if you like.", "minutes": null },
-      { "text": "Season with the salt and pepper and let it sit, then pat dry.", "minutes": 10 },
-      { "text": "Heat the oil in a wide pan over medium-high heat. Fry the pieces until golden underneath.", "minutes": 5 },
-      { "text": "Turn and fry until golden on the other side and cooked through to the bone.", "minutes": 5 },
-      { "text": "Mix the soy sauce, vinegar and garlic for the dip and serve with the fish and rice.", "minutes": null }
-    ],
-    "tips": "Buy dalag live or freshly killed if you can. Have the vendor scale and cut it for you, since the scales are tough."
-  },
-  {
-    "slug": "inihaw-na-dalag",
-    "title": "Inihaw na dalag",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "lemongrass", "ginger", "tomato", "shrimp paste"],
-    "prep": 15,
-    "cook": 30,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Whole mudfish stuffed with lemongrass and ginger and grilled with its scales on until smoky and tender. The firm flesh is served with tomatoes and shrimp paste.",
-    "groups": [
-      {
-        "title": "For the fish",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "dalag (mudfish)", "note": "about 800 g, gutted, scales left on" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and cut in half" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 3, "max": null, "unit": "", "name": "ripe tomatoes", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "sautéed shrimp paste (bagoong alamang)", "note": "" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Light a charcoal grill and let the coals burn to medium.", "minutes": null },
-      { "text": "Rinse the fish and pat dry. Rub the salt into the cavity and stuff it with the lemongrass and ginger.", "minutes": null },
-      { "text": "Grill the fish directly on the grates until the scales char and the skin starts to lift.", "minutes": 14 },
-      { "text": "Turn and grill the other side until the flesh flakes at the thickest part.", "minutes": 14 },
-      { "text": "Peel away the charred skin and serve the flesh with the tomatoes, shrimp paste and rice.", "minutes": null }
-    ],
-    "tips": "Dalag is thick-bodied, so press the flesh near the backbone before you take it off the fire: it should flake easily."
-  },
-  {
-    "slug": "pritong-sapsap",
-    "title": "Pritong sapsap",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "vinegar", "garlic"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Small, flat ponyfish dusted with cornstarch and fried until so crisp you eat them bones and all. They are salty, crunchy and best with rice and vinegar.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "small sapsap (ponyfish)", "note": "about 15, gutted" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "for dipping" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "crushed, for dipping" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rinse the fish, rubbing off the slippery coating, and drain well. Season with the salt.", "minutes": null },
-      { "text": "Pat dry and toss in the cornstarch until thinly coated.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium heat. Fry the fish in a single layer until golden and stiff underneath.", "minutes": 5 },
-      { "text": "Turn and fry until the whole fish is crisp, including the fins and head. Drain and fry the rest.", "minutes": 4 },
-      { "text": "Mix the vinegar and garlic with a pinch of salt and serve with the hot fish and rice.", "minutes": null }
-    ],
-    "tips": "Larger sapsap will not crisp all the way through. Score them and fry a few minutes longer, and eat around the bones."
-  },
-  {
-    "slug": "pritong-alumahan",
-    "title": "Pritong alumahan",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "calamansi", "soy sauce", "chili"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Short mackerel scored, salted and fried until the skin turns crisp and dark gold. The flesh is rich and full-flavored, so a squeeze of calamansi and a soy dip suit it well.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "alumahan (short mackerel)", "note": "about 250 g each, gutted" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "for dipping" },
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" },
-          { "qty": 1, "max": null, "unit": "", "name": "bird's eye chili", "note": "chopped, for dipping" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rinse the fish and make 3 diagonal cuts on each side. Rub with the salt inside and out and let them sit.", "minutes": 10 },
-      { "text": "Pat the fish very dry. Heat the oil in a wide pan over medium-high heat.", "minutes": null },
-      { "text": "Fry 2 fish at a time until the underside is crisp and deep gold.", "minutes": 5 },
-      { "text": "Turn and fry until the other side is crisp and the flesh in the cuts is opaque. Drain and fry the rest.", "minutes": 5 },
-      { "text": "Mix the soy sauce with the juice of half the calamansi and the chili. Serve the fish with the dip, the remaining calamansi and rice.", "minutes": null }
-    ],
-    "tips": "Mackerel tastes best very fresh. Look for firm bodies and bright red gills."
-  },
-  {
-    "slug": "inihaw-na-alumahan",
-    "title": "Inihaw na alumahan",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "soy sauce", "calamansi", "garlic", "chili"],
-    "prep": 30,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Short mackerel brushed with soy sauce, calamansi, garlic and chili and grilled until the skin chars. The oily flesh takes the smoke well and stays moist on the grill.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "alumahan (short mackerel)", "note": "about 250 g each, gutted" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "bird's eye chili", "note": "minced" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Score the fish twice on each side. Mix the soy sauce, calamansi juice, garlic, chili and pepper and rub it over the fish and into the cuts.", "minutes": null },
-      { "text": "Marinate in the fridge while the coals heat.", "minutes": 20 },
-      { "text": "Light a charcoal grill to medium-hot and oil the grates or a grilling basket.", "minutes": null },
-      { "text": "Grill the fish until the skin is charred and releases from the grate.", "minutes": 6 },
-      { "text": "Turn, brush with the leftover marinade and grill until the flesh is cooked at the backbone.", "minutes": 6 },
-      { "text": "Serve hot with rice and sliced tomatoes.", "minutes": null }
-    ],
-    "tips": "Brush the leftover marinade on only during the first minutes of the second side, so it has time to cook."
-  },
-  {
-    "slug": "pritong-bisugo",
-    "title": "Pritong bisugo",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "soy sauce", "vinegar", "tomato"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Threadfin bream fried whole until crisp, with tender, sweet white flesh that pulls easily off the bone. Serve it with a soy and vinegar dip and sliced tomatoes.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "bisugo (threadfin bream)", "note": "about 800 g, scaled and gutted" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "for dipping" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "for dipping" },
-          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "sliced" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Score each fish twice on both sides and season with the salt. Let them sit.", "minutes": 10 },
-      { "text": "Pat dry and dust lightly with the flour.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium-high heat and fry the fish in batches until golden underneath.", "minutes": 4 },
-      { "text": "Turn and fry until crisp on the other side and opaque at the bone.", "minutes": 4 },
-      { "text": "Mix the soy sauce and vinegar for the dip. Serve the fish with the dip, tomatoes and rice.", "minutes": null }
-    ],
-    "tips": "Bisugo is delicate. Turn it once only, using a wide spatula under the whole fish."
-  },
-  {
-    "slug": "pritong-tawilis",
-    "title": "Pritong tawilis",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "flour", "vinegar", "garlic"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Tiny freshwater sardines tossed in seasoned flour and fried in batches until crunchy from head to tail. Eat them whole with rice and a garlicky vinegar dip.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "fresh tawilis", "note": "rinsed and drained" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "for dipping" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "crushed, for dipping" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pat the tawilis dry on paper towels and season with the salt and pepper.", "minutes": null },
-      { "text": "Mix the flour and cornstarch in a bowl and toss the fish in it a handful at a time, shaking off the excess.", "minutes": null },
-      { "text": "Heat the oil in a deep pan to about 180°C (350°F). Fry the fish in small batches, stirring gently to keep them apart, until golden and crisp.", "minutes": 4 },
-      { "text": "Drain on a rack and repeat with the rest, letting the oil come back up to heat between batches.", "minutes": 12 },
-      { "text": "Mix the vinegar and garlic with a pinch of salt and serve right away with the fish and rice.", "minutes": null }
-    ],
-    "tips": "Tawilis are small and need no gutting. Frozen ones work too: thaw them in the fridge and dry them very well."
   }
 ]

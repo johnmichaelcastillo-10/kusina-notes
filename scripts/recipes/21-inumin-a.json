@@ -3,8 +3,12 @@
     "slug": "calamansi-juice",
     "title": "Calamansi juice",
     "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["calamansi"],
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "calamansi"
+    ],
     "prep": 15,
     "cook": 0,
     "servings": 4,
@@ -15,58 +19,79 @@
       {
         "title": "",
         "items": [
-          { "qty": 25, "max": 30, "unit": "", "name": "calamansi", "note": "for about 1/2 cup juice" },
-          { "qty": 0.333, "max": 0.5, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "warm water", "note": "" },
-          { "qty": 3.5, "max": null, "unit": "cup", "name": "cold water", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+          {
+            "qty": 25,
+            "max": 30,
+            "unit": "",
+            "name": "calamansi",
+            "note": "for about 1/2 cup juice"
+          },
+          {
+            "qty": 0.333,
+            "max": 0.5,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "warm water",
+            "note": ""
+          },
+          {
+            "qty": 3.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cold water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "ice cubes",
+            "note": ""
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Wash the calamansi and cut each one in half crosswise, just off center so most seeds stay in the smaller half.", "minutes": null },
-      { "text": "Squeeze the halves over a small strainer set on a pitcher to catch the seeds. Squeeze firmly but do not twist the peel hard, or the juice turns bitter.", "minutes": null },
-      { "text": "Stir the sugar into the warm water until it dissolves completely.", "minutes": null },
-      { "text": "Add the syrup and cold water to the juice and stir. Taste and adjust with more sugar or water.", "minutes": null },
-      { "text": "Fill glasses with ice and pour the juice over.", "minutes": null }
+      {
+        "text": "Wash the calamansi and cut each one in half crosswise, just off center so most seeds stay in the smaller half.",
+        "minutes": null
+      },
+      {
+        "text": "Squeeze the halves over a small strainer set on a pitcher to catch the seeds. Squeeze firmly but do not twist the peel hard, or the juice turns bitter.",
+        "minutes": null
+      },
+      {
+        "text": "Stir the sugar into the warm water until it dissolves completely.",
+        "minutes": null
+      },
+      {
+        "text": "Add the syrup and cold water to the juice and stir. Taste and adjust with more sugar or water.",
+        "minutes": null
+      },
+      {
+        "text": "Fill glasses with ice and pour the juice over.",
+        "minutes": null
+      }
     ],
     "tips": "The juice keeps for a day in a covered pitcher in the fridge. Add ice only to the glasses, never to the pitcher, so it does not get watery."
-  },
-  {
-    "slug": "hot-calamansi-juice",
-    "title": "Hot calamansi juice",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["calamansi"],
-    "prep": 5,
-    "cook": 5,
-    "servings": 2,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Calamansi juice stirred into hot water with honey, a warm sweet-sour cup that many families make on rainy nights or before bed.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 10, "max": 12, "unit": "", "name": "calamansi", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 2, "max": 3, "unit": "tbsp", "name": "honey", "note": "or white sugar" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Bring the water to a boil, then take it off the heat and let it stand a minute or two so it is very hot but not boiling.", "minutes": 2 },
-      { "text": "Halve the calamansi crosswise and squeeze them through a small strainer, dividing the juice between two mugs.", "minutes": null },
-      { "text": "Add the honey to the mugs, pour in the hot water and stir until dissolved. Taste and add more honey or a squeeze more calamansi.", "minutes": null }
-    ],
-    "tips": "Boiling water dulls the fresh calamansi flavor, so let it cool slightly first."
   },
   {
     "slug": "salabat",
     "title": "Salabat",
     "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["ginger", "brown sugar"],
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "ginger",
+      "brown sugar"
+    ],
     "prep": 10,
     "cook": 20,
     "servings": 4,
@@ -77,93 +102,66 @@
       {
         "title": "",
         "items": [
-          { "qty": 100, "max": null, "unit": "g", "name": "fresh ginger", "note": "about 2 large thumbs, scrubbed" },
-          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 0.333, "max": 0.5, "unit": "cup", "name": "brown sugar", "note": "or muscovado" }
+          {
+            "qty": 100,
+            "max": null,
+            "unit": "g",
+            "name": "fresh ginger",
+            "note": "about 2 large thumbs, scrubbed"
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": 0.5,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "or muscovado"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Slice the ginger thinly, or smash it with the flat of a knife. There is no need to peel it if the skin is clean.", "minutes": null },
-      { "text": "Put the ginger and water in a pot and bring to a boil.", "minutes": null },
-      { "text": "Lower the heat, cover and simmer until the water is pale gold and tastes strongly of ginger.", "minutes": 15 },
-      { "text": "Stir in the sugar and simmer until it dissolves. Taste and add more sugar if you like it sweeter.", "minutes": 2 },
-      { "text": "Strain into cups and serve hot.", "minutes": null }
+      {
+        "text": "Slice the ginger thinly, or smash it with the flat of a knife. There is no need to peel it if the skin is clean.",
+        "minutes": null
+      },
+      {
+        "text": "Put the ginger and water in a pot and bring to a boil.",
+        "minutes": null
+      },
+      {
+        "text": "Lower the heat, cover and simmer until the water is pale gold and tastes strongly of ginger.",
+        "minutes": 15
+      },
+      {
+        "text": "Stir in the sugar and simmer until it dissolves. Taste and add more sugar if you like it sweeter.",
+        "minutes": 2
+      },
+      {
+        "text": "Strain into cups and serve hot.",
+        "minutes": null
+      }
     ],
     "tips": "For a stronger, spicier salabat, grate the ginger instead of slicing it and strain through a fine sieve. Leftovers keep for 3 days in the fridge; reheat without boiling hard."
-  },
-  {
-    "slug": "tanglad-tea",
-    "title": "Tanglad tea",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["lemongrass", "pandan"],
-    "prep": 10,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Lemongrass stalks boiled into a light, lemony tea with a grassy sweetness, sometimes with a pandan leaf for extra fragrance. It is good hot after dinner or poured over ice in the afternoon.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": 5, "unit": "", "name": "lemongrass stalks", "note": "" },
-          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "pandan leaves", "note": "optional, knotted" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "honey or sugar", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Trim off the dry tops and root ends of the lemongrass. Bruise the stalks along their length with the back of a knife, then fold or knot them so they fit the pot.", "minutes": null },
-      { "text": "Put the lemongrass, pandan if using, and water in a pot and bring to a boil.", "minutes": null },
-      { "text": "Lower the heat, cover and simmer until the tea is pale yellow and fragrant.", "minutes": 15 },
-      { "text": "Turn off the heat and let it steep, still covered.", "minutes": 5 },
-      { "text": "Strain, sweeten to taste and serve hot, or cool it and pour over ice.", "minutes": null }
-    ],
-    "tips": "Use the thick lower half of the stalks for the most flavor. The tea keeps for 3 days in the fridge."
-  },
-  {
-    "slug": "pandan-iced-tea",
-    "title": "Pandan iced tea",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["pandan", "tea"],
-    "prep": 10,
-    "cook": 15,
-    "servings": 6,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Black tea brewed in pandan-infused water and sweetened, so it tastes like regular iced tea with a soft, vanilla-like pandan aroma. A pitcher of it goes well with a big merienda or a family lunch.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "pandan leaves", "note": "washed" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "black tea bags", "note": "" },
-          { "qty": 0.5, "max": 0.667, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Tie the pandan leaves into a loose knot so they are easy to fish out later.", "minutes": null },
-      { "text": "Bring the water and pandan to a boil in a pot, then lower the heat and simmer until the water smells strongly of pandan and turns faintly green.", "minutes": 10 },
-      { "text": "Turn off the heat, add the tea bags and steep. Do not steep longer, or the tea turns bitter.", "minutes": 5 },
-      { "text": "Remove the tea bags and pandan, squeezing the leaves against the side of the pot. Stir in the sugar until dissolved.", "minutes": null },
-      { "text": "Cool to room temperature, then pour into a pitcher and chill.", "minutes": null },
-      { "text": "Serve in glasses filled with ice.", "minutes": null }
-    ],
-    "tips": "Frozen pandan leaves work just as well as fresh. For a stronger pandan flavor, cut the leaves into short pieces before boiling and strain them out."
   },
   {
     "slug": "sagot-gulaman",
     "title": "Sago't gulaman",
     "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["sago", "brown sugar", "pandan"],
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "sago",
+      "brown sugar",
+      "pandan"
+    ],
     "prep": 15,
     "cook": 45,
     "servings": 6,
@@ -174,578 +172,139 @@
       {
         "title": "For the gulaman",
         "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "pack unflavored gulaman powder", "note": "about 25 g" },
-          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "or as the pack directs" },
-          { "qty": 3, "max": null, "unit": "", "name": "drops red or brown food coloring", "note": "optional" }
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "pack unflavored gulaman powder",
+            "note": "about 25 g"
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": "or as the pack directs"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "drops red or brown food coloring",
+            "note": "optional"
+          }
         ]
       },
       {
         "title": "For the sago",
         "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "for boiling" }
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "small sago pearls",
+            "note": "uncooked"
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": "for boiling"
+          }
         ]
       },
       {
         "title": "For the arnibal",
         "items": [
-          { "qty": 1, "max": null, "unit": "cup", "name": "brown sugar", "note": "packed" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "pandan leaf", "note": "optional, knotted" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "pandan leaf",
+            "note": "optional, knotted"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "vanilla extract",
+            "note": ""
+          }
         ]
       },
       {
         "title": "To serve",
         "items": [
-          { "qty": 4, "max": null, "unit": "cup", "name": "cold water", "note": "" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "cold water",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "ice cubes",
+            "note": ""
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Make the gulaman first. Sprinkle the gulaman powder over the water in a pot and stir. Bring to a boil, stirring, and boil until fully dissolved. Stir in the food coloring if using.", "minutes": 5 },
-      { "text": "Pour into a square pan and leave to set at room temperature, or in the fridge to speed it up.", "minutes": 45 },
-      { "text": "Meanwhile, bring the 6 cups of water to a rolling boil and add the sago. Simmer, stirring now and then so it does not stick, until the pearls are mostly clear with only a small white dot in the center.", "minutes": 20 },
-      { "text": "Turn off the heat, cover the pot and let the sago stand until the white centers disappear.", "minutes": 10 },
-      { "text": "Drain the sago and rinse it under cold water to wash off the starch.", "minutes": null },
-      { "text": "For the arnibal, simmer the brown sugar, water and pandan in a small pan until slightly syrupy. Take off the heat, remove the pandan and stir in the vanilla.", "minutes": 10 },
-      { "text": "Cut the set gulaman into small cubes.", "minutes": null },
-      { "text": "In a pitcher, stir together the arnibal, cold water, sago and gulaman. Taste and add more water or syrup.", "minutes": null },
-      { "text": "Serve over ice with wide straws or a long spoon.", "minutes": null }
+      {
+        "text": "Make the gulaman first. Sprinkle the gulaman powder over the water in a pot and stir. Bring to a boil, stirring, and boil until fully dissolved. Stir in the food coloring if using.",
+        "minutes": 5
+      },
+      {
+        "text": "Pour into a square pan and leave to set at room temperature, or in the fridge to speed it up.",
+        "minutes": 45
+      },
+      {
+        "text": "Meanwhile, bring the 6 cups of water to a rolling boil and add the sago. Simmer, stirring now and then so it does not stick, until the pearls are mostly clear with only a small white dot in the center.",
+        "minutes": 20
+      },
+      {
+        "text": "Turn off the heat, cover the pot and let the sago stand until the white centers disappear.",
+        "minutes": 10
+      },
+      {
+        "text": "Drain the sago and rinse it under cold water to wash off the starch.",
+        "minutes": null
+      },
+      {
+        "text": "For the arnibal, simmer the brown sugar, water and pandan in a small pan until slightly syrupy. Take off the heat, remove the pandan and stir in the vanilla.",
+        "minutes": 10
+      },
+      {
+        "text": "Cut the set gulaman into small cubes.",
+        "minutes": null
+      },
+      {
+        "text": "In a pitcher, stir together the arnibal, cold water, sago and gulaman. Taste and add more water or syrup.",
+        "minutes": null
+      },
+      {
+        "text": "Serve over ice with wide straws or a long spoon.",
+        "minutes": null
+      }
     ],
     "tips": "Cooked sago turns hard and white in the fridge, so keep it in the syrup mixture and finish the pitcher within a day. Ready-cooked sago from the market saves the boiling step."
-  },
-  {
-    "slug": "buko-juice",
-    "title": "Buko juice",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["young coconut"],
-    "prep": 20,
-    "cook": 0,
-    "servings": 4,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Fresh young coconut water with strips of soft buko meat, served very cold. It is lightly sweet and nutty, and the strips give you something to chew between sips.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 3, "max": null, "unit": "", "name": "young coconuts (buko)", "note": "or 4 cups coconut water and 2 cups young coconut meat" },
-          { "qty": 2, "max": 3, "unit": "tbsp", "name": "white sugar", "note": "optional" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Lay a coconut on its side. With a heavy cleaver, shave the husk off the pointed top until you reach the hard shell.", "minutes": null },
-      { "text": "Strike the exposed shell a few times in a circle with the heel of the cleaver to crack open a lid. Pour the water through a strainer into a pitcher. Repeat with the rest.", "minutes": null },
-      { "text": "Split the coconuts open or widen the opening, then scrape out the soft meat with a sturdy spoon.", "minutes": null },
-      { "text": "Cut the meat into long thin strips and add them to the coconut water.", "minutes": null },
-      { "text": "Taste and stir in sugar only if needed. Serve over ice or chill well first.", "minutes": null }
-    ],
-    "tips": "Most markets sell buko already opened, or sell the water and meat separately. Fresh coconut water tastes best the same day."
-  },
-  {
-    "slug": "buko-shake",
-    "title": "Buko shake",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["young coconut", "condensed milk"],
-    "prep": 10,
-    "cook": 0,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Soft young coconut meat blended with its own water, condensed milk and ice into a thick, creamy, gently sweet shake.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "young coconut meat", "note": "the soft kind, roughly chopped" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut water", "note": "cold" },
-          { "qty": 3, "max": 4, "unit": "tbsp", "name": "condensed milk", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Blend the coconut meat and coconut water until smooth.", "minutes": null },
-      { "text": "Add the condensed milk and ice and blend until thick and slushy.", "minutes": null },
-      { "text": "Taste, blend in a little more condensed milk if you like, and pour into tall glasses.", "minutes": null }
-    ],
-    "tips": "Soft, jelly-like buko blends smoothest. If yours is firm, blend it longer with the water before adding the ice."
-  },
-  {
-    "slug": "melon-juice",
-    "title": "Melon juice",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["melon"],
-    "prep": 20,
-    "cook": 0,
-    "servings": 6,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Long shreds of ripe cantaloupe floating in sweetened cold water, so you drink the juice and chew the fruit. It is light, fragrant and very refreshing on a hot day.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "ripe cantaloupe", "note": "about 1.5 kg, fragrant at the stem end" },
-          { "qty": 0.5, "max": 0.75, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "warm water", "note": "" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "cold water", "note": "" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Halve the melon and scoop the seeds into a strainer set over a bowl. Press the seeds to collect their juice, then discard them.", "minutes": null },
-      { "text": "Shred the flesh with a melon scraper, drawing it from the cut side down toward the rind to make long strands. Stop when you reach the pale green part near the rind.", "minutes": null },
-      { "text": "Stir the sugar into the warm water until dissolved.", "minutes": null },
-      { "text": "In a pitcher, combine the shredded melon, the collected juice, the syrup and cold water. Stir and taste for sweetness.", "minutes": null },
-      { "text": "Chill so the melon flavors the water.", "minutes": 15 },
-      { "text": "Serve over ice with spoons or wide straws.", "minutes": null }
-    ],
-    "tips": "A melon scraper (kudkuran ng melon) is sold cheaply in markets; a coarse grater or a spoon also works, though the shreds are shorter."
-  },
-  {
-    "slug": "mango-shake",
-    "title": "Mango shake",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["mango", "milk", "condensed milk"],
-    "prep": 10,
-    "cook": 0,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Ripe mangoes blended with ice, milk and a little condensed milk into a thick, sunny shake that tastes like pure mango. It is the most-ordered drink at any fruit shake stall.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "ripe mangoes", "note": "carabao mangoes, about 2 cups flesh" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cold milk", "note": "or cold water" },
-          { "qty": 2, "max": 3, "unit": "tbsp", "name": "condensed milk", "note": "or sugar to taste" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Slice the cheeks off the mangoes, score the flesh and scoop it into the blender. Scrape the flesh off the seed too.", "minutes": null },
-      { "text": "Add the milk and condensed milk and blend until smooth.", "minutes": null },
-      { "text": "Add the ice and blend until thick and frosty. Taste and adjust the sweetness.", "minutes": null },
-      { "text": "Pour into glasses and serve right away.", "minutes": null }
-    ],
-    "tips": "Freeze cubed ripe mango when it is in season and use it in place of some of the ice for a thicker shake."
-  },
-  {
-    "slug": "green-mango-shake",
-    "title": "Green mango shake",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["green mango"],
-    "prep": 15,
-    "cook": 0,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Sour green mango blended with sugar and ice into a pale green shake that is tart, sweet and faintly salty. It wakes you right up on a hot afternoon.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "medium green mangoes", "note": "about 1 1/2 cups chopped" },
-          { "qty": 0.333, "max": 0.5, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "cold water", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" },
-          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "optional" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Peel the mangoes, slice the flesh off the seeds and chop it roughly.", "minutes": null },
-      { "text": "Blend the mango with the sugar, water and salt until completely smooth.", "minutes": null },
-      { "text": "Add the ice and blend until slushy. Taste: green mangoes vary a lot in sourness, so add more sugar as needed.", "minutes": null },
-      { "text": "Pour into glasses and serve right away.", "minutes": null }
-    ],
-    "tips": "Use firm, fully green mangoes with white or pale yellow flesh. Some stalls blend in a spoonful of condensed milk for a creamier version."
-  },
-  {
-    "slug": "avocado-shake",
-    "title": "Avocado shake",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["avocado", "milk", "condensed milk"],
-    "prep": 10,
-    "cook": 0,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Ripe avocado blended with milk, condensed milk and ice into a thick, buttery, pale green shake. In the Philippines avocado is treated as a sweet fruit, and this is its most popular form.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "large ripe avocado", "note": "about 1 cup flesh" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
-          { "qty": 3, "max": 4, "unit": "tbsp", "name": "condensed milk", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Halve the avocado, remove the seed and scoop the flesh into the blender.", "minutes": null },
-      { "text": "Add the milk and condensed milk and blend until very smooth.", "minutes": null },
-      { "text": "Add the ice and blend until thick. Taste and add more condensed milk if needed.", "minutes": null },
-      { "text": "Pour into glasses and serve right away, before it starts to darken.", "minutes": null }
-    ],
-    "tips": "The avocado should give slightly when pressed. An underripe one tastes grassy and will not blend smooth."
-  },
-  {
-    "slug": "ube-shake",
-    "title": "Ube shake",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["ube", "milk", "condensed milk"],
-    "prep": 10,
-    "cook": 0,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Ube halaya blended with milk and ice into a thick purple shake that tastes sweet, milky and gently earthy, like a drinkable ube dessert.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "ube halaya", "note": "homemade or from a jar" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
-          { "qty": 1, "max": 2, "unit": "tbsp", "name": "condensed milk", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Blend the ube halaya and milk until smooth, with no lumps left.", "minutes": null },
-      { "text": "Add the condensed milk and ice and blend until thick and frosty.", "minutes": null },
-      { "text": "Taste and add more condensed milk if your halaya is not very sweet. Pour and serve.", "minutes": null }
-    ],
-    "tips": "Without halaya, use 1 cup boiled and mashed ube with 3 tablespoons condensed milk and a little more milk."
-  },
-  {
-    "slug": "banana-shake",
-    "title": "Banana shake",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["banana", "milk"],
-    "prep": 5,
-    "cook": 0,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Ripe lakatan bananas blended with cold milk and ice into a thick, naturally sweet shake. It is quick enough for breakfast and filling enough for merienda.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "ripe lakatan bananas", "note": "or other sweet eating bananas" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
-          { "qty": 1, "max": 2, "unit": "tbsp", "name": "white sugar or honey", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Peel the bananas and break them into the blender.", "minutes": null },
-      { "text": "Add the milk and sugar and blend until smooth.", "minutes": null },
-      { "text": "Add the ice and blend until thick and frothy. Pour and serve right away.", "minutes": null }
-    ],
-    "tips": "Bananas with brown spots make the sweetest shake. Slice and freeze overripe ones and use them in place of the ice."
-  },
-  {
-    "slug": "strawberry-shake",
-    "title": "Strawberry shake",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["milk", "condensed milk"],
-    "prep": 10,
-    "cook": 0,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Fresh strawberries blended with milk, condensed milk and ice into a pink, creamy, sweet-tart shake, the one you find wherever Benguet strawberries are sold.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 250, "max": null, "unit": "g", "name": "fresh strawberries", "note": "about 2 cups, hulled" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
-          { "qty": 3, "max": 4, "unit": "tbsp", "name": "condensed milk", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rinse the strawberries, then pull or cut off the green tops.", "minutes": null },
-      { "text": "Blend the strawberries with the milk and condensed milk until smooth.", "minutes": null },
-      { "text": "Add the ice and blend until thick. Taste: tart berries may need another spoonful of condensed milk.", "minutes": null },
-      { "text": "Pour into glasses and serve right away.", "minutes": null }
-    ],
-    "tips": "Local strawberries are often quite tart; the condensed milk is what balances them. Frozen strawberries work in place of half the ice."
-  },
-  {
-    "slug": "fresh-pineapple-juice",
-    "title": "Fresh pineapple juice",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["pineapple"],
-    "prep": 20,
-    "cook": 0,
-    "servings": 6,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Ripe pineapple blended with water and strained into a sweet, tangy, frothy juice that tastes nothing like the canned kind.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "large ripe pineapple", "note": "about 1.5 kg" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cold water", "note": "" },
-          { "qty": 2, "max": 4, "unit": "tbsp", "name": "white sugar", "note": "only if needed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Cut off the crown and base of the pineapple, then slice off the skin from top to bottom. Remove the eyes with a small knife.", "minutes": null },
-      { "text": "Quarter the pineapple lengthwise, cut out the hard core and chop the flesh into chunks.", "minutes": null },
-      { "text": "Blend the chunks with 1 cup of the water until completely smooth. Work in batches if needed.", "minutes": null },
-      { "text": "Pour through a fine sieve into a pitcher, pressing the pulp with a spoon to get all the juice out.", "minutes": null },
-      { "text": "Stir in the rest of the water. Taste and add sugar only if the pineapple is not sweet enough.", "minutes": null },
-      { "text": "Let the foam settle for a few minutes or skim it off, then serve over ice.", "minutes": null }
-    ],
-    "tips": "A ripe pineapple smells sweet at the base and a leaf pulled from the center comes out easily. The juice is best on the day you make it."
-  },
-  {
-    "slug": "guyabano-juice",
-    "title": "Guyabano juice",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["calamansi"],
-    "prep": 25,
-    "cook": 0,
-    "servings": 6,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Ripe guyabano (soursop) blended with water and sugar and strained into a thick, milky-looking juice. It tastes like a mix of pineapple, banana and citrus, sweet with a sour finish.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "ripe guyabano", "note": "about 1 kg, soft when pressed" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "cold water", "note": "" },
-          { "qty": 0.5, "max": 0.667, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "calamansi", "note": "optional, juiced" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Peel the soft skin off the guyabano with your fingers and pull out the fibrous center core.", "minutes": null },
-      { "text": "Pull the white flesh apart into segments and pop out every black seed. Discard the skin, core and seeds.", "minutes": null },
-      { "text": "Put the flesh in a blender with 2 cups of the water and the sugar. Pulse briefly, just until the flesh breaks down, so any missed seeds are not crushed.", "minutes": null },
-      { "text": "Pour through a sieve into a pitcher, pressing the pulp to get all the juice through.", "minutes": null },
-      { "text": "Stir in the rest of the water and the calamansi juice if using. Taste and adjust the sugar.", "minutes": null },
-      { "text": "Serve over ice.", "minutes": null }
-    ],
-    "tips": "A guyabano is ripe when it gives like a ripe avocado and the skin darkens a little. You can freeze the seeded flesh in bags and make juice later."
-  },
-  {
-    "slug": "dalandan-juice",
-    "title": "Dalandan juice",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["brown sugar"],
-    "prep": 20,
-    "cook": 0,
-    "servings": 4,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Juice squeezed from green-skinned dalandan, lightly sweetened and stretched with a little water. It is tangy and fragrant, sharper than orange juice and much less sour than calamansi.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 10, "max": 12, "unit": "", "name": "dalandan", "note": "about 1 kg" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cold water", "note": "" },
-          { "qty": 3, "max": 5, "unit": "tbsp", "name": "light brown sugar", "note": "or white sugar" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Roll each dalandan firmly on the counter to loosen the juice, then halve them crosswise.", "minutes": null },
-      { "text": "Squeeze them on a citrus juicer and strain out the seeds and pulp you do not want.", "minutes": null },
-      { "text": "Stir the sugar into the juice until it dissolves.", "minutes": null },
-      { "text": "Add the cold water, taste, and adjust with more water or sugar. Serve over ice.", "minutes": null }
-    ],
-    "tips": "Dalandan vary a lot in sweetness, so taste the juice before adding water and sugar. Skip the water entirely if the fruit is very sweet."
-  },
-  {
-    "slug": "tsokolate-eh",
-    "title": "Tsokolate eh",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["chocolate", "milk"],
-    "prep": 5,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Thick, intensely chocolatey hot chocolate made from tablea (pure cacao tablets) and whisked until frothy. It coats a spoon and is served in small cups, often with suman or puto for dunking.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 200, "max": null, "unit": "g", "name": "tablea", "note": "about 8 discs, broken up" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "whole milk", "note": "or evaporated milk" },
-          { "qty": 0.25, "max": 0.333, "unit": "cup", "name": "white or brown sugar", "note": "" },
-          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the tablea and water in a small, heavy pot over medium-low heat. Stir until the tablea melts into the water.", "minutes": 5 },
-      { "text": "Keep it at a gentle simmer, whisking often, until it has reduced and thickened noticeably. Do not let it boil hard or it scorches.", "minutes": 10 },
-      { "text": "Add the milk, sugar and salt and simmer, whisking hard with a batirol (wooden whisk) or a wire whisk until thick and frothy.", "minutes": 5 },
-      { "text": "Taste and add more sugar if you like. Pour into small cups and serve hot.", "minutes": null }
-    ],
-    "tips": "Tablea is pure ground cacao, so a little grit at the bottom of the cup is normal. Whisk again right before pouring to bring back the froth."
-  },
-  {
-    "slug": "tsokolate",
-    "title": "Tsokolate",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["chocolate", "evaporated milk"],
-    "prep": 5,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "The everyday thin hot chocolate made from tablea, water and sugar, with a splash of milk. It is rich and slightly bitter but light enough to drink by the mugful with pandesal at breakfast.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 100, "max": null, "unit": "g", "name": "tablea", "note": "about 4 discs, broken up" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 0.25, "max": 0.333, "unit": "cup", "name": "white or brown sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "evaporated milk", "note": "optional" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Bring the water to a boil in a pot, then lower the heat and add the tablea.", "minutes": null },
-      { "text": "Simmer, stirring often, until the tablea has completely melted and the drink smells deeply of chocolate.", "minutes": 10 },
-      { "text": "Stir in the sugar and milk and heat through without boiling.", "minutes": 2 },
-      { "text": "Whisk hard or froth with a batirol until foamy on top. Taste for sweetness and serve hot.", "minutes": null }
-    ],
-    "tips": "Tablea brands differ in strength. Start with 4 discs, and add one more next time if you want it richer."
-  },
-  {
-    "slug": "kapeng-barako",
-    "title": "Kapeng barako",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["coffee", "muscovado"],
-    "prep": 2,
-    "cook": 10,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Strong brewed coffee from barako beans, heavy-bodied and bold with a slightly smoky, fruity bitterness. Many drink it black with a spoonful of muscovado, with pandesal or kakanin on the side.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "ground barako coffee", "note": "medium-coarse grind" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "muscovado", "note": "or brown sugar" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Bring the water to a boil in a kettle or pot, then take it off the heat and let it stand for a moment.", "minutes": 1 },
-      { "text": "Stir in the ground coffee, cover and let it steep.", "minutes": 5 },
-      { "text": "Pour through a cloth coffee sock or a sieve lined with a paper filter into a warmed pot or carafe.", "minutes": null },
-      { "text": "Serve hot in cups, with muscovado on the side for each person to sweeten.", "minutes": null }
-    ],
-    "tips": "A French press works well for barako: steep 4 to 5 minutes, then press. Brewing past 6 minutes makes it harsh rather than strong."
-  },
-  {
-    "slug": "kape-with-condensed-milk",
-    "title": "Kape with condensed milk",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["coffee", "condensed milk"],
-    "prep": 2,
-    "cook": 5,
-    "servings": 2,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Hot coffee sweetened and whitened in one go with condensed milk, so it is creamy, caramel-sweet and still strong. It is the classic carinderia and kitchen-table cup.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "cup", "name": "hot brewed coffee", "note": "or 2 tsp instant coffee in 2 cups hot water" },
-          { "qty": 3, "max": 4, "unit": "tbsp", "name": "condensed milk", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Brew the coffee strong, or dissolve the instant coffee in freshly boiled water.", "minutes": null },
-      { "text": "Spoon the condensed milk into two mugs.", "minutes": null },
-      { "text": "Pour the hot coffee over and stir until the milk is fully dissolved. Taste and add more condensed milk if you like.", "minutes": null }
-    ],
-    "tips": "Condensed milk sinks to the bottom, so stir well and give it a last stir before drinking."
-  },
-  {
-    "slug": "iced-coffee",
-    "title": "Iced coffee",
-    "course": "inumin",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["coffee", "brown sugar", "evaporated milk", "condensed milk"],
-    "prep": 10,
-    "cook": 5,
-    "servings": 2,
-    "yield_label": "glasses",
-    "difficulty": "easy",
-    "intro": "Strong coffee sweetened with brown sugar, chilled and poured over ice with evaporated and condensed milk. It is creamy, sweet and bold, the Filipino home version of a coffee-shop iced latte.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "hot strong brewed coffee", "note": "barako or any dark roast" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "condensed milk", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Brew the coffee about twice as strong as you would drink it hot, since the ice dilutes it.", "minutes": null },
-      { "text": "Stir the brown sugar into the hot coffee until dissolved.", "minutes": null },
-      { "text": "Cool the coffee to room temperature, then chill it in the fridge. This can be done a day ahead.", "minutes": null },
-      { "text": "Stir the condensed milk into the evaporated milk.", "minutes": null },
-      { "text": "Fill two tall glasses with ice, pour in the coffee and top with the milk mixture. Stir before drinking.", "minutes": null }
-    ],
-    "tips": "Freeze leftover coffee in an ice tray and use the cubes in place of regular ice so the drink never gets watery."
   }
 ]

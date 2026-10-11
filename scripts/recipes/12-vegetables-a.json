@@ -1,51 +1,17 @@
 [
   {
-    "slug": "ilocano-pinakbet",
-    "title": "Ilocano pinakbet",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork belly", "bitter gourd", "eggplant", "okra", "string beans", "tomato"],
-    "prep": 20,
-    "cook": 35,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Bitter gourd, eggplant, okra and string beans cooked down with crisp pork belly and salty bagoong isda until the pot is almost dry. It is savory, a little bitter and best with plenty of rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 250, "max": null, "unit": "g", "name": "pork belly", "note": "cut into 2 cm cubes" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "for rendering the pork" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 3, "max": null, "unit": "", "name": "medium tomatoes", "note": "quartered" },
-          { "qty": 3, "max": 4, "unit": "tbsp", "name": "bagoong isda (fermented fish paste)", "note": "bagoong monamon or terong" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium ampalaya (bitter gourd)", "note": "halved, seeded and cut into 2 cm pieces" },
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 5 cm pieces" },
-          { "qty": 8, "max": null, "unit": "", "name": "okra", "note": "tops trimmed" },
-          { "qty": 150, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork belly and 2 tablespoons of water in a wide pot over medium heat. Let the water cook off and the fat render, then fry the pork in its own fat until the edges are golden.", "minutes": 12 },
-      { "text": "Add the garlic and onion and cook, stirring, until the onion is soft.", "minutes": null },
-      { "text": "Add the tomatoes and cook, mashing them with the spoon, until they break down into a thick sauce.", "minutes": 3 },
-      { "text": "Stir in the bagoong isda and the 1/2 cup of water and bring to a boil. If your bagoong has large bones, dissolve it in the water first and strain it into the pot.", "minutes": null },
-      { "text": "Add the ampalaya, eggplant, okra and sitaw on top of the sauce. Cover and cook over medium-low heat <strong>without stirring</strong>.", "minutes": 10 },
-      { "text": "Hold the lid down and shake the pot to coat the vegetables in the sauce. Cover again and cook until everything is tender but still holds its shape.", "minutes": 5 },
-      { "text": "Taste and add a little more bagoong if needed. Serve hot with steamed rice.", "minutes": null }
-    ],
-    "tips": "Shake the pot instead of stirring so the eggplant and ampalaya keep their shape. Ilocano pinakbet should be nearly dry; add a splash of water only if the bottom starts to catch."
-  },
-  {
     "slug": "pinakbet-tagalog",
     "title": "Pinakbet Tagalog",
     "course": "ulam",
     "diets": [],
-    "key_ingredients": ["squash", "pork belly", "shrimp paste", "eggplant", "string beans", "bitter gourd"],
+    "key_ingredients": [
+      "squash",
+      "pork belly",
+      "shrimp paste",
+      "eggplant",
+      "string beans",
+      "bitter gourd"
+    ],
     "prep": 20,
     "cook": 35,
     "servings": 4,
@@ -56,805 +22,130 @@
       {
         "title": "",
         "items": [
-          { "qty": 250, "max": null, "unit": "g", "name": "pork belly", "note": "thinly sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "chopped" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "bagoong alamang (shrimp paste)", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 300, "max": null, "unit": "g", "name": "kalabasa (squash)", "note": "peeled and cut into 3 cm cubes" },
-          { "qty": 150, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 6, "max": null, "unit": "", "name": "okra", "note": "tops trimmed" },
-          { "qty": 1, "max": null, "unit": "", "name": "small ampalaya (bitter gourd)", "note": "seeded and sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 5 cm pieces" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+          {
+            "qty": 250,
+            "max": null,
+            "unit": "g",
+            "name": "pork belly",
+            "note": "thinly sliced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "medium onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "medium tomatoes",
+            "note": "chopped"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "bagoong alamang (shrimp paste)",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 300,
+            "max": null,
+            "unit": "g",
+            "name": "kalabasa (squash)",
+            "note": "peeled and cut into 3 cm cubes"
+          },
+          {
+            "qty": 150,
+            "max": null,
+            "unit": "g",
+            "name": "sitaw (string beans)",
+            "note": "cut into 5 cm lengths"
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "",
+            "name": "okra",
+            "note": "tops trimmed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small ampalaya (bitter gourd)",
+            "note": "seeded and sliced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "long eggplants",
+            "note": "cut into 5 cm pieces"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "ground black pepper",
+            "note": ""
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Heat the oil in a wide pot over medium heat. Add the pork and cook, stirring now and then, until it renders some fat and turns lightly golden.", "minutes": 8 },
-      { "text": "Add the garlic and onion and cook until soft, then add the tomatoes and cook until they soften.", "minutes": 3 },
-      { "text": "Stir in the bagoong alamang and cook for a minute so it loses its raw smell.", "minutes": null },
-      { "text": "Pour in the water and add the squash. Cover and simmer until the squash is half cooked.", "minutes": 8 },
-      { "text": "Add the sitaw, okra and ampalaya. Cover and simmer.", "minutes": 4 },
-      { "text": "Add the eggplant, cover and cook until all the vegetables are tender.", "minutes": 5 },
-      { "text": "Press a few cubes of squash against the side of the pot to thicken the sauce. Season with pepper, taste for salt and serve with rice.", "minutes": null }
-    ],
-    "tips": "Brands of bagoong alamang vary a lot in saltiness. Start with 2 tablespoons and add the rest at the end if the sauce needs it."
-  },
-  {
-    "slug": "pinakbet-with-tofu",
-    "title": "Pinakbet with tofu",
-    "course": "ulam",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["tofu", "squash", "eggplant", "bitter gourd", "string beans", "okra"],
-    "prep": 20,
-    "cook": 35,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "A meatless pinakbet with fried tofu in place of pork, seasoned with soy sauce instead of bagoong. The squash makes the sauce thick and a little sweet against the bitter gourd.",
-    "groups": [
       {
-        "title": "",
-        "items": [
-          { "qty": 300, "max": null, "unit": "g", "name": "firm tofu", "note": "patted dry and cut into 2 cm cubes" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 3, "max": null, "unit": "", "name": "medium tomatoes", "note": "chopped" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 250, "max": null, "unit": "g", "name": "kalabasa (squash)", "note": "peeled and cut into 3 cm cubes" },
-          { "qty": 150, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 6, "max": null, "unit": "", "name": "okra", "note": "tops trimmed" },
-          { "qty": 1, "max": null, "unit": "", "name": "small ampalaya (bitter gourd)", "note": "seeded and sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 5 cm pieces" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wide pot over medium-high heat. Fry the tofu, turning, until golden on most sides. Lift it out and set aside.", "minutes": 8 },
-      { "text": "In the same oil, cook the garlic and onion until soft. Add the tomatoes and cook until they break down.", "minutes": 4 },
-      { "text": "Add the soy sauce, water and squash. Cover and simmer until the squash is half cooked.", "minutes": 8 },
-      { "text": "Add the sitaw, okra and ampalaya, cover and simmer.", "minutes": 4 },
-      { "text": "Add the eggplant and the fried tofu. Cover and cook until the vegetables are tender, shaking the pot once or twice instead of stirring.", "minutes": 6 },
-      { "text": "Season with salt and pepper and serve with rice.", "minutes": null }
-    ],
-    "tips": "Fry the tofu until it has a real crust; it holds together in the sauce and soaks it up without falling apart."
-  },
-  {
-    "slug": "pinakbet-with-lechon-kawali",
-    "title": "Pinakbet with lechon kawali",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork belly", "squash", "eggplant", "bitter gourd", "shrimp paste", "string beans"],
-    "prep": 25,
-    "cook": 75,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Squash-thickened pinakbet with chunks of crackling lechon kawali on top. The pork is added at the end so the skin stays crunchy against the soft vegetables.",
-    "groups": [
-      {
-        "title": "For the lechon kawali",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pork belly slab", "note": "skin on" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
-        ]
+        "text": "Heat the oil in a wide pot over medium heat. Add the pork and cook, stirring now and then, until it renders some fat and turns lightly golden.",
+        "minutes": 8
       },
       {
-        "title": "For the pinakbet",
-        "items": [
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "chopped" },
-          { "qty": 2, "max": 3, "unit": "tbsp", "name": "bagoong alamang (shrimp paste)", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 250, "max": null, "unit": "g", "name": "kalabasa (squash)", "note": "cut into 3 cm cubes" },
-          { "qty": 150, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 6, "max": null, "unit": "", "name": "okra", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "small ampalaya (bitter gourd)", "note": "seeded and sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 5 cm pieces" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork belly in a pot with the salt, bay leaves, peppercorns and enough water to cover. Bring to a boil, then simmer until a knife slides in easily.", "minutes": 40 },
-      { "text": "Drain the pork and pat it completely dry. Let it cool and air-dry on a rack so the skin dries out.", "minutes": 15 },
-      { "text": "Heat the oil in a deep pan over medium heat. Lower in the pork skin side down, cover partly with a lid (it spatters), and fry, turning, until deep golden and blistered all over.", "minutes": 12 },
-      { "text": "Drain on a rack, rest a few minutes, then chop into 3 cm pieces.", "minutes": 5 },
-      { "text": "Pour off all but 1 tablespoon of the frying oil from the pan, or use a clean pot. Cook the garlic and onion until soft, add the tomatoes and cook until they break down.", "minutes": 3 },
-      { "text": "Stir in the bagoong and cook for a minute. Add the water and squash, cover and simmer until the squash is half cooked.", "minutes": 7 },
-      { "text": "Add the sitaw, okra, ampalaya and eggplant. Cover and cook until everything is tender, shaking the pot once instead of stirring.", "minutes": 7 },
-      { "text": "Taste the sauce and adjust with a little more bagoong. Spoon into a serving dish and pile the lechon kawali on top just before serving.", "minutes": null }
-    ],
-    "tips": "Leftover lechon kawali or store-bought bagnet works too: reheat it in a hot oven or air fryer until crisp and skip straight to the vegetables."
-  },
-  {
-    "slug": "dinengdeng",
-    "title": "Dinengdeng",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["fish", "squash", "string beans", "eggplant", "malunggay", "tomato"],
-    "prep": 15,
-    "cook": 35,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Mixed vegetables simmered in a light, salty broth of bagoong isda and rice washing, topped with a grilled fish. It is brothy, savory and meant to be spooned over rice.",
-    "groups": [
+        "text": "Add the garlic and onion and cook until soft, then add the tomatoes and cook until they soften.",
+        "minutes": 3
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "whole tilapia or galunggong", "note": "cleaned and scaled" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "for the fish" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "rice washing", "note": "from the second rinse, or plain water" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "quartered" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "bagoong isda (fermented fish paste)", "note": "" },
-          { "qty": 250, "max": null, "unit": "g", "name": "kalabasa (squash)", "note": "cut into 3 cm cubes" },
-          { "qty": 150, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 6, "max": null, "unit": "", "name": "okra", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "long eggplant", "note": "cut into 5 cm pieces" },
-          { "qty": 1, "max": null, "unit": "", "name": "small ampalaya (bitter gourd)", "note": "seeded and sliced" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "stripped from the stems" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Rub the fish with salt and grill over charcoal, under a broiler or on a hot grill pan until cooked through and charred in spots, about 8 minutes per side.", "minutes": 16 },
-      { "text": "Meanwhile, bring the rice washing, ginger, onion and tomatoes to a boil in a pot.", "minutes": 5 },
-      { "text": "Mix the bagoong isda with a ladle of the hot liquid, then pour it through a strainer into the pot and discard the bones.", "minutes": null },
-      { "text": "Add the squash and simmer until almost tender.", "minutes": 6 },
-      { "text": "Add the sitaw, okra, eggplant and ampalaya and simmer until tender.", "minutes": 5 },
-      { "text": "Lay the grilled fish on top and add the malunggay. Simmer just until the leaves wilt.", "minutes": 2 },
-      { "text": "Taste the broth and add a little more strained bagoong if needed. Serve hot with rice.", "minutes": null }
-    ],
-    "tips": "Leftover fried fish works in place of grilled. Do not stir much once the vegetables are in, so the squash stays in cubes."
-  },
-  {
-    "slug": "bulanglang",
-    "title": "Bulanglang",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["shrimp", "shrimp paste", "squash", "okra", "eggplant", "string beans"],
-    "prep": 15,
-    "cook": 30,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Squash, okra, eggplant and string beans boiled in rice washing with shrimp and bagoong alamang. The broth is light and salty-sweet, and the vegetables stay soft and juicy.",
-    "groups": [
+        "text": "Stir in the bagoong alamang and cook for a minute so it loses its raw smell.",
+        "minutes": null
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": null, "unit": "cup", "name": "rice washing", "note": "or plain water" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "quartered" },
-          { "qty": 2, "max": 3, "unit": "tbsp", "name": "bagoong alamang (shrimp paste)", "note": "" },
-          { "qty": 250, "max": null, "unit": "g", "name": "kalabasa (squash)", "note": "cut into 3 cm cubes" },
-          { "qty": 150, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 8, "max": null, "unit": "", "name": "okra", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "cut into 5 cm pieces" },
-          { "qty": 250, "max": null, "unit": "g", "name": "medium shrimp", "note": "whiskers trimmed, shells on" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "talbos ng kamote (sweet potato tops)", "note": "leaves and tender tips" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Bring the rice washing, ginger, onion and tomatoes to a boil in a pot.", "minutes": 5 },
-      { "text": "Stir in the bagoong alamang until dissolved.", "minutes": null },
-      { "text": "Add the squash and simmer until almost tender.", "minutes": 6 },
-      { "text": "Add the sitaw, okra and eggplant and simmer until tender.", "minutes": 5 },
-      { "text": "Add the shrimp and cook just until they turn pink and curl.", "minutes": 2 },
-      { "text": "Add the talbos ng kamote, push them under the broth and turn off the heat. Taste, adjust with bagoong and serve hot.", "minutes": null }
-    ],
-    "tips": "Rice washing gives the broth a little body. Save the water from the second rinse, since the first one is usually dusty."
-  },
-  {
-    "slug": "laswa",
-    "title": "Laswa",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["shrimp", "squash", "okra", "eggplant", "string beans", "malunggay"],
-    "prep": 15,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "A pot of mixed vegetables and shrimp in a clear, lightly salted broth, slippery from the okra and alugbati. It is simple, fresh-tasting and eaten with rice.",
-    "groups": [
+        "text": "Pour in the water and add the squash. Cover and simmer until the squash is half cooked.",
+        "minutes": 8
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium tomato", "note": "quartered" },
-          { "qty": 200, "max": null, "unit": "g", "name": "kalabasa (squash)", "note": "cut into 3 cm cubes" },
-          { "qty": 6, "max": null, "unit": "", "name": "okra", "note": "halved crosswise" },
-          { "qty": 1, "max": null, "unit": "", "name": "long eggplant", "note": "sliced" },
-          { "qty": 100, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 250, "max": null, "unit": "g", "name": "medium shrimp", "note": "shells on" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "alugbati leaves", "note": "or saluyot" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Bring the water, onion, garlic and tomato to a boil in a pot.", "minutes": 5 },
-      { "text": "Add the squash and simmer until almost tender.", "minutes": 6 },
-      { "text": "Add the okra, eggplant and sitaw and simmer until tender.", "minutes": 4 },
-      { "text": "Add the shrimp and the fish sauce and cook until the shrimp turn pink.", "minutes": 2 },
-      { "text": "Add the alugbati and malunggay, simmer just until wilted, then season with salt and serve right away.", "minutes": 1 }
-    ],
-    "tips": "Add the leafy greens last and serve soon after; they turn dark and lose their bite if they sit in the hot broth."
-  },
-  {
-    "slug": "ginisang-ampalaya-with-egg",
-    "title": "Ginisang ampalaya with egg",
-    "course": "ulam",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["bitter gourd", "egg", "tomato", "onion", "garlic"],
-    "prep": 20,
-    "cook": 12,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Thinly sliced bitter gourd sautéed with tomatoes and onion, then folded with soft scrambled egg. Salting the ampalaya first takes the edge off, so it is pleasantly bitter rather than harsh.",
-    "groups": [
+        "text": "Add the sitaw, okra and ampalaya. Cover and simmer.",
+        "minutes": 4
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "medium ampalaya (bitter gourd)", "note": "about 500 g" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "for rubbing" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "eggs", "note": "beaten with a pinch of salt" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Halve the ampalaya lengthwise, scrape out the seeds and white pith, and slice thinly into half-moons.", "minutes": null },
-      { "text": "Toss the slices with the tablespoon of salt and let them sit until they release liquid.", "minutes": 10 },
-      { "text": "Squeeze the ampalaya hard by the handful, rinse under cold water, and squeeze again.", "minutes": null },
-      { "text": "Heat the oil in a pan over medium heat. Cook the garlic and onion until soft, then add the tomatoes and cook until they soften.", "minutes": 3 },
-      { "text": "Add the ampalaya and water and cook, tossing only once or twice, until bright green and tender-crisp.", "minutes": 4 },
-      { "text": "Push the vegetables to one side, pour the eggs into the empty space and let them set slightly, then fold everything together until the egg is just cooked.", "minutes": 2 },
-      { "text": "Season with salt and pepper and serve with rice.", "minutes": null }
-    ],
-    "tips": "For milder ampalaya, slice it thinner and leave it in the salt longer. Cooking it briefly also keeps it less bitter than cooking it soft."
-  },
-  {
-    "slug": "ginisang-ampalaya-with-giniling",
-    "title": "Ginisang ampalaya with giniling",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["bitter gourd", "ground pork", "tomato", "fish sauce", "garlic"],
-    "prep": 20,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Bitter gourd sautéed with browned ground pork, garlic and tomatoes, seasoned with fish sauce. The savory pork balances the bitterness, and it is a full ulam with rice.",
-    "groups": [
+        "text": "Add the eggplant, cover and cook until all the vegetables are tender.",
+        "minutes": 5
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "medium ampalaya (bitter gourd)", "note": "about 500 g" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "for rubbing" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 250, "max": null, "unit": "g", "name": "ground pork", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "chopped" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
+        "text": "Press a few cubes of squash against the side of the pot to thicken the sauce. Season with pepper, taste for salt and serve with rice.",
+        "minutes": null
       }
     ],
-    "steps": [
-      { "text": "Halve the ampalaya lengthwise, scrape out the seeds and pith, and slice thinly. Toss with the salt and let stand.", "minutes": 10 },
-      { "text": "Squeeze the ampalaya hard, rinse in cold water and squeeze again. Set aside.", "minutes": null },
-      { "text": "Heat the oil in a pan over medium-high heat. Add the ground pork and cook, breaking it up, until no longer pink and starting to brown.", "minutes": 6 },
-      { "text": "Add the garlic and onion and cook until soft, then add the tomatoes and cook until they soften.", "minutes": 3 },
-      { "text": "Season with the fish sauce, add the ampalaya and water, and cook, tossing once or twice, until the ampalaya is tender-crisp.", "minutes": 4 },
-      { "text": "Season with pepper, taste for salt and serve with rice.", "minutes": null }
-    ],
-    "tips": "Ground beef works the same way. Beat in two eggs at the end if you want to stretch it further."
-  },
-  {
-    "slug": "ginisang-sayote",
-    "title": "Ginisang sayote",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["chayote", "pork", "carrot", "garlic", "fish sauce"],
-    "prep": 15,
-    "cook": 18,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Strips of chayote and carrot sautéed with thin slices of pork, garlic and onion until tender-crisp. Mild, juicy and a good everyday ulam.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "medium sayote (chayote)", "note": "about 600 g, peeled and cut into strips" },
-          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "cut into strips" },
-          { "qty": 200, "max": null, "unit": "g", "name": "pork kasim or belly", "note": "thinly sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium tomato", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Peel the sayote under running water or with oiled hands, since the sap is sticky. Halve, remove the seed and cut into thin strips.", "minutes": null },
-      { "text": "Heat the oil in a pan over medium-high heat and cook the pork until lightly browned.", "minutes": 6 },
-      { "text": "Add the garlic, onion and tomato and cook until soft. Season with the fish sauce.", "minutes": 3 },
-      { "text": "Add the water and simmer so the pork softens a little more.", "minutes": 3 },
-      { "text": "Add the sayote and carrot, toss, cover and cook until tender-crisp.", "minutes": 6 },
-      { "text": "Season with pepper, taste for salt and serve with rice.", "minutes": null }
-    ],
-    "tips": "Sayote gives off water as it cooks, so keep the added water to a minimum if you want it less saucy."
-  },
-  {
-    "slug": "ginisang-talbos-ng-sayote",
-    "title": "Ginisang talbos ng sayote",
-    "course": "ulam",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["chayote", "garlic", "soy sauce", "onion"],
-    "prep": 15,
-    "cook": 8,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Tender chayote shoots stir-fried quickly with lots of golden garlic and a splash of soy sauce. The shoots stay crisp and slightly sweet, like a cross between pea shoots and spinach.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "talbos ng sayote (chayote shoots)", "note": "about 2 bunches" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pick the tender tips, leaves and soft stems from the shoots, discarding the curly tendrils and tough stems. Cut into 8 cm lengths and wash well.", "minutes": null },
-      { "text": "Heat the oil in a wok or wide pan over medium heat. Fry the garlic until light golden, then add the onion and cook until soft.", "minutes": 2 },
-      { "text": "Turn the heat to high. Add the stems first and toss for a minute, then add the leaves, soy sauce and water.", "minutes": null },
-      { "text": "Toss until the leaves are just wilted and still bright green.", "minutes": 2 },
-      { "text": "Season with salt and pepper and serve right away.", "minutes": null }
-    ],
-    "tips": "If the stems feel stringy, pull off the outer fibers with your fingers like you would with celery."
-  },
-  {
-    "slug": "ginisang-repolyo",
-    "title": "Ginisang repolyo",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["cabbage", "pork", "carrot", "garlic", "fish sauce"],
-    "prep": 15,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Shredded cabbage and carrot sautéed with sliced pork, garlic and onion, seasoned with fish sauce. Quick, cheap and sweet from the cabbage.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "small cabbage", "note": "about 700 g, cored and sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "cut into thin strips" },
-          { "qty": 200, "max": null, "unit": "g", "name": "pork kasim or belly", "note": "thinly sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wok or wide pan over medium-high heat and cook the pork until lightly browned.", "minutes": 6 },
-      { "text": "Add the garlic and onion and cook until soft. Season with the fish sauce.", "minutes": 2 },
-      { "text": "Add the carrot and toss for a minute.", "minutes": null },
-      { "text": "Add the cabbage and water, toss, cover and cook until the cabbage is wilted but still has some crunch, tossing once halfway.", "minutes": 4 },
-      { "text": "Season with pepper, taste for salt and serve with rice.", "minutes": null }
-    ],
-    "tips": "Do not overcook the cabbage; it turns watery and loses its sweetness. A sliced green bell pepper added with the carrot is a common addition."
-  },
-  {
-    "slug": "ginisang-repolyo-with-corned-beef",
-    "title": "Ginisang repolyo with corned beef",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["corned beef", "cabbage", "onion", "garlic"],
-    "prep": 10,
-    "cook": 12,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Canned corned beef fried until the edges crisp, then tossed with shredded cabbage until just wilted. Salty, a little sweet and ready in about 20 minutes.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "can corned beef", "note": "about 260 g" },
-          { "qty": 0.5, "max": null, "unit": "", "name": "medium cabbage", "note": "about 450 g, shredded" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wide pan over medium heat. Cook the garlic and onion until soft.", "minutes": 2 },
-      { "text": "Add the corned beef, break it up with the spoon, and let it fry without stirring too often until some bits turn crisp.", "minutes": 4 },
-      { "text": "Add the cabbage and water and toss everything together.", "minutes": null },
-      { "text": "Cook, tossing, until the cabbage is wilted but still crunchy.", "minutes": 4 },
-      { "text": "Season with pepper and taste before adding any salt, since corned beef is already salty. Serve with rice.", "minutes": null }
-    ],
-    "tips": "A small diced potato fried in the oil before the garlic makes it more filling."
-  },
-  {
-    "slug": "ginisang-upo",
-    "title": "Ginisang upo",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["bottle gourd", "ground pork", "tomato", "garlic", "fish sauce"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Soft slices of bottle gourd simmered with ground pork, tomatoes and garlic in their own light, savory juices. Mild and comforting, especially with plenty of rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "medium upo (bottle gourd)", "note": "about 800 g" },
-          { "qty": 200, "max": null, "unit": "g", "name": "ground pork", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "chopped" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Peel the upo, quarter it lengthwise, scoop out any large seeds, and slice into 1 cm thick pieces.", "minutes": null },
-      { "text": "Heat the oil in a pan over medium-high heat and cook the pork, breaking it up, until it starts to brown.", "minutes": 6 },
-      { "text": "Add the garlic, onion and tomatoes and cook until the tomatoes soften. Season with the fish sauce.", "minutes": 3 },
-      { "text": "Add the upo and water, stir, cover and simmer until the upo is tender and translucent.", "minutes": 8 },
-      { "text": "Season with pepper, taste for salt, scatter over the green onions and serve.", "minutes": null }
-    ],
-    "tips": "Choose a young upo with smooth, pale skin; older ones are tough and seedy."
-  },
-  {
-    "slug": "ginisang-togue",
-    "title": "Ginisang togue",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["bean sprouts", "tofu", "shrimp", "carrot", "garlic"],
-    "prep": 15,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Mung bean sprouts stir-fried with fried tofu, shrimp and carrot strips, seasoned with soy sauce. Crunchy, juicy and on the table in under 30 minutes.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "togue (mung bean sprouts)", "note": "rinsed and drained" },
-          { "qty": 200, "max": null, "unit": "g", "name": "firm tofu", "note": "cut into small cubes" },
-          { "qty": 150, "max": null, "unit": "g", "name": "small shrimp", "note": "peeled" },
-          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "cut into thin strips" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "cut into 3 cm lengths" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wok over medium-high heat and fry the tofu until golden. Lift out and set aside, leaving about a tablespoon of oil in the wok.", "minutes": 7 },
-      { "text": "Cook the garlic and onion until soft, then add the shrimp and cook until pink.", "minutes": 2 },
-      { "text": "Add the carrot and toss for a minute.", "minutes": null },
-      { "text": "Turn the heat to high, add the togue, soy sauce and water, and toss just until the sprouts are hot but still crunchy.", "minutes": 2 },
-      { "text": "Return the tofu, add the green onions, season with salt and pepper and serve right away.", "minutes": null }
-    ],
-    "tips": "Pick off the brown root tails of the sprouts if you have time; it makes the dish cleaner-looking. Cook the togue briefly or it goes limp and watery."
-  },
-  {
-    "slug": "ginisang-sitaw",
-    "title": "Ginisang sitaw",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["string beans", "pork", "tomato", "garlic", "fish sauce"],
-    "prep": 15,
-    "cook": 22,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Long beans sautéed with sliced pork, garlic and tomatoes until tender but still snappy. A simple, savory ulam that goes with almost any fried fish or rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "sitaw (string beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 200, "max": null, "unit": "g", "name": "pork kasim or belly", "note": "thinly sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a pan over medium-high heat and cook the pork until lightly browned.", "minutes": 6 },
-      { "text": "Add the garlic, onion and tomatoes and cook until the tomatoes soften. Season with the fish sauce.", "minutes": 3 },
-      { "text": "Add the water, cover and simmer to soften the pork.", "minutes": 5 },
-      { "text": "Add the sitaw, cover and cook until tender but still bright green, tossing once.", "minutes": 6 },
-      { "text": "Uncover and cook off some of the liquid. Season with pepper, taste for salt and serve.", "minutes": 2 }
-    ],
-    "tips": "Snap the beans by hand instead of cutting them; any that bend instead of snapping are old and will stay tough."
-  },
-  {
-    "slug": "ginisang-pechay",
-    "title": "Ginisang pechay",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["bok choy", "ground pork", "garlic", "onion", "tomato"],
-    "prep": 10,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Pechay sautéed with ground pork, garlic, onion and tomato, finished with a little oyster sauce. The stems stay juicy and crisp and the leaves soak up the savory pan juices.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "pechay (bok choy)", "note": "about 2 bunches" },
-          { "qty": 200, "max": null, "unit": "g", "name": "ground pork", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium tomato", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Wash the pechay well, then cut the stems into 3 cm pieces and roughly chop the leaves, keeping them separate.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium-high heat and cook the pork, breaking it up, until browned.", "minutes": 6 },
-      { "text": "Add the garlic, onion and tomato and cook until soft. Stir in the oyster sauce, fish sauce and water.", "minutes": 3 },
-      { "text": "Add the pechay stems and cook, tossing, until just tender.", "minutes": 2 },
-      { "text": "Add the leaves and toss until wilted. Season with pepper and serve.", "minutes": 1 }
-    ],
-    "tips": "Grit hides at the base of pechay stems. Separate the stalks and rinse each one."
-  },
-  {
-    "slug": "ginisang-kangkong",
-    "title": "Ginisang kangkong",
-    "course": "ulam",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["water spinach", "garlic", "soy sauce", "onion"],
-    "prep": 10,
-    "cook": 6,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Water spinach stir-fried over high heat with a lot of crisp garlic and a little soy sauce. The hollow stems stay crunchy and the leaves turn silky.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "kangkong (water spinach)", "note": "about 2 bunches" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "sliced" },
-          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "red chili", "note": "sliced, optional" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Cut the kangkong into 8 cm lengths, discarding the tough lower stems, and keep the stems and leaves in separate piles. Wash and drain well.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium heat and fry the garlic until golden. Scoop out half of it for topping.", "minutes": 2 },
-      { "text": "Add the onion and chili and cook for a minute. Turn the heat to high and add the stems, tossing until they turn bright green.", "minutes": 2 },
-      { "text": "Add the leaves, soy sauce and sugar and toss just until wilted.", "minutes": 1 },
-      { "text": "Season with pepper, pile onto a plate and scatter the reserved garlic on top.", "minutes": null }
-    ],
-    "tips": "Get the wok very hot and cook in two batches if your pan is small; crowded kangkong stews instead of frying."
-  },
-  {
-    "slug": "kangkong-with-bagoong",
-    "title": "Kangkong with bagoong",
-    "course": "ulam",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["water spinach", "shrimp paste", "tomato", "garlic", "onion"],
-    "prep": 10,
-    "cook": 10,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Water spinach tossed in a sauté of bagoong alamang, garlic, onion and tomato. It is salty, a little sweet and funky, so a small serving goes a long way with rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "kangkong (water spinach)", "note": "about 2 bunches" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "bagoong alamang (shrimp paste)", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "red chili", "note": "sliced, optional" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Cut the kangkong into 8 cm lengths, discarding the tough lower stems. Keep the stems and leaves separate, then wash and drain.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium heat. Cook the garlic, onion and tomatoes until the tomatoes soften.", "minutes": 3 },
-      { "text": "Add the bagoong alamang, sugar and chili and cook, stirring, until the bagoong darkens and smells toasty.", "minutes": 2 },
-      { "text": "Turn the heat to high, add the stems and water and toss until bright green.", "minutes": 2 },
-      { "text": "Add the leaves and toss just until wilted. Taste before serving; it should not need salt.", "minutes": 1 }
-    ],
-    "tips": "If you use bottled sautéed bagoong, skip the sugar and use a little less, as it is already sweetened."
-  },
-  {
-    "slug": "ginisang-talbos-ng-kamote",
-    "title": "Ginisang talbos ng kamote",
-    "course": "ulam",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["sweet potato", "tomato", "garlic", "onion", "soy sauce"],
-    "prep": 15,
-    "cook": 8,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Sweet potato tops sautéed with garlic, onion and plenty of tomato until soft and glossy. Earthy and tender, with a little tang from the tomatoes.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "talbos ng kamote (sweet potato tops)", "note": "about 3 bunches" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 3, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pick the leaves and tender tips from the stems, discarding the tough parts. Wash and drain well.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium heat. Cook the garlic and onion until soft.", "minutes": 2 },
-      { "text": "Add the tomatoes and soy sauce and cook until the tomatoes break down into a sauce.", "minutes": 3 },
-      { "text": "Add the sweet potato tops and toss until wilted and tender.", "minutes": 2 },
-      { "text": "Season with salt and pepper and serve.", "minutes": null }
-    ],
-    "tips": "Use the leaves within a day of buying; they wilt fast. Keep them wrapped in a damp towel in the fridge until cooking."
-  },
-  {
-    "slug": "ginisang-mustasa",
-    "title": "Ginisang mustasa",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["pork belly", "tomato", "garlic", "onion", "fish sauce"],
-    "prep": 15,
-    "cook": 18,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Mustard greens sautéed with thinly sliced pork belly, garlic and tomatoes. The greens are peppery and slightly bitter, softened by the pork fat and tomato.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "mustasa (mustard greens)", "note": "about 2 bunches, cut into 5 cm pieces" },
-          { "qty": 200, "max": null, "unit": "g", "name": "pork belly", "note": "thinly sliced" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the pork in a dry pan over medium heat and cook until it renders its fat and turns golden.", "minutes": 8 },
-      { "text": "Add the garlic, onion and tomatoes and cook until the tomatoes soften. Season with the fish sauce.", "minutes": 3 },
-      { "text": "Add the mustasa stems and water and cook, tossing, until the stems begin to soften.", "minutes": 2 },
-      { "text": "Add the leaves and cook, tossing, until wilted and tender.", "minutes": 3 },
-      { "text": "Season with pepper, taste for salt and serve with rice.", "minutes": null }
-    ],
-    "tips": "Older, larger mustasa leaves are sharper. If yours bite too much, blanch them in boiling water for 30 seconds and squeeze them before sautéing."
-  },
-  {
-    "slug": "ginisang-mais",
-    "title": "Ginisang mais",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["corn", "ground pork", "malunggay", "garlic", "fish sauce"],
-    "prep": 15,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Fresh corn kernels simmered with ground pork and malunggay leaves in a thick, slightly milky sauce from the corn itself. Sweet, savory and spooned generously over rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "ears fresh sweet corn", "note": "kernels cut off, about 3 cups" },
-          { "qty": 200, "max": null, "unit": "g", "name": "ground pork", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "stripped from the stems" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Stand each ear of corn in a wide bowl and slice the kernels off with a knife. Scrape the cobs with the back of the knife to get the milky pulp.", "minutes": null },
-      { "text": "Heat the oil in a pot over medium heat. Cook the garlic and onion until soft, add the pork and cook until no longer pink.", "minutes": 6 },
-      { "text": "Season with the fish sauce, add the corn and its pulp, and stir for a minute.", "minutes": null },
-      { "text": "Pour in the water, bring to a boil, then lower the heat and simmer until the corn is tender and the liquid thickens slightly.", "minutes": 15 },
-      { "text": "Add the malunggay and cook just until wilted. Season with salt and pepper and serve.", "minutes": 1 }
-    ],
-    "tips": "Scraping the cobs is what makes the sauce creamy, so do not skip it. Frozen corn works but the sauce will be thinner."
+    "tips": "Brands of bagoong alamang vary a lot in saltiness. Start with 2 tablespoons and add the rest at the end if the sauce needs it."
   }
 ]

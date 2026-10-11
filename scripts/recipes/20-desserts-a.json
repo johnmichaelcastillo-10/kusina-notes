@@ -3,8 +3,14 @@
     "slug": "leche-flan",
     "title": "Leche flan",
     "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["egg", "condensed milk", "evaporated milk"],
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "egg",
+      "condensed milk",
+      "evaporated milk"
+    ],
     "prep": 20,
     "cook": 40,
     "servings": 2,
@@ -15,248 +21,105 @@
       {
         "title": "For the caramel",
         "items": [
-          { "qty": 1, "max": null, "unit": "cup", "name": "white sugar", "note": "0.5 cup per llanera" }
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": "0.5 cup per llanera"
+          }
         ]
       },
       {
         "title": "For the custard",
         "items": [
-          { "qty": 10, "max": null, "unit": "", "name": "egg yolks", "note": "from large eggs" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "dayap or calamansi", "note": "zest only, optional" }
+          {
+            "qty": 10,
+            "max": null,
+            "unit": "",
+            "name": "egg yolks",
+            "note": "from large eggs"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can condensed milk",
+            "note": "390 g"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can evaporated milk",
+            "note": "370 ml"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "vanilla extract",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "dayap or calamansi",
+            "note": "zest only, optional"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Put 0.5 cup sugar in each llanera. Hold one at a time over low heat with tongs and let the sugar melt without stirring, swirling now and then, until it turns deep amber.", "minutes": 5 },
-      { "text": "Take the llanera off the heat and tilt it so the caramel coats the whole bottom. Set aside; the caramel hardens and may crackle as it cools, which is fine.", "minutes": null },
-      { "text": "Put the yolks in a bowl and add the condensed milk, evaporated milk, vanilla and zest. Stir gently with a spoon until smooth. Do not whisk hard: bubbles leave holes in the flan.", "minutes": null },
-      { "text": "Strain the mixture twice through a fine sieve, then pour it over the caramel. Cover each llanera tightly with foil.", "minutes": null },
-      { "text": "Bring water to a boil in a steamer, then lower the heat so it only simmers. Wrap the lid in a kitchen towel so drips do not fall on the flan.", "minutes": null },
-      { "text": "Steam the llaneras over <strong>low heat</strong> until the flan is set and a toothpick near the center comes out clean.", "minutes": 35 },
-      { "text": "Lift out the llaneras, remove the foil and let the flan cool to room temperature.", "minutes": 30 },
-      { "text": "Chill for at least 4 hours. To serve, run a thin knife around the edge, put a plate on top and flip it over so the caramel runs down the sides.", "minutes": null }
+      {
+        "text": "Put 0.5 cup sugar in each llanera. Hold one at a time over low heat with tongs and let the sugar melt without stirring, swirling now and then, until it turns deep amber.",
+        "minutes": 5
+      },
+      {
+        "text": "Take the llanera off the heat and tilt it so the caramel coats the whole bottom. Set aside; the caramel hardens and may crackle as it cools, which is fine.",
+        "minutes": null
+      },
+      {
+        "text": "Put the yolks in a bowl and add the condensed milk, evaporated milk, vanilla and zest. Stir gently with a spoon until smooth. Do not whisk hard: bubbles leave holes in the flan.",
+        "minutes": null
+      },
+      {
+        "text": "Strain the mixture twice through a fine sieve, then pour it over the caramel. Cover each llanera tightly with foil.",
+        "minutes": null
+      },
+      {
+        "text": "Bring water to a boil in a steamer, then lower the heat so it only simmers. Wrap the lid in a kitchen towel so drips do not fall on the flan.",
+        "minutes": null
+      },
+      {
+        "text": "Steam the llaneras over <strong>low heat</strong> until the flan is set and a toothpick near the center comes out clean.",
+        "minutes": 35
+      },
+      {
+        "text": "Lift out the llaneras, remove the foil and let the flan cool to room temperature.",
+        "minutes": 30
+      },
+      {
+        "text": "Chill for at least 4 hours. To serve, run a thin knife around the edge, put a plate on top and flip it over so the caramel runs down the sides.",
+        "minutes": null
+      }
     ],
     "tips": "A rolling boil makes the flan spongy and full of holes, so keep the steamer at a gentle simmer. Overnight chilling gives the cleanest slices. Save the egg whites for meringue or silvanas, or freeze them."
-  },
-  {
-    "slug": "baked-leche-flan",
-    "title": "Baked leche flan",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["egg", "condensed milk", "evaporated milk"],
-    "prep": 15,
-    "cook": 65,
-    "servings": 8,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Leche flan baked in a water bath in one round pan, for when you need a single big flan for the table. Two whole eggs join the yolks, so it is creamy and smooth but slightly lighter than the all-yolk kind.",
-    "groups": [
-      {
-        "title": "For the caramel",
-        "items": [
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the custard",
-        "items": [
-          { "qty": 8, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "whole eggs", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" },
-          { "qty": null, "max": null, "unit": "", "name": "hot water", "note": "for the water bath" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oven to 325°F (160°C). Set an 8-inch round pan, at least 2 inches deep, inside a larger roasting pan.", "minutes": null },
-      { "text": "Cook the sugar and water in a small saucepan over medium heat without stirring, swirling the pan now and then, until the caramel turns deep amber.", "minutes": 8 },
-      { "text": "Pour the caramel into the round pan right away and tilt it to coat the bottom. Let it harden while you mix the custard.", "minutes": null },
-      { "text": "Stir the yolks and whole eggs together gently, then stir in the condensed milk, evaporated milk and vanilla until smooth, without beating in air.", "minutes": null },
-      { "text": "Strain the custard twice through a fine sieve into the pan and cover it with foil.", "minutes": null },
-      { "text": "Put the pans in the oven and pour hot water into the roasting pan until it comes halfway up the side of the flan pan.", "minutes": null },
-      { "text": "Bake until the edges are set and the center still wobbles slightly when you nudge the pan. A knife near the center should come out clean.", "minutes": 55 },
-      { "text": "Lift the flan out of the water bath and let it cool on a rack.", "minutes": 60 },
-      { "text": "Chill for at least 4 hours, then run a knife around the edge and invert it onto a deep plate to catch the caramel.", "minutes": null }
-    ],
-    "tips": "If the top puffs or browns before the middle sets, the oven runs hot: lower it by 10 degrees next time. The flan keeps 4 days in the fridge, covered."
-  },
-  {
-    "slug": "cream-cheese-leche-flan",
-    "title": "Cream cheese leche flan",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["cheese", "egg", "condensed milk", "evaporated milk"],
-    "prep": 20,
-    "cook": 50,
-    "servings": 3,
-    "yield_label": "llaneras",
-    "difficulty": "medium",
-    "intro": "Leche flan with a block of cream cheese blended into the custard, steamed in llaneras. It is denser and a little tangy, somewhere between flan and cheesecake, with the same dark caramel on top.",
-    "groups": [
-      {
-        "title": "For the caramel",
-        "items": [
-          { "qty": 1, "max": null, "unit": "cup", "name": "white sugar", "note": "0.333 cup per llanera" }
-        ]
-      },
-      {
-        "title": "For the custard",
-        "items": [
-          { "qty": 225, "max": null, "unit": "g", "name": "cream cheese", "note": "1 block, softened" },
-          { "qty": 8, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Melt a third of the sugar in each llanera over low heat, swirling, until deep amber. Tilt to coat the bottom and set aside to harden.", "minutes": 5 },
-      { "text": "Beat the cream cheese in a bowl until completely smooth. Add the evaporated milk a little at a time, stirring after each addition, so no lumps form.", "minutes": null },
-      { "text": "Stir in the condensed milk, then the yolks and vanilla, gently, until just combined.", "minutes": null },
-      { "text": "Strain the mixture through a fine sieve, pressing any bits of cheese through, and divide it among the llaneras. Cover each with foil.", "minutes": null },
-      { "text": "Steam over low heat, with the steamer lid wrapped in a towel, until set and a toothpick near the center comes out clean.", "minutes": 45 },
-      { "text": "Remove the foil and let the flans cool to room temperature.", "minutes": 30 },
-      { "text": "Chill for at least 4 hours, then loosen the edges with a thin knife and flip onto plates.", "minutes": null }
-    ],
-    "tips": "The cream cheese must be soft before you start, or small lumps will stay in the custard. Leave it out for an hour, or blend everything in a blender on low for a few seconds, then let the foam settle before straining."
-  },
-  {
-    "slug": "coffee-leche-flan",
-    "title": "Coffee leche flan",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["coffee", "egg", "condensed milk", "evaporated milk"],
-    "prep": 20,
-    "cook": 40,
-    "servings": 2,
-    "yield_label": "llaneras",
-    "difficulty": "medium",
-    "intro": "Classic steamed leche flan with instant coffee stirred into the custard. The coffee cuts through the sweetness and tastes great with the bitter edge of the caramel, like a creamy café con leche.",
-    "groups": [
-      {
-        "title": "For the caramel",
-        "items": [
-          { "qty": 1, "max": null, "unit": "cup", "name": "white sugar", "note": "0.5 cup per llanera" }
-        ]
-      },
-      {
-        "title": "For the custard",
-        "items": [
-          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "instant coffee granules", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "hot water", "note": "" },
-          { "qty": 10, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Melt 0.5 cup sugar in each llanera over low heat, swirling, until deep amber. Tilt to coat the bottom and set aside.", "minutes": 5 },
-      { "text": "Dissolve the instant coffee in the hot water and let it cool a little.", "minutes": null },
-      { "text": "Stir the yolks, condensed milk, evaporated milk, vanilla and coffee together gently until evenly colored.", "minutes": null },
-      { "text": "Strain twice through a fine sieve into the llaneras and cover each tightly with foil.", "minutes": null },
-      { "text": "Steam over low heat, lid wrapped in a towel, until the flan is set and a toothpick near the center comes out clean.", "minutes": 35 },
-      { "text": "Uncover and let the flans cool to room temperature.", "minutes": 30 },
-      { "text": "Chill for at least 4 hours, then loosen the edges and invert onto plates.", "minutes": null }
-    ],
-    "tips": "Use 2 tablespoons of coffee for a stronger, mocha-like flan. Espresso powder works too, at about two thirds of the amount."
-  },
-  {
-    "slug": "ube-leche-flan",
-    "title": "Ube leche flan",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["ube", "egg", "condensed milk", "evaporated milk"],
-    "prep": 20,
-    "cook": 50,
-    "servings": 2,
-    "yield_label": "llaneras",
-    "difficulty": "medium",
-    "intro": "Steamed leche flan with ube halaya blended into the custard, so every slice is purple and tastes of sweet, earthy yam under the caramel. It is a little denser than plain flan.",
-    "groups": [
-      {
-        "title": "For the caramel",
-        "items": [
-          { "qty": 1, "max": null, "unit": "cup", "name": "white sugar", "note": "0.5 cup per llanera" }
-        ]
-      },
-      {
-        "title": "For the custard",
-        "items": [
-          { "qty": 1, "max": null, "unit": "cup", "name": "ube halaya", "note": "homemade or store-bought" },
-          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 8, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ube flavoring", "note": "optional, for a deeper color" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Melt 0.5 cup sugar in each llanera over low heat, swirling, until deep amber. Tilt to coat the bottom and set aside.", "minutes": 5 },
-      { "text": "Blend the ube halaya and evaporated milk until completely smooth.", "minutes": null },
-      { "text": "Pour into a bowl and stir in the condensed milk, yolks and ube flavoring gently, without beating in air.", "minutes": null },
-      { "text": "Strain through a medium sieve, pressing the ube through with a spoon, and divide between the llaneras. Cover each with foil.", "minutes": null },
-      { "text": "Steam over low heat, lid wrapped in a towel, until set and a toothpick near the center comes out clean.", "minutes": 45 },
-      { "text": "Uncover and let the flans cool to room temperature.", "minutes": 30 },
-      { "text": "Chill for at least 4 hours, then loosen the edges and flip onto plates.", "minutes": null }
-    ],
-    "tips": "Halaya varies in sweetness. If yours is very sweet, use only three quarters of the condensed milk and make up the rest with fresh milk."
-  },
-  {
-    "slug": "tocino-del-cielo",
-    "title": "Tocino del cielo",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["egg"],
-    "prep": 20,
-    "cook": 45,
-    "servings": 8,
-    "yield_label": "pieces",
-    "difficulty": "involved",
-    "intro": "Small custards made with only egg yolks and sugar syrup, steamed in little molds over caramel. They are sweeter, smoother and more intense than leche flan, so a small piece goes a long way.",
-    "groups": [
-      {
-        "title": "For the caramel",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the custard",
-        "items": [
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 12, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Cook the caramel sugar and water in a small saucepan over medium heat, swirling, until deep amber. Pour it quickly into 8 small molds or ramekins (about 0.333 cup each) and tilt to coat the bottoms.", "minutes": 6 },
-      { "text": "Boil the 1.5 cups sugar with 1 cup water without stirring until it turns into a light syrup that forms a thin thread between your fingers (about 223°F / 106°C).", "minutes": 12 },
-      { "text": "Take the syrup off the heat and let it cool until warm, not hot.", "minutes": 15 },
-      { "text": "Stir the yolks and vanilla gently in a bowl. Pour in the syrup in a thin stream, stirring constantly so the yolks do not cook.", "minutes": null },
-      { "text": "Strain twice through a fine sieve, fill the molds and cover each with foil.", "minutes": null },
-      { "text": "Steam over very low heat until the custards are just set and no longer liquid in the center.", "minutes": 20 },
-      { "text": "Let them cool to room temperature, then chill for at least 3 hours. Loosen the edges with a knife and invert onto small plates.", "minutes": 30 }
-    ],
-    "tips": "If the syrup is too hot when it meets the yolks you get lumps; if it is too thick the custard turns grainy. Keep the steamer at a bare simmer: high heat makes these spongy."
   },
   {
     "slug": "ube-halaya",
     "title": "Ube halaya",
     "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["ube", "condensed milk", "evaporated milk", "butter"],
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "ube",
+      "condensed milk",
+      "evaporated milk",
+      "butter"
+    ],
     "prep": 20,
     "cook": 90,
     "servings": 2,
@@ -267,24 +130,87 @@
       {
         "title": "",
         "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "ube (purple yam)", "note": "or 1 kg frozen grated ube, thawed" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "butter", "note": "113 g, plus more for the llaneras" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "adjust to taste" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ube flavoring", "note": "optional" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "optional, for topping" }
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "ube (purple yam)",
+            "note": "or 1 kg frozen grated ube, thawed"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "butter",
+            "note": "113 g, plus more for the llaneras"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can condensed milk",
+            "note": "390 g"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can evaporated milk",
+            "note": "370 ml"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": "adjust to taste"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ube flavoring",
+            "note": "optional"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated cheddar cheese",
+            "note": "optional, for topping"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Scrub the ube and boil it whole in water to cover until a fork slides in easily. Skip this and the next step if you are using frozen grated ube.", "minutes": 40 },
-      { "text": "Drain, let the ube cool enough to handle, then peel and grate it finely or mash it until smooth.", "minutes": null },
-      { "text": "Melt the butter in a wide, heavy nonstick pan over low heat. Add the ube, condensed milk, evaporated milk and sugar and stir until smooth.", "minutes": null },
-      { "text": "Cook over low heat, <strong>stirring and scraping the bottom constantly</strong>, until the mixture is very thick and pulls away from the pan as one mass.", "minutes": 45 },
-      { "text": "Stir in the ube flavoring and taste; add a little more sugar if you like it sweeter and cook a minute more.", "minutes": null },
-      { "text": "Butter two llaneras, pack the halaya in and smooth the tops. Let it cool.", "minutes": 30 },
-      { "text": "Sprinkle with grated cheese if you like, and serve at room temperature or chilled.", "minutes": null }
+      {
+        "text": "Scrub the ube and boil it whole in water to cover until a fork slides in easily. Skip this and the next step if you are using frozen grated ube.",
+        "minutes": 40
+      },
+      {
+        "text": "Drain, let the ube cool enough to handle, then peel and grate it finely or mash it until smooth.",
+        "minutes": null
+      },
+      {
+        "text": "Melt the butter in a wide, heavy nonstick pan over low heat. Add the ube, condensed milk, evaporated milk and sugar and stir until smooth.",
+        "minutes": null
+      },
+      {
+        "text": "Cook over low heat, <strong>stirring and scraping the bottom constantly</strong>, until the mixture is very thick and pulls away from the pan as one mass.",
+        "minutes": 45
+      },
+      {
+        "text": "Stir in the ube flavoring and taste; add a little more sugar if you like it sweeter and cook a minute more.",
+        "minutes": null
+      },
+      {
+        "text": "Butter two llaneras, pack the halaya in and smooth the tops. Let it cool.",
+        "minutes": 30
+      },
+      {
+        "text": "Sprinkle with grated cheese if you like, and serve at room temperature or chilled.",
+        "minutes": null
+      }
     ],
     "tips": "A wide pan and a sturdy wooden spatula make the long stirring easier, and the stirring is what makes halaya smooth. It keeps 1 week in the fridge or 2 months in the freezer."
   },
@@ -292,8 +218,16 @@
     "slug": "halo-halo",
     "title": "Halo-halo",
     "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["saba banana", "ube", "jackfruit (ripe)", "pinipig", "evaporated milk"],
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "saba banana",
+      "ube",
+      "jackfruit (ripe)",
+      "pinipig",
+      "evaporated milk"
+    ],
     "prep": 25,
     "cook": 0,
     "servings": 4,
@@ -304,33 +238,126 @@
       {
         "title": "For the layers",
         "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "minatamis na saging", "note": "sweetened saba, diced" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweetened red mung beans", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweetened jackfruit", "note": "cut into strips" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "nata de coco", "note": "drained" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "kaong", "note": "drained" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "macapuno strings", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "red gulaman cubes", "note": "" }
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "minatamis na saging",
+            "note": "sweetened saba, diced"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "sweetened red mung beans",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "sweetened jackfruit",
+            "note": "cut into strips"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "nata de coco",
+            "note": "drained"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "kaong",
+            "note": "drained"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "macapuno strings",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "red gulaman cubes",
+            "note": ""
+          }
         ]
       },
       {
         "title": "To finish",
         "items": [
-          { "qty": 4, "max": null, "unit": "cup", "name": "finely shaved ice", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "evaporated milk", "note": "chilled" },
-          { "qty": 4, "max": null, "unit": "tbsp", "name": "ube halaya", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "small slices leche flan", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "scoops ube ice cream", "note": "" },
-          { "qty": 4, "max": null, "unit": "tbsp", "name": "pinipig", "note": "toasted" }
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "finely shaved ice",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "evaporated milk",
+            "note": "chilled"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "tbsp",
+            "name": "ube halaya",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "small slices leche flan",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "scoops ube ice cream",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "tbsp",
+            "name": "pinipig",
+            "note": "toasted"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Chill all the sweetened fruits, beans and jellies in their syrups ahead of time, so the halo-halo stays cold longer.", "minutes": null },
-      { "text": "Spoon about 1 tablespoon of each layer ingredient into the bottom of 4 tall glasses, with a little of their syrup.", "minutes": null },
-      { "text": "Pack the shaved ice on top, pressing lightly and mounding it above the rim.", "minutes": null },
-      { "text": "Pour 0.25 cup evaporated milk over the ice in each glass.", "minutes": null },
-      { "text": "Top each with a spoonful of ube halaya, a slice of leche flan, a scoop of ice cream and a sprinkle of pinipig. Serve right away with long spoons and mix before eating.", "minutes": null }
+      {
+        "text": "Chill all the sweetened fruits, beans and jellies in their syrups ahead of time, so the halo-halo stays cold longer.",
+        "minutes": null
+      },
+      {
+        "text": "Spoon about 1 tablespoon of each layer ingredient into the bottom of 4 tall glasses, with a little of their syrup.",
+        "minutes": null
+      },
+      {
+        "text": "Pack the shaved ice on top, pressing lightly and mounding it above the rim.",
+        "minutes": null
+      },
+      {
+        "text": "Pour 0.25 cup evaporated milk over the ice in each glass.",
+        "minutes": null
+      },
+      {
+        "text": "Top each with a spoonful of ube halaya, a slice of leche flan, a scoop of ice cream and a sprinkle of pinipig. Serve right away with long spoons and mix before eating.",
+        "minutes": null
+      }
     ],
     "tips": "Use whatever five or six sweets you have, as long as there is fruit, something chewy, beans and milk. No ice shaver? Pulse ice cubes in a blender in short bursts until fluffy."
   },
@@ -338,8 +365,15 @@
     "slug": "buko-pandan",
     "title": "Buko pandan",
     "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["young coconut", "pandan", "cream", "condensed milk"],
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "young coconut",
+      "pandan",
+      "cream",
+      "condensed milk"
+    ],
     "prep": 25,
     "cook": 15,
     "servings": 8,
@@ -350,413 +384,107 @@
       {
         "title": "For the pandan gulaman",
         "items": [
-          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 6, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted" },
-          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "buko pandan flavoring", "note": "optional, for color and aroma" }
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "",
+            "name": "pandan leaves",
+            "note": "knotted"
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tbsp",
+            "name": "unflavored gulaman powder (agar)",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "buko pandan flavoring",
+            "note": "optional, for color and aroma"
+          }
         ]
       },
       {
         "title": "For the salad",
         "items": [
-          { "qty": 3, "max": null, "unit": "cup", "name": "young coconut strips", "note": "from 3 to 4 buko" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "cooked small sago", "note": "optional" },
-          { "qty": 250, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "chilled" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g, chilled" }
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "young coconut strips",
+            "note": "from 3 to 4 buko"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "cooked small sago",
+            "note": "optional"
+          },
+          {
+            "qty": 250,
+            "max": null,
+            "unit": "ml",
+            "name": "all-purpose cream",
+            "note": "chilled"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can condensed milk",
+            "note": "390 g, chilled"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Boil the water with the pandan leaves to draw out their flavor, then remove the leaves.", "minutes": 10 },
-      { "text": "Mix the gulaman powder with the sugar, whisk it into the hot pandan water and boil, stirring, until fully dissolved. Stir in the flavoring.", "minutes": 3 },
-      { "text": "Pour into a square pan and let it set at room temperature until firm.", "minutes": 30 },
-      { "text": "Cut the gulaman into small cubes.", "minutes": null },
-      { "text": "Stir the cream and condensed milk together in a large bowl.", "minutes": null },
-      { "text": "Fold in the gulaman cubes, coconut strips and sago.", "minutes": null },
-      { "text": "Cover and chill for at least 2 hours until very cold. Serve in cups.", "minutes": null }
-    ],
-    "tips": "If the young coconut is a bit mature and thick, slice it into thin strips so it stays tender. It keeps 2 days in the fridge; after that the gulaman starts to weep."
-  },
-  {
-    "slug": "mango-float",
-    "title": "Mango float",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["mango", "cream", "condensed milk"],
-    "prep": 30,
-    "cook": 0,
-    "servings": 12,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Layers of graham crackers, sweet cream and ripe mango that soften in the fridge into a cool, sliceable icebox cake. It is creamy, fruity and needs no oven.",
-    "groups": [
       {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "chilled overnight" },
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g, chilled" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" },
-          { "qty": 4, "max": 5, "unit": "", "name": "large ripe mangoes", "note": "thinly sliced" },
-          { "qty": 400, "max": null, "unit": "g", "name": "graham crackers", "note": "plus a few crushed for the top" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Beat the cold cream in a chilled bowl with a mixer until thickened and slightly increased in volume.", "minutes": null },
-      { "text": "Add the condensed milk and vanilla and beat just until combined.", "minutes": null },
-      { "text": "Cover the bottom of a 9 x 13-inch dish with a single layer of graham crackers, breaking pieces to fill the gaps.", "minutes": null },
-      { "text": "Spread a layer of cream over the crackers and cover it with mango slices.", "minutes": null },
-      { "text": "Repeat the crackers, cream and mango until you have 3 or 4 layers, ending with cream and mango. Sprinkle crushed graham on top.", "minutes": null },
-      { "text": "Cover and chill for at least 6 hours, or freeze for 3 hours for firmer slices.", "minutes": null }
-    ],
-    "tips": "Overnight is best: the crackers turn soft and cake-like. Cut it while very cold, and keep leftovers covered in the fridge for up to 3 days."
-  },
-  {
-    "slug": "crema-de-fruta",
-    "title": "Crema de fruta",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["egg", "milk", "butter"],
-    "prep": 25,
-    "cook": 20,
-    "servings": 9,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Graham crackers layered with vanilla custard and topped with fruit cocktail under a clear, shiny gulaman glaze. This no-bake version is creamy and sweet with bright bits of fruit in every square.",
-    "groups": [
-      {
-        "title": "For the custard",
-        "items": [
-          { "qty": 2, "max": null, "unit": "cup", "name": "fresh milk", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
-        ]
+        "text": "Boil the water with the pandan leaves to draw out their flavor, then remove the leaves.",
+        "minutes": 10
       },
       {
-        "title": "For the layers and glaze",
-        "items": [
-          { "qty": 200, "max": null, "unit": "g", "name": "graham crackers", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "large can fruit cocktail", "note": "836 g, drained, syrup kept" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "fruit cocktail syrup", "note": "from the can" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "white sugar", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "tsp", "name": "unflavored gulaman powder (agar)", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Whisk the milk, sugar, cornstarch and yolks in a saucepan until smooth before you turn on the heat.", "minutes": null },
-      { "text": "Cook over medium-low heat, whisking constantly, until the custard is thick like pudding and bubbles slowly.", "minutes": 10 },
-      { "text": "Off the heat, stir in the butter and vanilla. Press plastic wrap on the surface and let it cool a little.", "minutes": 15 },
-      { "text": "Line an 8-inch square dish with graham crackers, spread half the custard over, add another layer of crackers and spread on the rest of the custard.", "minutes": null },
-      { "text": "Arrange the drained fruit cocktail in an even layer on top and chill the dish while you make the glaze.", "minutes": null },
-      { "text": "Combine the fruit syrup, water, sugar and gulaman powder in a small pan and boil, stirring, until the gulaman dissolves completely.", "minutes": 2 },
-      { "text": "Let the glaze cool until just warm but still liquid.", "minutes": 5 },
-      { "text": "Spoon the glaze gently over the fruit so it does not dig into the custard. Chill for at least 3 hours until set, then cut into squares.", "minutes": null }
-    ],
-    "tips": "Drain the fruit cocktail well, at least 15 minutes in a sieve, or the juice will run into the custard. Use broas or ladyfingers instead of graham crackers for a softer cake layer."
-  },
-  {
-    "slug": "yema",
-    "title": "Yema",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["egg", "condensed milk", "butter"],
-    "prep": 25,
-    "cook": 20,
-    "servings": 25,
-    "yield_label": "pieces",
-    "difficulty": "easy",
-    "intro": "Soft custard candy made from condensed milk and egg yolks, cooked until thick, shaped into little balls or pyramids and rolled in sugar. It tastes like sweet, buttery caramelized custard.",
-    "groups": [
+        "text": "Mix the gulaman powder with the sugar, whisk it into the hot pandan water and boil, stirring, until fully dissolved. Stir in the flavoring.",
+        "minutes": 3
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 3, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "plus more for your hands" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "finely chopped, optional" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "for rolling" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Stir the condensed milk and yolks together in a bowl until smooth.", "minutes": null },
-      { "text": "Melt the butter in a nonstick pan over low heat and pour in the yolk mixture.", "minutes": null },
-      { "text": "Cook over low heat, stirring constantly, until very thick and the mixture gathers into a ball that pulls away from the pan.", "minutes": 15 },
-      { "text": "Stir in the peanuts, if using. Scrape onto a buttered plate and let it cool until you can handle it.", "minutes": 20 },
-      { "text": "With buttered hands, roll teaspoons of the mixture into balls or pinch them into pyramids.", "minutes": null },
-      { "text": "Roll each piece in sugar and wrap in cellophane.", "minutes": null }
-    ],
-    "tips": "If the yema is too soft to shape once cool, return it to the pan for a few more minutes. Keep in an airtight container at room temperature for 3 days or in the fridge for a week."
-  },
-  {
-    "slug": "yema-spread",
-    "title": "Yema spread",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["egg", "condensed milk", "evaporated milk", "butter"],
-    "prep": 5,
-    "cook": 15,
-    "servings": 2,
-    "yield_label": "cups",
-    "difficulty": "easy",
-    "intro": "A thick, spoonable custard of condensed milk and egg yolks that tastes like yema candy you can spread. It goes on pandesal, crackers and toast, or straight from the jar.",
-    "groups": [
+        "text": "Pour into a square pan and let it set at room temperature until firm.",
+        "minutes": 30
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
-          { "qty": 4, "max": null, "unit": "", "name": "egg yolks", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Whisk the condensed milk, evaporated milk and yolks in a saucepan until smooth, before turning on the heat.", "minutes": null },
-      { "text": "Cook over low heat, stirring constantly and scraping the bottom, until it thickens like custard and coats the back of a spoon thickly.", "minutes": 12 },
-      { "text": "Take it off the heat and stir in the butter and vanilla. Strain if you see any bits of cooked egg.", "minutes": null },
-      { "text": "Let it cool; it thickens to a spread as it cools.", "minutes": 20 },
-      { "text": "Spoon into clean jars, cover and refrigerate.", "minutes": null }
-    ],
-    "tips": "Keeps 1 week in the fridge. Stop cooking while it is still a little looser than you want: it sets much thicker once cold."
-  },
-  {
-    "slug": "no-cook-pastillas",
-    "title": "No-cook pastillas",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["milk", "condensed milk"],
-    "prep": 30,
-    "cook": 0,
-    "servings": 50,
-    "yield_label": "pieces",
-    "difficulty": "easy",
-    "intro": "Soft milk candy made by kneading powdered milk into condensed milk, then rolling the pieces in sugar. It is sweet, milky and melts in the mouth, and children love helping wrap them.",
-    "groups": [
+        "text": "Cut the gulaman into small cubes.",
+        "minutes": null
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
-          { "qty": 3, "max": 3.5, "unit": "cup", "name": "full-cream powdered milk", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "for rolling" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pour the condensed milk into a large bowl. Add the powdered milk 0.5 cup at a time, mixing with a spatula, then knead by hand once it gets stiff.", "minutes": null },
-      { "text": "Keep adding powdered milk until the dough no longer sticks to your hands and feels like soft clay.", "minutes": null },
-      { "text": "Wrap the dough and chill it so it is easier to shape.", "minutes": 30 },
-      { "text": "Divide the dough, roll each portion into a log about 2 cm thick on a sugared board and cut into 3-cm pieces.", "minutes": null },
-      { "text": "Roll each piece in sugar and wrap in cellophane or pastillas paper.", "minutes": null }
-    ],
-    "tips": "Powdered milk brands absorb differently, so go by feel, not the cup count. Keep in an airtight container for up to 2 weeks, in the fridge in hot weather."
-  },
-  {
-    "slug": "pastillas-de-leche",
-    "title": "Pastillas de leche",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["milk"],
-    "prep": 20,
-    "cook": 90,
-    "servings": 30,
-    "yield_label": "pieces",
-    "difficulty": "involved",
-    "intro": "Milk candy cooked slowly from fresh milk and sugar until it becomes a thick, creamy paste, then rolled in sugar. It tastes like concentrated sweet milk with a faint caramel note.",
-    "groups": [
+        "text": "Stir the cream and condensed milk together in a large bowl.",
+        "minutes": null
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "l", "name": "fresh carabao milk", "note": "or whole cow's milk" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "dayap or calamansi", "note": "zest only, optional" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "for rolling" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Combine the milk and 1 cup sugar in a wide, heavy pan and bring to a simmer over medium heat, stirring so it does not boil over.", "minutes": null },
-      { "text": "Simmer over medium-low heat, stirring every few minutes and scraping down the sides, until the milk reduces to about a third.", "minutes": 60 },
-      { "text": "Lower the heat and <strong>stir constantly</strong> as it thickens, until it turns into a pale beige paste that holds its shape and leaves the pan clean.", "minutes": 25 },
-      { "text": "Stir in the zest, spread the paste on a buttered plate and let it cool completely.", "minutes": 30 },
-      { "text": "Knead briefly, roll into logs about 2 cm thick and cut into 3-cm pieces.", "minutes": null },
-      { "text": "Roll each piece in sugar and wrap in cellophane or pastillas paper.", "minutes": null }
-    ],
-    "tips": "Carabao milk is richer and gives a creamier candy. If the cooled paste is too soft to roll, knead in a few tablespoons of powdered milk."
-  },
-  {
-    "slug": "ube-pastillas",
-    "title": "Ube pastillas",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["ube", "milk", "condensed milk", "butter"],
-    "prep": 30,
-    "cook": 15,
-    "servings": 40,
-    "yield_label": "pieces",
-    "difficulty": "easy",
-    "intro": "Pastillas made with ube halaya cooked down with condensed milk, then kneaded with powdered milk and rolled in sugar. They are soft, purple and taste of milky sweet yam.",
-    "groups": [
+        "text": "Fold in the gulaman cubes, coconut strips and sago.",
+        "minutes": null
+      },
       {
-        "title": "",
-        "items": [
-          { "qty": 1, "max": null, "unit": "cup", "name": "ube halaya", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 1.5, "max": 2, "unit": "cup", "name": "full-cream powdered milk", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "for rolling" }
-        ]
+        "text": "Cover and chill for at least 2 hours until very cold. Serve in cups.",
+        "minutes": null
       }
     ],
-    "steps": [
-      { "text": "Cook the ube halaya, condensed milk and butter in a nonstick pan over low heat, stirring, until thick and dry enough to pull away from the pan.", "minutes": 10 },
-      { "text": "Transfer to a bowl and let it cool completely.", "minutes": 20 },
-      { "text": "Knead in the powdered milk a little at a time until the dough no longer sticks to your hands.", "minutes": null },
-      { "text": "Roll into logs about 2 cm thick and cut into 3-cm pieces.", "minutes": null },
-      { "text": "Roll each piece in sugar and wrap in cellophane.", "minutes": null }
-    ],
-    "tips": "Store-bought halaya is often softer than homemade, so you may need the full 2 cups of powdered milk. Keep in the fridge for up to 1 week."
-  },
-  {
-    "slug": "polvoron",
-    "title": "Polvoron",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["flour", "milk", "butter"],
-    "prep": 30,
-    "cook": 15,
-    "servings": 40,
-    "yield_label": "pieces",
-    "difficulty": "easy",
-    "intro": "Crumbly milk candy of toasted flour, powdered milk, sugar and butter, pressed in a mold and wrapped in colored paper. It is sweet, nutty and dissolves in the mouth.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "full-cream powdered milk", "note": "" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "fine" },
-          { "qty": 170, "max": null, "unit": "g", "name": "butter", "note": "melted" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toast the flour in a dry, wide pan over medium-low heat, stirring constantly, until it turns light golden brown and smells nutty. It burns quickly at the end, so keep it moving.", "minutes": 15 },
-      { "text": "Sift the flour into a bowl to break up lumps and let it cool.", "minutes": 10 },
-      { "text": "Mix in the powdered milk and sugar, then pour in the melted butter and mix until it looks like damp sand that holds its shape when squeezed.", "minutes": null },
-      { "text": "Press the mixture firmly into a polvoron molder and push the pieces out onto a tray.", "minutes": null },
-      { "text": "Chill the tray until the polvoron is firm.", "minutes": 30 },
-      { "text": "Wrap each piece in colored cellophane or papel de japon.", "minutes": null }
-    ],
-    "tips": "No molder? Press the mixture into a small round cookie cutter or a measuring spoon. If it crumbles, add a tablespoon more melted butter. Keeps 2 weeks in an airtight container."
-  },
-  {
-    "slug": "pinipig-polvoron",
-    "title": "Pinipig polvoron",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["pinipig", "flour", "milk", "butter"],
-    "prep": 30,
-    "cook": 20,
-    "servings": 45,
-    "yield_label": "pieces",
-    "difficulty": "easy",
-    "intro": "Classic polvoron with toasted pinipig folded in, so the melt-in-the-mouth candy has little bits of crunch. It tastes of toasted rice, milk and butter.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "pinipig", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "full-cream powdered milk", "note": "" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "fine" },
-          { "qty": 170, "max": null, "unit": "g", "name": "butter", "note": "melted" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toast the pinipig in a dry pan over medium heat, stirring, until it puffs a little, turns crisp and smells toasty. Tip it onto a plate.", "minutes": 4 },
-      { "text": "In the same pan, toast the flour over medium-low heat, stirring constantly, until light golden brown.", "minutes": 15 },
-      { "text": "Sift the flour into a bowl and let it cool.", "minutes": 10 },
-      { "text": "Mix in the powdered milk, sugar and pinipig, then the melted butter, until the mixture holds together when squeezed.", "minutes": null },
-      { "text": "Press firmly into a polvoron molder, release onto a tray and chill until firm.", "minutes": 30 },
-      { "text": "Wrap each piece in cellophane or papel de japon.", "minutes": null }
-    ],
-    "tips": "Pinipig softens in humid air, so wrap the polvoron as soon as it is firm and store it airtight. It keeps about 2 weeks."
-  },
-  {
-    "slug": "ube-polvoron",
-    "title": "Ube polvoron",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["ube", "flour", "milk", "butter"],
-    "prep": 30,
-    "cook": 15,
-    "servings": 40,
-    "yield_label": "pieces",
-    "difficulty": "easy",
-    "intro": "Purple polvoron flavored with ube, crumbly and buttery like the classic one, with a sweet vanilla-yam taste. It makes a pretty pasalubong next to plain polvoron.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "full-cream powdered milk", "note": "" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "fine" },
-          { "qty": 170, "max": null, "unit": "g", "name": "butter", "note": "melted" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "ube flavoring", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toast the flour in a dry, wide pan over medium-low heat, stirring constantly, until pale golden. Keep it lighter than for plain polvoron so the purple color stays bright.", "minutes": 12 },
-      { "text": "Sift the flour into a bowl and let it cool.", "minutes": 10 },
-      { "text": "Stir the ube flavoring into the melted butter so the color spreads evenly.", "minutes": null },
-      { "text": "Mix the flour, powdered milk and sugar, pour in the ube butter and mix until evenly purple and the mixture holds together when squeezed.", "minutes": null },
-      { "text": "Press into a polvoron molder, release onto a tray and chill until firm.", "minutes": 30 },
-      { "text": "Wrap each piece in cellophane or papel de japon.", "minutes": null }
-    ],
-    "tips": "Ube flavorings vary in strength. Start with 2 teaspoons, squeeze a bit of the mix to check the color, then add more. Keeps 2 weeks airtight."
-  },
-  {
-    "slug": "cookies-and-cream-polvoron",
-    "title": "Cookies and cream polvoron",
-    "course": "panghimagas",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["flour", "milk", "butter", "chocolate"],
-    "prep": 30,
-    "cook": 15,
-    "servings": 45,
-    "yield_label": "pieces",
-    "difficulty": "easy",
-    "intro": "Milky polvoron speckled with crushed chocolate sandwich cookies. It is crumbly and buttery like the classic, with a chocolate cookie crunch.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "full-cream powdered milk", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "fine" },
-          { "qty": 12, "max": null, "unit": "", "name": "chocolate sandwich cookies", "note": "finely crushed, filling included (about 1 cup)" },
-          { "qty": 170, "max": null, "unit": "g", "name": "butter", "note": "melted" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toast the flour in a dry, wide pan over medium-low heat, stirring constantly, until light golden brown.", "minutes": 15 },
-      { "text": "Sift the flour into a bowl and let it cool.", "minutes": 10 },
-      { "text": "Mix in the powdered milk, sugar and crushed cookies.", "minutes": null },
-      { "text": "Pour in the melted butter and mix until the mixture holds together when squeezed.", "minutes": null },
-      { "text": "Press into a polvoron molder, release onto a tray and chill until firm.", "minutes": 30 },
-      { "text": "Wrap each piece in cellophane.", "minutes": null }
-    ],
-    "tips": "Crush the cookies in a zip bag with a rolling pin until fine; big chunks make the polvoron break in the mold. The sugar is reduced because the cookies are already sweet."
+    "tips": "If the young coconut is a bit mature and thick, slice it into thin strips so it stays tender. It keeps 2 days in the fridge; after that the gulaman starts to weep."
   }
 ]

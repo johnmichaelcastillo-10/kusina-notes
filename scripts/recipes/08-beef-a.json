@@ -4,7 +4,13 @@
     "title": "Bistek Tagalog",
     "course": "ulam",
     "diets": [],
-    "key_ingredients": ["beef", "soy sauce", "calamansi", "onion", "garlic"],
+    "key_ingredients": [
+      "beef",
+      "soy sauce",
+      "calamansi",
+      "onion",
+      "garlic"
+    ],
     "prep": 45,
     "cook": 20,
     "servings": 4,
@@ -15,829 +21,114 @@
       {
         "title": "For the beef",
         "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "beef sirloin or top round", "note": "sliced about 5 mm thick against the grain" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "calamansi juice", "note": "from about 12 calamansi" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "large onions", "note": "sliced into thick rings" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "brown sugar", "note": "optional" }
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "beef sirloin or top round",
+            "note": "sliced about 5 mm thick against the grain"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "calamansi juice",
+            "note": "from about 12 calamansi"
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "large onions",
+            "note": "sliced into thick rings"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "brown sugar",
+            "note": "optional"
+          }
         ]
       },
       {
         "title": "To serve",
         "items": [
-          { "qty": 4, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "steamed white rice",
+            "note": ""
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Lay the beef slices on a board and pound them lightly with a meat mallet or the back of a heavy knife so they are even and a little thinner.", "minutes": null },
-      { "text": "Mix the soy sauce, calamansi juice, garlic and pepper in a bowl. Add the beef, turn to coat and marinate at room temperature.", "minutes": 30 },
-      { "text": "Heat 2 tablespoons of the oil in a wide pan over medium-high heat. Fry the onion rings until just softened but still a little crisp, then set them aside.", "minutes": 2 },
-      { "text": "Lift the beef out of the marinade, letting it drip, and keep the marinade. Add the remaining oil and sear the beef in batches in a single layer, about 1 minute per side.", "minutes": 4 },
-      { "text": "Return all the beef to the pan. Pour in the reserved marinade and the water, bring to a boil, then lower the heat and simmer until the beef is tender and the sauce has reduced a little.", "minutes": 12 },
-      { "text": "Taste the sauce and stir in the sugar if it is too sharp. Scatter the onion rings over the beef and heat through.", "minutes": 1 },
-      { "text": "Serve hot with steamed rice, with the sauce spooned over.", "minutes": null }
+      {
+        "text": "Lay the beef slices on a board and pound them lightly with a meat mallet or the back of a heavy knife so they are even and a little thinner.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the soy sauce, calamansi juice, garlic and pepper in a bowl. Add the beef, turn to coat and marinate at room temperature.",
+        "minutes": 30
+      },
+      {
+        "text": "Heat 2 tablespoons of the oil in a wide pan over medium-high heat. Fry the onion rings until just softened but still a little crisp, then set them aside.",
+        "minutes": 2
+      },
+      {
+        "text": "Lift the beef out of the marinade, letting it drip, and keep the marinade. Add the remaining oil and sear the beef in batches in a single layer, about 1 minute per side.",
+        "minutes": 4
+      },
+      {
+        "text": "Return all the beef to the pan. Pour in the reserved marinade and the water, bring to a boil, then lower the heat and simmer until the beef is tender and the sauce has reduced a little.",
+        "minutes": 12
+      },
+      {
+        "text": "Taste the sauce and stir in the sugar if it is too sharp. Scatter the onion rings over the beef and heat through.",
+        "minutes": 1
+      },
+      {
+        "text": "Serve hot with steamed rice, with the sauce spooned over.",
+        "minutes": null
+      }
     ],
     "tips": "Freeze the beef for 30 minutes before slicing and it cuts thin and even. Add the onions back only at the end so they stay sweet with a little bite."
-  },
-  {
-    "slug": "beef-salpicao",
-    "title": "Beef salpicao",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "garlic", "butter", "soy sauce"],
-    "prep": 20,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Cubes of beef seared hard in garlic oil, then tossed with butter and a heap of golden fried garlic. It is rich, peppery and garlicky, and it cooks in about 15 minutes.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "beef sirloin or tenderloin", "note": "cut into 2 cm cubes" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "Worcestershire sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "black pepper", "note": "coarsely cracked" },
-          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "thinly sliced (about 1 head)" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "olive oil or cooking oil", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "chili flakes", "note": "optional" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Pat the beef dry and toss it with the soy sauce, oyster sauce, Worcestershire sauce and pepper. Let it sit while you fry the garlic.", "minutes": 15 },
-      { "text": "Put the oil and sliced garlic in a cold wide pan, then set it over medium-low heat. Stir often until the garlic is pale gold, then lift it out onto a paper towel. Keep the garlic oil in the pan.", "minutes": 5 },
-      { "text": "Turn the heat to high. When the oil shimmers, add half the beef in a single layer and leave it for 1 minute to brown, then turn and cook 1 to 2 minutes more for medium. Repeat with the rest.", "minutes": 6 },
-      { "text": "Return all the beef to the pan, add the butter and chili flakes and toss until the butter melts and coats the meat.", "minutes": 1 },
-      { "text": "Toss in half the fried garlic and taste for salt. Pile onto a plate, top with the remaining garlic and serve right away with rice.", "minutes": null }
-    ],
-    "tips": "Take the garlic out when it is pale gold: it keeps darkening off the heat, and burnt garlic turns the whole dish bitter."
-  },
-  {
-    "slug": "beef-with-broccoli",
-    "title": "Beef with broccoli",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "garlic", "ginger", "soy sauce"],
-    "prep": 20,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Tender slices of beef and bright green broccoli in a glossy oyster sauce. Savory and a little sweet, with a hint of ginger, it is a favorite at Chinese-Filipino restaurants and easy to make at home.",
-    "groups": [
-      {
-        "title": "For the beef",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "beef flank or sirloin", "note": "thinly sliced against the grain" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "cooking oil", "note": "" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the stir-fry",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "head broccoli", "note": "about 400 g, cut into florets" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "thinly sliced" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toss the beef with the soy sauce, cornstarch and oil and let it rest while you prepare everything else.", "minutes": 15 },
-      { "text": "Stir the sauce ingredients together in a small bowl until the cornstarch dissolves.", "minutes": null },
-      { "text": "Blanch the broccoli in a pot of boiling salted water until bright green, then drain well.", "minutes": 1 },
-      { "text": "Heat 2 tablespoons of oil in a wok or wide pan over high heat. Spread the beef in a single layer, let it brown for 1 minute, then turn and cook until just browned. Transfer to a plate.", "minutes": 2 },
-      { "text": "Add the remaining oil and fry the garlic and ginger for 30 seconds, until fragrant.", "minutes": null },
-      { "text": "Add the broccoli and beef. Stir the sauce again, pour it in and toss until it thickens and turns glossy.", "minutes": 1 },
-      { "text": "Serve right away with steamed rice.", "minutes": null }
-    ],
-    "tips": "Blanching the broccoli first means it only needs a minute in the wok, so the beef does not overcook while you wait for the stems to soften."
-  },
-  {
-    "slug": "beef-with-ampalaya",
-    "title": "Beef with ampalaya",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "bitter gourd", "garlic", "onion", "soy sauce"],
-    "prep": 25,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Thin slices of beef stir-fried with bitter gourd in a light oyster sauce gravy. The savory sauce rounds off the ampalaya's bitterness without hiding it.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "medium ampalaya (bitter gourd)", "note": "about 500 g, halved, seeded and thinly sliced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "for salting the ampalaya" },
-          { "qty": 300, "max": null, "unit": "g", "name": "beef sirloin or flank", "note": "thinly sliced against the grain" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "cornstarch", "note": "divided" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toss the sliced ampalaya with the salt and let it sit. Squeeze it firmly by handfuls, rinse under cold water and squeeze again.", "minutes": 10 },
-      { "text": "Meanwhile, toss the beef with the soy sauce and 1 teaspoon of the cornstarch. In a small bowl, stir the oyster sauce, sugar, water and remaining cornstarch together.", "minutes": null },
-      { "text": "Heat 2 tablespoons of oil in a wok or wide pan over high heat and sear the beef in a single layer until browned on both sides. Transfer to a plate.", "minutes": 2 },
-      { "text": "Add the remaining oil and sauté the garlic and onion until the onion softens.", "minutes": 2 },
-      { "text": "Add the ampalaya and stir-fry for 2 minutes. Pour in the sauce mixture, cover and cook until the ampalaya is tender but still crisp.", "minutes": 4 },
-      { "text": "Return the beef, toss until the sauce is thick and glossy, and season with pepper. Serve with rice.", "minutes": 1 }
-    ],
-    "tips": "For milder ampalaya, slice it very thin and give it the full salting and squeezing. If you like it bitter, skip the salt and just rinse it."
-  },
-  {
-    "slug": "beef-with-mushrooms",
-    "title": "Beef with mushrooms",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "mushrooms", "soy sauce", "garlic", "ginger"],
-    "prep": 35,
-    "cook": 120,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Chunks of beef brisket braised slowly with dried shiitake mushrooms in soy and oyster sauce until meltingly soft. The sauce turns dark, savory and deep with mushroom flavor.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 10, "max": null, "unit": "", "name": "dried shiitake mushrooms", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "hot water", "note": "for soaking" },
-          { "qty": 1, "max": null, "unit": "kg", "name": "beef brisket", "note": "cut into 4 cm chunks" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tablespoons water" },
-          { "qty": 2, "max": null, "unit": "", "name": "stalks spring onion", "note": "chopped" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the dried shiitake in the hot water until soft. Squeeze them over the bowl, cut off the stems and keep the soaking liquid.", "minutes": 30 },
-      { "text": "Meanwhile, put the beef in a pot, cover with cold water and bring to a boil. Boil for 5 minutes, then drain and rinse off the scum.", "minutes": 5 },
-      { "text": "Heat the oil in a heavy pot over medium heat and sauté the onion, garlic and ginger until fragrant.", "minutes": 2 },
-      { "text": "Add the beef, soy sauce, oyster sauce and sugar and stir to coat. Pour in the mushroom soaking liquid (leaving any grit behind) and the water, then add the mushrooms.", "minutes": null },
-      { "text": "Bring to a boil, cover, lower the heat and simmer until the beef is fork-tender. Stir now and then and add a splash of water if it gets low.", "minutes": 90 },
-      { "text": "Uncover and simmer until the sauce has reduced by about a third.", "minutes": 15 },
-      { "text": "Stir the cornstarch mixture, add it to the pot and simmer, stirring, until the sauce thickens.", "minutes": 2 },
-      { "text": "Taste for salt, scatter the spring onion over and serve with rice.", "minutes": null }
-    ],
-    "tips": "A pressure cooker cuts the braise to about 35 minutes. Blanched bok choy or broccoli on the side makes it a full lauriat-style plate."
-  },
-  {
-    "slug": "beef-with-oyster-sauce",
-    "title": "Beef with oyster sauce",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "onion", "garlic", "soy sauce"],
-    "prep": 20,
-    "cook": 10,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Silky slices of beef quickly stir-fried with onions in a glossy oyster sauce. It is simple and savory, and it is done in minutes once the beef is sliced.",
-    "groups": [
-      {
-        "title": "For the beef",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "beef flank", "note": "thinly sliced against the grain" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "baking soda", "note": "optional, for extra-tender beef" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
-          { "qty": null, "max": null, "unit": "pinch", "name": "white pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "For the stir-fry",
-        "items": [
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "cut into wedges" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Mix the beef with the soy sauce, water, cornstarch and baking soda, then stir in the oil. Let it rest.", "minutes": 15 },
-      { "text": "Stir the sauce ingredients together in a small bowl.", "minutes": null },
-      { "text": "Heat 2 tablespoons of oil in a wok over high heat. Sear the beef in two batches, spreading it out and turning once, until browned outside and still a little pink inside. Transfer to a plate.", "minutes": 3 },
-      { "text": "Add the remaining oil and stir-fry the onion until the edges soften, then add the garlic for 30 seconds.", "minutes": 1 },
-      { "text": "Return the beef, stir the sauce and pour it in. Toss until the sauce bubbles, thickens and coats the beef.", "minutes": 1 },
-      { "text": "Serve right away with steamed rice.", "minutes": null }
-    ],
-    "tips": "The pinch of baking soda gives the beef the soft, slippery texture you get in restaurants. Do not use more, or the meat tastes soapy."
-  },
-  {
-    "slug": "lengua-estofada",
-    "title": "Lengua estofada",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "tomato", "soy sauce", "potato", "carrot", "bell pepper"],
-    "prep": 20,
-    "cook": 200,
-    "servings": 8,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "Ox tongue simmered until tender, sliced and braised in a tomato and soy sauce with potatoes, carrots, bell pepper and olives. Rich, tangy and a little sweet, it is a dish for fiestas and family gatherings.",
-    "groups": [
-      {
-        "title": "For boiling the tongue",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "beef tongue", "note": "about 1.2 kg" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
-          { "qty": 1, "max": null, "unit": "", "name": "head garlic", "note": "halved crosswise" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
-          { "qty": 3, "max": null, "unit": "l", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the sauce",
-        "items": [
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "tongue broth", "note": "from boiling the tongue" },
-          { "qty": 2, "max": null, "unit": "", "name": "potatoes", "note": "peeled and cut into large cubes" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "cut into chunks" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "green olives", "note": "optional" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Scrub the tongue well under running water. Put it in a pot, cover with water and bring to a boil. Boil for 5 minutes, then drain and rinse off the scum.", "minutes": 5 },
-      { "text": "Return the tongue to the clean pot with the onion, garlic, bay leaves, peppercorns, salt and the 3 liters of water. Bring to a boil, cover, lower the heat and simmer until a knife slides easily into the thickest part, 2 1/2 to 3 hours. Top up with hot water if the level drops below the tongue.", "minutes": 150 },
-      { "text": "Lift the tongue onto a board. While it is still hot, peel off the thick white skin (it slips off easily while warm) and trim away the gristle at the root end. Strain and keep 2 cups of the broth.", "minutes": null },
-      { "text": "Slice the tongue about 1 cm thick.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium heat and sauté the onion and garlic until soft. Add the tomatoes and cook until they break down.", "minutes": 5 },
-      { "text": "Add the tomato sauce, soy sauce, broth and sugar and bring to a boil. Pour in the vinegar and let it boil without stirring.", "minutes": 2 },
-      { "text": "Add the potatoes, carrot and tongue slices. Cover and simmer until the potatoes are tender and the sauce has thickened.", "minutes": 20 },
-      { "text": "Add the bell pepper and olives and simmer, uncovered, until the pepper is just soft.", "minutes": 5 },
-      { "text": "Season with salt and pepper and serve with rice.", "minutes": null }
-    ],
-    "tips": "Boil and peel the tongue a day ahead and keep it in its broth in the fridge. Cold tongue slices more neatly, and the rest of the dish takes about 40 minutes."
-  },
-  {
-    "slug": "lengua-con-setas",
-    "title": "Lengua con setas",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "mushrooms", "butter", "soy sauce", "onion", "garlic"],
-    "prep": 20,
-    "cook": 200,
-    "servings": 8,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "Tender slices of ox tongue browned in butter and simmered in a rich brown mushroom gravy. Savory and buttery, it is a special-occasion ulam that goes with rice or crusty bread.",
-    "groups": [
-      {
-        "title": "For boiling the tongue",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "beef tongue", "note": "about 1.2 kg" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
-          { "qty": 1, "max": null, "unit": "", "name": "head garlic", "note": "halved crosswise" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
-          { "qty": 3, "max": null, "unit": "l", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the mushroom gravy",
-        "items": [
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "divided" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 300, "max": null, "unit": "g", "name": "button mushrooms", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "tongue broth", "note": "from boiling the tongue" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "Worcestershire sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "chopped parsley", "note": "optional" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Scrub the tongue well under running water. Put it in a pot, cover with water and bring to a boil. Boil for 5 minutes, then drain and rinse off the scum.", "minutes": 5 },
-      { "text": "Return the tongue to the clean pot with the onion, garlic, bay leaves, peppercorns, salt and the 3 liters of water. Bring to a boil, cover, lower the heat and simmer until a knife slides easily into the thickest part, 2 1/2 to 3 hours.", "minutes": 150 },
-      { "text": "Lift the tongue onto a board and peel off the thick skin while it is still hot. Trim the gristle at the root end. Strain and keep 2 cups of the broth.", "minutes": null },
-      { "text": "Slice the tongue about 1 cm thick. Melt 1 tablespoon of the butter in a wide pan over medium-high heat and brown the slices lightly on both sides. Set aside.", "minutes": 4 },
-      { "text": "Melt the remaining butter in the same pan. Sauté the onion and garlic until soft, then add the mushrooms and cook until they release their liquid and start to brown.", "minutes": 7 },
-      { "text": "Sprinkle in the flour and stir for 1 minute. Gradually pour in the broth, stirring to keep it smooth, then add the soy sauce, Worcestershire sauce and pepper. Simmer until it thickens to a gravy.", "minutes": 4 },
-      { "text": "Return the tongue slices, cover and simmer gently so they soak up the gravy.", "minutes": 10 },
-      { "text": "Taste for salt, scatter the parsley over and serve.", "minutes": null }
-    ],
-    "tips": "Peel the tongue while it is hot: once it cools the skin clings. Wear clean kitchen gloves or hold it with a towel."
-  },
-  {
-    "slug": "lengua-in-white-sauce",
-    "title": "Lengua in white sauce",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "butter", "evaporated milk", "mushrooms", "cream"],
-    "prep": 20,
-    "cook": 200,
-    "servings": 8,
-    "yield_label": "",
-    "difficulty": "involved",
-    "intro": "Ox tongue slices in a creamy white sauce with mushrooms. Mild, smooth and comforting, it is a party and holiday favorite served with rice or bread.",
-    "groups": [
-      {
-        "title": "For boiling the tongue",
-        "items": [
-          { "qty": 1, "max": null, "unit": "", "name": "beef tongue", "note": "about 1.2 kg" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
-          { "qty": 1, "max": null, "unit": "", "name": "head garlic", "note": "halved crosswise" },
-          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
-          { "qty": 3, "max": null, "unit": "l", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the white sauce",
-        "items": [
-          { "qty": 4, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 200, "max": null, "unit": "g", "name": "button mushrooms", "note": "sliced" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "tongue broth", "note": "from boiling the tongue" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "evaporated milk", "note": "one 370 ml can" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "all-purpose cream", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "optional" },
-          { "qty": null, "max": null, "unit": "pinch", "name": "ground nutmeg", "note": "optional" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and white pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Scrub the tongue well under running water. Put it in a pot, cover with water and bring to a boil. Boil for 5 minutes, then drain and rinse off the scum.", "minutes": 5 },
-      { "text": "Return the tongue to the clean pot with the onion, garlic, bay leaves, peppercorns, salt and the 3 liters of water. Bring to a boil, cover, lower the heat and simmer until a knife slides easily into the thickest part, 2 1/2 to 3 hours.", "minutes": 150 },
-      { "text": "Lift the tongue onto a board and peel off the thick skin while it is still hot. Trim the gristle at the root end, then slice about 1 cm thick. Strain and keep 1 cup of the broth.", "minutes": null },
-      { "text": "Melt the butter in a wide pan over medium heat. Sauté the onion and garlic until soft, then add the mushrooms and cook until tender.", "minutes": 6 },
-      { "text": "Sprinkle in the flour and stir for 1 minute without letting it brown.", "minutes": 1 },
-      { "text": "Whisk in the broth a little at a time, then the evaporated milk. Simmer, stirring constantly, until the sauce is smooth and thick enough to coat a spoon.", "minutes": 5 },
-      { "text": "Add the tongue slices, lower the heat and simmer gently, stirring now and then so the bottom does not catch.", "minutes": 10 },
-      { "text": "Stir in the cream, cheese and nutmeg and heat through without boiling. Season with salt and white pepper and serve.", "minutes": 2 }
-    ],
-    "tips": "If the sauce gets too thick while the tongue simmers, loosen it with a few spoonfuls of the broth rather than more milk."
-  },
-  {
-    "slug": "beef-steak-with-gravy",
-    "title": "Beef steak with gravy",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "butter", "garlic", "onion", "carrot", "string beans"],
-    "prep": 25,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Pan-seared sirloin steaks with a brown pan gravy and buttered carrots and green beans on the side. Serve with rice and plenty of gravy, the way it comes at a Filipino steak house.",
-    "groups": [
-      {
-        "title": "For the steaks",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "sirloin steaks", "note": "about 200 g each, 2 cm thick" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" }
-        ]
-      },
-      {
-        "title": "For the gravy",
-        "items": [
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "beef broth", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "Worcestershire sauce", "note": "" }
-        ]
-      },
-      {
-        "title": "For the buttered vegetables",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "carrots", "note": "cut into sticks" },
-          { "qty": 200, "max": null, "unit": "g", "name": "Baguio beans (green beans)", "note": "trimmed" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Take the steaks out of the fridge and let them sit at room temperature. Pat them dry and season both sides with the salt and pepper.", "minutes": 20 },
-      { "text": "Boil the carrots and beans in salted water until just tender. Drain, toss with the butter and a pinch of salt and keep warm.", "minutes": 4 },
-      { "text": "Heat the oil in a heavy pan over high heat until it shimmers. Sear the steaks until well browned, 3 to 4 minutes per side for medium.", "minutes": 8 },
-      { "text": "In the last minute, add the butter and garlic to the pan and spoon the foaming butter over the steaks. Transfer the steaks to a plate and let them rest.", "minutes": 5 },
-      { "text": "Lower the heat to medium. Add the butter for the gravy and the onion to the same pan and cook until soft, scraping up the browned bits.", "minutes": 2 },
-      { "text": "Stir in the flour for 1 minute, then gradually whisk in the broth. Add the soy sauce, Worcestershire sauce and any juices from the resting steaks and simmer until thick.", "minutes": 4 },
-      { "text": "Serve each steak with gravy poured over, the buttered vegetables on the side and steamed rice.", "minutes": null }
-    ],
-    "tips": "Resting the steaks for 5 minutes keeps the juices in the meat instead of on the plate. Slice against the grain if sharing."
-  },
-  {
-    "slug": "corned-beef-patties",
-    "title": "Corned beef patties",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["corned beef", "potato", "egg", "onion", "flour"],
-    "prep": 20,
-    "cook": 30,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Canned corned beef mixed with mashed potato and egg, shaped into patties and fried until crisp outside and soft inside. Kids love them with banana ketchup and rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "medium potatoes", "note": "about 400 g, peeled and cubed" },
-          { "qty": 1, "max": null, "unit": "", "name": "can corned beef", "note": "about 380 g" },
-          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
-          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "banana ketchup", "note": "to serve" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Boil the potatoes in salted water until fork-tender. Drain well, mash and let cool until you can handle them.", "minutes": 12 },
-      { "text": "In a bowl, mix the mashed potato, corned beef, onion, garlic, eggs, flour and pepper until evenly combined.", "minutes": null },
-      { "text": "Shape into 10 patties about 1 cm thick. Chill them on a plate so they hold together in the pan.", "minutes": 15 },
-      { "text": "Heat the oil in a wide pan over medium heat. Fry the patties in batches without crowding, about 3 minutes per side, until deep golden and crisp.", "minutes": 12 },
-      { "text": "Drain on paper towels and serve hot with banana ketchup and rice.", "minutes": null }
-    ],
-    "tips": "If the mixture is too soft to shape, add a spoonful more flour. Turn the patties only once, with a wide spatula, so they do not break."
-  },
-  {
-    "slug": "tapang-kalabaw",
-    "title": "Tapang kalabaw",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "garlic", "vinegar", "brown sugar"],
-    "prep": 150,
-    "cook": 15,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Thin slices of carabao meat cured with garlic, vinegar and salt, air-dried, then fried until the edges darken. Chewy, salty and garlicky, it is eaten with rice and spiced vinegar.",
-    "groups": [
-      {
-        "title": "For the tapa",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "carabao meat", "note": "or beef top round, sliced 3 mm thick" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "head garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
-        ]
-      },
-      {
-        "title": "For the spiced vinegar",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
-          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Mix the salt, sugar, garlic, pepper and vinegar in a bowl. Add the meat slices and rub the cure into every piece.", "minutes": null },
-      { "text": "Cover and refrigerate overnight, turning the slices once.", "minutes": null },
-      { "text": "Lay the slices in a single layer on wire racks and air-dry in a breezy spot or in front of a fan until the surface feels dry and slightly tacky.", "minutes": 120 },
-      { "text": "Mix the spiced vinegar ingredients in a small bowl and set aside.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium heat. Fry the tapa in batches, 2 to 3 minutes per side, until the edges darken and caramelize.", "minutes": 10 },
-      { "text": "Serve with rice, sliced tomatoes and the spiced vinegar for dipping.", "minutes": null }
-    ],
-    "tips": "Cure the meat for 12 to 24 hours. Dried tapa keeps for a week in the fridge or 2 months in the freezer, layered between sheets of wax paper."
-  },
-  {
-    "slug": "pepper-steak",
-    "title": "Pepper steak",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "bell pepper", "onion", "butter", "garlic"],
-    "prep": 15,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Strips of sirloin seared and simmered with red and green bell peppers in a buttery gravy heavy with cracked black pepper. Bold and savory, best with steamed rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "beef sirloin", "note": "cut into thin strips" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "black peppercorns", "note": "coarsely cracked" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into strips" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 0.75, "max": null, "unit": "cup", "name": "beef broth", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "Worcestershire sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "mixed with 1 tablespoon water" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toss the beef with the soy sauce, cornstarch and half the cracked pepper.", "minutes": 10 },
-      { "text": "Heat the oil in a wide pan over high heat. Sear the beef in batches until browned, then transfer to a plate.", "minutes": 3 },
-      { "text": "Lower the heat to medium and melt the butter. Sauté the onion and garlic until the onion softens.", "minutes": 2 },
-      { "text": "Add the bell peppers and stir-fry until bright and just tender-crisp.", "minutes": 2 },
-      { "text": "Pour in the broth, Worcestershire sauce and oyster sauce, add the remaining pepper and bring to a simmer. Stir the cornstarch mixture and add it, stirring until the sauce thickens.", "minutes": 2 },
-      { "text": "Return the beef with its juices and toss for 1 minute. Taste for salt and serve with rice.", "minutes": 1 }
-    ],
-    "tips": "Crack the peppercorns fresh in a mortar or under a heavy pan: preground pepper has none of the heat and aroma this dish depends on."
-  },
-  {
-    "slug": "beef-with-string-beans",
-    "title": "Beef with string beans",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "string beans", "garlic", "onion", "soy sauce"],
-    "prep": 15,
-    "cook": 15,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Beef strips stir-fried with sitaw in a garlicky oyster sauce. An everyday ulam that is on the table in about half an hour.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 300, "max": null, "unit": "g", "name": "beef sirloin", "note": "cut into thin strips" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
-          { "qty": 300, "max": null, "unit": "g", "name": "sitaw (long beans)", "note": "cut into 5 cm lengths" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toss the beef with the soy sauce and cornstarch.", "minutes": null },
-      { "text": "Heat 2 tablespoons of oil in a wok or wide pan over high heat and sear the beef until browned. Transfer to a plate.", "minutes": 3 },
-      { "text": "Add the remaining oil and sauté the garlic and onion until fragrant and soft.", "minutes": 2 },
-      { "text": "Add the sitaw and water, cover and cook until the beans are tender but still bright green.", "minutes": 5 },
-      { "text": "Return the beef, add the oyster sauce and toss until the sauce coats everything. Season with pepper and serve with rice.", "minutes": 2 }
-    ],
-    "tips": "Baguio beans (green beans) work the same way; cut them on a slant and they cook in about 4 minutes."
-  },
-  {
-    "slug": "burger-steak-with-mushroom-gravy",
-    "title": "Burger steak with mushroom gravy",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["ground beef", "mushrooms", "onion", "egg", "butter"],
-    "prep": 20,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Juicy ground beef patties simmered in a buttery mushroom gravy and served over rice. A comfort-food favorite that everyone at the table, kids included, will ask for again.",
-    "groups": [
-      {
-        "title": "For the patties",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "ground beef", "note": "not too lean" },
-          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
-          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "breadcrumbs", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      },
-      {
-        "title": "For the mushroom gravy",
-        "items": [
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "sliced button mushrooms", "note": "fresh or canned, drained" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "beef broth", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "Worcestershire sauce", "note": "" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "In a bowl, combine the ground beef, onion, garlic, egg, breadcrumbs, soy sauce, salt and pepper. Mix with your hands just until combined; overmixing makes them tough.", "minutes": null },
-      { "text": "Shape into 8 patties about 1.5 cm thick and press a shallow dimple in the center of each so they stay flat as they cook.", "minutes": null },
-      { "text": "Heat the oil in a wide pan over medium heat and fry the patties in batches until browned and cooked through, about 4 minutes per side. Set aside.", "minutes": 8 },
-      { "text": "Pour off all but 1 tablespoon of fat. Melt the butter in the pan and sauté the mushrooms until lightly browned.", "minutes": 3 },
-      { "text": "Sprinkle in the flour and stir for 1 minute. Gradually whisk in the broth, then add the soy sauce and Worcestershire sauce. Simmer until thick.", "minutes": 3 },
-      { "text": "Return the patties to the pan and simmer in the gravy, spooning it over them.", "minutes": 3 },
-      { "text": "Season the gravy with pepper and serve the patties over rice with plenty of gravy.", "minutes": null }
-    ],
-    "tips": "Shaped patties freeze well between sheets of wax paper. Fry them from frozen over medium-low heat, a few minutes longer per side."
-  },
-  {
-    "slug": "beef-with-tausi",
-    "title": "Beef with tausi",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "garlic", "ginger", "chili", "onion", "soy sauce"],
-    "prep": 20,
-    "cook": 10,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Beef stir-fried with salty fermented black beans, ginger and long green chilies. The sauce is deeply savory with gentle heat, so a little goes a long way with rice.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "beef flank or sirloin", "note": "thinly sliced against the grain" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "cornstarch", "note": "divided" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "tausi (salted black beans)", "note": "rinsed and lightly mashed" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "cut into wedges" },
-          { "qty": 2, "max": null, "unit": "", "name": "siling haba (long green chilies)", "note": "sliced on a slant" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toss the beef with the soy sauce and 1 teaspoon of the cornstarch. In a small bowl, stir the oyster sauce, sugar, water and remaining cornstarch together.", "minutes": 10 },
-      { "text": "Heat 2 tablespoons of oil in a wok over high heat and sear the beef in a single layer until browned. Transfer to a plate.", "minutes": 2 },
-      { "text": "Add the remaining oil and fry the garlic, ginger and tausi until fragrant, about 30 seconds.", "minutes": null },
-      { "text": "Add the onion and chilies and stir-fry until the onion just softens.", "minutes": 1 },
-      { "text": "Return the beef, stir the sauce mixture and pour it in. Toss until the sauce thickens and coats the beef. Serve with rice.", "minutes": 1 }
-    ],
-    "tips": "Taste before adding any salt: tausi and oyster sauce are both salty. Rinsing the beans takes off the harsh edge without losing their flavor."
-  },
-  {
-    "slug": "beef-with-snow-peas",
-    "title": "Beef with snow peas",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["beef", "carrot", "garlic", "soy sauce"],
-    "prep": 20,
-    "cook": 10,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Thin slices of beef stir-fried with crisp snow peas and carrots in a light, garlicky sauce. Clean and savory, it keeps the chicharo sweet and crunchy.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "beef sirloin or flank", "note": "thinly sliced against the grain" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "cornstarch", "note": "divided" },
-          { "qty": 200, "max": null, "unit": "g", "name": "snow peas (chicharo)", "note": "strings removed" },
-          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "thinly sliced" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "Shaoxing rice wine", "note": "optional" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toss the beef with the soy sauce and 1 teaspoon of the cornstarch. In a small bowl, stir the oyster sauce, rice wine, sugar, sesame oil, water and remaining cornstarch together.", "minutes": 10 },
-      { "text": "Heat 2 tablespoons of oil in a wok over high heat and sear the beef until just browned. Transfer to a plate.", "minutes": 2 },
-      { "text": "Add the remaining oil and fry the garlic for 30 seconds. Add the carrot and stir-fry for 1 minute.", "minutes": 1 },
-      { "text": "Add the snow peas and stir-fry until bright green and still crisp.", "minutes": 2 },
-      { "text": "Return the beef, stir the sauce and pour it in. Toss until glossy and serve right away with rice.", "minutes": 1 }
-    ],
-    "tips": "Snow peas go from crisp to limp quickly, so have everything ready before you start and take the pan off the heat as soon as the sauce thickens."
-  },
-  {
-    "slug": "ginataang-kambing",
-    "title": "Ginataang kambing",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["goat", "coconut milk", "ginger", "vinegar", "chili", "garlic"],
-    "prep": 20,
-    "cook": 130,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Goat meat parboiled with ginger and vinegar, simmered until tender, then finished in coconut milk with chilies. The coconut milk mellows the goat's strong flavor into a rich, spicy sauce.",
-    "groups": [
-      {
-        "title": "For parboiling",
-        "items": [
-          { "qty": 1, "max": null, "unit": "kg", "name": "goat meat, bone-in", "note": "cut into 5 cm pieces" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
-          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" }
-        ]
-      },
-      {
-        "title": "For the stew",
-        "items": [
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "one 400 ml can" },
-          { "qty": 3, "max": null, "unit": "", "name": "siling haba (long green chilies)", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "siling labuyo", "note": "optional, for more heat" },
-          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the goat in a pot, cover with water and add the vinegar and sliced ginger. Bring to a boil and boil, skimming the foam. Drain, rinse the meat and discard the water.", "minutes": 10 },
-      { "text": "Heat the oil in a heavy pot over medium heat and sauté the garlic, onion and ginger strips until fragrant.", "minutes": 3 },
-      { "text": "Add the goat and fish sauce and stir until the meat gives off its juices.", "minutes": 5 },
-      { "text": "Pour in the water and bring to a boil. Cover, lower the heat and simmer until the goat is tender, adding a little water if it runs dry.", "minutes": 90 },
-      { "text": "Pour in the coconut milk and add the siling haba. Simmer uncovered, stirring now and then, until the sauce thickens and a little oil rises to the top.", "minutes": 15 },
-      { "text": "Add the siling labuyo if using, season with salt and pepper and simmer 2 minutes more.", "minutes": 2 },
-      { "text": "Serve hot with steamed rice.", "minutes": null }
-    ],
-    "tips": "Ask for meat from a young goat (chevon) if you can: it is milder and cooks faster. Once the coconut milk is in, keep the heat low so it does not curdle."
   }
 ]

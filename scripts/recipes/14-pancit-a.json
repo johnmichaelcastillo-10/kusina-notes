@@ -4,7 +4,14 @@
     "title": "Pancit canton",
     "course": "merienda",
     "diets": [],
-    "key_ingredients": ["noodles", "pork", "chicken", "shrimp", "cabbage", "carrot"],
+    "key_ingredients": [
+      "noodles",
+      "pork",
+      "chicken",
+      "shrimp",
+      "cabbage",
+      "carrot"
+    ],
     "prep": 25,
     "cook": 25,
     "servings": 6,
@@ -15,1174 +22,160 @@
       {
         "title": "For the pancit",
         "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 200, "max": null, "unit": "g", "name": "pork kasim or belly", "note": "thinly sliced" },
-          { "qty": 200, "max": null, "unit": "g", "name": "boneless chicken thigh", "note": "thinly sliced" },
-          { "qty": 200, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "plus more to taste" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "Chinese celery (kinchay) stalks", "note": "chopped" }
+          {
+            "qty": 454,
+            "max": null,
+            "unit": "g",
+            "name": "dried pancit canton noodles",
+            "note": "1 large pack"
+          },
+          {
+            "qty": 200,
+            "max": null,
+            "unit": "g",
+            "name": "pork kasim or belly",
+            "note": "thinly sliced"
+          },
+          {
+            "qty": 200,
+            "max": null,
+            "unit": "g",
+            "name": "boneless chicken thigh",
+            "note": "thinly sliced"
+          },
+          {
+            "qty": 200,
+            "max": null,
+            "unit": "g",
+            "name": "medium shrimp",
+            "note": "peeled and deveined"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "carrot",
+            "note": "julienned"
+          },
+          {
+            "qty": 100,
+            "max": null,
+            "unit": "g",
+            "name": "snow peas (sitsaro)",
+            "note": "trimmed"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "cabbage",
+            "note": "shredded"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "chicken broth",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": "plus more to taste"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "oyster sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "Chinese celery (kinchay) stalks",
+            "note": "chopped"
+          }
         ]
       },
       {
         "title": "To serve",
         "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "",
+            "name": "calamansi",
+            "note": "halved"
+          }
         ]
       }
     ],
     "steps": [
-      { "text": "Heat the oil in a wok or wide pan over medium-high heat. Sauté the garlic and onion until soft and fragrant.", "minutes": null },
-      { "text": "Add the pork and stir-fry until it renders some fat and loses its pink color. Add the chicken and cook until opaque.", "minutes": null },
-      { "text": "Pour in 1 cup of the broth and the soy sauce. Cover and simmer until the pork is tender.", "minutes": 10 },
-      { "text": "Add the shrimp, carrot and snow peas and cook just until the shrimp turn pink. Scoop out most of the meat, shrimp and vegetables with a slotted spoon and set aside, leaving the liquid in the pan.", "minutes": null },
-      { "text": "Add the remaining broth, the oyster sauce and the pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss with tongs as they soften, until they have absorbed almost all the liquid. Add a splash of water if they are still firm when the pan is dry.", "minutes": null },
-      { "text": "Return the meat, shrimp and vegetables with the cabbage and celery. Toss until the cabbage just wilts.", "minutes": null },
-      { "text": "Taste and adjust with soy sauce. Serve hot with calamansi on the side.", "minutes": null }
+      {
+        "text": "Heat the oil in a wok or wide pan over medium-high heat. Sauté the garlic and onion until soft and fragrant.",
+        "minutes": null
+      },
+      {
+        "text": "Add the pork and stir-fry until it renders some fat and loses its pink color. Add the chicken and cook until opaque.",
+        "minutes": null
+      },
+      {
+        "text": "Pour in 1 cup of the broth and the soy sauce. Cover and simmer until the pork is tender.",
+        "minutes": 10
+      },
+      {
+        "text": "Add the shrimp, carrot and snow peas and cook just until the shrimp turn pink. Scoop out most of the meat, shrimp and vegetables with a slotted spoon and set aside, leaving the liquid in the pan.",
+        "minutes": null
+      },
+      {
+        "text": "Add the remaining broth, the oyster sauce and the pepper and bring to a boil.",
+        "minutes": null
+      },
+      {
+        "text": "Add the noodles and toss with tongs as they soften, until they have absorbed almost all the liquid. Add a splash of water if they are still firm when the pan is dry.",
+        "minutes": null
+      },
+      {
+        "text": "Return the meat, shrimp and vegetables with the cabbage and celery. Toss until the cabbage just wilts.",
+        "minutes": null
+      },
+      {
+        "text": "Taste and adjust with soy sauce. Serve hot with calamansi on the side.",
+        "minutes": null
+      }
     ],
     "tips": "Pull the vegetables out before the noodles go in so they stay crisp. If you cook ahead for a party, stop when the noodles are slightly firm: they keep softening as they sit."
-  },
-  {
-    "slug": "chicken-pancit-canton",
-    "title": "Chicken pancit canton",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "chicken", "bok choy", "cabbage", "carrot"],
-    "prep": 15,
-    "cook": 40,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "A simpler pancit canton made with poached, shredded chicken and cooked in the broth from the same pot. It is mild and savory, an easy weeknight ulam.",
-    "groups": [
-      {
-        "title": "For the chicken and broth",
-        "items": [
-          { "qty": 500, "max": null, "unit": "g", "name": "bone-in chicken breast", "note": "" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "halved: one half for the broth, one half sliced" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 250, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "about half a large pack" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 200, "max": null, "unit": "g", "name": "bok choy (pechay)", "note": "stems and leaves sliced separately" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the chicken, water, half the onion, peppercorns and salt in a pot. Bring to a boil, skim, then simmer until the chicken is cooked through.", "minutes": 20 },
-      { "text": "Lift out the chicken and let it cool enough to handle. Shred the meat and discard the skin and bones. Strain the broth and measure 2 1/2 cups.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium-high heat. Sauté the garlic and the sliced onion until soft.", "minutes": null },
-      { "text": "Add the carrot and bok choy stems and stir-fry for a minute. Add the shredded chicken, soy sauce and oyster sauce and toss to coat.", "minutes": null },
-      { "text": "Pour in the measured broth and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss with tongs until they soften and absorb almost all the liquid.", "minutes": null },
-      { "text": "Add the cabbage and bok choy leaves and toss until just wilted. Season with the pepper and more soy sauce if needed.", "minutes": null },
-      { "text": "Serve hot with calamansi.", "minutes": null }
-    ],
-    "tips": "Keep the leftover broth: it loosens the noodles when you reheat them and keeps for 3 days in the fridge."
-  },
-  {
-    "slug": "seafood-pancit-canton",
-    "title": "Seafood pancit canton",
-    "course": "merienda",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["noodles", "shrimp", "squid", "mussels", "cabbage", "carrot"],
-    "prep": 30,
-    "cook": 30,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Pancit canton loaded with shrimp, squid and mussels, cooked in a quick stock made from the shrimp heads. It tastes sweet from the seafood and savory from soy and oyster sauce.",
-    "groups": [
-      {
-        "title": "For the stock",
-        "items": [
-          { "qty": 300, "max": null, "unit": "g", "name": "shrimp with heads", "note": "peeled and deveined, heads and shells kept" },
-          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 300, "max": null, "unit": "g", "name": "squid", "note": "cleaned, cut into rings" },
-          { "qty": 500, "max": null, "unit": "g", "name": "mussels (tahong)", "note": "scrubbed, beards removed" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "sliced" },
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Simmer the shrimp heads and shells in the water, pressing the heads with a spoon to release their juices. Strain and keep the stock.", "minutes": 10 },
-      { "text": "Put the mussels in a pot with 1 cup of the stock. Cover and cook over high heat until they open. Discard any that stay closed and pour the cooking liquid back into the stock. Take half the mussels out of their shells if you like.", "minutes": 5 },
-      { "text": "Heat the oil in a wok over medium-high heat. Sauté the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the shrimp and stir-fry until just pink. Add the squid and cook for 1 minute only, then scoop all the seafood out onto a plate.", "minutes": null },
-      { "text": "Stir-fry the carrot, bell pepper and snow peas for a minute and set them aside with the seafood.", "minutes": null },
-      { "text": "Pour in 4 cups of the stock with the soy sauce, oyster sauce, fish sauce and pepper. Bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they soften and absorb almost all the liquid. Add more stock if they are still firm.", "minutes": null },
-      { "text": "Return the seafood, mussels and vegetables with the cabbage. Toss until the cabbage wilts and everything is hot.", "minutes": null },
-      { "text": "Top with the scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Squid turns rubbery after a few minutes on the heat, so it goes in last and comes out fast."
-  },
-  {
-    "slug": "pancit-canton-with-beef",
-    "title": "Pancit canton with beef",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "beef", "bok choy", "carrot", "bell pepper", "soy sauce"],
-    "prep": 20,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Pancit canton stir-fried with thin slices of tender beef, bok choy and bell pepper in a dark, savory soy and oyster sauce. It is hearty enough to be the main dish of the meal.",
-    "groups": [
-      {
-        "title": "For the beef",
-        "items": [
-          { "qty": 300, "max": null, "unit": "g", "name": "beef sirloin", "note": "sliced thinly against the grain" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
-        ]
-      },
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 250, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "about half a large pack" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into strips" },
-          { "qty": 200, "max": null, "unit": "g", "name": "baby bok choy", "note": "halved lengthwise" },
-          { "qty": 2.5, "max": null, "unit": "cup", "name": "beef broth", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Toss the beef with the soy sauce, cornstarch and sugar and let it sit while you prepare the vegetables.", "minutes": 15 },
-      { "text": "Heat half the oil in a wok over high heat. Sear the beef in a single layer until browned on the edges but still pink inside, about 1 minute per side. Set aside.", "minutes": null },
-      { "text": "Add the remaining oil and sauté the garlic and onion until soft. Add the carrot and bell pepper and stir-fry for a minute.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce and oyster sauce and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they have absorbed almost all the liquid.", "minutes": null },
-      { "text": "Add the bok choy and the beef with its juices. Toss until the bok choy is bright green and the beef is just cooked through. Season with the pepper.", "minutes": null },
-      { "text": "Serve hot with calamansi.", "minutes": null }
-    ],
-    "tips": "Slicing is easier if the beef sits in the freezer for 20 minutes first. Sear it in batches: a crowded wok steams the beef gray."
-  },
-  {
-    "slug": "pancit-canton-with-chicken-liver-and-gizzard",
-    "title": "Pancit canton with chicken liver and gizzard",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "chicken liver", "chicken", "cabbage", "carrot"],
-    "prep": 20,
-    "cook": 60,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Pancit canton cooked in the broth from simmered gizzards, with tender gizzard slices and quick-seared chicken liver mixed through. It has a deep, savory flavor and a good chew.",
-    "groups": [
-      {
-        "title": "For the gizzards",
-        "items": [
-          { "qty": 300, "max": null, "unit": "g", "name": "chicken gizzards", "note": "cleaned" },
-          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "dried bay leaf", "note": "" }
-        ]
-      },
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 250, "max": null, "unit": "g", "name": "chicken livers", "note": "trimmed and halved" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "Chinese celery (kinchay) stalks", "note": "chopped" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the gizzards, water, salt and bay leaf in a pot. Bring to a boil, skim, then cover and simmer until the gizzards are tender.", "minutes": 40 },
-      { "text": "Lift out the gizzards and slice them thinly. Strain the broth and measure 4 cups, topping up with water if needed.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium-high heat. Sear the livers until browned outside and still a little pink inside. Set aside.", "minutes": null },
-      { "text": "Sauté the garlic and onion in the same wok until soft. Add the sliced gizzards, carrot and snow peas and stir-fry for 2 minutes.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce, oyster sauce and pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Add the cabbage, celery and livers. Toss until the cabbage wilts, then taste and adjust the seasoning.", "minutes": null },
-      { "text": "Serve hot with calamansi.", "minutes": null }
-    ],
-    "tips": "Take the livers off the heat while still pink: they finish cooking in the noodles and stay creamy instead of chalky."
-  },
-  {
-    "slug": "pancit-canton-with-chicken-and-chorizo",
-    "title": "Pancit canton with chicken and chorizo",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "chicken", "bell pepper", "cabbage", "carrot"],
-    "prep": 20,
-    "cook": 25,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Pancit canton with strips of chicken and coins of chorizo de Bilbao, whose paprika-red fat seasons the whole pan. It is smoky, a little sweet and right at home on a party table.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 2, "max": null, "unit": "", "name": "chorizo de Bilbao", "note": "sliced into thin coins" },
-          { "qty": 300, "max": null, "unit": "g", "name": "boneless chicken breast or thigh", "note": "thinly sliced" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wok over medium heat. Fry the chorizo until it releases its red oil and the edges crisp a little. Scoop it out, leaving the oil in the pan.", "minutes": null },
-      { "text": "Raise the heat to medium-high. Sauté the garlic and onion in the chorizo oil until soft.", "minutes": null },
-      { "text": "Add the chicken and stir-fry until opaque and lightly browned.", "minutes": null },
-      { "text": "Add the carrot, bell pepper and snow peas and stir-fry for a minute. Scoop out the chicken and vegetables and set them aside with the chorizo.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce, oyster sauce and pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Return the chicken, chorizo and vegetables with the cabbage. Toss until the cabbage wilts.", "minutes": null },
-      { "text": "Serve hot with calamansi.", "minutes": null }
-    ],
-    "tips": "Chorizo de Bilbao is salty, so taste the noodles before adding any extra soy sauce."
-  },
-  {
-    "slug": "pancit-canton-with-quail-eggs",
-    "title": "Pancit canton with quail eggs",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "quail egg", "pork", "shrimp", "cabbage", "carrot"],
-    "prep": 30,
-    "cook": 30,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Party-style pancit canton with pork, shrimp and vegetables, studded with whole quail eggs and topped with halved ones. The little eggs make the platter look festive and soak up the savory sauce.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 250, "max": null, "unit": "g", "name": "pork kasim or belly", "note": "thinly sliced" },
-          { "qty": 200, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "For the topping",
-        "items": [
-          { "qty": 18, "max": null, "unit": "", "name": "quail eggs", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "sliced" },
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the quail eggs in a pot of cold water, bring to a boil and cook.", "minutes": 4 },
-      { "text": "Drain the eggs, cool them in cold water and peel. Halve six of them for the top and leave the rest whole.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium-high heat. Sauté the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the pork and stir-fry until lightly browned. Pour in 1 cup of the broth and the soy sauce, cover and simmer until the pork is tender.", "minutes": 10 },
-      { "text": "Add the shrimp, carrot and snow peas and cook until the shrimp turn pink. Scoop out the pork, shrimp and vegetables and set aside.", "minutes": null },
-      { "text": "Add the remaining broth, the oyster sauce and the pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Return the pork, shrimp and vegetables with the cabbage and the whole quail eggs. Toss gently so the eggs do not break.", "minutes": null },
-      { "text": "Pile onto a platter, arrange the halved eggs on top, scatter with scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Crack each boiled quail egg all over by rolling it on the counter: the shell then slips off in one piece, especially under running water."
-  },
-  {
-    "slug": "pancit-canton-with-hotdog",
-    "title": "Pancit canton with hotdog",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "hotdog", "cabbage", "carrot", "bell pepper"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "A slightly sweet, kid-friendly pancit canton with fried slices of red hotdog, carrots and cabbage. It is a familiar dish at children's birthday parties.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 6, "max": null, "unit": "", "name": "red hotdogs", "note": "sliced diagonally" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wok over medium heat. Fry the hotdog slices until the edges blister and brown. Set aside.", "minutes": null },
-      { "text": "Sauté the garlic and onion in the same oil until soft.", "minutes": null },
-      { "text": "Add the carrot and bell pepper and stir-fry for a minute.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce, oyster sauce, brown sugar and pepper. Bring to a boil, stirring until the sugar dissolves.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Add the cabbage and most of the hotdogs and toss until the cabbage wilts. Scatter the rest of the hotdogs on top.", "minutes": null },
-      { "text": "Serve warm, with calamansi on the side for the grown-ups.", "minutes": null }
-    ],
-    "tips": "For a party, stop when the noodles are still a little firm: they keep softening while they wait on the table."
-  },
-  {
-    "slug": "vegetarian-pancit-canton",
-    "title": "Vegetarian pancit canton",
-    "course": "merienda",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["noodles", "tofu", "mushrooms", "cabbage", "carrot", "soy sauce"],
-    "prep": 30,
-    "cook": 25,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Pancit canton with golden fried tofu, shiitake mushrooms and plenty of vegetables, cooked in vegetable broth and seasoned with soy sauce. It is savory and satisfying without meat, fish sauce or oyster sauce.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 300, "max": null, "unit": "g", "name": "firm tofu (tokwa)", "note": "patted dry, cut into strips" },
-          { "qty": 8, "max": null, "unit": "", "name": "dried shiitake mushrooms", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "hot water", "note": "for soaking the mushrooms" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "vegetable broth", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "Chinese celery (kinchay) stalks", "note": "chopped" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the shiitake in the hot water until soft. Squeeze them dry and slice thinly. Strain the soaking liquid and keep it.", "minutes": 20 },
-      { "text": "Heat the oil in a wok over medium-high heat. Fry the tofu, turning, until golden on all sides. Drain on paper towels and pour off all but 2 tablespoons of the oil.", "minutes": null },
-      { "text": "Sauté the garlic and onion until soft. Add the shiitake and stir-fry for 2 minutes.", "minutes": null },
-      { "text": "Add the carrot, bell pepper and snow peas and stir-fry for a minute. Scoop the vegetables out and set aside.", "minutes": null },
-      { "text": "Pour in the broth, the mushroom liquid, soy sauce, sugar and pepper. Bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Return the vegetables and tofu with the cabbage and celery. Toss until the cabbage wilts, then drizzle with the sesame oil.", "minutes": null },
-      { "text": "Serve hot with calamansi.", "minutes": null }
-    ],
-    "tips": "The shiitake soaking liquid is what gives this its depth, so do not skip it. Check that your canton noodles and broth are labeled vegetarian."
-  },
-  {
-    "slug": "pancit-canton-with-lechon-kawali",
-    "title": "Pancit canton with lechon kawali",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "pork belly", "cabbage", "carrot", "soy sauce"],
-    "prep": 15,
-    "cook": 25,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Pancit canton topped with chunks of crisp lechon kawali, so you get soft, savory noodles and crackling pork skin in the same bite. A good way to stretch leftover or store-bought fried pork belly.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 400, "max": null, "unit": "g", "name": "lechon kawali", "note": "leftover or store-bought, cut into bite-size pieces" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken or pork broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "lechon sauce", "note": "store-bought" },
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat a dry wok over medium heat. Add the lechon kawali skin side down and let it sizzle in its own fat until the skin crackles again. Set it on a rack, leaving about 1 tablespoon of fat in the wok.", "minutes": 5 },
-      { "text": "Add the oil and sauté the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the carrot and snow peas and stir-fry for a minute. Scoop them out and set aside.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce, oyster sauce and pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Return the vegetables with the cabbage and toss until the cabbage wilts.", "minutes": null },
-      { "text": "Pile the noodles on a platter and arrange the lechon kawali on top just before serving. Serve with lechon sauce and calamansi.", "minutes": null }
-    ],
-    "tips": "Keep the pork on top rather than tossing it through: steam from the noodles softens the skin within minutes."
-  },
-  {
-    "slug": "crispy-canton",
-    "title": "Crispy canton",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "shrimp", "squid", "pork", "bok choy", "carrot"],
-    "prep": 25,
-    "cook": 35,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Fresh egg noodles pan-fried into a golden, crunchy cake and smothered in a glossy sauce of pork, shrimp, squid and vegetables. The edges stay crisp while the middle softens where the sauce soaks in.",
-    "groups": [
-      {
-        "title": "For the noodles",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "fresh thin egg noodles", "note": "" },
-          { "qty": 0.333, "max": null, "unit": "cup", "name": "cooking oil", "note": "" }
-        ]
-      },
-      {
-        "title": "For the topping",
-        "items": [
-          { "qty": 150, "max": null, "unit": "g", "name": "pork tenderloin", "note": "thinly sliced" },
-          { "qty": 150, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
-          { "qty": 150, "max": null, "unit": "g", "name": "squid", "note": "cleaned, cut into rings" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "thinly sliced" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 200, "max": null, "unit": "g", "name": "baby bok choy", "note": "halved lengthwise" },
-          { "qty": 1.5, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 3 tbsp water" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Bring a large pot of water to a boil. Loosen the noodles, drop them in and cook until just tender. Drain, rinse under cold water and shake dry.", "minutes": 1 },
-      { "text": "Spread the noodles on a tray lined with a clean towel and let them air-dry, so they fry crisp instead of steaming.", "minutes": 10 },
-      { "text": "Heat half the oil in a large nonstick skillet over medium heat. Press the noodles into an even cake and fry without moving until deep golden underneath.", "minutes": 5 },
-      { "text": "Slide the cake onto a plate, add the remaining oil to the pan and flip the cake back in. Fry the second side until golden, then drain on a rack and move to a serving platter.", "minutes": 5 },
-      { "text": "Heat the 1 tablespoon oil in a wok over high heat. Sauté the garlic and onion, then add the pork and stir-fry until it is no longer pink.", "minutes": null },
-      { "text": "Add the carrot and snow peas and stir-fry for a minute. Add the shrimp and squid and cook until the shrimp turn pink.", "minutes": null },
-      { "text": "Pour in the broth, oyster sauce, soy sauce and sugar, bring to a boil and add the bok choy.", "minutes": null },
-      { "text": "Stir the cornstarch mixture and pour it in, stirring until the sauce turns thick and glossy. Stir in the sesame oil.", "minutes": null },
-      { "text": "Pour the topping over the noodle cake at the table and cut into wedges to serve.", "minutes": null }
-    ],
-    "tips": "The drier the noodles before frying, the crisper the cake. Add the sauce only when everyone is ready to eat."
-  },
-  {
-    "slug": "instant-pancit-canton-with-egg",
-    "title": "Instant pancit canton with egg",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "egg", "cabbage", "calamansi"],
-    "prep": 5,
-    "cook": 10,
-    "servings": 2,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Packet pancit canton turned into a proper merienda with a crisp-edged fried egg, some cabbage and a squeeze of calamansi. Salty, a little sweet and ready in 15 minutes.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 2, "max": null, "unit": "", "name": "packs instant pancit canton", "note": "about 60 g each, with their seasoning packets" },
-          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 1, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 1, "max": null, "unit": "", "name": "scallion", "note": "sliced" },
-          { "qty": 2, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a small skillet over medium heat. Fry the eggs until the whites are set and the edges crisp but the yolks are still runny. Keep them warm on a plate.", "minutes": null },
-      { "text": "Bring a pot of water to a boil. Add the noodles and cook, stirring to loosen them, adding the cabbage for the last 30 seconds.", "minutes": 3 },
-      { "text": "While the noodles cook, empty the seasoning packets into a wide bowl.", "minutes": null },
-      { "text": "Drain the noodles and cabbage well and toss them in the bowl until evenly coated.", "minutes": null },
-      { "text": "Divide between two plates, top each with a fried egg and scallion, and squeeze calamansi over.", "minutes": null }
-    ],
-    "tips": "Drain the noodles well: leftover water makes the seasoning thin instead of glossy."
-  },
-  {
-    "slug": "corned-beef-pancit-canton",
-    "title": "Corned beef pancit canton",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "corned beef", "cabbage", "carrot", "onion"],
-    "prep": 10,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "A pantry pancit made with a can of corned beef fried until its edges brown, then tossed with canton, carrots and cabbage. It is salty, savory and on the table in half an hour.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 250, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "about half a large pack" },
-          { "qty": 260, "max": null, "unit": "g", "name": "canned corned beef", "note": "1 can" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 2.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "sliced" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wok over medium heat. Sauté the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the corned beef, break it up with a spatula and fry, stirring now and then, until the edges brown and crisp a little.", "minutes": null },
-      { "text": "Add the carrot and stir-fry for a minute.", "minutes": null },
-      { "text": "Pour in the water, soy sauce, oyster sauce and pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Add the cabbage and toss until it wilts. Taste before adding any more soy sauce.", "minutes": null },
-      { "text": "Top with the scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Brands of corned beef vary a lot in salt. Start with the small amount of soy sauce here and add more only at the end."
-  },
-  {
-    "slug": "pancit-canton-with-tofu-and-pork",
-    "title": "Pancit canton with tofu and pork",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "tofu", "pork", "bean sprouts", "cabbage", "carrot"],
-    "prep": 20,
-    "cook": 30,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Pancit canton with strips of pork and cubes of fried tokwa that soak up the soy and oyster sauce, finished with crunchy bean sprouts. It turns a small amount of pork into a big platter.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "dried pancit canton noodles", "note": "1 large pack" },
-          { "qty": 250, "max": null, "unit": "g", "name": "pork kasim or belly", "note": "thinly sliced" },
-          { "qty": 300, "max": null, "unit": "g", "name": "firm tofu (tokwa)", "note": "patted dry, cubed" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 200, "max": null, "unit": "g", "name": "mung bean sprouts (togue)", "note": "rinsed" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Heat the oil in a wok over medium-high heat. Fry the tofu, turning, until golden on all sides. Drain on paper towels and pour off all but 1 tablespoon of the oil.", "minutes": null },
-      { "text": "Sauté the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the pork and stir-fry until lightly browned. Pour in 1 cup of the broth and the soy sauce, cover and simmer until the pork is tender.", "minutes": 10 },
-      { "text": "Add the carrot and stir-fry for a minute.", "minutes": null },
-      { "text": "Pour in the remaining broth with the oyster sauce and pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the noodles and toss until they absorb almost all the liquid.", "minutes": null },
-      { "text": "Add the tofu, cabbage and bean sprouts and toss for about a minute, just until the sprouts are warm but still crunchy.", "minutes": null },
-      { "text": "Serve hot with calamansi.", "minutes": null }
-    ],
-    "tips": "Bean sprouts go limp fast, so add them at the very end and serve right away."
-  },
-  {
-    "slug": "pancit-bihon-guisado",
-    "title": "Pancit bihon guisado",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "chicken", "pork", "cabbage", "carrot", "string beans"],
-    "prep": 25,
-    "cook": 45,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Thin rice noodles stir-fried with chicken, pork and vegetables in a savory broth until every strand turns light brown and flavorful. It is the everyday pancit for birthdays, visitors and merienda, always with calamansi.",
-    "groups": [
-      {
-        "title": "For the meat and broth",
-        "items": [
-          { "qty": 250, "max": null, "unit": "g", "name": "boneless chicken thigh", "note": "" },
-          { "qty": 250, "max": null, "unit": "g", "name": "pork kasim or belly", "note": "in one piece" },
-          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "1 large pack" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "green beans (Baguio beans)", "note": "thinly sliced on the diagonal" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "Chinese celery (kinchay) stalks", "note": "chopped" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the chicken, pork, water and salt in a pot. Bring to a boil, skim, then simmer until the pork is tender.", "minutes": 25 },
-      { "text": "Meanwhile, soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Lift out the meat, let it cool slightly and slice into thin strips. Measure 4 cups of the broth.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium-high heat. Sauté the garlic and onion until soft. Add the meat and stir-fry until lightly browned.", "minutes": null },
-      { "text": "Add the carrot and green beans and stir-fry for 2 minutes. Scoop out about half the meat and vegetables for the top.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce and fish sauce and bring to a boil.", "minutes": null },
-      { "text": "Add the bihon and toss with tongs until it absorbs the liquid and turns tender, adding a splash of water if it is still firm.", "minutes": null },
-      { "text": "Add the cabbage and celery and toss until wilted. Season with the pepper.", "minutes": null },
-      { "text": "Pile onto a platter, top with the reserved meat and vegetables and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Soak bihon in cold water, not hot: hot water makes it break apart and turn mushy in the pan."
-  },
-  {
-    "slug": "pancit-bihon-with-shrimp",
-    "title": "Pancit bihon with shrimp",
-    "course": "merienda",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["noodles", "shrimp", "cabbage", "carrot", "string beans", "fish sauce"],
-    "prep": 25,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Bihon cooked in a quick shrimp-head stock and tossed with plump shrimp, green beans and cabbage. It tastes clean and sweet, with a savory finish from soy and fish sauce.",
-    "groups": [
-      {
-        "title": "For the stock",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "shrimp with heads", "note": "peeled and deveined, heads and shells kept" },
-          { "qty": 3.5, "max": null, "unit": "cup", "name": "water", "note": "" }
-        ]
-      },
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 227, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "half a large pack" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "green beans (Baguio beans)", "note": "thinly sliced on the diagonal" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "sliced" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Meanwhile, simmer the shrimp heads and shells in the water, pressing the heads to release their juices. Strain and measure 2 1/2 cups of stock.", "minutes": 10 },
-      { "text": "Heat the oil in a wok over medium-high heat. Sauté the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the shrimp and stir-fry until just pink. Scoop them out.", "minutes": null },
-      { "text": "Add the carrot and green beans and stir-fry for 2 minutes.", "minutes": null },
-      { "text": "Pour in the stock, soy sauce and fish sauce and bring to a boil.", "minutes": null },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns tender.", "minutes": null },
-      { "text": "Return the shrimp with the cabbage and toss until the cabbage wilts. Season with the pepper.", "minutes": null },
-      { "text": "Top with the scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "The heads hold most of the shrimp flavor, so press them hard while the stock simmers."
-  },
-  {
-    "slug": "pancit-bihon-with-lechon",
-    "title": "Pancit bihon with lechon",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "pork", "cabbage", "carrot", "string beans", "soy sauce"],
-    "prep": 20,
-    "cook": 30,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Bihon tossed with chopped leftover lechon, with the skin crisped separately and scattered on top. The roast pork flavors the whole pan, and lechon sauce on the side makes it richer still.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "1 large pack" },
-          { "qty": 500, "max": null, "unit": "g", "name": "leftover lechon", "note": "meat and skin separated, chopped" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "green beans (Baguio beans)", "note": "thinly sliced on the diagonal" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken or pork broth", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "plus more to taste" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 0.5, "max": null, "unit": "cup", "name": "lechon sauce", "note": "store-bought" },
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Meanwhile, heat a dry wok over medium heat. Add the lechon skin and let it sizzle until it crackles again. Set it aside on a rack.", "minutes": 5 },
-      { "text": "Add the oil to the wok and sauté the garlic and onion until soft. Add the lechon meat and fry until the edges brown.", "minutes": null },
-      { "text": "Add the carrot and green beans and stir-fry for 2 minutes.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce and fish sauce and bring to a boil.", "minutes": null },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns tender.", "minutes": null },
-      { "text": "Add the cabbage and toss until wilted. Season with the pepper and taste for salt.", "minutes": null },
-      { "text": "Pile onto a platter, scatter the crisp skin on top and serve with lechon sauce and calamansi.", "minutes": null }
-    ],
-    "tips": "Lechon is already seasoned, so add soy sauce a little at a time and taste as you go."
-  },
-  {
-    "slug": "pancit-bihon-puti",
-    "title": "Pancit bihon puti",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "chicken", "shrimp", "cabbage", "carrot", "fish sauce"],
-    "prep": 25,
-    "cook": 40,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "A pale, clean-tasting bihon seasoned with fish sauce and white pepper instead of soy sauce, so the chicken, shrimp and vegetables taste of themselves. It looks pretty on the table, with the carrots and snow peas standing out against white noodles.",
-    "groups": [
-      {
-        "title": "For the chicken and broth",
-        "items": [
-          { "qty": 400, "max": null, "unit": "g", "name": "bone-in chicken breast", "note": "" },
-          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
-        ]
-      },
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "1 large pack" },
-          { "qty": 200, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "snow peas (sitsaro)", "note": "trimmed" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground white pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "Chinese celery (kinchay) stalks", "note": "chopped" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Put the chicken, water and salt in a pot. Bring to a boil, skim, then simmer until the chicken is cooked through.", "minutes": 20 },
-      { "text": "Meanwhile, soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Lift out the chicken, shred the meat and discard the skin and bones. Strain the broth and measure 4 cups.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium-high heat. Sauté the garlic and onion until soft but not browned. Add the chicken and shrimp and cook until the shrimp turn pink.", "minutes": null },
-      { "text": "Add the carrot and snow peas and stir-fry for a minute. Scoop out the meat, shrimp and vegetables and set aside.", "minutes": null },
-      { "text": "Pour in the broth with the fish sauce and white pepper and bring to a boil. Taste: it should be a little saltier than a soup.", "minutes": null },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns tender.", "minutes": null },
-      { "text": "Return the chicken, shrimp and vegetables with the cabbage and celery and toss until the cabbage wilts.", "minutes": null },
-      { "text": "Serve with calamansi.", "minutes": null }
-    ],
-    "tips": "With no soy sauce, the broth carries all the flavor. Season it well before the noodles go in, because bihon dilutes it as it absorbs."
-  },
-  {
-    "slug": "vegetarian-pancit-bihon",
-    "title": "Vegetarian pancit bihon",
-    "course": "merienda",
-    "diets": ["vegetarian"],
-    "key_ingredients": ["noodles", "tofu", "mushrooms", "chayote", "cabbage", "carrot"],
-    "prep": 25,
-    "cook": 25,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Bihon stir-fried with fried tofu, browned mushrooms, chayote and cabbage in vegetable broth and soy sauce. It is light and savory, as good for merienda as it is next to rice.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "1 large pack" },
-          { "qty": 300, "max": null, "unit": "g", "name": "firm tofu (tokwa)", "note": "patted dry, cut into strips" },
-          { "qty": 200, "max": null, "unit": "g", "name": "fresh button or shiitake mushrooms", "note": "sliced" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "cooking oil", "note": "" },
-          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 1, "max": null, "unit": "", "name": "chayote (sayote)", "note": "peeled and julienned" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "vegetable broth", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
-          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "sliced" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Meanwhile, heat the oil in a wok over medium-high heat. Fry the tofu, turning, until golden on all sides. Drain and pour off all but 2 tablespoons of the oil.", "minutes": null },
-      { "text": "Sauté the garlic and onion until soft. Add the mushrooms and cook until they brown and their liquid has evaporated.", "minutes": null },
-      { "text": "Add the carrot and chayote and stir-fry for 2 minutes. Scoop out about half the vegetables for the top.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce and sugar and bring to a boil.", "minutes": null },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns tender.", "minutes": null },
-      { "text": "Add the tofu and cabbage and toss until the cabbage wilts. Season with the pepper.", "minutes": null },
-      { "text": "Top with the reserved vegetables and the scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Let the mushrooms brown properly before adding the broth: that browning stands in for the depth meat usually brings."
-  },
-  {
-    "slug": "pancit-pusit",
-    "title": "Pancit pusit",
-    "course": "merienda",
-    "diets": ["pescatarian"],
-    "key_ingredients": ["noodles", "squid", "garlic", "onion", "fish sauce", "calamansi"],
-    "prep": 30,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "medium",
-    "intro": "Bihon cooked in squid ink until every strand turns jet black, tossed with tender squid and topped with toasted garlic and scallions. It is briny, garlicky and rich, with calamansi to cut through.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 227, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "half a large pack" },
-          { "qty": 500, "max": null, "unit": "g", "name": "small squid", "note": "ink sacs kept" },
-          { "qty": 2, "max": null, "unit": "tsp", "name": "squid ink", "note": "from a sachet, optional, for a deeper color" },
-          { "qty": 2.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "4 thinly sliced, 4 minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "", "name": "tomato", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "sliced" },
-          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Meanwhile, clean the squid: pull out the heads, carefully remove the ink sacs and set them aside, then discard the innards and the clear quill. Slice the bodies into rings and keep the tentacles.", "minutes": null },
-      { "text": "Put the ink sacs in a bowl with 1/2 cup of the water, crush them with a spoon and strain. Stir in the sachet ink if using.", "minutes": null },
-      { "text": "Heat the oil in a wok over medium heat. Fry the sliced garlic until golden and crisp, then lift it out for the topping.", "minutes": null },
-      { "text": "Sauté the minced garlic, onion and tomato in the garlic oil until soft.", "minutes": null },
-      { "text": "Raise the heat, add the squid and stir-fry for 1 to 2 minutes, just until opaque. Scoop it out.", "minutes": null },
-      { "text": "Pour in the ink water, the remaining water, fish sauce, soy sauce and pepper and bring to a boil.", "minutes": null },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns evenly black.", "minutes": null },
-      { "text": "Return the squid and toss. Top with the fried garlic and scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Squid ink stains: wear an apron and rinse the cutting board and bowls right away."
-  },
-  {
-    "slug": "pancit-bihon-with-chinese-sausage",
-    "title": "Pancit bihon with Chinese sausage",
-    "course": "merienda",
-    "diets": [],
-    "key_ingredients": ["noodles", "shrimp", "egg", "cabbage", "carrot"],
-    "prep": 25,
-    "cook": 25,
-    "servings": 6,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Bihon stir-fried with slices of sweet Chinese sausage, shrimp and ribbons of thin omelet. The sausage gives the noodles a gentle sweetness and a rich, smoky flavor.",
-    "groups": [
-      {
-        "title": "For the pancit",
-        "items": [
-          { "qty": 454, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "1 large pack" },
-          { "qty": 4, "max": null, "unit": "", "name": "Chinese sausages (chorizo Macau)", "note": "thinly sliced on the diagonal" },
-          { "qty": 200, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
-          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten with a pinch of salt" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "sliced" }
-        ]
-      },
-      {
-        "title": "To serve",
-        "items": [
-          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Meanwhile, heat 1 teaspoon of the oil in a wide skillet over medium-low heat. Pour in the eggs, swirl into a thin omelet and cook until set. Roll it up and slice into thin ribbons.", "minutes": null },
-      { "text": "Heat the remaining oil in a wok over medium heat. Fry the sausage slices until they release some fat and the edges caramelize. Scoop them out.", "minutes": null },
-      { "text": "Sauté the garlic and onion in the sausage fat until soft. Add the shrimp and cook until pink, then scoop them out.", "minutes": null },
-      { "text": "Add the carrot and stir-fry for a minute. Pour in the broth, soy sauce and oyster sauce and bring to a boil.", "minutes": null },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns tender.", "minutes": null },
-      { "text": "Return the sausage and shrimp with the cabbage and toss until the cabbage wilts. Season with the pepper.", "minutes": null },
-      { "text": "Top with the egg ribbons and scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Chinese sausage burns quickly because of its sugar, so keep the heat at medium while it renders."
-  },
-  {
-    "slug": "pancit-bihon-with-egg-and-cabbage",
-    "title": "Pancit bihon with egg and cabbage",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "egg", "cabbage", "carrot", "onion"],
-    "prep": 15,
-    "cook": 20,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "A thrifty bihon with soft scrambled egg, plenty of cabbage and carrot, seasoned with soy sauce and a little fish sauce. It comes together from pantry staples and still tastes like proper pancit.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 227, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "half a large pack" },
-          { "qty": 4, "max": null, "unit": "", "name": "eggs", "note": "beaten with a pinch of salt" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 4, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 2.5, "max": null, "unit": "cup", "name": "water", "note": "" },
-          { "qty": 1, "max": null, "unit": "", "name": "chicken bouillon cube", "note": "or use chicken broth in place of the water" },
-          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "sliced" },
-          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Meanwhile, heat 1 tablespoon of the oil in a wok over medium heat. Scramble the eggs into large, soft curds and slide them onto a plate.", "minutes": null },
-      { "text": "Add the remaining oil and sauté the garlic and onion until soft. Add the carrot and stir-fry for a minute.", "minutes": null },
-      { "text": "Pour in the water, crumble in the bouillon cube and add the soy sauce and fish sauce. Bring to a boil, stirring until the cube dissolves.", "minutes": null },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns tender.", "minutes": null },
-      { "text": "Add the cabbage and toss until wilted. Fold in the eggs and season with the pepper.", "minutes": null },
-      { "text": "Top with the scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Bouillon cubes are salty: add the cube first, taste, and only then decide how much soy sauce it needs."
-  },
-  {
-    "slug": "pancit-bihon-with-ground-pork",
-    "title": "Pancit bihon with ground pork",
-    "course": "ulam",
-    "diets": [],
-    "key_ingredients": ["noodles", "ground pork", "string beans", "carrot", "cabbage"],
-    "prep": 15,
-    "cook": 25,
-    "servings": 4,
-    "yield_label": "",
-    "difficulty": "easy",
-    "intro": "Bihon cooked with browned ground pork, green beans, carrot and cabbage. Ground pork cooks fast and spreads its flavor through every strand, which makes this a quick weeknight pancit.",
-    "groups": [
-      {
-        "title": "",
-        "items": [
-          { "qty": 227, "max": null, "unit": "g", "name": "bihon (rice vermicelli)", "note": "half a large pack" },
-          { "qty": 300, "max": null, "unit": "g", "name": "ground pork", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
-          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
-          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
-          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "julienned" },
-          { "qty": 100, "max": null, "unit": "g", "name": "green beans (Baguio beans)", "note": "thinly sliced on the diagonal" },
-          { "qty": 2, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
-          { "qty": 2.5, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
-          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
-          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
-          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
-          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "sliced" },
-          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
-        ]
-      }
-    ],
-    "steps": [
-      { "text": "Soak the bihon in cold water until pliable, then drain.", "minutes": 10 },
-      { "text": "Meanwhile, heat the oil in a wok over medium-high heat. Sauté the garlic and onion until soft.", "minutes": null },
-      { "text": "Add the ground pork, break it up with a spatula and cook until browned and any liquid has evaporated.", "minutes": null },
-      { "text": "Add the carrot and green beans and stir-fry for 2 minutes.", "minutes": null },
-      { "text": "Pour in the broth, soy sauce and oyster sauce. Bring to a boil and let it bubble so the pork flavors the broth.", "minutes": 2 },
-      { "text": "Add the bihon and toss until it absorbs the liquid and turns tender.", "minutes": null },
-      { "text": "Add the cabbage and toss until wilted. Season with the pepper.", "minutes": null },
-      { "text": "Top with the scallions and serve with calamansi.", "minutes": null }
-    ],
-    "tips": "Let the pork brown and stick a little before stirring: those browned bits are where the flavor comes from."
   }
 ]
