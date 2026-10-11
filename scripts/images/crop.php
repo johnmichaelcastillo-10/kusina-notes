@@ -1,20 +1,23 @@
 <?php
 /**
- * Centre-crops an image to 3:2 and writes a 1200×800 WebP (q80), or smaller when the
- * source is smaller (never upscaled past 960 wide).
+ * Centre-crops an image to a ratio (default 4:5, the theme's photo shape) and writes a WebP
+ * (q80) at most 1200 px wide; never upscales.
  *
- *   php scripts/images/crop.php <source.jpg|png|webp> <slug>
+ *   php scripts/images/crop.php <source.jpg|png|webp> <slug> [ratio=4:5]
  *
  * Writes scripts/images/<slug>.webp. Prints the output size.
  */
 
 if ( $argc < 3 || ! preg_match( '/^[a-z0-9]+(-[a-z0-9]+)*$/', $argv[2] ) ) {
-	fwrite( STDERR, "usage: php crop.php <source> <slug>\n" );
+	fwrite( STDERR, "usage: php crop.php <source> <slug> [w:h]\n" );
 	exit( 1 );
 }
 
+[ $rw, $rh ] = array_map( 'floatval', explode( ':', $argv[3] ?? '4:5' ) ) + array( 4, 5 );
+$ratio       = $rw / $rh;
+
 $data = file_get_contents( $argv[1] );
-$src  = $data === false ? false : @imagecreatefromstring( $data );
+$src  = false === $data ? false : @imagecreatefromstring( $data );
 if ( ! $src ) {
 	fwrite( STDERR, "not an image: {$argv[1]}\n" );
 	exit( 1 );
@@ -27,19 +30,19 @@ if ( $w < 900 ) {
 	exit( 1 );
 }
 
-// Largest 3:2 box in the middle of the frame.
-if ( $w / $h > 1.5 ) {
-	$cw = (int) round( $h * 1.5 );
+// Largest box of the target ratio in the middle of the frame.
+if ( $w / $h > $ratio ) {
+	$cw = (int) round( $h * $ratio );
 	$ch = $h;
 } else {
 	$cw = $w;
-	$ch = (int) round( $w / 1.5 );
+	$ch = (int) round( $w / $ratio );
 }
 $x = (int) floor( ( $w - $cw ) / 2 );
 $y = (int) floor( ( $h - $ch ) / 2 );
 
 $out_w = min( 1200, $cw );
-$out_h = (int) round( $out_w / 1.5 );
+$out_h = (int) round( $out_w / $ratio );
 $dst   = imagecreatetruecolor( $out_w, $out_h );
 imagecopyresampled( $dst, $src, 0, 0, $x, $y, $out_w, $out_h, $cw, $ch );
 

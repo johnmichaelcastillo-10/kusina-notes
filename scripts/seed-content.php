@@ -163,7 +163,7 @@ kusina_seed_page(
 	array(
 		'Kusina Notes is a recipe site for everyday Filipino cooking: the ulam, sabaw and merienda people actually make on a weeknight.',
 		'Every recipe opens straight onto the recipe. Change the servings and the amounts follow, switch between metric and US measures, and press Cook mode to get one step at a time with timers, in big type, with the screen kept awake.',
-		'It is a personal project built on WordPress and published as a static site. Food photos, where there are any, are public domain or CC0.',
+		'It is a personal project built on WordPress and published as a static site. The food photos are AI-generated illustrations of each dish, not photos of these exact recipes.',
 	)
 );
 kusina_seed_page(
@@ -232,8 +232,8 @@ wp_defer_term_counting( false );
 
 WP_CLI::success( "Recipes: {$kusina_stats['created']} created, {$kusina_stats['updated']} updated, {$kusina_stats['failed']} failed." );
 
-// Photos: scripts/images/<slug>.webp becomes the recipe's featured image (CC0 / public
-// domain only, sources in scripts/images/*-credits.json). Re-imported only when the file
+// Photos: scripts/images/<slug>.webp becomes the recipe's featured image (AI-generated,
+// see scripts/images/README.md; sources in generated.json).
 // changed, tracked by a hash in the attachment's meta.
 require_once ABSPATH . 'wp-admin/includes/image.php';
 require_once ABSPATH . 'wp-admin/includes/file.php';

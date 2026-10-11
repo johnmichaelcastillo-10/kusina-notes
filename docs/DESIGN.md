@@ -90,5 +90,6 @@ no history or health claims. Jokes live in the chrome, never in the method.
 - No gradients, glass, emoji icons, cartoon chefs, rotated tags.
 - Motion: colour and underline transitions, a 3.5% photo zoom on hover; nothing with
   reduced motion.
-- Photos: **CC0 or public domain only**, matched to the dish (`scripts/images/README.md`).
+- Photos: AI-generated in one house style (`scripts/images/README.md`), one per recipe,
+  each checked to show that dish. The site says they are AI-generated.
   Recipes with photos are dated newest so lists lead with them.

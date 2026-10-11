@@ -46,7 +46,7 @@ docker compose run --rm cli wp eval-file /scripts/seed-content.php --user=admin
 ## Status
 
 Live at **https://kusina-notes.vercel.app** (a static export of the local WordPress; deploy
-with `Deploy.cmd`). 50 recipes (25 with public-domain or CC0 photos), recipe card with
+with `Deploy.cmd`). 50 recipes, each with an AI-generated photo, recipe card with
 scaler, units and cook mode, pantry finder, shopping list, and the "banana leaf editorial" theme.
 Still open: recipe-index filters, ingredient tick boxes, "Bahala na", Open Graph tags. Plan and
 progress: [`docs/SPEC.md`](docs/SPEC.md); look and voice: [`docs/DESIGN.md`](docs/DESIGN.md).

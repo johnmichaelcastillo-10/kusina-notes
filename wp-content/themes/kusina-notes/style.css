@@ -2,7 +2,7 @@
 Theme Name:        Kusina Notes
 Author:            John Michael Castillo
 Description:       An editorial recipe journal block theme: rice-paper white, banana-leaf green, Instrument Serif. Pairs with the Kusina Core plugin for recipes.
-Version:           0.4.0
+Version:           0.4.2
 Requires at least: 6.6
 Tested up to:      7.1
 Requires PHP:      8.1
@@ -606,6 +606,11 @@ h1 em, h2 em, h3 em {
 	margin-top: 0.75rem;
 }
 
+/* The head's hairline already separates it; a full section gap on top of it is too much. */
+.page-head + .section {
+	margin-block-start: clamp(2.5rem, 2rem + 2vw, 3.5rem);
+}
+
 .page-actions {
 	margin-top: 0.5rem !important;
 }
@@ -717,8 +722,20 @@ h1 em, h2 em, h3 em {
 	color: var(--wp--preset--color--ink);
 }
 
+/* Pages (about, pantry, list): the intro sits close under the title rule; the tool below it
+   gets room to breathe. */
 .page-content {
+	margin-block-start: 2.25rem;
 	font-size: 1.125rem;
+}
+
+.page-content > p:first-child {
+	max-width: 40rem;
+	color: var(--wp--preset--color--ink-2);
+}
+
+.page-content > .alignwide {
+	margin-block-start: 2.75rem;
 }
 
 /* ---------- Footer ---------- */

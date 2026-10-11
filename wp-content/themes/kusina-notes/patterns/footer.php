@@ -23,7 +23,7 @@ defined( 'ABSPATH' ) || exit;
 
 <!-- wp:html -->
 <div class="footer-bottom">
-	<p><?php esc_html_e( 'A personal WordPress project. Food photos are public domain or CC0.', 'kusina-notes' ); ?></p>
+	<p><?php esc_html_e( 'A personal WordPress project. Food photos are AI-generated.', 'kusina-notes' ); ?></p>
 	<ul class="footer-links">
 		<li><a href="/recipes/"><?php esc_html_e( 'All recipes', 'kusina-notes' ); ?></a></li>
 		<li><a href="/pantry/"><?php esc_html_e( 'Pantry finder', 'kusina-notes' ); ?></a></li>

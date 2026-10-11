@@ -67,7 +67,8 @@ function card( recipe, missing, msg ) {
 	if ( recipe.m ) {
 		tags.append( el( 'li', { className: 'tag tag-time', text: formatMinutes( recipe.m ) } ) );
 	}
-	if ( ! missing.length ) {
+	// missing is null for the idea tiles shown before anything is ticked.
+	if ( missing && ! missing.length ) {
 		tags.append( el( 'li', { className: 'tag tag-diet', text: msg.all } ) );
 	}
 	const body = [];
@@ -75,7 +76,7 @@ function card( recipe, missing, msg ) {
 		body.push( el( 'p', { className: 'tile-course', text: msg.courses[ recipe.c ] } ) );
 	}
 	body.push( el( 'h3', { className: 'tile-title' }, [ el( 'a', { href: recipe.u, text: recipe.t } ) ] ), tags );
-	if ( missing.length ) {
+	if ( missing && missing.length ) {
 		body.push( el( 'p', { className: 'pantry-missing', text: msg.missing.replace( '%s', missing.join( ', ' ) ) } ) );
 	}
 	return el( 'li', {}, [ el( 'div', { className: 'tile' }, [ media, el( 'div', { className: 'tile-body' }, body ) ] ) ] );
@@ -123,12 +124,13 @@ async function init( root ) {
 		list.replaceChildren();
 		more.hidden = true;
 
-		if ( ! selected.size ) {
-			summary.textContent = msg.start;
-			return;
-		}
+		// Nothing beyond the basics ticked yet: say what to do, and fill the space with the
+		// newest recipes (the index is newest first) instead of leaving it blank.
 		if ( ! chosen.length ) {
-			summary.textContent = msg.basics;
+			summary.textContent = selected.size ? msg.basics : msg.start;
+			for ( const recipe of recipes.slice( 0, 8 ) ) {
+				list.append( card( recipe, null, msg ) );
+			}
 			return;
 		}
 

@@ -132,7 +132,7 @@ Same model as the other two projects: crawl local WordPress, export to `dist/`, 
 ## 8. Launch content
 
 **50 recipes**, the best-known dishes across every course: ulam 26, sabaw 6, merienda 7,
-almusal 4, panghimagas 4, inumin 3; 25 have photos. Owner's call (2026-10-11): 1,022
+almusal 4, panghimagas 4, inumin 3; all have photos. Owner's call (2026-10-11): 1,022
 were written and seeded first, then cut to these 50. The full 1,022 are in git at commit
 `4e01e02` (`git show 4e01e02:scripts/recipes/<file>.json`) if any are wanted back: restore
 the JSON, validate, re-seed.
@@ -147,10 +147,9 @@ the JSON, validate, re-seed.
   Publish dates are one hour apart in a stable hash order so "latest" lists mix courses;
   chicken adobo is pinned newest (it's the home page's "Tonight").
 - Diet labels are only vegetarian and pescatarian: no allergen claims.
-- **Photos**: CC0/public-domain only (`scripts/images/`, sources in `*-credits.json`), each
-  checked by eye to show that dish. 25 of 50 have one; the rest show the course-tinted
-  plate. Add photos as matching ones are found; never a mismatched dish. The photo search
-  was stopped by the owner on 2026-10-11.
+- **Photos**: every recipe has one, AI-generated with Higgsfield in one house style
+  (owner's choice 2026-10-12, replacing the CC0-only rule; `scripts/images/README.md`).
+  Each was checked to show its dish. The footer and About page say they are AI-generated.
 
 ## 9. Build order
 
@@ -170,8 +169,7 @@ the JSON, validate, re-seed.
    `/wp-json/kusina/v1/index`) and shopping list (`/list/`, block `kusina/shopping-list`,
    "Add to shopping list" on every recipe, header count). Theme redesigned calmer (DESIGN.md).
 6. JS still open: ingredient tick boxes, recipe index filters, Bahala na.
-7. **Done**: 50 recipes seeded, 25 with CC0/PD photos (section 8). Open: photos for the
-   other 25 where matching ones exist.
+7. **Done**: 50 recipes seeded, each with an AI-generated photo (section 8).
 8. **Done**: exporter, CSP, Vercel project, `Deploy.cmd`. Live at https://kusina-notes.vercel.app
    (2026-10-11). Open: Open Graph / Twitter meta tags (WordPress prints none; section 5).
 9. Add the project to the portfolio (screenshots 1920×1200 WebP).

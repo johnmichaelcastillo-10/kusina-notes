@@ -1,0 +1,352 @@
+[
+    {
+        "slug":  "chicken-adobo",
+        "file":  "chicken-adobo.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134011_e88423de-990d-43bc-a705-19108b1a55c9.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "adobong-pusit",
+        "file":  "adobong-pusit.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134148_19b8236a-cf19-4fd8-8fd2-8f6807a87659.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "adobong-talong",
+        "file":  "adobong-talong.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134148_351b82bd-fe12-4232-9b05-514a1df8b5e1.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "beef-kaldereta",
+        "file":  "beef-kaldereta.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134148_9de0b7a7-8c8a-4379-9406-5b9f63786c05.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "beef-mechado",
+        "file":  "beef-mechado.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134354_38703593-dde0-4a6c-935d-c7676159ecd4.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pork-menudo",
+        "file":  "pork-menudo.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134318_fe979d35-8598-410f-979c-9d6635b61851.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pork-dinuguan",
+        "file":  "pork-dinuguan.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134148_fe4ecd53-14e0-49c8-be54-4a068d0958a1.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pork-hock-kare-kare",
+        "file":  "pork-hock-kare-kare.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134318_c4daf593-fe7f-433e-9cdd-6d9ca8cb4753.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "chopsuey",
+        "file":  "chopsuey.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134148_69657f91-c0d7-48bb-bd57-9420b29887e9.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pinakbet-tagalog",
+        "file":  "pinakbet-tagalog.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134318_3516a6dd-b51b-4a7f-9263-c4f02a176a75.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "tortang-talong",
+        "file":  "tortang-talong.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134503_fb2ef979-7e3d-426c-ae80-6d53407fdda1.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pork-sisig",
+        "file":  "pork-sisig.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134524_b9039b62-8256-4a63-be7d-50317b8d8614.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "chicken-pastel",
+        "file":  "chicken-pastel.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134318_6ba0b380-37ca-40eb-8718-d60864ca34cc.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "paksiw-na-bangus",
+        "file":  "paksiw-na-bangus.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134354_4453b797-0615-489f-ab8b-b2b8e0bb610e.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "inihaw-na-tilapia",
+        "file":  "inihaw-na-tilapia.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134553_288cc2c3-e37a-45c3-9381-a3ea5b3ad279.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "halabos-na-hipon",
+        "file":  "halabos-na-hipon.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134622_3070df47-70c9-4181-a05c-81662ab2563f.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "escabecheng-lapu-lapu",
+        "file":  "escabecheng-lapu-lapu.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134647_2eee7a42-8603-43e9-a9ad-8e59fb994cb1.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "ginataang-langka",
+        "file":  "ginataang-langka.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134718_88df223f-244c-4058-bea2-b9f24135624d.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "lechon-kawali",
+        "file":  "lechon-kawali.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134752_28ea8acd-3b53-4bad-b39a-f1fadfc91448.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "bicol-express",
+        "file":  "bicol-express.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134818_24d61b01-fd03-4614-a563-039c493db9aa.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "laing",
+        "file":  "laing.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134842_79b98577-7b61-4d8b-8cde-d8df96c5a179.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "lumpiang-shanghai",
+        "file":  "lumpiang-shanghai.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170920_6ed4e11f-771d-4f6c-b3a7-61bfa06b94d8.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "chicken-inasal",
+        "file":  "chicken-inasal.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_134939_87e85bf9-60de-4394-9688-5de1b267f8f2.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "bistek-tagalog",
+        "file":  "bistek-tagalog.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135019_85cf93ea-a86c-4893-ae73-a9a994330e47.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "ginisang-monggo-with-pork",
+        "file":  "ginisang-monggo-with-pork.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170845_1a307d3c-1e3b-45e0-b1a0-a025fc33f0d1.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pork-barbecue",
+        "file":  "pork-barbecue.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135114_4f6fb803-3d1c-430f-b275-a7e9946b7354.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "sinigang-na-baboy",
+        "file":  "sinigang-na-baboy.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135143_8382ed44-df19-49db-8d98-b0ddaa1f05a9.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "sinigang-na-hipon",
+        "file":  "sinigang-na-hipon.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135208_080e3fdf-b734-4e32-b868-79c29bec0572.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "sinigang-na-bangus",
+        "file":  "sinigang-na-bangus.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135242_d4b77073-64b3-4881-b07f-459791230de9.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "sinampalukang-manok",
+        "file":  "sinampalukang-manok.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135307_45949b05-7bc1-4d18-8bf0-5fb0f91ea156.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "tinolang-manok",
+        "file":  "tinolang-manok.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135332_67368e86-07d1-4b08-809f-9d1414d48bef.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "bulalo",
+        "file":  "bulalo.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135406_9e6f7dd2-0e69-43de-9d89-0783882fcf10.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "arroz-caldo",
+        "file":  "arroz-caldo.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135430_3e6d4277-6f0d-4e14-9d9e-460f19806947.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "tapsilog",
+        "file":  "tapsilog.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135500_611b70e8-23a3-4bfc-a9fb-41da83f9a67d.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "longsilog",
+        "file":  "longsilog.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135534_24abea92-53c9-4254-9853-f26cb9866051.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pandesal",
+        "file":  "pandesal.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135607_c0e67626-ef6e-4b72-939e-aa2878b5d0a2.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "turon",
+        "file":  "turon.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_135633_7e792852-c33f-4036-8f79-8646c159864d.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "banana-cue",
+        "file":  "banana-cue.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170151_2e7e509f-a95f-455a-894a-4785cfcc8584.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "kwek-kwek",
+        "file":  "kwek-kwek.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170218_77c80a1e-d3c7-4759-a058-39e6e5e40b69.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pancit-canton",
+        "file":  "pancit-canton.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170252_02254a7a-1673-4f0b-994d-1612fa16a8cb.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "pancit-palabok",
+        "file":  "pancit-palabok.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170331_213f313c-363d-4b24-8d6e-b949053243c6.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "puto",
+        "file":  "puto.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170400_ea1bf6a6-a2f4-47f2-8eb9-967f55bbc59c.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "bibingka",
+        "file":  "bibingka.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170430_a54705f3-800f-40ba-a05d-28d5669a4e0d.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "leche-flan",
+        "file":  "leche-flan.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170457_1d15fd49-eb05-43da-980f-dbc975a9261f.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "halo-halo",
+        "file":  "halo-halo.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170529_cfa4d58a-4c09-4889-8124-d893a8521284.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "ube-halaya",
+        "file":  "ube-halaya.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170554_b762ff46-a92f-45b9-b7f6-9684ce55d058.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "buko-pandan",
+        "file":  "buko-pandan.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170623_00493633-b378-40a5-be78-d2f6abe7b613.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "calamansi-juice",
+        "file":  "calamansi-juice.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170653_97a8549b-9ea5-4778-a969-8a1dec143f41.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "sagot-gulaman",
+        "file":  "sagot-gulaman.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170721_5ef1f3c8-e875-47c7-b30e-9e28f80393d1.png",
+        "generated":  "2026-10-11"
+    },
+    {
+        "slug":  "salabat",
+        "file":  "salabat.webp",
+        "source":  "AI-generated with Higgsfield (model z_image)",
+        "job_file":  "hf_20261011_170751_c5b075d8-d91d-4932-ae9d-822f0ac8cac4.png",
+        "generated":  "2026-10-11"
+    }
+]
