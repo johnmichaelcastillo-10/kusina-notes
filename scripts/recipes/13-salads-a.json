@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "ensaladang-talong",
+    "title": "Ensaladang talong",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["eggplant", "tomato", "onion", "vinegar", "shrimp paste"],
+    "prep": 10,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Smoky grilled eggplant, peeled and tossed with tomato, onion and a sharp vinegar dressing. It is the classic side for fried or grilled fish and inihaw na liempo, with a spoonful of bagoong on the side.",
+    "groups": [
+      {
+        "title": "For the salad",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "long Asian eggplants", "note": "about 500 g" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium red onion", "note": "thinly sliced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": 2, "unit": "", "name": "siling labuyo", "note": "chopped, optional" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 2, "max": 3, "unit": "tbsp", "name": "sauteed bagoong alamang", "note": "store-bought or homemade" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Grill the eggplants over charcoal or directly on a gas burner, turning often, until the skin is charred all over and the flesh is completely soft and collapsing.", "minutes": 12 },
+      { "text": "Put the eggplants in a bowl, cover with a plate and let them steam so the skins loosen.", "minutes": 5 },
+      { "text": "Peel off the charred skin while still warm. Remove the stems, then tear or slice the flesh into bite-size pieces, or mash it lightly with a fork.", "minutes": null },
+      { "text": "Whisk the vinegar, sugar, salt and pepper in a serving bowl until the sugar dissolves.", "minutes": null },
+      { "text": "Add the eggplant, tomatoes, onion and chili and toss gently.", "minutes": null },
+      { "text": "Taste, add more salt or vinegar if needed, and serve with the bagoong on the side.", "minutes": null }
+    ],
+    "tips": "Peel the eggplant while it is warm: the skin comes off cleanly then. No grill? Char them under a hot broiler, turning once. Best eaten the same day; it keeps 1 day in the fridge, but the onion gets stronger."
+  },
+  {
+    "slug": "ensaladang-mangga",
+    "title": "Ensaladang mangga",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["green mango", "tomato", "onion", "shrimp paste"],
+    "prep": 15,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Crisp, sour green mango cut into strips and tossed with tomato, onion and salty sauteed bagoong. It cuts through rich fried and grilled dishes like crispy pata, inihaw na baboy and fried fish.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "large green mangoes", "note": "firm and sour, peeled and cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "sauteed bagoong alamang", "note": "store-bought or homemade" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "optional, if the mango is very sour" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel the mangoes and slice the flesh off the seed. Cut into thin strips or small cubes.", "minutes": null },
+      { "text": "Put the mango, tomatoes and onion in a bowl. Sprinkle with the sugar if using.", "minutes": null },
+      { "text": "Just before serving, add the bagoong and chili and toss until everything is coated.", "minutes": null },
+      { "text": "Taste and add a little more bagoong if you want it saltier. Serve right away.", "minutes": null }
+    ],
+    "tips": "Choose very firm mangoes with pale, crisp flesh. Add the bagoong only at the last minute: once it sits, the mango weeps and the salad turns watery. Cut mango keeps a day in the fridge if left undressed."
+  },
+  {
+    "slug": "ensaladang-ampalaya",
+    "title": "Ensaladang ampalaya",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["bitter gourd", "tomato", "onion", "vinegar"],
+    "prep": 35,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thinly sliced bitter gourd salted to tame its bite, then dressed with vinegar, tomato and onion. It is crunchy, sour and pleasantly bitter, and goes well with fried fish and grilled pork.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large ampalaya (bitter gourd)", "note": "about 400 g" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "for rubbing" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium red onion", "note": "thinly sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "for the dressing" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Halve the ampalaya lengthwise and scrape out the seeds and white pith with a spoon. Slice crosswise as thinly as you can.", "minutes": null },
+      { "text": "Toss the slices with the salt and rub them between your fingers. Let them sit until they soften and release a bitter liquid.", "minutes": 15 },
+      { "text": "Squeeze the slices hard by handfuls, rinse in cold water, then squeeze again. Taste one: if still too bitter, rinse and squeeze once more.", "minutes": null },
+      { "text": "In a bowl, stir the vinegar, sugar and pepper until the sugar dissolves.", "minutes": null },
+      { "text": "Add the ampalaya, tomatoes and onion and toss well. Season with a little salt if needed.", "minutes": null },
+      { "text": "Let the salad sit so the flavors meld, then serve.", "minutes": 10 }
+    ],
+    "tips": "For a milder salad, blanch the squeezed slices in boiling water for 30 seconds, then chill them in ice water and drain well before dressing. Keeps 2 days in the fridge."
+  },
+  {
+    "slug": "ensaladang-lato",
+    "title": "Ensaladang lato",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tomato", "onion", "vinegar", "calamansi", "fish sauce"],
+    "prep": 10,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Lato, the sea grapes whose tiny beads pop in your mouth, served with tomato, onion and a sour vinegar dressing. It tastes briny and fresh and is eaten with grilled fish or grilled pork.",
+    "groups": [
+      {
+        "title": "For the salad",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "fresh lato (sea grapes)", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" }
+        ]
+      },
+      {
+        "title": "For the dressing",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "about 3 calamansi" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Swish the lato in a large bowl of cold water, lift it out and repeat in fresh water two or three times to remove sand and excess salt. Drain well in a colander.", "minutes": null },
+      { "text": "Stir the vinegar, calamansi juice, fish sauce, sugar, pepper and chili together until the sugar dissolves.", "minutes": null },
+      { "text": "Pile the lato on a plate and scatter the tomatoes and onion over it.", "minutes": null },
+      { "text": "Pour the dressing over at the table, or serve it on the side for dipping, and eat right away.", "minutes": null }
+    ],
+    "tips": "Dress lato only when you are ready to eat: vinegar and salt make the beads wilt within minutes. Keep undressed lato loosely covered at cool room temperature and use it within a day; the fridge makes the beads collapse."
+  },
+  {
+    "slug": "ensaladang-pako",
+    "title": "Ensaladang pako",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["tomato", "salted egg", "onion", "vinegar", "calamansi"],
+    "prep": 15,
+    "cook": 5,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Tender fiddlehead fern tips blanched until bright green, then topped with tomato, onion and salted egg and dressed with a sweet-sour vinaigrette. It is crisp and lightly grassy, and is often served with fried fish or grilled meat.",
+    "groups": [
+      {
+        "title": "For the salad",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "bunch pako (fiddlehead fern)", "note": "about 300 g" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "cut into wedges" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 2, "max": null, "unit": "", "name": "salted eggs", "note": "cooked, peeled and cut into wedges" }
+        ]
+      },
+      {
+        "title": "For the dressing",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pick the pako: keep the curled tips and the tender upper stems, about 10 cm long, and discard the tough lower stems. Wash well.", "minutes": null },
+      { "text": "Bring a pot of salted water to a boil and fill a bowl with ice water.", "minutes": null },
+      { "text": "Blanch the pako just until it turns bright green.", "minutes": 1 },
+      { "text": "Lift it straight into the ice water to stop the cooking, then drain well and cut into 5 cm lengths.", "minutes": null },
+      { "text": "Whisk the vinegar, calamansi juice, sugar, salt and pepper until the sugar dissolves.", "minutes": null },
+      { "text": "Arrange the pako on a platter, top with the tomatoes, onion and salted egg, and pour the dressing over just before serving.", "minutes": null }
+    ],
+    "tips": "Do not overcook pako or it turns slimy; one minute is enough. Blanched, undressed pako keeps 1 day in the fridge in a covered container lined with paper towels."
+  },
+  {
+    "slug": "ensaladang-kamatis",
+    "title": "Ensaladang kamatis",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tomato", "onion", "fish sauce", "calamansi"],
+    "prep": 10,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Ripe tomatoes and red onion seasoned with fish sauce and calamansi, the simplest everyday side on the Filipino table. It is juicy, salty and sour, and goes with fried fish, tuyo, inihaw and almost any rice meal.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "ripe medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium red onion", "note": "diced or thinly sliced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "or cane vinegar" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "stalks green onion", "note": "sliced, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Dice the tomatoes and onion and put them in a bowl with any tomato juice from the board.", "minutes": null },
+      { "text": "Add the fish sauce, calamansi juice and pepper and toss.", "minutes": null },
+      { "text": "Let it stand so the tomatoes release their juice into the dressing.", "minutes": 5 },
+      { "text": "Taste, adjust with more fish sauce or calamansi, scatter the green onion over and serve.", "minutes": null }
+    ],
+    "tips": "Use the ripest tomatoes you can find and keep them out of the fridge before using. For a version to go with grilled pork, swap the fish sauce for a spoonful of sauteed bagoong. Best eaten within a few hours."
+  },
+  {
+    "slug": "ensaladang-itlog-na-maalat",
+    "title": "Ensaladang itlog na maalat",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["salted egg", "tomato", "onion", "calamansi"],
+    "prep": 10,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chopped salted duck eggs tossed with tomato, onion and a squeeze of calamansi. The rich, salty yolk and juicy tomato make it a favorite partner for fried fish, tuyo and grilled dishes.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "salted eggs", "note": "cooked (the red-dyed kind), peeled" },
+          { "qty": 3, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium red onion", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "or cane vinegar" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel the salted eggs and chop them into small pieces, or cut them into wedges if you prefer.", "minutes": null },
+      { "text": "Put the tomatoes and onion in a bowl and add the egg.", "minutes": null },
+      { "text": "Squeeze in the calamansi, add the pepper and chili, and toss gently so the yolk stays in pieces.", "minutes": null },
+      { "text": "Taste before adding any salt; the eggs are usually salty enough. Serve right away.", "minutes": null }
+    ],
+    "tips": "Buy salted eggs that are already cooked; if yours are raw, boil them for 15 minutes first and cool before peeling. The salad is best fresh, but keeps half a day in the fridge."
+  },
+  {
+    "slug": "ensaladang-labanos",
+    "title": "Ensaladang labanos",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["tomato", "onion", "vinegar"],
+    "prep": 40,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin slices of white radish salted until tender-crisp, then tossed with tomato, onion and vinegar. It is peppery, sour and refreshing next to fried fish, grilled pork or anything rich.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "medium labanos (white radish)", "note": "about 500 g" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "for salting" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium red onion", "note": "thinly sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel the radishes and slice them into thin rounds or half-moons.", "minutes": null },
+      { "text": "Toss the slices with the salt and let them sit until they turn limp and release liquid.", "minutes": 15 },
+      { "text": "Squeeze out the liquid by handfuls, rinse quickly in cold water and squeeze again.", "minutes": null },
+      { "text": "Stir the vinegar, sugar and pepper in a bowl until the sugar dissolves.", "minutes": null },
+      { "text": "Add the radish, tomatoes and onion and toss well.", "minutes": null },
+      { "text": "Chill before serving so the radish soaks up the dressing.", "minutes": 15 }
+    ],
+    "tips": "Salting takes away the radish's sharp smell and bite, so do not skip it. Keeps 2 days in the fridge in a tightly closed container; the radish smell grows stronger as it sits."
+  },
+  {
+    "slug": "ensaladang-pipino",
+    "title": "Ensaladang pipino",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["vinegar", "onion", "chili"],
+    "prep": 30,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin cucumber slices in sweet-sour vinegar with red onion and a little chili. It is cool, crisp and light, and is served with fried chicken, grilled meat or anything salty.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "medium cucumbers", "note": "about 500 g" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "sliced, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel the cucumbers in stripes, leaving some skin on, and slice them thinly.", "minutes": null },
+      { "text": "Stir the vinegar, sugar, salt and pepper in a bowl until the sugar and salt dissolve.", "minutes": null },
+      { "text": "Add the cucumber, onion and chili and toss.", "minutes": null },
+      { "text": "Cover and chill, tossing once, until cold and lightly pickled.", "minutes": 20 }
+    ],
+    "tips": "For extra crunch, toss the slices with 1 tsp salt first, let them sit 10 minutes, then squeeze and skip the salt in the dressing. Best eaten the same day; it keeps 2 days in the fridge but softens."
+  },
+  {
+    "slug": "ensaladang-kangkong",
+    "title": "Ensaladang kangkong",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["water spinach", "tomato", "onion", "shrimp paste", "vinegar"],
+    "prep": 15,
+    "cook": 5,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Blanched water spinach tossed with tomato, onion and a dressing of vinegar and bagoong. It is tender, salty and sour, and is a quick green side for grilled or fried fish and pork.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large bunch kangkong (water spinach)", "note": "about 300 g" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "sauteed bagoong alamang", "note": "store-bought or homemade" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pick the leaves and tender stems from the kangkong, discarding the tough lower stems. Cut into 5 cm lengths and wash well.", "minutes": null },
+      { "text": "Bring a pot of water to a boil and fill a bowl with ice water.", "minutes": null },
+      { "text": "Blanch the kangkong until just wilted and bright green.", "minutes": 1 },
+      { "text": "Transfer to the ice water, then drain and gently squeeze out the excess water.", "minutes": null },
+      { "text": "In a bowl, stir the vinegar, sugar and bagoong together.", "minutes": null },
+      { "text": "Add the kangkong, tomatoes and onion, toss to coat and serve.", "minutes": null }
+    ],
+    "tips": "Squeeze the kangkong gently: too hard and it turns stringy, too little and the salad gets watery. Best eaten soon after mixing."
+  },
+  {
+    "slug": "ensaladang-okra",
+    "title": "Ensaladang okra",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["okra", "tomato", "onion", "shrimp paste"],
+    "prep": 10,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Tender boiled okra served with tomato, onion and sauteed bagoong for dipping. It is mild and soft with a salty, punchy partner, and sits well next to fried fish, grilled pork or a bowl of sinigang.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "young okra", "note": "about 15 pods" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "diced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "sauteed bagoong alamang", "note": "store-bought or homemade" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "or cane vinegar" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the okra and trim just the tips of the stems, leaving the pods whole so they do not get slimy.", "minutes": null },
+      { "text": "Bring a pot of salted water to a boil and cook the okra until tender but still bright green.", "minutes": 4 },
+      { "text": "Drain and rinse under cold water. Slice each pod in half lengthwise or diagonally.", "minutes": null },
+      { "text": "Mix the bagoong with the calamansi juice in a small bowl.", "minutes": null },
+      { "text": "Arrange the okra on a plate, scatter the tomatoes and onion over, and serve with the bagoong for dipping or spooned on top.", "minutes": null }
+    ],
+    "tips": "Pick small, tender pods that snap easily; large ones are woody. You can also steam the okra over rice in the last 5 minutes of cooking."
+  },
+  {
+    "slug": "ensaladang-puso-ng-saging",
+    "title": "Ensaladang puso ng saging",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["banana blossom", "coconut milk", "vinegar", "ginger", "onion"],
+    "prep": 25,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Shredded banana blossom boiled until tender, then dressed with coconut milk, vinegar and ginger. It is creamy, sour and gently spicy, and is served with grilled fish or fried pork.",
+    "groups": [
+      {
+        "title": "For the banana blossom",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "medium banana blossom (puso ng saging)", "note": "about 500 g" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "for rubbing" }
+        ]
+      },
+      {
+        "title": "For the dressing",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "canned or freshly pressed" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium tomato", "note": "diced" },
+          { "qty": 1, "max": 2, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel off the tough, dark outer bracts of the banana blossom until you reach the pale, tender heart. Halve it lengthwise and slice it crosswise as thinly as you can.", "minutes": null },
+      { "text": "Put the slices in a bowl with the salt and massage hard until the blossom wilts and gives off dark sap. Let it sit.", "minutes": 10 },
+      { "text": "Rinse and squeeze the slices in several changes of water until the liquid runs almost clear and the blossom no longer tastes astringent.", "minutes": null },
+      { "text": "Boil the blossom in a pot of fresh water until tender, then drain and squeeze dry once it is cool enough to handle.", "minutes": 10 },
+      { "text": "In a bowl, mix the coconut milk, vinegar, sugar and ginger. Season with salt and pepper.", "minutes": null },
+      { "text": "Add the blossom, onion, tomato and chili, toss well and serve at room temperature or chilled.", "minutes": null }
+    ],
+    "tips": "Oil your hands or wear gloves when handling the blossom: the sap stains. Keep the dressed salad in the fridge and eat it within 1 day, since the coconut milk spoils quickly."
+  },
+  {
+    "slug": "ensaladang-talbos-ng-kamote",
+    "title": "Ensaladang talbos ng kamote",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tomato", "onion", "vinegar", "fish sauce", "calamansi"],
+    "prep": 15,
+    "cook": 5,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Sweet potato tops blanched until just tender and tossed with tomato, onion and a fish sauce and vinegar dressing. It is soft, slightly earthy and sour, and is a simple green side for fried fish and grilled meat.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "bunches talbos ng kamote (sweet potato tops)", "note": "about 300 g" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pick the tender leaves and top stems from the talbos and discard the tough stems. Wash well.", "minutes": null },
+      { "text": "Bring a pot of water to a boil and fill a bowl with ice water.", "minutes": null },
+      { "text": "Blanch the leaves until wilted and deep green.", "minutes": 1 },
+      { "text": "Transfer to the ice water, then drain and gently squeeze out the water.", "minutes": null },
+      { "text": "Stir the vinegar, calamansi juice, fish sauce, sugar and pepper in a bowl.", "minutes": null },
+      { "text": "Add the greens, tomatoes and onion, toss and serve.", "minutes": null }
+    ],
+    "tips": "Use only the top 10 to 15 cm of each shoot; lower stems are stringy. Dress just before serving, as the leaves darken and soften once they sit in vinegar."
+  },
+  {
+    "slug": "ensaladang-sigarilyas",
+    "title": "Ensaladang sigarilyas",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["tomato", "onion", "vinegar", "calamansi"],
+    "prep": 15,
+    "cook": 5,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Winged beans blanched until crisp-tender, sliced into pretty ridged pieces and tossed with tomato, onion and a sweet-sour dressing. It is crunchy and fresh, and works well next to fried fish or adobo.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "young sigarilyas (winged beans)", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Trim the ends of the winged beans and rinse them.", "minutes": null },
+      { "text": "Bring a pot of salted water to a boil and fill a bowl with ice water.", "minutes": null },
+      { "text": "Blanch the beans until bright green and crisp-tender.", "minutes": 2 },
+      { "text": "Transfer to the ice water, drain well and slice diagonally into 1 cm pieces.", "minutes": null },
+      { "text": "Whisk the vinegar, calamansi juice, sugar, salt and pepper until the sugar dissolves.", "minutes": null },
+      { "text": "Toss the beans with the tomatoes, onion and dressing and serve.", "minutes": null }
+    ],
+    "tips": "Choose young, flat pods that snap cleanly; older ones are fibrous. Blanched beans keep 2 days undressed in the fridge."
+  },
+  {
+    "slug": "atcharang-papaya",
+    "title": "Atcharang papaya",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["green papaya", "carrot", "bell pepper", "ginger", "vinegar"],
+    "prep": 90,
+    "cook": 10,
+    "servings": 3,
+    "yield_label": "jars",
+    "difficulty": "medium",
+    "intro": "Shredded green papaya pickled with carrot, bell pepper, ginger and garlic in sweet vinegar. It is crunchy, sweet and tangy, and is the classic partner for fried fish, inihaw, longganisa and other rich or fried food.",
+    "groups": [
+      {
+        "title": "For the vegetables",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "green papaya", "note": "peeled, seeded and coarsely grated (about 6 cups)" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "julienned or cut into flower shapes" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 3, "max": null, "unit": "thumb", "name": "ginger", "note": "peeled and julienned" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "thinly sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For the pickling liquid",
+        "items": [
+          { "qty": 2, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toss the grated papaya with the 2 tbsp salt in a large bowl and let it sit until it wilts and releases liquid.", "minutes": 60 },
+      { "text": "Meanwhile, bring the vinegar, sugar, salt and peppercorns to a boil in a nonreactive pot, stirring until the sugar dissolves.", "minutes": 3 },
+      { "text": "Take the pickling liquid off the heat and let it cool to room temperature.", "minutes": 30 },
+      { "text": "Put the papaya in a cheesecloth or clean kitchen towel and squeeze out as much liquid as you can. Rinse it once under cold water and squeeze hard again.", "minutes": null },
+      { "text": "Mix the papaya with the carrot, bell pepper, onion, ginger, garlic and raisins.", "minutes": null },
+      { "text": "Scald clean glass jars and lids with boiling water and let them air dry. Pack the vegetables in firmly.", "minutes": null },
+      { "text": "Pour the cooled pickling liquid over to cover the vegetables, pressing down with a spoon to release air bubbles. Close the jars and refrigerate.", "minutes": null }
+    ],
+    "tips": "Makes about three 500 ml jars. Wait at least 1 day before eating; it tastes best after 3 to 5 days. Keep refrigerated and always use a clean, dry spoon; it keeps about 1 month."
+  },
+  {
+    "slug": "atcharang-ampalaya",
+    "title": "Atcharang ampalaya",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["bitter gourd", "carrot", "ginger", "vinegar", "onion"],
+    "prep": 50,
+    "cook": 10,
+    "servings": 2,
+    "yield_label": "jars",
+    "difficulty": "medium",
+    "intro": "Thin slices of bitter gourd pickled in sweet vinegar with carrot, onion and ginger. The sugar softens the bitterness into something crisp, sweet and tangy, good beside fried fish, grilled pork and lechon kawali.",
+    "groups": [
+      {
+        "title": "For the vegetables",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "medium ampalaya (bitter gourd)", "note": "about 600 g" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "julienned" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red bell pepper", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium red onion", "note": "thinly sliced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "peeled and julienned" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "thinly sliced" }
+        ]
+      },
+      {
+        "title": "For the pickling liquid",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Halve the ampalaya lengthwise, scrape out the seeds and pith, and slice thinly crosswise.", "minutes": null },
+      { "text": "Toss the slices with the 2 tbsp salt and let them sit until soft and wet.", "minutes": 30 },
+      { "text": "Meanwhile, boil the vinegar, sugar, salt and peppercorns in a nonreactive pot until the sugar dissolves, then set aside to cool.", "minutes": 3 },
+      { "text": "Squeeze the ampalaya hard by handfuls. Put it in a colander, pour a kettle of boiling water over it, then rinse with cold water and squeeze dry again.", "minutes": null },
+      { "text": "Mix the ampalaya with the carrot, bell pepper, onion, ginger and garlic, and pack into clean, scalded jars.", "minutes": null },
+      { "text": "Pour the cooled pickling liquid over to cover, press out air bubbles, close and refrigerate.", "minutes": null }
+    ],
+    "tips": "Makes about two 500 ml jars. Ready to eat after 1 day in the fridge and keeps about 3 weeks. The boiling water rinse takes away more bitterness; skip it if you like a sharper bite."
+  },
+  {
+    "slug": "atcharang-labanos",
+    "title": "Atcharang labanos",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["carrot", "ginger", "garlic", "vinegar", "chili"],
+    "prep": 50,
+    "cook": 10,
+    "servings": 2,
+    "yield_label": "jars",
+    "difficulty": "easy",
+    "intro": "White radish and carrot sticks pickled in sweet, garlicky vinegar with a little chili. It is crunchy, sweet and peppery, and cuts the richness of fried pork, grilled fish and barbecue.",
+    "groups": [
+      {
+        "title": "For the vegetables",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "labanos (white radish)", "note": "peeled and cut into thin sticks or rounds" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "cut into thin sticks" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "peeled and julienned" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "thinly sliced" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "slit, optional" }
+        ]
+      },
+      {
+        "title": "For the pickling liquid",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toss the radish with the 2 tbsp salt and let it sit until it bends without snapping.", "minutes": 30 },
+      { "text": "Meanwhile, boil the vinegar, sugar and salt in a nonreactive pot until the sugar dissolves, then let it cool.", "minutes": 3 },
+      { "text": "Squeeze the radish well, rinse quickly in cold water and squeeze again.", "minutes": null },
+      { "text": "Mix the radish with the carrot, onion, ginger, garlic and chilies, and pack firmly into clean, scalded jars.", "minutes": null },
+      { "text": "Pour the cooled liquid over to cover, press out air bubbles, close and refrigerate.", "minutes": null }
+    ],
+    "tips": "Makes about two 500 ml jars. Ready after 1 day in the fridge and keeps about 3 weeks. Radish pickles smell strong when you first open the jar; the smell fades in a minute and does not mean the pickle has gone off."
+  },
+  {
+    "slug": "mixed-vegetable-atchara",
+    "title": "Mixed vegetable atchara",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["chayote", "carrot", "bell pepper", "onion", "ginger", "vinegar"],
+    "prep": 50,
+    "cook": 10,
+    "servings": 3,
+    "yield_label": "jars",
+    "difficulty": "medium",
+    "intro": "Chayote, carrot, bell peppers and small onions pickled together in sweet, gingery vinegar. It is colorful, crunchy and sweet-sour, and is served with fried fish, grilled meat and holiday roasts.",
+    "groups": [
+      {
+        "title": "For the vegetables",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "medium sayote (chayote)", "note": "about 600 g, peeled, seeded and cut into thin sticks" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium carrots", "note": "cut into thin sticks" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into strips" },
+          { "qty": 10, "max": null, "unit": "", "name": "shallots or pearl onions", "note": "peeled" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "peeled and julienned" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "thinly sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For the pickling liquid",
+        "items": [
+          { "qty": 2, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Wear gloves or oil your hands, since chayote sap makes skin feel tight. Toss the chayote with the 2 tbsp salt and let it sit until it softens and releases liquid.", "minutes": 30 },
+      { "text": "Meanwhile, boil the vinegar, sugar, salt and peppercorns in a nonreactive pot until the sugar dissolves, then let it cool.", "minutes": 3 },
+      { "text": "Squeeze the chayote well, rinse quickly in cold water and squeeze again.", "minutes": null },
+      { "text": "Toss the chayote with the carrots, bell peppers, shallots, ginger, garlic and raisins.", "minutes": null },
+      { "text": "Pack firmly into clean, scalded jars and pour the cooled liquid over to cover. Press out air bubbles, close and refrigerate.", "minutes": null }
+    ],
+    "tips": "Makes about three 500 ml jars. Let it pickle in the fridge for at least 1 day before serving; it keeps about 1 month. Halve any shallots bigger than a large marble so they pickle evenly."
+  }
+]

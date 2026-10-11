@@ -1,0 +1,1050 @@
+[
+  {
+    "slug": "lomi",
+    "title": "Lomi",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["noodles", "pork", "pork offal", "egg", "cabbage", "soy sauce"],
+    "prep": 20,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thick egg noodles in a hearty, starchy soup with pork, liver, vegetables and ribbons of egg. It is thick enough to coat a spoon, and most people finish it with soy sauce, calamansi and chopped onion at the table.",
+    "groups": [
+      { "title": "For the soup", "items": [
+        { "qty": 500, "max": null, "unit": "g", "name": "fresh lomi noodles (thick egg noodles)", "note": "rinsed" },
+        { "qty": 200, "max": null, "unit": "g", "name": "pork belly or shoulder", "note": "thinly sliced" },
+        { "qty": 150, "max": null, "unit": "g", "name": "pork liver", "note": "thinly sliced" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 8, "max": null, "unit": "cup", "name": "chicken or pork broth", "note": "" },
+        { "qty": 6, "max": null, "unit": "", "name": "kikiam or fish balls", "note": "sliced, optional" },
+        { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "cut into thin strips" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "shredded cabbage", "note": "" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 0.25, "max": null, "unit": "cup", "name": "cornstarch", "note": "mixed with 1/2 cup water" },
+        { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] },
+      { "title": "To serve", "items": [
+        { "qty": 0.5, "max": null, "unit": "cup", "name": "crushed pork chicharon", "note": "" },
+        { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "chopped" },
+        { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" },
+        { "qty": 0.5, "max": null, "unit": "", "name": "onion", "note": "chopped, for the table" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a large pot and fry the garlic and onion until soft.", "minutes": null },
+      { "text": "Add the pork and cook until lightly browned, about 5 minutes.", "minutes": null },
+      { "text": "Pour in the broth, bring to a boil and simmer until the pork is tender.", "minutes": 10 },
+      { "text": "Add the noodles, kikiam and carrot and simmer until the noodles are soft.", "minutes": 5 },
+      { "text": "Add the liver, cabbage, soy sauce and fish sauce and cook until the liver is just done.", "minutes": 2 },
+      { "text": "Stir the cornstarch mixture and pour it in while stirring. Simmer until the soup thickens.", "minutes": 2 },
+      { "text": "Pour in the beaten eggs in a thin stream, stirring gently so they form ribbons. Season with pepper.", "minutes": null },
+      { "text": "Serve topped with chicharon and scallions, with calamansi, chopped onion and soy sauce at the table.", "minutes": null }
+    ],
+    "tips": "Lomi thickens as it sits. Serve it straight from the pot and thin leftovers with hot broth."
+  },
+  {
+    "slug": "kinalas",
+    "title": "Kinalas",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["pork", "noodles", "egg", "garlic", "soy sauce"],
+    "prep": 20,
+    "cook": 120,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Bicolano noodle soup: noodles in a pork broth topped with tender shredded pork, a thick brown sauce, a boiled egg and toasted garlic. Savory and rich, with the gravy slowly melting into the broth as you eat.",
+    "groups": [
+      { "title": "For the broth and meat", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "pork hock or bone-in pork shoulder", "note": "" },
+        { "qty": 12, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
+        { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" }
+      ] },
+      { "title": "For the sauce", "items": [
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "reserved broth", "note": "" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "brown sugar", "note": "" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "flour", "note": "mixed with 1/4 cup water" }
+      ] },
+      { "title": "For the bowls", "items": [
+        { "qty": 500, "max": null, "unit": "g", "name": "fresh egg noodles or thick rice noodles", "note": "" },
+        { "qty": 4, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "halved" },
+        { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "chopped" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "toasted garlic", "note": "" },
+        { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Put the pork, water, onion, garlic and peppercorns in a large pot. Bring to a boil and skim.", "minutes": null },
+      { "text": "Cover and simmer until the meat falls off the bone.", "minutes": 90 },
+      { "text": "Lift out the pork and pull the meat and skin into shreds. Strain the broth and season it with the fish sauce.", "minutes": null },
+      { "text": "For the sauce, heat the oil and cook the garlic and onion until soft. Add the 2 cups of broth, soy sauce and sugar and bring to a boil.", "minutes": null },
+      { "text": "Stir in the flour mixture and simmer, stirring, until thick and glossy.", "minutes": 3 },
+      { "text": "Cook the noodles in boiling water according to the package and drain into bowls.", "minutes": 3 },
+      { "text": "Ladle hot broth over the noodles, pile on the shredded pork, spoon the sauce on top and finish with egg, scallions and garlic. Serve with calamansi.", "minutes": null }
+    ],
+    "tips": "Pork head meat is traditional if your butcher sells it cleaned; simmer it the same way until very soft."
+  },
+  {
+    "slug": "odong",
+    "title": "Odong",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["noodles", "canned sardines", "sponge gourd", "malunggay", "garlic"],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thick, round odong noodles simmered with canned sardines in tomato sauce, patola and malunggay. It is a cheap, filling Visayan and Mindanao favorite with a savory, lightly tangy broth.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 200, "max": null, "unit": "g", "name": "dried odong noodles", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "cans sardines in tomato sauce", "note": "155 g each" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "medium patola (sponge gourd)", "note": "peeled and sliced" },
+        { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "salt or fish sauce", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and cook the garlic and onion until soft.", "minutes": null },
+      { "text": "Add the sardines with their sauce, break them into chunks and cook for 2 minutes.", "minutes": null },
+      { "text": "Pour in the water and bring to a boil.", "minutes": null },
+      { "text": "Add the odong noodles and simmer, stirring now and then.", "minutes": 3 },
+      { "text": "Add the patola and simmer until the noodles and patola are both soft.", "minutes": 3 },
+      { "text": "Taste before seasoning, then add salt or fish sauce and pepper. Stir in the malunggay, turn off the heat and serve.", "minutes": null }
+    ],
+    "tips": "Odong drinks up the broth quickly, so add a splash of hot water if it gets too thick before serving."
+  },
+  {
+    "slug": "ilocos-miki",
+    "title": "Ilocos miki",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["noodles", "chicken", "annatto", "egg", "garlic"],
+    "prep": 20,
+    "cook": 50,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A thick, golden noodle soup of fresh flat egg noodles and shredded chicken, colored with annatto and finished with ribbons of egg. It is savory, comforting and hearty enough for breakfast.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 600, "max": null, "unit": "g", "name": "bone-in chicken thighs", "note": "" },
+        { "qty": 10, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "half quartered, half minced" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "or 1 tsp annatto powder" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 500, "max": null, "unit": "g", "name": "fresh flat egg noodles (miki)", "note": "" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cassava starch or cornstarch", "note": "mixed with 1/4 cup water" },
+        { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" },
+        { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "chopped" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "toasted garlic", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Simmer the chicken in the water with the quartered onion until cooked. Lift out, shred the meat and strain the broth.", "minutes": 30 },
+      { "text": "Warm the oil and annatto seeds in a pot over low heat until the oil is deep orange. Discard the seeds.", "minutes": null },
+      { "text": "Fry the garlic and minced onion in the annatto oil until soft.", "minutes": null },
+      { "text": "Add the broth, chicken and fish sauce and bring to a boil.", "minutes": null },
+      { "text": "Add the noodles and simmer, stirring, until tender; their starch will thicken the soup.", "minutes": 5 },
+      { "text": "Stir in the starch mixture and simmer until the soup is thick and glossy.", "minutes": 2 },
+      { "text": "Drizzle in the eggs while stirring gently. Season with pepper and serve topped with scallions and toasted garlic.", "minutes": null }
+    ],
+    "tips": "Crushed chicharon on top is a common extra. Eat it right away; the noodles keep softening in the pot."
+  },
+  {
+    "slug": "sinanta",
+    "title": "Sinanta",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "clams", "noodles", "annatto", "garlic"],
+    "prep": 25,
+    "cook": 50,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A Cagayan noodle soup with two kinds of noodles, flat egg noodles and rice vermicelli, plus chicken and clams in an annatto-tinted broth. It is savory and briny, with plenty of garlic and scallions.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 800, "max": null, "unit": "g", "name": "bone-in chicken thighs", "note": "" },
+        { "qty": 10, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "onions", "note": "1 quartered, 1 sliced" },
+        { "qty": 500, "max": null, "unit": "g", "name": "small clams (tulya)", "note": "scrubbed and purged" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "" },
+        { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 250, "max": null, "unit": "g", "name": "fresh flat egg noodles (miki)", "note": "" },
+        { "qty": 100, "max": null, "unit": "g", "name": "rice vermicelli (bihon)", "note": "soaked until soft" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" },
+        { "qty": 4, "max": null, "unit": "", "name": "scallions", "note": "chopped" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "toasted garlic", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Simmer the chicken in the water with the quartered onion until cooked. Lift out, shred the meat and strain the broth.", "minutes": 30 },
+      { "text": "Warm the oil and annatto seeds over low heat until the oil is orange, then discard the seeds.", "minutes": null },
+      { "text": "Fry the garlic and sliced onion in the annatto oil until soft.", "minutes": null },
+      { "text": "Add the broth, chicken and fish sauce and bring to a boil.", "minutes": null },
+      { "text": "Add the clams and boil until the shells open. Discard any that stay shut.", "minutes": 5 },
+      { "text": "Add the egg noodles and simmer until tender.", "minutes": 4 },
+      { "text": "Add the bihon and cook until heated through. Season with pepper.", "minutes": 2 },
+      { "text": "Serve topped with scallions and toasted garlic.", "minutes": null }
+    ],
+    "tips": "Soak the clams in salted water for an hour before cooking so they spit out their sand."
+  },
+  {
+    "slug": "beef-pares",
+    "title": "Beef pares",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["beef", "soy sauce", "brown sugar", "garlic", "rice"],
+    "prep": 15,
+    "cook": 150,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Tender beef braised in a sweet soy and star anise sauce, served as a set with garlic fried rice and a bowl of clear beef broth. The sweet, sticky beef and the light, peppery soup balance each other.",
+    "groups": [
+      { "title": "For the beef and broth", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "beef brisket", "note": "cut into 1 1/2-inch cubes" },
+        { "qty": 8, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "half quartered, half chopped" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 0.333, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+        { "qty": 0.25, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+        { "qty": 3, "max": null, "unit": "", "name": "star anise", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "for the broth" },
+        { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+      ] },
+      { "title": "For the garlic rice", "items": [
+        { "qty": 4, "max": null, "unit": "cup", "name": "cooked rice", "note": "preferably a day old" },
+        { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Put the beef, water, quartered onion and peppercorns in a pot. Bring to a boil, skim, then cover and simmer until the beef is tender.", "minutes": 120 },
+      { "text": "Ladle 5 cups of the broth into a small pot. Season it with the fish sauce and keep it hot for serving.", "minutes": null },
+      { "text": "Heat the oil in a wide pan. Cook the minced garlic and chopped onion until soft.", "minutes": null },
+      { "text": "Add the beef, soy sauce, sugar, star anise and 1 1/2 cups of the remaining broth. Simmer until the sauce reduces and darkens.", "minutes": 20 },
+      { "text": "Stir in the cornstarch mixture and simmer until the sauce is glossy.", "minutes": 2 },
+      { "text": "For the garlic rice, fry the garlic in the oil until golden, add the rice and salt and toss until hot.", "minutes": null },
+      { "text": "Serve each plate of rice and beef with a bowl of the hot broth topped with scallions.", "minutes": null }
+    ],
+    "tips": "A pressure cooker gets the beef tender in about 40 minutes. Chili garlic oil on the side is the usual extra."
+  },
+  {
+    "slug": "crab-and-corn-soup",
+    "title": "Crab and corn soup",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["crab", "corn", "egg", "garlic", "onion"],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A thick, silky soup of creamed corn and crab with soft ribbons of egg white, the kind served at Chinese-Filipino banquets. Sweet from the corn and gently briny from the crab.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+        { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+        { "qty": 5, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+        { "qty": 425, "max": null, "unit": "g", "name": "cream-style corn", "note": "1 can" },
+        { "qty": 200, "max": null, "unit": "g", "name": "crab meat", "note": "fresh or canned, picked over" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 0.25, "max": null, "unit": "tsp", "name": "white pepper", "note": "" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 1/3 cup water" },
+        { "qty": 2, "max": null, "unit": "", "name": "egg whites", "note": "lightly beaten" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Melt the butter in a pot and cook the garlic and onion until soft.", "minutes": null },
+      { "text": "Add the broth and creamed corn and bring to a boil, then simmer.", "minutes": 5 },
+      { "text": "Add the crab, fish sauce and white pepper and simmer.", "minutes": 2 },
+      { "text": "Stir the cornstarch mixture and pour it in while stirring. Simmer until thickened.", "minutes": 2 },
+      { "text": "Turn the heat to low and pour in the egg whites in a thin stream, stirring slowly so they form ribbons.", "minutes": null },
+      { "text": "Stir in the sesame oil, top with scallions and serve.", "minutes": null }
+    ],
+    "tips": "Flaked crab sticks work well and are what many home cooks use. Add them at the end so they stay tender."
+  },
+  {
+    "slug": "chicken-corn-soup",
+    "title": "Chicken corn soup",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "corn", "malunggay", "egg", "garlic"],
+    "prep": 15,
+    "cook": 35,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Diced chicken simmered in a creamy corn broth with whole kernels, malunggay and a swirl of egg. It is sweet, mild and filling, an easy soup for kids.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 500, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "diced small" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "minced" },
+        { "qty": 6, "max": null, "unit": "cup", "name": "water or chicken broth", "note": "" },
+        { "qty": 425, "max": null, "unit": "g", "name": "cream-style corn", "note": "1 can" },
+        { "qty": 1, "max": null, "unit": "cup", "name": "corn kernels", "note": "fresh or frozen" },
+        { "qty": 1, "max": 2, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten" },
+        { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and cook the garlic and onion until soft.", "minutes": null },
+      { "text": "Add the chicken and cook, stirring, until no longer pink outside, about 5 minutes.", "minutes": null },
+      { "text": "Pour in the water, bring to a boil, then simmer until the chicken is tender.", "minutes": 15 },
+      { "text": "Add the creamed corn and kernels and simmer, stirring so it does not catch.", "minutes": 5 },
+      { "text": "Season with the fish sauce and pepper.", "minutes": null },
+      { "text": "Pour in the egg in a thin stream while stirring. Turn off the heat, add the malunggay and serve.", "minutes": null }
+    ],
+    "tips": "Stir the bottom of the pot often after the creamed corn goes in; it scorches easily."
+  },
+  {
+    "slug": "suam-na-mais",
+    "title": "Suam na mais",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["corn", "shrimp", "malunggay", "garlic", "fish sauce"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fresh corn scraped off the cob and simmered with shrimp and chili leaves or malunggay into a thick, naturally sweet soup. Simple, savory and best with fresh white corn.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 4, "max": null, "unit": "", "name": "ears of fresh corn", "note": "white glutinous corn or sweet corn" },
+        { "qty": 250, "max": null, "unit": "g", "name": "shrimp", "note": "peeled, heads and shells kept" },
+        { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "chili leaves or malunggay leaves", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Boil the shrimp heads and shells in the water, pressing the heads to release their juices. Strain and keep the liquid.", "minutes": 10 },
+      { "text": "Meanwhile, grate or scrape the corn kernels off the cobs with a knife, catching the milky juice.", "minutes": null },
+      { "text": "Heat the oil in a pot and cook the garlic and onion until soft. Add the corn and stir for 2 minutes.", "minutes": null },
+      { "text": "Pour in the shrimp liquid and bring to a boil, then simmer, stirring often, until the corn is tender and the soup thickens.", "minutes": 12 },
+      { "text": "Add the shrimp and cook until pink.", "minutes": 3 },
+      { "text": "Season with the fish sauce and pepper. Turn off the heat, stir in the leaves and serve.", "minutes": null }
+    ],
+    "tips": "Grated corn sticks easily, so keep stirring once it goes in. Thinly sliced pork can be sauteed with the garlic for a meatier version."
+  },
+  {
+    "slug": "nido-soup",
+    "title": "Nido soup",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "quail egg", "egg", "onion"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A delicate, thickened chicken soup with soft strands of bird's nest, shredded chicken, egg white ribbons and quail eggs. It is light and smooth, served at Chinese-Filipino feasts and special dinners.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 20, "max": null, "unit": "g", "name": "dried bird's nest (nido)", "note": "soaked ahead, see tips" },
+        { "qty": 250, "max": null, "unit": "g", "name": "boneless chicken breast", "note": "" },
+        { "qty": 8, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "halved" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 0.25, "max": null, "unit": "tsp", "name": "white pepper", "note": "" },
+        { "qty": 0.25, "max": null, "unit": "cup", "name": "cornstarch", "note": "mixed with 1/2 cup water" },
+        { "qty": 2, "max": null, "unit": "", "name": "egg whites", "note": "lightly beaten" },
+        { "qty": 12, "max": null, "unit": "", "name": "quail eggs", "note": "hard-boiled and peeled" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Drain the soaked nido and pick out any small feathers or specks with tweezers.", "minutes": null },
+      { "text": "Poach the chicken breast in the broth with the onion until cooked. Lift out the chicken, shred it finely and discard the onion.", "minutes": 15 },
+      { "text": "Return the chicken to the broth, add the nido and simmer gently.", "minutes": 8 },
+      { "text": "Season with the fish sauce and white pepper.", "minutes": null },
+      { "text": "Stir the cornstarch mixture and pour it in while stirring. Simmer until the soup thickens.", "minutes": 2 },
+      { "text": "Lower the heat and drizzle in the egg whites, stirring slowly so they form ribbons.", "minutes": null },
+      { "text": "Add the quail eggs and sesame oil, top with scallions and serve.", "minutes": null }
+    ],
+    "tips": "Soak the nido in cold water for 2 to 4 hours, or as the package directs, until it softens and separates into strands. Do this before you start."
+  },
+  {
+    "slug": "hototay-soup",
+    "title": "Hototay soup",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["pork", "shrimp", "quail egg", "mushrooms", "carrot", "bok choy"],
+    "prep": 25,
+    "cook": 30,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A Chinese-Filipino vegetable soup loaded with pork, liver, shrimp, mushrooms, quail eggs and greens in a lightly thickened broth. Savory, colorful and almost a meal on its own.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 150, "max": null, "unit": "g", "name": "pork shoulder", "note": "thinly sliced" },
+        { "qty": 100, "max": null, "unit": "g", "name": "pork liver", "note": "thinly sliced" },
+        { "qty": 150, "max": null, "unit": "g", "name": "shrimp", "note": "peeled and deveined" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 8, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+        { "qty": 4, "max": null, "unit": "", "name": "dried shiitake mushrooms", "note": "soaked and sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "napa cabbage", "note": "chopped" },
+        { "qty": 50, "max": null, "unit": "g", "name": "snow peas (chicharo)", "note": "trimmed" },
+        { "qty": 1, "max": null, "unit": "", "name": "bunch bok choy", "note": "chopped" },
+        { "qty": 10, "max": null, "unit": "", "name": "quail eggs", "note": "hard-boiled and peeled" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 1/3 cup water" },
+        { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "white pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and cook the garlic and onion until soft. Add the pork and cook until lightly browned.", "minutes": null },
+      { "text": "Add the broth and mushrooms, bring to a boil and simmer.", "minutes": 10 },
+      { "text": "Add the carrot and simmer.", "minutes": 3 },
+      { "text": "Add the liver and shrimp and cook until the shrimp turn pink.", "minutes": 2 },
+      { "text": "Add the cabbage, snow peas and bok choy and cook until just tender. Season with the soy sauce, fish sauce and pepper.", "minutes": 2 },
+      { "text": "Stir in the cornstarch mixture and simmer until lightly thickened.", "minutes": 2 },
+      { "text": "Drizzle in the beaten egg while stirring gently. Add the quail eggs and sesame oil and serve.", "minutes": null }
+    ],
+    "tips": "Some cooks add sliced chicken or squid balls. Keep the vegetables crisp; they continue to soften in the hot soup."
+  },
+  {
+    "slug": "binakol",
+    "title": "Binakol",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "young coconut", "ginger", "lemongrass", "green papaya", "malunggay"],
+    "prep": 20,
+    "cook": 45,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Chicken simmered in fresh coconut water with ginger and lemongrass, then finished with young coconut strips, green papaya and leafy greens. The broth is clear, gently sweet and fragrant.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken", "note": "cut into serving pieces" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 4, "max": null, "unit": "cup", "name": "young coconut water", "note": "from 3 to 4 coconuts" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and knotted" },
+        { "qty": 1.5, "max": null, "unit": "cup", "name": "young coconut meat", "note": "cut into strips" },
+        { "qty": 1, "max": null, "unit": "", "name": "small green papaya or chayote", "note": "peeled and cut into wedges" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "chili leaves or malunggay leaves", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and fry the ginger, garlic and onion until fragrant.", "minutes": null },
+      { "text": "Add the chicken and cook until lightly colored, about 5 minutes. Add the fish sauce and stir.", "minutes": null },
+      { "text": "Pour in the coconut water and water, add the lemongrass and bring to a boil. Skim.", "minutes": null },
+      { "text": "Cover and simmer until the chicken is tender.", "minutes": 25 },
+      { "text": "Add the papaya and simmer until tender.", "minutes": 8 },
+      { "text": "Add the coconut meat and heat through. Taste and season with pepper and fish sauce.", "minutes": 2 },
+      { "text": "Turn off the heat, stir in the leaves and serve.", "minutes": null }
+    ],
+    "tips": "Use coconut water straight from the fruit, not the sweetened bottled kind, or the soup turns sugary."
+  },
+  {
+    "slug": "tinuom",
+    "title": "Tinuom",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "tomato", "lemongrass", "ginger", "onion"],
+    "prep": 30,
+    "cook": 50,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Ilonggo chicken seasoned with tomatoes, onion, ginger and lemongrass, wrapped in banana leaves and simmered in a pot. Each packet holds its own fragrant, smoky-sweet broth to pour over rice.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken", "note": "cut into small serving pieces" },
+        { "qty": 3, "max": null, "unit": "", "name": "tomatoes", "note": "chopped" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+        { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "white part, thinly sliced" },
+        { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+        { "qty": 8, "max": null, "unit": "", "name": "banana leaf squares", "note": "about 30 cm each, wilted over a flame" },
+        { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Mix the chicken with the tomatoes, onion, ginger, garlic, lemongrass, salt, fish sauce and pepper. Let it sit while you prepare the leaves.", "minutes": 15 },
+      { "text": "Lay two banana leaf squares on top of each other, shiny side up. Spoon a quarter of the chicken and its juices into the center.", "minutes": null },
+      { "text": "Add 2 tablespoons of the water, fold the leaves over into a loose packet and tie with kitchen string. Repeat to make 4 packets.", "minutes": null },
+      { "text": "Set the packets in a wide pot and add the remaining water. Cover and bring to a boil.", "minutes": null },
+      { "text": "Lower the heat and simmer until the chicken is tender. Add a little water if the pot runs dry.", "minutes": 40 },
+      { "text": "Serve one packet per person in a bowl and open it at the table so the broth spills out.", "minutes": null }
+    ],
+    "tips": "Leave room in each packet for the juices to collect, and tie it firmly so the broth stays inside."
+  },
+  {
+    "slug": "linagpang-na-manok",
+    "title": "Linagpang na manok",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "tomato", "onion", "ginger", "lemongrass", "chili"],
+    "prep": 20,
+    "cook": 60,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Grilled chicken pulled into pieces and steeped in a hot lemongrass and ginger broth with raw tomato, onion and chili. The char gives the clear broth a smoky taste that makes this soup distinct.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken legs and thighs", "note": "" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "for the chicken" },
+        { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+        { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and knotted" },
+        { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+        { "qty": 3, "max": null, "unit": "", "name": "ripe tomatoes", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "red onion", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Rub the chicken with the salt and pepper.", "minutes": null },
+      { "text": "Grill over charcoal or in a grill pan over medium heat, turning, until charred in spots and cooked through.", "minutes": 30 },
+      { "text": "Meanwhile, simmer the water with the lemongrass and ginger.", "minutes": 15 },
+      { "text": "Cut or pull the grilled chicken into large pieces and add them to the broth. Simmer so the smoke flavors the soup.", "minutes": 10 },
+      { "text": "Season the broth with the fish sauce.", "minutes": null },
+      { "text": "Divide the tomatoes, onion and chilies among bowls. Ladle in the chicken and boiling broth and let it stand for 2 minutes. Top with scallions.", "minutes": null }
+    ],
+    "tips": "Native chicken (manok bisaya) is the usual choice if you can get it; simmer it a little longer since it is tougher."
+  },
+  {
+    "slug": "linagpang-na-isda",
+    "title": "Linagpang na isda",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tilapia", "tomato", "onion", "ginger", "lemongrass", "chili"],
+    "prep": 15,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Charcoal-grilled fish in a hot lemongrass and ginger broth poured over raw tomatoes, onion and chili. Smoky, fresh and light, with the vegetables just barely wilted.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 2, "max": null, "unit": "", "name": "medium tilapia or 1 large bangus", "note": "about 800 g in all, scaled and gutted" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "for the fish" },
+        { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and knotted" },
+        { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+        { "qty": 3, "max": null, "unit": "", "name": "ripe tomatoes", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "red onion", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Rub the fish inside and out with the salt.", "minutes": null },
+      { "text": "Grill over medium charcoal or in a grill pan until the skin is charred and the flesh is cooked through, turning once.", "minutes": 20 },
+      { "text": "Meanwhile, simmer the water with the lemongrass and ginger.", "minutes": 10 },
+      { "text": "Cut the grilled fish into chunks.", "minutes": null },
+      { "text": "Season the broth with the fish sauce and bring back to a rolling boil.", "minutes": null },
+      { "text": "Divide the tomatoes, onion, chilies and fish among bowls. Ladle the boiling broth over, let it stand for 2 minutes and top with scallions.", "minutes": null }
+    ],
+    "tips": "Oil the grill and the fish skin well so it does not stick and tear."
+  },
+  {
+    "slug": "pesang-manok",
+    "title": "Pesang manok",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "ginger", "cabbage", "bok choy", "potato", "fish sauce"],
+    "prep": 15,
+    "cook": 45,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken poached in rice washing with ginger and whole peppercorns, with potatoes, napa cabbage and bok choy. The broth is mild and gingery, perfect with a fish sauce and calamansi dip.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken", "note": "cut into serving pieces" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+        { "qty": 7, "max": null, "unit": "cup", "name": "rice washing", "note": "from the second rinse" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "medium potatoes", "note": "peeled and quartered" },
+        { "qty": 0.5, "max": null, "unit": "", "name": "small napa cabbage (pechay Baguio)", "note": "cut into wide strips" },
+        { "qty": 1, "max": null, "unit": "", "name": "bunch bok choy", "note": "" },
+        { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "cut into 2-inch lengths" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and fry the ginger and onion until fragrant.", "minutes": null },
+      { "text": "Add the chicken and cook until lightly colored, about 5 minutes.", "minutes": null },
+      { "text": "Pour in the rice washing, add the peppercorns and bring to a boil. Skim, then cover and simmer.", "minutes": 25 },
+      { "text": "Add the potatoes and simmer until tender.", "minutes": 10 },
+      { "text": "Add the napa cabbage and cook until just soft.", "minutes": 3 },
+      { "text": "Add the bok choy and scallions, season with the fish sauce and turn off the heat. Serve with rice and fish sauce with calamansi.", "minutes": null }
+    ],
+    "tips": "A sauteed miso and tomato sauce, as served with pesang isda, goes well with this too."
+  },
+  {
+    "slug": "pesang-isda",
+    "title": "Pesang isda",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["fish", "ginger", "cabbage", "bok choy", "tomato"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fish gently poached in rice washing with ginger, peppercorns and napa cabbage, served with a sauteed miso and tomato sauce on the side. The soup is clean and mild; the miso sauce brings the salt and depth.",
+    "groups": [
+      { "title": "For the soup", "items": [
+        { "qty": 800, "max": null, "unit": "g", "name": "fish such as dalag, tilapia or lapu-lapu", "note": "cleaned and cut into thick slices" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "for the fish" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
+        { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+        { "qty": 6, "max": null, "unit": "cup", "name": "rice washing", "note": "from the second rinse" },
+        { "qty": 2, "max": null, "unit": "", "name": "medium potatoes", "note": "peeled and quartered" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 0.5, "max": null, "unit": "", "name": "small napa cabbage (pechay Baguio)", "note": "cut into wide strips" },
+        { "qty": 1, "max": null, "unit": "", "name": "bunch bok choy", "note": "" },
+        { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "cut into 2-inch lengths" }
+      ] },
+      { "title": "For the miso sauce", "items": [
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+        { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "chopped" },
+        { "qty": 0.25, "max": null, "unit": "cup", "name": "miso", "note": "" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Rub the fish with the salt and set aside.", "minutes": null },
+      { "text": "Heat the oil in a wide pot and fry the ginger and onion until fragrant.", "minutes": null },
+      { "text": "Add the rice washing, peppercorns and potatoes. Bring to a boil and simmer until the potatoes are nearly tender.", "minutes": 10 },
+      { "text": "Lay in the fish and simmer gently without stirring until it flakes.", "minutes": 8 },
+      { "text": "Add the napa cabbage and cook until soft, then the bok choy and scallions. Season with the fish sauce.", "minutes": 3 },
+      { "text": "For the sauce, heat the oil in a small pan and cook the garlic, onion and tomatoes until the tomatoes break down.", "minutes": 5 },
+      { "text": "Stir in the miso and water and cook for 2 minutes. Serve the soup with the miso sauce on the side.", "minutes": null }
+    ],
+    "tips": "Some cooks fry the fish lightly before poaching so it holds together better; either way, swirl the pot instead of stirring."
+  },
+  {
+    "slug": "kinamatisang-manok",
+    "title": "Kinamatisang manok",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["chicken", "tomato", "garlic", "onion", "bok choy", "fish sauce"],
+    "prep": 15,
+    "cook": 45,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken simmered in a broth built on plenty of ripe tomatoes, with fish sauce and pechay. The soup is tangy-sweet, savory and bright red, and very good spooned over rice.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken", "note": "cut into serving pieces" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 6, "max": null, "unit": "", "name": "ripe tomatoes", "note": "about 600 g, chopped" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "bunch bok choy (pechay)", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and cook the garlic and onion until soft.", "minutes": null },
+      { "text": "Add the tomatoes and cook, stirring and pressing, until they collapse into a thick sauce.", "minutes": 8 },
+      { "text": "Add the chicken and fish sauce and stir for about 5 minutes so the chicken takes on color.", "minutes": null },
+      { "text": "Pour in the water, bring to a boil, then cover and simmer until the chicken is tender.", "minutes": 25 },
+      { "text": "Add the chilies and bok choy and cook for 1 minute. Season with pepper and serve.", "minutes": null }
+    ],
+    "tips": "Use the ripest, softest tomatoes you can find; they give the broth its color and body."
+  },
+  {
+    "slug": "kinamatisang-baboy",
+    "title": "Kinamatisang baboy",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["pork", "tomato", "garlic", "onion", "water spinach", "fish sauce"],
+    "prep": 15,
+    "cook": 60,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pork browned in its own fat, then simmered in a broth of ripe tomatoes and fish sauce with kangkong. Rich, tangy and savory, a soupy ulam for rice.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 800, "max": null, "unit": "g", "name": "pork belly or shoulder (kasim)", "note": "cut into 1 1/2-inch pieces" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 6, "max": null, "unit": "", "name": "ripe tomatoes", "note": "chopped" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "bunch kangkong (water spinach)", "note": "cut into 3-inch lengths" },
+        { "qty": 1, "max": null, "unit": "", "name": "long green chili (siling haba)", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot over medium heat. Add the pork and cook, turning, until it browns and renders some fat.", "minutes": 8 },
+      { "text": "Push the pork aside and cook the garlic and onion in the fat until soft.", "minutes": null },
+      { "text": "Add the tomatoes and fish sauce and cook, pressing the tomatoes, until they break down.", "minutes": 6 },
+      { "text": "Pour in the water, bring to a boil and skim. Cover and simmer until the pork is tender.", "minutes": 40 },
+      { "text": "Add the kangkong stems first, then the leaves and chili, and cook for 1 minute. Season with pepper and serve.", "minutes": null }
+    ],
+    "tips": "Pechay or malunggay can stand in for kangkong."
+  },
+  {
+    "slug": "linarang",
+    "title": "Linarang",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["fish", "tomato", "ginger", "onion", "lemongrass", "chili"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A Cebuano fish soup of firm fish steaks in a broth of tomatoes, ginger, lemongrass and salty fermented black beans. Savory and a little spicy, with a deep flavor from the beans.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 800, "max": null, "unit": "g", "name": "firm fish steaks such as marlin (malasugi), tuna or mackerel", "note": "" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+        { "qty": 3, "max": null, "unit": "", "name": "tomatoes", "note": "chopped" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "fermented black beans (tausi)", "note": "rinsed and lightly mashed" },
+        { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "lemongrass stalk", "note": "bruised and knotted" },
+        { "qty": 1, "max": 2, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "long green chilies (siling haba)", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wide pot and cook the garlic, onion and ginger until fragrant.", "minutes": null },
+      { "text": "Add the tomatoes and cook until soft.", "minutes": 5 },
+      { "text": "Stir in the black beans for 1 minute.", "minutes": null },
+      { "text": "Add the water and lemongrass, bring to a boil and simmer so the broth develops.", "minutes": 10 },
+      { "text": "Lay in the fish and simmer gently, without stirring, until cooked through.", "minutes": 8 },
+      { "text": "Taste before adding the fish sauce, since the beans are salty. Add the chilies, top with scallions and serve.", "minutes": null }
+    ],
+    "tips": "Some cooks add a few slices of kamias for a sour edge. Rinse the tausi well or the soup can turn too salty."
+  },
+  {
+    "slug": "sinabawang-halaan",
+    "title": "Sinabawang halaan",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["clams", "ginger", "garlic", "tomato", "bok choy"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Clams cooked open in a quick ginger and tomato broth with pechay. The clam juices make the soup sweet and briny, and it is on the table in about half an hour.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "clams (halaan)", "note": "scrubbed and purged" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "tomato", "note": "chopped" },
+        { "qty": 5, "max": null, "unit": "cup", "name": "water or rice washing", "note": "" },
+        { "qty": 1, "max": 1.5, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "long green chili (siling haba)", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "bunch bok choy (pechay)", "note": "or 2 cups malunggay leaves" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and fry the ginger, garlic and onion until fragrant. Add the tomato and cook until soft.", "minutes": null },
+      { "text": "Pour in the water and bring to a boil.", "minutes": null },
+      { "text": "Add the clams and chili, cover and boil until the shells open.", "minutes": 5 },
+      { "text": "Discard any clams that stay closed. Taste the broth, then season with fish sauce and pepper.", "minutes": null },
+      { "text": "Add the bok choy, turn off the heat and serve once it wilts.", "minutes": null }
+    ],
+    "tips": "Soak the clams in salted water for an hour before cooking so they spit out their sand, then lift them out rather than pouring them into a colander."
+  },
+  {
+    "slug": "sinabawang-talaba",
+    "title": "Sinabawang talaba",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["oysters", "ginger", "garlic", "malunggay", "chayote"],
+    "prep": 15,
+    "cook": 12,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shucked oysters poached for a moment in a ginger broth with chayote and malunggay. The oysters stay plump and soft and give the soup a rich, briny sweetness.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 500, "max": null, "unit": "g", "name": "shucked oysters (talaba)", "note": "drained, liquor kept" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 5, "max": null, "unit": "cup", "name": "water or rice washing", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "chayote (sayote)", "note": "peeled and sliced" },
+        { "qty": 1, "max": 1.5, "unit": "tbsp", "name": "fish sauce", "note": "" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Pick over the oysters for bits of shell. Strain their liquor through a fine sieve and keep it.", "minutes": null },
+      { "text": "Heat the oil in a pot and fry the ginger, garlic and onion until fragrant.", "minutes": null },
+      { "text": "Add the water, oyster liquor and chayote. Bring to a boil and simmer until the chayote is tender.", "minutes": 6 },
+      { "text": "Add the oysters and cook just until their edges curl.", "minutes": 2 },
+      { "text": "Season with fish sauce and pepper. Turn off the heat, add the malunggay and serve.", "minutes": null }
+    ],
+    "tips": "Oysters toughen fast; take the pot off the heat as soon as the edges ruffle."
+  },
+  {
+    "slug": "utan-bisaya",
+    "title": "Utan Bisaya",
+    "course": "sabaw",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["squash", "string beans", "okra", "eggplant", "lemongrass", "malunggay"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A Visayan vegetable soup of squash, string beans, okra and eggplant simmered in a lemongrass and ginger broth with leafy greens. No sauteing and no meat, just clean, sweet vegetable flavor.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and knotted" },
+        { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "quartered" },
+        { "qty": 300, "max": null, "unit": "g", "name": "squash (kalabasa)", "note": "peeled and cubed" },
+        { "qty": 150, "max": null, "unit": "g", "name": "string beans (sitaw)", "note": "cut into 2-inch lengths" },
+        { "qty": 6, "max": null, "unit": "", "name": "okra", "note": "halved" },
+        { "qty": 1, "max": null, "unit": "", "name": "eggplant", "note": "sliced" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "alugbati or malunggay leaves", "note": "" },
+        { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "plus more to taste" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Bring the water to a boil with the lemongrass, ginger, onion and tomatoes and simmer.", "minutes": 5 },
+      { "text": "Add the squash and simmer until it starts to soften.", "minutes": 8 },
+      { "text": "Add the string beans and simmer.", "minutes": 3 },
+      { "text": "Add the okra and eggplant and simmer until all the vegetables are tender.", "minutes": 4 },
+      { "text": "Season with the salt and pepper. Add the leaves, cook for 1 minute and serve with rice.", "minutes": null }
+    ],
+    "tips": "Let a few pieces of squash fall apart into the broth; they thicken it and make it sweeter."
+  },
+  {
+    "slug": "law-oy",
+    "title": "Law-oy",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["dried fish", "squash", "sponge gourd", "malunggay", "tomato"],
+    "prep": 15,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A Visayan vegetable soup of squash, patola and malunggay seasoned with dried fish. The fish adds a salty, smoky depth to the light, sweet broth.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 60, "max": null, "unit": "g", "name": "dried fish (bulad), such as danggit or salted dried fish", "note": "broken into pieces" },
+        { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "tomato", "note": "chopped" },
+        { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 300, "max": null, "unit": "g", "name": "squash (kalabasa)", "note": "peeled and cubed" },
+        { "qty": 1, "max": null, "unit": "", "name": "medium patola (sponge gourd)", "note": "peeled and sliced" },
+        { "qty": 2, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot and cook the garlic, onion and tomato until soft.", "minutes": null },
+      { "text": "Add the water and dried fish, bring to a boil and simmer to flavor the broth.", "minutes": 5 },
+      { "text": "Add the squash and simmer until almost tender.", "minutes": 8 },
+      { "text": "Add the patola and simmer until soft.", "minutes": 3 },
+      { "text": "Taste before adding salt, since the fish is salty. Stir in the malunggay, turn off the heat and serve.", "minutes": null }
+    ],
+    "tips": "Corn kernels, okra or string beans are common additions; use whatever vegetables you have."
+  },
+  {
+    "slug": "buridibud",
+    "title": "Buridibud",
+    "course": "sabaw",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["sweet potato", "okra", "malunggay", "onion", "tomato"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Ilocano vegetable soup where soft sweet potato is mashed into a fermented fish broth to thicken it, then filled with okra, saluyot and malunggay. Earthy, savory and slightly sweet.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 3, "max": null, "unit": "tbsp", "name": "fermented fish paste (bagoong isda)", "note": "" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "tomato", "note": "chopped" },
+        { "qty": 300, "max": null, "unit": "g", "name": "sweet potato (kamote)", "note": "peeled and cubed" },
+        { "qty": 6, "max": null, "unit": "", "name": "okra", "note": "halved" },
+        { "qty": 1, "max": null, "unit": "cup", "name": "saluyot (jute leaves)", "note": "" },
+        { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Bring the water and fermented fish paste to a boil and simmer.", "minutes": 5 },
+      { "text": "Strain out any bones and solids if your paste is chunky, then return the broth to the pot.", "minutes": null },
+      { "text": "Add the onion, tomato and sweet potato and simmer until the sweet potato is very soft.", "minutes": 12 },
+      { "text": "Mash about half of the sweet potato against the side of the pot to thicken the broth.", "minutes": null },
+      { "text": "Add the okra and simmer until tender.", "minutes": 3 },
+      { "text": "Add the saluyot and malunggay, cook for 1 minute, taste and serve.", "minutes": null }
+    ],
+    "tips": "Flaked grilled fish on top makes it a full meal. Squash can stand in for the sweet potato."
+  },
+  {
+    "slug": "tiyula-itum",
+    "title": "Tiyula itum",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["beef", "coconut", "ginger", "lemongrass", "chili"],
+    "prep": 20,
+    "cook": 135,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "A Tausug beef soup turned nearly black with a paste of burnt coconut, simmered with ginger, turmeric, lemongrass and chilies. The broth is smoky, nutty and peppery-hot.",
+    "groups": [
+      { "title": "For the burnt coconut paste", "items": [
+        { "qty": 1, "max": null, "unit": "cup", "name": "freshly grated mature coconut", "note": "or unsweetened desiccated coconut" }
+      ] },
+      { "title": "For the soup", "items": [
+        { "qty": 1, "max": null, "unit": "kg", "name": "beef brisket or shank", "note": "cut into 1 1/2-inch cubes" },
+        { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+        { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+        { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+        { "qty": 1, "max": null, "unit": "thumb", "name": "fresh turmeric", "note": "sliced, or 1 tsp ground turmeric" },
+        { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and knotted" },
+        { "qty": 10, "max": null, "unit": "cup", "name": "water", "note": "" },
+        { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "plus more to taste" },
+        { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+        { "qty": 3, "max": 5, "unit": "", "name": "bird's eye chilies (siling labuyo)", "note": "lightly crushed" },
+        { "qty": 3, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Toast the grated coconut in a dry wok over medium-low heat, stirring constantly, until it turns very dark brown to almost black, about 20 minutes.", "minutes": null },
+      { "text": "Pound the hot coconut in a mortar, or grind it in a food processor, until it becomes a dark, oily paste.", "minutes": null },
+      { "text": "Heat the oil in a large pot and cook the garlic, onion, ginger, turmeric and lemongrass until fragrant.", "minutes": null },
+      { "text": "Add the beef and cook, stirring, until the outside is browned, about 5 minutes.", "minutes": null },
+      { "text": "Pour in the water, bring to a boil and skim. Cover and simmer until the beef is tender.", "minutes": 90 },
+      { "text": "Stir in the burnt coconut paste, salt and pepper and simmer so the broth darkens and thickens slightly.", "minutes": 15 },
+      { "text": "Add the chilies, taste for salt and serve topped with scallions, with rice.", "minutes": null }
+    ],
+    "tips": "Keep the coconut moving while it toasts; it goes from black to bitter and acrid quickly if left alone. Goat meat is also used in place of beef."
+  },
+  {
+    "slug": "etag-soup",
+    "title": "Etag soup",
+    "course": "sabaw",
+    "diets": [],
+    "key_ingredients": ["pork", "chayote", "ginger", "onion", "bok choy"],
+    "prep": 15,
+    "cook": 70,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Cordillera salt-cured pork simmered with ginger until tender, then cooked with chayote and leafy greens. The etag gives the clear broth a deep, salty, slightly funky flavor.",
+    "groups": [
+      { "title": "", "items": [
+        { "qty": 400, "max": null, "unit": "g", "name": "etag (salt-cured pork)", "note": "cut into 2-inch pieces" },
+        { "qty": 8, "max": null, "unit": "cup", "name": "water", "note": "plus more for soaking" },
+        { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+        { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
+        { "qty": 2, "max": null, "unit": "", "name": "chayote (sayote)", "note": "peeled and cut into wedges" },
+        { "qty": 1, "max": null, "unit": "", "name": "bunch bok choy or mustard greens", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" },
+        { "qty": null, "max": null, "unit": "to-taste", "name": "ground black pepper", "note": "" }
+      ] }
+    ],
+    "steps": [
+      { "text": "Rinse the etag well and soak it in fresh water to draw out some of the salt. Drain.", "minutes": 15 },
+      { "text": "Put the etag, the 8 cups of water, ginger and onion in a pot and bring to a boil. Skim.", "minutes": null },
+      { "text": "Cover and simmer until the etag is tender.", "minutes": 45 },
+      { "text": "Add the chayote and simmer until tender.", "minutes": 8 },
+      { "text": "Taste before adding any salt. Add the greens and pepper, cook for 1 minute and serve.", "minutes": null }
+    ],
+    "tips": "Etag varies a lot in saltiness; taste the broth after the first 15 minutes and add water if it is too strong. Chicken pieces can be added with the etag for a heartier pot."
+  }
+]

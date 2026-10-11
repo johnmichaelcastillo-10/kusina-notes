@@ -1,0 +1,939 @@
+[
+  {
+    "slug": "pritong-bangus",
+    "title": "Pritong bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "vinegar", "garlic", "tomato"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Boneless milkfish seasoned with salt and pepper, then fried until the skin crackles and the rich belly stays juicy. Serve it with garlicky vinegar and sliced tomatoes for an easy everyday ulam.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large boneless bangus", "note": "about 600 g, butterflied" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cooking oil", "note": "for shallow frying" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 0.5, "max": null, "unit": "", "name": "small red onion", "note": "finely chopped" },
+          { "qty": 1, "max": null, "unit": "", "name": "bird's eye chili", "note": "chopped, optional" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the bangus dry on both sides with paper towels. Cut it in half crosswise so it fits your pan.", "minutes": null },
+      { "text": "Rub the flesh side with the salt and pepper and let it sit while you make the dip.", "minutes": 10 },
+      { "text": "Stir the vinegar, garlic, onion and chili together in a small bowl with a pinch of salt.", "minutes": null },
+      { "text": "Heat the oil in a wide frying pan over medium-high heat until it shimmers. Lay the fish in <strong>skin side down</strong> and cover with a splatter guard or a lid set ajar. Fry until the skin is deep golden and crisp.", "minutes": 6 },
+      { "text": "Turn the pieces carefully with two spatulas and fry the flesh side until golden and cooked through.", "minutes": 4 },
+      { "text": "Drain on paper towels skin side up so the skin stays crisp. Serve hot with the vinegar dip, tomatoes and rice.", "minutes": null }
+    ],
+    "tips": "Bangus spits hard in hot oil because of its fat and the moisture under the skin. Dry it well and keep the lid close by."
+  },
+  {
+    "slug": "daing-na-bangus",
+    "title": "Daing na bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "vinegar", "garlic"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Butterflied milkfish soaked in vinegar, garlic and cracked pepper, then fried until the edges turn crisp and brown. The flesh comes out tangy and garlicky, and it is the classic partner for garlic rice and tomatoes.",
+    "groups": [
+      {
+        "title": "For the marinade",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large boneless bangus", "note": "about 600 g, butterflied" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 10, "max": null, "unit": "clove", "name": "garlic", "note": "crushed (about 1 head)" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "cracked" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For frying and serving",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "garlic fried rice or steamed rice", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the vinegar, garlic, pepper and salt in a shallow glass or ceramic dish wide enough to hold the fish flat.", "minutes": null },
+      { "text": "Lay the bangus in the marinade flesh side down. Cover and refrigerate for at least 3 hours, or overnight, turning it once.", "minutes": null },
+      { "text": "Lift the fish out and let the excess marinade drip off. Pat the skin dry. Pick out a handful of the garlic and set it aside.", "minutes": null },
+      { "text": "Heat the oil in a wide frying pan over medium heat. Fry the fish skin side down, with a lid set ajar against splatters, until the skin is crisp.", "minutes": 6 },
+      { "text": "Turn and fry the flesh side until golden brown at the edges. The vinegar makes it brown quickly, so lower the heat if it darkens too fast.", "minutes": 4 },
+      { "text": "Fry the reserved garlic in the same oil until golden and scatter it over the fish. Serve with tomatoes and rice.", "minutes": 1 }
+    ],
+    "tips": "Overnight in the marinade gives the fullest flavor. Marinated bangus keeps 3 days in the fridge, or wrap each piece and freeze for up to a month."
+  },
+  {
+    "slug": "paksiw-na-bangus",
+    "title": "Paksiw na bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "vinegar", "ginger", "eggplant", "bitter gourd"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Milkfish simmered in vinegar with ginger, garlic, eggplant and bitter gourd until the sauce is sour, gingery and a little bitter. It is a quick weeknight ulam that tastes even better the next day.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "bangus", "note": "about 800 g, scaled, cleaned and cut crosswise into 5 pieces" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced into coins" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "long eggplant", "note": "sliced diagonally" },
+          { "qty": 1, "max": null, "unit": "", "name": "small bitter gourd (ampalaya)", "note": "seeded and sliced" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Scatter the ginger, garlic and onion over the bottom of a wide, non-reactive pan. Lay the bangus on top in one layer and tuck the eggplant and bitter gourd around it.", "minutes": null },
+      { "text": "Pour in the vinegar and water. Add the peppercorns, salt, fish sauce and chilies.", "minutes": null },
+      { "text": "Bring to a boil over medium heat, uncovered and <strong>without stirring</strong>, so the raw edge of the vinegar cooks off.", "minutes": 5 },
+      { "text": "Cover, lower the heat and simmer until the fish is cooked through and the vegetables are tender.", "minutes": 15 },
+      { "text": "Drizzle in the oil and simmer a few minutes more. Taste the sauce and add salt if needed. Shake the pan instead of stirring so the fish stays whole.", "minutes": 3 },
+      { "text": "Serve hot or at room temperature with rice and plenty of the sauce.", "minutes": null }
+    ],
+    "tips": "Paksiw keeps 3 days in the fridge. Reheat it gently in its sauce, and leave out the bitter gourd if your household does not like it."
+  },
+  {
+    "slug": "inihaw-na-bangus",
+    "title": "Inihaw na bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "tomato", "onion", "ginger", "soy sauce", "calamansi"],
+    "prep": 20,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Whole milkfish stuffed with tomatoes, onion and ginger, wrapped and grilled over coals until smoky and moist. The juicy stuffing doubles as a relish, and a soy and calamansi dip finishes it.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large bangus", "note": "about 1 kg, gutted and cleaned, scales left on" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "plus more for the cavity" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "banana leaf", "note": "wilted over a flame, optional" }
+        ]
+      },
+      {
+        "title": "For the stuffing",
+        "items": [
+          { "qty": 3, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium red onion", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "about 6 calamansi" },
+          { "qty": 1, "max": null, "unit": "", "name": "bird's eye chili", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Light a charcoal grill and let the coals burn down to medium heat, or heat a gas grill to medium.", "minutes": null },
+      { "text": "Rinse the fish and pat it dry. Season the belly cavity generously with salt and pepper.", "minutes": null },
+      { "text": "Mix the tomatoes, onion, ginger and scallions with a good pinch of salt. Pack the stuffing into the cavity firmly without forcing it.", "minutes": null },
+      { "text": "Wrap the fish in the banana leaf, then in a double layer of foil, so it does not stick or tear on the grill.", "minutes": null },
+      { "text": "Grill the parcel on one side.", "minutes": 15 },
+      { "text": "Turn it and grill the other side until the flesh at the thickest part flakes when pressed with a fork.", "minutes": 15 },
+      { "text": "Stir the soy sauce, calamansi juice and chili together for the dip.", "minutes": null },
+      { "text": "Unwrap at the table. Peel back the scaly skin and serve the flesh with the stuffing, the dip and rice.", "minutes": null }
+    ],
+    "tips": "No grill? Bake the foil parcel at 200°C (400°F) for 35 to 40 minutes, turning once."
+  },
+  {
+    "slug": "inihaw-na-bangus-belly",
+    "title": "Inihaw na bangus belly",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "soy sauce", "calamansi", "garlic", "brown sugar", "tomato"],
+    "prep": 40,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Boneless milkfish belly marinated in soy sauce, calamansi and garlic, then grilled until the sweet glaze chars at the edges. The fatty belly stays soft and rich, and a fresh tomato salad cuts through it.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "boneless bangus belly", "note": "about 150 g each" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "about 8 calamansi" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "for the grill" }
+        ]
+      },
+      {
+        "title": "For the tomato salad",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Stir the soy sauce, calamansi juice, garlic, sugar and pepper together in a shallow dish. Add the bellies and turn to coat.", "minutes": null },
+      { "text": "Cover and marinate in the fridge, turning once.", "minutes": 30 },
+      { "text": "Heat a grill or grill pan over medium-high heat and brush it with the oil. Toss the tomatoes, onion and fish sauce together for the salad.", "minutes": null },
+      { "text": "Lift the bellies out of the marinade and grill skin side down until the skin is marked and crisp. Watch it: the sugar chars quickly.", "minutes": 4 },
+      { "text": "Turn, brush with a little marinade and grill until the flesh is opaque all the way through.", "minutes": 3 },
+      { "text": "Serve right away with the tomato salad and rice.", "minutes": null }
+    ],
+    "tips": "Grilling on foil brushed with oil keeps the delicate belly from tearing on the grates."
+  },
+  {
+    "slug": "lechon-bangus",
+    "title": "Lechon bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "lemongrass", "soy sauce", "calamansi", "garlic", "onion"],
+    "prep": 30,
+    "cook": 40,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A whole boneless milkfish packed with lemongrass, onion and garlic, then roasted until the skin blisters and crisps like lechon. The flesh comes out fragrant and juicy, and it is good for a family Sunday lunch.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large boneless bangus", "note": "about 1 kg, split along the back and left whole" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "for the skin" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "for the skin" }
+        ]
+      },
+      {
+        "title": "For the stuffing",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and cut to fit the fish" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "sliced" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "spiced cane vinegar", "note": "with garlic and chili" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Open the fish like a book and season the flesh with the soy sauce, calamansi juice and pepper. Leave it to marinate while the oven heats to 220°C (425°F).", "minutes": 15 },
+      { "text": "Lay the lemongrass, onion, tomatoes, garlic and ginger along one side of the flesh. Fold the fish closed and tie it with kitchen twine every 5 cm.", "minutes": null },
+      { "text": "Pat the skin very dry with paper towels, brush it with the oil and sprinkle it with the salt.", "minutes": null },
+      { "text": "Set the fish on an oiled rack over a foil-lined tray and roast.", "minutes": 20 },
+      { "text": "Turn it carefully and roast until the skin is blistered and golden and the flesh flakes at the thickest part.", "minutes": 15 },
+      { "text": "Rest for 5 minutes, snip off the twine and slice crosswise. Serve with spiced vinegar and rice.", "minutes": 5 }
+    ],
+    "tips": "The drier the skin goes into the oven, the crisper it comes out. You can also grill it over medium coals, about 15 minutes a side."
+  },
+  {
+    "slug": "rellenong-bangus",
+    "title": "Rellenong bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "egg", "carrot", "bell pepper", "onion", "tomato"],
+    "prep": 60,
+    "cook": 45,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Milkfish skin stuffed with its own flaked flesh, sautéed vegetables and raisins, then steamed and fried until golden. Sliced into rounds, it is savory with sweet bursts of raisin, and it is a favorite for fiestas and Christmas.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large bangus", "note": "about 1 kg, scaled, not gutted" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium tomato", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "finely diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red bell pepper", "note": "finely diced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "green peas", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" }
+        ]
+      },
+      {
+        "title": "For cooking and serving",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "banana ketchup", "note": "for serving" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Lay the fish flat and press firmly along both sides with the back of a spoon to loosen the flesh from the skin. Snap the backbone just behind the head and at the tail, leaving the skin whole.", "minutes": null },
+      { "text": "Slip the handle of a wooden spoon under the skin through the gill opening and work it around to free the skin. Squeeze the flesh and backbone out through the head opening. Rinse the skin and marinate it in the soy sauce and calamansi juice.", "minutes": null },
+      { "text": "Simmer the flesh in 1 cup of water until just cooked. Drain, let it cool and flake it, picking out every bone.", "minutes": 5 },
+      { "text": "Heat the oil in a pan over medium heat. Sauté the garlic, onion and tomato until soft, then add the carrot and bell pepper and cook until just tender.", "minutes": 4 },
+      { "text": "Add the flaked fish, peas, raisins, salt and pepper. Cook, stirring, until dry, then spread on a plate to cool.", "minutes": 3 },
+      { "text": "Mix the cooled filling with the eggs and flour. Spoon it into the skin through the head opening, pressing it in evenly without overfilling. Shape the fish back to its form.", "minutes": null },
+      { "text": "Wrap the fish snugly in oiled foil and steam over boiling water until firm.", "minutes": 25 },
+      { "text": "Unwrap and let it cool so it holds together when you fry it.", "minutes": 10 },
+      { "text": "Heat the oil in a wide pan over medium heat and fry the fish until the skin is golden, turning once.", "minutes": 8 },
+      { "text": "Rest for a few minutes, then slice into thick rounds. Serve with banana ketchup and rice.", "minutes": null }
+    ],
+    "tips": "Ask the vendor to scale the fish but leave it ungutted: an unopened belly is what keeps the stuffing in. The steamed fish freezes well before frying."
+  },
+  {
+    "slug": "bangus-embutido",
+    "title": "Bangus embutido",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "egg", "carrot", "bell pepper", "cheese"],
+    "prep": 30,
+    "cook": 45,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Minced milkfish mixed with vegetables, raisins and cheese, rolled around boiled eggs and steamed into a sliceable loaf. It is mild and a little sweet, and good warm or fried in slices the next day.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "boneless bangus fillet", "note": "skinned" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "finely grated" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red bell pepper", "note": "minced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "breadcrumbs", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "quartered lengthwise" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pulse the fish in a food processor into a coarse paste, or chop it finely with a heavy knife. Run your fingers through it and pull out any stray bones.", "minutes": null },
+      { "text": "Mix in the onion, carrot, bell pepper, raisins, relish, breadcrumbs, cheese, beaten eggs, salt and pepper. Fry a teaspoon of the mixture in a pan and taste it for salt.", "minutes": null },
+      { "text": "Divide the mixture in two. Spread each half on a sheet of foil into a rectangle about 1.5 cm thick and lay half the boiled egg quarters down the middle.", "minutes": null },
+      { "text": "Roll each one up tightly using the foil, so the egg ends up in the center, and twist the ends shut.", "minutes": null },
+      { "text": "Steam the rolls over boiling water until firm.", "minutes": 40 },
+      { "text": "Let them cool in the foil so they firm up and slice cleanly.", "minutes": 15 },
+      { "text": "Slice and serve warm with banana ketchup, or fry the slices in a little oil until browned on both sides.", "minutes": null }
+    ],
+    "tips": "Wrapped steamed rolls keep 4 days in the fridge or a month in the freezer. Thaw before slicing and frying."
+  },
+  {
+    "slug": "baked-bangus",
+    "title": "Baked bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "cheese", "garlic", "calamansi", "tomato", "butter"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Boneless milkfish spread with garlicky mayonnaise, tomato and cheese, then baked until bubbling and golden on top. It is creamy, salty and rich, and an easy party dish.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "boneless bangus", "note": "about 500 g each, butterflied" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the topping",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium tomato", "note": "seeded and diced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "melted" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oven to 200°C (400°F). Line a baking tray with foil and grease it lightly.", "minutes": null },
+      { "text": "Lay the fish skin side down on the tray. Season the flesh with the calamansi juice, salt and pepper and let it sit while you make the topping.", "minutes": 10 },
+      { "text": "Mix the mayonnaise, garlic, onion, tomato and melted butter. Spread it evenly over the flesh and scatter the cheese on top.", "minutes": null },
+      { "text": "Bake until the fish is opaque and flakes at the thickest part.", "minutes": 18 },
+      { "text": "Switch to the broiler, or move the tray to the top rack, and cook until the top is golden in spots. Watch it closely.", "minutes": 3 },
+      { "text": "Let it settle for a few minutes, then cut into portions and serve with rice.", "minutes": null }
+    ],
+    "tips": "Blot the seasoned fish dry before you spread the topping, so the juices do not make the mayonnaise watery."
+  },
+  {
+    "slug": "bangus-a-la-pobre",
+    "title": "Bangus a la pobre",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "garlic", "calamansi", "butter"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fried milkfish belly buried under a heap of crisp golden garlic and finished with butter and calamansi. It is salty, garlicky and rich, a simple dish that goes fast with rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "boneless bangus belly", "note": "about 150 g each" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "plus calamansi halves to serve" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head)" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Season the bellies with the calamansi juice, salt and pepper and let them sit.", "minutes": 10 },
+      { "text": "Put the oil and garlic in a cold frying pan and set it over medium-low heat. Stir until the garlic is pale gold, then scoop it out onto paper towels. It keeps darkening as it cools.", "minutes": 4 },
+      { "text": "Pat the fish dry. Raise the heat to medium-high and fry the bellies in the garlic oil, skin side down, until crisp.", "minutes": 5 },
+      { "text": "Turn and fry until the flesh is cooked through.", "minutes": 3 },
+      { "text": "Drop the butter into the pan and spoon the foaming butter over the fish for a few seconds.", "minutes": null },
+      { "text": "Plate the fish, pile the fried garlic on top and serve with calamansi halves and rice.", "minutes": null }
+    ],
+    "tips": "Pull the garlic when it is pale gold. Past that it turns bitter in seconds."
+  },
+  {
+    "slug": "bangus-sa-tausi",
+    "title": "Bangus sa tausi",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "tomato", "ginger", "garlic", "soy sauce"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fried milkfish simmered in a sauce of salted black beans, tomatoes, ginger and garlic. The sauce is salty, savory and slightly sweet, and you will want plenty of rice for it.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "bangus", "note": "about 800 g, scaled, cleaned and cut into 5 pieces" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "salted black beans (tausi)", "note": "rinsed and lightly mashed" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "cut into 3 cm lengths" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rub the fish with the salt and let it sit, then pat it dry.", "minutes": 10 },
+      { "text": "Heat the oil in a wide pan over medium-high heat and fry the fish until golden on both sides. Set it aside.", "minutes": 8 },
+      { "text": "Pour off all but 2 tablespoons of oil. Over medium heat, sauté the garlic, ginger and onion until soft and fragrant.", "minutes": 2 },
+      { "text": "Add the tomatoes and cook until they break down. Stir in the black beans and cook for a minute.", "minutes": 4 },
+      { "text": "Add the water, soy sauce and sugar and bring to a simmer. Return the fish, spoon sauce over it and simmer gently until the sauce thickens slightly.", "minutes": 5 },
+      { "text": "Scatter the scallions on top, taste for salt and serve with rice.", "minutes": null }
+    ],
+    "tips": "Tausi is already salty, so taste before adding more soy sauce. Cubes of fried tofu added with the fish stretch the dish."
+  },
+  {
+    "slug": "bangus-tocino",
+    "title": "Bangus tocino",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "brown sugar", "garlic", "pineapple", "annatto"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Boneless milkfish cured in sugar, garlic and pineapple juice, then pan-cooked until the glaze caramelizes. It is sweet and salty like pork tocino, with tender fish under the sticky crust.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large boneless bangus", "note": "about 600 g, butterflied and cut into 4" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "pineapple juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "annatto powder", "note": "for color, optional" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the sugar, salt, garlic, pineapple juice, pepper and annatto into a paste. Rub it all over the fish.", "minutes": null },
+      { "text": "Put the fish in a covered container and refrigerate for at least 6 hours, or overnight.", "minutes": null },
+      { "text": "Lay the fish skin side down in a wide pan with the water and oil. Bring to a simmer over medium heat, cover and cook.", "minutes": 5 },
+      { "text": "Uncover and let the water cook off until only the oil is left in the pan.", "minutes": 4 },
+      { "text": "Lower the heat to medium-low and fry the fish in the oil, turning once, until glazed and caramelized at the edges. The sugar burns fast, so keep the heat gentle.", "minutes": 6 },
+      { "text": "Serve with rice, sliced tomatoes and a vinegar dip.", "minutes": null }
+    ],
+    "tips": "Cured fish keeps 4 days in the fridge or a month in the freezer, so it is worth making a double batch."
+  },
+  {
+    "slug": "pritong-tinapang-bangus",
+    "title": "Pritong tinapang bangus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "salted egg", "tomato", "onion", "vinegar"],
+    "prep": 10,
+    "cook": 10,
+    "servings": 3,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Smoked milkfish crisped in a little oil and served with a salad of tomatoes, onion and salted egg. The fish is smoky and salty, and the cool salad balances it.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "tinapang bangus (smoked milkfish)", "note": "about 400 g" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cooking oil", "note": "" }
+        ]
+      },
+      {
+        "title": "For the salad and dip",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "diced" },
+          { "qty": 2, "max": null, "unit": "", "name": "salted eggs", "note": "peeled and diced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "If the fish is whole, split it along the back so it lies flat, and cut it into 3 pieces.", "minutes": null },
+      { "text": "Toss the tomatoes, onion and salted eggs together. Mix the vinegar and garlic in a small bowl for the dip.", "minutes": null },
+      { "text": "Heat the oil in a frying pan over medium heat. Fry the fish skin side down until crisp. Smoked fish is already cooked and browns quickly, so do not raise the heat.", "minutes": 3 },
+      { "text": "Turn and fry the other side until golden.", "minutes": 3 },
+      { "text": "Drain on paper towels and serve with the salad, the vinegar dip and rice.", "minutes": null }
+    ],
+    "tips": "Leftover fried tinapa flakes easily: pick out the bones and toss the flakes with rice and garlic the next day."
+  },
+  {
+    "slug": "pritong-tilapia",
+    "title": "Pritong tilapia",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tilapia", "soy sauce", "calamansi", "chili"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Whole tilapia scored, salted and fried until the skin and fins turn crisp and the flesh stays white and sweet. A simple soy and calamansi dip is all it needs.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "tilapia", "note": "about 250 g each, scaled and gutted" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "bird's eye chili", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the fish and pat dry. Make 3 diagonal cuts down to the bone on each side.", "minutes": null },
+      { "text": "Rub the salt inside the belly and over the skin and into the cuts. Let it sit, then pat the fish very dry.", "minutes": 10 },
+      { "text": "Heat the oil, about 1 cm deep, in a wide frying pan over medium-high heat. Fry 2 fish at a time without moving them until the underside is crisp and golden.", "minutes": 6 },
+      { "text": "Turn and fry the other side until crisp and the flesh in the cuts is opaque. Drain and fry the rest.", "minutes": 6 },
+      { "text": "Mix the soy sauce, calamansi juice and chili for the dip, and serve with the hot fish and rice.", "minutes": null }
+    ],
+    "tips": "Let the fish release on its own before you turn it. If it sticks, it is not ready yet."
+  },
+  {
+    "slug": "pinaputok-na-tilapia",
+    "title": "Pinaputok na tilapia",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tilapia", "tomato", "onion", "ginger", "lemongrass", "butter"],
+    "prep": 20,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Tilapia stuffed with tomato, onion, ginger and lemongrass, wrapped in banana leaf and foil and cooked until the parcel puffs. The fish steams in its own juices and comes out tender and fragrant.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "large tilapia", "note": "about 500 g each, scaled and gutted" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and cut in half" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "banana leaves", "note": "wilted over a flame" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oven to 200°C (400°F), or light a grill to medium.", "minutes": null },
+      { "text": "Pat the fish dry and season inside and out with the salt and pepper.", "minutes": null },
+      { "text": "Mix the tomatoes, onion and ginger. Fill each cavity with the lemongrass and as much of the mixture as fits, and pile the rest on top.", "minutes": null },
+      { "text": "Lay each fish on a banana leaf, dot with butter and wrap tightly. Wrap again in foil, folding the edges to seal.", "minutes": null },
+      { "text": "Bake on a tray, or grill turning once, until the parcels puff and the flesh flakes at the thickest part.", "minutes": 30 },
+      { "text": "Open the parcels at the table and serve with rice, spooning the juices over.", "minutes": null }
+    ],
+    "tips": "Check one fish after 25 minutes by peeking into the foil: smaller fish cook faster."
+  },
+  {
+    "slug": "sarciadong-tilapia",
+    "title": "Sarciadong tilapia",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tilapia", "tomato", "egg", "onion", "garlic", "fish sauce"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fried tilapia simmered in a sauce of soft tomatoes, onion and garlic, thickened with ribbons of beaten egg. It is mild, savory and saucy, and a good way to use up leftover fried fish.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 3, "max": null, "unit": "", "name": "tilapia", "note": "about 300 g each, scaled, gutted and scored" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "", "name": "ripe tomatoes", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 2, "max": null, "unit": "", "name": "scallions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rub the fish with the salt, let it sit for a few minutes, then pat dry.", "minutes": null },
+      { "text": "Heat the oil in a wide pan over medium-high heat and fry the fish until crisp on both sides. Set aside.", "minutes": 12 },
+      { "text": "Pour off all but 2 tablespoons of oil. Sauté the garlic and onion over medium heat until soft.", "minutes": 2 },
+      { "text": "Add the tomatoes and cook, pressing them with the spoon, until they collapse into a chunky sauce.", "minutes": 5 },
+      { "text": "Add the water, fish sauce and pepper and bring to a simmer. Return the fish and simmer, spooning sauce over it.", "minutes": 4 },
+      { "text": "Pour the eggs in a thin stream around the fish. Let them set for a moment, then stir gently once so they form soft ribbons.", "minutes": 1 },
+      { "text": "Scatter the scallions on top, taste for salt and serve with rice.", "minutes": null }
+    ],
+    "tips": "Use the ripest tomatoes you can find: they make the sauce. Galunggong or any leftover fried fish works the same way."
+  },
+  {
+    "slug": "inihaw-na-tilapia",
+    "title": "Inihaw na tilapia",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tilapia", "lemongrass", "soy sauce", "vinegar", "onion", "chili"],
+    "prep": 15,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Whole tilapia grilled with the scales on, so the skin chars and peels away to reveal smoky, moist flesh. It is served with a sharp dip of soy sauce, vinegar, onion and chili.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "tilapia", "note": "about 300 g each, gutted, scales left on" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and cut in half" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "", "name": "small red onion", "note": "finely chopped" },
+          { "qty": 1, "max": null, "unit": "", "name": "bird's eye chili", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Light a charcoal grill and let the coals burn down to medium heat.", "minutes": null },
+      { "text": "Rinse the fish and pat dry. Rub the salt inside the cavity and tuck in a piece of lemongrass.", "minutes": null },
+      { "text": "Put the fish in an oiled grilling basket, or straight on oiled grates, and grill until the scales char and the skin lifts.", "minutes": 8 },
+      { "text": "Turn and grill the other side until the flesh near the backbone is opaque.", "minutes": 8 },
+      { "text": "Mix the soy sauce, vinegar, onion and chili for the dip.", "minutes": null },
+      { "text": "Peel back the charred skin at the table and serve the flesh with the dip and rice.", "minutes": null }
+    ],
+    "tips": "The scales protect the flesh from the fire, so you do not need to oil or marinate the fish."
+  },
+  {
+    "slug": "daing-na-tilapia",
+    "title": "Daing na tilapia",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tilapia", "vinegar", "garlic"],
+    "prep": 20,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Tilapia split open along the back, soaked in garlicky vinegar and fried flat until crisp at the edges. Opened up like this, the fish fries evenly and soaks up more of the tangy marinade than a whole fish.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "tilapia", "note": "about 250 g each, scaled" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "cracked" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Lay each fish on its side and cut along the back from head to tail, just above the backbone, so it opens like a book while staying joined at the belly. Pull out the innards and gills and rinse.", "minutes": null },
+      { "text": "Mix the vinegar, garlic, pepper and salt in a wide dish. Lay the fish in flesh side down.", "minutes": null },
+      { "text": "Cover and refrigerate for at least 2 hours, or overnight.", "minutes": null },
+      { "text": "Drain the fish and pat it dry. Heat the oil in a wide pan over medium-high heat and fry 2 fish at a time, skin side down first, until crisp.", "minutes": 5 },
+      { "text": "Turn and fry the flesh side until golden brown. Drain and fry the rest.", "minutes": 4 },
+      { "text": "Serve with sliced tomatoes, a vinegar dip and rice.", "minutes": null }
+    ],
+    "tips": "Ask the fish vendor to butterfly the tilapia for daing; most will do it for you."
+  },
+  {
+    "slug": "pritong-galunggong",
+    "title": "Pritong galunggong",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["galunggong", "vinegar", "garlic", "chili"],
+    "prep": 20,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Round scad fried hard until the skin is crunchy and even the tail can be eaten. It is the everyday fried fish of Filipino homes, best with rice and a bowl of spiced vinegar.",
+    "groups": [
+      {
+        "title": "For the fish",
+        "items": [
+          { "qty": 8, "max": null, "unit": "", "name": "medium galunggong", "note": "about 800 g, gutted and gills removed" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the spiced vinegar",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 0.5, "max": null, "unit": "", "name": "small red onion", "note": "chopped" },
+          { "qty": 2, "max": null, "unit": "", "name": "bird's eye chilies", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the fish and make 2 shallow cuts on each side. Rub with the salt inside and out and let them sit.", "minutes": 10 },
+      { "text": "Mix the vinegar, garlic, onion and chilies with a pinch of salt and let the flavors mingle while you fry.", "minutes": null },
+      { "text": "Pat the fish very dry. Heat the oil in a wide pan over medium-high heat and fry 4 fish at a time without moving them.", "minutes": 5 },
+      { "text": "Turn and fry the other side until both sides are crisp and the tails are brittle. Drain and fry the rest.", "minutes": 5 },
+      { "text": "Serve hot with the spiced vinegar and rice.", "minutes": null }
+    ],
+    "tips": "Galunggong splatters a lot. A dusting of flour or cornstarch on the dried fish tames it and gives an even crisper crust."
+  },
+  {
+    "slug": "paksiw-na-galunggong",
+    "title": "Paksiw na galunggong",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["galunggong", "vinegar", "ginger", "garlic", "eggplant"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Whole round scad simmered in vinegar with ginger, garlic and eggplant until tender. The sauce is sour and peppery, and it is a cheap, quick ulam that keeps well.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 8, "max": null, "unit": "", "name": "medium galunggong", "note": "about 800 g, gutted and gills removed" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "long eggplant", "note": "sliced diagonally" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Spread the ginger, garlic and onion in a wide, non-reactive pan. Arrange the fish on top side by side and add the eggplant around them.", "minutes": null },
+      { "text": "Pour in the vinegar and water and add the peppercorns, salt and chilies.", "minutes": null },
+      { "text": "Bring to a boil over medium heat, uncovered and without stirring.", "minutes": 5 },
+      { "text": "Cover, lower the heat and simmer until the fish is cooked and the eggplant is soft.", "minutes": 15 },
+      { "text": "Drizzle in the oil, simmer briefly and taste the sauce for salt. Shake the pan rather than stirring.", "minutes": 2 },
+      { "text": "Serve with rice and spoon the sauce over.", "minutes": null }
+    ],
+    "tips": "Leftover paksiw fried in a little oil the next day is a treat: the fish turns crisp and the sauce caramelizes in the pan."
+  },
+  {
+    "slug": "pinangat-na-galunggong",
+    "title": "Pinangat na galunggong",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["galunggong", "tomato", "ginger", "onion", "fish sauce"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Round scad simmered with kamias, tomatoes, onion and ginger until the sour, fruity broth reduces around the fish. It is lighter and fresher than vinegar paksiw, with a clean, tangy finish.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 8, "max": null, "unit": "", "name": "medium galunggong", "note": "about 800 g, gutted and gills removed" },
+          { "qty": 10, "max": null, "unit": "", "name": "fresh kamias (bilimbi)", "note": "halved lengthwise" },
+          { "qty": 3, "max": null, "unit": "", "name": "medium tomatoes", "note": "quartered" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Line the bottom of a wide pan or clay pot with half the tomatoes, onion, ginger and kamias.", "minutes": null },
+      { "text": "Arrange the fish on top in a single layer and cover with the rest of the tomatoes, onion, ginger and kamias.", "minutes": null },
+      { "text": "Add the water, salt, fish sauce and chilies. Bring to a boil over medium heat.", "minutes": 5 },
+      { "text": "Cover, lower the heat and simmer until the fish is cooked and the kamias and tomatoes are soft.", "minutes": 15 },
+      { "text": "Uncover and simmer until the liquid reduces to a few spoonfuls of thick, tangy sauce. Taste for salt.", "minutes": 5 },
+      { "text": "Serve with rice, mashing a little of the soft tomato into each bite.", "minutes": null }
+    ],
+    "tips": "No kamias? Use 2 tablespoons of tamarind paste or a few slices of green mango instead, adding them with the water."
+  },
+  {
+    "slug": "pritong-tamban",
+    "title": "Pritong tamban",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["fish", "vinegar", "garlic", "tomato"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fresh sardines fried slowly until the skin is crisp and the small bones are crunchy enough to eat. The flesh is rich and oily, so a sharp vinegar dip and fresh tomatoes go well with it.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "fresh tamban (sardines)", "note": "about 12, scaled and gutted" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "for the dip" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "crushed, for the dip" },
+          { "qty": 2, "max": null, "unit": "", "name": "ripe tomatoes", "note": "sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the fish and make 2 shallow cuts on each side. Rub with the salt and let them sit.", "minutes": 10 },
+      { "text": "Mix the vinegar and garlic with a pinch of salt for the dip.", "minutes": null },
+      { "text": "Pat the fish dry. Heat the oil in a wide pan over medium heat and fry the fish in batches without crowding.", "minutes": 6 },
+      { "text": "Turn and fry until both sides are deep golden and the fins and tails are crisp. Medium heat gives the bones time to turn brittle.", "minutes": 6 },
+      { "text": "Drain on paper towels and serve hot with the vinegar dip, tomatoes and rice.", "minutes": null }
+    ],
+    "tips": "Tamban spoils fast. Buy it with bright eyes and firm bellies, and cook it the same day."
+  }
+]

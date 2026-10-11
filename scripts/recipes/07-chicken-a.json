@@ -1,0 +1,1112 @@
+[
+  {
+    "slug": "chicken-inasal",
+    "title": "Chicken inasal",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "lemongrass", "annatto", "calamansi", "vinegar", "ginger"],
+    "prep": 140,
+    "cook": 40,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Chicken leg quarters soaked in vinegar, calamansi, lemongrass and ginger, then grilled and basted with annatto oil until smoky, tangy and burnished orange. Serve with hot rice, a spoonful of the basting oil over it, and a dip of soy sauce, calamansi and chili.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "chicken leg quarters", "note": "about 1.2 kg" },
+          { "qty": 3, "max": null, "unit": "", "name": "lemongrass stalks", "note": "white part only, pounded and finely chopped" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "grated" },
+          { "qty": 10, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut vinegar", "note": "or cane vinegar" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "calamansi juice", "note": "from about 15 calamansi" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the basting oil",
+        "items": [
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "annatto seeds", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter or margarine", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cut two deep slashes to the bone on each leg quarter, one through the thigh and one through the drumstick, so the marinade gets in.", "minutes": null },
+      { "text": "Mix the lemongrass, ginger, garlic, vinegar, calamansi juice, sugar, salt and pepper in a bowl. Add the chicken, rub the marinade into the slashes, cover and refrigerate.", "minutes": 120 },
+      { "text": "Make the basting oil: warm the oil and annatto seeds in a small pan over low heat, stirring, until the oil turns deep orange-red. Do not let the seeds smoke. Strain, discard the seeds and stir in the butter, salt and calamansi juice.", "minutes": 5 },
+      { "text": "Light a charcoal grill and let the coals burn down to a steady medium heat covered in white ash. Oil the grate.", "minutes": null },
+      { "text": "Lift the chicken out of the marinade and brush off the bits of lemongrass and garlic, which burn on the grill. Grill, turning every 5 minutes and brushing with basting oil each time, until the skin is charred in spots and the juices at the bone run clear, or the thickest part reads 165°F (74°C).", "minutes": 35 },
+      { "text": "Stir the soy sauce, calamansi juice and chili together for the dip.", "minutes": null },
+      { "text": "Rest the chicken for 5 minutes, brush once more with basting oil and serve with rice, extra basting oil and the dip.", "minutes": 5 }
+    ],
+    "tips": "For deeper flavor, marinate overnight. No grill? Roast on a rack at 400°F (200°C) for 35 to 40 minutes, basting twice, then broil for 3 minutes to char the skin."
+  },
+  {
+    "slug": "pritong-manok",
+    "title": "Pritong manok",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "calamansi", "soy sauce", "garlic", "flour"],
+    "prep": 45,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Everyday Filipino fried chicken: bone-in pieces marinated in calamansi, soy sauce and garlic, lightly floured and fried until the skin crackles. Eat it hot with rice and banana ketchup, or with a dish of garlicky vinegar.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken pieces", "note": "drumsticks, thighs and wings" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the coating and frying",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying, about 4 cm deep in a wok" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": null, "max": null, "unit": "to-taste", "name": "banana ketchup", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the chicken dry. Cut a slash to the bone on each thick thigh and drumstick so they cook through at the same pace as the wings.", "minutes": null },
+      { "text": "Toss the chicken with the calamansi juice, soy sauce, fish sauce, garlic and pepper. Cover and refrigerate.", "minutes": 30 },
+      { "text": "Whisk the flour, cornstarch, salt and pepper in a wide bowl. Heat the oil in a wok or heavy pot to 325°F (160°C), or until a pinch of flour sizzles at once.", "minutes": null },
+      { "text": "Lift the chicken out of the marinade, scrape off most of the garlic (it burns in the oil) and roll each piece in the coating, pressing so it sticks. Shake off the excess.", "minutes": null },
+      { "text": "Fry half the chicken without crowding, turning every few minutes, until deep golden and the juices at the bone run clear, or 165°F (74°C) inside. Wings take about 10 minutes, thighs and drumsticks 14 to 15.", "minutes": 15 },
+      { "text": "Drain on a rack set over a tray rather than on paper, so the bottom stays crisp. Let the oil come back to temperature and fry the second batch the same way.", "minutes": 15 },
+      { "text": "Serve hot with rice and banana ketchup.", "minutes": null }
+    ],
+    "tips": "Fry the scraped-off garlic separately in a spoonful of oil until golden and scatter it over the chicken. Leftovers crisp up again in a 400°F (200°C) oven or air fryer in 8 to 10 minutes."
+  },
+  {
+    "slug": "garlic-fried-chicken",
+    "title": "Garlic fried chicken",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "garlic", "fish sauce", "calamansi"],
+    "prep": 45,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken wings marinated in garlic and fish sauce, fried crisp, then tossed in garlic oil and buried under golden toasted garlic. Salty, crunchy and very garlicky, it goes with plain rice and a dip of spiced vinegar.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken wings", "note": "split into drumettes and flats" },
+          { "qty": 20, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 2 heads), divided" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For frying",
+        "items": [
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cooking oil", "note": "for the garlic" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for deep-frying" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": null, "max": null, "unit": "to-taste", "name": "spiced vinegar", "note": "vinegar with chopped chili and garlic" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put a third of the minced garlic in a bowl with the fish sauce, calamansi juice and pepper. Add the wings, toss well, cover and refrigerate.", "minutes": 30 },
+      { "text": "Put the remaining garlic and the 1/3 cup oil in a small cold pan. Set over medium-low heat and stir until the garlic is light golden, then pour through a sieve right away, since it keeps darkening off the heat. Spread the garlic on paper to crisp and keep the garlic oil.", "minutes": 6 },
+      { "text": "Heat the frying oil in a wok to 350°F (175°C). Toss the wings in the cornstarch and shake off the excess.", "minutes": null },
+      { "text": "Fry half the wings, turning now and then, until golden, crisp and cooked through. Drain on a rack.", "minutes": 12 },
+      { "text": "Let the oil come back to temperature and fry the second batch the same way.", "minutes": 12 },
+      { "text": "While the wings are hot, toss them in a large bowl with 2 tablespoons of the garlic oil and a pinch of salt. Pile on a plate and cover with the toasted garlic.", "minutes": null },
+      { "text": "Serve with rice and spiced vinegar for dipping.", "minutes": null }
+    ],
+    "tips": "Leftover garlic oil makes excellent sinangag the next morning. Bone-in thighs work too: slash them to the bone and fry for about 15 minutes."
+  },
+  {
+    "slug": "fried-chicken-with-gravy",
+    "title": "Fried chicken with gravy",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "flour", "egg", "butter"],
+    "prep": 50,
+    "cook": 45,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crisp, craggy breaded fried chicken served with a smooth, peppery brown gravy for pouring over the chicken and the rice. It is the fried chicken and gravy plate of Filipino birthday parties and fast-food lunches, made at home.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken pieces", "note": "drumsticks and thighs" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "garlic powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the breading",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "paprika", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cold water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the gravy",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "Worcestershire sauce", "note": "optional" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "coarsely ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rub the chicken with the calamansi juice, salt, garlic powder and pepper. Cover and refrigerate.", "minutes": 30 },
+      { "text": "Whisk the flour, cornstarch, salt, paprika and pepper in a wide bowl. In another bowl beat the egg with the cold water.", "minutes": null },
+      { "text": "Dip each piece in the flour, then the egg wash, then the flour again, pressing and squeezing so the coating forms rough flakes. Set on a rack and let the coating set while you heat the oil.", "minutes": 10 },
+      { "text": "Heat the oil in a heavy pot to 325°F (160°C). Fry half the chicken, turning now and then, until deep golden and 165°F (74°C) at the bone.", "minutes": 15 },
+      { "text": "Let the oil come back to temperature and fry the rest. Drain on a rack.", "minutes": 15 },
+      { "text": "For the gravy, melt the butter in a saucepan over medium heat. Whisk in the flour and cook, whisking, until it smells toasty and turns light brown.", "minutes": 3 },
+      { "text": "Whisk in the broth a little at a time to keep it smooth, then the soy sauce, Worcestershire sauce and pepper. Simmer, whisking, until the gravy coats a spoon.", "minutes": 5 },
+      { "text": "Taste the gravy for salt and serve it hot with the chicken and rice.", "minutes": null }
+    ],
+    "tips": "For a darker, deeper gravy, let the roux brown a minute longer before adding the broth. Thin leftover gravy with a splash of broth when reheating."
+  },
+  {
+    "slug": "crispy-fried-whole-chicken",
+    "title": "Crispy fried whole chicken",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "ginger", "garlic"],
+    "prep": 15,
+    "cook": 85,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A whole chicken poached with ginger and garlic, dried, then deep-fried until the skin is thin, crackly and deep brown while the meat stays juicy. It is chopped and served with banana ketchup mixed with Worcestershire sauce.",
+    "groups": [
+      {
+        "title": "For poaching",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "whole chicken", "note": "about 1.2 kg" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 8, "max": null, "unit": "cup", "name": "water", "note": "or enough to cover" }
+        ]
+      },
+      {
+        "title": "For frying",
+        "items": [
+          { "qty": 8, "max": null, "unit": "cup", "name": "cooking oil", "note": "enough to come halfway up the chicken in a wok" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "Worcestershire sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the chicken breast side down in a pot just big enough to hold it. Add the ginger, garlic, onion, salt, peppercorns, bay leaves and water to cover. Bring to a boil and skim off the foam.", "minutes": null },
+      { "text": "Lower the heat, cover and simmer gently until the chicken is just cooked through.", "minutes": 25 },
+      { "text": "Lift the chicken out, tip it so the cavity drains completely, and set it on a rack. Pat dry and leave uncovered to cool and dry; the drier the skin, the crisper it fries.", "minutes": 30 },
+      { "text": "Rub the skin with the salt. Heat the oil in a wide wok to 350°F (175°C). Pat the chicken dry once more, inside and out.", "minutes": null },
+      { "text": "Using two large spoons or sturdy tongs, lower the chicken into the oil breast side down, standing back from the splatter. Fry, ladling hot oil over the top, until the underside is deep golden.", "minutes": 6 },
+      { "text": "Carefully turn the chicken and fry the other side, still ladling oil over it, until it is evenly brown and crackly all over.", "minutes": 6 },
+      { "text": "Lift the chicken out and hold it upright for a moment so the oil runs out of the cavity. Rest on a rack, then chop into serving pieces.", "minutes": 5 },
+      { "text": "Mix the banana ketchup and Worcestershire sauce for the dip and serve with the chicken and rice.", "minutes": null }
+    ],
+    "tips": "A wet chicken spatters badly, so dry it well. For the crispest skin, leave the poached chicken uncovered in the fridge for a few hours or overnight before frying. Keep the poaching broth for soup or rice."
+  },
+  {
+    "slug": "lechon-manok",
+    "title": "Lechon manok",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "lemongrass", "soy sauce", "calamansi", "garlic"],
+    "prep": 80,
+    "cook": 80,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Whole chicken stuffed with lemongrass, garlic and onion, rubbed with soy sauce and calamansi, then roasted until the skin is lacquered brown and the meat smells of lemongrass. This home version works in an oven or a turbo broiler; serve it with rice and lechon sauce.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1.2, "max": 1.5, "unit": "kg", "name": "whole chicken", "note": "giblets removed" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the stuffing",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and tied in a knot" },
+          { "qty": 1, "max": null, "unit": "", "name": "head garlic", "note": "halved crosswise" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "quartered" },
+          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" }
+        ]
+      },
+      {
+        "title": "For roasting and basting",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "melted" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "for the roasting pan" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": null, "max": null, "unit": "to-taste", "name": "lechon sauce", "note": "bottled liver sauce" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the chicken dry. Mix the soy sauce, calamansi juice, sugar, salt and pepper and rub it all over the chicken, inside and out.", "minutes": null },
+      { "text": "Stuff the cavity with the lemongrass, garlic, onion and bay leaves. Tie the legs together with string and tuck the wing tips under. Pour the rest of the marinade over, cover and refrigerate, turning once.", "minutes": 60 },
+      { "text": "Heat the oven to 375°F (190°C). Set the chicken breast side up on a rack over a foil-lined pan and pour the water into the pan so the drippings do not burn. Mix the melted butter and soy sauce for basting.", "minutes": null },
+      { "text": "Roast the chicken without opening the oven.", "minutes": 30 },
+      { "text": "Brush with the butter mixture, turn the pan around and keep roasting, basting every 15 minutes, until the skin is deep brown and the thigh reads 165°F (74°C), with clear juices.", "minutes": 40 },
+      { "text": "Rest the chicken for 10 minutes before carving.", "minutes": 10 },
+      { "text": "Discard the stuffing, chop the chicken into serving pieces and spoon the pan juices over. Serve with rice and lechon sauce.", "minutes": null }
+    ],
+    "tips": "In a turbo broiler, roast at 375°F (190°C) for 60 to 70 minutes, turning the chicken over halfway. For more flavor, marinate overnight. Leftovers make excellent paksiw na lechon manok."
+  },
+  {
+    "slug": "paksiw-na-lechon-manok",
+    "title": "Paksiw na lechon manok",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "vinegar", "soy sauce", "brown sugar", "garlic", "onion"],
+    "prep": 10,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Leftover lechon manok chopped and simmered in vinegar, soy sauce and liver-based lechon sauce until the sauce turns thick, sweet and tangy. It is the best use for the second half of a roast chicken.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "lechon manok", "note": "leftover or store-bought, about 1 kg, chopped into serving pieces" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "lechon sauce", "note": "bottled liver sauce" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot over medium heat and sauté the garlic and onion until soft.", "minutes": 3 },
+      { "text": "Add the chicken, water, soy sauce, bay leaves and peppercorns and bring to a boil.", "minutes": null },
+      { "text": "Pour in the vinegar and let it boil without stirring so its sharpness mellows.", "minutes": 3 },
+      { "text": "Stir in the lechon sauce and sugar. Lower the heat and simmer, partly covered, stirring now and then so the thick sauce does not stick, until the chicken is heated through and the sauce coats it.", "minutes": 20 },
+      { "text": "Taste and adjust with a little more sugar or vinegar. Remove the bay leaves and serve with rice.", "minutes": null }
+    ],
+    "tips": "Add the leftover lemongrass and garlic from the chicken's stuffing to the pot for extra flavor, and take them out before serving. Keeps 4 days in the fridge."
+  },
+  {
+    "slug": "pininyahang-manok",
+    "title": "Pininyahang manok",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "pineapple", "evaporated milk", "carrot", "bell pepper", "fish sauce"],
+    "prep": 15,
+    "cook": 45,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken simmered in pineapple juice with carrots, potatoes and bell pepper, then finished with evaporated milk for a mild, creamy, slightly sweet sauce. It is a favorite with kids and a regular on the weekday table.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken pieces", "note": "bone-in, cut into serving pieces" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "pineapple juice", "note": "from a 565 g can of pineapple chunks" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium potato", "note": "peeled and cubed" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "peeled and cubed" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "pineapple chunks", "note": "drained, from the same can" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into squares" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wide pot over medium-high heat and lightly brown the chicken on both sides, in batches if needed.", "minutes": 8 },
+      { "text": "Push the chicken to the side and sauté the garlic and onion until soft.", "minutes": 2 },
+      { "text": "Add the fish sauce and stir for a minute, then pour in the pineapple juice and water. Bring to a boil, cover and simmer.", "minutes": 20 },
+      { "text": "Add the potato and carrot and simmer, covered, until both are tender.", "minutes": 10 },
+      { "text": "Lower the heat. Stir in the evaporated milk, pineapple chunks and bell pepper and simmer gently, uncovered, until the sauce thickens a little. Do not let it boil hard.", "minutes": 5 },
+      { "text": "Season with pepper and salt to taste and serve with rice.", "minutes": null }
+    ],
+    "tips": "Keep the heat low once the milk goes in; a hard boil can make the sauce split. Some cooks add a few slices of hotdog or a spoonful of butter at the end."
+  },
+  {
+    "slug": "filipino-chicken-curry",
+    "title": "Filipino chicken curry",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "coconut milk", "potato", "carrot", "bell pepper", "fish sauce"],
+    "prep": 15,
+    "cook": 50,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken, potatoes and carrots simmered in a mild yellow curry sauce of coconut milk, curry powder and fish sauce. It is gentle rather than fiery, creamy and fragrant, and made for spooning over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken pieces", "note": "bone-in, cut into serving pieces" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium potatoes", "note": "peeled and cubed" },
+          { "qty": 1, "max": null, "unit": "", "name": "large carrot", "note": "peeled and cubed" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "curry powder", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 400, "max": null, "unit": "ml", "name": "coconut milk", "note": "1 can" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into squares" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into squares" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling haba", "note": "optional" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wide pot over medium-high heat. Fry the potatoes and carrot until the edges are lightly browned so they hold their shape in the sauce. Scoop them out.", "minutes": 5 },
+      { "text": "Brown the chicken in the same pot on both sides.", "minutes": 8 },
+      { "text": "Add the onion, garlic and ginger and cook until the onion is soft.", "minutes": 2 },
+      { "text": "Sprinkle in the curry powder and stir for about 30 seconds, until fragrant.", "minutes": null },
+      { "text": "Add the fish sauce and water, bring to a boil, then cover and simmer.", "minutes": 15 },
+      { "text": "Pour in the coconut milk and return the potatoes and carrot. Simmer uncovered, stirring now and then, until the vegetables are tender and the sauce has thickened slightly.", "minutes": 15 },
+      { "text": "Add the bell peppers and chilies and cook until the peppers are just tender.", "minutes": 3 },
+      { "text": "Season with salt and pepper and serve with rice.", "minutes": null }
+    ],
+    "tips": "For a deeper color and flavor, add another tablespoon of curry powder or a teaspoon of ground turmeric. Evaporated milk can stand in for half of the coconut milk."
+  },
+  {
+    "slug": "chicken-pastel",
+    "title": "Chicken pastel",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "butter", "evaporated milk", "mushrooms", "potato", "carrot"],
+    "prep": 50,
+    "cook": 95,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "A creamy chicken stew of mushrooms, sausages, potatoes, carrots and peas, baked under a flaky butter crust. It is a dish for Sundays and gatherings, rich and savory with a hint of calamansi.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "boneless chicken thighs", "note": "cut into 3 cm pieces" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium potato", "note": "peeled and cut into small cubes" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "peeled and cut into small cubes" },
+          { "qty": 130, "max": null, "unit": "g", "name": "Vienna sausages", "note": "1 small can, drained and halved" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "sliced button mushrooms", "note": "canned, drained" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "green peas", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "mixed with 3 tbsp water" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the crust",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "plus more for rolling" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cold butter", "note": "about 115 g, cubed" },
+          { "qty": 4, "max": 5, "unit": "tbsp", "name": "ice water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten, for brushing" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toss the chicken with the soy sauce, calamansi juice and pepper and set aside while you make the crust.", "minutes": null },
+      { "text": "For the crust, rub the butter into the flour and salt with your fingertips until it looks like coarse crumbs with some pea-size bits left. Sprinkle in the ice water, mixing with a fork, just until the dough holds together when pressed. Flatten into a disc, wrap and chill.", "minutes": 30 },
+      { "text": "Melt the butter in a wide pan over medium-high heat. Lift the chicken out of the marinade, keeping the marinade, and brown it lightly.", "minutes": 6 },
+      { "text": "Add the onion and garlic and cook until soft.", "minutes": 2 },
+      { "text": "Pour in the reserved marinade and the broth. Bring to a boil, cover and simmer.", "minutes": 15 },
+      { "text": "Add the potato and carrot and simmer until just tender.", "minutes": 10 },
+      { "text": "Stir in the sausages, mushrooms, peas and evaporated milk, then the flour mixture. Simmer, stirring, until the sauce is as thick as gravy. Taste for salt.", "minutes": 3 },
+      { "text": "Pour the filling into a 2-liter baking dish and let it cool so it does not melt the crust. Heat the oven to 400°F (200°C).", "minutes": 15 },
+      { "text": "Roll the dough on a floured surface a little larger than the dish. Lay it over the filling, press the edges onto the rim, cut three slits in the top and brush with beaten egg.", "minutes": null },
+      { "text": "Bake until the crust is deep golden and the filling bubbles at the edges.", "minutes": 30 },
+      { "text": "Rest for 10 minutes, then serve with rice.", "minutes": 10 }
+    ],
+    "tips": "Short on time? Skip the crust and serve the filling straight from the pan; that is a fine weeknight pastel. Store-bought pie crust or puff pastry also works."
+  },
+  {
+    "slug": "chicken-hamonado",
+    "title": "Chicken hamonado",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "pineapple", "soy sauce", "brown sugar", "garlic"],
+    "prep": 40,
+    "cook": 45,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken braised in pineapple juice, soy sauce and brown sugar until the sauce reduces to a sticky, sweet glaze. It tastes like a holiday ham glaze on everyday chicken and calls for lots of rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken thighs and drumsticks", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "pineapple juice", "note": "unsweetened, canned" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "pineapple chunks", "note": "canned, drained" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Combine the chicken with the pineapple juice, soy sauce, garlic and pepper. Cover and refrigerate.", "minutes": 30 },
+      { "text": "Lift the chicken out, keeping the marinade, and pat it dry. Heat the oil in a wide pan and brown the chicken skin side down, then turn and brown the other side.", "minutes": 8 },
+      { "text": "Add the onion and cook until soft.", "minutes": 2 },
+      { "text": "Pour in the marinade and water and add the bay leaves. Bring to a boil, cover and simmer until the chicken is tender.", "minutes": 25 },
+      { "text": "Uncover, add the brown sugar and pineapple chunks and simmer, turning the chicken often, until the sauce is thick and syrupy and coats each piece.", "minutes": 10 },
+      { "text": "Remove the bay leaves and serve with rice.", "minutes": null }
+    ],
+    "tips": "Watch the last few minutes closely, because the sugar scorches easily once the sauce thickens. Add a splash of water if it gets too thick before the chicken is glazed."
+  },
+  {
+    "slug": "chicken-asado",
+    "title": "Chicken asado",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "soy sauce", "calamansi", "tomato", "potato", "onion"],
+    "prep": 40,
+    "cook": 50,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken braised in soy sauce, calamansi and tomato sauce with plenty of onions, then topped with fried potatoes. The sauce is savory, a little sweet and tangy, and thick enough to coat the rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken pieces", "note": "bone-in, cut into serving pieces" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium potatoes", "note": "cut into wedges" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "onions", "note": "sliced into rings, divided" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Combine the chicken with the soy sauce, calamansi juice and pepper. Cover and refrigerate.", "minutes": 30 },
+      { "text": "Heat the oil in a wide pan over medium-high heat and fry the potato wedges, turning, until golden and cooked through. Drain and set aside.", "minutes": 10 },
+      { "text": "Pour off all but 2 tablespoons of the oil. Lift the chicken out of the marinade, keeping the marinade, and brown it on both sides.", "minutes": 8 },
+      { "text": "Add the garlic and half the onion rings and cook until soft.", "minutes": 2 },
+      { "text": "Add the marinade, tomato sauce, water, bay leaves and sugar. Bring to a boil, cover and simmer, turning the chicken once, until tender.", "minutes": 25 },
+      { "text": "Uncover, add the remaining onion rings and simmer until the sauce is thick.", "minutes": 5 },
+      { "text": "Serve topped with the fried potatoes, with rice on the side.", "minutes": null }
+    ],
+    "tips": "Some families add a star anise to the braise for a sweeter, more aromatic asado; remove it before serving."
+  },
+  {
+    "slug": "chicken-with-tausi",
+    "title": "Chicken with tausi",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "soy sauce", "garlic", "ginger", "bell pepper"],
+    "prep": 15,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken simmered with fermented black beans, garlic and ginger in a glossy soy and oyster sauce gravy. The tausi adds deep, salty, savory bursts, so all it needs is plenty of rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken thighs and wings", "note": "chopped into small serving pieces" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "tausi", "note": "salted black beans, rinsed and lightly mashed" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wide pan over medium-high heat and brown the chicken lightly. Scoop it out.", "minutes": 6 },
+      { "text": "Sauté the garlic, ginger and onion in the same pan until fragrant, then stir in the tausi for 30 seconds.", "minutes": 2 },
+      { "text": "Return the chicken and add the soy sauce, oyster sauce, sugar and water. Bring to a boil, cover and simmer until the chicken is tender.", "minutes": 20 },
+      { "text": "Add the bell pepper and cook until just tender.", "minutes": 2 },
+      { "text": "Stir the cornstarch mixture and pour it in, stirring until the sauce turns thick and glossy.", "minutes": 1 },
+      { "text": "Taste: tausi is salty, so add a splash of water if needed. Top with green onions and serve with rice.", "minutes": null }
+    ],
+    "tips": "Brands of tausi vary a lot in saltiness, so taste before adding more soy sauce. Cubes of fried tokwa are a common and good addition."
+  },
+  {
+    "slug": "buttered-chicken",
+    "title": "Buttered chicken",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "butter", "garlic", "calamansi"],
+    "prep": 40,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fried chicken tossed in a hot glaze of melted butter, garlic and a little sugar until every piece is glossy, rich and slightly sweet. It is a crowd favorite on birthday tables and an easy weekend ulam.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken wings and drumsticks", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the butter glaze",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "salted butter", "note": "about 55 g" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Season the chicken with the calamansi juice, salt and pepper and let it sit.", "minutes": 30 },
+      { "text": "Mix the cornstarch and flour in a wide bowl and coat the chicken, shaking off the excess.", "minutes": null },
+      { "text": "Heat the oil to 325°F (160°C). Fry half the chicken, turning now and then, until golden and cooked through to the bone.", "minutes": 15 },
+      { "text": "Let the oil come back to temperature and fry the second batch. Drain on a rack.", "minutes": 15 },
+      { "text": "In a wide pan over medium-low heat, melt the butter and cook the garlic until fragrant and pale golden. Stir in the sugar and water until dissolved.", "minutes": 2 },
+      { "text": "Add the hot chicken and toss until the glaze bubbles and clings to every piece. Serve right away with rice.", "minutes": 1 }
+    ],
+    "tips": "Use salted butter, or add a pinch of salt to the glaze. Some cooks splash in a little lemon-lime soda instead of the water for a sweeter glaze."
+  },
+  {
+    "slug": "chicken-lollipop",
+    "title": "Chicken lollipop",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "egg", "flour", "garlic", "calamansi"],
+    "prep": 60,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Chicken drumettes with the meat pushed to one end so they look like lollipops, marinated in soy sauce, calamansi and garlic, then coated and fried until crisp. Kids pick them up by the bone and dip them in ketchup.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "chicken drumettes", "note": "about 20 pieces" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the coating and frying",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "paprika", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": null, "max": null, "unit": "to-taste", "name": "banana ketchup or sweet chili sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "With a small sharp knife, cut all the way around the thin end of each drumette, through the skin and tendons. Push the meat down toward the thick end with the knife and your fingers, turning it inside out over itself into a ball and leaving the bone clean.", "minutes": null },
+      { "text": "Toss the lollipops with the soy sauce, calamansi juice, garlic and pepper. Cover and refrigerate.", "minutes": 30 },
+      { "text": "Beat the eggs in one bowl. Mix the flour, cornstarch, salt and paprika in another.", "minutes": null },
+      { "text": "Heat the oil to 325°F (160°C). Holding each lollipop by the bone, dip the meaty end in egg, then in the flour mixture, pressing so it sticks.", "minutes": null },
+      { "text": "Fry in two batches, about 10 minutes per batch, turning now and then, until golden and cooked through.", "minutes": 20 },
+      { "text": "Drain on a rack and serve hot with banana ketchup or sweet chili sauce.", "minutes": null }
+    ],
+    "tips": "For parties, wrap the clean bone ends in small strips of foil before frying so they stay pale and make tidy handles."
+  },
+  {
+    "slug": "chicken-barbecue",
+    "title": "Chicken barbecue",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "soy sauce", "calamansi", "brown sugar", "garlic"],
+    "prep": 60,
+    "cook": 25,
+    "servings": 12,
+    "yield_label": "skewers",
+    "difficulty": "easy",
+    "intro": "Skewered chicken thigh marinated in soy sauce, banana ketchup, calamansi and garlic, then grilled and basted until sticky, sweet and charred at the edges. Serve with rice and spiced vinegar, the way street-side grills do.",
+    "groups": [
+      {
+        "title": "For the marinade",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "boneless chicken thighs", "note": "cut into 3 cm pieces" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "calamansi juice", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "lemon-lime soda", "note": "or water" },
+          { "qty": 12, "max": null, "unit": "", "name": "bamboo skewers", "note": "soaked in water for 30 minutes" }
+        ]
+      },
+      {
+        "title": "For basting",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": null, "max": null, "unit": "to-taste", "name": "spiced vinegar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the soy sauce, banana ketchup, calamansi juice, sugar, garlic, pepper and soda. Set aside 1/2 cup of this marinade for basting.", "minutes": null },
+      { "text": "Add the chicken to the rest of the marinade, mix well, cover and refrigerate. Soak the skewers in the meantime.", "minutes": 30 },
+      { "text": "Thread 5 or 6 pieces of chicken snugly onto each skewer.", "minutes": null },
+      { "text": "Simmer the reserved marinade with the banana ketchup and oil in a small pan until thick and glossy.", "minutes": 5 },
+      { "text": "Grill over medium coals, turning often and brushing with the basting sauce at each turn, until the chicken is cooked through and charred in spots.", "minutes": 15 },
+      { "text": "Serve hot with rice and spiced vinegar.", "minutes": null }
+    ],
+    "tips": "Overnight marinating makes the flavor go deeper. Keep the coals at medium: the sugar in the marinade burns over high heat before the chicken cooks through. A grill pan on the stove works too."
+  },
+  {
+    "slug": "inihaw-na-manok",
+    "title": "Inihaw na manok",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "soy sauce", "calamansi", "garlic"],
+    "prep": 75,
+    "cook": 40,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken leg quarters marinated in soy sauce, calamansi, garlic and pepper, then grilled slowly over charcoal until smoky with crisp, salty skin. It is simpler and more savory than chicken barbecue and great with atchara and a soy-calamansi dip.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "chicken leg quarters", "note": "about 1.2 kg" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "calamansi juice", "note": "" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": null, "max": null, "unit": "to-taste", "name": "atchara", "note": "pickled green papaya" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cut two slashes to the bone on each leg quarter.", "minutes": null },
+      { "text": "Mix the soy sauce, calamansi juice, garlic, pepper, sugar and oil. Add the chicken, rub the marinade in, cover and refrigerate.", "minutes": 60 },
+      { "text": "Light a charcoal grill and let the coals burn down to medium heat.", "minutes": null },
+      { "text": "Grill the chicken, turning every 5 minutes. Brush with leftover marinade during the first 20 minutes only, then let the chicken finish cooking until the skin is crisp and the thigh reads 165°F (74°C).", "minutes": 35 },
+      { "text": "Rest the chicken for 5 minutes. Mix the soy sauce, calamansi juice and chili for the dip.", "minutes": 5 },
+      { "text": "Serve with rice, atchara and the dip.", "minutes": null }
+    ],
+    "tips": "Marinate overnight if you can. In the oven, roast on a rack at 400°F (200°C) for 35 to 40 minutes and broil for the last 3 minutes to crisp the skin."
+  },
+  {
+    "slug": "chicken-bistek",
+    "title": "Chicken bistek",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "soy sauce", "calamansi", "onion", "garlic"],
+    "prep": 40,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin pieces of chicken marinated in soy sauce and calamansi, pan-seared and smothered in soft onion rings and a savory, tangy pan sauce. It cooks faster than the beef version and is just as good over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "boneless chicken thighs or breast", "note": "sliced 1 cm thick and pounded thin" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "plus more to taste" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "divided" },
+          { "qty": 2, "max": null, "unit": "", "name": "large onions", "note": "sliced into rings" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Combine the chicken with the soy sauce, calamansi juice, garlic and pepper. Cover and refrigerate.", "minutes": 30 },
+      { "text": "Heat 1 tablespoon of the oil in a wide pan over medium-high heat. Fry the onion rings until just soft but still a little crisp, then set aside.", "minutes": 2 },
+      { "text": "Add the remaining oil. Lift the chicken out of the marinade, keeping the marinade, and sear it in batches until browned on both sides.", "minutes": 6 },
+      { "text": "Return all the chicken to the pan with the marinade, water and sugar. Simmer until the chicken is cooked through and the sauce has reduced a little.", "minutes": 8 },
+      { "text": "Lay the onion rings on top and cook for 1 minute to warm them through. Taste and add a squeeze of calamansi if you like it sharper.", "minutes": 1 },
+      { "text": "Serve with rice and plenty of the sauce.", "minutes": null }
+    ],
+    "tips": "Thighs stay juicier than breast. If you use breast, pound it evenly thin and keep the simmer short so it does not dry out."
+  },
+  {
+    "slug": "chicken-teriyaki",
+    "title": "Chicken teriyaki",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "soy sauce", "brown sugar", "garlic", "ginger"],
+    "prep": 10,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pan-fried chicken thighs in a sticky, glossy glaze of soy sauce, brown sugar, garlic and ginger. This is the sweeter Filipino home version, quick enough for a school-night dinner or the next day's baon.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 800, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "skin on if possible" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "grated" },
+          { "qty": 0.5, "max": null, "unit": "thumb", "name": "ginger", "note": "grated" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "mixed with 1 tbsp water" }
+        ]
+      },
+      {
+        "title": "To finish",
+        "items": [
+          { "qty": 1, "max": null, "unit": "tsp", "name": "toasted sesame seeds", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "green onion", "note": "sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Stir the soy sauce, brown sugar, water, garlic and ginger together in a bowl.", "minutes": null },
+      { "text": "Pat the chicken dry and season with pepper. Heat the oil in a skillet over medium heat and cook the thighs skin side down, without moving them, until the skin is golden and crisp.", "minutes": 8 },
+      { "text": "Turn the thighs and cook the other side.", "minutes": 5 },
+      { "text": "Pour off the excess fat and add the sauce. Simmer, turning the chicken, until the sauce has reduced by about half and the chicken is cooked through.", "minutes": 5 },
+      { "text": "Stir the cornstarch mixture into the sauce and cook until glossy, spooning it over the chicken.", "minutes": 1 },
+      { "text": "Slice the chicken, pour the glaze over and sprinkle with sesame seeds and green onion. Serve with rice.", "minutes": null }
+    ],
+    "tips": "Thigh fillets stay juicy. Breast works, but take it off the heat as soon as it is cooked and slice it before glazing."
+  },
+  {
+    "slug": "chicken-galantina",
+    "title": "Chicken galantina",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "ground pork", "egg", "ham", "carrot"],
+    "prep": 30,
+    "cook": 75,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A savory roll of ground chicken and pork studded with ham, sausage and hard-boiled egg, steamed in foil and sliced into pretty rounds. It is served warm or cold, often at holiday tables, with banana ketchup or gravy.",
+    "groups": [
+      {
+        "title": "For the meat mixture",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ground chicken", "note": "" },
+          { "qty": 250, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "bread crumbs", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 3, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "peeled and quartered lengthwise" },
+          { "qty": 4, "max": null, "unit": "", "name": "slices ham", "note": "cut into strips" },
+          { "qty": 2, "max": null, "unit": "", "name": "hotdogs", "note": "quartered lengthwise" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": null, "max": null, "unit": "to-taste", "name": "banana ketchup", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the ground chicken, ground pork, raw eggs, bread crumbs, evaporated milk, carrot, onion, relish, raisins, salt and pepper with your hands until sticky. Fry a teaspoon of the mixture to taste for salt and adjust.", "minutes": null },
+      { "text": "Divide the mixture in half. Spread one half on a 30 cm sheet of foil into a rectangle about 20 by 15 cm.", "minutes": null },
+      { "text": "Lay half the ham, hotdog and egg in lines along one long edge of the rectangle.", "minutes": null },
+      { "text": "Using the foil to lift it, roll the meat tightly around the filling into a log, peeling the foil back as you go. Wrap the log in the foil and twist the ends firmly. Repeat with the rest.", "minutes": null },
+      { "text": "Steam the logs over boiling water, covered, until firm and cooked through, topping up the water halfway if needed.", "minutes": 60 },
+      { "text": "Let the logs rest in their foil before slicing so they hold together.", "minutes": 15 },
+      { "text": "Unwrap, cut into 1.5 cm slices and serve with banana ketchup.", "minutes": null }
+    ],
+    "tips": "Galantina slices most cleanly cold: chill the logs overnight, then serve cold or pan-fry the slices briefly. Well wrapped, the cooked rolls keep in the freezer for a month."
+  },
+  {
+    "slug": "chicken-salpicao",
+    "title": "Chicken salpicao",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "garlic", "butter", "soy sauce"],
+    "prep": 30,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Bite-size chicken seared hard in butter and olive oil with Worcestershire, soy sauce and a whole head of garlic, then showered with toasted garlic. Rich, peppery and quick, it is the chicken version of the beef salpicao on restaurant menus.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "cut into 2 to 3 cm cubes" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "Worcestershire sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "coarsely ground black pepper", "note": "" },
+          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head), divided" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "olive oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "chili flakes", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toss the chicken with the Worcestershire sauce, soy sauce, oyster sauce, pepper and a third of the garlic.", "minutes": 20 },
+      { "text": "Heat the olive oil in a large skillet over medium-low heat and fry the remaining garlic until golden. Scoop it out with a slotted spoon, leaving the oil in the pan.", "minutes": 3 },
+      { "text": "Turn the heat to high and add the butter to the garlic oil. Add the chicken in a single layer, in batches if needed, and sear without stirring until browned underneath, then toss until cooked through.", "minutes": 6 },
+      { "text": "Sprinkle in the chili flakes, toss and taste for salt.", "minutes": null },
+      { "text": "Pile onto a plate, top with the toasted garlic and serve with rice.", "minutes": null }
+    ],
+    "tips": "Do not crowd the pan: packed chicken steams instead of browning. Garlic rice and a fried egg turn this into a full meal."
+  },
+  {
+    "slug": "creamy-mushroom-chicken",
+    "title": "Creamy mushroom chicken",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "mushrooms", "cream", "butter", "garlic", "onion"],
+    "prep": 10,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Golden pan-seared chicken thighs simmered in a garlicky sauce of mushrooms, broth and all-purpose cream. It is mild and comforting, with plenty of sauce for the rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 800, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "skin on or off" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 200, "max": null, "unit": "g", "name": "button mushrooms", "note": "sliced, or 1 can, drained" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+          { "qty": 250, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "chopped, for garnish" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the chicken dry and season with the salt and pepper. Heat the oil in a wide pan over medium-high heat and sear the chicken until golden, about 6 minutes on the first side and 4 on the second. Set aside; it will finish cooking in the sauce.", "minutes": 10 },
+      { "text": "Melt the butter in the same pan and cook the mushrooms until browned and their liquid has evaporated.", "minutes": 5 },
+      { "text": "Add the onion and garlic and cook until soft.", "minutes": 2 },
+      { "text": "Pour in the broth and scrape up the browned bits. Return the chicken, cover and simmer.", "minutes": 12 },
+      { "text": "Stir in the cream and simmer gently, uncovered, until the sauce thickens and the chicken is cooked through.", "minutes": 5 },
+      { "text": "Taste for salt, scatter the green onions over and serve with rice.", "minutes": null }
+    ],
+    "tips": "Fresh mushrooms brown better than canned, but canned are fine; just drain them well. A handful of grated cheese stirred in with the cream makes the sauce richer."
+  },
+  {
+    "slug": "chicken-a-la-king",
+    "title": "Chicken a la king",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "mushrooms", "carrot", "bell pepper", "butter", "milk"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Diced chicken, mushrooms, carrots and peas in a creamy white sauce, spooned over rice or toasted bread. Mild, buttery and a little sweet from the bell pepper, it is a gentle, kid-friendly ulam.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "boneless chicken breast", "note": "cut into 2 cm cubes" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "divided" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "sliced button mushrooms", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "milk", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "all-purpose cream", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "green peas", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "diced" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "steamed rice or toasted bread", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Season the chicken with salt and pepper. Melt 1 tablespoon of the butter in a pan over medium-high heat and cook the chicken until no longer pink outside. Set aside.", "minutes": 5 },
+      { "text": "Melt the remaining butter and sauté the onion, garlic and carrot until the carrot starts to soften.", "minutes": 4 },
+      { "text": "Add the mushrooms and cook until they wilt.", "minutes": 2 },
+      { "text": "Sprinkle in the flour and stir for 1 minute without letting it brown.", "minutes": 1 },
+      { "text": "Gradually stir in the broth, then the milk, and simmer, stirring, until the sauce thickens.", "minutes": 5 },
+      { "text": "Return the chicken and add the peas, bell pepper and cream. Simmer until the chicken is cooked through and the pepper is tender-crisp.", "minutes": 5 },
+      { "text": "Taste for salt and pepper and serve over rice or toasted bread.", "minutes": null }
+    ],
+    "tips": "Leftovers thicken in the fridge; loosen with a splash of milk when reheating. It also makes a good filling for small pastry shells at parties."
+  }
+]

@@ -1,0 +1,1195 @@
+[
+  {
+    "slug": "sinangag",
+    "title": "Sinangag",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["rice", "garlic"],
+    "prep": 5,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Day-old rice fried in garlic oil until every grain is coated and the garlic turns into crisp golden bits. It is the everyday partner for fried eggs, tocino, longganisa and dried fish.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head)" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 0.75, "max": 1, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Break up the cold rice with your hands so there are no clumps, then sprinkle the salt over it.", "minutes": null },
+      { "text": "Put the oil and garlic in a cold wok or wide pan and set it over medium-low heat. Cook, stirring often, until the garlic turns light golden.", "minutes": 3 },
+      { "text": "Scoop out about half of the garlic with a slotted spoon and set it aside on a paper towel for topping. It keeps crisping as it cools.", "minutes": null },
+      { "text": "Raise the heat to medium-high, add the rice and toss continuously until every grain is coated in garlic oil and the rice is hot.", "minutes": 5 },
+      { "text": "Season with pepper, taste and add more salt if needed. Serve topped with the reserved crisp garlic.", "minutes": null }
+    ],
+    "tips": "Freshly cooked rice turns mushy in the pan. If that is all you have, spread it on a tray and chill it uncovered for 30 minutes first."
+  },
+  {
+    "slug": "java-rice",
+    "title": "Java rice",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["rice", "butter", "annatto", "garlic"],
+    "prep": 5,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fried rice tinted orange-yellow with annatto and turmeric and enriched with butter. It is the rice served with chicken inasal and grilled pork: mild, buttery and a little savory.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "annatto (atsuete) powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground turmeric", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "banana ketchup", "note": "optional, for a slightly sweet edge" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Break up the cold rice so there are no clumps. Have everything measured before you start: annatto scorches quickly.", "minutes": null },
+      { "text": "Melt the butter with the oil in a wok over medium heat. Add the garlic and cook until fragrant and pale golden.", "minutes": 2 },
+      { "text": "Stir in the annatto powder and turmeric and cook for a few seconds, just until the fat turns deep orange.", "minutes": null },
+      { "text": "Add the rice and the banana ketchup if using. Raise the heat to medium-high and toss until the rice is evenly colored and hot.", "minutes": 5 },
+      { "text": "Season with the salt and pepper, toss again and serve hot with grilled chicken or pork.", "minutes": null }
+    ],
+    "tips": "No annatto powder? Steep 1 tablespoon of annatto seeds in the warm oil for 5 minutes, strain them out, then continue with the butter and garlic."
+  },
+  {
+    "slug": "bagoong-rice",
+    "title": "Bagoong rice",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["rice", "shrimp paste", "green mango", "pork belly", "egg", "tomato"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Rice fried with sautéed shrimp paste and topped with crisp pork, green mango, tomato and egg strips. Every bite is salty, sour, sweet and rich at once.",
+    "groups": [
+      {
+        "title": "For the rice",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "sautéed shrimp paste (bagoong alamang)", "note": "sweet or spicy" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
+        ]
+      },
+      {
+        "title": "Toppings",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "pork belly", "note": "cut into 1 cm pieces" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten with a pinch of salt" },
+          { "qty": 1, "max": null, "unit": "", "name": "green mango", "note": "peeled and cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "thinly sliced" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the pork belly and water in a wok over medium heat and simmer until the water has evaporated.", "minutes": 10 },
+      { "text": "Keep cooking the pork in its own rendered fat, stirring now and then, until browned and crisp. Lift it out and leave about 1 tablespoon of fat in the wok.", "minutes": 8 },
+      { "text": "In a lightly oiled nonstick pan, cook the beaten eggs into a thin omelet over low heat. Roll it up and slice it into thin strips.", "minutes": null },
+      { "text": "Add the oil to the pork fat in the wok and sauté the garlic and onion over medium heat until soft.", "minutes": 2 },
+      { "text": "Stir in the shrimp paste and sugar and cook until fragrant.", "minutes": 1 },
+      { "text": "Add the rice, raise the heat and toss until every grain is evenly colored and hot. Taste and add a little more bagoong if you like it saltier.", "minutes": 5 },
+      { "text": "Divide the rice among plates and top with the crisp pork, egg strips, green mango, tomato, red onion and green onions.", "minutes": null }
+    ],
+    "tips": "Bagoong brands vary a lot in saltiness. Start with 2 tablespoons, taste the rice, then add more."
+  },
+  {
+    "slug": "aligue-rice",
+    "title": "Aligue rice",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "rice", "garlic", "calamansi"],
+    "prep": 5,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fried rice cooked in rich crab fat until it turns golden orange and tastes deeply of the sea. A squeeze of calamansi at the table cuts through the richness.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "bottled crab fat (aligue or taba ng talangka)", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Break up the cold rice so there are no clumps.", "minutes": null },
+      { "text": "Heat the butter and oil in a wok over medium heat and cook the garlic until pale golden.", "minutes": 2 },
+      { "text": "Add the crab fat and stir until it loosens into the fat and smells fragrant.", "minutes": 1 },
+      { "text": "Add the rice, raise the heat to medium-high and toss until every grain is orange and the rice is hot.", "minutes": 5 },
+      { "text": "Taste before adding any salt, then season with pepper. Top with green onions and serve with calamansi halves for squeezing.", "minutes": null }
+    ],
+    "tips": "Bottled crab fat is already salted, so taste the rice before seasoning. It is very good next to grilled shrimp or fried fish."
+  },
+  {
+    "slug": "bringhe",
+    "title": "Bringhe",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["glutinous rice", "chicken", "coconut milk", "bell pepper", "egg"],
+    "prep": 20,
+    "cook": 55,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Glutinous rice cooked in coconut milk with chicken, turmeric and bell peppers until sticky, golden and fragrant. It is a fiesta rice, often served on banana leaves and topped with sliced egg.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "cut into bite-size pieces" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "fresh turmeric", "note": "grated, or 1 tsp ground turmeric" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" }
+        ]
+      },
+      {
+        "title": "For the rice",
+        "items": [
+          { "qty": 3, "max": null, "unit": "cup", "name": "glutinous rice", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into strips" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "green peas", "note": "frozen is fine" },
+          { "qty": 3, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "quartered" },
+          { "qty": null, "max": null, "unit": "", "name": "banana leaves", "note": "wilted, for serving (optional)" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the glutinous rice until the water runs mostly clear, cover with fresh water and soak. Drain well.", "minutes": 30 },
+      { "text": "Heat the oil in a wide heavy pot over medium heat. Sauté the onion, garlic and turmeric until soft and fragrant.", "minutes": 2 },
+      { "text": "Add the chicken and cook until no longer pink on the outside. Season with the fish sauce.", "minutes": 5 },
+      { "text": "Add the drained rice and stir for a couple of minutes so every grain is coated and yellow.", "minutes": null },
+      { "text": "Pour in the coconut milk and water and bring to a boil, stirring so the rice does not stick.", "minutes": null },
+      { "text": "Turn the heat to very low and cover. Cook, scraping and turning the rice from the bottom with a flat spatula every 5 minutes, until the liquid is absorbed and the rice is nearly tender.", "minutes": 25 },
+      { "text": "Scatter the bell peppers and peas over the rice, cover again and cook until the rice is fully tender and the peppers have softened.", "minutes": 10 },
+      { "text": "Spoon onto a banana leaf-lined platter if you have one and top with the eggs.", "minutes": null }
+    ],
+    "tips": "Glutinous rice in coconut milk scorches easily, so keep the heat low and keep turning it. If the rice is still firm when the liquid is gone, sprinkle in 3 tablespoons of hot water and cover for a few more minutes."
+  },
+  {
+    "slug": "arroz-a-la-valenciana",
+    "title": "Arroz a la valenciana",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["glutinous rice", "chicken", "pork", "bell pepper", "tomato", "egg"],
+    "prep": 20,
+    "cook": 60,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A party rice of glutinous and regular rice cooked with chicken, pork, chorizo, tomato sauce and bell peppers, finished with raisins and sliced eggs. It is sticky, savory and a little sweet.",
+    "groups": [
+      {
+        "title": "For the meat",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "cut into bite-size pieces" },
+          { "qty": 250, "max": null, "unit": "g", "name": "pork shoulder (kasim)", "note": "cut into 2 cm cubes" },
+          { "qty": 2, "max": null, "unit": "", "name": "chorizo de Bilbao", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "annatto (atsuete) powder", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" }
+        ]
+      },
+      {
+        "title": "For the rice",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "glutinous rice", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "jasmine rice", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "chicken broth", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into strips" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "green peas", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse both kinds of rice together until the water runs mostly clear. Drain well.", "minutes": null },
+      { "text": "Heat the oil in a wide heavy pot over medium heat and brown the chorizo. Lift it out and set aside.", "minutes": 2 },
+      { "text": "In the same oil, sauté the onion and garlic until soft.", "minutes": 2 },
+      { "text": "Add the pork and cook until lightly browned.", "minutes": 5 },
+      { "text": "Add the chicken and cook until no longer pink on the outside.", "minutes": 5 },
+      { "text": "Stir in the tomato sauce, annatto and fish sauce and simmer until slightly thickened.", "minutes": 5 },
+      { "text": "Add the rice and stir to coat, then pour in the broth and bring to a boil, stirring from the bottom.", "minutes": null },
+      { "text": "Cover, turn the heat to low and cook until the liquid is absorbed, turning the rice from the bottom every 5 to 10 minutes so it does not scorch.", "minutes": 25 },
+      { "text": "Fold in the chorizo, bell peppers, peas and raisins. Cover and cook until the rice is tender.", "minutes": 10 },
+      { "text": "Take the pot off the heat and let it rest, covered.", "minutes": 5 },
+      { "text": "Spoon onto a platter and arrange the egg slices on top.", "minutes": null }
+    ],
+    "tips": "A heavy pot or a nonstick pan with a tight lid is the safest choice: the glutinous rice makes the bottom catch quickly."
+  },
+  {
+    "slug": "filipino-style-paella",
+    "title": "Filipino-style paella",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["rice", "shrimp", "mussels", "squid", "chicken", "bell pepper"],
+    "prep": 30,
+    "cook": 50,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Rice cooked in one wide pan with chicken, chorizo, shrimp, mussels and squid, colored with annatto and tomato. It is the party paella: generous, saucy and a little softer than the Spanish kind.",
+    "groups": [
+      {
+        "title": "Meat and seafood",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "cut into bite-size pieces" },
+          { "qty": 2, "max": null, "unit": "", "name": "chorizo de Bilbao", "note": "sliced" },
+          { "qty": 300, "max": null, "unit": "g", "name": "large shrimp", "note": "shells on, deveined" },
+          { "qty": 500, "max": null, "unit": "g", "name": "mussels (tahong)", "note": "scrubbed and debearded" },
+          { "qty": 250, "max": null, "unit": "g", "name": "squid", "note": "cleaned and cut into rings" }
+        ]
+      },
+      {
+        "title": "For the rice",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "olive oil or cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "chopped" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "annatto (atsuete) powder", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "paprika", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "medium-grain or jasmine rice", "note": "rinsed and drained" },
+          { "qty": 3.5, "max": null, "unit": "cup", "name": "chicken broth", "note": "hot" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "green peas", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "lemon", "note": "cut into wedges" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Season the chicken with salt and pepper. Heat the oil in a paella pan or a 30 cm skillet over medium heat and brown the chorizo. Lift it out.", "minutes": 2 },
+      { "text": "Brown the chicken in the same oil, then lift it out.", "minutes": 8 },
+      { "text": "Sear the shrimp until just pink on both sides and lift them out. They finish cooking on the rice.", "minutes": 2 },
+      { "text": "Sauté the onion, garlic and tomatoes in the pan until the tomatoes break down.", "minutes": 5 },
+      { "text": "Stir in the tomato sauce, annatto, paprika and fish sauce, then add the rice and stir until coated.", "minutes": null },
+      { "text": "Pour in the hot broth, return the chicken and chorizo, spread the rice evenly and bring to a boil.", "minutes": null },
+      { "text": "Lower the heat, cover with a lid or foil and simmer <strong>without stirring</strong> until the rice is almost tender.", "minutes": 15 },
+      { "text": "Push the mussels and squid into the rice and scatter the bell pepper and peas on top. Cover and cook until the mussels open.", "minutes": 8 },
+      { "text": "Arrange the shrimp on top, cover and cook a few minutes more.", "minutes": 3 },
+      { "text": "Take the pan off the heat and rest it, covered.", "minutes": 5 },
+      { "text": "Discard any mussels that stayed closed. Serve from the pan with lemon wedges.", "minutes": null }
+    ],
+    "tips": "Add the squid late and it stays tender. If the rice is dry before it is cooked, sprinkle in a little hot broth around the edges."
+  },
+  {
+    "slug": "yang-chow-fried-rice",
+    "title": "Yang chow fried rice",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["rice", "shrimp", "ham", "egg", "carrot"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Restaurant-style fried rice with shrimp, Chinese barbecue pork or ham, egg, peas and carrots. The grains stay separate and lightly savory, so it goes with almost any ulam.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 5, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 200, "max": null, "unit": "g", "name": "small shrimp", "note": "peeled and deveined" },
+          { "qty": 150, "max": null, "unit": "g", "name": "Chinese barbecue pork (char siu) or ham", "note": "diced" },
+          { "qty": 3, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "carrots", "note": "finely diced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "green peas", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "divided" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground white pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "green onions", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Break up the cold rice so there are no clumps.", "minutes": null },
+      { "text": "Heat 1 tablespoon of oil in a wok over high heat. Scramble the eggs until just set, then lift them out and chop roughly.", "minutes": 1 },
+      { "text": "Add another tablespoon of oil and stir-fry the shrimp until pink. Lift them out.", "minutes": 2 },
+      { "text": "Add the remaining oil, the garlic, carrots and peas and stir-fry until the carrots are bright.", "minutes": 2 },
+      { "text": "Add the barbecue pork or ham and the rice. Toss over high heat until the rice is hot and lightly toasted in spots.", "minutes": 5 },
+      { "text": "Season with the soy sauce, oyster sauce, salt and white pepper and toss until evenly colored.", "minutes": null },
+      { "text": "Return the eggs and shrimp, add the green onions and sesame oil, toss once more and serve.", "minutes": null }
+    ],
+    "tips": "Use the biggest pan you have and cook in two batches if needed. Crowded rice steams instead of frying."
+  },
+  {
+    "slug": "longganisa-fried-rice",
+    "title": "Longganisa fried rice",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["longganisa", "rice", "garlic", "egg"],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Sweet, garlicky longganisa fried out of its casing and tossed with day-old rice until the rice soaks up the sausage fat. A fried egg on top makes it a full meal.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "sweet longganisa", "note": "about 6 links, casings removed" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "", "name": "eggs", "note": "optional, for frying" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Squeeze the longganisa out of its casings and crumble it into a wok with the water and oil.", "minutes": null },
+      { "text": "Cook over medium heat, breaking up the meat, until the water evaporates and the sausage sizzles in its own fat.", "minutes": 6 },
+      { "text": "Lower the heat to medium-low and keep frying until browned and caramelized at the edges. The sugar in the sausage burns quickly, so stir often.", "minutes": 5 },
+      { "text": "Add the garlic and cook until fragrant.", "minutes": 1 },
+      { "text": "Add the rice, raise the heat to medium-high and toss until hot and evenly mixed with the sausage.", "minutes": 5 },
+      { "text": "Season with the soy sauce, taste and add salt only if needed. Stir in the green onions.", "minutes": null },
+      { "text": "Fry the eggs sunny side up in a separate pan, if using, and serve one on top of each plate of rice.", "minutes": null }
+    ],
+    "tips": "Garlicky de recado longganisa works too: skip the soy sauce and add a splash of vinegar at the end instead."
+  },
+  {
+    "slug": "tinapa-fried-rice",
+    "title": "Tinapa fried rice",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["fish", "rice", "egg", "garlic", "tomato"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Flaked smoked fish fried with garlic, day-old rice and egg until smoky, salty and fragrant. Serve it with sliced tomatoes and a dip of spiced vinegar.",
+    "groups": [
+      {
+        "title": "For the rice",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "smoked fish (tinapa)", "note": "about 2 medium; skin and bones removed, flaked" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "chopped" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "sliced" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "spiced cane vinegar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Flake the fish into small pieces, picking out every bone you find.", "minutes": null },
+      { "text": "Heat the oil in a wok over medium heat. Cook the garlic until golden, then add the onion and cook until soft.", "minutes": 3 },
+      { "text": "Add the fish flakes and fry, stirring now and then, until the edges crisp.", "minutes": 3 },
+      { "text": "Push everything to one side, pour the eggs into the empty space and scramble until just set.", "minutes": 1 },
+      { "text": "Add the rice, raise the heat and toss until hot and evenly mixed.", "minutes": 5 },
+      { "text": "Season with pepper and taste before adding salt, since the fish is already salty. Top with green onions and serve with tomatoes and spiced vinegar.", "minutes": null }
+    ],
+    "tips": "Smoked galunggong has more bones but a stronger smoky taste. Smoked bangus is easier to debone if you are cooking for kids."
+  },
+  {
+    "slug": "corned-beef-fried-rice",
+    "title": "Corned beef fried rice",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["corned beef", "rice", "garlic", "onion"],
+    "prep": 5,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Canned corned beef fried until crisp in places and tossed with garlic rice. It is quick, salty and savory, and turns one can into a meal for four.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "can corned beef", "note": "about 260 g" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wok over medium heat. Cook the garlic until golden, then add the onion and cook until soft.", "minutes": 3 },
+      { "text": "Add the corned beef and break it up. Fry, stirring only now and then, until some bits turn brown and crisp.", "minutes": 5 },
+      { "text": "Add the rice and toss over medium-high heat until hot and the corned beef is evenly spread through it.", "minutes": 5 },
+      { "text": "Season with pepper, add salt only if it needs it, and top with green onions.", "minutes": null }
+    ],
+    "tips": "A diced boiled potato added with the corned beef stretches it further and soaks up the fat."
+  },
+  {
+    "slug": "spam-fried-rice",
+    "title": "Spam fried rice",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["spam", "rice", "egg", "garlic", "carrot"],
+    "prep": 10,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Cubes of luncheon meat fried until crisp and caramelized, then tossed with garlic rice, egg, peas and carrots. It is salty, savory and quick, made almost entirely from the pantry.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "can Spam or luncheon meat", "note": "about 340 g, cut into 1 cm cubes" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "frozen peas and carrots", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooked white rice", "note": "day-old and cold" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wok over medium heat and fry the luncheon meat cubes, turning now and then, until browned and crisp on several sides.", "minutes": 6 },
+      { "text": "Push the meat to one side. Add the garlic to the empty space and cook until fragrant, then stir in the peas and carrots.", "minutes": 2 },
+      { "text": "Pour the eggs into the space and scramble until just set.", "minutes": 1 },
+      { "text": "Add the rice, raise the heat to medium-high and toss until hot and everything is evenly mixed.", "minutes": 5 },
+      { "text": "Season with the soy sauce and pepper. The meat is salty, so taste before adding any salt. Top with green onions and serve.", "minutes": null }
+    ],
+    "tips": "Fry the cubes in a single layer and leave them alone for a minute at a time: that is how they get crisp edges instead of steaming."
+  },
+  {
+    "slug": "kiampong",
+    "title": "Kiampong",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["glutinous rice", "pork", "mushrooms", "soy sauce", "peanuts"],
+    "prep": 30,
+    "cook": 45,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Sticky glutinous rice cooked with pork, Chinese sausage, shiitake and dried shrimp in soy sauce, then topped with roasted peanuts and green onions. It is savory, chewy and a favorite at family gatherings.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 3, "max": null, "unit": "cup", "name": "glutinous rice", "note": "soaked at least 2 hours" },
+          { "qty": 6, "max": null, "unit": "", "name": "dried shiitake mushrooms", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "dried shrimp", "note": "" },
+          { "qty": 250, "max": null, "unit": "g", "name": "pork shoulder or belly", "note": "cut into 1 cm dice" },
+          { "qty": 2, "max": null, "unit": "", "name": "Chinese sausages (lap cheong)", "note": "thinly sliced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 3, "max": null, "unit": "", "name": "shallots", "note": "sliced, or 1 onion" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "five-spice powder", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground white pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "skinned, roughly chopped" },
+          { "qty": 3, "max": null, "unit": "", "name": "green onions", "note": "sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Drain the soaked glutinous rice well in a colander. Soak it ahead (see the note below).", "minutes": null },
+      { "text": "Soak the shiitake in 2 cups of warm water and the dried shrimp in a little water until soft. Squeeze the mushrooms, slice them and keep 1.5 cups of the soaking liquid. Drain the shrimp.", "minutes": 30 },
+      { "text": "Heat the oil in a wok over medium heat and fry the sausage until its fat renders. Lift it out.", "minutes": 2 },
+      { "text": "Brown the pork in the same oil.", "minutes": 6 },
+      { "text": "Add the garlic, shallots, dried shrimp and mushrooms and stir-fry until fragrant.", "minutes": 2 },
+      { "text": "Add the soy sauce, oyster sauce, sugar, five-spice and white pepper, then the drained rice. Stir-fry until every grain is coated and brown.", "minutes": 3 },
+      { "text": "Pour in the 1.5 cups of mushroom liquid and return the sausage. Bring to a simmer, cover, turn the heat to low and cook, turning the rice from the bottom every 5 minutes, until tender and sticky.", "minutes": 30 },
+      { "text": "If the rice is still firm when the liquid is gone, sprinkle in a few tablespoons of hot water and cover for a few minutes more.", "minutes": null },
+      { "text": "Spoon onto a platter and top with the peanuts and green onions.", "minutes": null }
+    ],
+    "tips": "Rinse the rice and soak it in plenty of water for at least 2 hours, or overnight in the fridge, before you start. Leftovers reheat well in a steamer."
+  },
+  {
+    "slug": "pastil",
+    "title": "Pastil",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "rice", "garlic", "onion", "soy sauce"],
+    "prep": 20,
+    "cook": 50,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Steamed rice topped with savory shredded chicken flakes and wrapped in banana leaf, so the rice picks up its scent. The packets travel well and are eaten warm or at room temperature.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 700, "max": null, "unit": "g", "name": "bone-in chicken breast or thighs", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "halved" }
+        ]
+      },
+      {
+        "title": "For the flakes",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "red chilies", "note": "chopped, optional" }
+        ]
+      },
+      {
+        "title": "To wrap",
+        "items": [
+          { "qty": 6, "max": null, "unit": "cup", "name": "steamed white rice", "note": "warm" },
+          { "qty": 6, "max": null, "unit": "", "name": "banana leaf squares", "note": "about 30 cm, wilted" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the chicken, water, salt and halved onion in a pot. Bring to a boil, then lower the heat and simmer until the chicken is tender.", "minutes": 30 },
+      { "text": "Lift out the chicken and let it cool enough to handle. Keep 0.5 cup of the cooking liquid. Shred the meat very finely, discarding the skin and bones.", "minutes": null },
+      { "text": "Heat the oil in a wide pan over medium heat and fry the garlic and chopped onion until golden.", "minutes": 3 },
+      { "text": "Add the chicken, soy sauce, pepper, chilies if using and the reserved liquid. Cook, stirring often, until the liquid is gone and the flakes are dry and lightly browned.", "minutes": 15 },
+      { "text": "Wilt the banana leaves by passing them over a flame or dipping them in hot water, then wipe them dry.", "minutes": null },
+      { "text": "Place 1 cup of rice in the center of each leaf, press it into a rectangle and top with about 3 tablespoons of chicken flakes.", "minutes": null },
+      { "text": "Fold the leaf over the rice into a neat packet and serve, or pack them for later.", "minutes": null }
+    ],
+    "tips": "The chicken flakes keep for a week in the fridge, so you can make a big batch and wrap fresh packets each morning."
+  },
+  {
+    "slug": "machang",
+    "title": "Machang",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["glutinous rice", "pork belly", "mushrooms", "salted egg", "soy sauce"],
+    "prep": 60,
+    "cook": 160,
+    "servings": 10,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Glutinous rice parcels wrapped in bamboo leaves and filled with soy-seasoned pork belly, shiitake, chestnuts and salted egg yolk, then boiled until soft and sticky. Each one is a full savory snack.",
+    "groups": [
+      {
+        "title": "For the rice",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "glutinous rice", "note": "soaked overnight and drained" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "five-spice powder", "note": "" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "pork belly", "note": "cut into 10 pieces" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "five-spice powder", "note": "" },
+          { "qty": 10, "max": null, "unit": "", "name": "dried shiitake mushrooms", "note": "soaked 30 minutes, stems removed" },
+          { "qty": 10, "max": null, "unit": "", "name": "peeled chestnuts", "note": "" },
+          { "qty": 5, "max": null, "unit": "", "name": "salted egg yolks", "note": "from 5 salted eggs, halved" }
+        ]
+      },
+      {
+        "title": "To wrap",
+        "items": [
+          { "qty": 20, "max": null, "unit": "", "name": "dried bamboo leaves", "note": "soaked overnight" },
+          { "qty": null, "max": null, "unit": "", "name": "kitchen string", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toss the pork with the soy sauce, sugar and five-spice and let it marinate.", "minutes": 30 },
+      { "text": "Heat the oil in a wok over medium heat and fry the garlic until fragrant. Add the drained rice, soy sauce, salt and five-spice and stir-fry until the rice is evenly brown and slightly sticky.", "minutes": 5 },
+      { "text": "Sear the pork pieces in a hot pan until lightly browned on the outside. Squeeze the mushrooms dry.", "minutes": 5 },
+      { "text": "Rinse the bamboo leaves and wipe them dry. Overlap two leaves and fold them into a deep cone.", "minutes": null },
+      { "text": "Spoon 2 tablespoons of rice into the cone. Add a piece of pork, a mushroom, a chestnut and half a yolk, then cover with about 3 tablespoons more rice and press gently.", "minutes": null },
+      { "text": "Fold the top of the leaves down over the rice to make a closed pyramid and tie it tightly with string. Repeat with the rest.", "minutes": null },
+      { "text": "Place the parcels in a large pot, cover with boiling water by 5 cm and weigh them down with a plate. Boil gently, topping up with hot water so they stay covered.", "minutes": 150 },
+      { "text": "Lift out the parcels and let them drain and firm up before unwrapping.", "minutes": 10 }
+    ],
+    "tips": "Soak the rice and bamboo leaves the night before. Tie the parcels firmly: loose ones let water in and the rice turns mushy. Cooked machang keeps in the fridge for 5 days and reheats in a steamer."
+  },
+  {
+    "slug": "lumpiang-shanghai",
+    "title": "Lumpiang shanghai",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["ground pork", "carrot", "onion", "egg", "garlic"],
+    "prep": 45,
+    "cook": 25,
+    "servings": 40,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Thin, crisp fried spring rolls packed with seasoned ground pork, carrots and onion, served with sweet chili sauce. They are usually the first thing to disappear from a party table.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "jicama (singkamas) or water chestnuts", "note": "finely minced, optional" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "To wrap and fry",
+        "items": [
+          { "qty": 20, "max": null, "unit": "", "name": "spring roll (lumpia) wrappers", "note": "about 20 cm square, cut in half" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "for sealing" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweet chili sauce", "note": "for dipping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix all the filling ingredients in a bowl with your hands until well combined and slightly sticky.", "minutes": null },
+      { "text": "Fry or microwave a teaspoon of the filling, taste it and adjust the salt and pepper before wrapping.", "minutes": null },
+      { "text": "Separate the wrappers and keep them under a damp towel so they do not dry out.", "minutes": null },
+      { "text": "Lay a wrapper half on the counter with the cut side facing you. Spread a heaping tablespoon of filling in a thin log along the cut edge, leaving 2 cm at each end.", "minutes": null },
+      { "text": "Roll it up tightly, folding in the ends partway through, and seal the last edge with a dab of water. Repeat with the rest.", "minutes": null },
+      { "text": "Heat the oil in a deep pan to 170°C (340°F). Fry the rolls in batches, turning, until deep golden and cooked through.", "minutes": 5 },
+      { "text": "Drain on a rack or paper towels. Cut in half on the diagonal if you like and serve hot with sweet chili sauce.", "minutes": null }
+    ],
+    "tips": "Freeze uncooked rolls in a single layer on a tray, then bag them. Fry straight from frozen, adding a minute or two."
+  },
+  {
+    "slug": "chicken-lumpiang-shanghai",
+    "title": "Chicken lumpiang shanghai",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "carrot", "onion", "egg"],
+    "prep": 40,
+    "cook": 20,
+    "servings": 30,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Lumpiang shanghai made with ground chicken, carrots and green onions, lighter than the pork version but just as crisp. Dip them in sweet chili sauce or banana ketchup.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ground chicken", "note": "thigh meat is juicier" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 3, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "To wrap and fry",
+        "items": [
+          { "qty": 15, "max": null, "unit": "", "name": "spring roll (lumpia) wrappers", "note": "cut in half" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "for sealing" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweet chili sauce or banana ketchup", "note": "for dipping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the filling ingredients in a bowl until evenly combined. Ground chicken is wetter than pork, so the cornstarch helps it hold together.", "minutes": null },
+      { "text": "Cook a teaspoon of filling, taste it and adjust the seasoning.", "minutes": null },
+      { "text": "Keep the wrappers under a damp towel. Spread a heaping tablespoon of filling in a thin log along the cut edge of a wrapper half.", "minutes": null },
+      { "text": "Roll tightly, folding in the ends partway, and seal the edge with water. Repeat with the rest.", "minutes": null },
+      { "text": "Heat the oil to 170°C (340°F) and fry the rolls in batches, turning, until golden and cooked through.", "minutes": 5 },
+      { "text": "Drain on a rack and serve hot with the dipping sauce.", "minutes": null }
+    ],
+    "tips": "Chicken filling cooks through a little faster than pork, so pull the rolls out as soon as they are evenly golden."
+  },
+  {
+    "slug": "tuna-lumpia",
+    "title": "Tuna lumpia",
+    "course": "merienda",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tuna", "carrot", "onion", "egg"],
+    "prep": 30,
+    "cook": 20,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Crisp lumpia filled with canned tuna, carrots and onion, a quick, budget-friendly cousin of lumpiang shanghai. Serve with sweet chili sauce or spiced vinegar.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "cans tuna flakes", "note": "about 180 g each, well drained" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "To wrap and fry",
+        "items": [
+          { "qty": 12, "max": null, "unit": "", "name": "spring roll (lumpia) wrappers", "note": "cut in half" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "for sealing" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweet chili sauce or spiced vinegar", "note": "for dipping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Press the tuna in a sieve to squeeze out as much oil or brine as you can. Wet filling makes soggy lumpia.", "minutes": null },
+      { "text": "Mix the tuna with the carrot, onion, garlic, green onions, egg, flour, salt and pepper.", "minutes": null },
+      { "text": "Spread a heaping tablespoon of filling along the cut edge of a wrapper half, roll tightly, fold in the ends and seal with water. Repeat.", "minutes": null },
+      { "text": "Heat the oil to 175°C (350°F) and fry in batches, turning, until golden and crisp.", "minutes": 4 },
+      { "text": "Drain on a rack and serve hot with the dip.", "minutes": null }
+    ],
+    "tips": "Tuna in oil gives a richer filling, but drain it well. Add a handful of grated cheese to the filling for a kid-friendly version."
+  },
+  {
+    "slug": "lumpiang-sariwa",
+    "title": "Lumpiang sariwa",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pork", "shrimp", "tofu", "sweet potato", "cabbage", "peanuts"],
+    "prep": 45,
+    "cook": 45,
+    "servings": 10,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "A soft egg crepe wrapped around sautéed vegetables, pork, shrimp and tofu, with a lettuce leaf peeking out, then covered in sweet garlicky sauce and crushed peanuts. It is eaten fresh, not fried.",
+    "groups": [
+      {
+        "title": "For the wrappers",
+        "items": [
+          { "qty": 3, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "for brushing the pan" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "firm tofu", "note": "cut into small cubes" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 200, "max": null, "unit": "g", "name": "pork shoulder", "note": "cut into thin strips" },
+          { "qty": 200, "max": null, "unit": "g", "name": "small shrimp", "note": "peeled and chopped" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "sweet potato", "note": "cut into matchsticks" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "cut into matchsticks" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "green beans", "note": "thinly sliced on the diagonal" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "jicama (singkamas)", "note": "cut into matchsticks" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 10, "max": null, "unit": "", "name": "lettuce leaves", "note": "washed and dried" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 3 tbsp water" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "crushed" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "finely minced, for topping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "For the wrappers, whisk the eggs, cornstarch, flour, water and salt until smooth. Let the batter rest.", "minutes": 10 },
+      { "text": "Heat a 20 cm nonstick pan over low heat and brush it lightly with oil. Pour in about 3 tablespoons of batter and swirl to coat thinly. Cook just until set and the edges lift, without browning, then slide it out. Repeat, stacking the wrappers.", "minutes": null },
+      { "text": "For the filling, fry the tofu in the oil in a wok over medium heat until golden. Lift it out.", "minutes": 8 },
+      { "text": "Sauté the garlic and onion in the same oil, then add the pork and cook until browned.", "minutes": 5 },
+      { "text": "Add the shrimp and cook until pink.", "minutes": 2 },
+      { "text": "Add the sweet potato and carrot, cover and cook until just tender.", "minutes": 5 },
+      { "text": "Add the green beans, jicama, cabbage and tofu with the fish sauce, soy sauce and pepper. Toss until the vegetables are crisp-tender, then tip into a colander to drain and cool.", "minutes": 4 },
+      { "text": "For the sauce, simmer the water, brown sugar, soy sauce and garlic in a small pan. Stir in the cornstarch mixture and cook, stirring, until thick and glossy.", "minutes": 3 },
+      { "text": "To assemble, lay a wrapper flat and place a lettuce leaf on it with the frilly edge past the top. Spoon about 0.5 cup of filling onto the lettuce.", "minutes": null },
+      { "text": "Fold the bottom of the wrapper up over the filling, then fold in the sides so the lettuce peeks out at the top.", "minutes": null },
+      { "text": "Serve with the sauce spooned over and plenty of crushed peanuts and raw garlic on top.", "minutes": null }
+    ],
+    "tips": "Drain the filling well and let it cool before wrapping, or the thin crepe will tear. The wrappers can be made a day ahead, stacked with plastic wrap between them."
+  },
+  {
+    "slug": "lumpiang-ubod",
+    "title": "Lumpiang ubod",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pork belly", "shrimp", "garlic", "peanuts"],
+    "prep": 30,
+    "cook": 30,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Fresh lumpia filled with tender, slightly sweet julienned heart of palm, pork and shrimp, wrapped with lettuce in a soft wrapper. A thin, garlicky sweet sauce goes on the side.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "fresh ubod (coconut heart of palm)", "note": "cut into thin matchsticks, or canned heart of palm, drained" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 200, "max": null, "unit": "g", "name": "pork belly", "note": "cut into thin strips" },
+          { "qty": 200, "max": null, "unit": "g", "name": "small shrimp", "note": "peeled and chopped" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "To wrap",
+        "items": [
+          { "qty": 12, "max": null, "unit": "", "name": "fresh lumpia wrappers", "note": "the soft, thin kind" },
+          { "qty": 12, "max": null, "unit": "", "name": "lettuce leaves", "note": "" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "crushed, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "If using fresh ubod, keep the cut pieces in a bowl of water as you go so they do not brown. Drain well before cooking.", "minutes": null },
+      { "text": "Heat the oil in a wok over medium heat. Sauté the garlic and onion, then add the pork and cook until the fat renders and the pork browns.", "minutes": 6 },
+      { "text": "Add the shrimp and cook until pink.", "minutes": 2 },
+      { "text": "Add the ubod, water, fish sauce, sugar and pepper. Cover and cook until the ubod is tender but still has a little crunch.", "minutes": 10 },
+      { "text": "Uncover and cook until the liquid is gone, then tip into a colander to drain and cool.", "minutes": 3 },
+      { "text": "For the sauce, simmer the water, sugar, soy sauce and garlic, stir in the cornstarch mixture and cook until thickened. Let it cool slightly.", "minutes": 3 },
+      { "text": "Lay a wrapper flat, top with a lettuce leaf and about 0.333 cup of filling. Fold up the bottom, then roll in the sides, leaving the top open with the lettuce showing.", "minutes": null },
+      { "text": "Serve with the garlic sauce for drizzling and peanuts if you like.", "minutes": null }
+    ],
+    "tips": "Canned heart of palm is softer than fresh ubod, so add it at the end and cook only until heated through."
+  },
+  {
+    "slug": "lumpiang-togue",
+    "title": "Lumpiang togue",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["bean sprouts", "tofu", "carrot", "string beans", "garlic"],
+    "prep": 30,
+    "cook": 30,
+    "servings": 20,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Fried lumpia filled with crunchy mung bean sprouts, tofu, carrots and green beans, served with garlicky vinegar for dipping. They are crisp outside and juicy inside.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "firm tofu", "note": "cut into small cubes" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "cut into matchsticks" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "green beans", "note": "thinly sliced on the diagonal" },
+          { "qty": 500, "max": null, "unit": "g", "name": "mung bean sprouts (togue)", "note": "tails trimmed if you have time" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "To wrap and fry",
+        "items": [
+          { "qty": 20, "max": null, "unit": "", "name": "spring roll (lumpia) wrappers", "note": "about 20 cm square" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "mixed with 2 tbsp water, for sealing" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "red chili", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Fry the tofu in the oil in a wok over medium heat until golden on all sides. Lift it out.", "minutes": 8 },
+      { "text": "Sauté the onion and garlic in the same oil until soft.", "minutes": 2 },
+      { "text": "Add the carrot and green beans and stir-fry until bright.", "minutes": 3 },
+      { "text": "Add the bean sprouts, tofu, soy sauce, salt and pepper and toss over high heat just until the sprouts wilt.", "minutes": 2 },
+      { "text": "Tip the filling into a colander set over a bowl and let it drain and cool completely.", "minutes": 15 },
+      { "text": "Stir the vinegar, garlic, salt and chili together for the dip.", "minutes": null },
+      { "text": "Place a wrapper with one corner facing you. Spoon about 3 tablespoons of filling near that corner, fold the corner over, fold in the sides and roll tightly. Seal the tip with the flour paste.", "minutes": null },
+      { "text": "Heat the frying oil to 175°C (350°F) and fry the lumpia in batches, turning, until golden and crisp.", "minutes": 4 },
+      { "text": "Drain on a rack and serve hot with the garlic vinegar.", "minutes": null }
+    ],
+    "tips": "Draining the filling is the step that matters: bean sprouts release a lot of water, and wet filling turns the wrappers soggy and makes the oil spatter."
+  },
+  {
+    "slug": "lumpiang-gulay",
+    "title": "Lumpiang gulay",
+    "course": "merienda",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squash", "sweet potato", "string beans", "carrot", "shrimp"],
+    "prep": 30,
+    "cook": 30,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Fried vegetable lumpia filled with squash, sweet potato, green beans and a little shrimp, all cut into thin strips so they cook evenly. The filling is soft and lightly sweet inside a crackly wrapper.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 200, "max": null, "unit": "g", "name": "small shrimp", "note": "peeled and chopped" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "squash (kalabasa)", "note": "cut into matchsticks (about 300 g)" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "sweet potato", "note": "cut into matchsticks" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "cut into matchsticks" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "string beans (sitaw)", "note": "thinly sliced on the diagonal" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "To wrap and fry",
+        "items": [
+          { "qty": 24, "max": null, "unit": "", "name": "spring roll (lumpia) wrappers", "note": "about 20 cm square" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "mixed with 2 tbsp water, for sealing" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "red chili", "note": "chopped" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wok over medium heat and sauté the onion and garlic until soft.", "minutes": 2 },
+      { "text": "Add the shrimp and cook until pink.", "minutes": 2 },
+      { "text": "Add the squash, sweet potato and carrot, season with the fish sauce and pepper, and stir-fry until just tender but not mushy.", "minutes": 5 },
+      { "text": "Add the string beans and cook a minute more. Spread the filling on a tray and let it cool completely.", "minutes": 15 },
+      { "text": "Mix the vinegar, garlic, chili and salt for the dip.", "minutes": null },
+      { "text": "Place about 3 tablespoons of filling near one corner of a wrapper, fold the corner over, fold in the sides and roll up tightly. Seal with the flour paste.", "minutes": null },
+      { "text": "Heat the frying oil to 175°C (350°F) and fry the lumpia in batches until golden.", "minutes": 4 },
+      { "text": "Drain on a rack and serve hot with the spiced vinegar.", "minutes": null }
+    ],
+    "tips": "Cut all the vegetables about the same thickness so they cook at the same rate and the rolls stay neat."
+  },
+  {
+    "slug": "lumpiang-hubad",
+    "title": "Lumpiang hubad",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["pork belly", "shrimp", "tofu", "cabbage", "sweet potato", "string beans"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "All the filling of fresh lumpia without the wrapper: pork, shrimp, tofu and vegetables sautéed together and topped with sweet garlicky sauce and peanuts. It is an easy everyday ulam with rice.",
+    "groups": [
+      {
+        "title": "For the vegetables",
+        "items": [
+          { "qty": 200, "max": null, "unit": "g", "name": "firm tofu", "note": "cubed" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 200, "max": null, "unit": "g", "name": "pork belly", "note": "cut into thin strips" },
+          { "qty": 150, "max": null, "unit": "g", "name": "small shrimp", "note": "peeled" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium sweet potato", "note": "cut into 1 cm cubes" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "cut into matchsticks" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "string beans", "note": "cut into 3 cm pieces" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cabbage", "note": "shredded" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "mung bean sprouts", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "crushed" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Fry the tofu in the oil in a wok over medium heat until golden. Lift it out.", "minutes": 6 },
+      { "text": "Sauté the onion and garlic, then add the pork and cook until browned.", "minutes": 5 },
+      { "text": "Add the shrimp and cook until pink.", "minutes": 2 },
+      { "text": "Add the sweet potato, carrot and water. Cover and simmer until the sweet potato is just tender.", "minutes": 6 },
+      { "text": "Add the string beans, cabbage, bean sprouts and tofu with the fish sauce and soy sauce. Toss until the cabbage wilts but still has some crunch.", "minutes": 3 },
+      { "text": "For the sauce, simmer the water, sugar, soy sauce and garlic, then stir in the cornstarch mixture and cook until glossy.", "minutes": 3 },
+      { "text": "Spoon the vegetables onto a platter, pour the sauce over and scatter the peanuts on top. Serve with rice.", "minutes": null }
+    ],
+    "tips": "Leftover lumpiang sariwa filling makes this in minutes. Just warm it through and make a fresh batch of sauce."
+  },
+  {
+    "slug": "shrimp-lumpia",
+    "title": "Shrimp lumpia",
+    "course": "merienda",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "calamansi"],
+    "prep": 30,
+    "cook": 15,
+    "servings": 20,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Whole shrimp seasoned with garlic and calamansi, rolled in lumpia wrappers with the tails poking out and fried until crisp. Serve with sweet chili sauce or spiced vinegar.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 20, "max": null, "unit": "", "name": "large shrimp", "note": "about 500 g; peeled with tails on, deveined" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "grated" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 10, "max": null, "unit": "", "name": "spring roll (lumpia) wrappers", "note": "cut in half" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "mixed with 2 tbsp water, for sealing" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweet chili sauce or spiced vinegar", "note": "for dipping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Make 3 or 4 shallow cuts across the underside of each shrimp and press it flat so it stays straight when fried.", "minutes": null },
+      { "text": "Toss the shrimp with the calamansi juice, garlic, salt and pepper and let them sit.", "minutes": 15 },
+      { "text": "Pat the shrimp dry. Lay a shrimp on a wrapper half near the cut edge with the tail sticking out past the side.", "minutes": null },
+      { "text": "Fold the edge over the shrimp, fold in the far side and roll up tightly, leaving the tail exposed. Seal with the flour paste. Repeat.", "minutes": null },
+      { "text": "Heat the oil to 175°C (350°F) and fry in batches until the wrappers are golden and crisp.", "minutes": 3 },
+      { "text": "Drain on a rack and serve hot with the dipping sauce.", "minutes": null }
+    ],
+    "tips": "Do not marinate the shrimp longer than 30 minutes: the calamansi starts to cook them and the texture turns mealy."
+  },
+  {
+    "slug": "hotdog-and-marshmallow-skewers",
+    "title": "Hotdog and marshmallow skewers",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["hotdog", "cheese"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 24,
+    "yield_label": "skewers",
+    "difficulty": "easy",
+    "intro": "Bite-size pieces of fried red hotdog threaded onto sticks with marshmallows and cheese cubes. They are a children's party staple, salty and sweet, often stuck into a cabbage to make a centerpiece.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 12, "max": null, "unit": "", "name": "red hotdogs", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 24, "max": null, "unit": "", "name": "large marshmallows", "note": "" },
+          { "qty": 150, "max": null, "unit": "g", "name": "cheddar cheese", "note": "cut into 24 cubes, optional" },
+          { "qty": 24, "max": null, "unit": "", "name": "bamboo skewers or long toothpicks", "note": "about 15 cm" },
+          { "qty": 1, "max": null, "unit": "", "name": "head of cabbage", "note": "optional, for displaying" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cut each hotdog into 4 pieces. For the classic look, cut a shallow cross into both ends of each piece so they open up when fried.", "minutes": null },
+      { "text": "Heat the oil in a pan over medium heat and fry the hotdog pieces, stirring, until plump and lightly browned.", "minutes": 5 },
+      { "text": "Drain on paper towels and let them cool until you can handle them, so they do not melt the marshmallows.", "minutes": 5 },
+      { "text": "Thread a piece of hotdog, a marshmallow, a second piece of hotdog and a cheese cube onto each skewer.", "minutes": null },
+      { "text": "Stick the skewers into the cabbage or arrange them on a platter and serve.", "minutes": null }
+    ],
+    "tips": "Make them no more than an hour before the party and keep them covered, or the marshmallows dry out and harden."
+  }
+]

@@ -1,0 +1,3279 @@
+[
+  {
+    "slug": "sweet-and-sour-pork",
+    "title": "Sweet and sour pork",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "pineapple",
+      "bell pepper",
+      "carrot",
+      "vinegar",
+      "onion"
+    ],
+    "prep": 25,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crisp fried pork tossed with pineapple, bell peppers and carrots in a glossy, tangy-sweet ketchup sauce. A Chinese-Filipino favorite at family dinners and handaan.",
+    "groups": [
+      {
+        "title": "For the pork",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork shoulder (kasim)",
+            "note": "cut into 1-inch cubes"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "egg",
+            "note": "beaten"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep-frying"
+          }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "cut into squares"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small carrot",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "green bell pepper",
+            "note": "cut into squares"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "red bell pepper",
+            "note": "cut into squares"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "canned pineapple chunks",
+            "note": "drained, juice kept"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "pineapple juice",
+            "note": "from the can"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "tomato ketchup",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "white vinegar",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": "mixed with 3 tbsp water"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Season the pork with the soy sauce and salt and let it sit while you cut the vegetables.",
+        "minutes": 15
+      },
+      {
+        "text": "Mix the egg into the pork, then toss with the cornstarch until every piece is coated.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil to 350°F (175°C) and fry the pork in batches until light golden and cooked through. Drain on a rack.",
+        "minutes": 6
+      },
+      {
+        "text": "Raise the oil to 375°F (190°C) and fry all the pork again briefly until crisp and deep golden. Drain.",
+        "minutes": 2
+      },
+      {
+        "text": "In a wok with 1 tbsp oil, stir-fry the onion and carrot over high heat, then add the bell peppers and toss until bright.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the pineapple juice, ketchup, vinegar and sugar and bring to a boil. Stir in the cornstarch mixture and simmer until thick and glossy.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the pineapple chunks and fried pork, toss to coat, and serve right away with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Toss the pork in the sauce only when you are about to eat, or the coating goes soft. The sauce can be made ahead and reheated."
+  },
+  {
+    "slug": "sweet-and-sour-meatballs",
+    "title": "Sweet and sour meatballs",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "egg",
+      "pineapple",
+      "carrot",
+      "bell pepper",
+      "onion"
+    ],
+    "prep": 25,
+    "cook": 25,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fried pork meatballs, or bola-bola, simmered briefly in a sweet and sour sauce with pineapple and bell peppers. Soft inside, a little crisp outside, and a reliable party and baon dish.",
+    "groups": [
+      {
+        "title": "For the meatballs",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "ground pork",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small onion",
+            "note": "finely minced"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "",
+            "name": "small carrot",
+            "note": "finely grated"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "egg",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "breadcrumbs",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying"
+          }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "cut into squares"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "red bell pepper",
+            "note": "cut into squares"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "canned pineapple chunks",
+            "note": "drained, juice kept"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "pineapple juice",
+            "note": "from the can"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "banana ketchup",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "white vinegar",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": "mixed with 3 tbsp water"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix all the meatball ingredients except the oil with your hands until just combined. Shape into about 24 balls the size of a walnut.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a frying pan over medium heat and fry the meatballs in batches, rolling them around, until browned and cooked through. Drain on paper towels.",
+        "minutes": 10
+      },
+      {
+        "text": "Pour off all but 1 tbsp oil. Stir-fry the onion and bell pepper until just tender.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the pineapple juice, ketchup, vinegar, sugar and water. Bring to a boil and let it bubble without stirring for a minute.",
+        "minutes": 2
+      },
+      {
+        "text": "Stir in the cornstarch mixture and simmer until the sauce thickens.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the meatballs and pineapple chunks and simmer, turning the meatballs in the sauce, until heated through. Serve with rice.",
+        "minutes": 3
+      }
+    ],
+    "tips": "Wet your hands while shaping so the mixture does not stick. Fry one meatball first and taste it to check the seasoning."
+  },
+  {
+    "slug": "tokwat-baboy",
+    "title": "Tokwa't baboy",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "tofu",
+      "vinegar",
+      "soy sauce",
+      "onion",
+      "chili"
+    ],
+    "prep": 15,
+    "cook": 60,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Boiled pork and crisp fried tofu dressed in a sharp soy and vinegar sauce with onions and chilies. Eaten as ulam with rice, as a side to lugaw, or as pulutan.",
+    "groups": [
+      {
+        "title": "For the pork and tofu",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork belly",
+            "note": "or half belly and half pork ears"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "whole black peppercorns",
+            "note": ""
+          },
+          {
+            "qty": 400,
+            "max": null,
+            "unit": "g",
+            "name": "firm tofu",
+            "note": "patted dry"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying"
+          }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "pork broth",
+            "note": "from boiling the pork"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "red onion",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "bird's eye chilies",
+            "note": "chopped"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "scallions",
+            "note": "chopped"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the pork in a pot with the salt, bay leaves and peppercorns, cover with water and bring to a boil. Skim, then simmer until tender.",
+        "minutes": 45
+      },
+      {
+        "text": "Drain the pork, keeping 1/4 cup of the broth, and let it cool slightly. Cut into bite-size pieces.",
+        "minutes": null
+      },
+      {
+        "text": "Cut the tofu into 1-inch cubes. Heat the oil in a frying pan and fry the tofu, turning, until golden and crisp on all sides. Drain.",
+        "minutes": 8
+      },
+      {
+        "text": "Stir together the vinegar, soy sauce, broth and sugar until the sugar dissolves. Add the onion and chilies.",
+        "minutes": null
+      },
+      {
+        "text": "Toss the pork and tofu with the sauce, or serve the sauce on the side for dipping, and top with the scallions.",
+        "minutes": null
+      }
+    ],
+    "tips": "If using pork ears, boil them with the belly but give them an extra 20 minutes until soft. Fry the tofu just before serving so it stays crisp."
+  },
+  {
+    "slug": "pork-with-tausi",
+    "title": "Pork with tausi",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "garlic",
+      "ginger",
+      "tomato",
+      "onion",
+      "soy sauce"
+    ],
+    "prep": 10,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thinly sliced pork sautéed with garlic, ginger and tomatoes, then simmered with salted black beans until savory and saucy. A quick weeknight ulam with deep, salty flavor.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork shoulder or pork belly",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "thumb",
+            "name": "ginger",
+            "note": "cut into thin strips"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tomatoes",
+            "note": "chopped"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salted black beans (tausi)",
+            "note": "rinsed and lightly mashed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "scallions",
+            "note": "cut into 2-inch lengths"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a wok or wide pan over medium-high heat and cook the pork until it loses its pink color and starts to brown.",
+        "minutes": 6
+      },
+      {
+        "text": "Add the garlic, ginger and onion and sauté until fragrant.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the tomatoes and cook until they soften and release their juice.",
+        "minutes": 3
+      },
+      {
+        "text": "Stir in the black beans, soy sauce, sugar and water. Bring to a boil, then cover and simmer until the pork is tender.",
+        "minutes": 20
+      },
+      {
+        "text": "Uncover and simmer until the sauce thickens slightly. Stir in the scallions and serve with rice.",
+        "minutes": 3
+      }
+    ],
+    "tips": "Tausi is very salty: rinse it, and taste the sauce before adding any extra soy sauce."
+  },
+  {
+    "slug": "steamed-spareribs-with-tausi",
+    "title": "Steamed spareribs with tausi",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "chili"
+    ],
+    "prep": 30,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Bite-size pork spareribs marinated with salted black beans, garlic and ginger, then steamed until tender in their own savory juices. A Chinese-Filipino dish that is great spooned over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 600,
+            "max": null,
+            "unit": "g",
+            "name": "pork spareribs",
+            "note": "chopped into 1-inch pieces by the butcher"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salted black beans (tausi)",
+            "note": "rinsed and chopped"
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "thumb",
+            "name": "ginger",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "oyster sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sesame oil",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "red chili",
+            "note": "sliced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "scallion",
+            "note": "chopped"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the ribs under cold water and drain well. Pat dry.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the ribs with the black beans, garlic, ginger, soy sauce, oyster sauce, sugar and cornstarch. Stir in the sesame oil and let marinate.",
+        "minutes": 20
+      },
+      {
+        "text": "Spread the ribs in a single layer in a heatproof dish that fits in your steamer and scatter the chili on top.",
+        "minutes": null
+      },
+      {
+        "text": "Steam over boiling water, covered, until the ribs are tender and no longer pink at the bone. Top up the water if it runs low.",
+        "minutes": 35
+      },
+      {
+        "text": "Sprinkle with the scallion and serve in the dish with all its juices and steamed rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "A single layer steams evenly; if your dish is small, use two and swap their positions halfway."
+  },
+  {
+    "slug": "pork-and-tofu-in-oyster-sauce",
+    "title": "Pork and tofu in oyster sauce",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "tofu",
+      "garlic",
+      "onion",
+      "soy sauce"
+    ],
+    "prep": 15,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Sliced pork belly and fried tofu braised in a glossy oyster sauce gravy with garlic and scallions. Savory and slightly sweet, a budget-friendly ulam that feeds a family.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 400,
+            "max": null,
+            "unit": "g",
+            "name": "pork belly",
+            "note": "sliced 1/4 inch thick"
+          },
+          {
+            "qty": 300,
+            "max": null,
+            "unit": "g",
+            "name": "firm tofu",
+            "note": "cut into 1-inch cubes and patted dry"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying the tofu"
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "oyster sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "cornstarch",
+            "note": "mixed with 2 tbsp water"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "scallions",
+            "note": "cut into 2-inch lengths"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a wok and fry the tofu, turning, until golden on all sides. Drain on paper towels and pour off all but 1 tbsp oil.",
+        "minutes": 8
+      },
+      {
+        "text": "Cook the pork in the same wok over medium-high heat until browned and some of the fat has rendered.",
+        "minutes": 6
+      },
+      {
+        "text": "Add the garlic and onion and sauté until soft.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the oyster sauce, soy sauce, sugar and water. Bring to a boil, then cover and simmer until the pork is tender.",
+        "minutes": 15
+      },
+      {
+        "text": "Add the tofu and simmer briefly so it soaks up the sauce. Stir in the cornstarch mixture and cook until glossy.",
+        "minutes": 3
+      },
+      {
+        "text": "Toss in the scallions and serve with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Press the tofu between paper towels under a plate for 10 minutes before frying so it crisps instead of steaming."
+  },
+  {
+    "slug": "pork-with-broccoli",
+    "title": "Pork with broccoli",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "garlic",
+      "ginger",
+      "carrot",
+      "soy sauce"
+    ],
+    "prep": 20,
+    "cook": 12,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Tender slices of pork stir-fried with crisp broccoli and carrots in a light oyster sauce gravy. A quick Chinese-Filipino stir-fry that is on the table in about half an hour.",
+    "groups": [
+      {
+        "title": "For the pork",
+        "items": [
+          {
+            "qty": 400,
+            "max": null,
+            "unit": "g",
+            "name": "pork tenderloin or shoulder",
+            "note": "sliced thin against the grain"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "cornstarch",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the stir-fry",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "large head broccoli",
+            "note": "cut into florets, about 400 g"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small carrot",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "thumb",
+            "name": "ginger",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "oyster sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "cornstarch",
+            "note": "mixed with 1 tbsp water"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sesame oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the pork with the soy sauce and cornstarch and let it sit while you prepare the vegetables.",
+        "minutes": 15
+      },
+      {
+        "text": "Blanch the broccoli and carrot in boiling salted water until bright, then drain.",
+        "minutes": 1
+      },
+      {
+        "text": "Heat the oil in a wok over high heat. Stir-fry the pork in a single layer until browned and just cooked. Move it to a plate.",
+        "minutes": 4
+      },
+      {
+        "text": "Stir-fry the garlic and ginger in the same wok until fragrant, then add the oyster sauce and water and bring to a boil.",
+        "minutes": 1
+      },
+      {
+        "text": "Return the pork with the broccoli and carrot, stir in the cornstarch mixture and toss until the sauce thickens and coats everything.",
+        "minutes": 2
+      },
+      {
+        "text": "Drizzle with the sesame oil and serve right away with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Partly freezing the pork for 20 minutes makes thin slicing easy. Do not crowd the wok, or the pork stews instead of searing."
+  },
+  {
+    "slug": "pork-and-string-beans",
+    "title": "Pork and string beans",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "string beans",
+      "garlic",
+      "onion",
+      "soy sauce"
+    ],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pork belly browned in its own fat, then cooked with string beans in a simple soy and oyster sauce gravy. Meaty, savory and quick, with beans that stay tender-crisp.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork belly",
+            "note": "cut into thin strips"
+          },
+          {
+            "qty": 250,
+            "max": null,
+            "unit": "g",
+            "name": "string beans (sitaw)",
+            "note": "cut into 2-inch lengths"
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "tomato",
+            "note": "chopped"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "oyster sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the pork in a dry wok or wide pan over medium heat and cook, stirring now and then, until the fat renders and the pork is golden. Spoon off all but 2 tbsp of the fat.",
+        "minutes": 12
+      },
+      {
+        "text": "Add the garlic and onion and sauté until soft, then add the tomato and cook until it breaks down.",
+        "minutes": 4
+      },
+      {
+        "text": "Stir in the soy sauce, oyster sauce, pepper and water and bring to a boil.",
+        "minutes": null
+      },
+      {
+        "text": "Add the string beans, cover and simmer until tender but still bright green.",
+        "minutes": 6
+      },
+      {
+        "text": "Uncover, toss so the sauce coats the beans, taste for salt and serve with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "For a crisper finish, keep the pork in the pan a few minutes longer before adding the garlic."
+  },
+  {
+    "slug": "baked-pork-ribs",
+    "title": "Baked pork ribs",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "soy sauce",
+      "brown sugar",
+      "garlic",
+      "calamansi"
+    ],
+    "prep": 15,
+    "cook": 145,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pork ribs baked low and slow in foil until tender, then glazed with a Pinoy-style barbecue sauce of banana ketchup, soy sauce and brown sugar. Sweet, sticky and easy to make for a crowd.",
+    "groups": [
+      {
+        "title": "For the ribs",
+        "items": [
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "kg",
+            "name": "pork baby back ribs",
+            "note": "2 racks"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "garlic powder",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "brown sugar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the glaze",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "banana ketchup",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": "or lemon juice"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "grated"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 300°F (150°C). Pull the thin membrane off the bone side of each rack if it is there.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the salt, pepper, garlic powder and brown sugar and rub it all over the ribs. Wrap each rack tightly in foil and set on a baking tray.",
+        "minutes": null
+      },
+      {
+        "text": "Bake until the meat is tender and starting to pull back from the bones.",
+        "minutes": 120
+      },
+      {
+        "text": "Meanwhile, simmer the glaze ingredients in a small pan, stirring, until slightly thickened. Set aside.",
+        "minutes": 5
+      },
+      {
+        "text": "Raise the oven to 425°F (220°C). Unwrap the ribs, pour off the juices and brush the ribs thickly with glaze.",
+        "minutes": null
+      },
+      {
+        "text": "Bake uncovered, brushing with more glaze halfway, until sticky and browned at the edges.",
+        "minutes": 20
+      },
+      {
+        "text": "Rest the ribs, then cut between the bones and serve with rice and any extra glaze.",
+        "minutes": 5
+      }
+    ],
+    "tips": "The ribs can be baked in foil a day ahead and refrigerated; glaze and finish them in the hot oven just before serving."
+  },
+  {
+    "slug": "lechon-belly-roll",
+    "title": "Lechon belly roll",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "lemongrass",
+      "garlic",
+      "onion"
+    ],
+    "prep": 90,
+    "cook": 190,
+    "servings": 10,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Cebu-style lechon made in the oven: a slab of pork belly stuffed with lemongrass, garlic and scallions, rolled, tied and roasted until the skin crackles. The meat is so well seasoned it needs no sauce.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2.5,
+            "max": null,
+            "unit": "kg",
+            "name": "pork belly",
+            "note": "one wide slab with skin, about 12 by 10 inches"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salt",
+            "note": "plus 1 tbsp for the skin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "heads of garlic",
+            "note": "cloves crushed"
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "",
+            "name": "stalks lemongrass",
+            "note": "bruised, cut to the width of the slab"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "bunch scallions",
+            "note": "trimmed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": "crumbled"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "star anise",
+            "note": "crushed, optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lay the pork skin side down. Score the meat side in a crisscross about 1/2 inch deep and rub it all over with the 2 tbsp salt, the pepper, garlic, bay leaves and star anise.",
+        "minutes": null
+      },
+      {
+        "text": "Line the lemongrass, scallions and onion along one long edge. Roll the belly up tightly around them so the skin is on the outside.",
+        "minutes": null
+      },
+      {
+        "text": "Tie the roll firmly with kitchen twine every inch. Pat the skin dry, prick it all over with a skewer and rub it with the remaining 1 tbsp salt.",
+        "minutes": null
+      },
+      {
+        "text": "Set the roll on a rack over a foil-lined tray and leave it uncovered in the fridge so the skin dries.",
+        "minutes": 60
+      },
+      {
+        "text": "Heat the oven to 325°F (160°C). Roast the pork until a skewer slides into the center easily.",
+        "minutes": 150
+      },
+      {
+        "text": "Raise the heat to 450°F (230°C) and roast until the skin puffs and crackles all over, turning the tray once and watching closely.",
+        "minutes": 25
+      },
+      {
+        "text": "Rest the roll before cutting off the twine and slicing it thickly.",
+        "minutes": 15
+      },
+      {
+        "text": "Serve with rice and, if you like, spiced vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "For the crispest skin, leave the tied roll uncovered in the fridge overnight before roasting. Keep the drippings: they make excellent fried rice."
+  },
+  {
+    "slug": "crispy-tadyang",
+    "title": "Crispy tadyang",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "garlic",
+      "vinegar"
+    ],
+    "prep": 10,
+    "cook": 80,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Pork spareribs boiled with garlic and bay leaves, then deep-fried until the outside is crunchy and the meat inside stays tender. Eaten with rice and a dip of spiced vinegar.",
+    "groups": [
+      {
+        "title": "For the ribs",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "pork spareribs",
+            "note": "cut into single ribs"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "head of garlic",
+            "note": "halved crosswise"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "whole black peppercorns",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep-frying"
+          }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "bird's eye chilies",
+            "note": "sliced"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the ribs in a pot with the salt, garlic, peppercorns and bay leaves. Cover with water and bring to a boil, skimming off the scum.",
+        "minutes": null
+      },
+      {
+        "text": "Simmer until the meat is tender but still on the bone.",
+        "minutes": 40
+      },
+      {
+        "text": "Drain the ribs and spread them on a rack to dry and cool.",
+        "minutes": 20
+      },
+      {
+        "text": "Mix the dip ingredients. Pat the ribs dry and dust them lightly with the cornstarch.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil to 350°F (175°C) in a deep, heavy pot. Fry the ribs in batches, covered with a splatter guard, until deep golden and crisp.",
+        "minutes": 8
+      },
+      {
+        "text": "Drain on the rack and serve hot with the dip and rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "For extra flavor, marinate the boiled ribs in 2 tbsp each of soy sauce and calamansi juice for 30 minutes, then pat dry before frying."
+  },
+  {
+    "slug": "salt-and-pepper-spareribs",
+    "title": "Salt and pepper spareribs",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "garlic",
+      "chili",
+      "egg"
+    ],
+    "prep": 30,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Bite-size spareribs coated and fried until crunchy, then tossed with fried garlic, chilies, scallions and plenty of salt and pepper. A Chinese-Filipino restaurant favorite you can make at home.",
+    "groups": [
+      {
+        "title": "For the ribs",
+        "items": [
+          {
+            "qty": 600,
+            "max": null,
+            "unit": "g",
+            "name": "pork spareribs",
+            "note": "chopped into 1-inch pieces by the butcher"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "egg",
+            "note": "beaten"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep-frying"
+          }
+        ]
+      },
+      {
+        "title": "For tossing",
+        "items": [
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "red chilies",
+            "note": "chopped"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "scallions",
+            "note": "chopped"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the ribs with the soy sauce, salt and sugar and let them marinate.",
+        "minutes": 20
+      },
+      {
+        "text": "Stir in the egg, then toss with the cornstarch until every piece is coated.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil to 325°F (165°C) and fry the ribs in batches until cooked through and light golden. Drain on a rack.",
+        "minutes": 8
+      },
+      {
+        "text": "Raise the oil to 375°F (190°C) and fry all the ribs again until crisp and deep golden. Drain.",
+        "minutes": 2
+      },
+      {
+        "text": "In a wok, heat 2 tbsp of the frying oil over medium heat and fry the garlic until pale gold. Add the chilies and scallions and stir for a few seconds.",
+        "minutes": 1
+      },
+      {
+        "text": "Add the ribs, sprinkle with the salt and pepper and toss well. Serve right away with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Take the garlic off the heat as soon as it turns pale gold: it keeps cooking in the hot oil and turns bitter if it browns."
+  },
+  {
+    "slug": "chicharon-bulaklak",
+    "title": "Chicharon bulaklak",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork offal",
+      "garlic",
+      "vinegar"
+    ],
+    "prep": 30,
+    "cook": 125,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Ruffled pork mesentery boiled until tender, then deep-fried until it curls into crunchy, golden flower shapes. Rich and crackly, it is eaten with spiced vinegar as pulutan or ulam.",
+    "groups": [
+      {
+        "title": "For the bulaklak",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork mesentery (bulaklak)",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "coarse salt",
+            "note": "for cleaning"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "vinegar",
+            "note": "for cleaning"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salt",
+            "note": "for boiling"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "head of garlic",
+            "note": "halved crosswise"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "whole black peppercorns",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep-frying"
+          }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "",
+            "name": "small red onion",
+            "note": "chopped"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "bird's eye chilies",
+            "note": "sliced"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the bulaklak well with the coarse salt and vinegar, then rinse under running water several times until it no longer smells strong. Drain.",
+        "minutes": null
+      },
+      {
+        "text": "Put it in a pot with the salt, garlic, peppercorns and bay leaves, cover with water and bring to a boil. Skim, then simmer until tender.",
+        "minutes": 45
+      },
+      {
+        "text": "Drain and spread the pieces on a rack. Let them dry completely: any moisture makes the oil spit dangerously.",
+        "minutes": 60
+      },
+      {
+        "text": "Cut into 3-inch pieces. Mix the dip ingredients.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil to 350°F (175°C) in a deep, heavy pot. Fry in small batches with a lid or splatter guard held over the pot, stirring now and then, until golden, curled and crisp.",
+        "minutes": 12
+      },
+      {
+        "text": "Drain on a rack and serve hot with the dip.",
+        "minutes": null
+      }
+    ],
+    "tips": "Drying the boiled bulaklak uncovered in the fridge overnight makes frying much safer and the result crisper. Keep the pot at the back of the stove and children well away."
+  },
+  {
+    "slug": "chicharon-bituka",
+    "title": "Chicharon bituka",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork offal",
+      "garlic",
+      "vinegar",
+      "soy sauce",
+      "calamansi"
+    ],
+    "prep": 40,
+    "cook": 120,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Pork small intestines cleaned well, boiled, marinated briefly in soy and calamansi, and fried until crunchy outside and chewy inside. A classic pulutan that also goes with rice and vinegar.",
+    "groups": [
+      {
+        "title": "For the bituka",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "pork small intestines (bituka)",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "coarse salt",
+            "note": "for cleaning"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "vinegar",
+            "note": "for cleaning"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salt",
+            "note": "for boiling"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "head of garlic",
+            "note": "halved crosswise"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep-frying"
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "spiced cane vinegar",
+            "note": "with garlic, onion and chili"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Turn the intestines inside out using a chopstick and scrape off any fat and residue. Rub with the coarse salt and vinegar and rinse under running water several times until clean and odorless.",
+        "minutes": null
+      },
+      {
+        "text": "Put the intestines in a pot with the salt, garlic and bay leaves, cover with water and bring to a boil. Skim, then simmer until tender.",
+        "minutes": 40
+      },
+      {
+        "text": "Drain and let cool, then cut into 2-inch lengths. Toss with the soy sauce and calamansi juice.",
+        "minutes": 15
+      },
+      {
+        "text": "Spread the pieces on a rack and let them dry completely.",
+        "minutes": 45
+      },
+      {
+        "text": "Heat the oil to 350°F (175°C) in a deep, heavy pot. Fry in small batches with a splatter guard over the pot, stirring now and then, until golden brown and crisp.",
+        "minutes": 12
+      },
+      {
+        "text": "Drain on a rack and serve hot with spiced vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "Cleaning is the most important step. Many markets sell intestines already cleaned; still rinse them well at home. Dry the boiled pieces overnight in the fridge for the crispest result."
+  },
+  {
+    "slug": "crispy-tenga",
+    "title": "Crispy tenga",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork offal",
+      "soy sauce",
+      "garlic",
+      "vinegar",
+      "chili"
+    ],
+    "prep": 15,
+    "cook": 120,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Pig ears simmered in seasoned soy broth until tender, sliced into strips and fried until crunchy at the edges with a chewy, gelatinous center. Served with spiced vinegar as pulutan or ulam.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 750,
+            "max": null,
+            "unit": "g",
+            "name": "pig ears (tenga)",
+            "note": "about 4, cleaned and singed"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "crushed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "whole black peppercorns",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep-frying"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": "for dipping"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "bird's eye chilies",
+            "note": "sliced, for the vinegar"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Scrape the ears clean with a knife and rinse well. Put them in a pot with the soy sauce, salt, garlic, peppercorns and bay leaves, cover with water and bring to a boil.",
+        "minutes": null
+      },
+      {
+        "text": "Cover and simmer until the ears are tender enough for a knife to slide through easily.",
+        "minutes": 75
+      },
+      {
+        "text": "Drain and let cool on a rack until dry to the touch, then slice into strips about 1/2 inch wide.",
+        "minutes": 30
+      },
+      {
+        "text": "Toss the strips in the cornstarch. Heat the oil to 350°F (175°C) and fry in batches with a splatter guard over the pot until golden and crisp at the edges.",
+        "minutes": 8
+      },
+      {
+        "text": "Drain on paper towels. Mix the vinegar with the chilies and serve alongside.",
+        "minutes": null
+      }
+    ],
+    "tips": "The cartilage pops in hot oil; keep the lid or splatter guard on. Leftover boiled ears are also good grilled until charred."
+  },
+  {
+    "slug": "pritong-liempo",
+    "title": "Pritong liempo",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "garlic",
+      "vinegar",
+      "soy sauce"
+    ],
+    "prep": 40,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Slices of pork belly marinated in garlic, vinegar and pepper, then pan-fried in their own fat until golden and crisp. A quick everyday fried pork that needs no boiling.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 750,
+            "max": null,
+            "unit": "g",
+            "name": "pork belly",
+            "note": "skin on, sliced 1/2 inch thick"
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "crushed"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the pork with the garlic, vinegar, soy sauce, salt and pepper and let it marinate.",
+        "minutes": 30
+      },
+      {
+        "text": "Put the pork, oil and water in a wide frying pan. Cover and cook over medium heat until the water evaporates and the fat starts to render.",
+        "minutes": 8
+      },
+      {
+        "text": "Uncover and fry, turning now and then, until both sides are golden brown and crisp. Use a splatter guard, as the skin pops.",
+        "minutes": 10
+      },
+      {
+        "text": "Drain on paper towels and serve with rice and spiced vinegar or banana ketchup.",
+        "minutes": null
+      }
+    ],
+    "tips": "Scrape most of the garlic off before frying and add it back in the last 2 minutes so it turns golden instead of burning."
+  },
+  {
+    "slug": "pork-salpicao",
+    "title": "Pork salpicao",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "garlic",
+      "soy sauce",
+      "butter"
+    ],
+    "prep": 25,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Cubes of pork tenderloin seared hot and tossed in butter, soy and Worcestershire sauce with lots of crisp fried garlic. Garlicky, savory and fast, it is great with rice or as pulutan.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork tenderloin",
+            "note": "cut into 1-inch cubes"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "Worcestershire sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "oyster sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "head of garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "butter",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "chili flakes",
+            "note": "optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the pork with the soy sauce, Worcestershire sauce, oyster sauce and pepper and let it marinate.",
+        "minutes": 20
+      },
+      {
+        "text": "Heat the oil in a wide pan over medium-low heat and fry the garlic, stirring, until golden. Scoop it out with a slotted spoon and set aside, keeping the oil.",
+        "minutes": 4
+      },
+      {
+        "text": "Turn the heat to high. Lift the pork out of the marinade and sear it in the garlic oil in a single layer until browned on all sides and just cooked through.",
+        "minutes": 6
+      },
+      {
+        "text": "Pour in the leftover marinade and add the butter and chili flakes. Toss until the sauce bubbles and coats the pork.",
+        "minutes": 1
+      },
+      {
+        "text": "Turn off the heat, stir in most of the fried garlic and sprinkle the rest on top. Serve right away.",
+        "minutes": null
+      }
+    ],
+    "tips": "Tenderloin dries out quickly; take it off the heat as soon as it is no longer pink in the middle."
+  },
+  {
+    "slug": "insarabasab",
+    "title": "Insarabasab",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "onion",
+      "tomato",
+      "vinegar",
+      "chili",
+      "calamansi"
+    ],
+    "prep": 20,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Ilocano grilled pork belly, chopped and tossed while hot with onions, tomatoes, chilies and Ilocano vinegar. Smoky, juicy and sharp, it is eaten as pulutan or with rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 750,
+            "max": null,
+            "unit": "g",
+            "name": "pork belly",
+            "note": "sliced 1/2 inch thick"
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": "plus more to taste"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "large red onion",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tomatoes",
+            "note": "diced"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "bird's eye chilies",
+            "note": "chopped"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "sukang Iloko",
+            "note": "or cane vinegar"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the pork slices with the salt, pepper and garlic and let them sit while the charcoal heats to medium-hot.",
+        "minutes": 15
+      },
+      {
+        "text": "Grill the pork, turning often, until cooked through, browned and crisp at the edges.",
+        "minutes": 18
+      },
+      {
+        "text": "Meanwhile, mix the onion, tomatoes, chilies, vinegar and calamansi juice in a bowl.",
+        "minutes": null
+      },
+      {
+        "text": "Chop the hot pork into bite-size pieces and toss it straight into the bowl so it soaks up the dressing.",
+        "minutes": null
+      },
+      {
+        "text": "Taste for salt and vinegar and serve right away with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Toss the pork while it is still hot: the warm fat mellows the raw onion and carries the vinegar into the meat."
+  },
+  {
+    "slug": "roast-pork-asado",
+    "title": "Roast pork asado",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "soy sauce",
+      "garlic",
+      "brown sugar"
+    ],
+    "prep": 135,
+    "cook": 50,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Chinese-style roast pork, the red-edged asado of Chinese delis, made with pork shoulder marinated in hoisin, soy and five-spice and roasted with a honey glaze. Sweet, sticky and charred at the edges.",
+    "groups": [
+      {
+        "title": "For the marinade",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "pork shoulder (kasim)",
+            "note": "cut into strips 2 inches thick"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "hoisin sauce",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "Shaoxing wine",
+            "note": "optional"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "five-spice powder",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "grated"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "red food coloring",
+            "note": "optional"
+          }
+        ]
+      },
+      {
+        "title": "For the glaze",
+        "items": [
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "honey",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "hot water",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix all the marinade ingredients, coat the pork well, cover and refrigerate.",
+        "minutes": 120
+      },
+      {
+        "text": "Heat the oven to 400°F (200°C). Set a rack over a foil-lined roasting pan and pour 1 cup of water into the pan to stop the drippings from burning.",
+        "minutes": null
+      },
+      {
+        "text": "Lay the pork on the rack, keeping the marinade. Roast for 25 minutes.",
+        "minutes": 25
+      },
+      {
+        "text": "Mix the honey and hot water with 2 tbsp of the leftover marinade. Turn the pork, brush it with the glaze and roast until cooked through.",
+        "minutes": 20
+      },
+      {
+        "text": "Brush again and broil until the edges are sticky and lightly charred, watching closely.",
+        "minutes": 3
+      },
+      {
+        "text": "Rest the pork, then slice it thin and serve with rice and any pan juices.",
+        "minutes": 5
+      }
+    ],
+    "tips": "Marinate overnight for the deepest flavor. Leftovers are good in fried rice, pancit or siopao."
+  },
+  {
+    "slug": "pork-liver-bistek",
+    "title": "Pork liver bistek",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork offal",
+      "soy sauce",
+      "calamansi",
+      "onion",
+      "garlic"
+    ],
+    "prep": 30,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin slices of pork liver seared quickly and finished in a soy and calamansi sauce with soft onion rings. Tender, peppery and tangy, it is ready in minutes.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork liver",
+            "note": "sliced 1/4 inch thick"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "milk",
+            "note": "for soaking, optional"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": "or lemon juice"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "onions",
+            "note": "sliced into rings"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the liver in the milk to mellow its flavor, then drain and pat dry.",
+        "minutes": 20
+      },
+      {
+        "text": "Mix the soy sauce, calamansi juice, garlic, pepper, water and sugar in a small bowl.",
+        "minutes": null
+      },
+      {
+        "text": "Heat 1 tbsp oil in a wide pan and cook the onion rings until just soft. Set aside.",
+        "minutes": 3
+      },
+      {
+        "text": "Add the rest of the oil and turn the heat to high. Sear the liver in a single layer until browned on the outside and just pink inside, about 1 minute per side.",
+        "minutes": 2
+      },
+      {
+        "text": "Pour in the sauce, return the onions and simmer briefly, just until the liver is cooked through. Do not overcook, or it turns hard.",
+        "minutes": 2
+      },
+      {
+        "text": "Serve right away with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Buy the liver as fresh as possible and slice it evenly so every piece cooks at the same rate."
+  },
+  {
+    "slug": "pork-with-mushrooms",
+    "title": "Pork with mushrooms",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "mushrooms",
+      "garlic",
+      "onion",
+      "soy sauce"
+    ],
+    "prep": 20,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin slices of pork stir-fried with mushrooms, onions and garlic in a savory oyster sauce gravy. Quick, meaty and good over a lot of rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 450,
+            "max": null,
+            "unit": "g",
+            "name": "pork shoulder (kasim)",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": "plus 1 tsp for the pork"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 250,
+            "max": null,
+            "unit": "g",
+            "name": "fresh shiitake or button mushrooms",
+            "note": "sliced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "oyster sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "scallions",
+            "note": "cut into 2-inch lengths"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the pork with 1 tsp soy sauce and the cornstarch and let it sit while you slice the mushrooms and onion.",
+        "minutes": 10
+      },
+      {
+        "text": "Heat 1 tbsp oil in a wok over high heat and stir-fry the pork until browned and just cooked. Move it to a plate.",
+        "minutes": 4
+      },
+      {
+        "text": "Add the rest of the oil and stir-fry the mushrooms until they release their liquid and start to brown.",
+        "minutes": 4
+      },
+      {
+        "text": "Add the garlic and onion and stir-fry until fragrant and the onion softens.",
+        "minutes": 2
+      },
+      {
+        "text": "Return the pork with the oyster sauce, 1 tbsp soy sauce, water and pepper. Simmer, tossing, until the sauce thickens and coats everything.",
+        "minutes": 3
+      },
+      {
+        "text": "Toss in the scallions and serve right away with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Leave the mushrooms alone in the hot wok for a minute before stirring so they brown instead of steaming. Canned sliced mushrooms work too; drain them well."
+  },
+  {
+    "slug": "pork-with-ampalaya",
+    "title": "Pork with ampalaya",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "bitter gourd",
+      "garlic",
+      "tomato",
+      "onion"
+    ],
+    "prep": 20,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Sliced pork sautéed with garlic, tomatoes and salted black beans, with thin slices of bitter gourd cooked just until tender. The salty, savory pork balances the gourd's bitterness.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork shoulder or pork belly",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "medium bitter gourd (ampalaya)",
+            "note": "about 300 g, seeded and sliced thin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": "for the ampalaya"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tomatoes",
+            "note": "chopped"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salted black beans (tausi)",
+            "note": "rinsed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the bitter gourd slices with the salt and let them sit. Squeeze them firmly, rinse and squeeze again to remove some of the bitterness.",
+        "minutes": 15
+      },
+      {
+        "text": "Heat the oil in a wok over medium-high heat and cook the pork until browned and some fat has rendered.",
+        "minutes": 7
+      },
+      {
+        "text": "Add the garlic, onion and tomatoes and cook until the tomatoes soften.",
+        "minutes": 3
+      },
+      {
+        "text": "Stir in the black beans, soy sauce, sugar and water and simmer until the pork is tender.",
+        "minutes": 5
+      },
+      {
+        "text": "Add the bitter gourd and toss over high heat until just tender and still bright green. Do not stir too much, or it turns more bitter.",
+        "minutes": 3
+      },
+      {
+        "text": "Taste for salt and serve with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Slice the ampalaya thin and cook it briefly: overcooked gourd is both mushy and more bitter."
+  },
+  {
+    "slug": "pork-curry",
+    "title": "Pork curry",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "coconut milk",
+      "potato",
+      "carrot",
+      "bell pepper",
+      "fish sauce"
+    ],
+    "prep": 15,
+    "cook": 75,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Filipino-style pork curry: tender pork, potatoes and carrots in a mild, creamy yellow curry sauce made with coconut milk and fish sauce. Comforting and family-friendly, served with plenty of rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "pork shoulder (kasim)",
+            "note": "cut into 1 1/2-inch cubes"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "chopped"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "thumb",
+            "name": "ginger",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "curry powder",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "fish sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "medium potatoes",
+            "note": "cut into chunks"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "carrot",
+            "note": "cut into chunks"
+          },
+          {
+            "qty": 400,
+            "max": null,
+            "unit": "ml",
+            "name": "coconut milk",
+            "note": "1 can"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "red bell pepper",
+            "note": "cut into squares"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "long green chilies (siling haba)",
+            "note": "optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a heavy pot and sauté the garlic, onion and ginger until soft.",
+        "minutes": 3
+      },
+      {
+        "text": "Add the pork and cook until it is no longer pink. Sprinkle in the curry powder and stir until fragrant.",
+        "minutes": 6
+      },
+      {
+        "text": "Add the fish sauce and water. Bring to a boil, then cover and simmer until the pork is tender.",
+        "minutes": 45
+      },
+      {
+        "text": "Add the potatoes and carrot and simmer until tender.",
+        "minutes": 15
+      },
+      {
+        "text": "Pour in the coconut milk and add the bell pepper and chilies. Simmer gently, uncovered, until the sauce thickens slightly.",
+        "minutes": 6
+      },
+      {
+        "text": "Taste and adjust with fish sauce. Serve with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "For a lighter sauce, use evaporated milk instead of coconut milk and add it in the last 3 minutes."
+  },
+  {
+    "slug": "pork-with-snow-peas",
+    "title": "Pork with snow peas",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "garlic",
+      "onion",
+      "carrot",
+      "fish sauce"
+    ],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pork slices sautéed with garlic and onion, then tossed with crisp snow peas and carrots and seasoned with fish sauce. A quick, light ginisa that keeps the vegetables sweet and crunchy.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 400,
+            "max": null,
+            "unit": "g",
+            "name": "pork shoulder or pork belly",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 250,
+            "max": null,
+            "unit": "g",
+            "name": "snow peas (sitsaro)",
+            "note": "trimmed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small carrot",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tbsp",
+            "name": "fish sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a wok over medium-high heat and cook the pork until lightly browned.",
+        "minutes": 6
+      },
+      {
+        "text": "Add the garlic and onion and sauté until soft and fragrant.",
+        "minutes": 2
+      },
+      {
+        "text": "Season with the fish sauce, add the water and simmer until the pork is tender.",
+        "minutes": 4
+      },
+      {
+        "text": "Add the carrot and snow peas and toss over high heat until the snow peas turn bright green but are still crisp.",
+        "minutes": 2
+      },
+      {
+        "text": "Season with the pepper, taste for salt and serve right away with rice.",
+        "minutes": null
+      }
+    ],
+    "tips": "Snow peas overcook quickly. Take the wok off the heat as soon as they turn bright green; they keep cooking on the plate."
+  },
+  {
+    "slug": "tortang-utak",
+    "title": "Tortang utak",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": [
+      "pork offal",
+      "egg",
+      "onion",
+      "tomato",
+      "garlic"
+    ],
+    "prep": 20,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Pork brain blanched, chopped and mixed with eggs, onion and tomato, then fried into soft, custardy omelets. Rich and creamy, it is eaten with rice and banana ketchup.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 300,
+            "max": null,
+            "unit": "g",
+            "name": "pork brains (utak)",
+            "note": "about 3"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "vinegar",
+            "note": "for blanching"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": "plus 1/2 tsp for the eggs"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small onion",
+            "note": "finely chopped"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "tomato",
+            "note": "seeded and diced"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "banana ketchup",
+            "note": "to serve"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the brains in cold water, then gently peel off the thin membrane and any blood vessels with your fingers.",
+        "minutes": 10
+      },
+      {
+        "text": "Bring a pot of water to a simmer with the vinegar and 1 tsp salt. Lower in the brains and poach gently until firm.",
+        "minutes": 5
+      },
+      {
+        "text": "Drain, let cool slightly and chop into small pieces.",
+        "minutes": null
+      },
+      {
+        "text": "Beat the eggs with 1/2 tsp salt and the pepper. Stir in the brains, onion, tomato and garlic.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a frying pan over medium heat. Ladle in about 1/3 cup of the mixture per omelet and fry until set and golden underneath.",
+        "minutes": 3
+      },
+      {
+        "text": "Turn carefully and fry until the other side is golden and the center is set. Repeat with the rest.",
+        "minutes": 3
+      },
+      {
+        "text": "Drain on paper towels and serve hot with rice and banana ketchup.",
+        "minutes": null
+      }
+    ],
+    "tips": "Brains are very delicate: handle them gently and buy them as fresh as possible, ideally cooking them the same day."
+  }
+]

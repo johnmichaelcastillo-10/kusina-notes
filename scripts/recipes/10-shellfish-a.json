@@ -1,0 +1,1041 @@
+[
+  {
+    "slug": "halabos-na-hipon",
+    "title": "Halabos na hipon",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "vinegar", "garlic"],
+    "prep": 10,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Whole shrimp cooked in a covered pan with just salt and a splash of water until the shells turn red and the juices reduce to a salty glaze. Sweet, simple and best peeled at the table and dipped in garlicky vinegar.",
+    "groups": [
+      {
+        "title": "For the shrimp",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "medium shrimp", "note": "head-on and shell-on" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "water", "note": "or lemon-lime soda" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the shrimp and trim the antennae and legs with kitchen scissors, leaving the heads and shells on. Drain well.", "minutes": null },
+      { "text": "Stir the vinegar, garlic, chili and a pinch each of salt and pepper together in a small bowl and set aside.", "minutes": null },
+      { "text": "Spread the shrimp in a wide pan, sprinkle with the salt and pour in the water. Cover and cook over medium-high heat, shaking the pan once, until the shells turn orange-red.", "minutes": 4 },
+      { "text": "Uncover and keep cooking, tossing often, until the liquid has almost cooked away and the shrimp look glossy. Stir in the butter, if using, in the last minute.", "minutes": 3 },
+      { "text": "Serve hot with the vinegar dip and steamed rice.", "minutes": null }
+    ],
+    "tips": "Take the pan off the heat as soon as the liquid is nearly gone. Past that point the shrimp shrink, stick to the shells and turn dry."
+  },
+  {
+    "slug": "garlic-butter-shrimp",
+    "title": "Garlic butter shrimp",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "butter", "garlic", "calamansi"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Peeled shrimp seared quickly and tossed in butter, a lot of garlic and a squeeze of calamansi. Rich, garlicky and done in about ten minutes, with a sauce made for spooning over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "large shrimp", "note": "peeled and deveined, tails on" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "tbsp", "name": "butter", "note": "divided" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "or lemon juice" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "chili flakes", "note": "optional" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped parsley or spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the shrimp dry with paper towels and season with the salt and pepper.", "minutes": null },
+      { "text": "Heat the oil and 1 tablespoon of the butter in a large skillet over medium-high heat. Add the shrimp in a single layer and sear until pink on both sides, about 1 minute per side. Transfer to a plate.", "minutes": 2 },
+      { "text": "Lower the heat to medium-low. Add the remaining butter and the garlic and cook, stirring, until fragrant and pale gold.", "minutes": 2 },
+      { "text": "Stir in the calamansi juice and chili flakes. Return the shrimp with any juices and toss until coated and just cooked through.", "minutes": 1 },
+      { "text": "Take the pan off the heat, scatter over the parsley and taste for salt. Serve with steamed rice.", "minutes": null }
+    ],
+    "tips": "Keep the heat low once the garlic goes in: browned garlic turns bitter and takes the whole sauce with it."
+  },
+  {
+    "slug": "camaron-rebosado",
+    "title": "Camaron rebosado",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "flour", "egg"],
+    "prep": 25,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Shrimp dipped in a light egg batter and deep-fried until puffed and golden, served with a sweet and sour dipping sauce. A party and handaan favorite that also works as a weeknight ulam.",
+    "groups": [
+      {
+        "title": "For the shrimp",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "large shrimp", "note": "peeled and deveined, tails on" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the batter",
+        "items": [
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "baking powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cold water", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for deep-frying" }
+        ]
+      },
+      {
+        "title": "For the sweet and sour sauce",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "vinegar", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Make 3 or 4 shallow cuts across the belly of each shrimp so it stays straight when fried. Toss with the calamansi juice, salt and pepper and leave to marinate.", "minutes": 10 },
+      { "text": "Meanwhile, simmer the water, banana ketchup, vinegar, brown sugar and soy sauce in a small saucepan. Stir in the cornstarch mixture and cook until glossy and lightly thickened. Set aside.", "minutes": 3 },
+      { "text": "Whisk the flour, cornstarch, baking powder and salt in a bowl. Add the egg and cold water and whisk into a smooth batter about as thick as pancake batter.", "minutes": null },
+      { "text": "Heat the oil in a deep pan to 175°C (350°F). Pat the shrimp dry.", "minutes": null },
+      { "text": "Holding each shrimp by the tail, dip it in the batter, let the excess drip off and lower it into the oil. Fry in batches without crowding until golden and crisp, turning once.", "minutes": 3 },
+      { "text": "Drain on a rack or paper towels and serve hot with the sweet and sour sauce.", "minutes": null }
+    ],
+    "tips": "Keep the batter cold and fry in small batches: crowding drops the oil temperature and the coating comes out greasy instead of crisp."
+  },
+  {
+    "slug": "shrimp-gambas",
+    "title": "Shrimp gambas",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "chili"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp cooked in olive oil with sliced garlic, chili and paprika until the oil turns red and fragrant. Spicy and garlicky, it is a favorite pulutan and just as good with rice or bread for soaking up the oil.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "olive oil", "note": "" },
+          { "qty": 10, "max": null, "unit": "clove", "name": "garlic", "note": "thinly sliced" },
+          { "qty": 3, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped, or 1 tsp chili flakes" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "paprika", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "or lemon juice" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped parsley or spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the shrimp dry and season with the salt and pepper.", "minutes": null },
+      { "text": "Put the olive oil and garlic in a skillet over medium-low heat and cook gently until the garlic is pale gold.", "minutes": 3 },
+      { "text": "Add the chilies and paprika and stir for a few seconds, just until the oil turns red.", "minutes": null },
+      { "text": "Raise the heat to medium, add the shrimp and cook, turning, until pink and curled.", "minutes": 3 },
+      { "text": "Stir in the calamansi juice and parsley and taste for salt. Serve in the oil, with bread or rice.", "minutes": null }
+    ],
+    "tips": "Paprika burns fast in hot oil. Add it right before the shrimp so the oil stays red, not brown."
+  },
+  {
+    "slug": "sizzling-gambas",
+    "title": "Sizzling gambas",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "tomato", "bell pepper", "butter", "chili"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp in a spicy, slightly sweet tomato and garlic sauce, poured onto a buttered hot plate so it arrives at the table still sizzling. A restaurant and pulutan classic that is easy to do at home.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "divided" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "diced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "chili flakes", "note": "or 3 chopped siling labuyo" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Set a cast-iron sizzling plate on the stove over medium heat to heat through while you cook.", "minutes": 10 },
+      { "text": "Heat the oil and 1 tablespoon of the butter in a pan over medium heat. Cook the garlic until golden, then add the onion and cook until soft.", "minutes": 3 },
+      { "text": "Add the bell pepper and stir for a minute. Pour in the tomato sauce, add the sugar, chili flakes, salt and pepper, and simmer until slightly thick.", "minutes": 3 },
+      { "text": "Add the shrimp and cook, stirring, until pink and just cooked through.", "minutes": 3 },
+      { "text": "Rub the hot plate with the remaining butter, set it on its wooden board and pour the gambas onto it. Scatter over the spring onions and serve while it sizzles.", "minutes": null }
+    ],
+    "tips": "No sizzling plate? Serve it straight from a small cast-iron skillet. Warn everyone at the table: the plate stays dangerously hot for a long while."
+  },
+  {
+    "slug": "shrimp-with-tausi",
+    "title": "Shrimp with tausi",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "ginger", "bell pepper", "onion"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp stir-fried with salted black beans, ginger and bell pepper in a glossy, savory sauce. The tausi gives it a deep, salty flavor that goes a long way with plain rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salted black beans (tausi)", "note": "rinsed" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "red finger chili", "note": "sliced, optional" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "mixed with 1 tbsp water" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Lightly mash the rinsed tausi with the sugar in a small bowl.", "minutes": null },
+      { "text": "Heat the oil in a wok or wide pan over medium-high heat. Stir-fry the garlic, ginger and onion until fragrant and the onion softens.", "minutes": 2 },
+      { "text": "Add the mashed tausi and stir for a few seconds, then add the shrimp and stir-fry until they start to turn pink.", "minutes": 2 },
+      { "text": "Add the bell pepper, chili, oyster sauce, soy sauce and water. Simmer until the shrimp are cooked through and the pepper is crisp-tender.", "minutes": 2 },
+      { "text": "Stir the cornstarch mixture, pour it in and toss until the sauce turns glossy. Serve right away with rice.", "minutes": null }
+    ],
+    "tips": "Tausi is salty, so taste before adding any salt. A quick rinse takes off some of the brine without losing the flavor."
+  },
+  {
+    "slug": "shrimp-in-oyster-sauce",
+    "title": "Shrimp in oyster sauce",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "ginger"],
+    "prep": 15,
+    "cook": 8,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shell-on shrimp seared hot and glazed in a sticky oyster sauce with garlic, ginger and spring onions. Savory and a little sweet, it is a quick stir-fry that tastes like a Chinese-Filipino restaurant plate.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "shell-on, heads removed" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "spring onions", "note": "cut into 5-cm lengths" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "With kitchen scissors, cut along the back of each shrimp through the shell and pull out the dark vein, leaving the shell on. Pat dry.", "minutes": null },
+      { "text": "Stir the oyster sauce, soy sauce, sugar and water together in a small bowl.", "minutes": null },
+      { "text": "Heat the oil in a wok over high heat. Add the shrimp and sear, tossing, until both sides turn pink.", "minutes": 2 },
+      { "text": "Push the shrimp to the side, add the garlic and ginger to the oil and stir until fragrant.", "minutes": 1 },
+      { "text": "Pour in the sauce and toss until it bubbles, thickens and coats the shrimp.", "minutes": 2 },
+      { "text": "Add the spring onions and sesame oil, toss once more and serve with rice.", "minutes": null }
+    ],
+    "tips": "Cutting the shell along the back lets the sauce get in and makes the shrimp easy to peel at the table."
+  },
+  {
+    "slug": "sweet-and-sour-shrimp",
+    "title": "Sweet and sour shrimp",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "pineapple", "bell pepper", "onion", "carrot"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp, pineapple chunks and bell peppers tossed in a bright, tangy-sweet sauce made with pineapple juice and banana ketchup. Colorful and kid-friendly, with plenty of sauce for rice.",
+    "groups": [
+      {
+        "title": "For the stir-fry",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "cut into squares" },
+          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "thinly sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into squares" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into squares" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "canned pineapple chunks", "note": "drained, juice saved" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "pineapple juice", "note": "from the can" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "vinegar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Stir the pineapple juice, banana ketchup, vinegar, brown sugar and soy sauce together in a bowl.", "minutes": null },
+      { "text": "Heat the oil in a wok over medium-high heat. Sear the shrimp until pink, then transfer to a plate.", "minutes": 2 },
+      { "text": "In the same wok, stir-fry the garlic, onion and carrot until the onion softens.", "minutes": 3 },
+      { "text": "Add the bell peppers and pineapple and toss for a minute.", "minutes": 1 },
+      { "text": "Pour in the sauce and bring to a boil. Stir the cornstarch mixture, add it and simmer, stirring, until thick and glossy.", "minutes": 2 },
+      { "text": "Return the shrimp and toss until heated through. Taste, adding a little more sugar or vinegar to balance, and serve.", "minutes": 1 }
+    ],
+    "tips": "Fresh pineapple works too: use about 1 cup of chunks and replace the canned juice with water plus 1 extra tablespoon of sugar."
+  },
+  {
+    "slug": "nilasing-na-hipon",
+    "title": "Nilasing na hipon",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "vinegar"],
+    "prep": 30,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp soaked in gin with garlic and pepper, then dusted with cornstarch and fried until the shells turn crisp enough to eat. Salty and crunchy, it is a classic pulutan that disappears fast.",
+    "groups": [
+      {
+        "title": "For the shrimp",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "medium shrimp", "note": "head-on and shell-on, antennae trimmed" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "gin", "note": "or 1 cup beer" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "vinegar", "note": "" },
+          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the shrimp in a bowl with the gin, salt, pepper and crushed garlic. Toss, cover and refrigerate.", "minutes": 20 },
+      { "text": "Drain the shrimp well and pat them very dry with paper towels, so they do not spatter in the oil.", "minutes": null },
+      { "text": "Toss the shrimp in the cornstarch and shake off the excess.", "minutes": null },
+      { "text": "Heat the oil in a deep pan to 180°C (350°F). Fry the shrimp in batches until the shells are crisp and bright red.", "minutes": 3 },
+      { "text": "Drain on paper towels. Mix the vinegar, minced garlic and chili for the dip and serve with the hot shrimp.", "minutes": null }
+    ],
+    "tips": "Keep the soak to about 20 minutes. Longer, and the alcohol starts to soften the shrimp."
+  },
+  {
+    "slug": "inihaw-na-hipon",
+    "title": "Inihaw na hipon",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "soy sauce", "calamansi", "garlic", "butter"],
+    "prep": 20,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Skewered shrimp marinated in soy sauce, calamansi and garlic, then grilled over charcoal and basted with a sweet butter and banana ketchup glaze. Smoky, sticky and made for a weekend grill.",
+    "groups": [
+      {
+        "title": "For the shrimp",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "large shrimp", "note": "shell-on, deveined through the back" },
+          { "qty": 8, "max": null, "unit": "", "name": "bamboo skewers", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For basting",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "melted" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "banana ketchup", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Soak the bamboo skewers in water so they do not burn on the grill.", "minutes": 15 },
+      { "text": "Meanwhile, toss the shrimp with the soy sauce, calamansi juice, garlic and pepper and leave to marinate.", "minutes": 15 },
+      { "text": "Thread 3 or 4 shrimp onto each skewer. Stir the leftover marinade into the melted butter, banana ketchup and brown sugar to make the basting sauce.", "minutes": null },
+      { "text": "Grill over medium-hot coals, turning and basting often, until the shells are charred in spots and the flesh is opaque, about 3 minutes per side.", "minutes": 6 },
+      { "text": "Serve hot with rice and extra calamansi.", "minutes": null }
+    ],
+    "tips": "Leaving the shells on protects the shrimp from the fire and keeps them juicy. A grill pan over high heat works when charcoal is not an option."
+  },
+  {
+    "slug": "salt-and-pepper-shrimp",
+    "title": "Salt and pepper shrimp",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "chili"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shell-on shrimp dusted in cornstarch, fried crisp and tossed with fried garlic, chilies and a peppery salt. Crunchy enough to eat shell and all, and good with rice or beer.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "shell-on, heads removed, deveined through the back" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "divided" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "red finger chilies", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "green finger chili", "note": "sliced" },
+          { "qty": 3, "max": null, "unit": "", "name": "spring onions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the shrimp very dry. Mix 0.75 teaspoon of the salt with the pepper and sugar and set aside.", "minutes": null },
+      { "text": "Toss the shrimp with the cornstarch and the remaining salt.", "minutes": null },
+      { "text": "Heat the oil in a wok to 180°C (350°F) and fry the shrimp in batches until crisp and golden.", "minutes": 2 },
+      { "text": "Drain the shrimp. Pour off all but 1 tablespoon of the oil and cook the garlic and chilies over medium heat until fragrant and the garlic is light gold.", "minutes": 1 },
+      { "text": "Return the shrimp, add the spring onions and sprinkle with the salt and pepper mix. Toss quickly and serve immediately.", "minutes": null }
+    ],
+    "tips": "Serve straight from the wok. The coating softens if the shrimp sit under a lid."
+  },
+  {
+    "slug": "salted-egg-shrimp",
+    "title": "Salted egg shrimp",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "salted egg", "butter", "garlic", "chili", "evaporated milk"],
+    "prep": 20,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Fried shrimp coated in a rich, sandy sauce of salted egg yolk, butter, garlic and chili. Salty, buttery and a little sweet, it is a favorite order at seafood restaurants that is easy to make at home.",
+    "groups": [
+      {
+        "title": "For the shrimp",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "large shrimp", "note": "peeled and deveined, tails on" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "salted egg yolks", "note": "from cooked salted eggs, finely mashed" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mash the salted egg yolks with a fork until no lumps remain.", "minutes": null },
+      { "text": "Pat the shrimp dry, toss with the cornstarch and salt, and shake off the excess.", "minutes": null },
+      { "text": "Heat the oil in a wok to 180°C (350°F). Fry the shrimp in batches until golden and crisp, then drain.", "minutes": 3 },
+      { "text": "Pour the oil out of the wok and wipe it. Melt the butter over low heat and cook the garlic and chilies until fragrant.", "minutes": 1 },
+      { "text": "Add the mashed yolks and stir constantly until the mixture foams and looks sandy.", "minutes": 2 },
+      { "text": "Stir in the evaporated milk and sugar and cook until smooth and just thick enough to coat a spoon.", "minutes": 1 },
+      { "text": "Add the shrimp and toss until every piece is coated. Serve right away.", "minutes": null }
+    ],
+    "tips": "Use only the yolks: the whites are very salty. Chop them into a tomato and onion salad instead of throwing them out."
+  },
+  {
+    "slug": "shrimp-in-aligue-sauce",
+    "title": "Shrimp in aligue sauce",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "crab", "garlic", "butter", "calamansi"],
+    "prep": 15,
+    "cook": 12,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp cooked in butter, garlic and bottled crab fat until coated in a thick, deep orange sauce. Rich and briny, a little goes a long way over hot rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "large shrimp", "note": "peeled and deveined, tails on" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "bottled aligue (crab fat)", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil and butter in a pan over medium heat. Cook the garlic and onion until soft and fragrant.", "minutes": 2 },
+      { "text": "Add the shrimp and cook until pink on both sides.", "minutes": 3 },
+      { "text": "Stir in the aligue, water and sugar and simmer, tossing, until the sauce thickens and clings to the shrimp.", "minutes": 3 },
+      { "text": "Taste before seasoning, since aligue is already salty. Stir in the calamansi juice and pepper.", "minutes": null },
+      { "text": "Top with the spring onions and serve with steamed rice.", "minutes": null }
+    ],
+    "tips": "Bottled aligue is sold as taba ng talangka. Brands vary in saltiness, so start with less and add more after tasting."
+  },
+  {
+    "slug": "shrimp-and-kangkong-stir-fry",
+    "title": "Shrimp and kangkong stir-fry",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "water spinach", "garlic", "onion"],
+    "prep": 15,
+    "cook": 8,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp and kangkong tossed over high heat with plenty of garlic and a little oyster sauce. Quick, savory and green, a weeknight ulam that is ready before the rice is.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 400, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
+          { "qty": 300, "max": null, "unit": "g", "name": "kangkong (water spinach)", "note": "about 1 large bunch" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "red finger chili", "note": "sliced, optional" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pick the kangkong leaves off the stems. Cut the tender stems into 5-cm pieces and discard the tough bottom ends. Keep leaves and stems separate.", "minutes": null },
+      { "text": "Heat the oil in a wok over high heat. Stir-fry the garlic and onion until fragrant.", "minutes": 1 },
+      { "text": "Add the shrimp and stir-fry until they turn pink.", "minutes": 2 },
+      { "text": "Add the kangkong stems, water, oyster sauce, soy sauce and chili and toss until the stems are crisp-tender.", "minutes": 2 },
+      { "text": "Add the leaves and toss just until wilted. Season with the pepper and serve immediately.", "minutes": 1 }
+    ],
+    "tips": "Cook the leaves only until they collapse. Kangkong keeps cooking off the heat and turns limp and dark if left in the hot wok."
+  },
+  {
+    "slug": "honey-garlic-shrimp",
+    "title": "Honey garlic shrimp",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "soy sauce", "butter", "ginger"],
+    "prep": 10,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Seared shrimp glazed in a sticky sauce of honey, soy sauce and garlic. Sweet and salty, like a quick shrimp teriyaki that both kids and adults ask for again.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "large shrimp", "note": "peeled and deveined" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "honey", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "grated ginger", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "toasted sesame seeds", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the honey, soy sauce, calamansi juice, ginger and cornstarch together in a bowl.", "minutes": null },
+      { "text": "Heat the oil in a skillet over medium-high heat. Sear the shrimp until pink, about 1 minute per side, then transfer to a plate.", "minutes": 2 },
+      { "text": "Lower the heat to medium, add the butter and garlic and cook until fragrant.", "minutes": 1 },
+      { "text": "Stir the sauce, pour it in and simmer until bubbly and slightly thick.", "minutes": 2 },
+      { "text": "Return the shrimp and toss for a minute until glazed. Sprinkle with spring onions and sesame seeds and serve with rice.", "minutes": 1 }
+    ],
+    "tips": "Honey scorches quickly. Once the sauce goes in, keep the heat at medium and stir."
+  },
+  {
+    "slug": "creamy-garlic-shrimp",
+    "title": "Creamy garlic shrimp",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "cream", "cheese", "butter"],
+    "prep": 10,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shrimp simmered in a garlicky sauce of all-purpose cream, butter and grated cheese. Mild, rich and saucy, it goes over rice or tossed with spaghetti.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "large shrimp", "note": "peeled and deveined" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "divided" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+          { "qty": 250, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "1 pack" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "milk", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "grated cheese", "note": "Parmesan or cheddar" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped parsley", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the shrimp dry and season with the salt and pepper.", "minutes": null },
+      { "text": "Heat the oil and 1 tablespoon of the butter in a skillet over medium-high heat. Sear the shrimp until just pink, then transfer to a plate.", "minutes": 2 },
+      { "text": "Lower the heat to medium. Add the remaining butter, garlic and onion and cook until soft and fragrant.", "minutes": 2 },
+      { "text": "Pour in the cream and milk and bring to a gentle simmer. Do not let it boil hard.", "minutes": 3 },
+      { "text": "Stir in the cheese until melted and the sauce lightly coats a spoon.", "minutes": 2 },
+      { "text": "Return the shrimp and simmer until cooked through. Stir in the calamansi juice, taste for salt and finish with the parsley.", "minutes": 1 }
+    ],
+    "tips": "Add the calamansi juice off the boil and at the very end, or the cream can split."
+  },
+  {
+    "slug": "sarsiadong-hipon",
+    "title": "Sarsiadong hipon",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "tomato", "egg", "onion", "garlic", "fish sauce"],
+    "prep": 15,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pan-fried shrimp simmered in a soft tomato and onion sauce finished with ribbons of egg. Homey and mildly tangy, the same way many families cook sarsiadong isda.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "shell-on, heads removed, deveined" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "divided" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "", "name": "medium tomatoes", "note": "chopped" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat 2 tablespoons of the oil in a pan over medium-high heat and fry the shrimp until pink on both sides. Set aside.", "minutes": 3 },
+      { "text": "Add the remaining oil and cook the garlic and onion over medium heat until soft.", "minutes": 2 },
+      { "text": "Add the tomatoes and cook, pressing them with the spoon, until they break down into a chunky sauce.", "minutes": 5 },
+      { "text": "Pour in the water, season with the fish sauce and pepper and simmer.", "minutes": 3 },
+      { "text": "Return the shrimp and simmer until cooked through.", "minutes": 2 },
+      { "text": "Drizzle the beaten eggs over the sauce and leave them to set for a minute before gently folding them in. Top with spring onions and serve.", "minutes": 1 }
+    ],
+    "tips": "Ripe, soft tomatoes make the best sauce. If yours are firm and pale, add a tablespoon of tomato paste with them."
+  },
+  {
+    "slug": "shrimp-with-broccoli",
+    "title": "Shrimp with broccoli",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "garlic", "ginger"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Plump shrimp and bright green broccoli in a light, glossy garlic and oyster sauce. A clean-tasting stir-fry that puts a vegetable and a main on the table in one pan.",
+    "groups": [
+      {
+        "title": "For the stir-fry",
+        "items": [
+          { "qty": 400, "max": null, "unit": "g", "name": "large shrimp", "note": "peeled and deveined" },
+          { "qty": 350, "max": null, "unit": "g", "name": "broccoli", "note": "cut into florets (1 head)" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ginger", "note": "minced" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Stir all the sauce ingredients together in a bowl.", "minutes": null },
+      { "text": "Bring a pot of salted water to a boil and blanch the broccoli until bright green. Drain.", "minutes": 1 },
+      { "text": "Heat the oil in a wok over high heat. Stir-fry the shrimp until pink, then transfer to a plate.", "minutes": 2 },
+      { "text": "Add the garlic and ginger to the wok and stir until fragrant.", "minutes": null },
+      { "text": "Stir the sauce again, pour it in and boil until it thickens and turns clear.", "minutes": 1 },
+      { "text": "Return the shrimp and broccoli and toss until coated and hot. Serve right away.", "minutes": 1 }
+    ],
+    "tips": "Blanching first keeps the broccoli green and evenly cooked, so the shrimp spend only a minute or two in the wok."
+  },
+  {
+    "slug": "crab-in-garlic-butter",
+    "title": "Crab in garlic butter",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "butter", "garlic", "calamansi"],
+    "prep": 30,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crabs cooked in a covered pot with butter and a whole head of garlic, finished with the crab fat from the shells. Messy, buttery and best eaten with your hands over a mound of rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "kg", "name": "live mud crabs or blue crabs", "note": "about 4 medium" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "butter", "note": "divided" },
+          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head)" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "or lemon-lime soda" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "chili flakes", "note": "optional" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the live crabs in the freezer until sluggish, which makes them safer to handle.", "minutes": 20 },
+      { "text": "Scrub the crabs well. Pull off the apron and the top shell, scraping any orange crab fat from the shell into a small bowl. Remove the gills, cut each body in half and crack the claws with the back of a heavy knife.", "minutes": null },
+      { "text": "Melt half the butter in a wide pot over medium heat and cook the garlic until fragrant, without browning.", "minutes": 1 },
+      { "text": "Add the crabs, water, salt and pepper and toss. Cover and cook, tossing halfway, until the shells are bright orange and the flesh is opaque.", "minutes": 12 },
+      { "text": "Uncover, add the remaining butter, the reserved crab fat and the chili flakes and toss until the sauce thickens and coats the pieces.", "minutes": 3 },
+      { "text": "Stir in the calamansi juice, scatter over the spring onions and serve with rice and plenty of napkins.", "minutes": null }
+    ],
+    "tips": "Buy crabs that are lively and feel heavy for their size: they are fuller. Cook them the day you buy them."
+  },
+  {
+    "slug": "chili-crab",
+    "title": "Chili crab",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "chili", "tomato", "garlic", "ginger", "egg"],
+    "prep": 30,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crabs simmered in a thick, sweet and spicy tomato sauce with ginger and garlic, swirled with egg at the end. The Filipino home version leans on sweet chili sauce and is made for scooping onto rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "kg", "name": "live mud crabs or blue crabs", "note": "about 4 medium" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "", "name": "siling labuyo", "note": "minced, or 2 red finger chilies" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "sweet chili sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the live crabs in the freezer until sluggish.", "minutes": 20 },
+      { "text": "Scrub the crabs. Remove the apron, top shell and gills, cut each body in half and crack the claws.", "minutes": null },
+      { "text": "Heat the oil in a wok or wide pot over medium heat. Cook the garlic, ginger, onion and chilies until soft and fragrant.", "minutes": 2 },
+      { "text": "Add the crabs and toss in the aromatics for a couple of minutes.", "minutes": 2 },
+      { "text": "Stir in the tomato sauce, sweet chili sauce, soy sauce, brown sugar and water. Cover and simmer, tossing now and then, until the shells are orange and the flesh is cooked.", "minutes": 12 },
+      { "text": "Stir the cornstarch mixture and pour it in, tossing until the sauce thickens.", "minutes": 1 },
+      { "text": "Drizzle the egg over the sauce, let it set for a few seconds, then fold through in ribbons. Top with spring onions and serve.", "minutes": 1 }
+    ],
+    "tips": "Taste the sauce before the egg goes in and adjust: more sugar if it is too sharp, more chili if it is too tame."
+  },
+  {
+    "slug": "steamed-crabs-with-spiced-vinegar",
+    "title": "Steamed crabs with spiced vinegar",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "vinegar", "garlic", "lemongrass", "ginger"],
+    "prep": 25,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Blue crabs steamed over lemongrass and ginger until sweet and juicy, then cracked open at the table and dipped in sharp, garlicky vinegar. The simplest way to enjoy fresh crab.",
+    "groups": [
+      {
+        "title": "For the crabs",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "kg", "name": "live blue crabs (alimasag)", "note": "about 8" },
+          { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and cut in half" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the spiced vinegar",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the live crabs in the freezer until sluggish, then scrub them well under running water.", "minutes": 20 },
+      { "text": "Put the lemongrass, ginger, salt and water in a large pot fitted with a steamer rack and bring to a boil.", "minutes": 5 },
+      { "text": "Arrange the crabs belly side up on the rack, cover tightly and steam until the shells are bright orange throughout.", "minutes": 15 },
+      { "text": "While the crabs steam, stir together the vinegar, garlic, onion, chilies, pepper and salt.", "minutes": null },
+      { "text": "Serve the crabs hot with the spiced vinegar and rice, with a mallet or the back of a spoon for cracking the claws.", "minutes": null }
+    ],
+    "tips": "Steaming belly side up keeps the crab fat inside the shell instead of letting it drip into the water."
+  },
+  {
+    "slug": "rellenong-alimango",
+    "title": "Rellenong alimango",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "egg", "onion", "garlic", "tomato", "fish sauce"],
+    "prep": 60,
+    "cook": 40,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Crab shells stuffed with sautéed crabmeat, tomato and egg, then fried until golden on top. A labor of love for fiestas and Noche Buena, served with banana ketchup or spiced vinegar.",
+    "groups": [
+      {
+        "title": "For the crabs",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "medium mud crabs", "note": "about 1.2 kg, or 6 blue crabs" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "tomato", "note": "seeded and diced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten, divided" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cooking oil", "note": "for shallow-frying" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the live crabs in the freezer until sluggish, then scrub them well.", "minutes": 20 },
+      { "text": "Steam the crabs over boiling water until bright orange and cooked through.", "minutes": 15 },
+      { "text": "Leave the crabs until cool enough to handle.", "minutes": 10 },
+      { "text": "Lift off the top shells and set them aside. Pick out all the flesh from the bodies and claws and scrape out the crab fat. Rinse and dry the top shells.", "minutes": null },
+      { "text": "Heat the 2 tablespoons of oil in a pan over medium heat. Cook the garlic and onion until soft, then add the tomato and cook until it softens.", "minutes": 3 },
+      { "text": "Add the picked crab and crab fat, season with the fish sauce and pepper and cook until dry. Let it cool for a few minutes.", "minutes": 3 },
+      { "text": "Mix in half the beaten egg, the flour and the spring onions. Pack the filling firmly into the shells and brush the tops with the remaining egg.", "minutes": null },
+      { "text": "Heat the frying oil in a wide pan over medium heat. Fry the crabs filling side down until golden.", "minutes": 3 },
+      { "text": "Turn them over and fry the shell side briefly, then drain on paper towels. Serve with banana ketchup or spiced vinegar.", "minutes": 1 }
+    ],
+    "tips": "The picked crab and filling can be made a day ahead and kept in the fridge. Stuff and fry just before serving."
+  },
+  {
+    "slug": "tortang-alimasag",
+    "title": "Tortang alimasag",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "egg", "onion", "tomato", "garlic"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A fluffy omelet packed with sautéed crab, tomato and onion, fried in small rounds. Sweet from the crab and savory from the fish sauce, it is lovely with rice and banana ketchup.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "cooked crab, flaked", "note": "about 1.5 cups, picked from steamed alimasag or pasteurized crabmeat" },
+          { "qty": 5, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "divided" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "tomato", "note": "seeded and diced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat 1 tablespoon of the oil in a pan over medium heat. Cook the garlic, onion and tomato until soft.", "minutes": 3 },
+      { "text": "Add the crab, fish sauce and pepper and cook for a minute. Let it cool slightly.", "minutes": 1 },
+      { "text": "Beat the eggs in a bowl and stir in the crab mixture and spring onions.", "minutes": null },
+      { "text": "Heat a little of the remaining oil in a small nonstick pan over medium heat. Pour in a quarter of the mixture and spread it into a round. Cook until the edges set and the bottom is golden.", "minutes": 2 },
+      { "text": "Flip with a wide spatula and cook the other side until set. Repeat with the rest of the mixture.", "minutes": 1 },
+      { "text": "Serve warm with rice and banana ketchup.", "minutes": null }
+    ],
+    "tips": "Steamed crabs left over from the day before are perfect here. Pick the flesh while the crabs are still cool from the fridge: it comes out in bigger pieces."
+  },
+  {
+    "slug": "ginisang-taba-ng-talangka",
+    "title": "Ginisang taba ng talangka",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "garlic", "calamansi"],
+    "prep": 60,
+    "cook": 20,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "The rich orange fat of tiny shore crabs, slowly sautéed in garlic and oil until deep and fragrant. Intensely savory and briny, it is eaten a spoonful at a time over hot rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "live talangka (small shore crabs)", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cooking oil", "note": "" },
+          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head)" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Wash the talangka in several changes of water, swirling them until the water runs clear. Drain.", "minutes": null },
+      { "text": "Working one at a time, pull off the top shell and scrape the orange fat and soft insides from the shell and body into a bowl with a small spoon or your thumb. Discard the gills and shells.", "minutes": null },
+      { "text": "Heat the oil in a small pan over low heat and cook the garlic until golden.", "minutes": 3 },
+      { "text": "Add the crab fat and cook over low heat, stirring often, until it darkens to a deep orange and the oil separates at the edges.", "minutes": 12 },
+      { "text": "Season with the salt, calamansi juice and pepper. Cool and spoon into a clean jar.", "minutes": null },
+      { "text": "Serve a spoonful or two over hot rice.", "minutes": null }
+    ],
+    "tips": "Keep it in a covered jar in the fridge for up to a week and always scoop with a clean, dry spoon. It is also the base for aligue rice and pasta."
+  },
+  {
+    "slug": "crispy-crablets",
+    "title": "Crispy crablets",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "garlic", "vinegar"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Tiny whole crabs dredged in seasoned cornstarch and deep-fried until crunchy enough to eat shell and all. Salty and addictive, a favorite pulutan dipped in spiced vinegar.",
+    "groups": [
+      {
+        "title": "For the crablets",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "crablets", "note": "thawed if frozen" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "garlic powder", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for deep-frying" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "vinegar", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the crablets, drain them well and pat them very dry with paper towels.", "minutes": null },
+      { "text": "Mix the cornstarch, flour, salt, pepper and garlic powder in a bowl. Toss the crablets in it until coated and shake off the excess.", "minutes": null },
+      { "text": "Heat the oil in a deep pan to 180°C (350°F). Fry the crablets in batches, stirring once, until golden and crisp.", "minutes": 4 },
+      { "text": "Drain on paper towels. Stir the vinegar, garlic, onion and chili together for the dip.", "minutes": null },
+      { "text": "Serve the crablets hot with the spiced vinegar.", "minutes": null }
+    ],
+    "tips": "Crablets are wet even after thawing, and water makes hot oil spatter. Dry them thoroughly and lower them into the oil with a slotted spoon."
+  }
+]

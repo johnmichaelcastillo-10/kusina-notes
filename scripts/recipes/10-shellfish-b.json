@@ -1,0 +1,1055 @@
+[
+  {
+    "slug": "black-pepper-crab",
+    "title": "Black pepper crab",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "butter", "garlic", "onion", "soy sauce"],
+    "prep": 30,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crabs tossed in a dark, buttery sauce loaded with freshly cracked black pepper, garlic and a little oyster sauce. Peppery heat instead of chili heat, and a seafood restaurant favorite for sharing.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "kg", "name": "live mud crabs", "note": "about 4 medium" },
+          { "qty": 4, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "black peppercorns", "note": "coarsely cracked" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the live crabs in the freezer until sluggish.", "minutes": 20 },
+      { "text": "Scrub the crabs. Remove the apron, top shell and gills, cut each body in half and crack the claws with the back of a heavy knife.", "minutes": null },
+      { "text": "Heat the butter and oil in a wok over medium heat. Cook the garlic, onion and cracked pepper, stirring, until fragrant and the onion softens.", "minutes": 2 },
+      { "text": "Add the oyster sauce, soy sauce, brown sugar and water and bring to a boil.", "minutes": null },
+      { "text": "Add the crabs and toss to coat. Cover and cook, tossing halfway, until the shells are bright orange and the flesh is opaque.", "minutes": 12 },
+      { "text": "Uncover and toss over high heat until the sauce reduces and clings to the shells. Top with spring onions and serve.", "minutes": 3 }
+    ],
+    "tips": "Crack the peppercorns yourself in a mortar or under a heavy pan. Pre-ground pepper turns the sauce muddy and dull."
+  },
+  {
+    "slug": "salted-egg-crab",
+    "title": "Salted egg crab",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "salted egg", "butter", "garlic", "chili", "evaporated milk"],
+    "prep": 30,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Crab pieces fried until cooked through, then tossed in a foamy sauce of salted egg yolk, butter, garlic and chili. Rich, salty and a little sweet, with sauce that ends up on everyone's fingers.",
+    "groups": [
+      {
+        "title": "For the crabs",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "kg", "name": "live mud crabs", "note": "about 4 medium" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "salted egg yolks", "note": "from cooked salted eggs, finely mashed" },
+          { "qty": 4, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 3, "max": null, "unit": "", "name": "siling labuyo", "note": "sliced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the live crabs in the freezer until sluggish.", "minutes": 20 },
+      { "text": "Scrub the crabs. Remove the apron, top shell and gills, cut each body into quarters and crack the claws. Pat dry and dust with the cornstarch.", "minutes": null },
+      { "text": "Heat the oil in a wok to 180°C (350°F). Fry the crabs in batches, turning, until the shells are red and the flesh is cooked through. Drain.", "minutes": 6 },
+      { "text": "Pour the oil out and wipe the wok. Melt the butter over low heat and cook the garlic and chilies until fragrant.", "minutes": 1 },
+      { "text": "Add the mashed yolks and stir constantly until foamy and sandy.", "minutes": 2 },
+      { "text": "Stir in the evaporated milk and sugar and cook until smooth.", "minutes": 1 },
+      { "text": "Return the crabs and toss until every piece is coated. Serve right away with rice.", "minutes": null }
+    ],
+    "tips": "Fry the thick claws a little longer than the body pieces, and keep the sauce over low heat so the yolk does not scorch."
+  },
+  {
+    "slug": "baked-tahong",
+    "title": "Baked tahong",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["mussels", "cheese", "garlic", "butter"],
+    "prep": 25,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Mussels on the half shell topped with garlic butter and grated cheese, baked until bubbling and golden. Salty, cheesy and gone as fast as you can put the tray down.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "large green mussels (tahong)", "note": "about 30" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "butter", "note": "melted" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "chopped parsley", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "grated quick-melt or cheddar cheese", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "grated Parmesan", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Scrub the mussels and pull off the beards. Discard any with broken shells or that stay open when tapped.", "minutes": null },
+      { "text": "Bring the water to a boil in a large pot, add the mussels, cover and cook until the shells open. Discard any that stay shut.", "minutes": 5 },
+      { "text": "Heat the oven to 200°C (400°F). When the mussels are cool enough to handle, pull off and discard the empty half of each shell and loosen the mussel in the other half.", "minutes": 10 },
+      { "text": "Arrange the mussels on a baking tray. Mix the butter, garlic and parsley and spoon a little over each one, then top with the cheeses.", "minutes": null },
+      { "text": "Bake until the cheese melts and turns golden in spots.", "minutes": 10 },
+      { "text": "Serve hot, straight from the tray.", "minutes": null }
+    ],
+    "tips": "Nestle the shells in a bed of rock salt or crumpled foil so they sit level and the butter stays in."
+  },
+  {
+    "slug": "tahong-with-garlic",
+    "title": "Tahong with garlic",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["mussels", "garlic", "butter", "onion", "chili"],
+    "prep": 20,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Mussels steamed open in a covered pan with butter, lots of garlic and a little chili. The shells collect a buttery, briny sauce that is perfect spooned over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "green mussels (tahong)", "note": "scrubbed and debearded" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head)" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 2, "max": null, "unit": "", "name": "green finger chilies", "note": "sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "optional, to taste" },
+          { "qty": 3, "max": null, "unit": "", "name": "spring onions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Discard any mussels with broken shells or that stay open when tapped.", "minutes": null },
+      { "text": "Heat the butter and oil in a wide pot over medium heat. Cook the garlic until pale golden.", "minutes": 2 },
+      { "text": "Add the onion and cook until soft.", "minutes": 2 },
+      { "text": "Add the mussels, chilies and water. Cover, raise the heat to high and cook, shaking the pot now and then, until the shells open.", "minutes": 6 },
+      { "text": "Discard any that stay shut. Taste the sauce and season with the pepper, and with fish sauce only if it needs salt.", "minutes": null },
+      { "text": "Toss in the spring onions and serve with the garlic sauce spooned over.", "minutes": null }
+    ],
+    "tips": "Mussels release a lot of salty liquid as they open, so always taste before adding fish sauce."
+  },
+  {
+    "slug": "steamed-tahong",
+    "title": "Steamed tahong",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["mussels", "lemongrass", "ginger", "vinegar", "garlic"],
+    "prep": 15,
+    "cook": 12,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Mussels steamed open over lemongrass and ginger, eaten straight from the shell with spiced vinegar. Clean, briny and fragrant, with the cooking juices sipped from a cup on the side.",
+    "groups": [
+      {
+        "title": "For the mussels",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "green mussels (tahong)", "note": "scrubbed and debearded" },
+          { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and cut in half" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Discard any mussels with broken shells or that stay open when tapped.", "minutes": null },
+      { "text": "Put the lemongrass, ginger, water and salt in a large pot and bring to a boil.", "minutes": 3 },
+      { "text": "Add the mussels, cover and steam over high heat, shaking the pot once or twice, until the shells open.", "minutes": 5 },
+      { "text": "Discard any that stay shut. Stir the vinegar, garlic and chili together with a pinch of salt and pepper.", "minutes": null },
+      { "text": "Pile the mussels on a platter and serve with the dip, with the hot cooking liquid poured into small cups on the side.", "minutes": null }
+    ],
+    "tips": "Take the mussels off the heat as soon as they open. A couple of extra minutes shrinks them and makes them chewy."
+  },
+  {
+    "slug": "tahong-in-black-bean-sauce",
+    "title": "Tahong in black bean sauce",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["mussels", "garlic", "ginger", "chili", "onion"],
+    "prep": 20,
+    "cook": 12,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Mussels cooked open in a savory sauce of salted black beans, garlic, ginger and chili. Salty, a little spicy and glossy, it tastes like something from a Chinese seafood restaurant.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "green mussels (tahong)", "note": "scrubbed and debearded" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salted black beans (tausi)", "note": "rinsed and lightly mashed" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "", "name": "red finger chilies", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "mixed with 1 tbsp water" },
+          { "qty": 2, "max": null, "unit": "", "name": "spring onions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Discard any mussels with broken shells or that stay open when tapped.", "minutes": null },
+      { "text": "Heat the oil in a wok or wide pot over medium-high heat. Stir-fry the garlic, ginger and onion until fragrant.", "minutes": 2 },
+      { "text": "Add the tausi and chilies and stir for a few seconds.", "minutes": null },
+      { "text": "Add the mussels, oyster sauce, sugar and water and toss. Cover and cook over high heat, shaking the pan, until the shells open.", "minutes": 6 },
+      { "text": "Discard any that stay shut. Stir the cornstarch mixture, pour it in and toss until the sauce thickens.", "minutes": 1 },
+      { "text": "Scatter over the spring onions and serve with rice.", "minutes": null }
+    ],
+    "tips": "Between the tausi, oyster sauce and mussel juices there is plenty of salt. Do not add more until you have tasted."
+  },
+  {
+    "slug": "halaan-in-garlic-butter",
+    "title": "Halaan in garlic butter",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["clams", "garlic", "butter", "calamansi"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Clams steamed open in garlic butter with a squeeze of calamansi and a sprinkle of spring onions. Briny and buttery, with a small amount of sauce that is wonderful over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "live clams (halaan)", "note": "purged and scrubbed" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "red finger chili", "note": "sliced, optional" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "spring onions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Discard any clams with cracked shells or that stay open when tapped.", "minutes": null },
+      { "text": "Heat the butter and oil in a wide pot over medium heat. Cook the garlic until fragrant and pale gold, then add the onion and cook until soft.", "minutes": 3 },
+      { "text": "Add the clams, water and chili. Cover, raise the heat to high and cook, shaking the pot, until the shells open.", "minutes": 5 },
+      { "text": "Discard any that stay shut. Add the calamansi juice and pepper and toss. Taste before adding salt, as the clams are already briny.", "minutes": null },
+      { "text": "Top with the spring onions and serve right away.", "minutes": null }
+    ],
+    "tips": "To purge sand, soak the clams in salted water (about 1 tablespoon salt per liter) for an hour or two before cooking, then lift them out instead of pouring them into a colander."
+  },
+  {
+    "slug": "halaan-in-oyster-sauce",
+    "title": "Halaan in oyster sauce",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["clams", "garlic", "ginger", "chili"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Clams stir-fried with ginger, garlic and chili in a sticky oyster sauce. Savory and gently spicy, a quick Chinese-style dish to serve with rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "live clams (halaan)", "note": "purged and scrubbed" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "", "name": "red finger chilies", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "mixed with 1 tbsp water" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "spring onions", "note": "cut into 5-cm lengths" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Discard any clams with cracked shells or that stay open when tapped. Stir the oyster sauce, soy sauce, sugar and water together.", "minutes": null },
+      { "text": "Heat the oil in a wok over high heat. Stir-fry the garlic, ginger and chilies until fragrant.", "minutes": 1 },
+      { "text": "Add the clams and the sauce mixture, toss, then cover and cook, shaking the wok, until the shells open.", "minutes": 5 },
+      { "text": "Discard any that stay shut. Stir the cornstarch mixture, pour it in and toss until the sauce turns glossy.", "minutes": 1 },
+      { "text": "Add the spring onions and sesame oil, toss once more and serve.", "minutes": null }
+    ],
+    "tips": "Purge the clams in salted water for an hour or two first. Sand in the sauce ruins the dish."
+  },
+  {
+    "slug": "baked-talaba",
+    "title": "Baked talaba",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["oysters", "cheese", "garlic", "butter", "calamansi"],
+    "prep": 30,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Fresh oysters on the half shell topped with garlic butter, cheese and breadcrumbs, then baked until golden and bubbling. Creamy and briny under a crisp, cheesy top, with calamansi to squeeze over.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 24, "max": null, "unit": "", "name": "fresh oysters in the shell", "note": "about 1.5 kg" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "butter", "note": "melted" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "chopped parsley", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "grated cheddar or quick-melt cheese", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "breadcrumbs", "note": "" },
+          { "qty": 4, "max": null, "unit": "", "name": "calamansi", "note": "halved, to serve" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Scrub the oysters well under running water to remove mud and grit.", "minutes": null },
+      { "text": "Steam the oysters over boiling water just until the shells start to part.", "minutes": 3 },
+      { "text": "Heat the oven to 220°C (425°F). Pry off the flat top shells with a butter knife and loosen each oyster in its deep shell, keeping the juices.", "minutes": null },
+      { "text": "Arrange the oysters on a baking tray. Mix the butter, garlic and parsley and spoon a little onto each, then top with the cheese and a pinch of breadcrumbs.", "minutes": null },
+      { "text": "Bake until the cheese melts and the tops turn golden.", "minutes": 8 },
+      { "text": "Serve hot with calamansi halves.", "minutes": null }
+    ],
+    "tips": "The brief steam is only to open the shells. The oysters finish cooking in the oven, so they stay plump."
+  },
+  {
+    "slug": "steamed-talaba",
+    "title": "Steamed talaba",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["oysters", "vinegar", "garlic", "onion", "chili"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A big pot of oysters steamed until the shells open, then pried apart at the table and dipped in garlicky spiced vinegar. Sweet, briny and best eaten in a crowd.",
+    "groups": [
+      {
+        "title": "For the oysters",
+        "items": [
+          { "qty": 2, "max": null, "unit": "kg", "name": "fresh oysters in the shell", "note": "about 40" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the spiced vinegar",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Scrub the oysters well under running water to remove mud and grit. Discard any that are cracked.", "minutes": null },
+      { "text": "Stir the vinegar, garlic, onion, chilies, pepper and salt together and set aside.", "minutes": null },
+      { "text": "Bring the water to a boil in a large pot fitted with a steamer rack.", "minutes": 3 },
+      { "text": "Add the oysters, cover tightly and steam until the shells open slightly.", "minutes": 8 },
+      { "text": "Serve right away with the spiced vinegar and a butter knife for prying the shells apart.", "minutes": null }
+    ],
+    "tips": "Steam in two batches if your pot is small. Oysters packed too deep cook unevenly, so the top layer stays closed."
+  },
+  {
+    "slug": "inihaw-na-talaba",
+    "title": "Inihaw na talaba",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["oysters", "garlic", "butter", "calamansi", "chili"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Oysters grilled over charcoal until they pop open, then finished with a spoonful of garlic butter and a squeeze of calamansi. Smoky and briny, a beach and backyard favorite.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "kg", "name": "fresh oysters in the shell", "note": "about 40, scrubbed" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "butter", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "chili flakes", "note": "optional" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" },
+          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Light a charcoal grill and let the coals burn down to medium-hot.", "minutes": null },
+      { "text": "Melt the butter in a small pan over low heat. Add the garlic, chili flakes and salt and cook until fragrant. Keep warm.", "minutes": 2 },
+      { "text": "Lay the oysters on the grill with the deep, cupped side down so the juices stay in. Grill until the shells pop open.", "minutes": 6 },
+      { "text": "Using tongs and a towel, lift off the top shells. Spoon a little garlic butter onto each oyster and grill until the butter bubbles.", "minutes": 2 },
+      { "text": "Serve straight off the grill with the calamansi halves.", "minutes": null }
+    ],
+    "tips": "Throw away any oyster that is cracked before grilling or that stays firmly shut after the others have opened."
+  },
+  {
+    "slug": "calamares",
+    "title": "Calamares",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "flour", "egg", "calamansi", "garlic"],
+    "prep": 20,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Squid rings coated in flour, egg and breadcrumbs and fried quickly until golden and crunchy. Tender inside, served with garlic mayo or spiced vinegar as pulutan or ulam.",
+    "groups": [
+      {
+        "title": "For the squid",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "squid", "note": "cleaned, tubes cut into 1-cm rings" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "panko breadcrumbs", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for deep-frying" }
+        ]
+      },
+      {
+        "title": "For the garlic mayo",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
+          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "grated" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "calamansi juice", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the squid rings dry and toss with the calamansi juice, salt and pepper. Leave to season.", "minutes": 10 },
+      { "text": "Set out three shallow bowls: the flour, the beaten eggs and the breadcrumbs.", "minutes": null },
+      { "text": "Dredge each ring in flour, dip in egg and press into the breadcrumbs. Lay the coated rings on a tray.", "minutes": null },
+      { "text": "Heat the oil in a deep pan to 180°C (350°F). Fry the rings in batches just until golden.", "minutes": 2 },
+      { "text": "Drain on a rack or paper towels. Stir the mayonnaise, garlic and calamansi juice together and serve with the hot calamares.", "minutes": null }
+    ],
+    "tips": "Fry hot and fast. Squid turns rubbery after a couple of minutes, so pull the rings as soon as the crumbs are golden."
+  },
+  {
+    "slug": "rellenong-pusit",
+    "title": "Rellenong pusit",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["squid", "ground pork", "egg", "carrot", "onion", "garlic"],
+    "prep": 40,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Whole squid stuffed with seasoned ground pork, chopped tentacles and vegetables, then pan-fried until golden and sliced into rounds. Savory and juicy, a special-occasion ulam served with banana ketchup.",
+    "groups": [
+      {
+        "title": "For the squid",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "large squid", "note": "about 1 kg total" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "for dusting" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cooking oil", "note": "for pan-frying" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "tomato", "note": "seeded and diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Clean the squid: pull the head and tentacles from each tube, pull out the clear quill and rinse the tubes inside and out. Cut the tentacles off just below the eyes and chop them finely. Discard the heads.", "minutes": null },
+      { "text": "Mix the chopped tentacles with all the filling ingredients in a bowl until well combined.", "minutes": null },
+      { "text": "Stuff each tube about three-quarters full, since the filling expands as it cooks. Close the openings with toothpicks and prick each tube in a few places.", "minutes": null },
+      { "text": "Pat the squid dry and dust lightly with flour.", "minutes": null },
+      { "text": "Heat the oil in a wide pan over medium-low heat. Add the squid, cover and cook, turning every few minutes, until golden all over and the filling is firm when pressed.", "minutes": 15 },
+      { "text": "Rest for 5 minutes, remove the toothpicks and slice into rounds. Serve with banana ketchup and rice.", "minutes": 5 }
+    ],
+    "tips": "Pricking the tubes lets steam escape so they do not burst. Cover the pan, as the squid spatters while it fries."
+  },
+  {
+    "slug": "inihaw-na-pusit",
+    "title": "Inihaw na pusit",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "tomato", "onion", "soy sauce", "calamansi", "garlic"],
+    "prep": 25,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Whole squid stuffed with tomato and onion, basted with a sweet soy and calamansi marinade and grilled over hot coals. Smoky, juicy and a little charred, a staple at every ihawan.",
+    "groups": [
+      {
+        "title": "For the squid",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "medium squid", "note": "about 800 g, cleaned, tubes whole" },
+          { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced, optional" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the marinade",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "banana ketchup", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the soy sauce, calamansi juice, brown sugar, garlic and pepper. Add the squid tubes and tentacles and marinate.", "minutes": 15 },
+      { "text": "Meanwhile, mix the tomatoes, onion, ginger and salt for the stuffing.", "minutes": null },
+      { "text": "Lift the squid out of the marinade. Stuff each tube with the tomato mixture and close with a toothpick. Stir the banana ketchup and oil into the leftover marinade for basting.", "minutes": null },
+      { "text": "Grill the squid and tentacles over hot coals, basting and turning, until opaque and lightly charred, about 3 minutes per side. Do not overcook.", "minutes": 6 },
+      { "text": "Rest for a minute, then slice into rings and serve with rice and a dip of soy sauce, calamansi and chili.", "minutes": null }
+    ],
+    "tips": "A very hot grill is the secret: the squid chars on the outside before it has time to toughen inside."
+  },
+  {
+    "slug": "squid-in-oyster-sauce",
+    "title": "Squid in oyster sauce",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "garlic", "ginger", "bell pepper", "onion"],
+    "prep": 15,
+    "cook": 8,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Scored squid and bell pepper stir-fried in a flash with garlic, ginger and oyster sauce. Tender, savory and glossy, ready in under ten minutes of cooking.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 600, "max": null, "unit": "g", "name": "squid", "note": "cleaned" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "cut into wedges" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into squares" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "spring onions", "note": "cut into 5-cm lengths" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Slit the squid tubes open and score the inside in a crisscross pattern without cutting through. Cut into bite-size pieces and halve the tentacles. Pat dry.", "minutes": null },
+      { "text": "Stir the oyster sauce, soy sauce, sugar, water and cornstarch together in a bowl.", "minutes": null },
+      { "text": "Heat the oil in a wok over high heat. Stir-fry the garlic, ginger and onion until fragrant, then add the bell pepper and toss.", "minutes": 2 },
+      { "text": "Add the squid and stir-fry just until it curls and turns opaque.", "minutes": 2 },
+      { "text": "Stir the sauce, pour it in and toss until glossy. Add the spring onions and serve immediately.", "minutes": null }
+    ],
+    "tips": "Have everything ready before the wok gets hot. The squid cooks in about two minutes, and every extra minute makes it chewier."
+  },
+  {
+    "slug": "salt-and-pepper-squid",
+    "title": "Salt and pepper squid",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "garlic", "chili"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Squid pieces in a thin, crisp cornstarch coating, tossed with fried garlic, chilies and peppery salt. Lighter than calamares and very hard to stop eating.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 600, "max": null, "unit": "g", "name": "squid", "note": "cleaned, tubes cut into strips, tentacles halved" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg white", "note": "lightly beaten" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "divided" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "red finger chilies", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "", "name": "spring onions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the squid very dry. Mix 0.75 teaspoon of the salt with the pepper and sugar and set aside.", "minutes": null },
+      { "text": "Toss the squid with the egg white, then with the cornstarch and the remaining salt until evenly coated.", "minutes": null },
+      { "text": "Heat the oil in a wok to 190°C (375°F). Fry the squid in small batches until crisp and pale golden.", "minutes": 2 },
+      { "text": "Drain. Pour off all but 1 tablespoon of the oil and cook the garlic and chilies over medium heat until fragrant.", "minutes": 1 },
+      { "text": "Return the squid, add the spring onions and the salt and pepper mix, toss quickly and serve at once.", "minutes": null }
+    ],
+    "tips": "Fry in small batches so the oil stays hot. The squid should be in the oil for barely more than a minute."
+  },
+  {
+    "slug": "sizzling-pusit",
+    "title": "Sizzling pusit",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "butter", "onion", "soy sauce", "calamansi", "garlic"],
+    "prep": 20,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Seared squid served on a hot plate over buttery onions, with a salty-sour soy and calamansi sauce. It comes to the table hissing and is a favorite pulutan with cold drinks.",
+    "groups": [
+      {
+        "title": "For the squid",
+        "items": [
+          { "qty": 600, "max": null, "unit": "g", "name": "squid", "note": "cleaned, tubes kept whole" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "large onion", "note": "cut into rings" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Set a cast-iron sizzling plate on the stove over medium heat to heat through.", "minutes": 10 },
+      { "text": "Meanwhile, score the squid tubes lightly on one side and toss tubes and tentacles with the soy sauce, calamansi juice and pepper.", "minutes": 10 },
+      { "text": "Heat the oil in a heavy pan over high heat until smoking. Sear the squid until just opaque and browned in spots, about 1 minute per side. Slice the tubes into thick rings.", "minutes": 2 },
+      { "text": "Melt the butter in the same pan over medium heat. Cook the garlic and onion until the onion is just soft, then stir in the soy sauce, calamansi juice, oyster sauce, sugar and chilies.", "minutes": 3 },
+      { "text": "Pour the onions and sauce onto the hot plate, pile the squid on top and scatter with spring onions. Serve while it sizzles.", "minutes": null }
+    ],
+    "tips": "Get the pan smoking hot before the squid goes in, and do not crowd it. Squid that steams instead of sears turns pale and rubbery."
+  },
+  {
+    "slug": "ginisang-pusit",
+    "title": "Ginisang pusit",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "tomato", "onion", "garlic", "fish sauce"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Squid rings sautéed in a quick sauce of tomatoes, onion and garlic seasoned with fish sauce. A light, everyday ulam where the tomatoes do most of the work.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 600, "max": null, "unit": "g", "name": "squid", "note": "cleaned, tubes cut into rings" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 3, "max": null, "unit": "", "name": "medium tomatoes", "note": "chopped" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "green finger chilies", "note": "sliced" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pan over medium heat. Cook the garlic and onion until soft.", "minutes": 2 },
+      { "text": "Add the tomatoes and cook, pressing with the spoon, until soft and saucy.", "minutes": 5 },
+      { "text": "Add the water, fish sauce and chilies and simmer.", "minutes": 2 },
+      { "text": "Raise the heat to high, add the squid and cook, stirring, just until it turns opaque.", "minutes": 2 },
+      { "text": "Season with the pepper, taste for fish sauce and serve right away with rice.", "minutes": null }
+    ],
+    "tips": "Build the sauce first and add the squid last. Two minutes in the pan is enough."
+  },
+  {
+    "slug": "garlic-butter-squid",
+    "title": "Garlic butter squid",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "garlic", "butter", "calamansi", "chili"],
+    "prep": 15,
+    "cook": 8,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Squid seared hard and fast, then tossed in garlic butter with a splash of soy sauce and calamansi. Tender, buttery and very garlicky.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 600, "max": null, "unit": "g", "name": "squid", "note": "cleaned, tubes cut into rings, tentacles halved" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "chili flakes", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions or parsley", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the squid very dry and season with the salt and pepper.", "minutes": null },
+      { "text": "Heat the oil in a large skillet over high heat. Sear the squid in two batches in a single layer until just opaque, about 1 minute per batch. Transfer to a plate.", "minutes": 2 },
+      { "text": "Lower the heat to medium-low. Add the butter and garlic and cook until fragrant and pale gold.", "minutes": 2 },
+      { "text": "Stir in the soy sauce, calamansi juice and chili flakes. Return the squid with its juices and toss for a few seconds to coat.", "minutes": null },
+      { "text": "Scatter over the spring onions and serve with rice.", "minutes": null }
+    ],
+    "tips": "Squid gives off water as it cooks. Searing in batches in a very hot pan keeps it from stewing."
+  },
+  {
+    "slug": "sweet-and-spicy-squid",
+    "title": "Sweet and spicy squid",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "chili", "garlic", "onion", "soy sauce"],
+    "prep": 15,
+    "cook": 8,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Squid stir-fried in a sticky glaze of sweet chili sauce, banana ketchup and soy sauce with fresh chilies. Sweet first, then hot, and very good with plain rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 600, "max": null, "unit": "g", "name": "squid", "note": "cleaned, tubes cut into rings" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 3, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "sweet chili sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "banana ketchup", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "toasted sesame seeds", "note": "optional" },
+          { "qty": 2, "max": null, "unit": "", "name": "spring onions", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the squid dry. Stir the sweet chili sauce, banana ketchup, soy sauce, calamansi juice, water and cornstarch together.", "minutes": null },
+      { "text": "Heat the oil in a wok over high heat. Stir-fry the garlic, onion and chilies until fragrant.", "minutes": 1 },
+      { "text": "Add the squid and stir-fry until it just turns opaque.", "minutes": 2 },
+      { "text": "Stir the sauce, pour it in and toss until it bubbles and glazes the squid.", "minutes": 1 },
+      { "text": "Sprinkle with sesame seeds and spring onions and serve immediately.", "minutes": null }
+    ],
+    "tips": "Adjust the heat with the fresh chilies rather than more sauce, so the glaze stays thick and the squid does not sit in liquid."
+  },
+  {
+    "slug": "salted-egg-squid",
+    "title": "Salted egg squid",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "salted egg", "butter", "garlic", "chili"],
+    "prep": 20,
+    "cook": 12,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crisp fried squid rings tossed in a buttery, foamy salted egg yolk sauce with garlic and chili. Crunchy, salty and rich, it is a popular pulutan and ulam alike.",
+    "groups": [
+      {
+        "title": "For the squid",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "squid", "note": "cleaned, tubes cut into rings" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 3, "max": null, "unit": "", "name": "salted egg yolks", "note": "from cooked salted eggs, finely mashed" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "siling labuyo", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "evaporated milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the squid very dry and toss with the cornstarch and salt.", "minutes": null },
+      { "text": "Heat the oil in a wok to 190°C (375°F). Fry the squid in small batches until crisp and pale golden. Drain.", "minutes": 2 },
+      { "text": "Pour the oil out and wipe the wok. Melt the butter over low heat and cook the garlic and chilies until fragrant.", "minutes": 1 },
+      { "text": "Add the mashed yolks and stir constantly until foamy and sandy.", "minutes": 2 },
+      { "text": "Stir in the evaporated milk and sugar until combined, then add the squid and toss to coat. Serve at once.", "minutes": null }
+    ],
+    "tips": "This sauce is meant to coat, not pool. Keep the milk to a couple of tablespoons so the squid stays crisp."
+  },
+  {
+    "slug": "inihaw-na-pugita",
+    "title": "Inihaw na pugita",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["octopus", "soy sauce", "calamansi", "garlic", "onion"],
+    "prep": 15,
+    "cook": 75,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Octopus simmered until tender, then marinated in soy sauce and calamansi and charred over hot coals. Smoky and charred outside, tender inside, and great as pulutan.",
+    "groups": [
+      {
+        "title": "For simmering",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "kg", "name": "octopus (pugita)", "note": "1 large or 2 medium, cleaned" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "halved" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the marinade",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rub the octopus all over with a handful of salt to remove the slime, then rinse well.", "minutes": null },
+      { "text": "Bring a large pot of water to a boil with the onion, garlic, bay leaves, peppercorns and salt.", "minutes": 10 },
+      { "text": "Holding the octopus by the head, dip it into the boiling water three times so the tentacles curl, then lower it in completely.", "minutes": null },
+      { "text": "Cover and simmer gently until a knife slides easily into the thickest part of a tentacle.", "minutes": 50 },
+      { "text": "Drain and leave until cool enough to handle. Mix the marinade ingredients and toss the octopus in it.", "minutes": 15 },
+      { "text": "Grill over hot coals, turning, until charred in spots, about 3 minutes per side.", "minutes": 6 },
+      { "text": "Cut into pieces and serve with rice or as pulutan, with a dip of soy sauce, calamansi and chili.", "minutes": null }
+    ],
+    "tips": "Octopus is either quick-cooked or long-simmered. Anything in between is tough, so test the tentacle with a knife before grilling and give it more time if it resists."
+  },
+  {
+    "slug": "garlic-octopus",
+    "title": "Garlic octopus",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["octopus", "garlic", "chili", "calamansi", "soy sauce"],
+    "prep": 15,
+    "cook": 70,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Tender simmered octopus sliced and tossed in hot oil with lots of golden garlic, chili, soy sauce and calamansi. Garlicky and spicy, with crisp edges on every piece.",
+    "groups": [
+      {
+        "title": "For simmering",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "octopus (pugita)", "note": "cleaned" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "halved" },
+          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the garlic sauce",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "olive oil or cooking oil", "note": "" },
+          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "thinly sliced (about 1 head)" },
+          { "qty": 3, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chopped spring onions", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rub the octopus with a handful of salt to remove the slime, then rinse well.", "minutes": null },
+      { "text": "Bring a large pot of water to a boil with the onion, bay leaves, peppercorns and salt. Dip the octopus in three times to curl the tentacles, then lower it in.", "minutes": 10 },
+      { "text": "Cover and simmer gently until a knife slides easily into the thickest part of a tentacle.", "minutes": 45 },
+      { "text": "Drain, cool slightly and cut into bite-size pieces. Pat dry.", "minutes": null },
+      { "text": "Warm the oil and garlic in a wide pan over medium-low heat until the garlic is golden.", "minutes": 3 },
+      { "text": "Raise the heat to medium-high, add the octopus and chilies and fry, tossing, until the edges crisp a little.", "minutes": 4 },
+      { "text": "Add the soy sauce, calamansi juice and pepper and toss. Top with spring onions and serve.", "minutes": null }
+    ],
+    "tips": "The simmered octopus keeps for 2 days in the fridge, so you can do the long part ahead and finish it in the pan in minutes."
+  },
+  {
+    "slug": "cajun-seafood-boil",
+    "title": "Cajun seafood boil",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "crab", "mussels", "corn", "potato", "butter"],
+    "prep": 25,
+    "cook": 40,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crabs, shrimp, mussels and clams boiled with corn and potatoes, then tossed in a spicy Cajun garlic butter and poured out onto a table to eat with your hands. A messy, fun spread for a group.",
+    "groups": [
+      {
+        "title": "For the boil",
+        "items": [
+          { "qty": 4, "max": null, "unit": "l", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "Cajun seasoning", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "halved" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 500, "max": null, "unit": "g", "name": "baby potatoes", "note": "scrubbed" },
+          { "qty": 3, "max": null, "unit": "", "name": "ears of sweet corn", "note": "each cut into 3 pieces" },
+          { "qty": 1, "max": null, "unit": "kg", "name": "live blue crabs", "note": "4 to 5, scrubbed" },
+          { "qty": 500, "max": null, "unit": "g", "name": "large shrimp", "note": "shell-on" },
+          { "qty": 500, "max": null, "unit": "g", "name": "green mussels", "note": "scrubbed and debearded" },
+          { "qty": 500, "max": null, "unit": "g", "name": "clams (halaan)", "note": "purged and scrubbed" }
+        ]
+      },
+      {
+        "title": "For the Cajun butter",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "butter", "note": "" },
+          { "qty": 12, "max": null, "unit": "clove", "name": "garlic", "note": "minced (about 1 head)" },
+          { "qty": 1, "max": null, "unit": "", "name": "small onion", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "Cajun seasoning", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "paprika", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "cayenne or chili flakes", "note": "less for mild" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cooking liquid from the boil", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "or lemon juice" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the water to a boil in your largest pot with the salt, Cajun seasoning, onion and crushed garlic.", "minutes": 10 },
+      { "text": "Add the potatoes and boil until almost tender.", "minutes": 10 },
+      { "text": "Add the corn and boil.", "minutes": 5 },
+      { "text": "Add the crabs and boil until the shells turn orange.", "minutes": 8 },
+      { "text": "Add the shrimp, mussels and clams and boil until the shrimp are pink and the shells open. Discard any that stay shut. Save 0.25 cup of the cooking liquid and drain the rest.", "minutes": 3 },
+      { "text": "Meanwhile, melt the butter in a pan over medium heat and cook the garlic and onion until soft.", "minutes": 3 },
+      { "text": "Stir in the Cajun seasoning, paprika, cayenne and brown sugar for a few seconds, then add the reserved cooking liquid and calamansi juice and simmer.", "minutes": 2 },
+      { "text": "Put the seafood, corn and potatoes in a large bowl or a clean food-safe bag, pour over the Cajun butter and toss well.", "minutes": null },
+      { "text": "Pour everything out onto a table lined with banana leaves or paper and eat with your hands.", "minutes": null }
+    ],
+    "tips": "Cajun seasoning blends vary a lot in salt and heat. Taste the butter before tossing and add more cayenne or calamansi to suit."
+  },
+  {
+    "slug": "seafood-chopsuey",
+    "title": "Seafood chopsuey",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "squid", "quail egg", "cabbage", "carrot", "bok choy"],
+    "prep": 25,
+    "cook": 15,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Shrimp, squid and quail eggs with crisp mixed vegetables in a light, glossy oyster sauce gravy. A colorful, filling one-pan dish that feeds the whole family.",
+    "groups": [
+      {
+        "title": "For the stir-fry",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
+          { "qty": 250, "max": null, "unit": "g", "name": "squid", "note": "cleaned, cut into rings" },
+          { "qty": 10, "max": null, "unit": "", "name": "quail eggs", "note": "boiled and peeled" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "sliced" },
+          { "qty": 250, "max": null, "unit": "g", "name": "cauliflower", "note": "cut into florets" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "cut into squares" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "snow peas", "note": "trimmed" },
+          { "qty": 0.25, "max": null, "unit": "", "name": "head cabbage", "note": "cut into squares" },
+          { "qty": 1, "max": null, "unit": "", "name": "bunch pechay (bok choy)", "note": "stems and leaves separated" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a large wok over medium-high heat. Stir-fry the garlic and onion until fragrant.", "minutes": 1 },
+      { "text": "Add the shrimp and squid and stir-fry just until the shrimp turn pink and the squid is opaque. Lift them out onto a plate.", "minutes": 2 },
+      { "text": "Add the carrot, cauliflower and water to the wok, cover and cook until the cauliflower is crisp-tender.", "minutes": 3 },
+      { "text": "Add the bell pepper, snow peas, cabbage and pechay stems with the oyster sauce, fish sauce and pepper and toss.", "minutes": 2 },
+      { "text": "Add the pechay leaves, quail eggs and the shrimp and squid. Stir the cornstarch mixture, pour it in and toss until the sauce thickens and turns glossy.", "minutes": 1 },
+      { "text": "Taste, adjust the seasoning and serve right away with rice.", "minutes": null }
+    ],
+    "tips": "Cut the vegetables to similar sizes and add them hardest first, so everything ends up crisp-tender at the same moment."
+  }
+]

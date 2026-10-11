@@ -1,0 +1,3536 @@
+[
+  {
+    "slug": "tapsilog",
+    "title": "Tapsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "beef",
+      "soy sauce",
+      "calamansi",
+      "garlic",
+      "egg",
+      "rice"
+    ],
+    "prep": 45,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin slices of beef marinated in soy sauce, calamansi and garlic, cooked down until the edges caramelize, then served with garlic fried rice and a fried egg. Salty, garlicky and a little sweet, with vinegar on the side.",
+    "groups": [
+      {
+        "title": "For the tapa",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "beef sirloin or top round",
+            "note": "sliced very thin against the grain"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": "from about 6 calamansi"
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": "with a little minced garlic and chili"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tomatoes",
+            "note": "sliced"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the soy sauce, calamansi juice, garlic, sugar and pepper in a bowl. Add the beef, massage the marinade in and leave it for at least 30 minutes.",
+        "minutes": 30
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until the garlic is golden, then add the rice and salt, raise the heat and toss until hot and lightly toasted.",
+        "minutes": 8
+      },
+      {
+        "text": "Put the beef, its marinade and the water in a wide skillet over medium heat. Simmer, stirring now and then, until the liquid has evaporated.",
+        "minutes": 8
+      },
+      {
+        "text": "Add the oil to the skillet and fry the beef, turning, until browned and caramelized at the edges. Watch it closely: the sugar burns quickly.",
+        "minutes": 5
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat, spooning hot oil over the whites until they set while the yolks stay runny. Season with a pinch of salt.",
+        "minutes": 3
+      },
+      {
+        "text": "Divide the rice, tapa and eggs among plates. Serve with the spiced vinegar for dipping and sliced tomatoes.",
+        "minutes": null
+      }
+    ],
+    "tips": "For deeper flavor, marinate the beef overnight in the fridge. Freezing the beef for 30 minutes first makes it much easier to slice thin."
+  },
+  {
+    "slug": "tocilog",
+    "title": "Tocilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "tocino",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 10,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Sweet cured pork tocino simmered and then fried until sticky and caramelized, with garlic fried rice and a fried egg. The sweet meat plays well against salty rice and a splash of vinegar.",
+    "groups": [
+      {
+        "title": "For the tocino",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "pork tocino",
+            "note": "homemade or store-bought, thawed"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tomatoes",
+            "note": "sliced"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "atchara or cane vinegar",
+            "note": "optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Make the garlic rice first: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Lay the tocino in a single layer in a wide skillet and pour in the water. Simmer over medium heat, turning once, until the water has evaporated and the meat is cooked through.",
+        "minutes": 8
+      },
+      {
+        "text": "Add the oil and lower the heat to medium-low. Fry the tocino, turning often, until the sugar caramelizes into a sticky, dark red glaze.",
+        "minutes": 5
+      },
+      {
+        "text": "In a clean pan, fry the eggs in the oil over medium heat until the whites are set and the edges are crisp.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the tocino with the garlic rice, eggs, tomatoes and atchara or vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "The sugar in tocino burns fast. Once the water is gone, keep the heat at medium-low, and wipe out any blackened bits before frying a second batch."
+  },
+  {
+    "slug": "longsilog",
+    "title": "Longsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "longganisa",
+      "egg",
+      "rice",
+      "garlic",
+      "vinegar"
+    ],
+    "prep": 10,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pork longganisa boiled and then browned in its own fat, served with garlic fried rice, a fried egg and spiced vinegar. Works with sweet or garlicky sausages, cased or skinless.",
+    "groups": [
+      {
+        "title": "For the longganisa",
+        "items": [
+          {
+            "qty": 8,
+            "max": 12,
+            "unit": "",
+            "name": "pork longganisa",
+            "note": "depending on size"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the spiced vinegar",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "siling labuyo",
+            "note": "chopped, optional"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt and ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Stir the vinegar, garlic, chili, salt and pepper together and set aside while you cook.",
+        "minutes": null
+      },
+      {
+        "text": "Prick each sausage a few times with a fork. Put them in a skillet with the water, cover and simmer over medium heat, then uncover and keep cooking until the water has evaporated.",
+        "minutes": 10
+      },
+      {
+        "text": "Add the oil and fry the longganisa in the rendered fat over medium-low heat, rolling them around, until browned on all sides.",
+        "minutes": 6
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set and the yolks still soft.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the longganisa with the rice, eggs and spiced vinegar on the side.",
+        "minutes": null
+      }
+    ],
+    "tips": "Skinless longganisa cooks faster: skip the covered simmer and just let the water evaporate before frying."
+  },
+  {
+    "slug": "bangsilog",
+    "title": "Bangsilog",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "bangus",
+      "vinegar",
+      "garlic",
+      "egg",
+      "rice"
+    ],
+    "prep": 70,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Boneless milkfish marinated in vinegar, garlic and pepper, fried until the skin crackles, with garlic fried rice and a fried egg. Sour, garlicky and rich, with tomatoes on the side to freshen each bite.",
+    "groups": [
+      {
+        "title": "For the bangus",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "boneless bangus",
+            "note": "about 400 g each, butterflied"
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 10,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "crushed"
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "cracked black pepper",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying"
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tomatoes",
+            "note": "diced"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "fresh cane vinegar",
+            "note": "for dipping"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the vinegar, crushed garlic, salt and pepper in a shallow dish. Lay the fish in it flesh side down, cover and refrigerate for at least 1 hour.",
+        "minutes": 60
+      },
+      {
+        "text": "Lift the fish out, discard the marinade and pat both sides very dry with paper towels so the oil does not spatter.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a wide skillet over medium-high heat. Fry one fish at a time, skin side down first, until the skin is crisp and golden, then flip and fry the flesh side. Use a splatter guard.",
+        "minutes": 8
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Cut each fish in half and serve with the rice, eggs, diced tomatoes and a small dish of fresh vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "Marinating overnight gives a more sour, garlicky fish. Marinated bangus freezes well in its marinade for up to a month."
+  },
+  {
+    "slug": "cornsilog",
+    "title": "Cornsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "corned beef",
+      "onion",
+      "garlic",
+      "egg",
+      "rice"
+    ],
+    "prep": 10,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Canned corned beef sautéed with garlic and onion, then left alone in the pan until it forms crisp brown edges, served with garlic fried rice and fried eggs. Salty, savory and fast.",
+    "groups": [
+      {
+        "title": "For the corned beef",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "cans corned beef",
+            "note": "260 g each"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "medium onion",
+            "note": "chopped"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a nonstick skillet over medium heat. Sauté the garlic until fragrant, then add the onion and cook until soft.",
+        "minutes": 3
+      },
+      {
+        "text": "Add the corned beef and break it up with a spatula. Season with pepper; it rarely needs salt.",
+        "minutes": null
+      },
+      {
+        "text": "Spread the corned beef in an even layer and leave it alone until the bottom forms a brown crust. Flip it in sections and let the other side crisp too.",
+        "minutes": 7
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set and the yolks are runny.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the corned beef with the garlic rice and eggs, with banana ketchup on the side if you like.",
+        "minutes": null
+      }
+    ],
+    "tips": "Chill the cans before opening: cold corned beef slides out in one piece and breaks up more cleanly in the pan."
+  },
+  {
+    "slug": "hotsilog",
+    "title": "Hotsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "hotdog",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Red Filipino-style hotdogs scored and fried until they curl and blister, served with garlic fried rice, a fried egg and banana ketchup. A breakfast kids ask for by name.",
+    "groups": [
+      {
+        "title": "For the hotdogs",
+        "items": [
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "Filipino-style red hotdogs",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "banana ketchup",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cut shallow diagonal slits along both sides of each hotdog, or cut one end into quarters so it opens like a flower when fried.",
+        "minutes": null
+      },
+      {
+        "text": "Put the hotdogs and water in a skillet over medium heat and simmer until the water evaporates.",
+        "minutes": 3
+      },
+      {
+        "text": "Add the oil and fry, rolling them often, until the cuts open and the skins blister.",
+        "minutes": 4
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the hotdogs with the rice, eggs and banana ketchup.",
+        "minutes": null
+      }
+    ],
+    "tips": "Simmering in water first heats the hotdogs through, so they do not burn outside before the middle is hot."
+  },
+  {
+    "slug": "spamsilog",
+    "title": "Spamsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "spam",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thick slices of Spam fried until deep brown and crisp on both sides, with garlic fried rice and a runny fried egg. The salty, crusty edges are the whole point.",
+    "groups": [
+      {
+        "title": "For the Spam",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can Spam",
+            "note": "340 g, cut into 8 slices"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Brush a nonstick skillet with the oil and heat over medium. Lay in the Spam slices and fry without moving them until a deep brown crust forms, then flip and brown the other side.",
+        "minutes": 6
+      },
+      {
+        "text": "Drain the Spam on paper towels. Fry the eggs in the oil over medium heat until the whites are set and the yolks still runny.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve two slices per plate with the rice and an egg, with ketchup or vinegar on the side.",
+        "minutes": null
+      }
+    ],
+    "tips": "Spam is already salty, so go light on the salt in the rice. For a sweet glaze, sprinkle a little brown sugar on the slices in the last minute of frying."
+  },
+  {
+    "slug": "chicksilog",
+    "title": "Chicksilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "chicken",
+      "calamansi",
+      "fish sauce",
+      "garlic",
+      "egg",
+      "rice"
+    ],
+    "prep": 40,
+    "cook": 40,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Crisp fried chicken marinated in calamansi, fish sauce and garlic, with garlic fried rice and a fried egg. Juicy inside, crunchy outside, and good with banana ketchup or gravy.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "chicken drumsticks and thighs",
+            "note": "about 8 pieces"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "fish sauce",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "grated"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "all-purpose flour",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep frying"
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the chicken with the calamansi juice, fish sauce, garlic and pepper. Cover and marinate in the fridge for at least 30 minutes.",
+        "minutes": 30
+      },
+      {
+        "text": "Mix the flour, cornstarch and salt in a wide bowl. Shake the excess marinade off each piece and dredge it well, pressing the coating on.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a deep pan to 170°C (340°F). Fry the chicken in two batches, turning now and then, until deep golden and the juices run clear at the bone.",
+        "minutes": 14
+      },
+      {
+        "text": "Drain on a rack while you fry the second batch.",
+        "minutes": null
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set. Serve each plate with two pieces of chicken, rice and an egg.",
+        "minutes": 3
+      }
+    ],
+    "tips": "Boneless thigh fillets fry in about 6 minutes and are easier to eat with a spoon and fork. Marinate overnight for more flavor."
+  },
+  {
+    "slug": "dangsilog",
+    "title": "Dangsilog",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "dried fish",
+      "vinegar",
+      "garlic",
+      "egg",
+      "rice"
+    ],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Danggit, small split and sun-dried rabbitfish, fried in seconds until shatteringly crisp and eaten with garlic fried rice, a fried egg and spiced vinegar. Salty, crunchy and best eaten with your hands.",
+    "groups": [
+      {
+        "title": "For the danggit",
+        "items": [
+          {
+            "qty": 150,
+            "max": null,
+            "unit": "g",
+            "name": "danggit",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the spiced vinegar",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "crushed"
+          },
+          {
+            "qty": 1,
+            "max": 2,
+            "unit": "",
+            "name": "siling labuyo",
+            "note": "chopped"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt and ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Stir together the vinegar, garlic, chili, salt and pepper so the flavors can mingle while you cook.",
+        "minutes": null
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Heat the oil in a small skillet over medium heat. Fry the danggit a few pieces at a time, <strong>30 seconds to 1 minute per side</strong>, just until golden. It goes from golden to burnt very quickly.",
+        "minutes": null
+      },
+      {
+        "text": "Drain on paper towels; the fish crisps more as it cools.",
+        "minutes": null
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the danggit with the rice, eggs and spiced vinegar for dipping.",
+        "minutes": null
+      }
+    ],
+    "tips": "If your danggit is very salty, soak it in water for 5 minutes and pat it completely dry before frying."
+  },
+  {
+    "slug": "tuyosilog",
+    "title": "Tuyosilog",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "dried fish",
+      "tomato",
+      "onion",
+      "egg",
+      "rice"
+    ],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Whole salted dried herring fried until crisp enough to eat bones and all, with garlic fried rice, a fried egg and fresh tomatoes and onion. The tomatoes cool down the sharp saltiness of the tuyo.",
+    "groups": [
+      {
+        "title": "For the tuyo",
+        "items": [
+          {
+            "qty": 8,
+            "max": 12,
+            "unit": "",
+            "name": "tuyo",
+            "note": "salted dried herring"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the tomato salad",
+        "items": [
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "medium tomatoes",
+            "note": "diced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small red onion",
+            "note": "chopped"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cane vinegar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the tomatoes, onion and vinegar in a bowl and set aside.",
+        "minutes": null
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Open a window or turn on the hood. Heat the oil in a skillet over medium heat and fry the tuyo in batches until crisp and golden, turning once.",
+        "minutes": 4
+      },
+      {
+        "text": "Drain the tuyo on paper towels. Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve two or three tuyo per plate with the rice, eggs and tomato salad.",
+        "minutes": null
+      }
+    ],
+    "tips": "Fry tuyo over medium, not high: high heat scorches the outside before the bones crisp."
+  },
+  {
+    "slug": "shanghaisilog",
+    "title": "Shanghaisilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Crisp lumpiang shanghai fried straight from the freezer and served with garlic fried rice, a fried egg and sweet chili sauce. A good way to use the rolls stashed in the freezer after a party.",
+    "groups": [
+      {
+        "title": "For the lumpia",
+        "items": [
+          {
+            "qty": 20,
+            "max": null,
+            "unit": "",
+            "name": "frozen lumpiang shanghai",
+            "note": "homemade or store-bought, about 8 cm long"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying"
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "sweet chili sauce",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Heat the oil in a small, deep pan to 170°C (340°F). Fry the lumpia from frozen in batches of six or seven, turning, until deep golden and the filling is cooked through.",
+        "minutes": 6
+      },
+      {
+        "text": "Drain the lumpia upright in a colander or on a rack so they stay crisp.",
+        "minutes": null
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve five lumpia per plate with the rice, an egg and sweet chili sauce for dipping.",
+        "minutes": null
+      }
+    ],
+    "tips": "Do not thaw the lumpia first: thawed wrappers turn soggy and soak up oil. Fry straight from the freezer."
+  },
+  {
+    "slug": "hamsilog",
+    "title": "Hamsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ham",
+      "pineapple",
+      "brown sugar",
+      "egg",
+      "rice"
+    ],
+    "prep": 5,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Slices of sweet ham browned in butter and glazed with pineapple juice and brown sugar, with garlic fried rice and a fried egg. A good use for leftover holiday ham, and just as good with sliced ham from the deli.",
+    "groups": [
+      {
+        "title": "For the ham",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "cooked sweet ham",
+            "note": "8 slices, about 1 cm thick"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "butter",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "pineapple juice",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "brown sugar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Melt the butter in a wide skillet over medium heat and brown the ham slices lightly on both sides.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the pineapple juice and sugar. Let it bubble, turning the slices, until the liquid reduces to a thick glaze that clings to the ham.",
+        "minutes": 4
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the ham with the rice and eggs, spooning any glaze left in the pan over the ham.",
+        "minutes": null
+      }
+    ],
+    "tips": "If your ham is already glazed, skip the sugar and just use the pineapple juice."
+  },
+  {
+    "slug": "bacsilog",
+    "title": "Bacsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Crisp strips of bacon with garlic fried rice cooked in the rendered bacon fat and an egg fried in the same pan. The bacon fat makes the rice extra savory.",
+    "groups": [
+      {
+        "title": "For the bacon",
+        "items": [
+          {
+            "qty": 300,
+            "max": null,
+            "unit": "g",
+            "name": "bacon",
+            "note": "about 12 strips"
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lay the bacon in a cold skillet and set it over medium heat. Cook, turning now and then, until the fat has rendered and the strips are crisp.",
+        "minutes": 10
+      },
+      {
+        "text": "Drain the bacon on paper towels. Pour the fat into a cup and return 2 tablespoons to the pan.",
+        "minutes": null
+      },
+      {
+        "text": "Break up the cold rice with wet hands. Fry the garlic in the bacon fat over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot and lightly toasted. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Wipe the pan, add 2 tablespoons of the reserved fat and fry the eggs over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve three strips of bacon per plate with the rice and an egg.",
+        "minutes": null
+      }
+    ],
+    "tips": "Bacon fat is salty, so taste the rice before adding the full amount of salt."
+  },
+  {
+    "slug": "porksilog",
+    "title": "Porksilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "soy sauce",
+      "calamansi",
+      "garlic",
+      "egg",
+      "rice"
+    ],
+    "prep": 40,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin bone-in pork chops marinated in soy sauce, calamansi and garlic, pan-fried until browned, with garlic fried rice and a fried egg. Juicy, savory and a little tangy.",
+    "groups": [
+      {
+        "title": "For the pork chops",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "thin bone-in pork chops",
+            "note": "about 600 g, 1 cm thick"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Snip the fat along the edge of each chop in two or three places so it does not curl. Mix the soy sauce, calamansi juice, garlic, sugar and pepper, add the chops and marinate for 30 minutes.",
+        "minutes": 30
+      },
+      {
+        "text": "Lift the chops out, scrape off the garlic bits (they burn) and pat dry.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a skillet over medium-high heat. Fry the chops until browned on both sides and cooked through, about 4 to 5 minutes a side. Rest on a plate.",
+        "minutes": 9
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve each chop with rice, an egg and a small dish of soy sauce with calamansi.",
+        "minutes": null
+      }
+    ],
+    "tips": "Thicker chops need lower heat and a few extra minutes per side, or a lid for the last few minutes."
+  },
+  {
+    "slug": "liemposilog",
+    "title": "Liemposilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "vinegar",
+      "garlic",
+      "egg",
+      "rice"
+    ],
+    "prep": 40,
+    "cook": 40,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Slices of pork belly marinated in vinegar, garlic and pepper, simmered until tender and then fried until the fat turns golden and crisp. Served with garlic fried rice, a fried egg and a sour dip to cut the richness.",
+    "groups": [
+      {
+        "title": "For the liempo",
+        "items": [
+          {
+            "qty": 600,
+            "max": null,
+            "unit": "g",
+            "name": "skin-on pork belly",
+            "note": "sliced 1 cm thick"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "crushed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "cracked black pepper",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": "with chopped onion and chili"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the pork with the vinegar, soy sauce, garlic, salt and pepper and leave for at least 30 minutes.",
+        "minutes": 30
+      },
+      {
+        "text": "Put the pork, its marinade and the water in a wide skillet. Cover and simmer over medium-low heat until the pork is tender and the liquid has evaporated, uncovering for the last few minutes.",
+        "minutes": 15
+      },
+      {
+        "text": "Add the oil and fry over medium heat, turning, until the fat and skin are golden and crisp. Cover partly with a lid or splatter guard: the skin pops.",
+        "minutes": 8
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the liempo with the rice, eggs and the vinegar dip.",
+        "minutes": null
+      }
+    ],
+    "tips": "Marinate the pork overnight in the fridge for a tangier flavor. Discard the crushed garlic before frying if it starts to blacken."
+  },
+  {
+    "slug": "bisteksilog",
+    "title": "Bisteksilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "beef",
+      "soy sauce",
+      "calamansi",
+      "onion",
+      "egg",
+      "rice"
+    ],
+    "prep": 30,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin beef slices seared and simmered in soy sauce and calamansi with soft onion rings, served with garlic fried rice and a fried egg. Savory and citrusy, with a little sauce to soak into the rice.",
+    "groups": [
+      {
+        "title": "For the bistek",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "beef sirloin",
+            "note": "sliced thin"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "medium onions",
+            "note": "sliced into rings"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Marinate the beef in the soy sauce, calamansi juice, garlic and pepper for 20 minutes.",
+        "minutes": 20
+      },
+      {
+        "text": "Heat the oil in a skillet over medium-high heat. Fry the onion rings until just softened but still holding their shape, then set them aside.",
+        "minutes": 2
+      },
+      {
+        "text": "Lift the beef from the marinade, keeping the marinade. Sear the beef in batches in the same pan until browned.",
+        "minutes": 4
+      },
+      {
+        "text": "Return all the beef with the marinade and water. Simmer over medium-low heat until the beef is tender and the sauce has reduced by half. Top with the onion rings.",
+        "minutes": 10
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set. Serve the bistek and its sauce with the rice and eggs.",
+        "minutes": 3
+      }
+    ],
+    "tips": "Leftover bistek from dinner works too: just warm it in its sauce."
+  },
+  {
+    "slug": "hungsilog",
+    "title": "Hungsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Smoky Hungarian sausages scored, simmered and fried until browned and blistered, with garlic fried rice and a fried egg. Serve with mustard or banana ketchup.",
+    "groups": [
+      {
+        "title": "For the sausages",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "Hungarian sausages",
+            "note": "about 400 g"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "mustard or banana ketchup",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Score each sausage diagonally on both sides, cutting only a few millimeters deep.",
+        "minutes": null
+      },
+      {
+        "text": "Put the sausages and water in a covered skillet over medium heat and simmer until the water is gone and the sausages are heated through.",
+        "minutes": 5
+      },
+      {
+        "text": "Add the oil and fry, turning, until browned and the cuts open.",
+        "minutes": 5
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set. Serve one sausage per plate with rice, an egg and mustard or ketchup.",
+        "minutes": 3
+      }
+    ],
+    "tips": "Many Hungarian sausages sold in the Philippines come in mild and spicy versions; check the label if you are cooking for kids."
+  },
+  {
+    "slug": "tinapsilog",
+    "title": "Tinapsilog",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "bangus",
+      "tomato",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Smoked milkfish warmed in a hot pan until the skin crisps, served with garlic fried rice, a fried egg and fresh tomatoes and onion. Smoky, salty and rich, and quick because the fish is already cooked.",
+    "groups": [
+      {
+        "title": "For the tinapa",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tinapang bangus",
+            "note": "smoked milkfish, about 300 g each"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the tomato salad",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "medium tomatoes",
+            "note": "diced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small red onion",
+            "note": "chopped"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": "for dipping"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the tomatoes and onion with a pinch of salt and set aside.",
+        "minutes": null
+      },
+      {
+        "text": "Split each fish open along the back with a sharp knife so it lies flat, and cut each in half.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a skillet over medium heat. Fry the fish skin side down until the skin crisps, then flip and warm the flesh side.",
+        "minutes": 5
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the fish with the rice, eggs, tomato salad and vinegar. Pull the flesh away from the bones as you eat.",
+        "minutes": null
+      }
+    ],
+    "tips": "Tinapang galunggong works the same way: fry for just a minute or two per side."
+  },
+  {
+    "slug": "sisilog",
+    "title": "Sisilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "calamansi",
+      "chili",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Leftover pork sisig crisped again in a hot pan and served with garlic fried rice, a fried egg and calamansi. Sour, salty and crunchy, with the runny yolk mixed into the meat.",
+    "groups": [
+      {
+        "title": "For the sisig",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "leftover pork sisig",
+            "note": "chilled"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "calamansi",
+            "note": "halved"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "siling labuyo",
+            "note": "chopped, optional"
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Heat the oil in a cast-iron or heavy skillet over medium-high heat. Spread the sisig in an even layer and leave it until the bottom sizzles and crisps.",
+        "minutes": 4
+      },
+      {
+        "text": "Stir, spread it out again and let the other bits crisp. Add the chilies in the last minute.",
+        "minutes": 3
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set and the yolks still runny.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the sisig with the rice and an egg on top, with calamansi to squeeze over at the table.",
+        "minutes": null
+      }
+    ],
+    "tips": "Sisig with mayonnaise mixed in will splatter and turn greasy when reheated; crisp the meat first and add the mayonnaise after."
+  },
+  {
+    "slug": "pork-tocino",
+    "title": "Pork tocino",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "brown sugar",
+      "pineapple",
+      "garlic",
+      "annatto",
+      "soy sauce"
+    ],
+    "prep": 20,
+    "cook": 20,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Thin slices of pork shoulder cured in sugar, salt, garlic and pineapple juice and tinted red with annatto. Simmered and then fried, it turns sticky, sweet and caramelized; make a batch and freeze it in breakfast portions.",
+    "groups": [
+      {
+        "title": "For the cure",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "pork shoulder (kasim)",
+            "note": "sliced 5 mm thick"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "pineapple juice",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "annatto powder",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 500 g",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Freeze the pork for 30 minutes so it firms up, then slice it about 5 mm thick, keeping some fat on each piece.",
+        "minutes": null
+      },
+      {
+        "text": "Whisk the sugar, pineapple juice, soy sauce, salt, garlic, annatto and pepper in a large bowl until the sugar mostly dissolves.",
+        "minutes": null
+      },
+      {
+        "text": "Add the pork and massage the cure into every slice with gloved hands. Pack into containers or zip bags, pressing out the air.",
+        "minutes": null
+      },
+      {
+        "text": "Refrigerate at least overnight so the cure can penetrate. Portion what you will not cook within 3 days and freeze it.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, lay about 500 g of tocino in a single layer in a skillet with the water. Simmer over medium heat, turning once, until the water evaporates and the pork is cooked through.",
+        "minutes": 10
+      },
+      {
+        "text": "Add the oil and fry over medium-low heat, turning often, until the slices are glazed and caramelized at the edges.",
+        "minutes": 5
+      },
+      {
+        "text": "Serve hot with garlic rice, a fried egg and atchara or sliced tomatoes.",
+        "minutes": null
+      }
+    ],
+    "tips": "Cure for at least 12 hours and up to 3 days in the fridge. Frozen tocino keeps for 2 months; thaw it overnight in the fridge before cooking."
+  },
+  {
+    "slug": "chicken-tocino",
+    "title": "Chicken tocino",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "chicken",
+      "brown sugar",
+      "pineapple",
+      "garlic",
+      "annatto"
+    ],
+    "prep": 20,
+    "cook": 20,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Boneless chicken thigh cured in a sweet garlic and pineapple mix with a red annatto tint, then simmered and fried until glazed. Lighter than pork tocino but just as sticky and sweet.",
+    "groups": [
+      {
+        "title": "For the cure",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "boneless, skinless chicken thighs",
+            "note": "butterflied or sliced 1 cm thick"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "pineapple juice",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 5,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "grated"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "annatto powder",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 500 g",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Trim excess fat from the chicken and cut any thick parts so all the pieces are an even 1 cm thick.",
+        "minutes": null
+      },
+      {
+        "text": "Whisk the sugar, pineapple juice, soy sauce, salt, garlic, annatto and pepper in a bowl. Add the chicken and turn to coat every piece.",
+        "minutes": null
+      },
+      {
+        "text": "Pack into a container or zip bags, press out the air and refrigerate at least overnight.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, put about 500 g of chicken in a skillet with the water. Cover and simmer over medium heat, then uncover and cook until the water is gone and the chicken is cooked through.",
+        "minutes": 12
+      },
+      {
+        "text": "Add the oil and fry over medium-low heat, turning, until the pieces are glazed and lightly charred at the edges.",
+        "minutes": 5
+      },
+      {
+        "text": "Slice if you like and serve with garlic rice and a fried egg.",
+        "minutes": null
+      }
+    ],
+    "tips": "Chicken softens if cured too long: cook it within 2 days, or freeze it in portions after the first night for up to 2 months."
+  },
+  {
+    "slug": "beef-tapa",
+    "title": "Beef tapa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "beef",
+      "soy sauce",
+      "brown sugar",
+      "garlic",
+      "vinegar"
+    ],
+    "prep": 30,
+    "cook": 15,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Paper-thin beef cured in soy sauce, sugar, vinegar, garlic and pepper, then air-dried in the fridge so it fries up chewy, sweet-salty and crisp at the edges. Make a kilo and freeze it for many breakfasts.",
+    "groups": [
+      {
+        "title": "For the cure",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "beef top round or sirloin",
+            "note": "sliced 3 mm thick against the grain"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 12,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced (about 1 head)"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 500 g",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Freeze the beef for 30 to 45 minutes until firm, then slice it as thin as you can against the grain.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the soy sauce, sugar, vinegar, salt, garlic and pepper in a large bowl. Add the beef and massage the cure into every slice.",
+        "minutes": null
+      },
+      {
+        "text": "Lay the slices on a rack set over a tray, close together but not overlapping. Refrigerate uncovered overnight so the surface dries.",
+        "minutes": null
+      },
+      {
+        "text": "Pack what you will not cook within 3 days into freezer bags in 250 g portions.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, heat the oil in a skillet over medium-high heat. Fry the tapa in batches, turning once, until browned and crisp at the edges, 2 to 3 minutes a side.",
+        "minutes": 5
+      },
+      {
+        "text": "Serve with garlic rice, a fried egg and spiced vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "The overnight drying in the fridge is what gives tapa its chew. If you are short on time, cure it for 2 hours and simmer it in a splash of water before frying."
+  },
+  {
+    "slug": "pork-tapa",
+    "title": "Pork tapa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork",
+      "vinegar",
+      "garlic",
+      "brown sugar"
+    ],
+    "prep": 25,
+    "cook": 15,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Thin slices of pork shoulder cured in vinegar, garlic, salt and a little sugar, then simmered and fried until golden with crisp edges. Garlicky and tangy rather than sweet, and great with a fried egg.",
+    "groups": [
+      {
+        "title": "For the cure",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "pork shoulder (kasim)",
+            "note": "sliced 3 mm thick"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 10,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 500 g",
+        "items": [
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Freeze the pork for 30 minutes, then slice it thinly, about 3 mm.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the vinegar, sugar, salt, garlic and pepper. Add the pork and massage until every slice is coated.",
+        "minutes": null
+      },
+      {
+        "text": "Pack into containers or zip bags and refrigerate overnight. Freeze any portions you will not cook within 3 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, put about 500 g of tapa in a skillet with the water and simmer over medium heat until the water evaporates and the pork is cooked.",
+        "minutes": 6
+      },
+      {
+        "text": "Add the oil and fry over medium heat, turning, until golden and crisp at the edges.",
+        "minutes": 6
+      },
+      {
+        "text": "Serve with garlic rice, a fried egg and spiced vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "Cure for at least 8 hours and up to 3 days. For a sweeter tapa, double the sugar."
+  },
+  {
+    "slug": "vigan-longganisa",
+    "title": "Vigan longganisa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "garlic",
+      "vinegar"
+    ],
+    "prep": 75,
+    "cook": 20,
+    "servings": 30,
+    "yield_label": "links",
+    "difficulty": "involved",
+    "intro": "Small, plump pork sausages packed with garlic and sharpened with cane vinegar, with no sweetness at all. Fried until browned in their own fat, they are salty, garlicky and tangy, and best with sukang Iloko for dipping.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "coarsely ground pork shoulder",
+            "note": "about 25% fat"
+          },
+          {
+            "qty": 15,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced (about 1 large head)"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "sukang Iloko or cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 2.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "coarsely ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For stuffing",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "meters hog casing",
+            "note": "about 32 mm wide"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "kitchen twine",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 10 links",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the salt off the casing and soak it in warm water. Run water through it to flush the inside.",
+        "minutes": 30
+      },
+      {
+        "text": "Mix the pork, garlic, vinegar, salt, pepper and sugar with your hands until the mixture turns sticky and holds together.",
+        "minutes": null
+      },
+      {
+        "text": "Fry a teaspoon of the filling in a small pan and taste it. Adjust the salt, garlic or vinegar now; you cannot after stuffing.",
+        "minutes": 2
+      },
+      {
+        "text": "Slide the casing onto a sausage stuffer or wide funnel and tie off the end. Fill it firmly but not tight, so the links do not burst.",
+        "minutes": null
+      },
+      {
+        "text": "Twist the filled casing every 5 cm into short, chubby links and tie between them with twine. Prick any air bubbles with a pin.",
+        "minutes": null
+      },
+      {
+        "text": "Lay the links on a tray and refrigerate uncovered overnight so the casings dry and the flavors set. Freeze what you will not cook within 3 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, put 10 links in a skillet with the water. Simmer over medium heat until the water evaporates and the fat starts to render.",
+        "minutes": 10
+      },
+      {
+        "text": "Keep frying in the rendered fat over medium-low heat, rolling the links, until browned all over. Serve with garlic rice, fried eggs and vinegar.",
+        "minutes": 6
+      }
+    ],
+    "tips": "No stuffer? Roll the filling into 5 cm logs in squares of wax paper and freeze; you will have a skinless Vigan-style longganisa."
+  },
+  {
+    "slug": "lucban-longganisa",
+    "title": "Lucban longganisa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "garlic",
+      "vinegar"
+    ],
+    "prep": 75,
+    "cook": 20,
+    "servings": 20,
+    "yield_label": "links",
+    "difficulty": "involved",
+    "intro": "Garlicky pork sausages seasoned with dried oregano, paprika and vinegar, salty and tangy with a peppery bite. Fry them until the casings split and brown, and serve with rice and vinegar.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "coarsely ground pork shoulder",
+            "note": "about 25% fat"
+          },
+          {
+            "qty": 12,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "dried oregano",
+            "note": "crumbled"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "paprika",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 2.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "coarsely ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For stuffing",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "meters hog casing",
+            "note": "about 32 mm wide"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "kitchen twine",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 8 links",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the salt off the casing and soak it in warm water, then flush the inside with running water.",
+        "minutes": 30
+      },
+      {
+        "text": "Mix the pork with the garlic, oregano, paprika, vinegar, salt, pepper and sugar, kneading until sticky.",
+        "minutes": null
+      },
+      {
+        "text": "Fry a small piece to taste and adjust the seasoning. It should taste clearly garlicky and a little sour.",
+        "minutes": 2
+      },
+      {
+        "text": "Fill the casing firmly but not tight using a sausage stuffer or funnel.",
+        "minutes": null
+      },
+      {
+        "text": "Twist into 8 cm links and tie between them with twine. Prick any air pockets with a pin.",
+        "minutes": null
+      },
+      {
+        "text": "Refrigerate the links uncovered on a tray overnight. Freeze what you will not cook within 3 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, simmer 8 links in the water in a covered skillet over medium heat, then uncover and cook until the water is gone.",
+        "minutes": 10
+      },
+      {
+        "text": "Fry in the rendered fat, turning, until the casings brown and split. Serve with garlic rice, fried eggs and spiced vinegar.",
+        "minutes": 6
+      }
+    ],
+    "tips": "Oregano loses its aroma fast: use a jar you opened recently, and rub it between your palms before adding."
+  }
+]

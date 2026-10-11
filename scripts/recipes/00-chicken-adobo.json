@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "chicken-adobo",
+    "title": "Chicken adobo",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "soy sauce", "vinegar", "garlic"],
+    "prep": 10,
+    "cook": 50,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken braised in soy sauce, vinegar and plenty of garlic until the sauce turns glossy and clings to every piece. This is the everyday version: one pot, pantry ingredients, about an hour, and it tastes even better the next day.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken thighs and drumsticks", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 10, "max": null, "unit": "clove", "name": "garlic", "note": "crushed (about 1 head)" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "or white vinegar" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "lightly cracked" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "optional" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "steamed white rice", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the chicken dry. Heat the oil in a wide, heavy pot over medium-high heat and brown the chicken skin side down in batches, about 5 minutes per batch. Set the pieces aside.", "minutes": 5 },
+      { "text": "Lower the heat to medium. Fry the garlic in the chicken fat until fragrant and just turning golden. Do not let it brown.", "minutes": 1 },
+      { "text": "Return the chicken to the pot with the soy sauce, water, bay leaves and peppercorns. Bring to a boil.", "minutes": null },
+      { "text": "Pour in the vinegar and let it boil <strong>without stirring</strong>, so its sharp edge cooks off.", "minutes": 3 },
+      { "text": "Cover, lower the heat and simmer until the chicken is tender, turning the pieces once halfway.", "minutes": 25 },
+      { "text": "Uncover, stir in the sugar if using, and simmer until the sauce has reduced by about half and coats the chicken.", "minutes": 10 },
+      { "text": "Taste the sauce. Add a splash of vinegar if it needs brightness, or a splash of water if it is too salty. Remove the bay leaves.", "minutes": null },
+      { "text": "Serve over steamed rice with plenty of sauce spooned over.", "minutes": null }
+    ],
+    "tips": "Adobo keeps for 4 days in the fridge and the flavor deepens overnight. Reheat gently with a splash of water. For a crisp finish, fry the cooked pieces in a hot pan for a few minutes a side and pour the sauce over at the table."
+  }
+]

@@ -2,7 +2,7 @@
 Theme Name:        Kusina Notes
 Author:            John Michael Castillo
 Description:       A recipe journal block theme in enamelware and palengke colours. Pairs with the Kusina Core plugin for recipes.
-Version:           0.2.0
+Version:           0.2.1
 Requires at least: 6.6
 Tested up to:      7.1
 Requires PHP:      8.1
@@ -365,13 +365,21 @@ h1, h2, h3, h4 {
 	transform: rotate(28deg);
 }
 
+/* Fixed column counts (2, 3, 6) that divide the 6-item home list and 12-item pages evenly,
+   so no plate sits alone on a row. */
 .plates .wp-block-post-template {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(min(100%, 9.5rem), 1fr));
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 	gap: 2.25rem 1.25rem;
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+/* The post template is a flow layout: its "* + *" margin would push every item after the
+   first down a step. */
+.plates .wp-block-post-template > * {
+	margin: 0;
 }
 
 .plate-card {
@@ -532,8 +540,11 @@ h1, h2, h3, h4 {
 	letter-spacing: -0.03em;
 }
 
+/* Narrower than the band's content width, so pin it to the left edge instead of letting the
+   constrained layout centre it. */
 .band-lede {
 	max-width: 46ch;
+	margin-left: max(0px, (100% - var(--wp--style--global--wide-size)) / 2) !important;
 	font-size: 1.2rem;
 }
 
@@ -666,8 +677,19 @@ h1, h2, h3, h4 {
 
 @media (min-width: 40rem) {
 	.plates .wp-block-post-template {
-		grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 		gap: 3rem 2rem;
+	}
+}
+
+@media (min-width: 64rem) {
+	.plates .wp-block-post-template {
+		grid-template-columns: repeat(6, minmax(0, 1fr));
+		gap: 3rem 1.5rem;
+	}
+
+	.plate-title {
+		font-size: 1.125rem;
 	}
 }
 

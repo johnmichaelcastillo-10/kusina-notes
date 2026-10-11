@@ -1,0 +1,1115 @@
+[
+  {
+    "slug": "pandesal",
+    "title": "Pandesal",
+    "course": "almusal",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "milk", "egg", "butter"],
+    "prep": 150,
+    "cook": 16,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Soft, lightly sweet bread rolls with a thin crust and a coat of fine breadcrumbs, best eaten warm. They are the everyday breakfast bread, split open for butter, cheese or whatever else is on the table, with hot coffee.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "about 4 cups" },
+          { "qty": 60, "max": null, "unit": "g", "name": "white sugar", "note": "about 1/4 cup" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "at room temperature" },
+          { "qty": 270, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "about 40°C (105°F)" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For coating",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "fine breadcrumbs", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add the egg and milk and stir into a shaggy dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, then work in the butter a little at a time. Keep kneading by hand for about 10 minutes more, or 8 minutes with a dough hook on medium-low, until the dough is smooth, elastic and only slightly tacky.", "minutes": null },
+      { "text": "Shape into a ball, put it in a lightly oiled bowl and cover. Let it rise in a warm spot until doubled.", "minutes": 60 },
+      { "text": "Punch the dough down and divide it in half. Roll each half into a log about 45 cm (18 inches) long, then roll the logs in the breadcrumbs.", "minutes": null },
+      { "text": "Cut each log into 12 pieces with a bench scraper. Set them cut side up on two baking trays dusted with breadcrumbs, about 5 cm (2 inches) apart, and press each one lightly.", "minutes": null },
+      { "text": "Cover loosely with a towel and proof until puffy and nearly doubled. Heat the oven to 180°C (350°F) during the last 15 minutes.", "minutes": 45 },
+      { "text": "Bake one tray at a time on the middle rack until the tops are golden brown.", "minutes": 16 },
+      { "text": "Cool on a rack for a few minutes and serve warm.", "minutes": null }
+    ],
+    "tips": "Pandesal is best the day it is baked. Keep leftovers in a bag for up to 2 days and warm them in a toaster oven for 3 minutes, or freeze them for a month."
+  },
+  {
+    "slug": "whole-wheat-pandesal",
+    "title": "Whole wheat pandesal",
+    "course": "almusal",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "brown sugar", "milk", "egg", "butter"],
+    "prep": 170,
+    "cook": 18,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Pandesal made with half whole wheat flour, so the rolls are nuttier and a little denser but still soft. Brown sugar gives them a gentle caramel note that goes well with butter and coffee.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "whole wheat flour", "note": "" },
+          { "qty": 250, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 300, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "about 40°C (105°F)" },
+          { "qty": 50, "max": null, "unit": "g", "name": "brown sugar", "note": "about 1/4 cup, packed" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "at room temperature" },
+          { "qty": 45, "max": null, "unit": "g", "name": "butter", "note": "softened (3 tablespoons)" }
+        ]
+      },
+      {
+        "title": "For coating",
+        "items": [
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "wheat bran or fine breadcrumbs", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Stir both flours with the milk in a large bowl until no dry flour remains. Cover and let it sit so the bran softens.", "minutes": 15 },
+      { "text": "Add the brown sugar, yeast, salt and egg and mix well. Knead for 5 minutes, then work in the butter and knead about 8 minutes more until smooth and springy. The dough stays a little stickier than white pandesal; avoid adding much extra flour.", "minutes": null },
+      { "text": "Shape into a ball, put it in an oiled bowl, cover and let it rise until doubled. Whole wheat dough rises more slowly.", "minutes": 75 },
+      { "text": "Punch down and divide into 24 pieces of about 38 g. Roll each into a smooth ball, then roll it in the bran or breadcrumbs.", "minutes": null },
+      { "text": "Set the rolls on two lined baking trays about 5 cm (2 inches) apart. Cover and proof until puffy. Heat the oven to 180°C (350°F) toward the end.", "minutes": 50 },
+      { "text": "Bake one tray at a time until well browned and the bottoms sound hollow when tapped.", "minutes": 18 },
+      { "text": "Cool on a rack for 10 minutes before serving.", "minutes": null }
+    ],
+    "tips": "For a softer roll, replace 50 g of the whole wheat flour with more bread flour. These freeze well; reheat straight from the freezer for 5 minutes in a low oven."
+  },
+  {
+    "slug": "malunggay-pandesal",
+    "title": "Malunggay pandesal",
+    "course": "almusal",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["malunggay", "flour", "milk", "egg", "butter"],
+    "prep": 150,
+    "cook": 16,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Classic soft pandesal with fresh malunggay leaves blended into the dough, which flecks the crumb green and adds a mild, grassy flavor. Eat it warm with butter or a slice of cheese.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "picked from the stems, loosely packed (about 25 g)" },
+          { "qty": 250, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "about 40°C (105°F)" },
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "at room temperature" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For coating",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "fine breadcrumbs", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the malunggay leaves and blend them with the milk until the leaves are finely chopped and the milk is bright green.", "minutes": null },
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add the egg and the malunggay milk and stir into a shaggy dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, add the butter a little at a time, then knead about 10 minutes more until smooth and elastic.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 24 pieces of about 37 g. Roll each into a ball, roll it in breadcrumbs and set on lined trays 5 cm (2 inches) apart.", "minutes": null },
+      { "text": "Cover and proof until puffy and nearly doubled. Heat the oven to 180°C (350°F) during the last 15 minutes.", "minutes": 45 },
+      { "text": "Bake one tray at a time until golden brown.", "minutes": 16 },
+      { "text": "Cool briefly on a rack and serve warm.", "minutes": null }
+    ],
+    "tips": "Use only the leaves; the stems stay stringy. If you only have malunggay powder, stir 2 tablespoons into the flour instead of blending fresh leaves."
+  },
+  {
+    "slug": "ube-cheese-pandesal",
+    "title": "Ube cheese pandesal",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["ube", "cheese", "flour", "milk", "butter"],
+    "prep": 160,
+    "cook": 16,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Purple, pillowy pandesal made with ube halaya in the dough and a cube of melting cheese tucked inside. Sweet and salty at once, and best eaten warm while the cheese is still soft.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 70, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 200, "max": null, "unit": "g", "name": "ube halaya", "note": "homemade or from a jar" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "at room temperature" },
+          { "qty": 150, "max": 180, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ube flavoring", "note": "optional, for a deeper color" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For filling and coating",
+        "items": [
+          { "qty": 200, "max": null, "unit": "g", "name": "quick-melt cheese", "note": "cut into 24 cubes" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "fine breadcrumbs", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add the ube halaya, egg, ube flavoring and 150 ml of the milk and mix. Add the rest of the milk only if the dough feels dry; ube halaya varies in moisture.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 10 minutes more until smooth, soft and elastic.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 24 pieces of about 45 g. Flatten each into a disc, set a cheese cube in the middle and pinch the edges together to seal completely.", "minutes": null },
+      { "text": "Roll each ball in breadcrumbs and set seam side down on lined trays about 5 cm (2 inches) apart.", "minutes": null },
+      { "text": "Cover and proof until puffy. Heat the oven to 175°C (350°F) toward the end.", "minutes": 40 },
+      { "text": "Bake one tray at a time until risen and just firm. Ube dough looks dark early, so judge by a firm top rather than color.", "minutes": 16 },
+      { "text": "Cool for 5 minutes so the cheese sets slightly, then serve warm.", "minutes": null }
+    ],
+    "tips": "Seal each ball well, or the cheese leaks out and burns on the tray. Reheat leftovers for 10 seconds in the microwave to melt the cheese again."
+  },
+  {
+    "slug": "pan-de-leche",
+    "title": "Pan de leche",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["milk", "flour", "egg", "butter"],
+    "prep": 150,
+    "cook": 20,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Soft, milky sweet rolls baked close together in one pan so they pull apart in fluffy pieces. The glossy tops are brushed with butter as soon as they come out of the oven.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 20, "max": null, "unit": "g", "name": "powdered milk", "note": "about 3 tablespoons, optional" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg yolk", "note": "" },
+          { "qty": 240, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For finishing",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "egg yolk", "note": "beaten with 1 tablespoon milk" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "melted" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, powdered milk, yeast and salt in a large bowl. Add the egg, yolk and milk and mix into a soft dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 10 minutes more until very smooth and stretchy.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Grease a 23 x 33 cm (9 x 13 inch) baking pan. Punch the dough down, divide it into 16 equal pieces and roll each into a tight ball. Arrange them in the pan in 4 rows of 4.", "minutes": null },
+      { "text": "Cover and proof until the rolls have risen and are touching. Heat the oven to 180°C (350°F) toward the end.", "minutes": 45 },
+      { "text": "Brush the tops gently with the yolk wash. Bake until deep golden on top.", "minutes": 20 },
+      { "text": "Brush with the melted butter right away. Cool in the pan for 10 minutes, then tip out and pull apart to serve.", "minutes": null }
+    ],
+    "tips": "If the tops brown too fast, lay a sheet of foil loosely over the pan for the last 5 minutes. Store in a sealed bag; they stay soft for 2 days."
+  },
+  {
+    "slug": "ensaymada",
+    "title": "Ensaymada",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "egg", "butter", "cheese", "milk"],
+    "prep": 210,
+    "cook": 15,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Coiled brioche-like buns made with egg yolks and butter, then topped with more butter, sugar and a pile of grated cheese. The crumb is tender and rich, and the topping is sweet, salty and a little crunchy.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 100, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 6, "max": null, "unit": "", "name": "egg yolks", "note": "at room temperature" },
+          { "qty": 200, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 115, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For shaping",
+        "items": [
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "very soft" }
+        ]
+      },
+      {
+        "title": "For the topping",
+        "items": [
+          { "qty": 115, "max": null, "unit": "g", "name": "butter", "note": "softened" },
+          { "qty": 60, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 100, "max": null, "unit": "g", "name": "cheddar or queso de bola", "note": "finely grated" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, yeast and salt in a mixer bowl. Add the yolks and milk and mix with the dough hook on low until combined.", "minutes": null },
+      { "text": "Knead on medium-low for 5 minutes, then add the 115 g butter a tablespoon at a time. Keep kneading about 10 minutes more until the dough is very soft, glossy and pulls away from the bowl. It will be sticky; do not add much flour.", "minutes": null },
+      { "text": "Scrape into a buttered bowl, cover and let it rise until doubled. Rich dough takes longer.", "minutes": 90 },
+      { "text": "Grease 12 ensaymada molds or a 12-cup muffin tin. Punch the dough down and divide it into 12 pieces of about 75 g.", "minutes": null },
+      { "text": "Roll each piece into a thin rectangle about 25 x 10 cm (10 x 4 inches) and brush with the very soft butter. Roll up from the long side into a rope, stretch it gently to about 35 cm (14 inches), then coil it into a snail and set it in a mold with the end tucked underneath.", "minutes": null },
+      { "text": "Cover loosely and proof until puffy and almost doubled. Heat the oven to 175°C (350°F) toward the end.", "minutes": 60 },
+      { "text": "Bake until light golden. Ensaymada should stay pale; overbaking dries it out.", "minutes": 15 },
+      { "text": "Unmold and cool completely on a rack.", "minutes": 30 },
+      { "text": "Spread the top of each bun generously with softened butter, sprinkle with sugar and press on a mound of grated cheese.", "minutes": null }
+    ],
+    "tips": "Keep topped ensaymada in a covered container at room temperature for a day, or chill for 3 days. Warm for 10 seconds in the microwave so the butter softens before eating."
+  },
+  {
+    "slug": "ube-ensaymada",
+    "title": "Ube ensaymada",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["ube", "flour", "egg", "butter", "cheese"],
+    "prep": 210,
+    "cook": 16,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Soft, buttery ensaymada with a swirl of ube halaya rolled inside and a topping of whipped butter frosting and grated cheese. Each bite is sweet, creamy and a little salty.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 100, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 5, "max": null, "unit": "", "name": "egg yolks", "note": "at room temperature" },
+          { "qty": 210, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ube flavoring", "note": "optional" },
+          { "qty": 100, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "ube halaya", "note": "thick, at room temperature" }
+        ]
+      },
+      {
+        "title": "For the topping",
+        "items": [
+          { "qty": 100, "max": null, "unit": "g", "name": "butter", "note": "softened" },
+          { "qty": 100, "max": null, "unit": "g", "name": "powdered sugar", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "cheddar cheese", "note": "finely grated" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, yeast and salt in a mixer bowl. Add the yolks, milk and ube flavoring and mix with the dough hook on low until combined.", "minutes": null },
+      { "text": "Knead on medium-low for 5 minutes, add the butter a tablespoon at a time, then knead about 10 minutes more until soft, glossy and elastic.", "minutes": null },
+      { "text": "Cover the bowl and let the dough rise until doubled.", "minutes": 90 },
+      { "text": "Grease 12 ensaymada molds or a 12-cup muffin tin. Punch the dough down and divide it into 12 pieces.", "minutes": null },
+      { "text": "Roll each piece into a rectangle about 25 x 10 cm (10 x 4 inches). Spread about 25 g of ube halaya over it, leaving a border on one long edge. Roll up toward the bare edge, pinch to seal, then coil the rope into a snail and set it in a mold, end tucked under.", "minutes": null },
+      { "text": "Cover loosely and proof until puffy. Heat the oven to 175°C (350°F) toward the end.", "minutes": 60 },
+      { "text": "Bake until risen and lightly golden at the edges.", "minutes": 16 },
+      { "text": "Unmold and cool completely on a rack.", "minutes": 30 },
+      { "text": "Beat the butter and powdered sugar until pale and fluffy. Spread it over the cooled buns and top with grated cheese.", "minutes": null }
+    ],
+    "tips": "Soft, runny ube halaya squeezes out as you roll. If yours is loose, cook it in a pan for a few minutes until it holds its shape, then cool before using."
+  },
+  {
+    "slug": "pan-de-coco",
+    "title": "Pan de coco",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["coconut", "brown sugar", "flour", "egg", "milk"],
+    "prep": 160,
+    "cook": 18,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Soft, round sweet buns filled with grated coconut cooked in brown sugar until sticky and chewy. A bakery merienda favorite with coffee or cold soda.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 2, "max": null, "unit": "cup", "name": "freshly grated mature coconut", "note": "or 150 g unsweetened desiccated coconut soaked in 1/2 cup hot water" },
+          { "qty": 150, "max": null, "unit": "g", "name": "brown sugar", "note": "about 3/4 cup, packed" },
+          { "qty": 60, "max": null, "unit": "ml", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 70, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 250, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten, for brushing" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Make the filling: cook the coconut, brown sugar, water, butter and salt in a pan over medium-low heat, stirring often, until the sugar melts and the mixture is sticky and almost dry, about 10 minutes. Spread on a plate to cool.", "minutes": null },
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add 1 egg and the milk and mix into a soft dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 10 minutes more until smooth and elastic.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 16 pieces. Flatten each into a 10 cm (4 inch) disc, put a heaping tablespoon of filling in the middle and gather the edges to seal. Set seam side down on lined trays.", "minutes": null },
+      { "text": "Cover and proof until puffy. Heat the oven to 180°C (350°F) toward the end.", "minutes": 45 },
+      { "text": "Brush the buns with beaten egg and bake until deep golden.", "minutes": 18 },
+      { "text": "Cool on a rack for at least 10 minutes; the filling is very hot straight from the oven.", "minutes": null }
+    ],
+    "tips": "Cook the filling until it is almost dry; a wet filling makes soggy pockets and leaks while baking. It keeps in the fridge for 3 days if you want to make it ahead."
+  },
+  {
+    "slug": "spanish-bread",
+    "title": "Spanish bread",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "butter", "brown sugar", "bread", "egg"],
+    "prep": 150,
+    "cook": 15,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Soft rolls wrapped around a sweet filling of butter, sugar and breadcrumbs, then rolled in more crumbs before baking. The filling melts into a buttery, sugary streak through the middle.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 240, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 115, "max": null, "unit": "g", "name": "butter", "note": "softened" },
+          { "qty": 100, "max": null, "unit": "g", "name": "brown sugar", "note": "packed" },
+          { "qty": 60, "max": null, "unit": "g", "name": "fine breadcrumbs", "note": "about 1/2 cup" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "powdered milk", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For coating",
+        "items": [
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "fine breadcrumbs", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add the egg and milk and mix into a soft dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 10 minutes more until smooth and elastic.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Mash the filling ingredients together into a thick, spreadable paste.", "minutes": null },
+      { "text": "Punch down and divide into 16 pieces. Roll each into a long oval about 15 cm (6 inches) long, spread a tablespoon of filling over it, and roll up from the short end into a fat log.", "minutes": null },
+      { "text": "Brush or spray each roll lightly with water, roll it in the coating crumbs and set seam side down on lined trays.", "minutes": null },
+      { "text": "Cover and proof until puffy. Heat the oven to 180°C (350°F) toward the end.", "minutes": 45 },
+      { "text": "Bake until golden brown. Some filling will bubble out; that caramelized bit is part of the charm.", "minutes": 15 },
+      { "text": "Cool on the tray for 5 minutes, then move to a rack.", "minutes": null }
+    ],
+    "tips": "White sugar works too and gives a lighter, crunchier filling. Keep the rolls in a sealed bag and warm them briefly in a toaster oven."
+  },
+  {
+    "slug": "cheese-bread",
+    "title": "Cheese bread",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["cheese", "flour", "evaporated milk", "egg", "butter"],
+    "prep": 150,
+    "cook": 16,
+    "servings": 20,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Soft, fluffy bakery rolls with grated cheese in the dough and a crackly coat of sugar on top. Sweet first, then salty and cheesy.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 90, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "powdered milk", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 200, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" },
+          { "qty": 100, "max": null, "unit": "g", "name": "cheddar cheese", "note": "finely grated" }
+        ]
+      },
+      {
+        "title": "For the coating",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "evaporated milk", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, powdered milk, yeast and salt in a large bowl. Add the eggs and milk and mix into a soft dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 8 minutes more until smooth. Add the cheese and knead until evenly spread through.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 20 pieces of about 45 g. Roll each into a tight ball.", "minutes": null },
+      { "text": "Pour the evaporated milk and the sugar into two shallow bowls. Dip the top of each ball in the milk, then press it into the sugar. Set sugar side up on lined trays, 5 cm (2 inches) apart.", "minutes": null },
+      { "text": "Cover loosely and proof until puffy. Heat the oven to 175°C (350°F) toward the end.", "minutes": 45 },
+      { "text": "Bake until golden and the sugar has crackled on top.", "minutes": 16 },
+      { "text": "Cool on a rack before serving so the sugar crust sets.", "minutes": null }
+    ],
+    "tips": "A sharp, aged cheddar gives the most flavor. Store in a loosely closed paper bag for a day so the sugar crust stays crisp; plastic makes it sticky."
+  },
+  {
+    "slug": "monay",
+    "title": "Monay",
+    "course": "almusal",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "milk", "egg", "butter"],
+    "prep": 150,
+    "cook": 20,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Dense, lightly sweet bread with a firm, close crumb and a deep crease pressed down the middle. It is filling, keeps well, and goes with coffee and a slice of cheese.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "all-purpose flour", "note": "plus extra for dusting" },
+          { "qty": 80, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "powdered milk", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 200, "max": null, "unit": "ml", "name": "lukewarm water", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, powdered milk, yeast and salt in a large bowl. Add the egg and water and mix into a fairly stiff dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 10 minutes more until smooth and firm. Monay dough should be stiffer than pandesal dough.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 12 pieces of about 70 g. Roll each into a tight ball, then flatten into a thick oval about 2 cm (3/4 inch) high.", "minutes": null },
+      { "text": "Dust the tops with flour. Press a floured wooden dowel or the handle of a wooden spoon firmly across the middle of each oval, almost to the bottom, to make a deep crease. Set on lined trays 5 cm (2 inches) apart.", "minutes": null },
+      { "text": "Cover and proof until puffy but not quite doubled. Press the crease again if it has filled in. Heat the oven to 180°C (350°F) toward the end.", "minutes": 45 },
+      { "text": "Bake until light golden and the bottoms sound hollow when tapped.", "minutes": 20 },
+      { "text": "Cool completely on a rack before storing.", "minutes": null }
+    ],
+    "tips": "Monay keeps for 3 days in a bag at room temperature. Day-old monay is good split, buttered and toasted, or used for biscocho."
+  },
+  {
+    "slug": "putok",
+    "title": "Putok",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "egg", "butter"],
+    "prep": 140,
+    "cook": 18,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Small, firm sweet rolls with a sugar-crusted top that splits open like a star as they bake, which is why some call it star bread. Chewier than pandesal and good with hot coffee.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 100, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 210, "max": null, "unit": "ml", "name": "lukewarm water", "note": "" },
+          { "qty": 50, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For the topping",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "melted" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "white sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add the egg and water and mix into a firm dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 10 minutes more until smooth and stiff.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 16 pieces of about 55 g. Roll each into a very tight ball and set on lined trays 5 cm (2 inches) apart.", "minutes": null },
+      { "text": "Cover and proof until about one and a half times their size. Heat the oven to 180°C (350°F) toward the end.", "minutes": 40 },
+      { "text": "With oiled kitchen scissors, snip a deep cross into the top of each ball, about 1 cm (1/2 inch) deep. Brush with melted butter and sprinkle generously with sugar.", "minutes": null },
+      { "text": "Bake until golden and the tops have cracked open.", "minutes": 18 },
+      { "text": "Cool on a rack before serving.", "minutes": null }
+    ],
+    "tips": "A tight ball and a stiff dough give the best star. If the cuts close up in the oven, snip a little deeper next time."
+  },
+  {
+    "slug": "kababayan",
+    "title": "Kababayan",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "egg", "milk", "butter", "brown sugar"],
+    "prep": 15,
+    "cook": 20,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Soft, sweet Filipino muffins baked in little gong-shaped molds, with a buttery, slightly caramel flavor and a springy crumb. An easy merienda that needs no yeast.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "all-purpose flour", "note": "about 2 cups" },
+          { "qty": 2.5, "max": null, "unit": "tsp", "name": "baking powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "eggs", "note": "at room temperature" },
+          { "qty": 150, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 50, "max": null, "unit": "g", "name": "brown sugar", "note": "" },
+          { "qty": 240, "max": null, "unit": "ml", "name": "milk", "note": "or evaporated milk" },
+          { "qty": 115, "max": null, "unit": "g", "name": "butter", "note": "melted and slightly cooled" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oven to 180°C (350°F). Grease 12 kababayan molds or a 12-cup muffin tin well.", "minutes": null },
+      { "text": "Whisk the flour, baking powder and salt in a bowl.", "minutes": null },
+      { "text": "In a large bowl, whisk the eggs with both sugars for about 2 minutes, until pale and slightly thick. Whisk in the milk, melted butter and vanilla.", "minutes": null },
+      { "text": "Fold in the flour mixture until just combined. A few small lumps are fine; overmixing makes them tough.", "minutes": null },
+      { "text": "Fill the molds about three quarters full.", "minutes": null },
+      { "text": "Bake until golden brown and a toothpick in the center comes out clean.", "minutes": 20 },
+      { "text": "Cool in the molds for 10 minutes, then loosen with a knife and turn out onto a rack.", "minutes": 10 }
+    ],
+    "tips": "Kababayan keep for 2 days in a sealed container. For a darker, more caramel flavor, use all brown sugar."
+  },
+  {
+    "slug": "pan-de-regla",
+    "title": "Pan de regla",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["bread", "flour", "evaporated milk", "egg", "butter"],
+    "prep": 170,
+    "cook": 18,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Soft rolls filled with a sweet, bright red paste made from day-old bread, milk and sugar, also called kalihim. The filling tastes like a rich bread pudding.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 150, "max": null, "unit": "g", "name": "day-old bread", "note": "torn into pieces (about 4 cups)" },
+          { "qty": 240, "max": null, "unit": "ml", "name": "evaporated milk", "note": "" },
+          { "qty": 100, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "beaten" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" },
+          { "qty": null, "max": null, "unit": "", "name": "red food coloring", "note": "a few drops" }
+        ]
+      },
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 240, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Soak the bread in the evaporated milk until completely soft.", "minutes": 10 },
+      { "text": "Mash or blend the soaked bread smooth. Cook it in a nonstick pan over medium-low heat with the sugar, egg and butter, stirring constantly, until it is a thick paste that pulls away from the pan, about 8 minutes. Stir in the vanilla and enough coloring for a deep red. Cool completely.", "minutes": null },
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add the egg and milk and mix into a soft dough. Knead for 5 minutes, work in the butter, then knead about 10 minutes more until smooth.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 16 pieces. Roll each into an oval about 12 x 8 cm (5 x 3 inches), spread a tablespoon of filling down the middle and roll up into a short log, pinching the seam and ends closed.", "minutes": null },
+      { "text": "Set seam side down on lined trays and make two shallow cuts across the top of each so a little red shows.", "minutes": null },
+      { "text": "Cover and proof until puffy. Heat the oven to 180°C (350°F) toward the end.", "minutes": 45 },
+      { "text": "Bake until golden.", "minutes": 18 },
+      { "text": "Cool on a rack before serving.", "minutes": null }
+    ],
+    "tips": "This is a good use for leftover pandesal or loaf ends. Gel food coloring gives a stronger red with less liquid."
+  },
+  {
+    "slug": "hopia-mongo",
+    "title": "Hopia mongo",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["mung beans", "flour"],
+    "prep": 120,
+    "cook": 22,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Flaky, layered pastry rounds filled with a smooth, sweet paste of yellow mung beans. The crust shatters into thin leaves and the filling is dense and mellow.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 200, "max": null, "unit": "g", "name": "peeled split mung beans", "note": "the yellow kind, rinsed" },
+          { "qty": 750, "max": null, "unit": "ml", "name": "water", "note": "" },
+          { "qty": 150, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 60, "max": null, "unit": "ml", "name": "vegetable oil", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the water dough",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "white sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "vegetable shortening", "note": "" },
+          { "qty": 110, "max": null, "unit": "ml", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the oil dough",
+        "items": [
+          { "qty": 160, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "vegetable shortening", "note": "" }
+        ]
+      },
+      {
+        "title": "For brushing",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "egg yolk", "note": "beaten with 1 teaspoon water" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Simmer the mung beans in the water, partly covered, until very soft and falling apart. Drain off any excess water.", "minutes": 25 },
+      { "text": "Mash or blend the beans smooth. Cook in a nonstick pan with the sugar, oil and salt over medium-low heat, stirring constantly, until the paste is thick and holds its shape, about 15 minutes. Cool, then roll into 16 balls of about 35 g.", "minutes": null },
+      { "text": "For the water dough, mix the flour, sugar and salt, rub in the shortening, then add the water and knead into a smooth, soft dough. Cover and rest.", "minutes": 20 },
+      { "text": "For the oil dough, rub the flour and shortening together into a smooth, soft paste. Divide both doughs into 16 pieces each.", "minutes": null },
+      { "text": "Flatten a piece of water dough, set a piece of oil dough in the center and wrap it completely. Roll it out into a long tongue, roll it up like a jelly roll, turn it 90 degrees, roll out again and roll up. Repeat with the rest, keeping them covered, and rest.", "minutes": 10 },
+      { "text": "Heat the oven to 190°C (375°F). Press each coil flat, roll it into a 9 cm (3 1/2 inch) circle, wrap it around a ball of filling and pinch to seal. Flatten gently into a disc about 1.5 cm (1/2 inch) thick and set seam side down on a lined tray.", "minutes": null },
+      { "text": "Brush the tops with the yolk wash and bake until the tops are golden.", "minutes": 12 },
+      { "text": "Flip each hopia with a spatula and bake until the second side is golden and flat.", "minutes": 10 },
+      { "text": "Cool completely on a rack; the crust crisps as it cools.", "minutes": null }
+    ],
+    "tips": "Keep both doughs covered while you work or the surface dries and cracks. Hopia keeps for 4 days in an airtight tin; refresh in a 160°C (325°F) oven for 5 minutes."
+  },
+  {
+    "slug": "hopia-ube",
+    "title": "Hopia ube",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["ube", "flour", "butter"],
+    "prep": 120,
+    "cook": 22,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Flaky, layered hopia filled with thick, sweet ube halaya. The purple filling is creamy and earthy against a crisp, tender crust.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ube halaya", "note": "about 2 cups" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "glutinous rice flour", "note": "only if the halaya is soft" }
+        ]
+      },
+      {
+        "title": "For the water dough",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "white sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "vegetable shortening", "note": "" },
+          { "qty": 110, "max": null, "unit": "ml", "name": "water", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ube flavoring", "note": "optional, for a lilac crust" }
+        ]
+      },
+      {
+        "title": "For the oil dough",
+        "items": [
+          { "qty": 160, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "vegetable shortening", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cook the ube halaya with the butter in a nonstick pan over medium-low heat, stirring constantly, until very thick and pulling away from the pan, about 10 minutes. Stir in the glutinous rice flour if it still feels soft.", "minutes": null },
+      { "text": "Spread the filling on a plate, cool, then chill until firm enough to roll. Roll into 16 balls of about 30 g.", "minutes": 30 },
+      { "text": "For the water dough, mix the flour, sugar and salt, rub in the shortening, then add the water and ube flavoring and knead into a smooth, soft dough. Cover and rest.", "minutes": 20 },
+      { "text": "For the oil dough, rub the flour and shortening together into a soft paste. Divide both doughs into 16 pieces each.", "minutes": null },
+      { "text": "Wrap each piece of oil dough in a piece of water dough. Roll out into a long tongue and roll up, turn 90 degrees, then roll out and roll up again. Cover the coils and rest.", "minutes": 10 },
+      { "text": "Heat the oven to 180°C (350°F). Flatten each coil into a 9 cm (3 1/2 inch) circle, wrap it around a ball of filling and pinch to seal. Press into a disc about 1.5 cm (1/2 inch) thick and set seam side down on a lined tray.", "minutes": null },
+      { "text": "Bake until the tops are just set and lightly colored.", "minutes": 12 },
+      { "text": "Flip each hopia and bake until both sides are pale golden and flat.", "minutes": 10 },
+      { "text": "Cool completely on a rack before storing.", "minutes": null }
+    ],
+    "tips": "Bake at a slightly lower heat than mongo hopia: the ube filling scorches if it leaks. Chilled filling is much easier to wrap."
+  },
+  {
+    "slug": "hopia-baboy",
+    "title": "Hopia baboy",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pork", "flour"],
+    "prep": 120,
+    "cook": 25,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Flaky white hopia filled with candied winter melon and small cubes of candied pork fat. The filling is sweet, chewy and rich, with a faint savory note.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 100, "max": null, "unit": "g", "name": "pork back fat", "note": "cut into 5 mm (1/4 inch) dice" },
+          { "qty": 150, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 120, "max": null, "unit": "ml", "name": "water", "note": "" },
+          { "qty": 200, "max": null, "unit": "g", "name": "candied winter melon (kundol)", "note": "finely chopped" },
+          { "qty": 60, "max": null, "unit": "g", "name": "all-purpose flour", "note": "toasted in a dry pan until light tan" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "toasted sesame seeds", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For the water dough",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "white sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "lard", "note": "or shortening" },
+          { "qty": 110, "max": null, "unit": "ml", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the oil dough",
+        "items": [
+          { "qty": 160, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "lard", "note": "or shortening" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Boil the diced pork fat in a small pot of water until tender, then drain.", "minutes": 10 },
+      { "text": "Return the fat to the pot with the sugar and the 120 ml water. Simmer until the fat turns translucent and the syrup is thick.", "minutes": 10 },
+      { "text": "Stir in the winter melon, toasted flour and sesame seeds and cook over low heat, stirring, until it forms a thick, sticky paste. Cool, then roll into 16 balls with oiled hands.", "minutes": null },
+      { "text": "For the water dough, mix the flour, sugar and salt, rub in the lard, then add the water and knead until smooth. Cover and rest.", "minutes": 20 },
+      { "text": "For the oil dough, rub the flour and lard into a smooth paste. Divide both doughs into 16 pieces each.", "minutes": null },
+      { "text": "Wrap each piece of oil dough in a piece of water dough. Roll out into a long tongue and roll up, turn 90 degrees, then roll out and roll up again. Cover and rest.", "minutes": 10 },
+      { "text": "Heat the oven to 190°C (375°F). Flatten each coil into a 9 cm (3 1/2 inch) circle, wrap it around a ball of filling and seal. Press into a disc about 1.5 cm (1/2 inch) thick and set seam side down on a lined tray.", "minutes": null },
+      { "text": "Bake until the bottoms are lightly golden, flip, and bake until both sides are set and pale golden. The tops should stay mostly white.", "minutes": 25 },
+      { "text": "Cool completely on a rack before serving.", "minutes": null }
+    ],
+    "tips": "Candied winter melon is sold in Chinese groceries and in Binondo shops. Chop it fine so the filling is easy to wrap."
+  },
+  {
+    "slug": "pastel-de-camiguin",
+    "title": "Pastel de Camiguin",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["condensed milk", "egg", "flour", "butter", "milk"],
+    "prep": 160,
+    "cook": 18,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Pillowy, soft buns filled with yema, a thick custard of condensed milk and egg yolks. Sweet, milky and very soft, like a filled brioche roll.",
+    "groups": [
+      {
+        "title": "For the yema filling",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
+          { "qty": 4, "max": null, "unit": "", "name": "egg yolks", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
+        ]
+      },
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "bread flour", "note": "" },
+          { "qty": 80, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 7, "max": null, "unit": "g", "name": "instant yeast", "note": "1 packet" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 200, "max": null, "unit": "ml", "name": "lukewarm milk", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "butter", "note": "softened" }
+        ]
+      },
+      {
+        "title": "For brushing",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "milk", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Make the yema: whisk the condensed milk and yolks in a nonstick pan, add the butter and cook over low heat, stirring constantly, until it thickens into a paste that holds a trail, about 12 minutes. Stir in the vanilla, spread on a plate and chill until firm.", "minutes": null },
+      { "text": "Whisk the flour, sugar, yeast and salt in a large bowl. Add the eggs and milk and mix into a soft dough.", "minutes": null },
+      { "text": "Knead for 5 minutes, work in the butter, then knead about 10 minutes more until very smooth and soft.", "minutes": null },
+      { "text": "Put the dough in an oiled bowl, cover and let it rise until doubled.", "minutes": 60 },
+      { "text": "Punch down and divide into 16 pieces. Flatten each into a 10 cm (4 inch) disc, put a heaping teaspoon of yema in the middle and pinch the edges together to seal. Set seam side down on lined trays.", "minutes": null },
+      { "text": "Cover and proof until puffy. Heat the oven to 175°C (350°F) toward the end.", "minutes": 45 },
+      { "text": "Brush the buns lightly with milk and bake until pale golden. Keep them light so they stay soft.", "minutes": 18 },
+      { "text": "Cool on a rack and keep covered with a towel so the crust softens.", "minutes": null }
+    ],
+    "tips": "Chill the yema well before filling; cold yema is firm and easy to wrap. Store the buns in a sealed container and eat within 2 days."
+  },
+  {
+    "slug": "biscocho",
+    "title": "Biscocho",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["bread", "butter"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Day-old bread spread with butter and sugar, then baked low and slow until crisp all the way through. Sweet, buttery and crunchy, and a good way to use up leftover pandesal or monay.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 12, "max": null, "unit": "", "name": "day-old pandesal or monay", "note": "split in half horizontally" },
+          { "qty": 115, "max": null, "unit": "g", "name": "butter", "note": "softened" },
+          { "qty": 100, "max": null, "unit": "g", "name": "white sugar", "note": "plus extra for sprinkling" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oven to 150°C (300°F) and line two baking trays.", "minutes": null },
+      { "text": "Mash the butter and sugar together until well mixed.", "minutes": null },
+      { "text": "Spread the cut side of each bread half with the butter mixture, all the way to the edges. Sprinkle a little extra sugar on top.", "minutes": null },
+      { "text": "Arrange cut side up on the trays and bake until dry, crisp and golden, rotating the trays halfway.", "minutes": 30 },
+      { "text": "Let cool on the trays; they crisp up more as they cool.", "minutes": 15 },
+      { "text": "Store in an airtight tin once completely cool.", "minutes": null }
+    ],
+    "tips": "If a piece is still soft in the middle once cool, return it to the oven for 5 to 10 minutes more. They keep crisp for a week in a sealed jar."
+  },
+  {
+    "slug": "piaya",
+    "title": "Piaya",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["muscovado", "flour"],
+    "prep": 45,
+    "cook": 25,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Thin, flat unleavened pastries filled with muscovado and cooked on a griddle until the sugar melts into a dark, sticky layer. The outside is speckled with sesame seeds and just a little chewy.",
+    "groups": [
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "white sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 60, "max": null, "unit": "ml", "name": "vegetable oil", "note": "" },
+          { "qty": 100, "max": 120, "unit": "ml", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 150, "max": null, "unit": "g", "name": "muscovado sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
+          { "qty": 1, "max": 2, "unit": "tbsp", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the outside",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "sesame seeds", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the flour, sugar and salt in a bowl. Add the oil and rub it in with your fingers, then add water a little at a time until the dough comes together. Knead for 3 minutes until smooth. Cover and rest.", "minutes": 20 },
+      { "text": "Mix the muscovado and flour, then add just enough water to make a damp, sandy paste that clumps when squeezed.", "minutes": null },
+      { "text": "Divide the dough and filling into 12 portions each. Flatten a piece of dough into a 8 cm (3 inch) circle, put a portion of filling in the middle, and pinch the edges together to seal.", "minutes": null },
+      { "text": "Set it seam side down and roll it gently with a rolling pin into a thin disc about 10 cm (4 inches) across. Roll lightly; if the dough tears, patch it so the sugar does not leak.", "minutes": null },
+      { "text": "Brush both sides lightly with water and press each side into the sesame seeds.", "minutes": null },
+      { "text": "Cook on a dry nonstick pan or griddle over medium-low heat until golden spots appear and the filling has melted, about 3 to 4 minutes per side. Work in batches.", "minutes": null },
+      { "text": "Cool on a rack before eating; the melted sugar is very hot.", "minutes": null }
+    ],
+    "tips": "Low heat is the key: too hot and the outside scorches before the sugar melts. Piaya keeps for 3 days in a sealed container."
+  },
+  {
+    "slug": "otap",
+    "title": "Otap",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour"],
+    "prep": 75,
+    "cook": 18,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Thin, oval puff biscuits made of flaky layers pressed in sugar and baked until crisp. They shatter at the first bite and taste of caramelized sugar and toasty pastry.",
+    "groups": [
+      {
+        "title": "For the water dough",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "white sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 60, "max": null, "unit": "g", "name": "vegetable shortening", "note": "" },
+          { "qty": 120, "max": null, "unit": "ml", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the oil dough",
+        "items": [
+          { "qty": 125, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 75, "max": null, "unit": "g", "name": "vegetable shortening", "note": "" }
+        ]
+      },
+      {
+        "title": "For coating",
+        "items": [
+          { "qty": 150, "max": null, "unit": "g", "name": "white sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "For the water dough, mix the flour, sugar and salt, rub in the shortening, then add the water and knead until smooth and soft. Cover and rest.", "minutes": 20 },
+      { "text": "For the oil dough, rub the flour and shortening together into a smooth paste.", "minutes": null },
+      { "text": "Roll the water dough into a rectangle about 30 x 20 cm (12 x 8 inches). Spread the oil dough over two thirds of it, then fold it in thirds like a letter.", "minutes": null },
+      { "text": "Roll out again to the same size and fold in thirds. Repeat once more, then cover and rest.", "minutes": 15 },
+      { "text": "Heat the oven to 180°C (350°F) and line two trays. Roll the dough into a log about 4 cm (1 1/2 inches) thick and cut it into 24 pieces.", "minutes": null },
+      { "text": "Spread the sugar on the counter. Roll each piece, cut side down, in the sugar into a very thin oval about 12 x 6 cm (5 x 2 1/2 inches), pressing sugar into both sides.", "minutes": null },
+      { "text": "Set on the trays, sugared side up, and bake until golden and crisp at the edges.", "minutes": 18 },
+      { "text": "Cool completely on a rack; otap only becomes fully crisp once cold.", "minutes": null }
+    ],
+    "tips": "Roll them thinner than you think; thick otap stays bready. Store in an airtight tin and they keep crisp for 2 weeks."
+  },
+  {
+    "slug": "napoleones",
+    "title": "Napoleones",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["flour", "milk", "egg", "butter", "calamansi"],
+    "prep": 90,
+    "cook": 18,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Rectangles of crisp puff pastry split and filled with a thick vanilla custard, then topped with a thin sugar glaze. Flaky, creamy and very sweet.",
+    "groups": [
+      {
+        "title": "For the custard",
+        "items": [
+          { "qty": 500, "max": null, "unit": "ml", "name": "milk", "note": "" },
+          { "qty": 4, "max": null, "unit": "", "name": "egg yolks", "note": "" },
+          { "qty": 100, "max": null, "unit": "g", "name": "white sugar", "note": "" },
+          { "qty": 40, "max": null, "unit": "g", "name": "cornstarch", "note": "about 1/3 cup" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
+        ]
+      },
+      {
+        "title": "For the pastry",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "all-butter puff pastry", "note": "thawed in the fridge" }
+        ]
+      },
+      {
+        "title": "For the glaze",
+        "items": [
+          { "qty": 150, "max": null, "unit": "g", "name": "powdered sugar", "note": "" },
+          { "qty": 1.5, "max": 2, "unit": "tbsp", "name": "calamansi juice or water", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the milk until steaming. Whisk the yolks, sugar, cornstarch and salt in a bowl, then slowly whisk in the hot milk.", "minutes": null },
+      { "text": "Pour back into the pan and cook over medium heat, whisking constantly, until thick and bubbling for 1 minute. Off the heat, whisk in the butter and vanilla.", "minutes": null },
+      { "text": "Press plastic wrap onto the surface and chill until cold and firm.", "minutes": 60 },
+      { "text": "Heat the oven to 200°C (400°F). Roll the pastry out to about 3 mm (1/8 inch) thick and cut it into 12 rectangles about 8 x 10 cm (3 x 4 inches). Prick each a few times with a fork and set on lined trays.", "minutes": null },
+      { "text": "Bake until puffed and deep golden all over.", "minutes": 18 },
+      { "text": "Cool completely on a rack.", "minutes": 15 },
+      { "text": "Split each pastry in half horizontally with a serrated knife. Spread a thick layer of custard on the bottom half and set the top back on.", "minutes": null },
+      { "text": "Stir the powdered sugar with calamansi juice until thick but pourable. Spread a thin layer over each top and let it set before serving.", "minutes": 15 }
+    ],
+    "tips": "Fill them on the day you serve them; the pastry softens after a few hours in the fridge. The calamansi in the glaze cuts the sweetness."
+  },
+  {
+    "slug": "mamon",
+    "title": "Mamon",
+    "course": "merienda",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["egg", "flour", "butter", "cheese"],
+    "prep": 30,
+    "cook": 22,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Individual chiffon cakes so light they almost melt, brushed with butter and dusted with sugar while still warm. A grated cheese topping makes them sweet and salty.",
+    "groups": [
+      {
+        "title": "For the batter",
+        "items": [
+          { "qty": 150, "max": null, "unit": "g", "name": "cake flour", "note": "sifted" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "baking powder", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 6, "max": null, "unit": "", "name": "egg yolks", "note": "at room temperature" },
+          { "qty": 80, "max": null, "unit": "g", "name": "white sugar", "note": "for the yolks" },
+          { "qty": 120, "max": null, "unit": "ml", "name": "melted butter or vegetable oil", "note": "" },
+          { "qty": 120, "max": null, "unit": "ml", "name": "milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "" }
+        ]
+      },
+      {
+        "title": "For the meringue",
+        "items": [
+          { "qty": 6, "max": null, "unit": "", "name": "egg whites", "note": "at room temperature" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "cream of tartar", "note": "" },
+          { "qty": 100, "max": null, "unit": "g", "name": "white sugar", "note": "" }
+        ]
+      },
+      {
+        "title": "For the topping",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "softened" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "white sugar", "note": "" },
+          { "qty": 50, "max": null, "unit": "g", "name": "cheddar cheese", "note": "finely grated, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oven to 160°C (325°F). Brush 12 mamon molds or large muffin cups with butter and dust with flour.", "minutes": null },
+      { "text": "Sift the cake flour, baking powder and salt together. In a large bowl, whisk the yolks with 80 g sugar until pale, then whisk in the butter, milk and vanilla. Whisk in the flour until smooth.", "minutes": null },
+      { "text": "In a clean bowl, beat the egg whites with the cream of tartar until foamy. Add 100 g sugar gradually and beat until stiff, glossy peaks form.", "minutes": null },
+      { "text": "Fold a third of the meringue into the yolk batter to lighten it, then gently fold in the rest until no white streaks remain.", "minutes": null },
+      { "text": "Fill the molds about three quarters full and tap once on the counter to release large bubbles.", "minutes": null },
+      { "text": "Bake until risen, golden and springy when pressed.", "minutes": 22 },
+      { "text": "Cool in the molds for 5 minutes, then unmold. While still warm, brush the tops with butter and sprinkle with sugar and cheese.", "minutes": 5 }
+    ],
+    "tips": "Make sure the bowl for the whites has no trace of fat or yolk, or they will not whip. Keep mamon in a covered container; they stay soft for 2 days."
+  }
+]

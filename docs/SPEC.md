@@ -130,13 +130,27 @@ Same model as the other two projects: crawl local WordPress, export to `dist/`, 
 
 ## 8. Launch content
 
-12 recipes, at least 3 vegetarian, at least 4 under 30 minutes, spread over all courses.
-Suggested: chicken adobo, pork sinigang, tortang talong, ginisang monggo, pancit canton,
-arroz caldo, tokwa't baboy, ginataang kalabasa at sitaw, garlic fried rice (sinangag),
-turon, leche flan, calamansi juice. Each needs a matching CC0 photo; if none exists for a
-dish, swap the dish rather than use a mismatched photo.
+**1,022 recipes** (owner asked for at least 1,000, 2026-10-11): Filipino dishes plus real
+home variations, no other cuisines. Ulam 559, merienda 189, sabaw 96, panghimagas 73,
+almusal 60, inumin 45; 312 vegetarian, 246 pescatarian; 228 take 30 minutes or less.
 
-Seeded by a WP-CLI `eval-file` script (`scripts/seed-content.php`), idempotent by slug.
+- Data lives in `scripts/recipes/*.json` (shape and writing rules in that folder's
+  README), one file group per dish family (01 adobo ... 21 inumin). Written by parallel
+  writers, each with an exclusive scope, then de-duplicated centrally.
+- `node scripts/validate-recipes.mjs` must pass before seeding: field rules, unit
+  whitelist, key-ingredient vocabulary, diet claims checked against the ingredient list,
+  duplicate slugs and titles across files. `--own <files>` checks only those files.
+- `scripts/seed-content.php` (WP-CLI `eval-file`, `--user=admin`) seeds courses, diets,
+  the About page and every recipe, idempotent by slug, about 30 s for all of them.
+  Publish dates are one hour apart in a stable hash order so "latest" lists mix courses;
+  chicken adobo is pinned newest (it's the home page's "Tonight").
+- Diet labels are only vegetarian and pescatarian: no allergen claims.
+- **Photos**: CC0/public-domain only, so most recipes have none and show the
+  course-coloured plate. Add photos per recipe as matching ones are found; never a
+  mismatched dish.
+- Some recipes were flagged by their writers as less certain (regional dishes with
+  varying methods, e.g. turrones de casuy, etag soup, baye-baye, pyanggang). They pass the
+  rules but are the first to check if a reader reports a problem.
 
 ## 9. Build order
 
@@ -154,7 +168,8 @@ Seeded by a WP-CLI `eval-file` script (`scripts/seed-content.php`), idempotent b
    About page seeded. Checked at 1440 and 390 px, light and dark.
 5. Pantry and list pages (templates exist for everything else).
 6. JS: tick boxes, then the index route, filters, Bahala na, pantry, list.
-7. Seed the other 11 recipes and CC0 photos (overhead shots, for the plate crops).
+7. **Done**: 1,022 recipes seeded (section 8). Still open: CC0 photos (overhead shots,
+   for the plate crops) where matching ones exist.
 8. Exporter, CSP, Vercel project, `Deploy.cmd`.
 9. Add the project to the portfolio (screenshots 1920×1200 WebP).
 

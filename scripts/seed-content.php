@@ -1,7 +1,9 @@
 <?php
 /**
- * Launch content (docs/SPEC.md, section 8). Idempotent by slug: re-running updates posts.
+ * Launch content (docs/SPEC.md, section 8): courses, the About page, and every recipe in
+ * scripts/recipes/*.json. Idempotent by slug: re-running updates posts in place.
  *
+ *   node scripts/validate-recipes.mjs                                   check the data first
  *   docker compose run --rm cli wp eval-file /scripts/seed-content.php --user=admin
  *
  * Run as an admin so kses leaves the block markup alone.
@@ -9,34 +11,42 @@
 
 defined( 'ABSPATH' ) || exit;
 
-/** Ingredient row for the recipe card. */
-function kusina_seed_item( ?float $qty, string $unit, string $name, string $note = '', ?float $max = null ): array {
-	return array(
-		'qty'    => $qty,
-		'qtyMax' => $max,
-		'unit'   => $unit,
-		'name'   => $name,
-		'note'   => $note,
+/** Builds a recipe post from one JSON record (shape: scripts/recipes/README.md). */
+function kusina_seed_recipe( array $recipe, string $post_date ): array {
+	$groups = array_map(
+		static fn( array $group ): array => array(
+			'title' => (string) $group['title'],
+			'items' => array_map(
+				static fn( array $item ): array => array(
+					'qty'    => $item['qty'],
+					'qtyMax' => $item['max'],
+					'unit'   => (string) $item['unit'],
+					'name'   => (string) $item['name'],
+					'note'   => (string) $item['note'],
+				),
+				$group['items']
+			),
+		),
+		$recipe['groups']
 	);
-}
 
-function kusina_seed_recipe( array $recipe ): int {
+	$intro   = '<p>' . esc_html( $recipe['intro'] ) . '</p>';
 	$content = serialize_block(
 		array(
 			'blockName'    => 'core/paragraph',
 			'attrs'        => array(),
 			'innerBlocks'  => array(),
-			'innerHTML'    => '<p>' . esc_html( $recipe['intro'] ) . '</p>',
-			'innerContent' => array( '<p>' . esc_html( $recipe['intro'] ) . '</p>' ),
+			'innerHTML'    => $intro,
+			'innerContent' => array( $intro ),
 		)
 	) . "\n\n" . serialize_block(
 		array(
 			'blockName'    => 'kusina/recipe-card',
 			'attrs'        => array(
 				'align'  => 'wide',
-				'groups' => $recipe['groups'],
+				'groups' => $groups,
 				'steps'  => $recipe['steps'],
-				'tips'   => $recipe['tips'],
+				'tips'   => (string) $recipe['tips'],
 			),
 			'innerBlocks'  => array(),
 			'innerHTML'    => '',
@@ -50,29 +60,39 @@ function kusina_seed_recipe( array $recipe ): int {
 	$post_id = wp_insert_post(
 		wp_slash(
 			array(
-				'ID'           => $existing ? $existing->ID : 0,
-				'post_type'    => 'recipe',
-				'post_status'  => 'publish',
-				'post_name'    => $recipe['slug'],
-				'post_title'   => $recipe['title'],
-				'post_content' => $content,
+				'ID'            => $existing ? $existing->ID : 0,
+				'post_type'     => 'recipe',
+				'post_status'   => 'publish',
+				'post_name'     => $recipe['slug'],
+				'post_title'    => $recipe['title'],
+				'post_content'  => $content,
+				'post_date'     => $post_date,
+				'post_date_gmt' => get_gmt_from_date( $post_date ),
 			)
 		),
 		true
 	);
 	if ( is_wp_error( $post_id ) ) {
-		WP_CLI::error( $post_id->get_error_message() );
+		return array( 0, $post_id->get_error_message() );
 	}
 
-	foreach ( $recipe['meta'] as $key => $value ) {
+	$meta = array(
+		'prep_minutes' => (int) $recipe['prep'],
+		'cook_minutes' => (int) $recipe['cook'],
+		'servings'     => (int) $recipe['servings'],
+		'yield_label'  => (string) $recipe['yield_label'],
+		'difficulty'   => (string) $recipe['difficulty'],
+	);
+	foreach ( $meta as $key => $value ) {
 		update_post_meta( $post_id, $key, $value );
 	}
-	foreach ( $recipe['terms'] as $taxonomy => $names ) {
-		wp_set_object_terms( $post_id, $names, $taxonomy );
-	}
 
-	WP_CLI::log( ( $existing ? 'Updated' : 'Created' ) . " {$recipe['slug']} (#{$post_id})" );
-	return $post_id;
+	$course = get_term_by( 'slug', $recipe['course'], 'course' );
+	wp_set_object_terms( $post_id, $course ? array( $course->term_id ) : array(), 'course' );
+	wp_set_object_terms( $post_id, array_map( 'ucfirst', $recipe['diets'] ), 'diet' );
+	wp_set_object_terms( $post_id, array_map( 'ucfirst', $recipe['key_ingredients'] ), 'key_ingredient' );
+
+	return array( $post_id, $existing ? 'updated' : 'created' );
 }
 
 // Courses in Tagalog (docs/DESIGN.md); the description is the English gloss shown on the
@@ -80,7 +100,7 @@ function kusina_seed_recipe( array $recipe ): int {
 $kusina_course_descriptions = array(
 	'ulam'        => 'Mains: what goes on the rice.',
 	'sabaw'       => 'Soups and stews, for rainy days and every other day.',
-	'merienda'    => 'Afternoon snacks, sweet or savoury.',
+	'merienda'    => 'Afternoon snacks, sweet or savory.',
 	'panghimagas' => 'Desserts.',
 	'almusal'     => 'Breakfast, usually with garlic rice.',
 	'inumin'      => 'Drinks.',
@@ -99,8 +119,18 @@ foreach ( kusina_courses() as $kusina_slug => [ $kusina_name ] ) {
 }
 WP_CLI::log( 'Courses: ' . implode( ', ', wp_list_pluck( kusina_courses(), 0 ) ) );
 
+// 12 per page fills the plate grid evenly at 2, 3, 4 and 6 columns (archives inherit this).
+update_option( 'posts_per_page', 12 );
+
+// Only these two diet labels exist: allergen claims (gluten-free, dairy-free) are not made.
+foreach ( array( 'vegetarian' => 'Vegetarian', 'pescatarian' => 'Pescatarian' ) as $kusina_slug => $kusina_name ) {
+	if ( ! get_term_by( 'slug', $kusina_slug, 'diet' ) ) {
+		wp_insert_term( $kusina_name, 'diet', array( 'slug' => $kusina_slug ) );
+	}
+}
+
 // About page, in the site's voice but only true statements.
-$kusina_about = get_page_by_path( 'about' );
+$kusina_about         = get_page_by_path( 'about' );
 $kusina_about_content = implode(
 	"\n\n",
 	array_map(
@@ -108,7 +138,7 @@ $kusina_about_content = implode(
 		array(
 			'Kusina Notes is a recipe site for everyday Filipino cooking: the ulam, sabaw and merienda people actually make on a weeknight.',
 			'Every recipe opens straight onto the recipe. Change the servings and the amounts follow, switch between metric and US measures, and press Cook mode to get one step at a time with timers, in big type, with the screen kept awake.',
-			'It is a personal project built on WordPress and published as a static site. The food photos are public domain.',
+			'It is a personal project built on WordPress and published as a static site. Food photos, where there are any, are public domain.',
 		)
 	)
 );
@@ -130,78 +160,50 @@ if ( is_wp_error( $kusina_about_id ) ) {
 }
 WP_CLI::log( ( $kusina_about ? 'Updated' : 'Created' ) . " about (#{$kusina_about_id})" );
 
-kusina_seed_recipe(
-	array(
-		'slug'   => 'chicken-adobo',
-		'title'  => 'Chicken adobo',
-		'intro'  => 'Chicken braised in soy sauce, vinegar and plenty of garlic until the sauce turns glossy and clings to every piece. This is the everyday version: one pot, pantry ingredients, about an hour, and it tastes even better the next day.',
-		'meta'   => array(
-			'prep_minutes' => 10,
-			'cook_minutes' => 50,
-			'servings'     => 4,
-			'yield_label'  => '',
-			'difficulty'   => 'easy',
-		),
-		'terms'  => array(
-			'course'         => array( 'Ulam' ),
-			'key_ingredient' => array( 'Chicken', 'Soy sauce', 'Vinegar', 'Garlic' ),
-		),
-		'groups' => array(
-			array(
-				'title' => 'For the chicken',
-				'items' => array(
-					kusina_seed_item( 1, 'kg', 'bone-in chicken thighs and drumsticks' ),
-					kusina_seed_item( 1, 'tbsp', 'cooking oil' ),
-					kusina_seed_item( 10, 'clove', 'garlic', 'crushed (about 1 head)' ),
-					kusina_seed_item( 0.5, 'cup', 'soy sauce' ),
-					kusina_seed_item( 1 / 3, 'cup', 'cane vinegar', 'or white vinegar' ),
-					kusina_seed_item( 1, 'cup', 'water' ),
-					kusina_seed_item( 3, '', 'dried bay leaves' ),
-					kusina_seed_item( 1, 'tsp', 'whole black peppercorns', 'lightly cracked' ),
-					kusina_seed_item( 1, 'tbsp', 'brown sugar', 'optional' ),
-				),
-			),
-			array(
-				'title' => 'To serve',
-				'items' => array(
-					kusina_seed_item( 4, 'cup', 'steamed white rice' ),
-				),
-			),
-		),
-		'steps'  => array(
-			array(
-				'text'    => 'Pat the chicken dry. Heat the oil in a wide, heavy pot over medium-high heat and brown the chicken skin side down in batches, about 5 minutes per batch. Set the pieces aside.',
-				'minutes' => 5,
-			),
-			array(
-				'text'    => 'Lower the heat to medium. Fry the garlic in the chicken fat until fragrant and just turning golden. Do not let it brown.',
-				'minutes' => 1,
-			),
-			array(
-				'text'    => 'Return the chicken to the pot with the soy sauce, water, bay leaves and peppercorns. Bring to a boil.',
-				'minutes' => null,
-			),
-			array(
-				'text'    => 'Pour in the vinegar and let it boil <strong>without stirring</strong>, so its sharp edge cooks off.',
-				'minutes' => 3,
-			),
-			array(
-				'text'    => 'Cover, lower the heat and simmer until the chicken is tender, turning the pieces once halfway.',
-				'minutes' => 25,
-			),
-			array(
-				'text'    => 'Uncover, stir in the sugar if using, and simmer until the sauce has reduced by about half and coats the chicken.',
-				'minutes' => 10,
-			),
-			array(
-				'text'    => 'Taste the sauce. Add a splash of vinegar if it needs brightness, or a splash of water if it is too salty. Remove the bay leaves.',
-				'minutes' => null,
-			),
-			array(
-				'text'    => 'Serve over steamed rice with plenty of sauce spooned over.',
-				'minutes' => null,
-			),
-		),
-		'tips'   => 'Adobo keeps for 4 days in the fridge and the flavour deepens overnight. Reheat gently with a splash of water. For a crisp finish, fry the cooked pieces in a hot pan for a few minutes a side and pour the sauce over at the table.',
-	)
-);
+// Recipes. The validator (scripts/validate-recipes.mjs) is the real check; this only refuses
+// records missing the fields the seed reads.
+$kusina_recipes = array();
+foreach ( glob( __DIR__ . '/recipes/*.json' ) as $kusina_file ) {
+	$kusina_data = json_decode( (string) file_get_contents( $kusina_file ), true );
+	if ( ! is_array( $kusina_data ) ) {
+		WP_CLI::error( basename( $kusina_file ) . ': invalid JSON. Run node scripts/validate-recipes.mjs' );
+	}
+	foreach ( $kusina_data as $kusina_recipe ) {
+		foreach ( array( 'slug', 'title', 'course', 'diets', 'key_ingredients', 'prep', 'cook', 'servings', 'yield_label', 'difficulty', 'intro', 'groups', 'steps', 'tips' ) as $kusina_key ) {
+			if ( ! array_key_exists( $kusina_key, (array) $kusina_recipe ) ) {
+				WP_CLI::error( basename( $kusina_file ) . ": a recipe is missing \"{$kusina_key}\". Run node scripts/validate-recipes.mjs" );
+			}
+		}
+		$kusina_recipes[ $kusina_recipe['slug'] ] = $kusina_recipe;
+	}
+}
+
+// Publish dates: one hour apart, ordered by a hash of the slug so "latest" lists mix courses
+// instead of showing one writer's batch. Stable across re-runs. Chicken adobo stays newest.
+$kusina_order = array_keys( $kusina_recipes );
+usort( $kusina_order, static fn( string $a, string $b ): int => crc32( $a ) <=> crc32( $b ) );
+$kusina_order = array_values( array_diff( $kusina_order, array( 'chicken-adobo' ) ) );
+if ( isset( $kusina_recipes['chicken-adobo'] ) ) {
+	$kusina_order[] = 'chicken-adobo';
+}
+$kusina_newest = strtotime( '2026-10-11 08:00:00' );
+$kusina_count  = count( $kusina_order );
+
+wp_defer_term_counting( true );
+$kusina_stats = array( 'created' => 0, 'updated' => 0, 'failed' => 0 );
+foreach ( $kusina_order as $kusina_i => $kusina_slug ) {
+	$kusina_date            = gmdate( 'Y-m-d H:i:s', $kusina_newest - ( $kusina_count - 1 - $kusina_i ) * HOUR_IN_SECONDS );
+	[ $kusina_id, $kusina_r ] = kusina_seed_recipe( $kusina_recipes[ $kusina_slug ], $kusina_date );
+	if ( ! $kusina_id ) {
+		++$kusina_stats['failed'];
+		WP_CLI::warning( "{$kusina_slug}: {$kusina_r}" );
+		continue;
+	}
+	++$kusina_stats[ $kusina_r ];
+	if ( 0 === ( $kusina_i + 1 ) % 100 ) {
+		WP_CLI::log( ( $kusina_i + 1 ) . " / {$kusina_count}" );
+	}
+}
+wp_defer_term_counting( false );
+
+WP_CLI::success( "Recipes: {$kusina_stats['created']} created, {$kusina_stats['updated']} updated, {$kusina_stats['failed']} failed." );

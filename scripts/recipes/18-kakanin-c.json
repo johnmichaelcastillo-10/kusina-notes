@@ -1,0 +1,1983 @@
+[
+  {
+    "slug": "palitaw",
+    "title": "Palitaw",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "coconut"
+    ],
+    "prep": 20,
+    "cook": 15,
+    "servings": 20,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Flat glutinous rice cakes boiled until they float, then rolled in grated coconut and sprinkled with sugar and toasted sesame. Soft, chewy and mildly sweet.",
+    "groups": [
+      {
+        "title": "Dough",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice flour",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": "plus 1 to 2 tbsp as needed"
+          }
+        ]
+      },
+      {
+        "title": "Coating",
+        "items": [
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated fresh coconut",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sesame seeds",
+            "note": "toasted"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the flour and water into a soft, smooth dough. Add water a spoonful at a time if it cracks.",
+        "minutes": null
+      },
+      {
+        "text": "Pinch off tablespoon-size pieces, roll into balls and flatten into ovals about 1/4 inch thick.",
+        "minutes": null
+      },
+      {
+        "text": "Bring a large pot of water to a boil and drop in a few pieces at a time. When they float, cook 1 minute more.",
+        "minutes": 3
+      },
+      {
+        "text": "Lift out with a slotted spoon, shake off the water and roll in the grated coconut.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the sugar and sesame seeds and sprinkle over the palitaw. Serve the same day.",
+        "minutes": null
+      }
+    ],
+    "tips": "Do not crowd the pot or the cakes stick together. Fresh coconut spoils quickly at room temperature, so eat palitaw within the day or keep it chilled."
+  },
+  {
+    "slug": "ube-palitaw",
+    "title": "Ube palitaw",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "ube",
+      "coconut"
+    ],
+    "prep": 20,
+    "cook": 15,
+    "servings": 20,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Palitaw with ube halaya kneaded into the dough, so each chewy cake is purple and tastes of sweet yam. Rolled in coconut, sugar and sesame like the classic.",
+    "groups": [
+      {
+        "title": "Dough",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice flour",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "ube halaya",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": 0.667,
+            "unit": "cup",
+            "name": "water",
+            "note": "plus more as needed"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ube extract",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "Coating",
+        "items": [
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated fresh coconut",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sesame seeds",
+            "note": "toasted"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the ube halaya, ube extract and water, then work it into the flour to a soft, smooth dough that does not stick to your hands.",
+        "minutes": null
+      },
+      {
+        "text": "Pinch off tablespoon-size pieces, roll into balls and flatten into ovals about 1/4 inch thick.",
+        "minutes": null
+      },
+      {
+        "text": "Boil the pieces in batches in a large pot of water. When they float, cook 1 minute more.",
+        "minutes": 3
+      },
+      {
+        "text": "Lift out, shake off the water and roll in grated coconut.",
+        "minutes": null
+      },
+      {
+        "text": "Sprinkle with the sugar and sesame seeds and serve the same day.",
+        "minutes": null
+      }
+    ],
+    "tips": "Ube halaya makes the dough softer: add the water slowly and stop when the dough no longer sticks to your hands."
+  },
+  {
+    "slug": "biko",
+    "title": "Biko",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "coconut milk",
+      "brown sugar"
+    ],
+    "prep": 15,
+    "cook": 75,
+    "servings": 20,
+    "yield_label": "slices",
+    "difficulty": "medium",
+    "intro": "Sticky rice simmered in coconut milk and brown sugar until thick and glossy, then topped with crunchy golden latik. Chewy, caramel sweet and made for sharing at parties.",
+    "groups": [
+      {
+        "title": "Latik",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut cream",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "Rice",
+        "items": [
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice",
+            "note": "rinsed"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "banana leaves",
+            "note": "wilted, for lining"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Make the latik: simmer the coconut cream, stirring more often as it thickens, until the oil separates and the curds are deep golden. Strain and keep the oil.",
+        "minutes": 30
+      },
+      {
+        "text": "Cook the rice with the water in a rice cooker or covered pot until just tender.",
+        "minutes": 20
+      },
+      {
+        "text": "In a wide pan, simmer the coconut milk, brown sugar and salt, stirring, until reduced by about a third and thick.",
+        "minutes": 15
+      },
+      {
+        "text": "Add the rice and stir over low heat until the liquid is absorbed and the biko is very thick, sticky and pulls away from the pan.",
+        "minutes": 20
+      },
+      {
+        "text": "Line a tray with banana leaves brushed with latik oil, spread the biko evenly and top with the latik. Cool before slicing.",
+        "minutes": 30
+      }
+    ],
+    "tips": "Cook the latik and rice at the same time to save time. Biko keeps 2 days covered at room temperature, longer in the fridge; warm it briefly before serving."
+  },
+  {
+    "slug": "biko-with-langka",
+    "title": "Biko with langka",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "coconut milk",
+      "brown sugar",
+      "jackfruit (ripe)",
+      "coconut"
+    ],
+    "prep": 15,
+    "cook": 55,
+    "servings": 20,
+    "yield_label": "slices",
+    "difficulty": "medium",
+    "intro": "Biko cooked with strips of ripe jackfruit, so the sticky rice picks up the fruit's sweet, floral flavor. Topped with more jackfruit and toasted coconut.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice",
+            "note": "rinsed"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 1.75,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "ripe jackfruit (langka)",
+            "note": "cut into thin strips, divided"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated coconut",
+            "note": "toasted in a dry pan until golden"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "banana leaves",
+            "note": "wilted and greased, for lining"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the rice with the water in a rice cooker or covered pot until just tender.",
+        "minutes": 20
+      },
+      {
+        "text": "In a wide pan, simmer the coconut milk, brown sugar and salt, stirring, until reduced and thick.",
+        "minutes": 15
+      },
+      {
+        "text": "Add the rice and half the jackfruit and stir over low heat until very thick and sticky.",
+        "minutes": 20
+      },
+      {
+        "text": "Spread the biko on a tray lined with banana leaves and top with the remaining jackfruit and the toasted coconut.",
+        "minutes": null
+      },
+      {
+        "text": "Cool before slicing.",
+        "minutes": 30
+      }
+    ],
+    "tips": "Bottled jackfruit in syrup works: drain it and cut the brown sugar by 1/4 cup. Toast the coconut over low heat, stirring, so it browns evenly."
+  },
+  {
+    "slug": "ube-biko",
+    "title": "Ube biko",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "ube",
+      "coconut milk",
+      "condensed milk"
+    ],
+    "prep": 15,
+    "cook": 55,
+    "servings": 20,
+    "yield_label": "slices",
+    "difficulty": "medium",
+    "intro": "Purple biko made with ube halaya stirred into the sticky rice, then topped with a layer of more halaya. Creamy, sweet and chewy, finished with latik or cheese.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice",
+            "note": "rinsed"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2.5,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "condensed milk",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "ube halaya",
+            "note": "divided"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ube extract",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "banana leaves",
+            "note": "wilted and greased, for lining"
+          }
+        ]
+      },
+      {
+        "title": "Topping",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "latik",
+            "note": "or grated cheese"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the rice with the water in a rice cooker or covered pot until just tender.",
+        "minutes": 20
+      },
+      {
+        "text": "In a wide pan, simmer the coconut milk, sugar, condensed milk, 1/2 cup of the ube halaya, the ube extract and salt, stirring, until smooth and slightly thick.",
+        "minutes": 10
+      },
+      {
+        "text": "Add the rice and stir over low heat until very thick and sticky.",
+        "minutes": 20
+      },
+      {
+        "text": "Spread on a tray lined with banana leaves and spread the remaining 1 cup ube halaya over the top in an even layer.",
+        "minutes": null
+      },
+      {
+        "text": "Sprinkle with latik or cheese and cool before slicing.",
+        "minutes": 30
+      }
+    ],
+    "tips": "Use white sugar here: brown sugar dulls the purple. Ube biko keeps 3 days in the fridge."
+  },
+  {
+    "slug": "pirurutong-biko",
+    "title": "Pirurutong biko",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "coconut milk",
+      "muscovado"
+    ],
+    "prep": 15,
+    "cook": 95,
+    "servings": 20,
+    "yield_label": "slices",
+    "difficulty": "medium",
+    "intro": "Biko made with pirurutong, a purple heirloom glutinous rice, which gives it a deep violet color and a nutty, slightly firmer chew. Finished with a baked muscovado and coconut topping.",
+    "groups": [
+      {
+        "title": "Rice",
+        "items": [
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "pirurutong (purple glutinous rice)",
+            "note": "soaked 4 hours"
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "white glutinous rice",
+            "note": "rinsed"
+          },
+          {
+            "qty": 3.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "muscovado",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "banana leaves",
+            "note": "wilted and greased, for lining"
+          }
+        ]
+      },
+      {
+        "title": "Topping",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut cream",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "muscovado",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Drain the pirurutong and cook it with the white glutinous rice and water in a covered pot until tender.",
+        "minutes": 30
+      },
+      {
+        "text": "In a wide pan, simmer the coconut milk, muscovado and salt, stirring, until reduced and thick.",
+        "minutes": 15
+      },
+      {
+        "text": "Add the rice and stir over low heat until very thick and sticky.",
+        "minutes": 20
+      },
+      {
+        "text": "Heat the oven to 350°F (175°C). Spread the biko in a 9 by 13-inch pan lined with banana leaves. Simmer the coconut cream and muscovado until thick, then spread it over the rice.",
+        "minutes": 8
+      },
+      {
+        "text": "Bake until the topping bubbles and darkens.",
+        "minutes": 20
+      },
+      {
+        "text": "Cool before slicing.",
+        "minutes": 30
+      }
+    ],
+    "tips": "Pirurutong is harder than white glutinous rice, so soak it at least 4 hours or overnight. Mixing it half and half with white glutinous rice keeps the biko sticky enough to slice."
+  },
+  {
+    "slug": "cassava-cake",
+    "title": "Cassava cake",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "cassava",
+      "coconut milk",
+      "condensed milk",
+      "evaporated milk",
+      "egg",
+      "cheese"
+    ],
+    "prep": 15,
+    "cook": 70,
+    "servings": 16,
+    "yield_label": "slices",
+    "difficulty": "easy",
+    "intro": "Grated cassava baked with coconut milk, condensed milk and eggs into a dense, chewy cake, then topped with a creamy custard that browns under the broiler. One of the easiest kakanin for parties.",
+    "groups": [
+      {
+        "title": "Cake",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "grated cassava",
+            "note": "fresh or frozen, thawed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "condensed milk",
+            "note": ""
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "evaporated milk",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "butter",
+            "note": "melted, plus more for the pan"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "Topping",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "condensed milk",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "egg yolks",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated cheese",
+            "note": "optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 350°F (175°C) and butter a 9 by 13-inch pan.",
+        "minutes": null
+      },
+      {
+        "text": "Mix all the cake ingredients until evenly blended.",
+        "minutes": null
+      },
+      {
+        "text": "Pour into the pan and bake until set and firm in the center.",
+        "minutes": 50
+      },
+      {
+        "text": "Whisk the condensed milk, coconut milk and egg yolks, pour over the cake and scatter the cheese on top. Bake until the topping is set.",
+        "minutes": 15
+      },
+      {
+        "text": "Broil until spotted brown, watching closely.",
+        "minutes": 3
+      },
+      {
+        "text": "Cool completely before slicing.",
+        "minutes": 60
+      }
+    ],
+    "tips": "If using fresh cassava, squeeze out some juice but not all; the cake needs moisture. Frozen grated cassava works well once fully thawed."
+  },
+  {
+    "slug": "cassava-cake-with-macapuno",
+    "title": "Cassava cake with macapuno",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "cassava",
+      "coconut",
+      "coconut milk",
+      "condensed milk",
+      "egg"
+    ],
+    "prep": 15,
+    "cook": 70,
+    "servings": 16,
+    "yield_label": "slices",
+    "difficulty": "easy",
+    "intro": "Cassava cake studded with sweet macapuno strings, both in the cake and on top under the custard. The soft coconut strands add a chewy, syrupy sweetness.",
+    "groups": [
+      {
+        "title": "Cake",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "grated cassava",
+            "note": "fresh or frozen, thawed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "condensed milk",
+            "note": ""
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "evaporated milk",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "butter",
+            "note": "melted, plus more for the pan"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "macapuno strings",
+            "note": "bottled, well drained, divided"
+          }
+        ]
+      },
+      {
+        "title": "Topping",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "condensed milk",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "egg yolks",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 350°F (175°C) and butter a 9 by 13-inch pan.",
+        "minutes": null
+      },
+      {
+        "text": "Mix all the cake ingredients with half the macapuno until evenly blended.",
+        "minutes": null
+      },
+      {
+        "text": "Pour into the pan and bake until set and firm in the center.",
+        "minutes": 50
+      },
+      {
+        "text": "Whisk the condensed milk, coconut milk and egg yolks and pour over the cake. Scatter the remaining macapuno on top and bake until the topping is set.",
+        "minutes": 15
+      },
+      {
+        "text": "Broil until spotted brown, watching closely.",
+        "minutes": 3
+      },
+      {
+        "text": "Cool completely before slicing.",
+        "minutes": 60
+      }
+    ],
+    "tips": "Macapuno in syrup is sweet, so this version uses less sugar. Drain it well, or the cake turns soggy."
+  },
+  {
+    "slug": "pichi-pichi",
+    "title": "Pichi-pichi",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "cassava",
+      "coconut"
+    ],
+    "prep": 15,
+    "cook": 45,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Soft, sticky, translucent cassava cakes steamed in small molds and rolled in freshly grated coconut. Chewy, gently sweet and best eaten the same day.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "cassava",
+            "note": "very finely grated (about 450 g), liquid squeezed out"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "lye water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "pandan flavoring",
+            "note": "optional"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": "for the molds"
+          }
+        ]
+      },
+      {
+        "title": "Coating",
+        "items": [
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated fresh coconut",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the cassava, sugar and water until the sugar dissolves, then stir in the lye water and pandan flavoring.",
+        "minutes": null
+      },
+      {
+        "text": "Oil small puto molds or an 8-inch square pan, fill with the mixture and bring the steamer to a boil.",
+        "minutes": null
+      },
+      {
+        "text": "Steam until translucent all the way through, with no white spots.",
+        "minutes": 45
+      },
+      {
+        "text": "Cool completely before unmolding or cutting.",
+        "minutes": 30
+      },
+      {
+        "text": "Roll each piece in grated coconut.",
+        "minutes": null
+      }
+    ],
+    "tips": "Pichi-pichi needs very finely grated cassava; coarse gratings stay stringy. Do not skip the cooling: warm pichi-pichi is too soft to roll."
+  },
+  {
+    "slug": "cheese-pichi-pichi",
+    "title": "Cheese pichi-pichi",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "cassava",
+      "cheese"
+    ],
+    "prep": 15,
+    "cook": 45,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Pichi-pichi rolled in finely grated cheese instead of coconut, so each soft, chewy cassava bite is both sweet and salty. It also keeps longer than the coconut version.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "cassava",
+            "note": "very finely grated (about 450 g), liquid squeezed out"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "lye water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": "for the molds"
+          }
+        ]
+      },
+      {
+        "title": "Coating",
+        "items": [
+          {
+            "qty": 150,
+            "max": null,
+            "unit": "g",
+            "name": "cheddar or quick-melt cheese",
+            "note": "finely grated and chilled"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the cassava, sugar and water until the sugar dissolves, then stir in the lye water.",
+        "minutes": null
+      },
+      {
+        "text": "Oil small puto molds or an 8-inch square pan, fill with the mixture and bring the steamer to a boil.",
+        "minutes": null
+      },
+      {
+        "text": "Steam until translucent all the way through, with no white spots.",
+        "minutes": 45
+      },
+      {
+        "text": "Cool completely before unmolding or cutting.",
+        "minutes": 30
+      },
+      {
+        "text": "Roll each piece in the grated cheese, pressing lightly so it sticks.",
+        "minutes": null
+      }
+    ],
+    "tips": "Grate the cheese on the finest holes and keep it cold so it coats evenly. Covered in the fridge, these keep 3 days."
+  },
+  {
+    "slug": "ube-pichi-pichi",
+    "title": "Ube pichi-pichi",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "cassava",
+      "ube",
+      "coconut"
+    ],
+    "prep": 15,
+    "cook": 45,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Pichi-pichi flavored and colored with ube, steamed until translucent and rolled in grated coconut. The cassava stays soft and chewy, with a sweet purple yam flavor.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "cassava",
+            "note": "very finely grated (about 450 g), liquid squeezed out"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "lye water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "ube halaya",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ube extract",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": "for the molds"
+          }
+        ]
+      },
+      {
+        "title": "Coating",
+        "items": [
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated fresh coconut",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk the ube halaya and ube extract into the water until smooth. Mix with the cassava and sugar until the sugar dissolves, then stir in the lye water.",
+        "minutes": null
+      },
+      {
+        "text": "Oil small puto molds or an 8-inch square pan, fill with the mixture and bring the steamer to a boil.",
+        "minutes": null
+      },
+      {
+        "text": "Steam until translucent all the way through, with no white spots.",
+        "minutes": 45
+      },
+      {
+        "text": "Cool completely before unmolding or cutting.",
+        "minutes": 30
+      },
+      {
+        "text": "Roll each piece in grated coconut.",
+        "minutes": null
+      }
+    ],
+    "tips": "Mix the halaya into the water first so it spreads evenly. For a mixed tray, roll half in coconut and half in grated cheese."
+  },
+  {
+    "slug": "nilupak-na-kamoteng-kahoy",
+    "title": "Nilupak na kamoteng kahoy",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "cassava",
+      "butter",
+      "condensed milk",
+      "coconut"
+    ],
+    "prep": 15,
+    "cook": 30,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Boiled cassava pounded while hot with butter, sugar and grated coconut into a smooth, sticky mash, then shaped into rounds. Rich and buttery, it is eaten warm with more butter on top.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "cassava",
+            "note": "peeled, cored and cut into chunks"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "condensed milk",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "butter",
+            "note": "plus more for topping"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "grated fresh coconut",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the cassava in salted water until very tender and starting to split.",
+        "minutes": 25
+      },
+      {
+        "text": "Drain well. While still hot, pound in a large mortar or mash with a potato masher together with the sugar, condensed milk, butter and salt until smooth and sticky.",
+        "minutes": null
+      },
+      {
+        "text": "Fold in the grated coconut.",
+        "minutes": null
+      },
+      {
+        "text": "Press into oiled small molds or shape into rounds on a banana leaf.",
+        "minutes": null
+      },
+      {
+        "text": "Serve warm, topped with a little butter.",
+        "minutes": null
+      }
+    ],
+    "tips": "Remove the woody core from each piece of cassava before boiling. Pound or mash while hot; cooled cassava turns lumpy."
+  },
+  {
+    "slug": "nilupak-na-saging",
+    "title": "Nilupak na saging",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "saba banana",
+      "butter",
+      "coconut",
+      "brown sugar"
+    ],
+    "prep": 10,
+    "cook": 20,
+    "servings": 10,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Boiled saba bananas pounded with butter, sugar and grated coconut into a sweet, sticky mash and shaped into small rounds. Fruity, buttery and simple.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 10,
+            "max": null,
+            "unit": "",
+            "name": "saba bananas",
+            "note": "ripe but firm"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "butter",
+            "note": "plus more for topping"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "grated fresh coconut",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the bananas in their skins until tender.",
+        "minutes": 15
+      },
+      {
+        "text": "Peel while hot and pound or mash with the brown sugar, butter and salt until smooth.",
+        "minutes": null
+      },
+      {
+        "text": "Fold in the grated coconut.",
+        "minutes": null
+      },
+      {
+        "text": "Shape into small rounds or press into a lined dish and slice.",
+        "minutes": null
+      },
+      {
+        "text": "Serve warm with a little butter on top.",
+        "minutes": null
+      }
+    ],
+    "tips": "Use saba that is just ripe, yellow with a few black spots. Very ripe bananas make a wet mash that will not hold its shape."
+  },
+  {
+    "slug": "latik",
+    "title": "Latik",
+    "course": "panghimagas",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "coconut milk"
+    ],
+    "prep": 2,
+    "cook": 45,
+    "servings": 8,
+    "yield_label": "tablespoons",
+    "difficulty": "easy",
+    "intro": "Crunchy golden curds made by slowly cooking coconut milk until the oil separates and the solids brown. Nutty and rich, latik is sprinkled on biko, kalamay and other kakanin.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": "or 2 cups coconut cream"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "pandan leaf",
+            "note": "knotted, optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pour the coconut milk into a wide pan, add the pandan leaf and bring to a boil over medium heat.",
+        "minutes": null
+      },
+      {
+        "text": "Lower the heat to medium-low and simmer, stirring now and then, until the water cooks off, the oil separates and white curds form.",
+        "minutes": 30
+      },
+      {
+        "text": "Keep cooking, stirring more often, until the curds turn golden and then medium brown.",
+        "minutes": 10
+      },
+      {
+        "text": "Strain through a sieve. Drain the curds on paper towels and keep the oil in a clean jar.",
+        "minutes": null
+      },
+      {
+        "text": "Sprinkle the latik on biko, kalamay, sapin-sapin or suman. Use the oil to grease pans and banana leaves.",
+        "minutes": null
+      }
+    ],
+    "tips": "The curds go from golden to burnt in a minute near the end, so stay at the stove. The fragrant coconut oil keeps for weeks and is ideal for greasing kakanin pans."
+  },
+  {
+    "slug": "latik-syrup",
+    "title": "Latik syrup",
+    "course": "panghimagas",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "coconut milk",
+      "muscovado"
+    ],
+    "prep": 2,
+    "cook": 25,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A thick, glossy caramel of coconut milk and muscovado, simmered until it coats a spoon. It is the sauce for suman, puto maya and plain sticky rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "muscovado",
+            "note": "or dark brown sugar"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combine the coconut milk, muscovado and salt in a saucepan and stir over medium heat until the sugar dissolves.",
+        "minutes": null
+      },
+      {
+        "text": "Simmer, stirring often, until reduced by about half, thick and glossy enough to coat a spoon.",
+        "minutes": 20
+      },
+      {
+        "text": "Let it cool; it thickens more as it stands.",
+        "minutes": 10
+      }
+    ],
+    "tips": "If it turns too thick or grainy after cooling, warm it with a splash of coconut milk. It keeps 1 week in the fridge."
+  },
+  {
+    "slug": "homemade-tikoy",
+    "title": "Homemade tikoy",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "brown sugar"
+    ],
+    "prep": 10,
+    "cook": 65,
+    "servings": 12,
+    "yield_label": "slices",
+    "difficulty": "medium",
+    "intro": "A dense, sticky brown sugar rice cake steamed in a round pan, the kind shared at Chinese New Year. Chewy and caramel sweet; eat it as is or slice and fry it once it firms up.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice flour",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "hot water",
+            "note": "plus 2 to 3 tbsp as needed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": "plus more for the pan"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "banana leaves",
+            "note": "or baking paper, for lining"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dissolve the brown sugar in the hot water and let it cool until warm.",
+        "minutes": null
+      },
+      {
+        "text": "Stir the syrup into the flour gradually and whisk to a smooth, thick batter like honey. Add the oil.",
+        "minutes": null
+      },
+      {
+        "text": "Oil a 7-inch round pan, line with banana leaf or baking paper and pour in the batter.",
+        "minutes": null
+      },
+      {
+        "text": "Steam over medium heat, topping up the water as needed, until the tikoy is evenly translucent brown with no white center.",
+        "minutes": 60
+      },
+      {
+        "text": "Cool, cover and leave at room temperature overnight before slicing.",
+        "minutes": null
+      }
+    ],
+    "tips": "Tikoy needs an overnight rest to firm up for slicing; it is too soft while warm. Wrapped well, it keeps 2 weeks in the fridge."
+  },
+  {
+    "slug": "fried-tikoy-with-egg",
+    "title": "Fried tikoy with egg",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "egg"
+    ],
+    "prep": 10,
+    "cook": 12,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Slices of sweet sticky tikoy dipped in beaten egg and pan-fried until golden outside and gooey within. A quick, warm merienda.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 400,
+            "max": null,
+            "unit": "g",
+            "name": "tikoy",
+            "note": "store-bought or homemade, firm"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Chill the tikoy so it is firm, then cut into slices about 1/4 inch thick, wiping the knife with oil between cuts.",
+        "minutes": null
+      },
+      {
+        "text": "Beat the eggs with the salt in a shallow bowl.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a nonstick pan over medium heat. Dip the slices in egg and fry in batches until golden and the centers are soft, about 2 minutes per side.",
+        "minutes": 4
+      },
+      {
+        "text": "Drain briefly and serve hot.",
+        "minutes": null
+      }
+    ],
+    "tips": "Keep the heat at medium: too hot and the egg browns before the tikoy softens. Leave space between slices so they do not stick together."
+  },
+  {
+    "slug": "moche",
+    "title": "Moche",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "mung beans",
+      "coconut milk"
+    ],
+    "prep": 30,
+    "cook": 45,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Chewy glutinous rice balls filled with sweet mung bean paste, boiled and served with a thick, sweet coconut sauce and toasted sesame. Soft outside, smooth and nutty inside.",
+    "groups": [
+      {
+        "title": "Filling",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "peeled split mung beans",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "Dough",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice flour",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "Sauce",
+        "items": [
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": "mixed with 2 tbsp water"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sesame seeds",
+            "note": "toasted"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Simmer the mung beans in the water until very soft and the water is absorbed.",
+        "minutes": 25
+      },
+      {
+        "text": "Mash the beans, stir in the sugar and cook, stirring, until a thick paste that holds its shape. Let it cool.",
+        "minutes": 5
+      },
+      {
+        "text": "Mix the flour and water into a smooth dough. Flatten a tablespoon of dough, put 1 tsp of filling in the center and seal into a ball.",
+        "minutes": null
+      },
+      {
+        "text": "Boil the balls in batches. Once they float, cook 2 minutes more, then lift out.",
+        "minutes": 4
+      },
+      {
+        "text": "For the sauce, simmer the coconut milk and sugar, stir in the cornstarch mixture and cook until thick.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the moche in small bowls with the sauce spooned over and sesame seeds sprinkled on top.",
+        "minutes": null
+      }
+    ],
+    "tips": "Seal the balls well so the filling does not leak while boiling. Make the mung bean paste a day ahead to save time."
+  },
+  {
+    "slug": "masi",
+    "title": "Masi",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "peanuts",
+      "muscovado"
+    ],
+    "prep": 25,
+    "cook": 15,
+    "servings": 20,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Small glutinous rice balls with a filling of chopped peanuts and muscovado that melts into syrup as they boil. Chewy outside, crunchy and caramel sweet inside.",
+    "groups": [
+      {
+        "title": "Filling",
+        "items": [
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "roasted peanuts",
+            "note": "finely chopped"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "muscovado",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "Dough",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice flour",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": "plus more as needed"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the chopped peanuts and muscovado.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the flour and water into a soft, smooth dough.",
+        "minutes": null
+      },
+      {
+        "text": "Flatten a tablespoon of dough in your palm, add 1 tsp of filling and pinch closed. Roll into a smooth ball.",
+        "minutes": null
+      },
+      {
+        "text": "Boil the balls in batches. Once they float, cook 2 minutes more.",
+        "minutes": 4
+      },
+      {
+        "text": "Lift out with a slotted spoon, drain and serve warm.",
+        "minutes": null
+      }
+    ],
+    "tips": "Seal the balls well and do not overfill, or the melting sugar leaks into the water. Eat masi warm, while the center is still runny."
+  },
+  {
+    "slug": "baye-baye",
+    "title": "Baye-baye",
+    "course": "merienda",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "pinipig",
+      "young coconut"
+    ],
+    "prep": 20,
+    "cook": 15,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Toasted ground pinipig pounded with young coconut and sugar into a dense, chewy sweet. Nutty and coconut-rich, it is wrapped in banana leaves and sliced.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "pinipig",
+            "note": "pounded young glutinous rice"
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "cup",
+            "name": "young coconut meat",
+            "note": "grated or finely chopped"
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "white sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut water",
+            "note": "from the young coconut"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "banana leaves",
+            "note": "wilted, for wrapping"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toast the pinipig in a dry pan over medium-low heat, stirring, until fragrant and golden.",
+        "minutes": 8
+      },
+      {
+        "text": "Grind to a coarse powder in a blender.",
+        "minutes": null
+      },
+      {
+        "text": "In the same pan, cook the young coconut, coconut water, sugar and salt until the sugar dissolves and turns syrupy.",
+        "minutes": 5
+      },
+      {
+        "text": "Off the heat, mix in the ground pinipig and knead or pound until it holds together as a stiff paste.",
+        "minutes": null
+      },
+      {
+        "text": "Shape into logs, wrap in banana leaves and let them rest before slicing.",
+        "minutes": 15
+      }
+    ],
+    "tips": "If the mixture is too dry to hold together, add coconut water a spoonful at a time. Eat within 2 days; keep chilled."
+  }
+]

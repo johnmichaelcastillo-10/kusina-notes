@@ -1,0 +1,611 @@
+[
+  {
+    "slug": "burong-mangga",
+    "title": "Burong mangga",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["green mango"],
+    "prep": 50,
+    "cook": 5,
+    "servings": 2,
+    "yield_label": "jars",
+    "difficulty": "easy",
+    "intro": "Green mango slices fermented in a salty-sweet brine until they turn sour, tangy and slightly soft. It is eaten as a relish with fried fish, grilled pork and rice, often with a little bagoong on the side.",
+    "groups": [
+      {
+        "title": "For the mangoes",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "large green mangoes", "note": "very firm, about 1.2 kg" }
+        ]
+      },
+      {
+        "title": "For the brine",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "sea salt or rock salt", "note": "non-iodized" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the water, salt and sugar to a boil, stirring until both dissolve.", "minutes": 3 },
+      { "text": "Take the brine off the heat and let it cool completely.", "minutes": 30 },
+      { "text": "Peel the mangoes and cut the flesh off the seed into long wedges or thick strips.", "minutes": null },
+      { "text": "Scald two 1-liter glass jars and their lids with boiling water and let them air dry. Pack the mango in snugly.", "minutes": null },
+      { "text": "Pour the cooled brine over to cover the mango completely. Weigh the slices down with a small zip-top bag filled with brine so none float.", "minutes": null },
+      { "text": "Cover the jars loosely and leave them at room temperature, out of the sun, to sour (see tip). Then close tightly and refrigerate.", "minutes": null }
+    ],
+    "tips": "Leave the jars at room temperature for 2 to 3 days, tasting daily, until the mango is as sour as you like, then refrigerate. Keep the slices under the brine; throw the batch out if you see fuzzy or colored mold or it smells rotten rather than sour. Keeps 1 month in the fridge."
+  },
+  {
+    "slug": "atcharang-sibuyas",
+    "title": "Atcharang sibuyas",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["onion", "ginger", "vinegar", "chili"],
+    "prep": 35,
+    "cook": 5,
+    "servings": 2,
+    "yield_label": "jars",
+    "difficulty": "easy",
+    "intro": "Small red onions or shallots pickled with slivers of ginger and chili in sweet vinegar. They turn pink, crisp and tangy, and are good with grilled pork, fried fish and adobo.",
+    "groups": [
+      {
+        "title": "For the onions",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "small red onions or shallots", "note": "peeled, large ones halved" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "salt", "note": "" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "peeled and cut into thin strips" },
+          { "qty": 2, "max": 3, "unit": "", "name": "siling labuyo", "note": "slit" }
+        ]
+      },
+      {
+        "title": "For the pickling liquid",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toss the peeled onions with the 1 tbsp salt and let them sit to draw out some of their sharpness.", "minutes": 20 },
+      { "text": "Rinse the onions well and drain.", "minutes": null },
+      { "text": "Bring the vinegar, water, sugar, salt and peppercorns to a boil in a nonreactive pot, stirring until the sugar dissolves.", "minutes": 3 },
+      { "text": "Pack the onions, ginger and chilies into clean, scalded jars.", "minutes": null },
+      { "text": "Pour the hot pickling liquid over to cover. Let the jars cool, then close and refrigerate.", "minutes": null }
+    ],
+    "tips": "Makes about two 350 ml jars. Ready after 1 day in the fridge, best after 3 days, and keeps about 1 month. Peeling is quicker if you soak the onions in hot water for 5 minutes first."
+  },
+  {
+    "slug": "sinamak",
+    "title": "Sinamak",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["vinegar", "chili", "garlic", "ginger", "onion"],
+    "prep": 15,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "cups",
+    "difficulty": "easy",
+    "intro": "Cane or coconut vinegar steeped with chilies, garlic, ginger and shallots until it is fiery and fragrant. It is the dip for chicken inasal, grilled pork, fried fish, lumpia and chicharon.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "cane or coconut vinegar", "note": "" },
+          { "qty": 15, "max": 20, "unit": "", "name": "siling labuyo", "note": "slit lengthwise" },
+          { "qty": 1, "max": null, "unit": "", "name": "head garlic", "note": "peeled and lightly crushed" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "peeled and thinly sliced" },
+          { "qty": 6, "max": null, "unit": "", "name": "shallots", "note": "peeled and halved" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Wash a 1.25-liter glass bottle or jar and its cap, scald with boiling water and let dry completely.", "minutes": null },
+      { "text": "Pack the chilies, garlic, ginger, shallots and peppercorns into the bottle.", "minutes": null },
+      { "text": "Pour in the vinegar and salt, making sure everything is submerged. Cap tightly and shake.", "minutes": null },
+      { "text": "Set the bottle aside to steep (see tip), then serve in small saucers for dipping.", "minutes": null }
+    ],
+    "tips": "Let it steep at least 3 days before using; it keeps getting hotter for weeks. Store capped in a cool, dark place or in the fridge, keep the solids under the vinegar, and use within 3 months. Throw it out if it turns slimy or smells off."
+  },
+  {
+    "slug": "toyomansi",
+    "title": "Toyomansi",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["soy sauce", "calamansi", "chili"],
+    "prep": 5,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Soy sauce brightened with fresh calamansi juice and chili, the everyday dip for fried fish, grilled pork, siomai and lechon kawali. It is salty, sour and as hot as you make it.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "about 6 calamansi" },
+          { "qty": 1, "max": 2, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "minced red onion", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Halve the calamansi and squeeze the juice through a small strainer, or pick out the seeds with a spoon.", "minutes": null },
+      { "text": "Stir the juice into the soy sauce.", "minutes": null },
+      { "text": "Add the chili and onion, taste, and add more calamansi or soy sauce until it is balanced. Serve in small saucers.", "minutes": null }
+    ],
+    "tips": "Mix it just before the meal: calamansi juice turns bitter after a few hours. The usual ratio is about 2 parts soy sauce to 1 part calamansi; you can also squeeze the calamansi straight into each saucer at the table."
+  },
+  {
+    "slug": "lechon-sauce",
+    "title": "Lechon sauce",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken liver", "vinegar", "brown sugar", "bread", "garlic", "onion"],
+    "prep": 10,
+    "cook": 30,
+    "servings": 2,
+    "yield_label": "cups",
+    "difficulty": "medium",
+    "intro": "A thick, sweet and tangy sauce of liver, vinegar, sugar and breadcrumbs, the classic partner for lechon, lechon kawali and roast pork. Homemade tastes fresher and more garlicky than the bottled kind.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "chicken livers", "note": "or pork liver, trimmed" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "divided" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "minced" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "brown sugar", "note": "plus more to taste" },
+          { "qty": 0.75, "max": 1, "unit": "cup", "name": "fine breadcrumbs", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Simmer the livers in 1 cup of the water until cooked through with no pink inside.", "minutes": 8 },
+      { "text": "Blend the livers with their cooking water until completely smooth.", "minutes": null },
+      { "text": "Heat the oil in a saucepan over medium heat and saute the garlic and onion until soft and fragrant.", "minutes": 3 },
+      { "text": "Pour in the liver puree, the remaining 1 cup water and the vinegar. Bring to a boil and let it boil without stirring.", "minutes": 2 },
+      { "text": "Stir in the sugar, salt and pepper. Add the breadcrumbs a few spoonfuls at a time, stirring constantly so no lumps form.", "minutes": null },
+      { "text": "Lower the heat and simmer, stirring often and scraping the bottom, until thick and glossy. Add more breadcrumbs for a thicker sauce or water to thin it.", "minutes": 10 },
+      { "text": "Taste and adjust with sugar, salt or a splash of vinegar. Serve warm or at room temperature.", "minutes": null }
+    ],
+    "tips": "Keeps 5 days in the fridge in a covered jar. It thickens as it cools, so loosen it with a spoonful of water when reheating. Pork liver gives a stronger, more traditional flavor."
+  },
+  {
+    "slug": "sweet-chili-sauce",
+    "title": "Sweet chili sauce",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["chili", "garlic", "vinegar"],
+    "prep": 10,
+    "cook": 10,
+    "servings": 2,
+    "yield_label": "cups",
+    "difficulty": "easy",
+    "intro": "Sticky, sweet and gently hot chili sauce for dipping lumpiang shanghai, fried chicken, fried fish and tokwa. It is easy to make at home and you can set the heat yourself.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "long red chilies (siling haba)", "note": "stems removed" },
+          { "qty": 4, "max": 6, "unit": "", "name": "red siling labuyo", "note": "stems removed" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "" },
+          { "qty": 1.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 3 tbsp water" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mince the chilies and garlic finely by hand or pulse them in a food processor. Remove some chili seeds for a milder sauce.", "minutes": null },
+      { "text": "Bring the water, vinegar, sugar, salt, chilies and garlic to a boil in a saucepan, then simmer until the garlic is soft.", "minutes": 5 },
+      { "text": "Stir the cornstarch slurry, then pour it in while stirring. Simmer, stirring, until the sauce thickens and turns clear.", "minutes": 2 },
+      { "text": "Let it cool; it thickens more as it cools. Pour into a clean jar.", "minutes": null }
+    ],
+    "tips": "Keeps 1 month in the fridge in a clean, closed jar. If it gets too thick, stir in a spoonful of warm water."
+  },
+  {
+    "slug": "bagoong-guisado",
+    "title": "Bagoong guisado",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["shrimp paste", "pork belly", "garlic", "onion", "tomato", "brown sugar"],
+    "prep": 15,
+    "cook": 35,
+    "servings": 2,
+    "yield_label": "cups",
+    "difficulty": "medium",
+    "intro": "Salty fermented shrimp paste sauteed with pork, garlic, onion and tomato, then sweetened until dark and glossy. It is the classic partner for kare-kare and green mango, and good with rice and fried eggplant.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 200, "max": null, "unit": "g", "name": "pork belly", "note": "cut into small cubes" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "chopped" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "raw bagoong alamang", "note": "the pink, unsauteed kind, about 375 g" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 3, "max": 4, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": 4, "unit": "", "name": "siling labuyo", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the pork and oil in a wide pan over medium heat. Cook, stirring now and then, until the fat renders and the pork is browned with crisp edges.", "minutes": 10 },
+      { "text": "Add the garlic and onion and saute until the onion is soft.", "minutes": 3 },
+      { "text": "Add the tomatoes and cook, mashing them with the spoon, until they break down.", "minutes": 3 },
+      { "text": "Stir in the bagoong and cook, stirring often, until it darkens slightly and smells less raw.", "minutes": 5 },
+      { "text": "Pour in the vinegar and let it bubble without stirring so its sharpness cooks off.", "minutes": 1 },
+      { "text": "Add the sugar, pepper and chilies. Lower the heat and cook, stirring often so it does not scorch, until the bagoong is a deep reddish brown and the oil starts to separate.", "minutes": 10 },
+      { "text": "Taste and add more sugar if you want it sweeter. Cool completely before spooning into a clean jar.", "minutes": null }
+    ],
+    "tips": "Cook raw bagoong thoroughly: the long saute mellows the smell and helps it keep. Store in the fridge in a clean jar and always use a dry spoon; it keeps about 3 weeks. Open the windows while cooking."
+  },
+  {
+    "slug": "chili-garlic-oil",
+    "title": "Chili garlic oil",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["chili", "garlic"],
+    "prep": 15,
+    "cook": 15,
+    "servings": 2,
+    "yield_label": "cups",
+    "difficulty": "easy",
+    "intro": "Fresh chilies and plenty of garlic slowly fried in oil until fragrant, toasty and red. It is spooned over siomai, pancit, fried rice and grilled meat, or mixed into soy sauce and calamansi for dipping.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "neutral cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "heads garlic", "note": "peeled and finely minced" },
+          { "qty": 150, "max": null, "unit": "g", "name": "fresh red chilies", "note": "a mix of siling labuyo and long chilies, finely chopped" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Wear gloves when chopping the chilies, and keep your hands away from your eyes.", "minutes": null },
+      { "text": "Heat the oil in a saucepan over medium-low heat. Add the garlic and cook, stirring often, until pale golden.", "minutes": 5 },
+      { "text": "Add the chilies and keep cooking, stirring, until the sizzling slows and the chilies darken slightly. Do not let the garlic go past golden brown or it turns bitter.", "minutes": 6 },
+      { "text": "Turn off the heat and stir in the salt and sugar.", "minutes": null },
+      { "text": "Let the oil cool completely, then spoon it into a clean, dry jar and refrigerate.", "minutes": 30 }
+    ],
+    "tips": "Garlic in oil must be kept cold: store it in the fridge and use within 2 weeks, always with a clean, dry spoon. The oil may cloud in the fridge; it clears at room temperature."
+  },
+  {
+    "slug": "sukang-may-bawang",
+    "title": "Sukang may bawang",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["vinegar", "garlic", "onion", "chili"],
+    "prep": 10,
+    "cook": 0,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A quick dip of vinegar loaded with minced garlic, onion, chili and cracked pepper. It is sharp and garlicky, and is the classic partner for longganisa, tapa, crispy pata, lechon kawali and fried fish.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "head garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "finely chopped" },
+          { "qty": 2, "max": 3, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "coarsely cracked black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mince the garlic finely, or crush it in a mortar for a stronger flavor.", "minutes": null },
+      { "text": "Stir the vinegar, salt, pepper and sugar in a bowl until dissolved.", "minutes": null },
+      { "text": "Add the garlic, onion and chili and let it stand so the garlic flavors the vinegar.", "minutes": 15 },
+      { "text": "Serve in small saucers alongside fried or grilled food.", "minutes": null }
+    ],
+    "tips": "Keeps 1 week in a closed jar in the fridge; the garlic flavor gets stronger each day. For a gentler dip, use half the garlic."
+  },
+  {
+    "slug": "chicken-inasal-oil",
+    "title": "Chicken inasal oil",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "annatto", "garlic"],
+    "prep": 10,
+    "cook": 30,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Rendered chicken fat and oil steeped with annatto and garlic until bright orange. It is brushed on chicken inasal as it grills and spooned over hot rice at the table, rich, savory and a little garlicky.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 250, "max": null, "unit": "g", "name": "chicken skin and fat trimmings", "note": "chopped" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "water", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "neutral cooking oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "annatto (atsuete) seeds", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the chicken skin and water in a pan over low heat. Cook, stirring now and then, until the water evaporates, the fat melts out and the skin turns golden and crisp.", "minutes": 20 },
+      { "text": "Lift out the crisp skin with a slotted spoon and save it for snacking.", "minutes": null },
+      { "text": "Add the oil and annatto seeds to the fat. Heat gently over low heat, stirring, until the oil turns deep orange. Do not let the seeds smoke or blacken.", "minutes": 5 },
+      { "text": "Strain out the seeds and return the oil to the pan. Add the garlic and cook over low heat until fragrant and just golden.", "minutes": 2 },
+      { "text": "Stir in the salt, let cool, and pour into a clean jar.", "minutes": null }
+    ],
+    "tips": "Makes about 1 cup. Keep it in the fridge and use within 2 weeks; it sets when cold, so warm it a little before brushing. At the table, spoon it over rice with a pinch of salt and a squeeze of calamansi."
+  },
+  {
+    "slug": "atsuete-oil",
+    "title": "Atsuete oil",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["annatto"],
+    "prep": 2,
+    "cook": 15,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Oil steeped with annatto seeds until it turns a deep orange-red, used to color and lightly flavor kare-kare, palabok, pancit and fried rice. It has a mild, earthy and slightly peppery taste.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "neutral cooking oil", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "annatto (atsuete) seeds", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the oil and annatto seeds in a small saucepan over low heat.", "minutes": null },
+      { "text": "Heat gently, stirring now and then, until small bubbles form around the seeds and the oil turns deep orange-red. Keep the heat low; burnt seeds make the oil bitter.", "minutes": 5 },
+      { "text": "Turn off the heat and let the seeds steep in the warm oil.", "minutes": 10 },
+      { "text": "Strain into a clean, dry jar and discard the seeds. Let cool before closing.", "minutes": null }
+    ],
+    "tips": "Makes about 1 cup. Keeps 2 months in a closed jar in a cool, dark place. Annatto stains, so use a metal or glass spoon rather than wood or plastic."
+  },
+  {
+    "slug": "toyot-suka",
+    "title": "Toyo't suka",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["soy sauce", "vinegar", "onion", "garlic", "chili"],
+    "prep": 5,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Equal parts soy sauce and vinegar with chopped onion, garlic and chili. It is salty, sour and sharp, the go-to dip for inihaw na liempo, lechon kawali, tokwa and fried fish.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "finely chopped" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": 2, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Stir the soy sauce, vinegar, pepper and sugar together until the sugar dissolves.", "minutes": null },
+      { "text": "Add the onion, garlic and chili.", "minutes": null },
+      { "text": "Let it stand for a few minutes so the onion mellows, then serve in small saucers.", "minutes": 5 }
+    ],
+    "tips": "Adjust the ratio to the dish: more vinegar for fatty pork, more soy sauce for fried fish. Keeps 3 days in a closed jar in the fridge."
+  },
+  {
+    "slug": "patismansi",
+    "title": "Patismansi",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["fish sauce", "calamansi", "chili"],
+    "prep": 5,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fish sauce with fresh calamansi juice and chili, a sharp, salty dip for fried fish, boiled vegetables and soupy dishes like tinola and nilaga.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "about 6 calamansi" },
+          { "qty": 1, "max": 2, "unit": "", "name": "siling labuyo", "note": "crushed or chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Squeeze the calamansi and strain out the seeds.", "minutes": null },
+      { "text": "Stir the juice into the fish sauce.", "minutes": null },
+      { "text": "Add the chili, crushing it against the saucer with a spoon for more heat, and serve.", "minutes": null }
+    ],
+    "tips": "Make it right before eating, since calamansi turns bitter as it sits. Diners usually adjust their own saucer with more calamansi or a splash of the soup."
+  },
+  {
+    "slug": "banana-ketchup",
+    "title": "Banana ketchup",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["saba banana", "vinegar", "brown sugar", "onion", "garlic"],
+    "prep": 15,
+    "cook": 40,
+    "servings": 3,
+    "yield_label": "cups",
+    "difficulty": "easy",
+    "intro": "Sweet, tangy ketchup made from ripe saba bananas, vinegar and spices, simmered until thick and smooth. It goes with fried chicken, omelets, hotdogs, longganisa and Filipino spaghetti.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 6, "max": null, "unit": "", "name": "ripe saba bananas", "note": "peeled and sliced, about 600 g" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "chopped" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "plus more as needed" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "tomato paste", "note": "for color" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground allspice or cloves", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "siling labuyo", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a heavy saucepan over medium heat and saute the onion and garlic until soft.", "minutes": 5 },
+      { "text": "Add the bananas and cook, stirring, for a couple of minutes.", "minutes": 2 },
+      { "text": "Add the vinegar, water, sugar, tomato paste, salt, pepper, allspice and chili. Bring to a boil, then cover and simmer, stirring now and then, until the bananas are very soft.", "minutes": 15 },
+      { "text": "Let it cool slightly, then blend until completely smooth. Vent the blender lid and cover it with a towel, since hot liquid expands.", "minutes": null },
+      { "text": "Return to the pan and simmer uncovered, stirring often, until it is as thick as ketchup. Add a splash of water if it gets too thick.", "minutes": 10 },
+      { "text": "Taste and adjust with sugar, salt or vinegar. Cool, then pour into clean jars and refrigerate.", "minutes": null }
+    ],
+    "tips": "Keeps 3 weeks in the fridge in a clean, closed jar. Homemade banana ketchup is brownish orange; for the bright red of the bottled kind, add a few drops of red food coloring."
+  },
+  {
+    "slug": "burong-mustasa",
+    "title": "Burong mustasa",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["rice", "tomato", "onion"],
+    "prep": 45,
+    "cook": 0,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Mustard greens fermented in salted rice water until sour, tangy and slightly peppery. It is served as a relish with fried fish and grilled pork, usually tossed with fresh tomato and onion.",
+    "groups": [
+      {
+        "title": "For the buro",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "mustasa (mustard greens)", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "sea salt or rock salt", "note": "non-iodized" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "uncooked rice", "note": "for the rice water" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "for the rice water" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "medium tomatoes", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "diced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Wash the mustard greens well, drain, and cut into 5 cm pieces, stems and leaves.", "minutes": null },
+      { "text": "Toss the greens with the 2 tbsp salt and massage until they wilt and shrink. Let them sit.", "minutes": 30 },
+      { "text": "Squeeze the greens by handfuls and discard the liquid.", "minutes": null },
+      { "text": "Rinse the rice once and discard that water. Add the 3 cups water to the rice, swish it around, then pour off the cloudy water into a bowl and stir in the 1 tsp salt. Cook the rice for another meal.", "minutes": null },
+      { "text": "Pack the greens tightly into a clean, scalded 1.5-liter glass jar. Pour in the rice water until the greens are covered by at least 2 cm, and weigh them down with a small zip-top bag filled with water.", "minutes": null },
+      { "text": "Cover the jar loosely and leave at room temperature, out of the sun, until sour (see tip). Then close it and refrigerate.", "minutes": null },
+      { "text": "To serve, lift out a portion, squeeze lightly and toss with the tomatoes and onion.", "minutes": null }
+    ],
+    "tips": "Fermenting takes 2 to 4 days in a warm kitchen: it is ready when the leaves turn olive green and smell pleasantly sour. Keep the greens under the liquid, and throw the batch out if you see fuzzy or colored mold or it smells rotten. Keeps 1 month in the fridge."
+  },
+  {
+    "slug": "fried-chicken-gravy",
+    "title": "Fried chicken gravy",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["butter", "flour", "soy sauce"],
+    "prep": 5,
+    "cook": 15,
+    "servings": 2,
+    "yield_label": "cups",
+    "difficulty": "easy",
+    "intro": "Smooth, peppery brown gravy made from a butter roux, chicken broth and a little soy sauce, the kind poured over fried chicken and rice. It is savory, rich and easy to make while the chicken fries.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "butter", "note": "or chicken drippings" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "all-purpose flour", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "chicken broth", "note": "or 1 chicken bouillon cube in 2 cups hot water" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Melt the butter in a saucepan over medium-low heat.", "minutes": null },
+      { "text": "Whisk in the flour and cook, whisking constantly, until it smells nutty and turns light brown.", "minutes": 4 },
+      { "text": "Pour in the broth a little at a time, whisking after each addition so no lumps form.", "minutes": null },
+      { "text": "Add the soy sauce and pepper and simmer, stirring often, until the gravy coats the back of a spoon.", "minutes": 5 },
+      { "text": "Taste and add salt only if needed, since broth and soy sauce are already salty. Serve hot.", "minutes": null }
+    ],
+    "tips": "Gravy thickens as it stands; whisk in a splash of hot water to loosen. Keeps 3 days in the fridge; reheat gently, whisking."
+  },
+  {
+    "slug": "pinoy-coleslaw",
+    "title": "Pinoy coleslaw",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["cabbage", "carrot", "pineapple", "condensed milk"],
+    "prep": 50,
+    "cook": 0,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Shredded cabbage and carrot in a creamy, sweet mayonnaise dressing with raisins and pineapple. It is cool and crunchy, and is served next to fried chicken, barbecue and grilled liempo.",
+    "groups": [
+      {
+        "title": "For the salad",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "", "name": "medium head cabbage", "note": "about 500 g, finely shredded" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "grated" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "pineapple tidbits", "note": "well drained" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For the dressing",
+        "items": [
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "condensed milk", "note": "or 1 tbsp sugar" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi juice", "note": "or cane vinegar" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Shred the cabbage as finely as you can, discarding the hard core. Rinse, drain and pat or spin it very dry.", "minutes": null },
+      { "text": "Whisk the mayonnaise, condensed milk, calamansi juice, salt and pepper until smooth.", "minutes": null },
+      { "text": "Put the cabbage, carrot, pineapple and raisins in a large bowl, pour the dressing over and toss until evenly coated.", "minutes": null },
+      { "text": "Cover and chill so the cabbage softens slightly and the flavors blend.", "minutes": 30 }
+    ],
+    "tips": "Dry cabbage keeps the dressing thick, so do not skip drying it. Keep it cold and eat within 1 day; do not leave it out in the heat for more than 2 hours."
+  }
+]

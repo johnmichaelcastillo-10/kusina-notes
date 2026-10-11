@@ -1,0 +1,787 @@
+[
+  {
+    "slug": "malunggay-tea",
+    "title": "Malunggay tea",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["malunggay", "calamansi"],
+    "prep": 5,
+    "cook": 10,
+    "servings": 3,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fresh malunggay leaves steeped in hot water into a pale green tea with a mild, grassy taste a little like spinach. A squeeze of calamansi and some honey round it out, and people sip it hot in the morning.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "fresh malunggay leaves", "note": "loosely packed, stripped from the stems" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "calamansi", "note": "optional" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "honey or sugar", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rinse the malunggay leaves in a colander and pick out any tough stems.", "minutes": null },
+      { "text": "Bring the water to a boil, then turn off the heat.", "minutes": null },
+      { "text": "Add the leaves, cover and steep until the water turns pale green. Longer steeping makes it grassier and slightly bitter.", "minutes": 5 },
+      { "text": "Strain into cups. Squeeze in the calamansi and sweeten to taste.", "minutes": null }
+    ],
+    "tips": "To keep malunggay for tea, dry the leaves in the shade for a few days until crisp, crumble them and store in a jar. Use 1 teaspoon dried leaves per cup."
+  },
+  {
+    "slug": "pandan-sagot-gulaman",
+    "title": "Pandan sago't gulaman",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["pandan", "sago"],
+    "prep": 15,
+    "cook": 45,
+    "servings": 6,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "A pale green take on sago't gulaman: pandan-scented gulaman cubes and sago pearls in a light pandan syrup. It is sweet, floral and less caramel-heavy than the brown sugar version.",
+    "groups": [
+      {
+        "title": "For the gulaman",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "pack unflavored gulaman powder", "note": "about 25 g" },
+          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "or as the pack directs" },
+          { "qty": 4, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted" },
+          { "qty": 2, "max": null, "unit": "", "name": "drops green food coloring", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For the sago",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "for boiling" }
+        ]
+      },
+      {
+        "title": "For the pandan syrup",
+        "items": [
+          { "qty": 0.75, "max": 1, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "cold water", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Boil the 5 cups of water with the 4 pandan leaves until fragrant and faintly green. Remove the leaves.", "minutes": 10 },
+      { "text": "Sprinkle in the gulaman powder, stirring, and boil until fully dissolved. Stir in the food coloring if using.", "minutes": 3 },
+      { "text": "Pour into a square pan and leave to set at room temperature or in the fridge.", "minutes": 45 },
+      { "text": "Meanwhile, bring the 6 cups of water to a rolling boil, add the sago and simmer, stirring now and then, until mostly clear with a small white dot in the center.", "minutes": 20 },
+      { "text": "Turn off the heat, cover and let stand until the white centers disappear. Drain and rinse under cold water.", "minutes": 10 },
+      { "text": "For the syrup, simmer the sugar, water and pandan leaves until slightly syrupy. Remove the leaves, squeezing them into the pan, and let cool.", "minutes": 8 },
+      { "text": "Cut the gulaman into small cubes.", "minutes": null },
+      { "text": "In a pitcher, combine the syrup, cold water, sago and gulaman. Taste and adjust, then serve over ice.", "minutes": null }
+    ],
+    "tips": "If you have buko pandan flavoring, a few drops in the syrup make the pandan taste stronger. Finish the pitcher within a day, as the sago hardens in the fridge."
+  },
+  {
+    "slug": "buko-sagot-gulaman",
+    "title": "Buko sago't gulaman",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["young coconut", "sago"],
+    "prep": 20,
+    "cook": 40,
+    "servings": 6,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "Fresh coconut water with strips of buko, sago pearls and clear gulaman cubes, lightly sweetened. It is cool, nutty and only gently sweet, with plenty to chew in every glass.",
+    "groups": [
+      {
+        "title": "For the gulaman",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "pack unflavored gulaman powder", "note": "about 25 g, clear or white" },
+          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "or as the pack directs" }
+        ]
+      },
+      {
+        "title": "For the sago",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "for boiling" }
+        ]
+      },
+      {
+        "title": "For the drink",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "coconut water", "note": "from about 3 young coconuts" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "young coconut meat", "note": "cut into thin strips" },
+          { "qty": 0.333, "max": 0.5, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "warm water", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Sprinkle the gulaman powder over the 5 cups of water in a pot, stir, and boil until fully dissolved.", "minutes": 5 },
+      { "text": "Pour into a square pan and leave to set at room temperature or in the fridge.", "minutes": 45 },
+      { "text": "Meanwhile, bring the 6 cups of water to a rolling boil, add the sago and simmer, stirring now and then, until mostly clear with a small white dot in the center.", "minutes": 20 },
+      { "text": "Turn off the heat, cover and let stand until the white centers disappear. Drain and rinse under cold water.", "minutes": 10 },
+      { "text": "Dissolve the sugar in the warm water.", "minutes": null },
+      { "text": "Cut the gulaman into small cubes. In a pitcher, combine the coconut water, buko strips, sago, gulaman and as much of the syrup as you like.", "minutes": null },
+      { "text": "Serve over ice with wide straws or long spoons.", "minutes": null }
+    ],
+    "tips": "Sweeten after tasting: fresh coconut water is often sweet enough with just a little syrup. Drink it the same day, while the coconut water is fresh."
+  },
+  {
+    "slug": "buko-pandan-palamig",
+    "title": "Buko pandan palamig",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["young coconut", "pandan", "evaporated milk", "condensed milk"],
+    "prep": 20,
+    "cook": 15,
+    "servings": 8,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "A creamy, pale green palamig of buko strips and pandan gulaman cubes in sweetened milk. It tastes like buko pandan dessert in a glass, sweet, milky and fragrant.",
+    "groups": [
+      {
+        "title": "For the pandan gulaman",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "pack green gulaman powder", "note": "about 25 g, or unflavored with a drop of green coloring" },
+          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "or as the pack directs" },
+          { "qty": 4, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted" }
+        ]
+      },
+      {
+        "title": "For the drink",
+        "items": [
+          { "qty": 2, "max": null, "unit": "cup", "name": "young coconut meat", "note": "cut into thin strips" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.5, "max": 0.75, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cold water", "note": "or coconut water" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "buko pandan flavoring", "note": "optional" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Boil the 5 cups of water with the pandan leaves until fragrant. Remove the leaves.", "minutes": 8 },
+      { "text": "Sprinkle in the gulaman powder, stirring, and boil until fully dissolved.", "minutes": 3 },
+      { "text": "Pour into a square pan and leave to set, then cut into small cubes.", "minutes": 45 },
+      { "text": "In a large pitcher, whisk the evaporated milk, condensed milk, cold water and flavoring until smooth.", "minutes": null },
+      { "text": "Add the buko strips and gulaman cubes and stir. Taste and add more condensed milk if needed.", "minutes": null },
+      { "text": "Serve over ice with wide straws.", "minutes": null }
+    ],
+    "tips": "Make the gulaman the night before and keep it covered in the fridge, so the drink comes together in minutes. Stir the pitcher before each pour."
+  },
+  {
+    "slug": "melon-palamig",
+    "title": "Melon palamig",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["melon", "evaporated milk", "sago"],
+    "prep": 20,
+    "cook": 30,
+    "servings": 8,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "Shredded cantaloupe and chewy sago in cold sweetened milk, the creamy melon drink sold in big jars by palamig vendors. It is milky, fruity and very sweet-cold.",
+    "groups": [
+      {
+        "title": "For the sago",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "for boiling" }
+        ]
+      },
+      {
+        "title": "For the drink",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "ripe cantaloupe", "note": "about 1.5 kg" },
+          { "qty": 0.5, "max": 0.667, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "warm water", "note": "" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "cold water", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the 6 cups of water to a rolling boil, add the sago and simmer, stirring now and then, until mostly clear with a small white dot in the center.", "minutes": 20 },
+      { "text": "Turn off the heat, cover and let stand until the white centers disappear. Drain and rinse under cold water.", "minutes": 10 },
+      { "text": "Halve the melon, scoop out the seeds and shred the flesh into long strands with a melon scraper.", "minutes": null },
+      { "text": "Dissolve the sugar in the warm water, then pour into a large pitcher with the evaporated milk and cold water.", "minutes": null },
+      { "text": "Add the shredded melon with its juices and the sago. Stir, taste and add more sugar if needed.", "minutes": null },
+      { "text": "Serve over ice with wide straws or spoons.", "minutes": null }
+    ],
+    "tips": "Add the milk to cold water, not warm, and keep the drink cold. Like all milk drinks, finish it within the day."
+  },
+  {
+    "slug": "mango-ice-candy",
+    "title": "Mango ice candy",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["mango", "evaporated milk", "condensed milk"],
+    "prep": 30,
+    "cook": 0,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Ripe mango blended with milk and frozen in long plastic tubes, then eaten by biting off the corner and pushing up. It is creamy, fruity and the classic summer treat sold from home freezers.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "large ripe mangoes", "note": "about 2 cups flesh" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 12, "max": null, "unit": "", "name": "ice candy bags", "note": "2 x 10 inches" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Scoop the mango flesh into a blender and add the evaporated milk, condensed milk and water.", "minutes": null },
+      { "text": "Blend until completely smooth. Taste: the mix should be a little sweeter than you want, since freezing dulls sweetness.", "minutes": null },
+      { "text": "Using a funnel or a small pitcher, fill each bag about three-quarters full, leaving room to tie.", "minutes": null },
+      { "text": "Squeeze out the air, twist the top and tie a tight knot.", "minutes": null },
+      { "text": "Lay the bags flat on a tray or stand them upright in a container and freeze until solid, at least 6 hours or overnight.", "minutes": null },
+      { "text": "To eat, bite or snip off a bottom corner and push the ice candy up as you go.", "minutes": null }
+    ],
+    "tips": "Ice candy bags are sold in bundles at markets and baking supply stores. A tablespoon of the mix tasted straight from the blender should be noticeably sweet."
+  },
+  {
+    "slug": "buko-ice-candy",
+    "title": "Buko ice candy",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["young coconut", "evaporated milk", "condensed milk"],
+    "prep": 25,
+    "cook": 10,
+    "servings": 15,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Creamy ice candy of coconut water and milk with soft strips of young coconut in every bite. It is mild, milky and lightly nutty.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut water", "note": "" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.5, "max": 0.667, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "young coconut meat", "note": "cut into thin short strips" },
+          { "qty": 15, "max": null, "unit": "", "name": "ice candy bags", "note": "2 x 10 inches" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Combine the coconut water, evaporated milk and condensed milk in a pot.", "minutes": null },
+      { "text": "Stir the cornstarch into the water until smooth, then whisk it into the pot.", "minutes": null },
+      { "text": "Cook over medium-low heat, stirring constantly, until it just thickens slightly and coats a spoon. Do not let it boil hard.", "minutes": 5 },
+      { "text": "Take off the heat, stir in the buko strips and let cool completely.", "minutes": null },
+      { "text": "Using a funnel, fill each bag about three-quarters full, making sure each gets some buko. Squeeze out the air and tie a tight knot.", "minutes": null },
+      { "text": "Freeze flat or upright until solid, at least 6 hours or overnight.", "minutes": null }
+    ],
+    "tips": "The cornstarch keeps the ice candy smooth and creamy instead of icy. Stir the mix as you fill so the buko strips do not all settle in the last few bags."
+  },
+  {
+    "slug": "ube-ice-candy",
+    "title": "Ube ice candy",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["ube", "evaporated milk", "condensed milk"],
+    "prep": 25,
+    "cook": 10,
+    "servings": 15,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Purple ice candy made with ube halaya and milk, smooth and creamy with a sweet, earthy ube flavor.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "ube halaya", "note": "homemade or from a jar" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 15, "max": null, "unit": "", "name": "ice candy bags", "note": "2 x 10 inches" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Blend the ube halaya, evaporated milk, condensed milk, water and cornstarch until smooth.", "minutes": null },
+      { "text": "Pour into a pot and cook over medium-low heat, stirring constantly, until slightly thickened.", "minutes": 6 },
+      { "text": "Take off the heat and let cool completely.", "minutes": null },
+      { "text": "Using a funnel, fill each bag about three-quarters full. Squeeze out the air and tie a tight knot.", "minutes": null },
+      { "text": "Freeze flat or upright until solid, at least 6 hours or overnight.", "minutes": null }
+    ],
+    "tips": "For a deeper purple, add a few drops of ube flavoring with the milk. Cooling the mix fully before filling keeps the bags from sweating and sticking together."
+  },
+  {
+    "slug": "avocado-ice-candy",
+    "title": "Avocado ice candy",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["avocado", "evaporated milk", "condensed milk"],
+    "prep": 25,
+    "cook": 0,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Ripe avocado blended with milk and condensed milk, then frozen in long bags into a rich, buttery, pale green ice candy.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "large ripe avocados", "note": "about 2 cups flesh" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.5, "max": 0.667, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 12, "max": null, "unit": "", "name": "ice candy bags", "note": "2 x 10 inches" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Scoop the avocado flesh into a blender with the evaporated milk, condensed milk and water.", "minutes": null },
+      { "text": "Blend until very smooth. Taste and add more condensed milk if needed; the mix should taste a little too sweet.", "minutes": null },
+      { "text": "Using a funnel, fill each bag about three-quarters full. Squeeze out the air and tie a tight knot.", "minutes": null },
+      { "text": "Freeze right away, flat or upright, until solid, at least 6 hours or overnight.", "minutes": null }
+    ],
+    "tips": "Work quickly and freeze straight after filling so the avocado stays green. A thin brown layer at the knot end is normal and does not affect the taste."
+  },
+  {
+    "slug": "monggo-ice-candy",
+    "title": "Monggo ice candy",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["mung beans", "evaporated milk", "condensed milk"],
+    "prep": 15,
+    "cook": 50,
+    "servings": 15,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Sweetened mung beans cooked soft and frozen in milk, so every bite of the creamy ice candy has tender beans in it. It tastes nutty, milky and gently sweet.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "dried mung beans", "note": "rinsed" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.25, "max": 0.333, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 15, "max": null, "unit": "", "name": "ice candy bags", "note": "2 x 10 inches" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the mung beans and water in a pot, bring to a boil, then cover and simmer until the beans are soft and starting to split. Add a little water if it gets too thick.", "minutes": 40 },
+      { "text": "Stir in the sugar and simmer until dissolved.", "minutes": 3 },
+      { "text": "Take off the heat and let cool completely. Mash some of the beans lightly with a spoon if you like it creamier.", "minutes": null },
+      { "text": "Stir in the evaporated milk and condensed milk. You should have about 5 cups; top up with water if needed.", "minutes": null },
+      { "text": "Using a funnel or ladle, fill each bag about three-quarters full, stirring often so the beans are shared out. Squeeze out the air and tie a tight knot.", "minutes": null },
+      { "text": "Freeze flat or upright until solid, at least 6 hours or overnight.", "minutes": null }
+    ],
+    "tips": "Soak the mung beans in water for a few hours or overnight to cut the simmering time roughly in half."
+  },
+  {
+    "slug": "chocolate-ice-candy",
+    "title": "Chocolate ice candy",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["cocoa", "evaporated milk", "condensed milk"],
+    "prep": 20,
+    "cook": 10,
+    "servings": 15,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Creamy chocolate ice candy made with cocoa, milk and a little cornstarch so it freezes smooth. It tastes like a frozen chocolate milk.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "unsweetened cocoa powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 2.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 15, "max": null, "unit": "", "name": "ice candy bags", "note": "2 x 10 inches" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the cocoa, sugar and cornstarch together in a pot so there are no lumps.", "minutes": null },
+      { "text": "Whisk in the water a little at a time to make a smooth mixture, then add the evaporated and condensed milk.", "minutes": null },
+      { "text": "Cook over medium-low heat, stirring constantly, until it thickens slightly and coats a spoon.", "minutes": 6 },
+      { "text": "Take off the heat and let cool completely, stirring now and then.", "minutes": null },
+      { "text": "Using a funnel, fill each bag about three-quarters full. Squeeze out the air and tie a tight knot.", "minutes": null },
+      { "text": "Freeze flat or upright until solid, at least 6 hours or overnight.", "minutes": null }
+    ],
+    "tips": "Sift the cocoa if it is lumpy. A pinch of salt makes the chocolate taste richer."
+  },
+  {
+    "slug": "corn-ice-candy",
+    "title": "Corn ice candy",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["corn", "evaporated milk", "condensed milk"],
+    "prep": 20,
+    "cook": 10,
+    "servings": 15,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Sweet, creamy ice candy made with cream-style corn and milk, with little bits of corn throughout. It tastes like a frozen version of mais con yelo.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 425, "max": null, "unit": "g", "name": "cream-style corn", "note": "1 can" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 15, "max": null, "unit": "", "name": "ice candy bags", "note": "2 x 10 inches" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Stir the cornstarch into the water until smooth.", "minutes": null },
+      { "text": "Combine the cream-style corn, evaporated milk, condensed milk and cornstarch water in a pot.", "minutes": null },
+      { "text": "Cook over medium-low heat, stirring constantly, until slightly thickened.", "minutes": 6 },
+      { "text": "Take off the heat and let cool completely.", "minutes": null },
+      { "text": "Using a funnel, fill each bag about three-quarters full, stirring the mix often so the corn is shared out. Squeeze out the air and tie a tight knot.", "minutes": null },
+      { "text": "Freeze flat or upright until solid, at least 6 hours or overnight.", "minutes": null }
+    ],
+    "tips": "For a smoother ice candy, blend the cooled mix briefly before filling. For more texture, stir in half a cup of whole corn kernels."
+  },
+  {
+    "slug": "iskrambol",
+    "title": "Iskrambol",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["evaporated milk", "milk", "chocolate", "pinipig"],
+    "prep": 10,
+    "cook": 0,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A pink, milky slush blended from ice, milk and powdered milk, topped with chocolate syrup and crunchy bits. It is the sweet, icy street treat eaten with a straw and a spoon after school.",
+    "groups": [
+      {
+        "title": "For the slush",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "evaporated milk", "note": "cold" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "powdered milk", "note": "" },
+          { "qty": 0.25, "max": 0.333, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "strawberry or banana flavoring", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "drops red food coloring", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      },
+      {
+        "title": "To top",
+        "items": [
+          { "qty": 4, "max": null, "unit": "tbsp", "name": "chocolate syrup", "note": "" },
+          { "qty": 4, "max": null, "unit": "tbsp", "name": "toasted pinipig", "note": "" },
+          { "qty": 4, "max": null, "unit": "tsp", "name": "powdered milk", "note": "for sprinkling" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the evaporated milk, powdered milk, sugar, flavoring and food coloring in a blender and blend until the sugar and powder dissolve.", "minutes": null },
+      { "text": "Add the ice and blend until fine, fluffy and slushy, like shaved ice. Stop and stir if the ice gets stuck.", "minutes": null },
+      { "text": "Spoon into four cups, packing it loosely.", "minutes": null },
+      { "text": "Drizzle each with chocolate syrup and sprinkle with pinipig and powdered milk. Serve right away with a straw and a spoon.", "minutes": null }
+    ],
+    "tips": "For a finer texture, freeze the milk mixture in an ice tray first and blend the frozen cubes instead of plain ice."
+  },
+  {
+    "slug": "soya-milk",
+    "title": "Soya milk",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["pandan", "brown sugar"],
+    "prep": 25,
+    "cook": 30,
+    "servings": 6,
+    "yield_label": "glasses",
+    "difficulty": "medium",
+    "intro": "Homemade soy milk simmered with pandan and sweetened, smooth and lightly nutty with a soft pandan aroma. It is good warm in the morning or chilled over ice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "dried soybeans", "note": "about 200 g, soaked overnight" },
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted" },
+          { "qty": 0.333, "max": 0.5, "unit": "cup", "name": "brown sugar", "note": "or white sugar" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Drain and rinse the soaked soybeans. Rub them between your hands under water to loosen the skins and pour off the skins that float. This step is optional but gives smoother milk.", "minutes": null },
+      { "text": "Blend the beans with the water in two or three batches until very smooth.", "minutes": null },
+      { "text": "Pour through a cheesecloth or nut milk bag set over a large pot. Twist and squeeze hard to get all the milk out. Set the pulp aside for another use.", "minutes": null },
+      { "text": "Add the pandan and bring the milk to a boil over medium heat, stirring the bottom constantly. Watch closely: it foams up and boils over quickly.", "minutes": 10 },
+      { "text": "Lower the heat and simmer gently, stirring often and skimming off the foam, until it no longer tastes raw and beany.", "minutes": 20 },
+      { "text": "Remove the pandan and stir in the sugar until dissolved. Serve warm, or cool and chill and serve over ice.", "minutes": null }
+    ],
+    "tips": "Soak the beans 8 to 12 hours in plenty of water; they should double in size. The milk keeps for 3 days in the fridge; shake before pouring."
+  },
+  {
+    "slug": "ginger-calamansi-tea",
+    "title": "Ginger calamansi tea",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["ginger", "calamansi"],
+    "prep": 10,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A lighter, tangier cousin of salabat: sliced ginger simmered in water, then finished with fresh calamansi juice and honey. It is warm, peppery and sweet-sour, nice on a rainy evening.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "thumb", "name": "fresh ginger", "note": "thinly sliced" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 8, "max": 10, "unit": "", "name": "calamansi", "note": "" },
+          { "qty": 3, "max": 4, "unit": "tbsp", "name": "honey", "note": "or brown sugar" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the ginger and water in a pot and bring to a boil.", "minutes": null },
+      { "text": "Lower the heat, cover and simmer until the water tastes clearly of ginger.", "minutes": 10 },
+      { "text": "Turn off the heat. Halve the calamansi and squeeze the juice through a strainer into the pot.", "minutes": null },
+      { "text": "Stir in the honey, taste and adjust. Strain into cups and serve hot.", "minutes": null }
+    ],
+    "tips": "Add the calamansi off the heat; boiling makes it taste flat and slightly bitter."
+  },
+  {
+    "slug": "kapeng-mais",
+    "title": "Kapeng mais",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["corn", "muscovado"],
+    "prep": 5,
+    "cook": 55,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Coffee-style drink brewed from dried corn kernels roasted until almost black. It is toasty and slightly sweet, with a gentle bitterness like weak coffee, and it is usually drunk with muscovado.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "dried corn kernels", "note": "white or yellow" },
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "muscovado", "note": "or brown sugar" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the corn in a dry, heavy pan over medium-low heat. Roast, stirring constantly, until the kernels are very dark brown, almost black, and smell like coffee. Lower the heat if they pop or smoke heavily.", "minutes": 35 },
+      { "text": "Spread on a plate and let cool completely.", "minutes": null },
+      { "text": "Grind the roasted corn coarsely in a blender or spice grinder.", "minutes": null },
+      { "text": "Bring the water to a boil, add half a cup of the ground corn and simmer.", "minutes": 10 },
+      { "text": "Turn off the heat and let the grounds settle, then strain through a fine sieve or coffee cloth.", "minutes": 3 },
+      { "text": "Serve hot, sweetened with muscovado to taste.", "minutes": null }
+    ],
+    "tips": "Roast a big batch and keep the ground corn in an airtight jar for up to a month. Use about 1 tablespoon per cup of water."
+  },
+  {
+    "slug": "kapeng-bigas",
+    "title": "Kapeng bigas",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["rice", "muscovado"],
+    "prep": 2,
+    "cook": 40,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Rice coffee: uncooked rice roasted dark in a dry pan and boiled in water. It tastes toasty and nutty, a little like barley tea, and is sweetened with muscovado and drunk hot.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "uncooked white rice", "note": "" },
+          { "qty": 5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "muscovado", "note": "or brown sugar" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the rice in a dry, heavy pan over medium-low heat. Roast, stirring constantly, until every grain is deep brown and smells toasty. Do not let it burn black or it tastes bitter.", "minutes": 25 },
+      { "text": "Carefully pour in the water; it will steam and sputter. Bring to a boil.", "minutes": null },
+      { "text": "Lower the heat and simmer until the water is dark amber.", "minutes": 10 },
+      { "text": "Strain into cups and sweeten with muscovado to taste.", "minutes": null }
+    ],
+    "tips": "Roasted rice keeps for weeks in a sealed jar. For a stronger brew, grind the roasted rice coarsely before boiling and strain through a coffee cloth."
+  },
+  {
+    "slug": "calamansi-iced-tea",
+    "title": "Calamansi iced tea",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["tea", "calamansi"],
+    "prep": 15,
+    "cook": 10,
+    "servings": 6,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "Brewed black tea sweetened and sharpened with plenty of fresh calamansi juice. It is tangy, sweet and brisk, a homemade iced tea that goes with almost any meal.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 4, "max": null, "unit": "", "name": "black tea bags", "note": "" },
+          { "qty": 0.5, "max": 0.667, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 15, "max": null, "unit": "", "name": "calamansi", "note": "for about 1/3 cup juice" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the water to a boil, turn off the heat and add the tea bags.", "minutes": null },
+      { "text": "Steep, then remove the tea bags without squeezing them.", "minutes": 5 },
+      { "text": "Stir in the sugar until dissolved and let the tea cool to room temperature.", "minutes": null },
+      { "text": "Halve the calamansi and squeeze the juice through a strainer into the cooled tea. Stir, taste, and add more sugar or calamansi.", "minutes": null },
+      { "text": "Chill, then serve in glasses filled with ice.", "minutes": null }
+    ],
+    "tips": "Add the calamansi only after the tea has cooled; hot tea dulls its fresh taste. Drop a few calamansi halves into the pitcher for looks."
+  },
+  {
+    "slug": "papaya-shake",
+    "title": "Papaya shake",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["papaya", "milk", "condensed milk"],
+    "prep": 10,
+    "cook": 0,
+    "servings": 2,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "Ripe papaya blended with milk, condensed milk and ice into a thick, orange, mellow-sweet shake, a fruit shake stall favorite.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "cup", "name": "ripe papaya", "note": "peeled, seeded and cubed" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
+          { "qty": 2, "max": 3, "unit": "tbsp", "name": "condensed milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "calamansi", "note": "optional, juiced" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the papaya, milk, condensed milk and calamansi juice in a blender and blend until smooth.", "minutes": null },
+      { "text": "Add the ice and blend until thick and frosty.", "minutes": null },
+      { "text": "Taste, adjust the sweetness, and pour into glasses. Serve right away.", "minutes": null }
+    ],
+    "tips": "A squeeze of calamansi brightens papaya's mild flavor. Use a fully ripe, deep orange papaya; underripe ones taste flat."
+  },
+  {
+    "slug": "langka-shake",
+    "title": "Langka shake",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["jackfruit (ripe)", "milk", "condensed milk"],
+    "prep": 15,
+    "cook": 0,
+    "servings": 2,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "Ripe jackfruit blended with milk and ice into a thick, fragrant shake that tastes of banana, pineapple and bubblegum all at once.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "ripe jackfruit bulbs", "note": "seeded and sliced" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
+          { "qty": 2, "max": 3, "unit": "tbsp", "name": "condensed milk", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Remove the seeds from the jackfruit bulbs and slice the flesh into strips.", "minutes": null },
+      { "text": "Blend the jackfruit with the milk and condensed milk until smooth.", "minutes": null },
+      { "text": "Add the ice and blend until thick. Taste, adjust the sweetness and serve right away.", "minutes": null }
+    ],
+    "tips": "Jarred langka in syrup works too: drain it, skip the condensed milk and sweeten with a spoonful of the syrup instead."
+  },
+  {
+    "slug": "chico-shake",
+    "title": "Chico shake",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["milk", "condensed milk"],
+    "prep": 15,
+    "cook": 0,
+    "servings": 2,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "Ripe chico blended with milk and ice into a thick, tan shake with a malty, brown sugar sweetness of its own.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 3, "max": 4, "unit": "", "name": "ripe chico", "note": "about 1 1/2 cups flesh" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
+          { "qty": 1, "max": 2, "unit": "tbsp", "name": "condensed milk", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel the chico, cut in half and remove the shiny black seeds and the stringy center.", "minutes": null },
+      { "text": "Blend the flesh with the milk and condensed milk until smooth.", "minutes": null },
+      { "text": "Add the ice and blend until thick. Taste, adjust the sweetness and serve right away.", "minutes": null }
+    ],
+    "tips": "Chico must be fully ripe and soft, or it tastes chalky and puckery. Ripe chico is already very sweet, so add condensed milk a little at a time."
+  },
+  {
+    "slug": "guyabano-shake",
+    "title": "Guyabano shake",
+    "course": "inumin",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["milk", "condensed milk"],
+    "prep": 20,
+    "cook": 0,
+    "servings": 2,
+    "yield_label": "glasses",
+    "difficulty": "easy",
+    "intro": "Seeded guyabano flesh blended with milk and ice into a thick, creamy shake that is sweet, tangy and tropical, richer than guyabano juice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "ripe guyabano flesh", "note": "all seeds removed" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cold milk", "note": "" },
+          { "qty": 2, "max": 3, "unit": "tbsp", "name": "condensed milk", "note": "or sugar" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "ice cubes", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pull the guyabano flesh into segments and pick out every black seed and any tough fiber.", "minutes": null },
+      { "text": "Blend the flesh with the milk and condensed milk until smooth.", "minutes": null },
+      { "text": "Add the ice and blend until thick. Taste, adjust the sweetness and serve right away.", "minutes": null }
+    ],
+    "tips": "Freeze seeded guyabano flesh in portions when the fruit is in season, then blend it straight from frozen with less ice."
+  }
+]

@@ -1,0 +1,941 @@
+[
+  {
+    "slug": "laing",
+    "title": "Laing",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["taro leaves", "coconut milk", "pork", "shrimp paste", "chili", "ginger"],
+    "prep": 15,
+    "cook": 60,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Dried taro leaves cooked slowly in coconut milk with pork, shrimp paste, ginger and chilies until thick, creamy and glossy with coconut oil. It is rich, salty and spicy, and it needs plenty of rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 100, "max": null, "unit": "g", "name": "dried taro leaves", "note": "dried gabi leaves, about 4 loosely packed cups" },
+          { "qty": 250, "max": null, "unit": "g", "name": "pork belly", "note": "cut into thin strips" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "shrimp paste", "note": "bagoong alamang" },
+          { "qty": 1, "max": null, "unit": "", "name": "lemongrass stalk", "note": "bruised, optional" },
+          { "qty": 6, "max": 10, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Shred any large pieces of taro leaf by hand and pick out thick stems.", "minutes": null },
+      { "text": "Put the pork in a wide, heavy pot over medium heat and cook, stirring now and then, until it renders some fat and starts to brown.", "minutes": 8 },
+      { "text": "Add the onion, garlic and ginger and cook until soft and fragrant. Stir in the shrimp paste and cook for 1 minute more.", "minutes": 3 },
+      { "text": "Pour in the coconut milk, add the lemongrass and bring to a gentle boil. Lower the heat to a simmer.", "minutes": null },
+      { "text": "Scatter the taro leaves over the surface and press them down lightly with a spoon so they get wet. <strong>Do not stir</strong>: let them simmer undisturbed and soak up the coconut milk.", "minutes": 20 },
+      { "text": "Once the leaves have softened and sunk, stir gently. Keep simmering uncovered over low heat, stirring now and then so the bottom does not catch, until most of the liquid is absorbed.", "minutes": 15 },
+      { "text": "Add the coconut cream and both kinds of chili. Simmer, stirring occasionally, until the sauce is very thick and the coconut oil starts to separate.", "minutes": 15 },
+      { "text": "Taste and add salt only if needed, since the shrimp paste is already salty. Remove the lemongrass and serve with rice.", "minutes": null }
+    ],
+    "tips": "Stirring the leaves too early or cooking them too briefly is what makes laing itchy in the throat, so leave them alone at first and cook them through. Laing keeps for 4 days in the fridge and tastes even better reheated."
+  },
+  {
+    "slug": "vegetarian-laing",
+    "title": "Vegetarian laing",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["taro leaves", "coconut milk", "chili", "ginger", "garlic"],
+    "prep": 15,
+    "cook": 55,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Laing without pork or shrimp paste: dried taro leaves simmered in coconut milk with ginger, garlic and plenty of chili until creamy and rich. Salt and a little soy sauce do the seasoning.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 100, "max": null, "unit": "g", "name": "dried taro leaves", "note": "dried gabi leaves, about 4 loosely packed cups" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 8, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "", "name": "lemongrass stalk", "note": "bruised" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "plus more to taste" },
+          { "qty": 6, "max": 10, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Shred any large pieces of taro leaf by hand and pick out thick stems.", "minutes": null },
+      { "text": "Heat the oil in a wide, heavy pot over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 4 },
+      { "text": "Pour in the coconut milk, add the lemongrass, soy sauce and salt, and bring to a gentle boil. Lower the heat to a simmer.", "minutes": null },
+      { "text": "Scatter the taro leaves over the surface and press them down lightly so they get wet. <strong>Do not stir</strong>: let them simmer undisturbed until soft and sunk into the liquid.", "minutes": 20 },
+      { "text": "Stir gently, then keep simmering uncovered over low heat, stirring now and then, until most of the liquid is absorbed.", "minutes": 15 },
+      { "text": "Add the coconut cream and the chilies. Simmer, stirring occasionally, until very thick and the coconut oil starts to separate.", "minutes": 15 },
+      { "text": "Taste and adjust the salt. Remove the lemongrass and serve with rice.", "minutes": null }
+    ],
+    "tips": "Without shrimp paste the dish relies on salt, so season it at the end when the sauce has reduced. Cook the leaves through and do not stir them early, or they can make the throat itchy."
+  },
+  {
+    "slug": "pinangat",
+    "title": "Pinangat",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["taro leaves", "coconut milk", "shrimp", "pork", "coconut", "chili"],
+    "prep": 45,
+    "cook": 70,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Fresh taro leaves wrapped around a filling of shrimp, pork and grated coconut, then simmered in coconut milk until the parcels are meltingly soft. The sauce turns thick and oily, with heat from chili and a sharp note of ginger.",
+    "groups": [
+      {
+        "title": "For the parcels",
+        "items": [
+          { "qty": 24, "max": null, "unit": "", "name": "fresh taro leaves", "note": "large, unblemished, stems removed" },
+          { "qty": 250, "max": null, "unit": "g", "name": "shrimp", "note": "peeled and chopped" },
+          { "qty": 200, "max": null, "unit": "g", "name": "pork belly", "note": "finely chopped" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated mature coconut", "note": "fresh or thawed frozen" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 4, "max": null, "unit": "", "name": "siling labuyo", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 3, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "plus more to taste" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Wipe the taro leaves clean. Lay them out at room temperature for a few hours to wilt, or pass each one briefly over a low gas flame, so they fold without tearing.", "minutes": null },
+      { "text": "Mix the shrimp, pork, grated coconut, onion, minced ginger, chopped chilies and salt in a bowl.", "minutes": null },
+      { "text": "Stack 2 leaves, shiny side down. Put about 2 tablespoons of filling near the stem end, fold in the sides and roll up into a snug parcel. Tie with kitchen string. Repeat to make about 12 parcels.", "minutes": null },
+      { "text": "Arrange the parcels seam side down in a single tight layer in a wide pot. Pour in the coconut milk and add the sliced ginger, long chilies and salt. The parcels should be just covered.", "minutes": null },
+      { "text": "Bring to a gentle boil, then cover and simmer over low heat. <strong>Do not stir</strong> or move the parcels; shake the pot gently now and then instead.", "minutes": 45 },
+      { "text": "Pour the coconut cream over the parcels and simmer uncovered until the sauce is thick and the coconut oil separates, spooning the sauce over the top from time to time.", "minutes": 20 },
+      { "text": "Taste the sauce and adjust the salt. Snip the strings and serve the parcels with the sauce and rice.", "minutes": null }
+    ],
+    "tips": "Fresh taro leaves must be cooked all the way through or they make the throat itchy; if a parcel still tastes scratchy, simmer longer. Pinangat freezes well in its sauce."
+  },
+  {
+    "slug": "tinumok",
+    "title": "Tinumok",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["taro leaves", "shrimp", "young coconut", "coconut milk", "ginger"],
+    "prep": 45,
+    "cook": 65,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Taro leaf parcels filled with chopped shrimp and strips of young coconut, simmered in coconut milk with ginger and chili. The filling is sweet and tender, and the leaves turn soft and silky in the rich sauce.",
+    "groups": [
+      {
+        "title": "For the parcels",
+        "items": [
+          { "qty": 24, "max": null, "unit": "", "name": "fresh taro leaves", "note": "large, unblemished, stems removed" },
+          { "qty": 400, "max": null, "unit": "g", "name": "shrimp", "note": "peeled and chopped" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "young coconut", "note": "buko flesh, cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 3, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Wipe the taro leaves clean and let them wilt at room temperature for a few hours, or pass each briefly over a low flame, so they fold without tearing.", "minutes": null },
+      { "text": "Mix the shrimp, young coconut, onion, minced ginger, salt and pepper in a bowl.", "minutes": null },
+      { "text": "Stack 2 leaves, put about 2 heaped tablespoons of filling near the stem end, fold in the sides and roll up into a parcel. Tie with kitchen string. Repeat to make about 12 parcels.", "minutes": null },
+      { "text": "Arrange the parcels seam side down in a single tight layer in a wide pot. Add the coconut milk, sliced ginger, chilies and fish sauce.", "minutes": null },
+      { "text": "Bring to a gentle boil, then cover and simmer over low heat <strong>without stirring</strong>. Shake the pot gently now and then so nothing sticks.", "minutes": 45 },
+      { "text": "Pour in the coconut cream and simmer uncovered, spooning sauce over the parcels, until the sauce is thick and slightly oily.", "minutes": 15 },
+      { "text": "Taste the sauce and add fish sauce if needed. Snip the strings and serve with rice.", "minutes": null }
+    ],
+    "tips": "Use soft young coconut, not grated mature coconut: it keeps the filling light and sweet. Cook the parcels until the leaves taste smooth, not scratchy."
+  },
+  {
+    "slug": "bicol-express",
+    "title": "Bicol express",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["pork belly", "coconut milk", "shrimp paste", "chili", "garlic", "ginger"],
+    "prep": 15,
+    "cook": 55,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pork belly simmered in coconut milk with shrimp paste and a generous load of chilies until the sauce is thick, salty and fiery. A small spoonful goes a long way over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "pork belly", "note": "skin on, cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "shrimp paste", "note": "bagoong alamang" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 10, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced diagonally" },
+          { "qty": 5, "max": 10, "unit": "", "name": "siling labuyo", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the pork in a wide pan over medium heat and cook, stirring now and then, until it renders its fat and the edges turn golden.", "minutes": 10 },
+      { "text": "Spoon off all but about 2 tablespoons of fat. Add the onion, garlic and ginger and cook until soft and fragrant.", "minutes": 3 },
+      { "text": "Stir in the shrimp paste and cook for 2 minutes so it loses its raw smell.", "minutes": 2 },
+      { "text": "Pour in the coconut milk and bring to a boil. Lower the heat, cover and simmer until the pork is tender, stirring occasionally.", "minutes": 25 },
+      { "text": "Add the coconut cream and all the chilies. Simmer uncovered, stirring often, until the sauce is thick and the coconut oil starts to separate.", "minutes": 12 },
+      { "text": "Taste: it should be salty and hot. Add a splash of water if it is too salty. Serve with rice.", "minutes": null }
+    ],
+    "tips": "For a milder version, seed the long chilies and leave out the siling labuyo. It keeps for 4 days in the fridge and reheats well."
+  },
+  {
+    "slug": "shrimp-bicol-express",
+    "title": "Shrimp Bicol express",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "coconut milk", "shrimp paste", "chili", "garlic"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Peeled shrimp in a thick, spicy coconut sauce seasoned with shrimp paste and loaded with chilies. It cooks much faster than the pork version and tastes sweet, salty and hot.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "medium shrimp", "note": "peeled and deveined" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "shrimp paste", "note": "bagoong alamang" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 6, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced diagonally" },
+          { "qty": 3, "max": 6, "unit": "", "name": "siling labuyo", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wide pan over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Stir in the shrimp paste and cook for 2 minutes.", "minutes": 2 },
+      { "text": "Pour in the coconut milk and simmer, stirring occasionally, until reduced by about a third.", "minutes": 8 },
+      { "text": "Add the coconut cream and all the chilies and simmer until the sauce is thick and the oil begins to separate.", "minutes": 6 },
+      { "text": "Add the shrimp and cook, stirring, just until they turn pink and curl. Do not overcook.", "minutes": 3 },
+      { "text": "Taste, adjust with a splash of water if too salty, and serve right away with rice.", "minutes": null }
+    ],
+    "tips": "Add the shrimp last and pull the pan off the heat as soon as they turn opaque, or they toughen."
+  },
+  {
+    "slug": "tuna-bicol-express",
+    "title": "Tuna Bicol express",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tuna", "coconut milk", "shrimp paste", "chili"],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A quick Bicol express made with canned tuna flakes, simmered in coconut milk with shrimp paste and chilies. It is a thrifty, spicy weeknight ulam ready in half an hour.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "cans tuna flakes in oil", "note": "about 180 g each, drained" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "shrimp paste", "note": "bagoong alamang" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 8, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" },
+          { "qty": 2, "max": 5, "unit": "", "name": "siling labuyo", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pan over medium heat. Cook the onion, garlic and ginger until soft.", "minutes": 3 },
+      { "text": "Stir in the shrimp paste and cook for 1 minute.", "minutes": 1 },
+      { "text": "Pour in the coconut milk and simmer, stirring now and then, until slightly reduced.", "minutes": 6 },
+      { "text": "Add the tuna and all the chilies and simmer, stirring gently so the flakes stay in small chunks.", "minutes": 5 },
+      { "text": "Stir in the coconut cream and simmer until the sauce is thick and glossy. Taste, then serve with rice.", "minutes": 4 }
+    ],
+    "tips": "Drain the tuna well; oil from the can makes the sauce greasy. Tuna in brine works too."
+  },
+  {
+    "slug": "mushroom-bicol-express",
+    "title": "Mushroom Bicol express",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["mushrooms", "tofu", "coconut milk", "chili", "garlic"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Mushrooms and fried tofu in a thick, chili-heavy coconut sauce, seasoned with soy sauce and salt instead of shrimp paste. It is creamy, savory and as hot as you want it.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 400, "max": null, "unit": "g", "name": "fresh mushrooms", "note": "abalone, shiitake or button, torn or sliced" },
+          { "qty": 300, "max": null, "unit": "g", "name": "firm tofu", "note": "cut into thin strips and patted dry" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "plus more to taste" },
+          { "qty": 8, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" },
+          { "qty": 2, "max": 5, "unit": "", "name": "siling labuyo", "note": "chopped" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat 2 tablespoons of the oil in a wide pan over medium-high heat. Fry the tofu until golden on the outside. Set aside.", "minutes": 6 },
+      { "text": "Add the remaining oil and the mushrooms and cook until they release their water and start to brown at the edges.", "minutes": 5 },
+      { "text": "Add the onion, garlic and ginger and cook until soft and fragrant.", "minutes": 2 },
+      { "text": "Pour in the coconut milk, add the soy sauce and salt, and simmer until slightly reduced.", "minutes": 6 },
+      { "text": "Return the tofu, add the coconut cream and all the chilies, and simmer until the sauce is thick and glossy.", "minutes": 5 },
+      { "text": "Taste, adjust the salt and serve with rice.", "minutes": null }
+    ],
+    "tips": "Browning the mushrooms well before the coconut milk goes in gives the dish the savory depth that shrimp paste usually brings."
+  },
+  {
+    "slug": "kinunot-na-tuna",
+    "title": "Kinunot na tuna",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tuna", "coconut milk", "malunggay", "chili", "ginger", "vinegar"],
+    "prep": 15,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Kinunot is flaked fish cooked in coconut milk with malunggay leaves and chili. It is usually made with shark or stingray; this version uses fresh tuna, a common substitute, and tastes creamy, gingery and lightly tangy.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "fresh tuna", "note": "steaks or a chunk" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "picked from the stems" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "fish sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the tuna in a pan with 2 cups of water, 2 tablespoons of the vinegar and the salt. Bring to a boil, then simmer until cooked through.", "minutes": 10 },
+      { "text": "Drain and let cool enough to handle. Flake the fish finely with your fingers, removing skin and bones, then squeeze out excess liquid.", "minutes": null },
+      { "text": "Heat the oil in a pan over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Add the flaked fish and the remaining vinegar and cook, stirring, until the fish is dry and lightly toasted.", "minutes": 4 },
+      { "text": "Pour in the coconut milk and simmer, stirring now and then, until slightly thickened.", "minutes": 8 },
+      { "text": "Add the coconut cream and chilies and simmer until creamy and thick.", "minutes": 5 },
+      { "text": "Stir in the malunggay leaves and cook just until wilted. Season with fish sauce and serve with rice.", "minutes": 1 }
+    ],
+    "tips": "Squeezing the flaked fish dry before it goes back in the pan helps it soak up the coconut milk. Skipjack or any firm white fish works too."
+  },
+  {
+    "slug": "ginataang-kalabasa-at-sitaw",
+    "title": "Ginataang kalabasa at sitaw",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["squash", "string beans", "coconut milk", "garlic", "onion", "ginger"],
+    "prep": 15,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Squash and string beans simmered in coconut milk until the squash starts to melt into the sauce and turns it golden. This plain version is seasoned with salt and pepper and tastes sweet, creamy and mild.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "kalabasa", "note": "squash, peeled and cut into 2 cm cubes" },
+          { "qty": 200, "max": null, "unit": "g", "name": "sitaw", "note": "string beans, cut into 5 cm lengths" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "plus more to taste" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "long green chili", "note": "siling haba, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Add the squash and coconut milk with the salt. Bring to a boil, then lower the heat and simmer, partly covered, until the squash is almost tender.", "minutes": 8 },
+      { "text": "Add the string beans and the chili and simmer until the beans are tender but still bright green.", "minutes": 5 },
+      { "text": "Stir in the coconut cream and simmer until the sauce thickens slightly. Some of the squash will break down, which is good.", "minutes": 3 },
+      { "text": "Season with pepper and more salt to taste. Serve with rice.", "minutes": null }
+    ],
+    "tips": "Cut the squash evenly so it cooks at the same rate. A few smaller cubes that dissolve into the sauce make it thicker and sweeter."
+  },
+  {
+    "slug": "ginataang-kalabasa-sitaw-at-hipon",
+    "title": "Ginataang kalabasa, sitaw at hipon",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squash", "string beans", "shrimp", "coconut milk", "shrimp paste"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Squash and string beans in coconut milk with shrimp and a spoonful of shrimp paste. The squash makes the sauce thick and sweet, and the shrimp and bagoong give it a savory edge.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "medium shrimp", "note": "heads removed, shells on or peeled" },
+          { "qty": 500, "max": null, "unit": "g", "name": "kalabasa", "note": "squash, peeled and cut into 2 cm cubes" },
+          { "qty": 200, "max": null, "unit": "g", "name": "sitaw", "note": "string beans, cut into 5 cm lengths" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "shrimp paste", "note": "bagoong alamang" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "fish sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Stir in the shrimp paste and cook for 1 minute.", "minutes": 1 },
+      { "text": "Add the squash and coconut milk. Bring to a boil, then simmer, partly covered, until the squash is almost tender.", "minutes": 8 },
+      { "text": "Add the string beans and chilies and simmer until the beans are just tender.", "minutes": 5 },
+      { "text": "Add the shrimp and coconut cream and simmer until the shrimp turn pink and the sauce thickens.", "minutes": 4 },
+      { "text": "Season with fish sauce to taste and serve with rice.", "minutes": null }
+    ],
+    "tips": "Leaving the shells on the shrimp adds flavor to the sauce; peel them at the table."
+  },
+  {
+    "slug": "ginataang-baboy-at-kalabasa",
+    "title": "Ginataang baboy at kalabasa",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["pork", "squash", "coconut milk", "fish sauce", "garlic", "onion"],
+    "prep": 15,
+    "cook": 50,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pork simmered until tender, then cooked with chunks of squash in coconut milk until the sauce turns thick, orange and sweet. It is a filling, homey ulam that is best with rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "pork belly or kasim", "note": "cut into bite-size pieces" },
+          { "qty": 600, "max": null, "unit": "g", "name": "kalabasa", "note": "squash, peeled and cut into 3 cm chunks" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot over medium-high heat and brown the pork lightly on all sides.", "minutes": 6 },
+      { "text": "Add the onion, garlic and ginger and cook until soft. Add the fish sauce and cook for 1 minute.", "minutes": 3 },
+      { "text": "Pour in the water, cover and simmer over low heat until the pork is nearly tender.", "minutes": 20 },
+      { "text": "Add the coconut milk and squash. Simmer, partly covered, until the squash is tender and starting to break down at the edges.", "minutes": 12 },
+      { "text": "Add the coconut cream and chilies and simmer uncovered until the sauce thickens.", "minutes": 5 },
+      { "text": "Season with pepper and more fish sauce to taste. Serve with rice.", "minutes": null }
+    ],
+    "tips": "Add a handful of string beans with the squash if you like; they need about 5 minutes."
+  },
+  {
+    "slug": "ginataang-langka",
+    "title": "Ginataang langka",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["jackfruit", "pork", "coconut milk", "fish sauce", "garlic"],
+    "prep": 30,
+    "cook": 45,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Unripe jackfruit and pork simmered in coconut milk until the jackfruit is soft and almost meaty. It is mild, creamy and savory, with a little heat from long chilies.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "unripe jackfruit", "note": "langkang hilaw, peeled, cored and cut into 3 cm chunks" },
+          { "qty": 250, "max": null, "unit": "g", "name": "pork belly", "note": "cut into small strips" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
+          { "qty": 2.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Oil your knife and hands before cutting the jackfruit, since the sap is very sticky. Boil the chunks in salted water until tender, then drain.", "minutes": 20 },
+      { "text": "Put the pork in a pot over medium heat and cook until it renders some fat and turns lightly golden.", "minutes": 8 },
+      { "text": "Add the onion, garlic and ginger and cook until soft. Add the fish sauce and cook for 1 minute.", "minutes": 3 },
+      { "text": "Add the jackfruit and coconut milk. Simmer uncovered, stirring now and then, until the jackfruit has absorbed some of the sauce.", "minutes": 10 },
+      { "text": "Add the coconut cream and chilies and simmer until the sauce is thick and creamy.", "minutes": 5 },
+      { "text": "Season with pepper and more fish sauce to taste. Serve with rice.", "minutes": null }
+    ],
+    "tips": "Canned young jackfruit in brine saves the cutting and boiling: rinse it well and add it straight to the coconut milk."
+  },
+  {
+    "slug": "ginataang-langka-with-tinapa",
+    "title": "Ginataang langka with tinapa",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["jackfruit", "fish", "coconut milk", "garlic", "ginger"],
+    "prep": 30,
+    "cook": 40,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Tender unripe jackfruit simmered in coconut milk with flakes of smoked fish. The tinapa gives the creamy sauce a smoky, salty depth.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "unripe jackfruit", "note": "langkang hilaw, peeled, cored and cut into 3 cm chunks" },
+          { "qty": 2, "max": null, "unit": "", "name": "tinapa", "note": "smoked fish, about 200 g, skin and bones removed, flaked" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "fish sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Oil your knife and hands before cutting the jackfruit. Boil the chunks in salted water until tender, then drain.", "minutes": 20 },
+      { "text": "Heat the oil in a pot over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Add the flaked tinapa and cook for 2 minutes, stirring, to warm it and bring out its smokiness.", "minutes": 2 },
+      { "text": "Add the jackfruit and coconut milk. Simmer uncovered, stirring now and then, until the sauce reduces a little.", "minutes": 10 },
+      { "text": "Add the coconut cream and chilies and simmer until thick and creamy.", "minutes": 5 },
+      { "text": "Taste before seasoning: tinapa is salty, so add fish sauce only if needed. Serve with rice.", "minutes": null }
+    ],
+    "tips": "Pick the tinapa carefully: the fine bones are easier to find while the fish is still cold from the fridge."
+  },
+  {
+    "slug": "ginataang-puso-ng-saging",
+    "title": "Ginataang puso ng saging",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["banana blossom", "shrimp", "coconut milk", "vinegar", "garlic"],
+    "prep": 30,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Shredded banana blossom simmered in coconut milk with shrimp and a splash of vinegar. It has a soft, slightly chewy texture and a creamy, tangy sauce.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large banana blossom", "note": "puso ng saging, about 600 g" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "salt", "note": "for rubbing" },
+          { "qty": 250, "max": null, "unit": "g", "name": "shrimp", "note": "peeled, shells and heads kept" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "fish sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel off the tough dark outer layers of the banana blossom until you reach the pale heart. Slice it thinly, discarding the hard core and the stiff stamens inside each floret.", "minutes": null },
+      { "text": "Rub the slices with the salt, squeeze hard until a dark liquid comes out, then rinse well and squeeze dry. Repeat once more.", "minutes": null },
+      { "text": "Pound the shrimp heads and shells with 0.5 cup water and strain, pressing on the solids. Keep the liquid.", "minutes": null },
+      { "text": "Heat the oil in a pan over medium heat. Cook the onion, garlic and ginger until soft.", "minutes": 3 },
+      { "text": "Add the banana blossom and vinegar and let it boil <strong>without stirring</strong>.", "minutes": 3 },
+      { "text": "Pour in the coconut milk and shrimp liquid and simmer, stirring now and then, until the banana blossom is tender.", "minutes": 12 },
+      { "text": "Add the shrimp and chilies and simmer until the shrimp turn pink. Season with fish sauce and serve.", "minutes": 4 }
+    ],
+    "tips": "Salting and squeezing the banana blossom removes its sap and bitterness; do not skip it."
+  },
+  {
+    "slug": "ginataang-hipon",
+    "title": "Ginataang hipon",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["shrimp", "coconut milk", "ginger", "garlic", "chili"],
+    "prep": 15,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Whole head-on shrimp simmered briefly in coconut milk with ginger, garlic and long green chilies. The shrimp heads turn the sauce orange, sweet and rich.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "large head-on shrimp", "note": "feelers and legs trimmed" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba, sliced" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wide pan over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Add the shrimp and stir until they just start to turn pink, pressing on the heads to release their fat.", "minutes": 2 },
+      { "text": "Lift the shrimp out with tongs and set aside. Pour the coconut milk into the pan with the fish sauce and simmer until slightly reduced.", "minutes": 7 },
+      { "text": "Return the shrimp with the coconut cream and chilies and simmer until the shrimp are cooked through and the sauce is creamy.", "minutes": 4 },
+      { "text": "Season with pepper and more fish sauce to taste. Serve with rice.", "minutes": null }
+    ],
+    "tips": "Taking the shrimp out while the sauce reduces keeps them tender. Squash or string beans can go in with the coconut milk if you want vegetables."
+  },
+  {
+    "slug": "ginataang-alimango",
+    "title": "Ginataang alimango",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["crab", "coconut milk", "squash", "string beans", "ginger"],
+    "prep": 30,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Mud crabs simmered in coconut milk with squash and string beans until the sauce is thick, sweet and full of crab flavor. It is messy, hands-on eating best shared over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "", "name": "mud crabs", "note": "alimango, about 1.2 kg in all" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 300, "max": null, "unit": "g", "name": "kalabasa", "note": "squash, cut into 2 cm cubes" },
+          { "qty": 150, "max": null, "unit": "g", "name": "sitaw", "note": "string beans, cut into 5 cm lengths" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put live crabs in the freezer for about 20 minutes until they stop moving. Scrub them well under running water, untie them, pull off the top shells, remove the gills and halve the bodies. Crack the claws lightly with the back of a knife.", "minutes": null },
+      { "text": "Heat the oil in a large pot over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Pour in the coconut milk and fish sauce, add the squash and bring to a boil. Simmer until the squash is half cooked.", "minutes": 6 },
+      { "text": "Add the crabs and top shells, cover and simmer, stirring once or twice, until the shells turn bright orange.", "minutes": 10 },
+      { "text": "Add the string beans and chilies and simmer uncovered until the beans are tender.", "minutes": 5 },
+      { "text": "Stir in the coconut cream and simmer until the sauce thickens. Taste, adjust with fish sauce and serve with rice.", "minutes": 4 }
+    ],
+    "tips": "Blue crabs (alimasag) work the same way; use about 1 kg and cut the cooking time of the crabs by a few minutes."
+  },
+  {
+    "slug": "ginataang-manok-with-papaya",
+    "title": "Ginataang manok with papaya",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "green papaya", "coconut milk", "ginger", "malunggay", "fish sauce"],
+    "prep": 15,
+    "cook": 45,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken simmered in coconut milk with plenty of ginger, wedges of green papaya and malunggay leaves. The sauce is creamy and gingery, and the papaya soaks it up.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken", "note": "cut into serving pieces" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "small green papaya", "note": "about 500 g, peeled, seeded and cut into wedges" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "malunggay leaves", "note": "or chili leaves" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot over medium heat. Cook the onion, garlic and ginger until fragrant.", "minutes": 3 },
+      { "text": "Add the chicken and cook, turning, until the pieces are no longer pink outside. Add the fish sauce and cook for 2 minutes.", "minutes": 6 },
+      { "text": "Pour in the water, cover and simmer over low heat until the chicken is almost cooked.", "minutes": 15 },
+      { "text": "Add the papaya and coconut milk. Simmer, partly covered, until the papaya is tender when pierced and the chicken is cooked through.", "minutes": 12 },
+      { "text": "Add the coconut cream and chilies and simmer until slightly thickened.", "minutes": 4 },
+      { "text": "Stir in the malunggay, cook just until wilted, and season with more fish sauce to taste. Serve with rice.", "minutes": 1 }
+    ],
+    "tips": "Choose a firm papaya with white flesh; one that has started to turn orange will make the sauce sweet and the wedges mushy."
+  },
+  {
+    "slug": "ginataang-manok-with-luyang-dilaw",
+    "title": "Ginataang manok with luyang dilaw",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "coconut milk", "lemongrass", "ginger", "fish sauce", "chili"],
+    "prep": 15,
+    "cook": 45,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chicken simmered in coconut milk with fresh turmeric, lemongrass and ginger, which turn the sauce bright yellow and fragrant. It is creamy and earthy with a gentle heat.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "bone-in chicken", "note": "cut into serving pieces" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "fresh turmeric", "note": "luyang dilaw, peeled and grated, or 1 tsp ground" },
+          { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised and tied in a knot" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2.5, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pot over medium heat. Cook the onion, garlic, ginger and turmeric until fragrant and the oil turns yellow.", "minutes": 3 },
+      { "text": "Add the chicken and stir to coat it in the turmeric. Cook until the pieces are no longer pink outside, then add the fish sauce and cook for 2 minutes.", "minutes": 6 },
+      { "text": "Add the water, coconut milk and lemongrass. Bring to a boil, then lower the heat and simmer, partly covered, until the chicken is tender. Stir now and then.", "minutes": 28 },
+      { "text": "Add the coconut cream and chilies and simmer uncovered until the sauce thickens.", "minutes": 6 },
+      { "text": "Remove the lemongrass, season with more fish sauce to taste and serve with rice.", "minutes": null }
+    ],
+    "tips": "Fresh turmeric stains hands, boards and plastic: grate it on a plate and wash up right away."
+  },
+  {
+    "slug": "ginataang-tilapia",
+    "title": "Ginataang tilapia",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tilapia", "coconut milk", "eggplant", "ginger", "chili"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Pan-fried tilapia simmered in a gingery coconut sauce with eggplant and long green chilies. Frying the fish first keeps it firm and adds a toasty note to the creamy sauce.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "medium tilapia", "note": "about 1 kg in all, cleaned, scaled and scored" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 4, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 2, "max": null, "unit": "", "name": "long eggplants", "note": "sliced diagonally" },
+          { "qty": 3, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "fish sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Pat the fish dry and rub with the salt inside and out.", "minutes": null },
+      { "text": "Heat the oil in a wide pan over medium-high heat. Fry the fish until golden on both sides but not cooked through, about 4 minutes a side. Set aside and pour off all but 1 tablespoon of oil.", "minutes": 8 },
+      { "text": "Cook the onion, garlic and ginger in the same pan until soft and fragrant.", "minutes": 3 },
+      { "text": "Pour in the coconut milk and add the eggplant. Simmer until the eggplant is half tender.", "minutes": 5 },
+      { "text": "Slide in the fish and chilies. Simmer, spooning the sauce over the fish instead of flipping it, until the fish is cooked through.", "minutes": 8 },
+      { "text": "Add the coconut cream and simmer until the sauce thickens. Season with fish sauce and serve with rice.", "minutes": 3 }
+    ],
+    "tips": "Use a wide pan so the fish lies flat, and move it as little as possible once it is in the sauce so it stays whole."
+  },
+  {
+    "slug": "ginataang-tambakol",
+    "title": "Ginataang tambakol",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tuna", "coconut milk", "vinegar", "ginger", "chili"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Yellowfin tuna steaks simmered in vinegar and ginger, then finished in coconut milk with long green chilies. The vinegar cuts the richness, so the sauce tastes creamy and lightly sour.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 750, "max": null, "unit": "g", "name": "tambakol steaks", "note": "yellowfin tuna, about 2 cm thick" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 3, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cane vinegar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 4, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "whole black peppercorns", "note": "lightly cracked" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "fish sauce", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rub the fish with the salt. Scatter half the onion, garlic and ginger in a wide pan and lay the fish on top in one layer. Scatter the rest over.", "minutes": null },
+      { "text": "Pour in the vinegar and water and add the peppercorns. Bring to a boil and cook <strong>without stirring</strong> so the vinegar mellows.", "minutes": 3 },
+      { "text": "Lower the heat, cover and simmer until most of the liquid has reduced.", "minutes": 10 },
+      { "text": "Pour in the coconut milk and add the chilies. Simmer uncovered, spooning sauce over the fish, until slightly thickened.", "minutes": 10 },
+      { "text": "Add the coconut cream and simmer until creamy. Season with fish sauce and serve with rice.", "minutes": 4 }
+    ],
+    "tips": "Tambakol dries out if overcooked: keep the heat low once the coconut milk goes in. A handful of pechay or eggplant can be added with the coconut milk."
+  },
+  {
+    "slug": "ginataang-bangus-with-pechay",
+    "title": "Ginataang bangus with pechay",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["bangus", "coconut milk", "bok choy", "ginger", "fish sauce"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Milkfish simmered in coconut milk with ginger, then finished with pechay leaves that wilt into the sauce. It is mild, creamy and comforting.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large bangus", "note": "about 800 g, scaled, cleaned and cut crosswise into 5 pieces" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "sliced" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 300, "max": null, "unit": "g", "name": "pechay", "note": "bok choy, stems and leaves separated, cut into 5 cm pieces" },
+          { "qty": 2, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Rub the fish pieces with the salt.", "minutes": null },
+      { "text": "Heat the oil in a wide pan over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Pour in the coconut milk with the fish sauce and bring to a gentle boil. Add the fish in a single layer.", "minutes": null },
+      { "text": "Simmer uncovered, spooning sauce over the fish and not stirring, until the fish is nearly cooked.", "minutes": 10 },
+      { "text": "Add the pechay stems, chilies and coconut cream and simmer until the stems are tender-crisp.", "minutes": 4 },
+      { "text": "Add the pechay leaves and simmer just until wilted. Taste, adjust the fish sauce and serve with rice.", "minutes": 2 }
+    ],
+    "tips": "Bangus belly alone makes an even richer version; shorten the simmering by a few minutes."
+  },
+  {
+    "slug": "ginataang-kuhol",
+    "title": "Ginataang kuhol",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["coconut milk", "water spinach", "ginger", "lemongrass", "chili", "fish sauce"],
+    "prep": 40,
+    "cook": 45,
+    "servings": 5,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Freshwater snails simmered in coconut milk with kangkong, ginger, lemongrass and chili. You suck the meat from the shells at the table, and the thick, spicy sauce goes over rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "kuhol", "note": "live freshwater snails" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "thumb", "name": "ginger", "note": "cut into thin strips" },
+          { "qty": 2, "max": null, "unit": "", "name": "lemongrass stalks", "note": "bruised" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "coconut milk", "note": "gata" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "coconut cream", "note": "kakang gata" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "plus more to taste" },
+          { "qty": 1, "max": null, "unit": "", "name": "bunch kangkong", "note": "water spinach, about 300 g, cut into 5 cm pieces" },
+          { "qty": 4, "max": null, "unit": "", "name": "long green chilies", "note": "siling haba" },
+          { "qty": 3, "max": 5, "unit": "", "name": "siling labuyo", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Soak the snails in plenty of fresh water and scrub them, changing the water several times until it stays clear. Discard any that float or have broken shells.", "minutes": null },
+      { "text": "With a sharp cleaver or pliers, snip off the pointed tip of each shell so the meat can be sucked out later.", "minutes": null },
+      { "text": "Boil the snails in fresh water, then drain and discard the water.", "minutes": 5 },
+      { "text": "Heat the oil in a large pot over medium heat. Cook the onion, garlic and ginger until soft and fragrant.", "minutes": 3 },
+      { "text": "Add the snails, lemongrass, fish sauce and coconut milk. Bring to a boil, then simmer uncovered, stirring now and then, until the sauce has reduced by about a third.", "minutes": 25 },
+      { "text": "Add the coconut cream and all the chilies and simmer until the sauce is thick.", "minutes": 8 },
+      { "text": "Add the kangkong stems, then the leaves a minute later, and cook just until wilted. Taste, adjust the fish sauce and serve with rice.", "minutes": 2 }
+    ],
+    "tips": "If the snails came straight from a rice field, keep them in a basin of clean water overnight so they purge before you cook them. Provide toothpicks for any meat that will not come out."
+  }
+]

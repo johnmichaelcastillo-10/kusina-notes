@@ -1,0 +1,733 @@
+[
+  {
+    "slug": "maja-blanca",
+    "title": "Maja blanca",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["coconut milk", "corn", "condensed milk", "evaporated milk"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "A soft, creamy coconut milk pudding studded with sweet corn kernels and topped with toasted coconut. It is mild, milky and just sweet enough, cut into squares for parties and fiestas.",
+    "groups": [
+      {
+        "title": "For the pudding",
+        "items": [
+          { "qty": 800, "max": null, "unit": "ml", "name": "coconut milk", "note": "2 cans" },
+          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
+          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "can whole kernel corn", "note": "about 400 g, drained" }
+        ]
+      },
+      {
+        "title": "For the topping",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "desiccated coconut", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toast the desiccated coconut in a dry pan over low heat, stirring, until golden. Set aside.", "minutes": 5 },
+      { "text": "Grease a 9-inch square pan. Whisk the cornstarch into 1 cup of the coconut milk until smooth.", "minutes": null },
+      { "text": "In a pot, combine the rest of the coconut milk, the condensed milk, evaporated milk, sugar and corn. Bring to a gentle simmer over medium heat, stirring.", "minutes": 5 },
+      { "text": "Stir the cornstarch mixture again and pour it in while stirring. Cook over low heat, <strong>stirring constantly</strong>, until very thick and glossy, like a heavy paste.", "minutes": 10 },
+      { "text": "Pour into the pan and smooth the top. Let it cool and set at room temperature.", "minutes": 45 },
+      { "text": "Sprinkle with the toasted coconut and cut into squares.", "minutes": null }
+    ],
+    "tips": "For the classic topping, simmer a can of coconut cream until it separates into golden curds (latik) and use those instead of toasted coconut. Maja keeps 3 days in the fridge, covered."
+  },
+  {
+    "slug": "ube-maja-blanca",
+    "title": "Ube maja blanca",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["ube", "coconut milk", "condensed milk"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Maja blanca made purple with ube halaya, without the corn. It is smooth, creamy and coconutty with a sweet yam flavor, topped with grated cheese or toasted coconut.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 800, "max": null, "unit": "ml", "name": "coconut milk", "note": "2 cans" },
+          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "ube halaya", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "cornstarch", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ube flavoring", "note": "optional" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "or toasted desiccated coconut, for topping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Grease a 9-inch square pan. Whisk the cornstarch into 1 cup of the coconut milk until smooth.", "minutes": null },
+      { "text": "Blend or whisk the ube halaya with the rest of the coconut milk until smooth, then pour into a pot with the condensed milk and flavoring.", "minutes": null },
+      { "text": "Bring to a gentle simmer over medium heat, stirring.", "minutes": 5 },
+      { "text": "Stir in the cornstarch mixture and cook over low heat, stirring constantly, until very thick and glossy.", "minutes": 10 },
+      { "text": "Pour into the pan, smooth the top and let it cool and set at room temperature.", "minutes": 45 },
+      { "text": "Top with grated cheese or toasted coconut and cut into squares.", "minutes": null }
+    ],
+    "tips": "Scrape the bottom of the pot often while it thickens; ube scorches faster than plain coconut milk. Keeps 3 days in the fridge."
+  },
+  {
+    "slug": "buko-pandan-gulaman",
+    "title": "Buko pandan gulaman",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["pandan", "young coconut", "coconut milk", "condensed milk"],
+    "prep": 15,
+    "cook": 25,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "A two-layer jelly: green pandan gulaman with strips of young coconut, under a creamy white coconut milk layer. It is cool, fragrant and lightly sweet, cut into neat squares.",
+    "groups": [
+      {
+        "title": "For the pandan layer",
+        "items": [
+          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 6, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "buko pandan flavoring", "note": "optional" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "young coconut strips", "note": "" }
+        ]
+      },
+      {
+        "title": "For the coconut layer",
+        "items": [
+          { "qty": 400, "max": null, "unit": "ml", "name": "coconut milk", "note": "1 can" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Boil the water with the pandan leaves to flavor it, then remove the leaves.", "minutes": 10 },
+      { "text": "Mix the sugar and gulaman powder, whisk into the pandan water and boil, stirring, until dissolved. Stir in the flavoring.", "minutes": 3 },
+      { "text": "Scatter the coconut strips in an 8-inch square pan, pour in the pandan gulaman and let it set until the surface is firm.", "minutes": 20 },
+      { "text": "Whisk the coconut milk, water, condensed milk and gulaman powder in a pan and bring to a gentle boil, stirring, until dissolved.", "minutes": 3 },
+      { "text": "Let the coconut mixture cool a little, then scratch the top of the green layer lightly with a fork and ladle the white layer gently over it.", "minutes": 5 },
+      { "text": "Let it set at room temperature, then chill for at least 1 hour and cut into squares.", "minutes": null }
+    ],
+    "tips": "Pour the second layer while the first is set but still slightly warm, so the two layers stick together and do not slide apart when sliced."
+  },
+  {
+    "slug": "coffee-jelly",
+    "title": "Coffee jelly",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["coffee", "cream", "condensed milk"],
+    "prep": 10,
+    "cook": 10,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Firm cubes of coffee gulaman folded into sweet cream and condensed milk. It tastes like a cold, creamy coffee you eat with a spoon, slightly bitter and very refreshing.",
+    "groups": [
+      {
+        "title": "For the coffee jelly",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "instant coffee granules", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "" }
+        ]
+      },
+      {
+        "title": "For the cream",
+        "items": [
+          { "qty": 250, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "chilled" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "chilled" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the water, coffee, sugar and gulaman powder in a pot while still cold.", "minutes": null },
+      { "text": "Bring to a boil over medium heat, stirring, and boil until the gulaman is fully dissolved.", "minutes": 3 },
+      { "text": "Pour into a square pan and let it set at room temperature until firm.", "minutes": 30 },
+      { "text": "Cut the jelly into small cubes.", "minutes": null },
+      { "text": "Stir the cream and condensed milk together and fold in the coffee cubes.", "minutes": null },
+      { "text": "Chill for at least 1 hour and serve cold in cups or glasses.", "minutes": null }
+    ],
+    "tips": "The jelly cubes keep 4 days in the fridge on their own; mix with the cream on the day you serve. Add cooked sago or a scoop of vanilla ice cream for a heavier dessert."
+  },
+  {
+    "slug": "almond-jelly",
+    "title": "Almond jelly",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["evaporated milk"],
+    "prep": 10,
+    "cook": 15,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Milky gulaman flavored with almond extract, cut into cubes and served with chilled fruit cocktail and its syrup. It is cool, delicate and sweet, with a light marzipan aroma.",
+    "groups": [
+      {
+        "title": "For the jelly",
+        "items": [
+          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "almond extract", "note": "" }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large can fruit cocktail", "note": "836 g, with syrup, chilled" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "canned lychees", "note": "optional, halved" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Whisk the gulaman powder and sugar into the cold water in a pot.", "minutes": null },
+      { "text": "Bring to a boil over medium heat, stirring, until the gulaman dissolves.", "minutes": 3 },
+      { "text": "Pour in the evaporated milk and heat until steaming, without letting it boil hard. Take it off the heat and stir in the almond extract.", "minutes": 2 },
+      { "text": "Pour into a square pan and let it set at room temperature until firm.", "minutes": 30 },
+      { "text": "Chill, then cut into cubes or diamonds.", "minutes": null },
+      { "text": "Serve the jelly in bowls with the fruit cocktail, lychees and plenty of the cold syrup.", "minutes": null }
+    ],
+    "tips": "Almond extract is strong, and brands vary: add 1 teaspoon first, taste the warm mix, then add more. A splash of cold milk in each bowl makes it creamier."
+  },
+  {
+    "slug": "fruit-cocktail-gulaman",
+    "title": "Fruit cocktail gulaman",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["evaporated milk", "condensed milk"],
+    "prep": 15,
+    "cook": 20,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A creamy molded gulaman with fruit cocktail set inside, turned out of a llanera or ring mold for parties. It is milky, sweet and full of little bites of fruit.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "large can fruit cocktail", "note": "836 g, drained, syrup kept" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "fruit cocktail syrup", "note": "from the can" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Spread the drained fruit cocktail in a 6-cup ring mold or 2 llaneras.", "minutes": null },
+      { "text": "Whisk the water, syrup, sugar and gulaman powder in a pot and boil, stirring, until dissolved.", "minutes": 3 },
+      { "text": "Lower the heat, stir in the evaporated and condensed milk and heat until steaming, without boiling hard.", "minutes": 2 },
+      { "text": "Ladle about 1 cup over the fruit and let it set so the fruit stays at the bottom. Keep the rest on the lowest heat so it stays liquid.", "minutes": 10 },
+      { "text": "Pour in the rest of the mixture and let it set at room temperature, then chill for at least 1 hour.", "minutes": 30 },
+      { "text": "Loosen the edges with a thin knife, dip the mold in warm water for a few seconds and invert onto a plate.", "minutes": null }
+    ],
+    "tips": "The fruit side ends up on top once unmolded, so arrange a few cherries from the can in a pattern on the bottom of the mold first."
+  },
+  {
+    "slug": "cathedral-window",
+    "title": "Cathedral window",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["condensed milk", "evaporated milk"],
+    "prep": 20,
+    "cook": 25,
+    "servings": 12,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Cubes of red, green and yellow gulaman set in a sweet, milky jelly, so every slice looks like stained glass. It is creamy, fruity and a regular at Christmas and birthday tables.",
+    "groups": [
+      {
+        "title": "For the colored cubes",
+        "items": [
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "2 cups per color" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "0.25 cup per color" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "2 tsp per color" },
+          { "qty": null, "max": null, "unit": "", "name": "red, green and yellow food coloring", "note": "a few drops each" },
+          { "qty": null, "max": null, "unit": "", "name": "strawberry, buko pandan and lemon flavoring", "note": "optional, a few drops each" }
+        ]
+      },
+      {
+        "title": "For the milk jelly",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tbsp", "name": "unflavored gulaman powder (agar)", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "can evaporated milk", "note": "370 ml" },
+          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "For each color, whisk 2 cups water, 0.25 cup sugar and 2 teaspoons gulaman powder in a pan and boil, stirring, until dissolved. Tint and flavor it, then pour into its own small container.", "minutes": 3 },
+      { "text": "Let the colored gulaman set until firm.", "minutes": 30 },
+      { "text": "Cut each color into 1.5-cm cubes and scatter them, mixed, in a loaf pan or 2 llaneras.", "minutes": null },
+      { "text": "For the milk jelly, whisk the water and gulaman powder in a pan and boil, stirring, until dissolved.", "minutes": 3 },
+      { "text": "Stir in the evaporated and condensed milk and heat until steaming. Let it cool a little until just warm.", "minutes": 5 },
+      { "text": "Pour the milk over the cubes to cover them. Let it set at room temperature, then chill for at least 2 hours before slicing.", "minutes": null }
+    ],
+    "tips": "Flavored gulaman packs in red, green and yellow work too; cook each with the water and sugar on the package. Slice with a wet knife for clean windows."
+  },
+  {
+    "slug": "fruit-salad",
+    "title": "Fruit salad",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["cream", "condensed milk", "cheese"],
+    "prep": 20,
+    "cook": 0,
+    "servings": 10,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Fruit cocktail, nata de coco, kaong and little cubes of cheese folded into sweet cream and condensed milk, served ice cold. It is creamy, sweet and the dessert of nearly every Noche Buena.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 2, "max": null, "unit": "", "name": "large cans fruit cocktail", "note": "836 g each" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "nata de coco", "note": "drained" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "kaong", "note": "drained" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "processed cheddar cheese", "note": "cut into small cubes" },
+          { "qty": 1, "max": null, "unit": "", "name": "red apple", "note": "cubed, optional" },
+          { "qty": 500, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "chilled" },
+          { "qty": 1, "max": null, "unit": "", "name": "can condensed milk", "note": "390 g, chilled" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Drain the fruit cocktail in a colander so the salad does not turn watery. Keep the syrup for gulaman or drinks.", "minutes": 30 },
+      { "text": "Stir the cream and condensed milk together in a large bowl until smooth.", "minutes": null },
+      { "text": "Fold in the fruit cocktail, nata de coco, kaong, cheese and apple.", "minutes": null },
+      { "text": "Cover and chill for at least 2 hours, until very cold, before serving.", "minutes": null }
+    ],
+    "tips": "Add the apple just before chilling so it stays crisp. Fruit salad keeps 2 days in the fridge; stir before serving."
+  },
+  {
+    "slug": "buko-salad",
+    "title": "Buko salad",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["young coconut", "cream", "condensed milk"],
+    "prep": 30,
+    "cook": 0,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "A creamy salad built around soft strips of young coconut, with a little fruit cocktail, nata de coco and macapuno. It is cool, sweet and tastes mostly of fresh buko.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 4, "max": null, "unit": "cup", "name": "young coconut strips", "note": "from 4 to 5 buko" },
+          { "qty": 1, "max": null, "unit": "", "name": "small can fruit cocktail", "note": "432 g, drained" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "nata de coco", "note": "drained" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "macapuno strings", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cooked small sago", "note": "optional" },
+          { "qty": 250, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "chilled" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "condensed milk", "note": "chilled" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Open the coconuts and pour out the juice (drink it or chill it for later). Scrape out the soft flesh with a spoon in long strips.", "minutes": null },
+      { "text": "Drain the fruit cocktail, nata de coco and macapuno well.", "minutes": null },
+      { "text": "Stir the cream and condensed milk together in a large bowl.", "minutes": null },
+      { "text": "Fold in the coconut strips, fruit cocktail, nata de coco, macapuno and sago.", "minutes": null },
+      { "text": "Cover and chill for at least 2 hours before serving.", "minutes": null }
+    ],
+    "tips": "Frozen shredded buko works when fresh coconuts are hard to find; thaw and drain it first. Eat within 2 days."
+  },
+  {
+    "slug": "buko-lychee",
+    "title": "Buko lychee",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["young coconut", "cream", "condensed milk"],
+    "prep": 20,
+    "cook": 0,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Young coconut strips and juicy canned lychees in sweet cream, served very cold. It is light, floral and creamy.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 3, "max": null, "unit": "cup", "name": "young coconut strips", "note": "from 3 buko" },
+          { "qty": 1, "max": null, "unit": "", "name": "can lychees in syrup", "note": "565 g, drained, 2 tbsp syrup kept" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "nata de coco", "note": "drained" },
+          { "qty": 250, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "chilled" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "chilled" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cut the lychees in half and make sure no pits or bits of shell are left.", "minutes": null },
+      { "text": "Stir the cream, condensed milk and the 2 tablespoons of lychee syrup together in a bowl.", "minutes": null },
+      { "text": "Fold in the coconut strips, lychees and nata de coco.", "minutes": null },
+      { "text": "Cover and chill for at least 1 hour before serving in cups.", "minutes": null }
+    ],
+    "tips": "Add cubes of plain or pandan gulaman for a party-size batch. Keeps 2 days in the fridge."
+  },
+  {
+    "slug": "mango-sago",
+    "title": "Mango sago",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["mango", "sago", "cream", "condensed milk", "milk"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chewy sago pearls and cubes of ripe mango in a cold, creamy mango milk. It is fruity, sweet and best eaten from cups straight out of the fridge.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "for boiling the sago" },
+          { "qty": 3, "max": null, "unit": "", "name": "ripe mangoes", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "fresh milk", "note": "cold" },
+          { "qty": 250, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "chilled" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "condensed milk", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the water to a rolling boil, add the sago and boil, stirring now and then so it does not stick.", "minutes": 15 },
+      { "text": "Turn off the heat, cover and let the sago sit until the pearls are clear with no white center.", "minutes": 10 },
+      { "text": "Drain and rinse under cold water, then keep the sago in a bowl of cold water.", "minutes": null },
+      { "text": "Dice 2 mangoes. Blend the third mango with the milk until smooth.", "minutes": null },
+      { "text": "Stir the mango milk, cream and condensed milk together. Drain the sago and fold it in with the diced mango.", "minutes": null },
+      { "text": "Chill for at least 1 hour and serve cold.", "minutes": null }
+    ],
+    "tips": "Sweet, fragrant carabao mangoes make the best mango sago. The sago firms up in the fridge, so add a splash of milk before serving leftovers the next day."
+  },
+  {
+    "slug": "ginataang-bilo-bilo",
+    "title": "Ginataang bilo-bilo",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["glutinous rice", "coconut milk", "saba banana", "sweet potato", "jackfruit (ripe)", "sago"],
+    "prep": 25,
+    "cook": 30,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Chewy glutinous rice balls simmered in sweet coconut milk with saba, kamote, ripe jackfruit and sago. It is thick, creamy and comforting, eaten warm on a rainy afternoon or cold from the fridge.",
+    "groups": [
+      {
+        "title": "For the bilo-bilo",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "glutinous rice flour", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "plus a little more as needed" }
+        ]
+      },
+      {
+        "title": "For the ginataan",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
+          { "qty": 800, "max": null, "unit": "ml", "name": "coconut milk", "note": "2 cans, used separately" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "medium kamote (sweet potatoes)", "note": "peeled, cut into 2-cm cubes" },
+          { "qty": 4, "max": null, "unit": "", "name": "ripe saba bananas", "note": "sliced 2 cm thick" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "ripe jackfruit", "note": "cut into strips" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "white sugar", "note": "or brown sugar" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Boil the sago in plenty of water, stirring now and then, until the pearls are clear with only a tiny white dot. Drain and rinse.", "minutes": 20 },
+      { "text": "Meanwhile, mix the rice flour with the water, adding a little more water if needed, and knead into a smooth dough like soft clay. Roll into 1.5-cm balls.", "minutes": null },
+      { "text": "In a large pot, bring 1 can of coconut milk, the 3 cups water and the kamote to a simmer over medium heat, stirring often.", "minutes": 8 },
+      { "text": "Add the saba and simmer until both are almost tender.", "minutes": 5 },
+      { "text": "Drop in the bilo-bilo one by one and cook, stirring gently, until they float, then 2 minutes more.", "minutes": 5 },
+      { "text": "Add the sugar, salt, jackfruit, sago and the second can of coconut milk. Simmer gently, stirring, until slightly thick.", "minutes": 5 },
+      { "text": "Serve warm, or chill and serve cold.", "minutes": null }
+    ],
+    "tips": "Stir gently and keep the heat at a simmer once the coconut milk is in, or it curdles and turns oily. The ginataan thickens a lot as it cools; loosen leftovers with a splash of water."
+  },
+  {
+    "slug": "ginataang-mais",
+    "title": "Ginataang mais",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["corn", "glutinous rice", "coconut milk"],
+    "prep": 10,
+    "cook": 30,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Sweet sticky rice porridge cooked with corn kernels and coconut milk. It is thick, creamy and lightly sweet, with pops of corn in every spoonful.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "glutinous rice (malagkit)", "note": "rinsed" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "corn kernels", "note": "from 3 ears of sweet corn, or canned and drained" },
+          { "qty": 400, "max": null, "unit": "ml", "name": "coconut milk", "note": "1 can" },
+          { "qty": 0.5, "max": 0.75, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the water to a boil in a pot and add the rice. Simmer over low heat, stirring often so it does not stick, until the rice is soft and the mixture looks like porridge.", "minutes": 20 },
+      { "text": "Add the corn and simmer, stirring.", "minutes": 5 },
+      { "text": "Pour in most of the coconut milk, keeping a few tablespoons for serving, and add the sugar and salt. Simmer gently, stirring, until creamy.", "minutes": 5 },
+      { "text": "Taste for sweetness and serve warm with a drizzle of the reserved coconut milk.", "minutes": null }
+    ],
+    "tips": "Fresh sweet corn gives the best flavor; scrape the cobs with the back of a knife to add the corn milk too. Thin leftovers with water as you reheat them."
+  },
+  {
+    "slug": "ginataang-monggo",
+    "title": "Ginataang monggo",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["mung beans", "glutinous rice", "coconut milk", "brown sugar"],
+    "prep": 10,
+    "cook": 60,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Toasted mung beans and sticky rice simmered into a sweet coconut porridge. Toasting the beans first gives it a nutty, almost roasted flavor.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "dried mung beans", "note": "rinsed and dried" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "glutinous rice (malagkit)", "note": "rinsed" },
+          { "qty": 6, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 400, "max": null, "unit": "ml", "name": "coconut milk", "note": "1 can" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Toast the mung beans in a dry pan over medium heat, stirring, until golden brown and fragrant.", "minutes": 8 },
+      { "text": "Let them cool a little, then crack them lightly with a rolling pin so the husks loosen. Blow or pick off loose husks if you like.", "minutes": null },
+      { "text": "Bring the water to a boil, add the beans and simmer until soft and split.", "minutes": 25 },
+      { "text": "Add the rice and simmer, stirring often, until the rice is soft and the porridge is thick.", "minutes": 20 },
+      { "text": "Stir in the coconut milk, sugar and salt and simmer gently, stirring.", "minutes": 5 },
+      { "text": "Taste for sweetness and serve warm in bowls.", "minutes": null }
+    ],
+    "tips": "Add hot water a little at a time if it gets too thick before the rice is done. It sets firm in the fridge; reheat with a splash of water."
+  },
+  {
+    "slug": "binignit",
+    "title": "Binignit",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["coconut milk", "taro", "ube", "sweet potato", "saba banana", "jackfruit (ripe)"],
+    "prep": 25,
+    "cook": 40,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A thick, sweet coconut stew of gabi, ube, kamote, saba, ripe jackfruit and a little sticky rice, eaten warm or cold. It is creamy, filling and often made during Holy Week.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
+          { "qty": 800, "max": null, "unit": "ml", "name": "coconut milk", "note": "2 cans, used separately" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "glutinous rice (malagkit)", "note": "rinsed" },
+          { "qty": 250, "max": null, "unit": "g", "name": "gabi (taro)", "note": "peeled, cut into 2-cm cubes" },
+          { "qty": 250, "max": null, "unit": "g", "name": "ube (purple yam)", "note": "peeled, cut into 2-cm cubes" },
+          { "qty": 300, "max": null, "unit": "g", "name": "kamote (sweet potato)", "note": "peeled, cut into 2-cm cubes" },
+          { "qty": 4, "max": null, "unit": "", "name": "ripe saba bananas", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "ripe jackfruit", "note": "cut into strips" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "brown sugar", "note": "or white sugar" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Boil the sago in plenty of water, stirring now and then, until the pearls are clear. Drain and rinse.", "minutes": 20 },
+      { "text": "In a large pot, bring 1 can of coconut milk, the water and the glutinous rice to a simmer, stirring often so the rice does not stick.", "minutes": 10 },
+      { "text": "Add the gabi, ube and kamote and simmer, stirring gently, until almost tender.", "minutes": 10 },
+      { "text": "Add the saba and simmer until soft.", "minutes": 5 },
+      { "text": "Stir in the jackfruit, sago, sugar, salt and the second can of coconut milk. Simmer gently until thick and creamy, without boiling hard.", "minutes": 5 },
+      { "text": "Serve warm, or chill and serve cold.", "minutes": null }
+    ],
+    "tips": "Gabi can make your hands itchy: wear gloves or oil your hands when peeling it. Binignit thickens as it sits, so loosen it with a little water or coconut milk."
+  },
+  {
+    "slug": "ginataang-saging",
+    "title": "Ginataang saging",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["saba banana", "coconut milk", "brown sugar", "pandan"],
+    "prep": 10,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Ripe saba bananas simmered in coconut milk with brown sugar and pandan. It is soft, creamy and sweet, a quick warm dessert or merienda.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 6, "max": null, "unit": "", "name": "ripe saba bananas", "note": "peeled, sliced diagonally 2 cm thick" },
+          { "qty": 400, "max": null, "unit": "ml", "name": "coconut milk", "note": "1 can" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted, optional" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "cooked small sago", "note": "optional" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Combine the coconut milk, water, sugar, pandan and salt in a pot and bring to a gentle simmer, stirring until the sugar dissolves.", "minutes": 5 },
+      { "text": "Add the saba and simmer over low heat until tender but still holding their shape.", "minutes": 10 },
+      { "text": "Stir in the sago and remove the pandan leaves.", "minutes": null },
+      { "text": "Serve warm in bowls.", "minutes": null }
+    ],
+    "tips": "Use saba that are yellow with some black spots: green ones stay starchy and very ripe ones fall apart."
+  },
+  {
+    "slug": "taho",
+    "title": "Taho",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["tofu", "brown sugar", "sago"],
+    "prep": 5,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "cups",
+    "difficulty": "easy",
+    "intro": "Warm, soft silken tofu with dark brown sugar syrup (arnibal) and chewy sago pearls. This home version uses store-bought silken tofu, so the only cooking is the syrup and the sago.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 600, "max": null, "unit": "g", "name": "soft silken tofu", "note": "store-bought" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "small sago pearls", "note": "uncooked" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "dark brown sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "pandan leaf", "note": "knotted, optional" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Boil the sago in about 6 cups water, stirring now and then, then turn off the heat, cover and let it sit until the pearls are clear. Drain and rinse.", "minutes": 25 },
+      { "text": "Simmer the brown sugar, water and pandan in a small saucepan until it turns into a light, glossy syrup. Remove the pandan, add the vanilla and stir in the sago.", "minutes": 7 },
+      { "text": "Set the tofu, still in one block, in a heatproof bowl and steam it until hot all the way through. Pour off the water that collects.", "minutes": 10 },
+      { "text": "Scoop thin layers of tofu with a wide, flat spoon into cups.", "minutes": null },
+      { "text": "Spoon plenty of arnibal and sago over each cup and serve warm.", "minutes": null }
+    ],
+    "tips": "Look for the softest silken tofu you can find; firm tofu will not give the right texture. Leftover arnibal keeps a week in the fridge."
+  },
+  {
+    "slug": "minatamis-na-saging",
+    "title": "Minatamis na saging",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["saba banana", "brown sugar", "pandan"],
+    "prep": 10,
+    "cook": 30,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Saba bananas simmered in brown sugar syrup until deep amber and tender. They taste like caramel and banana, eaten as is, with shaved ice and milk, or spooned into halo-halo.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 8, "max": null, "unit": "", "name": "ripe saba bananas", "note": "peeled, halved crosswise" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "dark brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted, optional" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "vanilla extract", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the water, sugar and pandan to a boil in a wide pan, stirring until the sugar dissolves.", "minutes": 3 },
+      { "text": "Add the saba in one layer and simmer uncovered over low heat, turning them once, until they turn deep amber and tender and the syrup thickens.", "minutes": 25 },
+      { "text": "Remove the pandan and stir in the vanilla.", "minutes": null },
+      { "text": "Serve warm, or let them cool in the syrup and chill.", "minutes": null }
+    ],
+    "tips": "Keeps 1 week in the fridge in its syrup. For halo-halo, dice the bananas once they are cold."
+  },
+  {
+    "slug": "minatamis-na-kamote",
+    "title": "Minatamis na kamote",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["sweet potato", "brown sugar", "pandan"],
+    "prep": 15,
+    "cook": 30,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chunks of kamote cooked in a dark brown sugar and pandan syrup until glossy and tender. They are sweet, soft and caramel-like, good warm or cold.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "kamote (sweet potatoes)", "note": "peeled, cut into 3-cm chunks" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "dark brown sugar", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "pandan leaves", "note": "knotted" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Bring the water, sugar, pandan and salt to a boil in a wide pot, stirring until the sugar dissolves.", "minutes": 3 },
+      { "text": "Add the kamote and simmer uncovered over low heat, turning the pieces gently now and then, until tender and glossy and the syrup has thickened.", "minutes": 25 },
+      { "text": "Remove the pandan and let the kamote cool in the syrup.", "minutes": null },
+      { "text": "Serve warm, at room temperature or chilled, with some of the syrup.", "minutes": null }
+    ],
+    "tips": "Firm yellow or orange kamote hold their shape best. Do not stir hard once they soften, or they break up. Keeps 4 days in the fridge."
+  },
+  {
+    "slug": "minatamis-na-langka",
+    "title": "Minatamis na langka",
+    "course": "panghimagas",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["jackfruit (ripe)"],
+    "prep": 20,
+    "cook": 35,
+    "servings": 3,
+    "yield_label": "cups",
+    "difficulty": "easy",
+    "intro": "Strips of ripe jackfruit cooked in sugar syrup until translucent and chewy. They taste intensely fruity and sweet, for halo-halo, ginataan, turon or eating straight from the jar.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "ripe jackfruit pods", "note": "seeded" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "white sugar", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Remove the seeds and any stringy bits from the jackfruit pods and cut them into 1-cm strips.", "minutes": null },
+      { "text": "Boil the sugar and water in a pot until the sugar dissolves.", "minutes": 3 },
+      { "text": "Add the jackfruit and simmer uncovered over low heat, stirring now and then, until it turns translucent and the syrup is thick.", "minutes": 30 },
+      { "text": "Let it cool, then spoon into clean jars with the syrup and refrigerate.", "minutes": null }
+    ],
+    "tips": "Oil your knife and hands before handling fresh jackfruit; the sap is very sticky. Keeps 2 weeks in the fridge."
+  }
+]

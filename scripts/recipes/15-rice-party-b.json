@@ -1,0 +1,1267 @@
+[
+  {
+    "slug": "pork-siomai",
+    "title": "Pork siomai",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["ground pork", "shrimp", "carrot", "onion", "soy sauce", "calamansi"],
+    "prep": 40,
+    "cook": 20,
+    "servings": 30,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Steamed open-top dumplings packed with ground pork, a little shrimp, carrots and jicama, served with soy sauce, calamansi and chili garlic oil. They are juicy, savory and easy to make in big batches.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ground pork", "note": "not too lean" },
+          { "qty": 150, "max": null, "unit": "g", "name": "shrimp", "note": "peeled and chopped" },
+          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "finely minced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "jicama (singkamas)", "note": "finely minced and squeezed dry" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 3, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 30, "max": null, "unit": "", "name": "siomai or wonton wrappers", "note": "round or square" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 6, "max": null, "unit": "", "name": "calamansi", "note": "halved" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "chili garlic oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix all the filling ingredients in a bowl, stirring hard in one direction until the mixture turns sticky and pasty.", "minutes": null },
+      { "text": "Steam or microwave a teaspoon of filling, taste it and adjust the seasoning.", "minutes": null },
+      { "text": "Hold a wrapper in the loose circle of your thumb and index finger. Drop in a heaping tablespoon of filling and squeeze gently to form a cup, open at the top. Smooth the top flat with a wet knife and tap the bottom on the counter so it stands.", "minutes": null },
+      { "text": "Arrange the siomai 2 cm apart in an oiled steamer basket, or one lined with cabbage leaves or parchment.", "minutes": null },
+      { "text": "Steam over boiling water, covered, until the filling is firm and cooked through.", "minutes": 15 },
+      { "text": "Serve hot with soy sauce, calamansi and chili garlic oil, mixed to taste in small saucers.", "minutes": null }
+    ],
+    "tips": "Freeze uncooked siomai on a tray, then bag them. Steam straight from frozen for about 20 minutes."
+  },
+  {
+    "slug": "shrimp-siomai",
+    "title": "Shrimp siomai",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["shrimp", "ground pork", "carrot", "soy sauce"],
+    "prep": 40,
+    "cook": 15,
+    "servings": 24,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Siomai with more shrimp than pork, so the filling is bouncy, sweet and pink, crowned with a little grated carrot. Serve with soy sauce, calamansi and chili garlic oil.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "shrimp", "note": "peeled and deveined" },
+          { "qty": 200, "max": null, "unit": "g", "name": "ground pork", "note": "fatty" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "water chestnuts or jicama", "note": "finely minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg white", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground white pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 24, "max": null, "unit": "", "name": "siomai or wonton wrappers", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "carrot", "note": "finely grated, for topping" },
+          { "qty": null, "max": null, "unit": "", "name": "soy sauce, calamansi and chili garlic oil", "note": "for dipping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mince half the shrimp into a paste. Cut the other half into 1 cm pieces.", "minutes": null },
+      { "text": "Combine both shrimp with the pork and the rest of the filling ingredients. Stir hard in one direction until the mixture is sticky.", "minutes": null },
+      { "text": "Cover and chill the filling. Cold filling is much easier to shape.", "minutes": 20 },
+      { "text": "Cup a wrapper in your hand, add a heaping tablespoon of filling and squeeze into an open-top cylinder. Flatten the top and dot it with grated carrot.", "minutes": null },
+      { "text": "Set the siomai in an oiled steamer basket and steam over high heat, covered, until the shrimp turns pink and the filling is firm.", "minutes": 10 },
+      { "text": "Serve hot with the dipping sauces.", "minutes": null }
+    ],
+    "tips": "Pat the shrimp very dry with paper towels before mincing, or the filling turns watery and the wrappers go soft."
+  },
+  {
+    "slug": "chicken-siomai",
+    "title": "Chicken siomai",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["chicken", "mushrooms", "carrot", "onion", "soy sauce"],
+    "prep": 35,
+    "cook": 15,
+    "servings": 30,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "A lighter siomai made with ground chicken, shiitake mushrooms and carrots, steamed until tender and juicy. Serve with soy-calamansi dip and chili garlic oil.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ground chicken", "note": "thigh meat is juicier" },
+          { "qty": 4, "max": null, "unit": "", "name": "dried shiitake mushrooms", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 30, "max": null, "unit": "", "name": "siomai or wonton wrappers", "note": "" },
+          { "qty": null, "max": null, "unit": "", "name": "soy sauce, calamansi and chili garlic oil", "note": "for dipping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Soak the shiitake in hot water until soft. Squeeze them dry, discard the stems and mince the caps.", "minutes": 20 },
+      { "text": "Mix the chicken, mushrooms, carrot, onion, green onions, egg, soy sauce, oyster sauce, sesame oil, salt, pepper and cornstarch until sticky.", "minutes": null },
+      { "text": "Cup a wrapper in your hand, add a heaping tablespoon of filling and squeeze into an open-top cylinder. Smooth the top and tap the base flat.", "minutes": null },
+      { "text": "Arrange in an oiled steamer basket and steam over boiling water, covered, until cooked through.", "minutes": 12 },
+      { "text": "Serve hot with soy sauce, calamansi and chili garlic oil.", "minutes": null }
+    ],
+    "tips": "Ground chicken breast alone makes a dry siomai. Use thighs, or mix in a little ground pork."
+  },
+  {
+    "slug": "beef-siomai",
+    "title": "Beef siomai",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["ground beef", "onion", "carrot", "soy sauce", "garlic"],
+    "prep": 35,
+    "cook": 15,
+    "servings": 30,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Steamed siomai made with ground beef, onion and carrots, seasoned with soy sauce and sesame oil. The filling is meaty and savory, best with soy-calamansi dip and chili garlic oil.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ground beef", "note": "with some fat, about 80/20" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 3, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "small carrot", "note": "finely minced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "jicama (singkamas)", "note": "finely minced and squeezed dry" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cold water", "note": "" },
+          { "qty": 30, "max": null, "unit": "", "name": "siomai or wonton wrappers", "note": "" },
+          { "qty": null, "max": null, "unit": "", "name": "soy sauce, calamansi and chili garlic oil", "note": "for dipping" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the beef with all the other filling ingredients, adding the cold water a little at a time and stirring in one direction until the mixture is sticky and holds together.", "minutes": null },
+      { "text": "Cook a teaspoon of the filling, taste and adjust the seasoning.", "minutes": null },
+      { "text": "Cup a wrapper in your hand, add a heaping tablespoon of filling and squeeze into an open-top cylinder. Smooth the top and tap the base flat.", "minutes": null },
+      { "text": "Arrange in an oiled steamer basket and steam over boiling water, covered, until firm and cooked through.", "minutes": 12 },
+      { "text": "Serve hot with soy sauce, calamansi and chili garlic oil.", "minutes": null }
+    ],
+    "tips": "The cold water keeps lean beef juicy. Stir it in well so the filling absorbs it."
+  },
+  {
+    "slug": "fried-wonton",
+    "title": "Fried wonton",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["ground pork", "shrimp", "garlic", "soy sauce"],
+    "prep": 40,
+    "cook": 20,
+    "servings": 40,
+    "yield_label": "pieces",
+    "difficulty": "easy",
+    "intro": "Small pork and shrimp dumplings folded in wonton wrappers and deep-fried until crackly and golden. Serve them with sweet and sour sauce as party finger food.",
+    "groups": [
+      {
+        "title": "For the wontons",
+        "items": [
+          { "qty": 300, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 150, "max": null, "unit": "g", "name": "shrimp", "note": "peeled and minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "green onions", "note": "finely sliced" },
+          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "egg", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground white pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 40, "max": null, "unit": "", "name": "square wonton wrappers", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "cooking oil", "note": "for frying" }
+        ]
+      },
+      {
+        "title": "For the sweet and sour sauce",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cane vinegar", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 2 tbsp water" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the pork, shrimp, green onions, garlic, egg, soy sauce, sesame oil, salt, pepper and cornstarch until sticky.", "minutes": null },
+      { "text": "Place a level teaspoon of filling in the center of a wrapper. Wet the edges, fold into a triangle and press out the air. Bring the two side corners together, dab with water and pinch to seal. Repeat.", "minutes": null },
+      { "text": "For the sauce, bring the water, ketchup, vinegar, sugar and salt to a simmer. Stir in the cornstarch mixture and cook until thick and glossy.", "minutes": 2 },
+      { "text": "Heat the oil to 170°C (340°F) and fry the wontons in batches, turning, until golden and the filling is cooked through.", "minutes": 3 },
+      { "text": "Drain on a rack and serve hot with the sweet and sour sauce.", "minutes": null }
+    ],
+    "tips": "Keep the filling small. Overfilled wontons burst in the oil and the wrapper browns before the center cooks."
+  },
+  {
+    "slug": "siopao-asado",
+    "title": "Siopao asado",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["flour", "pork", "soy sauce", "brown sugar", "salted egg"],
+    "prep": 60,
+    "cook": 65,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Soft, fluffy steamed buns filled with sweet-savory braised pork asado in a thick glossy sauce. A wedge of salted egg tucked inside adds extra richness.",
+    "groups": [
+      {
+        "title": "For the asado filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "pork shoulder (kasim)", "note": "cut into 1 cm cubes" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "star anise", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 3 tbsp water" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "salted eggs", "note": "peeled, each cut into 6 wedges (optional)" }
+        ]
+      },
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "all-purpose flour", "note": "about 4 cups" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "instant yeast", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "baking powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 280, "max": null, "unit": "ml", "name": "warm water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "vegetable shortening or cooking oil", "note": "" },
+          { "qty": 12, "max": null, "unit": "", "name": "parchment squares", "note": "about 8 cm" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "For the filling, heat the oil in a pan over medium heat. Sauté the onion and garlic, then add the pork and brown it lightly.", "minutes": 5 },
+      { "text": "Add the soy sauce, oyster sauce, brown sugar, star anise and water. Bring to a boil, cover and simmer until the pork is tender.", "minutes": 40 },
+      { "text": "Remove the star anise, stir in the cornstarch mixture and cook until the sauce is very thick. Stir in the sesame oil. Cool, then chill until needed.", "minutes": 3 },
+      { "text": "For the dough, mix the flour, sugar, yeast, baking powder and salt. Add the warm water and shortening and knead for about 10 minutes until smooth and elastic.", "minutes": null },
+      { "text": "Cover the dough and let it rise in a warm place until doubled.", "minutes": 60 },
+      { "text": "Punch down the dough and divide it into 12 pieces of about 70 g. Roll each into an 11 cm circle, thinner at the edges than in the middle.", "minutes": null },
+      { "text": "Put 2 heaping tablespoons of cold asado and a wedge of salted egg in the center. Pleat the edges up and around the filling and pinch to close. Set each bun on a parchment square.", "minutes": null },
+      { "text": "Cover the buns and let them rest until slightly puffy.", "minutes": 15 },
+      { "text": "Steam over rapidly boiling water, 5 cm apart, with a towel wrapped around the lid to catch drips.", "minutes": 15 },
+      { "text": "Turn off the heat and wait before lifting the lid, so the buns do not wrinkle.", "minutes": 3 }
+    ],
+    "tips": "Make the asado a day ahead: cold, thick filling is much easier to wrap. Steamed siopao freezes well and reheats in 10 minutes in the steamer."
+  },
+  {
+    "slug": "siopao-bola-bola",
+    "title": "Siopao bola-bola",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["flour", "ground pork", "salted egg", "onion"],
+    "prep": 60,
+    "cook": 25,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Steamed buns with a savory meatball filling of ground pork, Chinese sausage and salted egg that steams inside the dough. The filling is juicy and lightly sweet, the bun soft and fluffy.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 400, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "Chinese sausage (lap cheong)", "note": "finely diced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "onion", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "salted eggs", "note": "peeled, each cut into 6 wedges" }
+        ]
+      },
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "all-purpose flour", "note": "about 4 cups" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "instant yeast", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "baking powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 280, "max": null, "unit": "ml", "name": "warm water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "vegetable shortening or cooking oil", "note": "" },
+          { "qty": 12, "max": null, "unit": "", "name": "parchment squares", "note": "about 8 cm" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "For the dough, mix the flour, sugar, yeast, baking powder and salt. Add the warm water and shortening and knead for about 10 minutes until smooth.", "minutes": null },
+      { "text": "Cover and let the dough rise in a warm place until doubled.", "minutes": 60 },
+      { "text": "Meanwhile, mix all the filling ingredients except the salted eggs until sticky. Shape into 12 balls with wet hands and chill them on a plate.", "minutes": null },
+      { "text": "Punch down the dough and divide it into 12 pieces. Roll each into an 11 cm circle, thinner at the edges.", "minutes": null },
+      { "text": "Place a meatball and a wedge of salted egg in the center of each circle. Pleat the dough up around the filling and pinch to close. Set each bun on a parchment square.", "minutes": null },
+      { "text": "Cover the buns and let them rest until slightly puffy.", "minutes": 15 },
+      { "text": "Steam over rapidly boiling water, with a towel wrapped around the lid, until the meat inside is cooked through.", "minutes": 20 },
+      { "text": "Turn off the heat and wait before lifting the lid so the buns stay smooth.", "minutes": 3 }
+    ],
+    "tips": "The meatball cooks raw inside the bun, so do not cut the steaming time short. A cooked bun feels firm in the middle when pressed."
+  },
+  {
+    "slug": "cuapao",
+    "title": "Cuapao",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pork belly", "flour", "soy sauce", "peanuts", "brown sugar"],
+    "prep": 45,
+    "cook": 90,
+    "servings": 10,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Soft folded steamed buns stuffed with soy-braised pork belly, sweetened crushed peanuts and cilantro. Rich pork, sweet peanuts and fresh herbs balance each other in every bite.",
+    "groups": [
+      {
+        "title": "For the pork",
+        "items": [
+          { "qty": 700, "max": null, "unit": "g", "name": "pork belly slab", "note": "cut into 10 slices about 1 cm thick" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "crushed" },
+          { "qty": 1, "max": null, "unit": "thumb", "name": "ginger", "note": "sliced" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "star anise", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "water", "note": "" }
+        ]
+      },
+      {
+        "title": "For the buns",
+        "items": [
+          { "qty": 400, "max": null, "unit": "g", "name": "all-purpose flour", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "instant yeast", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "baking powder", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 220, "max": null, "unit": "ml", "name": "warm water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "plus more for brushing" }
+        ]
+      },
+      {
+        "title": "To fill",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "roasted peanuts", "note": "finely crushed" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "cilantro leaves", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "pickled mustard greens", "note": "chopped, or thinly sliced cucumber" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a heavy pot over medium heat and sear the pork slices until lightly browned on both sides.", "minutes": 5 },
+      { "text": "Add the garlic, ginger, soy sauce, brown sugar, star anise and water. Bring to a boil, cover and simmer gently until the pork is very tender, turning the slices once or twice.", "minutes": 75 },
+      { "text": "Uncover and simmer until the sauce reduces to a glaze that coats the pork.", "minutes": 10 },
+      { "text": "While the pork braises, mix the flour, sugar, yeast, baking powder and salt. Add the water and oil and knead until smooth and elastic.", "minutes": null },
+      { "text": "Cover the dough and let it rise until doubled.", "minutes": 60 },
+      { "text": "Divide the dough into 10 pieces. Roll each into an oval about 3 mm thick, brush the top lightly with oil and fold it in half without pressing. Set each on a square of parchment.", "minutes": null },
+      { "text": "Cover the buns and let them rest until slightly puffy.", "minutes": 15 },
+      { "text": "Steam over boiling water until puffed and cooked through.", "minutes": 10 },
+      { "text": "Mix the crushed peanuts with the sugar. Open each bun, add a slice of pork with a little glaze, then the mustard greens, a spoonful of peanut sugar and some cilantro. Serve warm.", "minutes": null }
+    ],
+    "tips": "The oil brushed inside keeps the folded buns from sticking, so they open easily. Leftover buns reheat in 5 minutes in the steamer."
+  },
+  {
+    "slug": "chicken-siopao",
+    "title": "Chicken siopao",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["flour", "chicken", "soy sauce", "brown sugar", "quail egg"],
+    "prep": 60,
+    "cook": 45,
+    "servings": 12,
+    "yield_label": "pieces",
+    "difficulty": "involved",
+    "intro": "Fluffy steamed buns filled with diced chicken thigh simmered in sweet soy and oyster sauce until thick and glossy, with a quail egg in the middle. It cooks faster than pork asado and tastes a little lighter.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "boneless chicken thighs", "note": "cut into 1 cm dice" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "oyster sauce", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cornstarch", "note": "mixed with 3 tbsp water" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 12, "max": null, "unit": "", "name": "quail eggs", "note": "boiled and peeled, optional" }
+        ]
+      },
+      {
+        "title": "For the dough",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "all-purpose flour", "note": "about 4 cups" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "sugar", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "instant yeast", "note": "" },
+          { "qty": 2, "max": null, "unit": "tsp", "name": "baking powder", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 280, "max": null, "unit": "ml", "name": "warm water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "vegetable shortening or cooking oil", "note": "" },
+          { "qty": 12, "max": null, "unit": "", "name": "parchment squares", "note": "about 8 cm" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a pan over medium heat. Sauté the onion and garlic, add the chicken and cook until it is no longer pink outside.", "minutes": 5 },
+      { "text": "Add the soy sauce, oyster sauce, brown sugar and water. Bring to a boil, then simmer uncovered until the chicken is tender.", "minutes": 20 },
+      { "text": "Stir in the cornstarch mixture and cook until the sauce is very thick. Add the sesame oil and pepper. Cool, then chill until needed.", "minutes": 2 },
+      { "text": "For the dough, mix the flour, sugar, yeast, baking powder and salt. Add the warm water and shortening and knead for about 10 minutes until smooth and elastic.", "minutes": null },
+      { "text": "Cover and let the dough rise in a warm place until doubled.", "minutes": 60 },
+      { "text": "Punch down the dough and divide it into 12 pieces. Roll each into an 11 cm circle, thinner at the edges than in the center.", "minutes": null },
+      { "text": "Spoon 2 heaping tablespoons of cold filling into the center, press a quail egg into it, then pleat the dough up and around and pinch closed. Set each bun on a parchment square.", "minutes": null },
+      { "text": "Cover the buns and let them rest until slightly puffy.", "minutes": 15 },
+      { "text": "Steam over rapidly boiling water, with a towel wrapped around the lid to catch drips.", "minutes": 15 },
+      { "text": "Turn off the heat and wait before lifting the lid so the buns do not wrinkle.", "minutes": 3 }
+    ],
+    "tips": "Thigh meat stays moist inside the bun; breast meat turns dry and stringy after steaming."
+  },
+  {
+    "slug": "pork-and-kuchay-dumplings",
+    "title": "Pork and kuchay dumplings",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["ground pork", "garlic", "ginger", "soy sauce", "vinegar"],
+    "prep": 45,
+    "cook": 25,
+    "servings": 30,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Half-moon dumplings filled with ground pork and plenty of chopped kuchay (Chinese chives), browned on the bottom and steamed in the same pan until tender. Dip them in soy sauce with vinegar and chili garlic oil.",
+    "groups": [
+      {
+        "title": "For the dumplings",
+        "items": [
+          { "qty": 400, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 150, "max": null, "unit": "g", "name": "kuchay (Chinese chives)", "note": "about 1 bunch, finely chopped" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "ginger", "note": "grated" },
+          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sesame oil", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "tsp", "name": "ground white pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cold water", "note": "" },
+          { "qty": 30, "max": null, "unit": "", "name": "round dumpling wrappers", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "divided" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "for steaming, divided" }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cane or black vinegar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "chili garlic oil", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Mix the pork with the ginger, garlic, soy sauce, sesame oil, salt and pepper. Add the cold water a spoonful at a time, stirring in one direction until the mixture is sticky. Fold in the chives.", "minutes": null },
+      { "text": "Place a tablespoon of filling in the center of a wrapper, wet the edge, fold into a half moon and pleat or press firmly to seal. Repeat.", "minutes": null },
+      { "text": "Heat 1 tablespoon of oil in a large nonstick skillet over medium heat. Arrange half the dumplings flat side down and fry until the bottoms are golden.", "minutes": 3 },
+      { "text": "Pour in 0.5 cup of water, cover at once and steam until the water is almost gone and the filling is cooked.", "minutes": 6 },
+      { "text": "Uncover and cook until the bottoms crisp again. Repeat with the remaining oil, dumplings and water.", "minutes": 2 },
+      { "text": "Stir the soy sauce, vinegar and chili garlic oil together and serve with the hot dumplings.", "minutes": null }
+    ],
+    "tips": "Chop the chives just before mixing and fold them in last: salted chives weep and make the filling wet."
+  },
+  {
+    "slug": "embutido",
+    "title": "Embutido",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["ground pork", "egg", "carrot", "cheese", "hotdog", "bell pepper"],
+    "prep": 30,
+    "cook": 60,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A Filipino meatloaf of ground pork, raisins, sweet pickle relish, carrots and cheese, rolled around egg and hotdog and steamed in foil. Serve it sliced, warm or cold, or fry the slices until browned.",
+    "groups": [
+      {
+        "title": "For the meat mixture",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "ground pork", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "medium carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar or quick-melt cheese", "note": "" },
+          { "qty": 0.75, "max": null, "unit": "cup", "name": "breadcrumbs", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the center",
+        "items": [
+          { "qty": 3, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "quartered lengthwise" },
+          { "qty": 3, "max": null, "unit": "", "name": "hotdogs", "note": "halved lengthwise" },
+          { "qty": 3, "max": null, "unit": "", "name": "sheets aluminum foil", "note": "about 30 cm square" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Combine all the meat mixture ingredients in a large bowl and mix well with your hands.", "minutes": null },
+      { "text": "Fry a spoonful of the mixture, taste it and adjust the salt and pepper.", "minutes": null },
+      { "text": "Lay a sheet of foil on the counter and spread a third of the mixture on it into a rectangle about 20 by 15 cm.", "minutes": null },
+      { "text": "Line up a third of the egg quarters and hotdog halves along the long edge nearest you.", "minutes": null },
+      { "text": "Using the foil to help, roll the meat tightly around the filling into a log. Wrap it in the foil and twist the ends closed. Repeat to make three logs.", "minutes": null },
+      { "text": "Steam the logs over boiling water, covered, until firm and cooked through. Top up the water if needed.", "minutes": 60 },
+      { "text": "Let the logs cool in the foil before slicing so they hold together.", "minutes": 15 },
+      { "text": "Slice into 1.5 cm rounds and serve with banana ketchup, or pan-fry the slices until browned.", "minutes": null }
+    ],
+    "tips": "Embutido freezes well in its foil for up to 2 months. Thaw in the fridge, then steam or fry the slices."
+  },
+  {
+    "slug": "beef-morcon",
+    "title": "Beef morcon",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["beef", "egg", "carrot", "hotdog", "cheese", "tomato"],
+    "prep": 40,
+    "cook": 135,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "A thin sheet of beef rolled around carrots, pickles, hotdogs, egg and cheese, then browned and braised in tomato sauce until tender. Sliced, it shows a colorful spiral and is a centerpiece for Christmas and fiestas.",
+    "groups": [
+      {
+        "title": "For the roll",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "beef flank or round", "note": "in one piece, butterflied" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "calamansi", "note": "juiced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "quartered lengthwise" },
+          { "qty": 3, "max": null, "unit": "", "name": "hotdogs", "note": "halved lengthwise" },
+          { "qty": 2, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "quartered lengthwise" },
+          { "qty": 2, "max": null, "unit": "", "name": "sweet pickles", "note": "quartered lengthwise" },
+          { "qty": 100, "max": null, "unit": "g", "name": "cheddar cheese", "note": "cut into long strips" },
+          { "qty": null, "max": null, "unit": "", "name": "kitchen string", "note": "" }
+        ]
+      },
+      {
+        "title": "For braising",
+        "items": [
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "beef broth or water", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "dried bay leaves", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Open the butterflied beef and pound it to an even 1 cm sheet. Marinate it in the soy sauce, calamansi juice and pepper.", "minutes": 30 },
+      { "text": "Lift the beef out of the marinade, keeping the marinade. Lay it flat and arrange the carrot, hotdogs, eggs, pickles and cheese in rows along one short edge.", "minutes": null },
+      { "text": "Roll the beef up tightly over the filling and tie it with string every 3 cm so it holds its shape.", "minutes": null },
+      { "text": "Heat the oil in a heavy pot that fits the roll and brown it well on all sides. Lift it out.", "minutes": 10 },
+      { "text": "Sauté the onion and garlic in the same pot until soft.", "minutes": 2 },
+      { "text": "Return the roll and add the tomato sauce, broth, reserved marinade, bay leaves and sugar. Bring to a boil, cover and simmer gently, turning the roll every 30 minutes, until a skewer slides in easily.", "minutes": 120 },
+      { "text": "Lift out the roll and rest it before slicing.", "minutes": 15 },
+      { "text": "Meanwhile, boil the sauce until thick. Taste and add salt if needed.", "minutes": 5 },
+      { "text": "Remove the string, slice the roll into 1.5 cm rounds and serve with the sauce poured over.", "minutes": null }
+    ],
+    "tips": "Ask the butcher to butterfly the beef for morcon. Slicing is cleaner if the roll is made a day ahead and reheated in its sauce."
+  },
+  {
+    "slug": "rellenong-manok",
+    "title": "Rellenong manok",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["chicken", "ground pork", "egg", "hotdog", "cheese", "carrot"],
+    "prep": 75,
+    "cook": 95,
+    "servings": 10,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "A whole chicken, deboned and stuffed with seasoned ground pork, raisins, cheese, hotdogs and eggs, then roasted until golden. Sliced into rounds, it shows the colorful filling inside and anchors a holiday table.",
+    "groups": [
+      {
+        "title": "For the chicken",
+        "items": [
+          { "qty": 1, "max": null, "unit": "", "name": "whole chicken", "note": "about 1.6 kg" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "calamansi", "note": "juiced" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "melted" }
+        ]
+      },
+      {
+        "title": "For the stuffing",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "breadcrumbs", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "peeled" },
+          { "qty": 2, "max": null, "unit": "", "name": "hotdogs", "note": "halved lengthwise" },
+          { "qty": null, "max": null, "unit": "", "name": "trussing needle and kitchen string", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "To debone, lay the chicken breast side down and cut along the backbone. Working with the tip of a small knife, scrape the meat away from the carcass on both sides, keeping the skin whole.", "minutes": null },
+      { "text": "Cut through the thigh and wing joints where they meet the body and lift out the carcass. Leave the drumstick and wing bones in to keep the shape. Save the carcass for stock.", "minutes": null },
+      { "text": "Rub the chicken inside and out with the soy sauce, calamansi juice and pepper and let it marinate.", "minutes": 30 },
+      { "text": "Mix all the stuffing ingredients except the boiled eggs and hotdogs. Fry a spoonful, taste and adjust the seasoning.", "minutes": null },
+      { "text": "Lay the chicken skin side down. Spread half the stuffing over the meat, line the eggs and hotdogs down the middle and cover with the rest of the stuffing.", "minutes": null },
+      { "text": "Bring the sides of the chicken together over the stuffing and sew it closed with the needle and string. Turn it seam side down and pat it back into a chicken shape. Heat the oven to 180°C (350°F).", "minutes": null },
+      { "text": "Set the chicken on a rack in a roasting pan, brush with melted butter and cover loosely with foil. Roast.", "minutes": 60 },
+      { "text": "Uncover, brush with more butter and roast until golden and the center of the stuffing reaches 74°C (165°F).", "minutes": 35 },
+      { "text": "Rest the chicken before slicing so the stuffing sets.", "minutes": 20 },
+      { "text": "Pull out the string and slice into thick rounds. Serve warm or at room temperature with gravy or banana ketchup.", "minutes": null }
+    ],
+    "tips": "Deboning takes practice, so give yourself time, or ask the butcher to do it. Small tears in the skin can be sewn shut before stuffing."
+  },
+  {
+    "slug": "tuna-macaroni-salad",
+    "title": "Tuna macaroni salad",
+    "course": "merienda",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["tuna", "pasta", "carrot", "egg", "cheese", "onion"],
+    "prep": 20,
+    "cook": 15,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Elbow macaroni and flaked canned tuna in a tangy, creamy mayonnaise dressing with pickle relish, carrots, egg and cheese. It is quick to make and served cold for merienda or as a party side.",
+    "groups": [
+      {
+        "title": "For the salad",
+        "items": [
+          { "qty": 400, "max": null, "unit": "g", "name": "elbow macaroni", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "diced small" },
+          { "qty": 3, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "cans tuna flakes", "note": "about 180 g each, well drained" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cheddar cheese", "note": "cut into small cubes" }
+        ]
+      },
+      {
+        "title": "For the dressing",
+        "items": [
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "calamansi or lemon juice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cook the macaroni in salted boiling water until just tender, adding the carrot for the last 2 minutes. Drain, rinse under cold water and drain well.", "minutes": 8 },
+      { "text": "At the same time, boil the eggs, cool them in cold water, then peel and chop.", "minutes": 10 },
+      { "text": "Whisk the mayonnaise, calamansi juice, sugar, salt and pepper in a large bowl.", "minutes": null },
+      { "text": "Add the macaroni, carrot, eggs, tuna, relish, onion and cheese and fold gently until coated. Keep some tuna in chunks.", "minutes": null },
+      { "text": "Cover and chill before serving. Stir again just before it goes to the table.", "minutes": 30 }
+    ],
+    "tips": "Press the tuna in a sieve to drain it thoroughly. Leftover oil or brine makes the dressing thin and greasy."
+  },
+  {
+    "slug": "hardinera",
+    "title": "Hardinera",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["pork", "egg", "pineapple", "bell pepper", "hotdog", "cheese"],
+    "prep": 30,
+    "cook": 105,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Diced pork cooked with tomato sauce, pineapple, raisins and pickles, bound with eggs and steamed in llaneras lined with pineapple, egg and bell pepper. Turned out, it is a sliceable, sweet-savory loaf for fiestas.",
+    "groups": [
+      {
+        "title": "For the pork",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "pork shoulder (kasim)", "note": "cut into 1 cm dice" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "pineapple juice", "note": "from the can" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "soy sauce", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "pineapple tidbits", "note": "drained" },
+          { "qty": 2, "max": null, "unit": "", "name": "hotdogs", "note": "diced" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "diced" },
+          { "qty": null, "max": null, "unit": "to-taste", "name": "salt and ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "To bind and top",
+        "items": [
+          { "qty": 6, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "" },
+          { "qty": 3, "max": null, "unit": "", "name": "pineapple rings", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "cut into strips" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter or oil", "note": "for greasing" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a wide pot over medium heat. Sauté the onion and garlic, add the pork and cook until lightly browned.", "minutes": 8 },
+      { "text": "Add the tomato sauce, water, pineapple juice and soy sauce. Bring to a boil, cover and simmer until the pork is tender.", "minutes": 40 },
+      { "text": "Add the pineapple tidbits, hotdogs, raisins, relish and diced bell pepper. Simmer uncovered, stirring, until the sauce has cooked down and the mixture is almost dry. Season with salt and pepper.", "minutes": 10 },
+      { "text": "Spread the pork on a tray and let it cool.", "minutes": 20 },
+      { "text": "Grease three llaneras (oval tin molds) or small loaf pans. Arrange a pineapple ring, egg slices and bell pepper strips in the bottom of each.", "minutes": null },
+      { "text": "Stir the beaten eggs and cheese into the cooled pork. Pack the mixture firmly into the molds over the decoration and cover each tightly with foil.", "minutes": null },
+      { "text": "Steam over boiling water until the egg mixture is set all the way through.", "minutes": 45 },
+      { "text": "Let the molds cool before turning out so the loaves hold together.", "minutes": 15 },
+      { "text": "Run a knife around the edges and invert onto a platter, decorated side up. Slice to serve.", "minutes": null }
+    ],
+    "tips": "Make sure the pork is cool and nearly dry before adding the eggs. Wet or hot filling makes the loaf crumble when sliced."
+  },
+  {
+    "slug": "filipino-spaghetti",
+    "title": "Filipino spaghetti",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pasta", "ground pork", "hotdog", "tomato", "cheese"],
+    "prep": 15,
+    "cook": 45,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Spaghetti in a sweet, meaty tomato sauce with banana ketchup and sliced red hotdogs, buried under grated cheese. It is the birthday party favorite, sweet enough for kids and rich enough for everyone else.",
+    "groups": [
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 500, "max": null, "unit": "g", "name": "ground pork", "note": "or half pork, half beef" },
+          { "qty": 5, "max": null, "unit": "", "name": "red hotdogs", "note": "sliced on the diagonal" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "tomato sauce", "note": "about 750 ml" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the pasta",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "spaghetti", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar or quick-melt cheese", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a large pan over medium heat and sauté the onion and garlic until soft.", "minutes": 2 },
+      { "text": "Add the pork and cook, breaking it up, until browned and no longer pink.", "minutes": 8 },
+      { "text": "Add the hotdogs and cook until lightly browned at the edges.", "minutes": 2 },
+      { "text": "Stir in the tomato sauce, banana ketchup, brown sugar and water. Bring to a boil, then simmer, stirring now and then, until thick. Season with salt and pepper.", "minutes": 25 },
+      { "text": "While the sauce simmers, cook the spaghetti in a large pot of salted boiling water according to the package. Drain.", "minutes": 10 },
+      { "text": "Toss the spaghetti with some of the sauce, or serve it with the sauce ladled on top. Finish with plenty of grated cheese.", "minutes": null }
+    ],
+    "tips": "The sauce thickens as it stands. Loosen it with a splash of water if you are serving it later for a party."
+  },
+  {
+    "slug": "baked-spaghetti",
+    "title": "Baked spaghetti",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pasta", "ground beef", "tomato", "cheese", "bell pepper", "mushrooms"],
+    "prep": 15,
+    "cook": 55,
+    "servings": 10,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Spaghetti tossed in a sweet, beefy tomato sauce with bell peppers and mushrooms, packed into a baking dish and baked under a thick layer of melted cheese. It cuts into neat portions for a party tray.",
+    "groups": [
+      {
+        "title": "For the sauce",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 500, "max": null, "unit": "g", "name": "ground beef", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "green bell pepper", "note": "diced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "button mushrooms", "note": "sliced (canned is fine)" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "dried oregano", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For assembling",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "spaghetti", "note": "" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "grated quick-melt cheese", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a large pan over medium heat and sauté the onion and garlic until soft.", "minutes": 2 },
+      { "text": "Add the beef and cook, breaking it up, until browned.", "minutes": 8 },
+      { "text": "Add the bell pepper and mushrooms, then the tomato sauce, banana ketchup, sugar, oregano, salt and pepper. Simmer until thick.", "minutes": 20 },
+      { "text": "Meanwhile, cook the spaghetti in salted boiling water for 2 minutes less than the package says. Drain. Heat the oven to 180°C (350°F).", "minutes": 8 },
+      { "text": "Toss the spaghetti with the sauce and spread it in a 23 by 33 cm baking dish. Scatter both cheeses evenly over the top.", "minutes": null },
+      { "text": "Bake until the cheese has melted and is bubbling and lightly browned at the edges.", "minutes": 20 },
+      { "text": "Let it stand before cutting so the portions hold together.", "minutes": 10 }
+    ],
+    "tips": "Assemble the tray a day ahead, cover and chill it, then bake for about 10 minutes longer straight from the fridge."
+  },
+  {
+    "slug": "filipino-carbonara",
+    "title": "Filipino carbonara",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pasta", "cream", "evaporated milk", "mushrooms", "cheese", "butter"],
+    "prep": 10,
+    "cook": 25,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Spaghetti in a rich, creamy sauce made with all-purpose cream, evaporated milk, bacon and mushrooms, finished with cheese. It is milder and saucier than Italian carbonara and a regular at Filipino parties.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "spaghetti or fettuccine", "note": "" },
+          { "qty": 250, "max": null, "unit": "g", "name": "bacon", "note": "sliced into 1 cm strips" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 200, "max": null, "unit": "g", "name": "button mushrooms", "note": "sliced (canned, drained, is fine)" },
+          { "qty": 500, "max": null, "unit": "ml", "name": "all-purpose cream", "note": "2 packs of 250 ml" },
+          { "qty": 370, "max": null, "unit": "ml", "name": "evaporated milk", "note": "1 can" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar or parmesan cheese", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "parsley", "note": "chopped, optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cook the pasta in salted boiling water according to the package. Keep 0.5 cup of the cooking water and drain.", "minutes": 10 },
+      { "text": "Meanwhile, fry the bacon in a wide pan over medium heat until crisp. Lift it out and pour off all but 1 tablespoon of fat.", "minutes": 6 },
+      { "text": "Add the butter, onion, garlic and mushrooms and cook until the onion is soft.", "minutes": 3 },
+      { "text": "Pour in the cream and evaporated milk and bring to a gentle simmer. Cook on low, without boiling hard, until slightly thickened.", "minutes": 5 },
+      { "text": "Stir in the cheese until melted and season with salt and pepper.", "minutes": null },
+      { "text": "Add the pasta and toss to coat, loosening with a little pasta water if needed. Top with the bacon and parsley and serve.", "minutes": null }
+    ],
+    "tips": "The sauce tightens as it cools, so make it a little thinner than you want if it will sit on a buffet."
+  },
+  {
+    "slug": "baked-macaroni",
+    "title": "Baked macaroni",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pasta", "ground pork", "hotdog", "cheese", "milk", "butter"],
+    "prep": 20,
+    "cook": 65,
+    "servings": 10,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Elbow macaroni in a sweet meat sauce with hotdogs, covered with a creamy white sauce and cheese, then baked until golden. It is creamy, cheesy and sweet in the way Filipino party pasta should be.",
+    "groups": [
+      {
+        "title": "For the meat sauce",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "elbow macaroni", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 4, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 500, "max": null, "unit": "g", "name": "ground pork", "note": "" },
+          { "qty": 4, "max": null, "unit": "", "name": "hotdogs", "note": "sliced" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the white sauce and topping",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "butter", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 2.5, "max": null, "unit": "cup", "name": "milk", "note": "or 1 can evaporated milk topped up with water" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "for the sauce" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated quick-melt cheese", "note": "for the top" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Cook the macaroni in salted boiling water for 2 minutes less than the package says. Drain and set aside.", "minutes": 7 },
+      { "text": "Heat the oil in a large pan over medium heat. Sauté the onion and garlic until soft.", "minutes": 2 },
+      { "text": "Add the pork and cook until browned, then add the hotdogs.", "minutes": 8 },
+      { "text": "Stir in the tomato sauce, banana ketchup, water, sugar, salt and pepper and simmer until thick.", "minutes": 15 },
+      { "text": "Fold the macaroni into the meat sauce and spread it in a 23 by 33 cm baking dish. Heat the oven to 180°C (350°F).", "minutes": null },
+      { "text": "For the white sauce, melt the butter in a saucepan over medium-low heat. Stir in the flour and cook for 1 minute without browning.", "minutes": null },
+      { "text": "Whisk in the milk a little at a time, then simmer, whisking, until thick enough to coat a spoon. Stir in the salt and the cheddar until melted.", "minutes": 5 },
+      { "text": "Pour the white sauce evenly over the macaroni and scatter the quick-melt cheese on top.", "minutes": null },
+      { "text": "Bake until bubbling and lightly browned on top.", "minutes": 25 },
+      { "text": "Let it stand before serving so the layers set.", "minutes": 10 }
+    ],
+    "tips": "Undercooking the macaroni at the start keeps it from going soft in the oven, where it keeps absorbing sauce."
+  },
+  {
+    "slug": "chicken-macaroni-salad",
+    "title": "Chicken macaroni salad",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["chicken", "pasta", "carrot", "pineapple", "cheese", "onion"],
+    "prep": 25,
+    "cook": 30,
+    "servings": 10,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Elbow macaroni and shredded chicken in a creamy, slightly sweet mayonnaise dressing with carrots, pineapple, raisins and cheese. It is served cold as a side or snack at parties and holidays.",
+    "groups": [
+      {
+        "title": "For the salad",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "boneless chicken breast", "note": "" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "for poaching" },
+          { "qty": 500, "max": null, "unit": "g", "name": "elbow macaroni", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "diced small" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "pineapple tidbits", "note": "well drained" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 1, "max": null, "unit": "", "name": "small red onion", "note": "minced" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "cheddar cheese", "note": "cut into small cubes" }
+        ]
+      },
+      {
+        "title": "For the dressing",
+        "items": [
+          { "qty": 2, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "condensed milk", "note": "optional, for a sweeter salad" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the chicken in a pot with the water and salt, bring to a boil, then lower the heat and simmer until cooked through.", "minutes": 20 },
+      { "text": "Lift out the chicken, let it cool and shred it finely.", "minutes": null },
+      { "text": "Cook the macaroni in salted boiling water until just tender. Add the diced carrot for the last 2 minutes. Drain and rinse under cold water, then drain well.", "minutes": 8 },
+      { "text": "Whisk the mayonnaise, condensed milk if using, salt and pepper in a large bowl.", "minutes": null },
+      { "text": "Add the macaroni, carrot, chicken, pineapple, raisins, relish, onion and cheese and fold until evenly coated.", "minutes": null },
+      { "text": "Cover and chill before serving. Stir again and add a spoonful more mayonnaise if it has tightened.", "minutes": 60 }
+    ],
+    "tips": "Drain the pineapple and rinsed macaroni thoroughly. Extra water thins the dressing as the salad sits."
+  },
+  {
+    "slug": "filipino-potato-salad",
+    "title": "Filipino potato salad",
+    "course": "ulam",
+    "diets": ["vegetarian"],
+    "key_ingredients": ["potato", "egg", "carrot", "onion"],
+    "prep": 20,
+    "cook": 20,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Tender cubed potatoes, carrots and eggs folded into a creamy, slightly sweet dressing with pickle relish and onion. It is served chilled next to fried chicken, barbecue and holiday ham.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "potatoes", "note": "peeled and cut into 2 cm cubes" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "cut into 1 cm dice" },
+          { "qty": 4, "max": null, "unit": "", "name": "eggs", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "", "name": "red onion", "note": "minced" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar or condensed milk", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "plus more for the cooking water" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "raisins", "note": "optional" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Put the potatoes in a pot, cover with cold salted water and bring to a boil. Simmer until just fork-tender, adding the carrots for the last 4 minutes.", "minutes": 12 },
+      { "text": "At the same time, boil the eggs in a separate pot, then cool them in cold water, peel and chop.", "minutes": 10 },
+      { "text": "Drain the potatoes and carrots and spread them out to cool so they stop cooking.", "minutes": 15 },
+      { "text": "Stir the mayonnaise, relish, sugar, salt and pepper together in a large bowl.", "minutes": null },
+      { "text": "Add the potatoes, carrots, eggs, onion and raisins if using and fold gently so the potatoes keep their shape.", "minutes": null },
+      { "text": "Cover and chill before serving.", "minutes": 30 }
+    ],
+    "tips": "Starting the potatoes in cold water cooks them evenly to the center, so the outsides do not fall apart before the middles are done."
+  },
+  {
+    "slug": "christmas-ham-with-pineapple-glaze",
+    "title": "Christmas ham with pineapple glaze",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["ham", "pineapple", "brown sugar", "butter"],
+    "prep": 15,
+    "cook": 95,
+    "servings": 15,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A fully cooked ham simmered in pineapple juice, then coated in a sticky brown sugar and pineapple glaze and caramelized in the oven. Sliced thin, it is sweet and salty and made for pan de sal on Noche Buena.",
+    "groups": [
+      {
+        "title": "For the ham",
+        "items": [
+          { "qty": 2.5, "max": 3, "unit": "kg", "name": "fully cooked smoked ham", "note": "bone-in or boneless" },
+          { "qty": 1, "max": null, "unit": "l", "name": "pineapple juice", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 20, "max": null, "unit": "", "name": "whole cloves", "note": "optional" }
+        ]
+      },
+      {
+        "title": "For the glaze",
+        "items": [
+          { "qty": 1, "max": null, "unit": "cup", "name": "brown sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "simmering liquid", "note": "from the ham pot" },
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "butter", "note": "" },
+          { "qty": 6, "max": null, "unit": "", "name": "canned pineapple rings", "note": "optional, for decorating" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Peel off the ham's skin if it has one, leaving a thin layer of fat. Score the fat in a 2 cm diamond pattern and push a clove into each crossing if using.", "minutes": null },
+      { "text": "Put the ham in a large pot with the pineapple juice and 0.5 cup brown sugar. Add water to come halfway up the ham. Bring to a boil, then cover and simmer, turning every 20 minutes.", "minutes": 60 },
+      { "text": "Heat the oven to 190°C (375°F). Move the ham to a foil-lined roasting pan.", "minutes": null },
+      { "text": "Boil 1 cup of the simmering liquid with 1 cup brown sugar and the butter in a small pan until syrupy.", "minutes": 8 },
+      { "text": "Brush the glaze all over the ham and pin pineapple rings on top with toothpicks if using. Bake, brushing with more glaze every 10 minutes, until dark and sticky.", "minutes": 25 },
+      { "text": "Rest the ham before slicing.", "minutes": 15 },
+      { "text": "Slice thinly and serve warm or at room temperature with the pan juices.", "minutes": null }
+    ],
+    "tips": "Watch the last 10 minutes in the oven: the sugar glaze goes from caramelized to burnt quickly. Leftover ham keeps a week in the fridge."
+  },
+  {
+    "slug": "everlasting",
+    "title": "Everlasting",
+    "course": "ulam",
+    "diets": [],
+    "key_ingredients": ["ground pork", "egg", "carrot", "bell pepper", "cheese"],
+    "prep": 25,
+    "cook": 55,
+    "servings": 8,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "A steamed meatloaf of ground pork, eggs, chorizo, raisins, carrots and bell pepper, packed into llaneras over slices of boiled egg. Turned out, it is soft, sliceable and slightly sweet.",
+    "groups": [
+      {
+        "title": "For the meatloaf",
+        "items": [
+          { "qty": 1, "max": null, "unit": "kg", "name": "ground pork", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "chorizo de Bilbao", "note": "finely chopped" },
+          { "qty": 1, "max": null, "unit": "", "name": "carrot", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "finely minced" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "finely minced" },
+          { "qty": 0.333, "max": null, "unit": "cup", "name": "raisins", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "sweet pickle relish", "note": "drained" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "" },
+          { "qty": 5, "max": null, "unit": "", "name": "eggs", "note": "beaten" },
+          { "qty": 1.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the molds",
+        "items": [
+          { "qty": 3, "max": null, "unit": "", "name": "hard-boiled eggs", "note": "sliced" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "butter or oil", "note": "for greasing" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Combine all the meatloaf ingredients in a large bowl and mix well with your hands.", "minutes": null },
+      { "text": "Fry a spoonful of the mixture, taste it and adjust the salt and pepper.", "minutes": null },
+      { "text": "Grease three llaneras (oval tin molds) or small loaf pans and line the bottoms with the egg slices.", "minutes": null },
+      { "text": "Pack the meat mixture firmly into the molds over the eggs, smooth the tops and cover each tightly with foil.", "minutes": null },
+      { "text": "Steam over boiling water until firm and cooked through, topping up the water as needed.", "minutes": 50 },
+      { "text": "Let the molds cool before turning out so the loaves hold together.", "minutes": 15 },
+      { "text": "Pour off any juices, run a knife around the edges and invert onto a plate, egg side up. Slice and serve with rice or bread.", "minutes": null }
+    ],
+    "tips": "Everlasting keeps for 5 days in the fridge and freezes well, wrapped. Fry cold slices in a little oil for a quick breakfast."
+  },
+  {
+    "slug": "filipino-lasagna",
+    "title": "Filipino lasagna",
+    "course": "merienda",
+    "diets": [],
+    "key_ingredients": ["pasta", "ground beef", "tomato", "cheese", "milk", "butter"],
+    "prep": 25,
+    "cook": 75,
+    "servings": 10,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Lasagna noodles layered with a sweet-style meat sauce, a creamy white sauce and plenty of cheese, then baked until bubbling. It is sweeter and creamier than Italian lasagna and is made in trays for parties.",
+    "groups": [
+      {
+        "title": "For the meat sauce",
+        "items": [
+          { "qty": 2, "max": null, "unit": "tbsp", "name": "cooking oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 5, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 500, "max": null, "unit": "g", "name": "ground beef", "note": "" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "tomato sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "banana ketchup", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "water", "note": "" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "sugar", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "ground black pepper", "note": "" }
+        ]
+      },
+      {
+        "title": "For the white sauce",
+        "items": [
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "butter", "note": "" },
+          { "qty": 0.25, "max": null, "unit": "cup", "name": "all-purpose flour", "note": "" },
+          { "qty": 3, "max": null, "unit": "cup", "name": "milk", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "tsp", "name": "salt", "note": "" },
+          { "qty": null, "max": null, "unit": "pinch", "name": "ground nutmeg", "note": "" },
+          { "qty": 1, "max": null, "unit": "cup", "name": "grated cheddar cheese", "note": "" }
+        ]
+      },
+      {
+        "title": "For assembling",
+        "items": [
+          { "qty": 12, "max": null, "unit": "", "name": "lasagna noodles", "note": "about 250 g" },
+          { "qty": 1.5, "max": null, "unit": "cup", "name": "grated quick-melt or mozzarella cheese", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a large pan over medium heat and sauté the onion and garlic until soft.", "minutes": 2 },
+      { "text": "Add the beef and cook, breaking it up, until browned.", "minutes": 8 },
+      { "text": "Stir in the tomato sauce, banana ketchup, water, sugar, salt and pepper and simmer until thick.", "minutes": 20 },
+      { "text": "Meanwhile, cook the noodles in salted boiling water for 2 minutes less than the package says. Drain and lay them flat on an oiled tray so they do not stick.", "minutes": 9 },
+      { "text": "For the white sauce, melt the butter over medium-low heat, stir in the flour and cook for 1 minute. Whisk in the milk gradually and simmer, whisking, until thick. Stir in the salt, nutmeg and cheddar. Heat the oven to 180°C (350°F).", "minutes": 6 },
+      { "text": "Spread a thin layer of meat sauce in a 23 by 33 cm baking dish. Top with 4 noodles, a third of the remaining meat sauce and a third of the white sauce. Repeat twice, ending with white sauce.", "minutes": null },
+      { "text": "Scatter the quick-melt cheese over the top, cover with foil and bake.", "minutes": 20 },
+      { "text": "Uncover and bake until bubbling and browned in spots.", "minutes": 15 },
+      { "text": "Let the lasagna rest before cutting so the layers hold.", "minutes": 15 }
+    ],
+    "tips": "Assemble it the day before and chill, covered. Bake straight from the fridge, adding about 15 minutes with the foil on."
+  },
+  {
+    "slug": "paella-negra",
+    "title": "Paella negra",
+    "course": "ulam",
+    "diets": ["pescatarian"],
+    "key_ingredients": ["squid", "shrimp", "mussels", "rice", "garlic", "bell pepper"],
+    "prep": 30,
+    "cook": 45,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Rice cooked black with squid ink and studded with tender squid, shrimp and mussels, served with garlic mayonnaise and lemon. It tastes briny, garlicky and deeply savory.",
+    "groups": [
+      {
+        "title": "For the paella",
+        "items": [
+          { "qty": 500, "max": null, "unit": "g", "name": "squid", "note": "cleaned, ink sacs kept, bodies cut into rings" },
+          { "qty": 300, "max": null, "unit": "g", "name": "large shrimp", "note": "shells on, deveined" },
+          { "qty": 500, "max": null, "unit": "g", "name": "mussels (tahong)", "note": "scrubbed and debearded" },
+          { "qty": 3, "max": null, "unit": "tbsp", "name": "olive oil", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "onion", "note": "chopped" },
+          { "qty": 6, "max": null, "unit": "clove", "name": "garlic", "note": "minced" },
+          { "qty": 2, "max": null, "unit": "", "name": "tomatoes", "note": "chopped" },
+          { "qty": 1, "max": null, "unit": "", "name": "red bell pepper", "note": "diced" },
+          { "qty": 2, "max": null, "unit": "cup", "name": "medium-grain rice", "note": "" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "paprika", "note": "" },
+          { "qty": 2, "max": null, "unit": "", "name": "squid ink packets", "note": "about 4 g each, plus the ink from the sacs" },
+          { "qty": 4, "max": null, "unit": "cup", "name": "seafood stock or water", "note": "hot" },
+          { "qty": 1, "max": null, "unit": "tbsp", "name": "fish sauce", "note": "" },
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "green peas", "note": "" },
+          { "qty": 1, "max": null, "unit": "", "name": "lemon", "note": "cut into wedges" }
+        ]
+      },
+      {
+        "title": "For the garlic mayonnaise",
+        "items": [
+          { "qty": 0.5, "max": null, "unit": "cup", "name": "mayonnaise", "note": "" },
+          { "qty": 2, "max": null, "unit": "clove", "name": "garlic", "note": "grated" },
+          { "qty": 1, "max": null, "unit": "tsp", "name": "lemon juice", "note": "" }
+        ]
+      }
+    ],
+    "steps": [
+      { "text": "Heat the oil in a paella pan or 30 cm skillet over medium-high heat. Sear the shrimp until just pink and lift them out.", "minutes": 2 },
+      { "text": "Add the squid rings, stir for a minute until they turn opaque and lift them out.", "minutes": 1 },
+      { "text": "Lower the heat to medium and sauté the onion, garlic, tomatoes and bell pepper until soft.", "minutes": 5 },
+      { "text": "Add the rice and paprika and stir until the grains are coated.", "minutes": 1 },
+      { "text": "Dissolve the squid ink in the hot stock and pour it over the rice with the fish sauce. Stir once, spread the rice evenly and bring to a boil.", "minutes": null },
+      { "text": "Lower the heat and simmer uncovered <strong>without stirring</strong> until the rice is almost tender.", "minutes": 18 },
+      { "text": "Push the mussels into the rice, return the squid and scatter the peas over. Cover and cook until the mussels open.", "minutes": 6 },
+      { "text": "Arrange the shrimp on top, cover and cook a few minutes more, then rest off the heat.", "minutes": 8 },
+      { "text": "Stir the mayonnaise, garlic and lemon juice together. Discard any mussels that stayed closed and serve the paella with the garlic mayonnaise and lemon wedges.", "minutes": null }
+    ],
+    "tips": "Squid ink packets are sold in the frozen seafood section. Wear an apron: the ink stains."
+  }
+]

@@ -1,0 +1,2766 @@
+[
+  {
+    "slug": "longganisang-hamonado",
+    "title": "Longganisang hamonado",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "brown sugar",
+      "pineapple",
+      "garlic",
+      "soy sauce"
+    ],
+    "prep": 75,
+    "cook": 20,
+    "servings": 24,
+    "yield_label": "links",
+    "difficulty": "involved",
+    "intro": "Sweet pork sausages seasoned with brown sugar, pineapple juice, a little soy sauce and garlic. They fry up sticky and caramelized, a sweet counterpart to garlic rice and a sour vinegar dip.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "ground pork",
+            "note": "about 25% fat"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "pineapple juice",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "paprika",
+            "note": "for color"
+          }
+        ]
+      },
+      {
+        "title": "For stuffing",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "meters hog casing",
+            "note": "about 32 mm wide"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "kitchen twine",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 8 links",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the salt off the casing and soak it in warm water, then flush the inside with running water.",
+        "minutes": 30
+      },
+      {
+        "text": "Mix the pork with the sugar, pineapple juice, soy sauce, salt, garlic, pepper and paprika, kneading until the mixture is sticky.",
+        "minutes": null
+      },
+      {
+        "text": "Fry a teaspoon of filling and taste. It should be clearly sweet with a salty finish; adjust the sugar or salt.",
+        "minutes": 2
+      },
+      {
+        "text": "Fill the casing firmly but not tight with a sausage stuffer or funnel. Twist every 6 cm into links and tie with twine. Prick any air pockets.",
+        "minutes": null
+      },
+      {
+        "text": "Refrigerate the links uncovered on a tray overnight to firm up. Freeze what you will not cook within 3 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, simmer 8 links in the water in a covered skillet over medium heat, then uncover and cook until the water is gone.",
+        "minutes": 10
+      },
+      {
+        "text": "Add the oil and fry over <strong>medium-low</strong> heat, rolling the links, until glazed and browned. The sugar scorches easily on higher heat.",
+        "minutes": 6
+      }
+    ],
+    "tips": "If the filling feels too soft to stuff, chill it for 30 minutes first. Sticky pans clean easily if you pour in hot water while the pan is still warm."
+  },
+  {
+    "slug": "skinless-longganisa",
+    "title": "Skinless longganisa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "garlic",
+      "brown sugar",
+      "soy sauce"
+    ],
+    "prep": 40,
+    "cook": 15,
+    "servings": 20,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Sweet and garlicky pork sausages with no casing, simply rolled in wax paper and frozen. They cook straight from the fridge into browned, juicy logs and are the easiest longganisa to make at home.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "ground pork",
+            "note": "about 20% fat"
+          },
+          {
+            "qty": 10,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "paprika",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For wrapping and cooking",
+        "items": [
+          {
+            "qty": 20,
+            "max": null,
+            "unit": "",
+            "name": "wax paper squares",
+            "note": "about 15 cm"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix all the filling ingredients with your hands until evenly combined and sticky.",
+        "minutes": null
+      },
+      {
+        "text": "Fry a teaspoon of the mixture to taste, and adjust the sugar or salt.",
+        "minutes": 2
+      },
+      {
+        "text": "Scoop about 50 g of filling onto a wax paper square, shape it into a log 10 cm long and roll the paper tightly around it. Twist the ends. Repeat with the rest.",
+        "minutes": null
+      },
+      {
+        "text": "Chill the logs for at least an hour before cooking so they hold their shape. Freeze what you will not cook within 3 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, unwrap the logs and put them in a skillet with the water. Simmer over medium heat until the water evaporates.",
+        "minutes": 4
+      },
+      {
+        "text": "Add the oil and fry over medium-low heat, rolling gently, until browned all over and cooked through.",
+        "minutes": 6
+      },
+      {
+        "text": "Serve with garlic rice, fried eggs and spiced vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "Frozen logs can go straight into the pan: add a little more water and simmer covered for a few minutes before frying."
+  },
+  {
+    "slug": "chicken-longganisa",
+    "title": "Chicken longganisa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "chicken",
+      "garlic",
+      "brown sugar",
+      "vinegar"
+    ],
+    "prep": 40,
+    "cook": 15,
+    "servings": 16,
+    "yield_label": "pieces",
+    "difficulty": "medium",
+    "intro": "Skinless sausages made from ground chicken thigh, heavy on garlic with a touch of sugar and vinegar. They brown nicely and stay juicy, and are lighter than the pork kind.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          {
+            "qty": 800,
+            "max": null,
+            "unit": "g",
+            "name": "ground chicken thigh",
+            "note": "with some skin ground in"
+          },
+          {
+            "qty": 10,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 1.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "paprika",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cornstarch",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For wrapping and cooking",
+        "items": [
+          {
+            "qty": 16,
+            "max": null,
+            "unit": "",
+            "name": "wax paper squares",
+            "note": "about 15 cm"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the chicken with all the other filling ingredients until sticky. Chicken is softer than pork, so the cornstarch matters here.",
+        "minutes": null
+      },
+      {
+        "text": "Fry a small spoonful to taste and adjust the seasoning.",
+        "minutes": 2
+      },
+      {
+        "text": "With damp hands, shape 50 g portions into 10 cm logs on wax paper squares, roll tightly and twist the ends.",
+        "minutes": null
+      },
+      {
+        "text": "Chill for at least an hour so the logs firm up. Freeze what you will not cook within 2 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, unwrap the logs into a skillet with the water and simmer over medium heat until the water evaporates.",
+        "minutes": 4
+      },
+      {
+        "text": "Add the oil and fry over medium heat, rolling gently, until golden brown and cooked through.",
+        "minutes": 6
+      },
+      {
+        "text": "Serve with garlic rice, fried eggs and vinegar with chopped garlic.",
+        "minutes": null
+      }
+    ],
+    "tips": "Ground breast alone turns dry; use thigh, or ask the butcher to grind thighs with their skin."
+  },
+  {
+    "slug": "alaminos-longganisa",
+    "title": "Alaminos longganisa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "garlic",
+      "annatto",
+      "vinegar"
+    ],
+    "prep": 75,
+    "cook": 20,
+    "servings": 40,
+    "yield_label": "links",
+    "difficulty": "involved",
+    "intro": "Small, plump pork sausages colored orange with annatto and loaded with garlic, salty with a touch of sweetness. The little links are traditionally held together with short bamboo sticks.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "kg",
+            "name": "coarsely ground pork shoulder",
+            "note": "about 25% fat"
+          },
+          {
+            "qty": 15,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "annatto powder",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cane vinegar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 2.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For stuffing",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "meters hog casing",
+            "note": "about 28 to 32 mm wide"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "short bamboo skewers or kitchen twine",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 12 links",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the salt off the casing and soak it in warm water, then flush the inside with running water.",
+        "minutes": 30
+      },
+      {
+        "text": "Mix the pork with the garlic, annatto, vinegar, sugar, salt and pepper, kneading until evenly orange and sticky.",
+        "minutes": null
+      },
+      {
+        "text": "Fry a teaspoon of the filling and taste. Adjust the salt or garlic before stuffing.",
+        "minutes": 2
+      },
+      {
+        "text": "Fill the casing firmly but not tight with a sausage stuffer or funnel.",
+        "minutes": null
+      },
+      {
+        "text": "Twist into short links about 4 cm long. Pierce the twisted joints with short bamboo skewers to hold them, or tie them with twine. Prick any air pockets.",
+        "minutes": null
+      },
+      {
+        "text": "Refrigerate uncovered on a tray overnight. Freeze what you will not cook within 3 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, simmer 12 links in the water in a covered skillet over medium heat, then uncover and cook until the water is gone.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry in the rendered fat over medium-low heat, rolling the links, until browned. Remove the sticks and serve with garlic rice, fried eggs and vinegar.",
+        "minutes": 6
+      }
+    ],
+    "tips": "Annatto stains: wear gloves when mixing, and use a plastic or stainless bowl rather than a wooden one."
+  },
+  {
+    "slug": "champorado-with-tuyo",
+    "title": "Champorado with tuyo",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "glutinous rice",
+      "chocolate",
+      "brown sugar",
+      "evaporated milk",
+      "dried fish"
+    ],
+    "prep": 5,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thick chocolate rice porridge made with glutinous rice and tablea, swirled with evaporated milk and eaten with crisp fried tuyo on the side. The salty fish against the sweet chocolate is the whole idea.",
+    "groups": [
+      {
+        "title": "For the champorado",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "glutinous rice (malagkit)",
+            "note": "rinsed"
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 100,
+            "max": null,
+            "unit": "g",
+            "name": "tablea",
+            "note": "about 4 tablets, broken up"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "sugar",
+            "note": "white or brown, or to taste"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "evaporated milk",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": 8,
+            "unit": "",
+            "name": "tuyo",
+            "note": "salted dried herring"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying the tuyo"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the water to a boil in a heavy pot. Add the rice and simmer over medium-low heat, stirring often so it does not stick, until the grains swell and soften.",
+        "minutes": 15
+      },
+      {
+        "text": "Add the tablea, sugar and salt. Keep simmering and stirring until the chocolate melts, the rice is fully tender and the porridge is thick and glossy.",
+        "minutes": 12
+      },
+      {
+        "text": "Meanwhile, heat the oil in a small skillet over medium heat and fry the tuyo until crisp, turning once. Drain on paper towels.",
+        "minutes": 4
+      },
+      {
+        "text": "Taste the champorado and add more sugar if you like. If it is too thick, stir in a splash of hot water.",
+        "minutes": null
+      },
+      {
+        "text": "Ladle into bowls, swirl evaporated milk on top and serve with the tuyo on the side to break into the porridge or eat between spoonfuls.",
+        "minutes": null
+      }
+    ],
+    "tips": "No tablea? Use 0.333 cup unsweetened cocoa powder whisked with a little hot water. Champorado thickens as it cools; loosen leftovers with water or milk when reheating."
+  },
+  {
+    "slug": "pritong-itlog",
+    "title": "Pritong itlog",
+    "course": "almusal",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "egg"
+    ],
+    "prep": 2,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Eggs fried in hot oil until the whites puff up and turn lacy and crisp at the edges while the yolks stay runny. It is the egg on every silog plate and the quickest thing to put on rice.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": "optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Crack each egg into a small cup so you can slide it in gently.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a small skillet over medium-high heat until it shimmers. Slide in one or two eggs; they should bubble and sizzle right away.",
+        "minutes": null
+      },
+      {
+        "text": "Tilt the pan and spoon the hot oil over the whites, avoiding the yolk, until the whites are set and the edges brown and crisp.",
+        "minutes": 2
+      },
+      {
+        "text": "Lift out with a slotted spatula, season with salt and pepper and repeat with the rest.",
+        "minutes": null
+      }
+    ],
+    "tips": "For a fully cooked yolk, baste the yolk too or flip the egg for the last 30 seconds."
+  },
+  {
+    "slug": "scrambled-eggs-with-tomatoes",
+    "title": "Scrambled eggs with tomatoes",
+    "course": "almusal",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "egg",
+      "tomato",
+      "onion",
+      "garlic"
+    ],
+    "prep": 10,
+    "cook": 10,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Soft scrambled eggs folded into tomatoes sautéed with garlic and onion until jammy. Juicy and slightly tangy, it is a cheap, quick breakfast with rice or pandesal.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "medium tomatoes",
+            "note": "diced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "medium onion",
+            "note": "chopped"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "green onion",
+            "note": "sliced, optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Beat the eggs with half the salt and the pepper.",
+        "minutes": null
+      },
+      {
+        "text": "Heat the oil in a skillet over medium heat. Sauté the garlic until fragrant, then the onion until soft.",
+        "minutes": 2
+      },
+      {
+        "text": "Add the tomatoes and the rest of the salt and cook, pressing them with the spatula, until they soften into a chunky sauce.",
+        "minutes": 4
+      },
+      {
+        "text": "Pour in the eggs, let them set for a few seconds, then stir gently into large, soft curds. Take the pan off the heat while they still look slightly wet.",
+        "minutes": 2
+      },
+      {
+        "text": "Scatter with green onion and serve with rice or pandesal.",
+        "minutes": null
+      }
+    ],
+    "tips": "Ripe, soft tomatoes give the best sauce. If yours are firm, add a splash of water and cook them a minute longer."
+  },
+  {
+    "slug": "chicken-tapa",
+    "title": "Chicken tapa",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "chicken",
+      "soy sauce",
+      "calamansi",
+      "garlic",
+      "brown sugar"
+    ],
+    "prep": 75,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thin strips of boneless chicken thigh marinated like beef tapa in soy sauce, calamansi, garlic and sugar, then cooked down and fried until glazed. Sweet, salty and tender, and quicker to cook than beef.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 600,
+            "max": null,
+            "unit": "g",
+            "name": "boneless, skinless chicken thighs",
+            "note": "sliced into thin strips"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "brown sugar",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Slice the chicken across the grain into strips about 5 mm thick, trimming off large pieces of fat.",
+        "minutes": null
+      },
+      {
+        "text": "Mix the soy sauce, calamansi juice, garlic, sugar and pepper. Add the chicken, toss well, cover and refrigerate for at least 1 hour.",
+        "minutes": 60
+      },
+      {
+        "text": "Put the chicken, its marinade and the water in a wide skillet over medium heat. Simmer, stirring now and then, until the liquid evaporates and the chicken is cooked through.",
+        "minutes": 8
+      },
+      {
+        "text": "Add the oil and fry, turning, until the strips are glazed and browned at the edges.",
+        "minutes": 4
+      },
+      {
+        "text": "Serve with garlic rice, a fried egg and spiced vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "Marinate up to overnight, but not longer: the calamansi starts to soften the chicken. Marinated raw tapa freezes well for a month."
+  },
+  {
+    "slug": "embosilog",
+    "title": "Embosilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "egg",
+      "rice",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 20,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Thick slices of embutido, the steamed Filipino pork meatloaf, fried until browned at the edges and served with garlic fried rice and a fried egg. A good way to use up embutido left from a party.",
+    "groups": [
+      {
+        "title": "For the embutido",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "cooked pork embutido roll",
+            "note": "about 400 g, chilled"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "banana ketchup",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Unwrap the cold embutido and cut it into slices about 1.5 cm thick. Cold embutido slices cleanly; warm embutido crumbles.",
+        "minutes": null
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot. Keep warm.",
+        "minutes": 8
+      },
+      {
+        "text": "Heat the oil in a nonstick skillet over medium heat and fry the slices until browned on both sides and hot in the middle.",
+        "minutes": 5
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve the embutido with the rice, eggs and banana ketchup.",
+        "minutes": null
+      }
+    ],
+    "tips": "Frozen embutido can be sliced while still half frozen; fry it over medium-low with a lid for a few minutes so the center heats through."
+  },
+  {
+    "slug": "chorizo-de-cebu",
+    "title": "Chorizo de Cebu",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "brown sugar",
+      "garlic",
+      "annatto"
+    ],
+    "prep": 75,
+    "cook": 20,
+    "servings": 30,
+    "yield_label": "links",
+    "difficulty": "involved",
+    "intro": "Small, round, sweet pork sausages tinted red with annatto and seasoned with garlic, sugar and pepper. They fry up sticky and caramelized, and are eaten with rice and a fried egg.",
+    "groups": [
+      {
+        "title": "For the filling",
+        "items": [
+          {
+            "qty": 800,
+            "max": null,
+            "unit": "g",
+            "name": "coarsely ground pork shoulder",
+            "note": ""
+          },
+          {
+            "qty": 200,
+            "max": null,
+            "unit": "g",
+            "name": "pork back fat",
+            "note": "cut into 5 mm cubes"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "annatto powder",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "paprika",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cane vinegar",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For stuffing",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "meters hog casing",
+            "note": "about 32 mm wide"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "",
+            "name": "kitchen twine",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To cook 10 links",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the salt off the casing and soak it in warm water, then flush the inside with running water.",
+        "minutes": 30
+      },
+      {
+        "text": "Mix the ground pork, back fat, sugar, garlic, annatto, paprika, salt, pepper and vinegar until evenly red and sticky.",
+        "minutes": null
+      },
+      {
+        "text": "Fry a teaspoon of the filling and taste; it should be clearly sweet with enough salt to balance.",
+        "minutes": 2
+      },
+      {
+        "text": "Fill the casing firmly with a sausage stuffer or funnel. Twist every 3 to 4 cm so each link forms a small, round ball, and tie between the links with twine.",
+        "minutes": null
+      },
+      {
+        "text": "Prick any air pockets and refrigerate the links uncovered on a tray overnight. Freeze what you will not cook within 3 days.",
+        "minutes": null
+      },
+      {
+        "text": "To cook, simmer 10 links in the water in a covered skillet over medium heat, then uncover and cook until the water is gone.",
+        "minutes": 8
+      },
+      {
+        "text": "Add the oil and fry over <strong>medium-low</strong> heat, rolling the links, until browned and glazed. Serve with rice and fried eggs.",
+        "minutes": 6
+      }
+    ],
+    "tips": "The sugar makes these scorch quickly. Keep the heat low once the water is gone, and cut one link open to check it is cooked through."
+  },
+  {
+    "slug": "pandesal-with-sardines",
+    "title": "Pandesal with sardines",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "canned sardines",
+      "bread",
+      "onion",
+      "tomato",
+      "garlic"
+    ],
+    "prep": 5,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Canned sardines sautéed with garlic, onion and tomato until thick and almost dry, then mashed and stuffed into warm pandesal. Savory, a little tangy and a classic pantry breakfast.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "cans sardines in tomato sauce",
+            "note": "155 g each"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small onion",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "medium tomato",
+            "note": "chopped"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "calamansi juice",
+            "note": "optional"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a skillet over medium heat. Sauté the garlic until fragrant, then the onion and tomato until soft.",
+        "minutes": 4
+      },
+      {
+        "text": "Add the sardines with their sauce and mash them with the spatula. Cook, stirring, until most of the sauce has cooked off and the mixture is thick enough to hold on a spoon.",
+        "minutes": 6
+      },
+      {
+        "text": "Take off the heat, stir in the calamansi juice and pepper and taste for salt.",
+        "minutes": null
+      },
+      {
+        "text": "Warm the pandesal in an oven toaster, split each roll and fill with the sardines.",
+        "minutes": 3
+      }
+    ],
+    "tips": "Cooking the filling until it is almost dry keeps the bread from turning soggy. Spicy sardines work well here too."
+  },
+  {
+    "slug": "chicken-spread-pandesal",
+    "title": "Chicken spread pandesal",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "chicken",
+      "cheese",
+      "bread",
+      "onion"
+    ],
+    "prep": 15,
+    "cook": 25,
+    "servings": 6,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Poached chicken shredded fine and mixed with mayonnaise, sweet pickle relish, grated cheese and onion, spread into soft pandesal. Creamy, mild and slightly sweet, it keeps for a few days in the fridge.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 400,
+            "max": null,
+            "unit": "g",
+            "name": "boneless, skinless chicken breast",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": "for the poaching water"
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "mayonnaise",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sweet pickle relish",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated cheddar or processed cheese",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small onion",
+            "note": "very finely minced"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 12,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chicken in a pot, cover with water by 2 cm and add the salt. Bring to a boil, then lower the heat and simmer gently until cooked through.",
+        "minutes": 15
+      },
+      {
+        "text": "Let the chicken cool in the water so it stays moist, then drain.",
+        "minutes": 10
+      },
+      {
+        "text": "Shred the chicken very finely with two forks, or pulse it a few times in a food processor.",
+        "minutes": null
+      },
+      {
+        "text": "Mix in the mayonnaise, relish, cheese, onion and pepper. Taste and adjust the salt.",
+        "minutes": null
+      },
+      {
+        "text": "Split the pandesal and spread generously with the chicken mixture.",
+        "minutes": null
+      }
+    ],
+    "tips": "Keep the spread covered in the fridge for up to 3 days. Save the poaching liquid for lugaw or soup."
+  },
+  {
+    "slug": "siomaisilog",
+    "title": "Siomaisilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "ground pork",
+      "egg",
+      "rice",
+      "garlic",
+      "soy sauce",
+      "calamansi"
+    ],
+    "prep": 5,
+    "cook": 25,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Steamed pork siomai served with garlic fried rice, a fried egg and a dip of soy sauce, calamansi and chili garlic oil. Juicy dumplings and crisp rice make an easy, filling plate.",
+    "groups": [
+      {
+        "title": "For the siomai",
+        "items": [
+          {
+            "qty": 16,
+            "max": null,
+            "unit": "",
+            "name": "frozen pork siomai",
+            "note": "homemade or store-bought"
+          }
+        ]
+      },
+      {
+        "title": "For the dip",
+        "items": [
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "soy sauce",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "calamansi",
+            "note": "halved"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "chili garlic oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring water to a boil in a steamer. Line the basket with lightly oiled parchment or cabbage leaves and arrange the siomai with space between them.",
+        "minutes": null
+      },
+      {
+        "text": "Steam the siomai from frozen, covered, until hot all the way through.",
+        "minutes": 15
+      },
+      {
+        "text": "While they steam, make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Divide the soy sauce into small dishes, squeeze in the calamansi and add chili garlic oil to taste. Serve four siomai per plate with rice, an egg and the dip.",
+        "minutes": null
+      }
+    ],
+    "tips": "For crisp-bottomed siomai, fry the steamed dumplings flat side down in a little oil for 2 minutes before serving."
+  },
+  {
+    "slug": "homemade-liver-spread",
+    "title": "Homemade liver spread",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "chicken liver",
+      "butter",
+      "onion",
+      "garlic",
+      "evaporated milk"
+    ],
+    "prep": 10,
+    "cook": 15,
+    "servings": 2,
+    "yield_label": "jars",
+    "difficulty": "medium",
+    "intro": "Chicken livers cooked in butter with onion and garlic, then blended with a little evaporated milk into a smooth, savory spread. Rich and slightly sweet, it is made for warm pandesal.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 500,
+            "max": null,
+            "unit": "g",
+            "name": "chicken livers",
+            "note": "trimmed of sinew and green spots"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "butter",
+            "note": "divided"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "medium onion",
+            "note": "chopped"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "chopped"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaf",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "evaporated milk",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pat the livers dry and cut any large lobes in half so they cook evenly.",
+        "minutes": null
+      },
+      {
+        "text": "Melt half the butter in a skillet over medium heat. Cook the onion, garlic and bay leaf until the onion is soft.",
+        "minutes": 3
+      },
+      {
+        "text": "Add the livers and cook, turning, until browned outside and just faintly pink in the center.",
+        "minutes": 6
+      },
+      {
+        "text": "Pour in the evaporated milk, add the sugar, salt and pepper and simmer until the livers are cooked through. Remove the bay leaf.",
+        "minutes": 2
+      },
+      {
+        "text": "Blend everything with the remaining butter until completely smooth. Taste and adjust the salt.",
+        "minutes": null
+      },
+      {
+        "text": "Pack into two clean 250 ml jars, press plastic wrap onto the surface and chill for at least 2 hours, until firm.",
+        "minutes": null
+      },
+      {
+        "text": "Spread on warm pandesal or crackers.",
+        "minutes": null
+      }
+    ],
+    "tips": "Overcooked livers turn grainy and bitter: take them off the heat while the centers are still slightly pink. The spread keeps for 5 days in the fridge."
+  },
+  {
+    "slug": "matamis-na-bao",
+    "title": "Matamis na bao",
+    "course": "almusal",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "coconut milk",
+      "muscovado",
+      "pandan"
+    ],
+    "prep": 5,
+    "cook": 80,
+    "servings": 2,
+    "yield_label": "jars",
+    "difficulty": "medium",
+    "intro": "A thick, dark coconut jam made by slowly cooking coconut milk with muscovado until it turns into a glossy caramel spread. Sweet, nutty and rich, it is spread on warm pandesal for breakfast or merienda.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "coconut milk",
+            "note": "fresh or canned"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "muscovado or dark brown sugar",
+            "note": "packed"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "pandan leaf",
+            "note": "knotted, optional"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combine the coconut milk, sugar, pandan and salt in a wide, heavy pan. Bring to a boil over medium heat, stirring until the sugar dissolves.",
+        "minutes": 5
+      },
+      {
+        "text": "Lower the heat to medium-low and simmer, stirring every few minutes and scraping the bottom and sides, as it slowly darkens and thickens.",
+        "minutes": 60
+      },
+      {
+        "text": "When it turns thick and glossy, stir constantly so it does not catch. It is done when a spoon drawn across the bottom leaves a clear path for a second or two.",
+        "minutes": 15
+      },
+      {
+        "text": "Remove the pandan. Let the jam cool for 10 minutes; it thickens further as it cools.",
+        "minutes": 10
+      },
+      {
+        "text": "Spoon into two clean 250 ml jars. Serve on warm pandesal or with rice cakes.",
+        "minutes": null
+      }
+    ],
+    "tips": "If oil separates on top while cooking, keep stirring: it means the jam is nearly done. Store in the fridge for up to 3 weeks and warm a spoonful to soften it."
+  },
+  {
+    "slug": "litsilog",
+    "title": "Litsilog",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "pork belly",
+      "garlic",
+      "vinegar",
+      "egg",
+      "rice"
+    ],
+    "prep": 15,
+    "cook": 75,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "involved",
+    "intro": "Lechon kawali, pork belly boiled until tender and deep-fried until the skin blisters and crackles, served with garlic fried rice, a fried egg and spiced vinegar. Crunchy, rich and best for a slow weekend breakfast.",
+    "groups": [
+      {
+        "title": "For the lechon kawali",
+        "items": [
+          {
+            "qty": 800,
+            "max": null,
+            "unit": "g",
+            "name": "skin-on pork belly",
+            "note": "in one or two slabs"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "salt",
+            "note": "for boiling, plus 1 tsp for the skin"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "head garlic",
+            "note": "halved crosswise"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "",
+            "name": "dried bay leaves",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "whole black peppercorns",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for deep frying"
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": "with chopped onion, garlic and chili"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the pork in a pot with the salt, garlic, bay leaves and peppercorns and cover with water. Bring to a boil, skim, then simmer until a knife slides easily into the meat.",
+        "minutes": 40
+      },
+      {
+        "text": "Drain the pork and pat it completely dry. Rub the skin with 1 teaspoon of salt and let it air-dry on a rack, skin side up, while it cools.",
+        "minutes": 20
+      },
+      {
+        "text": "Heat the oil in a deep, heavy pot to 180°C (350°F). Lower the pork in carefully, skin side down, and partly cover with a lid or splatter guard: it will pop. Fry until the skin is blistered and deep golden.",
+        "minutes": 10
+      },
+      {
+        "text": "Drain on a rack for 5 minutes, then chop into bite-size pieces with a heavy knife.",
+        "minutes": 5
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set. Serve the lechon kawali with the rice, eggs and spiced vinegar.",
+        "minutes": 3
+      }
+    ],
+    "tips": "For the crispiest skin, boil the pork the night before and leave it uncovered in the fridge overnight so the skin dries out. Leftovers re-crisp in a hot oven or air fryer."
+  },
+  {
+    "slug": "pandesal-with-kesong-puti",
+    "title": "Pandesal with kesong puti",
+    "course": "almusal",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "bread",
+      "cheese",
+      "butter",
+      "tomato"
+    ],
+    "prep": 5,
+    "cook": 5,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Warm pandesal split and buttered, then filled with soft, salty kesong puti and slices of ripe tomato. Milky, salty and fresh, it is a simple breakfast with hot coffee.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          },
+          {
+            "qty": 200,
+            "max": null,
+            "unit": "g",
+            "name": "kesong puti",
+            "note": "sliced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "butter",
+            "note": "softened"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "medium tomatoes",
+            "note": "thinly sliced, optional"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the pandesal in an oven toaster or a dry covered pan over low heat until the crust is crisp again.",
+        "minutes": 4
+      },
+      {
+        "text": "Split each roll, keeping one side attached, and spread the inside with butter.",
+        "minutes": null
+      },
+      {
+        "text": "Tuck in slices of kesong puti and tomato, add a pinch of pepper and eat while the bread is warm.",
+        "minutes": null
+      }
+    ],
+    "tips": "Kesong puti is fresh cheese: keep it in its liquid in the fridge and eat it within a few days."
+  },
+  {
+    "slug": "egg-salad-pandesal",
+    "title": "Egg salad pandesal",
+    "course": "almusal",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "egg",
+      "bread",
+      "onion"
+    ],
+    "prep": 10,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Chopped boiled eggs mixed with mayonnaise, sweet pickle relish and onion, spooned into soft pandesal. Creamy and a little sweet, it is the classic Filipino egg sandwich.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "mayonnaise",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sweet pickle relish",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small onion",
+            "note": "very finely minced"
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the eggs in a pot and cover with cold water by 2 cm. Bring to a boil, then cover, take off the heat and let stand.",
+        "minutes": 10
+      },
+      {
+        "text": "Move the eggs to a bowl of ice water to cool, then peel and chop them.",
+        "minutes": 5
+      },
+      {
+        "text": "Mix the chopped eggs with the mayonnaise, relish, onion, salt and pepper. Taste and adjust.",
+        "minutes": null
+      },
+      {
+        "text": "Split the pandesal and fill each with a generous spoonful of egg salad.",
+        "minutes": null
+      }
+    ],
+    "tips": "The filling keeps for 2 days in a covered container in the fridge; fill the bread just before eating so it stays soft, not soggy."
+  },
+  {
+    "slug": "corned-beef-pandesal",
+    "title": "Corned beef pandesal",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "corned beef",
+      "bread",
+      "onion",
+      "garlic",
+      "cheese"
+    ],
+    "prep": 5,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Hot pandesal stuffed with corned beef sautéed with garlic and onion until dry and browned, with a slice of cheese melting into it. Salty, savory and easy to eat on the way out the door.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can corned beef",
+            "note": "260 g"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small onion",
+            "note": "minced"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "slices processed cheese",
+            "note": "halved, optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a skillet over medium heat. Sauté the garlic until fragrant and the onion until soft.",
+        "minutes": 3
+      },
+      {
+        "text": "Add the corned beef, break it up and cook, stirring now and then, until the moisture is gone and some bits are browned. A drier filling will not soak the bread.",
+        "minutes": 6
+      },
+      {
+        "text": "Warm the pandesal in an oven toaster or covered pan, then split each roll.",
+        "minutes": 3
+      },
+      {
+        "text": "Lay a half slice of cheese in each roll and spoon in the hot corned beef so the cheese softens.",
+        "minutes": null
+      }
+    ],
+    "tips": "Leftover ginisang corned beef with potatoes works as a filling too; mash the potatoes lightly first."
+  },
+  {
+    "slug": "tuna-spread-pandesal",
+    "title": "Tuna spread pandesal",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "tuna",
+      "bread",
+      "onion",
+      "carrot"
+    ],
+    "prep": 10,
+    "cook": 4,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Canned tuna mixed with mayonnaise, pickle relish, onion and a little grated carrot, spread into warm pandesal. Creamy, slightly sweet and a quick make-ahead breakfast or baon.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "cans tuna in water",
+            "note": "155 g each, well drained"
+          },
+          {
+            "qty": 0.333,
+            "max": null,
+            "unit": "cup",
+            "name": "mayonnaise",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "sweet pickle relish",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small onion",
+            "note": "very finely minced"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "small carrot",
+            "note": "finely grated, optional"
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt and ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Press the tuna in a sieve to squeeze out the liquid, then flake it finely in a bowl.",
+        "minutes": null
+      },
+      {
+        "text": "Mix in the mayonnaise, relish, onion and carrot. Season with salt and pepper.",
+        "minutes": null
+      },
+      {
+        "text": "Warm the pandesal in an oven toaster until the crust crisps.",
+        "minutes": 4
+      },
+      {
+        "text": "Split the rolls and fill with the tuna spread.",
+        "minutes": null
+      }
+    ],
+    "tips": "The spread keeps for 2 days in the fridge. Squeeze the tuna well, or the filling turns watery."
+  },
+  {
+    "slug": "egg-and-cheese-pandesal",
+    "title": "Egg and cheese pandesal",
+    "course": "almusal",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "egg",
+      "cheese",
+      "bread",
+      "butter"
+    ],
+    "prep": 5,
+    "cook": 8,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Soft scrambled eggs cooked in butter with grated cheese folded in, tucked into warm pandesal. Creamy, salty and done in about 15 minutes.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "evaporated milk",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt and ground black pepper",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "butter",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "grated cheddar or processed cheese",
+            "note": ""
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Beat the eggs with the evaporated milk, salt and pepper. Warm the pandesal in an oven toaster.",
+        "minutes": 3
+      },
+      {
+        "text": "Melt the butter in a nonstick skillet over medium-low heat. Pour in the eggs and stir slowly with a spatula until large, soft curds form.",
+        "minutes": 3
+      },
+      {
+        "text": "While the eggs still look a little wet, scatter in the cheese, fold once or twice and take the pan off the heat.",
+        "minutes": null
+      },
+      {
+        "text": "Split the pandesal and fill each with the eggs. Eat right away.",
+        "minutes": null
+      }
+    ],
+    "tips": "Use low heat and pull the eggs off early: they keep cooking in the hot bread."
+  },
+  {
+    "slug": "spam-and-egg-pandesal",
+    "title": "Spam and egg pandesal",
+    "course": "almusal",
+    "diets": [],
+    "key_ingredients": [
+      "spam",
+      "egg",
+      "bread"
+    ],
+    "prep": 5,
+    "cook": 15,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "easy",
+    "intro": "Warm pandesal filled with a crisp slice of fried Spam and a folded thin omelet. Salty, soft and easy to wrap for breakfast on the go.",
+    "groups": [
+      {
+        "title": "",
+        "items": [
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "",
+            "name": "can Spam",
+            "note": "340 g, cut into 8 thin slices"
+          },
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "pinch",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 8,
+            "max": null,
+            "unit": "",
+            "name": "pandesal",
+            "note": ""
+          },
+          {
+            "qty": null,
+            "max": null,
+            "unit": "to-taste",
+            "name": "banana ketchup",
+            "note": "optional"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fry the Spam slices in a dry nonstick skillet over medium heat until browned on both sides. Set aside.",
+        "minutes": 6
+      },
+      {
+        "text": "Beat the eggs with a pinch of salt. Heat the oil in the same skillet over medium-low heat, pour in half the eggs and swirl into a thin omelet. Cook until set, then fold and cut into 4. Repeat with the rest.",
+        "minutes": 4
+      },
+      {
+        "text": "Warm the pandesal in an oven toaster and split each roll.",
+        "minutes": 3
+      },
+      {
+        "text": "Fill each roll with a slice of Spam and a piece of omelet, with a little ketchup if you like.",
+        "minutes": null
+      }
+    ],
+    "tips": "Thin slices fit pandesal better and crisp faster than the thick cut used for spamsilog."
+  },
+  {
+    "slug": "hotcake-with-margarine-and-sugar",
+    "title": "Hotcake with margarine and sugar",
+    "course": "almusal",
+    "diets": [
+      "vegetarian"
+    ],
+    "key_ingredients": [
+      "flour",
+      "egg",
+      "evaporated milk"
+    ],
+    "prep": 10,
+    "cook": 25,
+    "servings": 10,
+    "yield_label": "hotcakes",
+    "difficulty": "easy",
+    "intro": "Thick, soft Filipino-style hotcakes spread with margarine while hot and sprinkled with white sugar until it crunches. Simple, sweet and buttery, the way they are sold by street vendors and made at home.",
+    "groups": [
+      {
+        "title": "For the batter",
+        "items": [
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "cup",
+            "name": "all-purpose flour",
+            "note": ""
+          },
+          {
+            "qty": 0.25,
+            "max": null,
+            "unit": "cup",
+            "name": "sugar",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tbsp",
+            "name": "baking powder",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "cup",
+            "name": "evaporated milk",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "water",
+            "note": ""
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "margarine",
+            "note": "melted, plus more for the pan"
+          },
+          {
+            "qty": 1,
+            "max": null,
+            "unit": "tsp",
+            "name": "vanilla extract",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "margarine",
+            "note": "softened"
+          },
+          {
+            "qty": 3,
+            "max": null,
+            "unit": "tbsp",
+            "name": "white sugar",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk the flour, sugar, baking powder and salt in a bowl.",
+        "minutes": null
+      },
+      {
+        "text": "In another bowl, whisk the eggs, evaporated milk, water, melted margarine and vanilla.",
+        "minutes": null
+      },
+      {
+        "text": "Pour the wet mix into the dry and stir just until no dry flour shows; a few lumps are fine. Let the batter rest.",
+        "minutes": 5
+      },
+      {
+        "text": "Heat a nonstick skillet over medium-low heat and wipe it with a little margarine. Pour in 0.333 cup of batter per hotcake.",
+        "minutes": null
+      },
+      {
+        "text": "Cook until bubbles cover the top and the edges look dry, then flip and cook until the second side is golden.",
+        "minutes": 4
+      },
+      {
+        "text": "Spread each hotcake with margarine while hot and sprinkle with sugar. Repeat with the remaining batter and serve warm.",
+        "minutes": null
+      }
+    ],
+    "tips": "Keep the heat at medium-low: hotcakes are thick and need time to cook through before the outside browns too much."
+  },
+  {
+    "slug": "tilapsilog",
+    "title": "Tilapsilog",
+    "course": "almusal",
+    "diets": [
+      "pescatarian"
+    ],
+    "key_ingredients": [
+      "tilapia",
+      "garlic",
+      "vinegar",
+      "egg",
+      "rice"
+    ],
+    "prep": 20,
+    "cook": 35,
+    "servings": 4,
+    "yield_label": "",
+    "difficulty": "medium",
+    "intro": "Whole tilapia rubbed with salt and fried until the skin is crisp and the flesh flaky, with garlic fried rice, a fried egg and spiced vinegar. Mild fish with a crunchy crust.",
+    "groups": [
+      {
+        "title": "For the tilapia",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "small tilapia",
+            "note": "about 250 g each, scaled and cleaned"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          },
+          {
+            "qty": 0.75,
+            "max": null,
+            "unit": "cup",
+            "name": "cooking oil",
+            "note": "for frying"
+          }
+        ]
+      },
+      {
+        "title": "For the garlic rice",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "cup",
+            "name": "day-old cooked rice",
+            "note": ""
+          },
+          {
+            "qty": 6,
+            "max": null,
+            "unit": "clove",
+            "name": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          },
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "tsp",
+            "name": "salt",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "For the eggs",
+        "items": [
+          {
+            "qty": 4,
+            "max": null,
+            "unit": "",
+            "name": "eggs",
+            "note": ""
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "tbsp",
+            "name": "cooking oil",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "title": "To serve",
+        "items": [
+          {
+            "qty": 0.5,
+            "max": null,
+            "unit": "cup",
+            "name": "cane vinegar",
+            "note": "with crushed garlic and chili"
+          },
+          {
+            "qty": 2,
+            "max": null,
+            "unit": "",
+            "name": "tomatoes",
+            "note": "sliced"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pat the fish completely dry inside and out. Make three diagonal cuts on each side and rub the salt into the cuts and cavity. Let stand for 10 minutes, then pat dry again.",
+        "minutes": 10
+      },
+      {
+        "text": "Heat the oil in a wide skillet over medium-high heat until shimmering. Fry two fish at a time without moving them until the underside is golden and crisp.",
+        "minutes": 6
+      },
+      {
+        "text": "Turn carefully with two spatulas and fry the second side until crisp and the flesh flakes at the thickest part. Drain and repeat with the other two fish.",
+        "minutes": 5
+      },
+      {
+        "text": "Make the garlic rice: break up the cold rice with wet hands. Heat the oil and garlic in a wok over medium-low heat until golden, add the rice and salt, raise the heat and toss until hot.",
+        "minutes": 8
+      },
+      {
+        "text": "Fry the eggs in the oil over medium heat until the whites are set.",
+        "minutes": 3
+      },
+      {
+        "text": "Serve one fish per plate with rice, an egg, tomatoes and the spiced vinegar.",
+        "minutes": null
+      }
+    ],
+    "tips": "The drier the fish, the less it sticks and spatters. Do not try to flip it until the skin releases on its own."
+  }
+]
