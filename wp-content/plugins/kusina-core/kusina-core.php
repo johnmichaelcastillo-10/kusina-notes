@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Kusina Core
  * Description:       Recipes for the Kusina Notes theme: post type, taxonomies and recipe meta.
- * Version:           0.2.0
+ * Version:           0.3.0
  * Requires at least: 6.6
  * Requires PHP:      8.1
  * Author:            John Michael Castillo
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-const KUSINA_CORE_VERSION = '0.2.0';
+const KUSINA_CORE_VERSION = '0.3.0';
 
 require_once __DIR__ . '/includes/format.php';
 require_once __DIR__ . '/includes/schema.php';

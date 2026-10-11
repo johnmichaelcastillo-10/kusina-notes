@@ -1,14 +1,413 @@
 /* Recipe card, front end. Design direction: docs/SPEC.md, section 6. Theme presets with
    fallbacks so the card still reads without the Kusina Notes theme. */
 
-.recipe-card {
+.recipe-card,
+.cook-mode {
+	--kn-paper: var(--wp--preset--color--paper, #F7F2E8);
+	--kn-ink: var(--wp--preset--color--ink, #221C15);
 	--kn-ink-2: var(--wp--preset--color--ink-2, #5A5046);
 	--kn-accent: var(--wp--preset--color--annatto, #B4441C);
 	--kn-green: var(--wp--preset--color--calamansi, #5E7A2C);
 	--kn-paper-2: var(--wp--preset--color--paper-2, #EFE7D7);
 	--kn-line: color-mix(in srgb, currentColor 16%, transparent);
+	--kn-line-strong: color-mix(in srgb, currentColor 38%, transparent);
 	--kn-display: var(--wp--preset--font-family--display, Georgia, serif);
+}
+
+.recipe-card {
 	margin-block: 2.5rem;
+}
+
+/* view.js unhides its controls; display rules below must not beat the hidden attribute. */
+.recipe-card [hidden],
+.cook-mode [hidden] {
+	display: none !important;
+}
+
+.kn-visually-hidden {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* Buttons */
+
+.kn-btn,
+.kn-icon-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	min-height: 2.75rem;
+	padding: 0.5rem 1rem;
+	font: inherit;
+	font-size: 0.9375rem;
+	font-weight: 600;
+	line-height: 1.2;
+	color: inherit;
+	background: transparent;
+	border: 1px solid var(--kn-line-strong);
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.kn-btn:hover:not(:disabled),
+.kn-icon-btn:hover:not(:disabled) {
+	border-color: currentColor;
+}
+
+.kn-btn:disabled,
+.kn-icon-btn:disabled {
+	opacity: 0.4;
+	cursor: default;
+}
+
+.kn-btn-primary {
+	color: #fff;
+	background: var(--kn-accent);
+	border-color: var(--kn-accent);
+}
+
+.kn-btn-quiet {
+	border-color: transparent;
+}
+
+.kn-icon-btn {
+	width: 2.75rem;
+	padding: 0;
+	font-size: 1.25rem;
+	border-radius: 50%;
+}
+
+/* Scaler and unit switch */
+
+.recipe-scale {
+	display: grid;
+	gap: 0.875rem;
+	margin: 0 0 1.25rem;
+}
+
+.servings-stepper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.tool-label {
+	min-width: 3.5rem;
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--kn-ink-2);
+}
+
+.servings-input {
+	width: 3.5rem;
+	height: 2.75rem;
+	box-sizing: border-box;
+	font: inherit;
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+	text-align: center;
+	color: inherit;
+	background: transparent;
+	border: 1px solid var(--kn-line-strong);
+	border-radius: 4px;
+	appearance: textfield;
+}
+
+.servings-input::-webkit-inner-spin-button,
+.servings-input::-webkit-outer-spin-button {
+	margin: 0;
+	-webkit-appearance: none;
+}
+
+.unit-switch {
+	display: inline-flex;
+	width: fit-content;
+	margin: 0;
+	padding: 0;
+	border: 1px solid var(--kn-line-strong);
+	border-radius: 4px;
+}
+
+.unit-switch label {
+	position: relative;
+	display: flex;
+}
+
+.unit-switch input {
+	position: absolute;
+	inset: 0;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.unit-switch span {
+	display: flex;
+	align-items: center;
+	min-height: 2.75rem;
+	padding: 0 0.875rem;
+	font-size: 0.875rem;
+	font-weight: 600;
+}
+
+.unit-switch label + label span {
+	border-inline-start: 1px solid var(--kn-line-strong);
+}
+
+.unit-switch input:checked + span {
+	color: var(--kn-paper);
+	background: var(--kn-ink);
+}
+
+.unit-switch input:focus-visible + span {
+	outline: 2px solid var(--kn-accent);
+	outline-offset: 2px;
+}
+
+.method-head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem 1rem;
+	margin-bottom: 1rem;
+}
+
+.method-head h2 {
+	margin: 0;
+}
+
+/* Cook mode: a full-screen modal dialog appended to <body> by view.js. */
+
+html:has(.cook-mode[open]) {
+	overflow: hidden;
+}
+
+.cook-mode {
+	position: fixed;
+	inset: 0;
+	width: 100%;
+	max-width: none;
+	height: 100%;
+	max-height: none;
+	margin: 0;
+	padding: 0;
+	color: var(--kn-ink);
+	background: var(--kn-paper);
+	border: 0;
+	font-family: var(--wp--preset--font-family--body, system-ui, sans-serif);
+}
+
+.cook-mode::backdrop {
+	background: var(--kn-paper);
+}
+
+.cook-mode-inner {
+	display: grid;
+	grid-template-areas: "head" "main" "timer" "running" "nav";
+	grid-template-rows: auto minmax(0, 1fr) auto auto auto;
+	gap: 1rem;
+	box-sizing: border-box;
+	height: 100%;
+	max-width: 72rem;
+	margin-inline: auto;
+	padding: max(1rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
+}
+
+.cook-head {
+	grid-area: head;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid var(--kn-line);
+}
+
+.cook-head-text {
+	flex: 1 1 12rem;
+	min-width: 0;
+}
+
+.cook-title,
+.cook-progress {
+	margin: 0;
+}
+
+.cook-title {
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--kn-ink-2);
+}
+
+.cook-progress {
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+}
+
+.cook-step {
+	grid-area: main;
+	overflow-y: auto;
+	touch-action: pan-y;
+}
+
+.cook-step .step-text {
+	margin: 0;
+	font-family: var(--kn-display);
+	font-size: clamp(1.5rem, 1.1rem + 2vw, 2.5rem);
+	line-height: 1.35;
+	text-wrap: pretty;
+}
+
+.cook-ingredients {
+	grid-area: main;
+	z-index: 1;
+	overflow-y: auto;
+	padding: 1rem;
+	background: var(--kn-paper-2);
+	border-radius: 4px;
+}
+
+.cook-ingredients h2 {
+	margin: 0 0 0.5rem;
+	font-family: var(--kn-display);
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.cook-ingredients h3 {
+	margin: 1rem 0 0.25rem;
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--kn-ink-2);
+}
+
+.cook-ingredients .ingredient-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.cook-ingredients .ingredient {
+	padding-block: 0.375rem;
+	border-bottom: 1px solid var(--kn-line);
+}
+
+.cook-ingredients .ingredient-qty {
+	font-weight: 600;
+}
+
+.cook-ingredients .ingredient-note {
+	color: var(--kn-ink-2);
+}
+
+.cook-timer {
+	grid-area: timer;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 0.75rem 1rem;
+	border: 1px solid var(--kn-line);
+	border-radius: 4px;
+}
+
+.cook-timer-display {
+	flex: 1 1 auto;
+	margin: 0;
+	font-size: 2.25rem;
+	font-weight: 600;
+	line-height: 1;
+	font-variant-numeric: tabular-nums;
+}
+
+.cook-timer[data-state="running"] .cook-timer-display {
+	color: var(--kn-green);
+}
+
+.cook-timer[data-state="done"] {
+	border-color: var(--kn-accent);
+}
+
+.cook-timer[data-state="done"] .cook-timer-display {
+	color: var(--kn-accent);
+}
+
+.cook-running {
+	grid-area: running;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.cook-chip {
+	min-height: 2.5rem;
+	padding: 0.25rem 0.875rem;
+	font: inherit;
+	font-size: 0.875rem;
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+	color: var(--kn-green);
+	background: transparent;
+	border: 1px solid currentColor;
+	border-radius: 999px;
+	cursor: pointer;
+}
+
+.cook-chip[data-state="done"] {
+	color: var(--kn-accent);
+}
+
+.cook-nav {
+	grid-area: nav;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 0.75rem;
+}
+
+.kn-btn-large {
+	min-height: 3.5rem;
+	font-size: 1.0625rem;
+}
+
+@media (min-width: 64rem) {
+	.cook-mode-inner {
+		grid-template-areas:
+			"head head"
+			"aside main"
+			"aside timer"
+			"aside running"
+			"aside nav";
+		grid-template-columns: 20rem minmax(0, 1fr);
+		column-gap: 2.5rem;
+		padding-inline: 2rem;
+	}
+
+	/* Wide screens have room for the ingredients next to the step: always shown. */
+	.cook-mode .cook-ingredients[hidden] {
+		display: block !important;
+	}
+
+	.cook-ingredients {
+		grid-area: aside;
+	}
+
+	.cook-ingredients-toggle {
+		display: none;
+	}
 }
 
 .recipe-card h2 {
@@ -186,6 +585,11 @@
 	.recipe-card {
 		color: #000;
 		background: #fff;
+	}
+
+	.recipe-scale,
+	[data-cook-open] {
+		display: none !important;
 	}
 
 	.recipe-body {
