@@ -36,8 +36,8 @@ Blog posts are off: no `post` archive, no comments anywhere.
 
 - **Post type `recipe`**: public, archive `recipes`, REST on, supports title, editor,
   excerpt, thumbnail, revisions. Scaffolded.
-- **Taxonomies** (hierarchical off, REST on): `course` (Breakfast, Ulam, Soup, Merienda,
-  Dessert, Drink), `diet` (Vegetarian, Pescatarian, Gluten-free, Dairy-free), `key_ingredient`
+- **Taxonomies** (hierarchical off, REST on): `course` (Tagalog: Ulam, Sabaw, Merienda,
+  Panghimagas, Almusal, Inumin; list and English glosses in `kusina_courses()`), `diet` (Vegetarian, Pescatarian, Gluten-free, Dairy-free), `key_ingredient`
   (chicken, pork, egg, tofu, rice, coconut milk, ...; feeds the pantry finder). Scaffolded.
 - **Meta** (registered, REST on, single): `prep_minutes` int, `cook_minutes` int,
   `servings` int (default 4), `yield_label` string (e.g. "pieces"), `difficulty`
@@ -110,7 +110,8 @@ recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModul
 Moved to [`DESIGN.md`](DESIGN.md): enamelware and palengke, a colour per course,
 Bricolage Grotesque + Atkinson Hyperlegible Next + Caveat, and the tita voice. The layout
 rule stays: one column on phones; on desktop the recipe card is two columns (ingredients
-sticky left, method right).
+left, method right). Ingredients are not sticky: a long list scrolled inside itself and got
+cut off on short screens.
 
 ## 7. Static hosting
 
@@ -142,20 +143,19 @@ Seeded by a WP-CLI `eval-file` script (`scripts/seed-content.php`), idempotent b
 1. **Done**: scaffold (Docker, theme that activates, content model).
 2. **Done**: recipe card block (editor UI, server render, JSON-LD), recipe details panel,
    chicken adobo seed.
-3. **Mostly done**: scaler and unit switch (tested); cook mode built, needs a browser test
-   pass (step navigation, swipe, timers incl. one finishing, wake lock, focus return on close,
-   390 px).
-4. **Next: theme in the new direction** (`DESIGN.md`): theme.json tokens (enamel, ink,
-   cobalt, course colours, dark mode), self-hosted fonts, header and footer (Custom HTML
-   patterns, no Navigation block), gingham pattern, market tags, `single-recipe.html` with
-   the course-colour band. Then **restyle the recipe card** (its `style.css` still uses the
-   old paper/annatto look) and cook mode to match. Course colour reaches the card via a
-   `course-<slug>` class on the page.
-5. Home, recipes index, taxonomy, pantry, list, about and 404 templates, written in the
-   voice.
+3. **Done**: scaler and unit switch; cook mode (browser-tested in Edge: keyboard through all
+   steps, two timers at once with chips, one finishing via a skewed clock, finish closes and
+   returns focus, Escape, phone layout and ingredients drawer). Wake lock: the API exists in
+   Edge, but whether a lock is granted wasn't verifiable headless; check on a phone.
+4. **Done**: theme in the new direction: theme.json tokens and course colours, dark mode,
+   self-hosted fonts, header/footer patterns, gingham, market tags (`kusina/recipe-tags`),
+   course chips (`kusina/course-chips`), templates for home, recipe, recipes index, course,
+   other taxonomies, page and 404, recipe card and cook mode restyled, emoji loader removed,
+   About page seeded. Checked at 1440 and 390 px, light and dark.
+5. Pantry and list pages (templates exist for everything else).
 6. JS: tick boxes, then the index route, filters, Bahala na, pantry, list.
 7. Seed the other 11 recipes and CC0 photos (overhead shots, for the plate crops).
-8. Exporter, CSP, emoji loader removal, Vercel project, `Deploy.cmd`.
+8. Exporter, CSP, Vercel project, `Deploy.cmd`.
 9. Add the project to the portfolio (screenshots 1920×1200 WebP).
 
 ## 10. Done means

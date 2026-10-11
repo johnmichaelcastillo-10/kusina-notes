@@ -1,8 +1,8 @@
 /*
 Theme Name:        Kusina Notes
 Author:            John Michael Castillo
-Description:       A recipe journal block theme. Pairs with the Kusina Core plugin for recipes.
-Version:           0.1.1
+Description:       A recipe journal block theme in enamelware and palengke colours. Pairs with the Kusina Core plugin for recipes.
+Version:           0.2.0
 Requires at least: 6.6
 Tested up to:      7.1
 Requires PHP:      8.1
@@ -10,18 +10,726 @@ License:           GPL-2.0-or-later
 Text Domain:       kusina-notes
 */
 
-/* Build plan and design direction: docs/SPEC.md at the repo root. Colour and type tokens
-   are theme.json presets (--wp--preset--*). */
+/* Look and voice: docs/DESIGN.md. Colour and type tokens are theme.json presets
+   (--wp--preset--*); dark mode, course colours and shape tokens live here because
+   theme.json can't express them. The recipe card and cook mode have their own styles in
+   the Kusina Core plugin and read the same tokens. */
+
+/* ---------- Tokens ---------- */
+
+:root {
+	--course: var(--wp--preset--color--cobalt);
+	--on-course: var(--wp--preset--color--on-cobalt);
+	--kn-rim: 3px;
+	--kn-basin: 20px;
+	--kn-plate: #FFFFFF;
+	--kn-plate-well: #F3F2EC;
+	--kn-tag-ink: #16213E;
+	--kn-line: color-mix(in srgb, var(--wp--preset--color--ink) 14%, transparent);
+	--kn-line-strong: color-mix(in srgb, var(--wp--preset--color--ink) 36%, transparent);
+	--kn-gingham: color-mix(in srgb, var(--wp--preset--color--cobalt) 30%, transparent);
+	--kn-gutter: 1.25rem;
+	--kn-hl: var(--wp--preset--color--ulam);
+}
+
+/* "Kitchen at night": navy enamel, the same course colours. :root:root outranks the
+   global-styles block, whichever order WordPress prints them in. */
+@media (prefers-color-scheme: dark) {
+	:root:root {
+		--wp--preset--color--enamel: #10162B;
+		--wp--preset--color--enamel-2: #19213D;
+		--wp--preset--color--ink: #F3F1EA;
+		--wp--preset--color--ink-2: #AEB5CC;
+		--wp--preset--color--cobalt: #93A9FF;
+		--wp--preset--color--on-cobalt: #10162B;
+		--kn-plate: #F6F4EE;
+		--kn-plate-well: #E6E3D9;
+		--kn-hl: #F0644C; /* tomato is 3.5:1 on navy; this is 5.7:1 */
+		color-scheme: dark;
+	}
+}
+
+/* Each course owns a colour; the text colour on it is fixed (contrast in DESIGN.md).
+   Set on <body> for a recipe or course page, on Query Loop items, and on course chips. */
+.course-ulam { --course: var(--wp--preset--color--ulam); --on-course: #FFFFFF; }
+.course-sabaw { --course: var(--wp--preset--color--sabaw); --on-course: #FFFFFF; }
+.course-merienda { --course: var(--wp--preset--color--merienda); --on-course: #16213E; }
+.course-panghimagas { --course: var(--wp--preset--color--panghimagas); --on-course: #FFFFFF; }
+.course-almusal { --course: var(--wp--preset--color--almusal); --on-course: #16213E; }
+.course-inumin { --course: var(--wp--preset--color--inumin); --on-course: #16213E; }
+
+/* ---------- Base ---------- */
 
 body {
 	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+	font-stretch: 90%;
+	text-wrap: balance;
 }
 
 :where(a) {
-	text-underline-offset: 0.15em;
+	text-underline-offset: 0.18em;
+	text-decoration-thickness: 2px;
 }
 
-:where(a, button, input, select):focus-visible {
-	outline: 2px solid var(--wp--preset--color--annatto);
-	outline-offset: 2px;
+:where(a, button, input, select, summary):focus-visible {
+	outline: 3px solid var(--wp--preset--color--cobalt);
+	outline-offset: 3px;
+	border-radius: 2px;
+}
+
+/* Template parts and main sit flush: the colour bands start right under the header. */
+.wp-site-blocks > * + * {
+	margin-block-start: 0;
+}
+
+/* Groups below use grid/flex gaps, so flow-layout margins would double the spacing. */
+.hero-card > *,
+.tonight-card > *,
+.plate-card > *,
+.footer-card > *,
+.section > * {
+	margin-block: 0;
+}
+
+.eyebrow {
+	font-family: var(--wp--preset--font-family--display);
+	font-stretch: 75%;
+	font-weight: 800;
+	font-size: 0.875rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--ink-2);
+}
+
+.section {
+	display: grid;
+	gap: 1.5rem;
+	margin-block-start: 4rem;
+}
+
+.section-title {
+	font-size: var(--wp--preset--font-size--x-large);
+}
+
+.empty-note {
+	font-size: 1.125rem;
+	color: var(--wp--preset--color--ink-2);
+}
+
+/* ---------- Buttons ---------- */
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	min-height: 3rem;
+	padding: 0.5rem 1.4rem;
+	font-family: var(--wp--preset--font-family--body);
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.2;
+	color: var(--wp--preset--color--ink);
+	text-decoration: none;
+	background: transparent;
+	border: 2px solid var(--wp--preset--color--cobalt);
+	border-radius: 999px;
+	box-sizing: border-box;
+}
+
+.btn-primary {
+	color: var(--wp--preset--color--on-cobalt);
+	background: var(--wp--preset--color--cobalt);
+}
+
+.btn-on-band {
+	color: var(--on-course);
+	border-color: currentColor;
+}
+
+.btn:hover {
+	text-decoration: underline;
+}
+
+/* ---------- Gingham oilcloth (hero and footer only) ---------- */
+
+.gingham {
+	background-color: var(--wp--preset--color--enamel);
+	background-image:
+		linear-gradient(90deg, var(--kn-gingham) 50%, transparent 50%),
+		linear-gradient(var(--kn-gingham) 50%, transparent 50%);
+	background-size: 28px 28px;
+}
+
+/* ---------- Header ---------- */
+
+.site-masthead {
+	border-bottom: var(--kn-rim) solid var(--wp--preset--color--cobalt);
+}
+
+.site-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem 1.5rem;
+	max-width: var(--wp--style--global--wide-size);
+	margin-inline: auto;
+	padding: 0.875rem var(--kn-gutter);
+}
+
+.wordmark {
+	display: inline-flex;
+	align-items: baseline;
+	color: var(--wp--preset--color--ink);
+	text-decoration: none;
+}
+
+.wordmark-kusina {
+	font-family: var(--wp--preset--font-family--display);
+	font-size: 1.75rem;
+	font-weight: 800;
+	font-stretch: 88%;
+	letter-spacing: -0.03em;
+	line-height: 1;
+}
+
+.wordmark-notes {
+	display: inline-block;
+	margin-left: 0.2rem;
+	font-family: var(--wp--preset--font-family--hand);
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1;
+	color: var(--wp--preset--color--cobalt);
+	transform: rotate(-6deg) translateY(0.08em);
+}
+
+.site-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.site-nav a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 2.75rem;
+	padding: 0 1.1rem;
+	font-weight: 700;
+	color: var(--wp--preset--color--ink);
+	text-decoration: none;
+	border: 2px solid var(--wp--preset--color--cobalt);
+	border-radius: 999px;
+}
+
+.site-nav a:hover {
+	color: var(--wp--preset--color--on-cobalt);
+	background: var(--wp--preset--color--cobalt);
+}
+
+/* ---------- Market tags ---------- */
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 0.65rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tag {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.32rem 0.65rem 0.26rem;
+	font-family: var(--wp--preset--font-family--display);
+	font-size: 0.875rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	letter-spacing: 0.05em;
+	line-height: 1.1;
+	text-transform: uppercase;
+	color: var(--kn-tag-ink);
+	background: var(--wp--preset--color--cardboard);
+	border-radius: 3px 5px 4px 2px;
+	box-shadow: 1px 2px 0 rgb(22 33 62 / 0.28);
+}
+
+/* A fixed tilt per tag type, never random: pages and screenshots stay stable. */
+.tag-time { rotate: -3deg; }
+.tag-difficulty { rotate: 2deg; }
+.tag-servings { rotate: -1deg; }
+.tag-diet { rotate: 1.5deg; background: var(--wp--preset--color--inumin); }
+
+/* ---------- Course chips ---------- */
+
+.course-chips ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.65rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.course-chip {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.5rem;
+	min-height: 2.75rem;
+	padding: 0.55rem 1.15rem;
+	box-sizing: border-box;
+	color: var(--on-course);
+	text-decoration: none;
+	background: var(--course);
+	border: 2px solid var(--course);
+	border-radius: 999px;
+}
+
+.course-chip-name {
+	font-family: var(--wp--preset--font-family--display);
+	font-size: 1.125rem;
+	font-weight: 800;
+	font-stretch: 88%;
+	line-height: 1.1;
+}
+
+.course-chip-gloss {
+	font-size: 0.8125rem;
+	font-weight: 600;
+}
+
+.course-chip:hover .course-chip-name {
+	text-decoration: underline;
+}
+
+.course-chip[aria-current="page"] {
+	outline: 3px solid var(--wp--preset--color--ink);
+	outline-offset: 3px;
+}
+
+/* ---------- Plates ---------- */
+
+.plate {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	aspect-ratio: 1;
+	box-sizing: border-box;
+	border: 6px solid var(--wp--preset--color--cobalt);
+	border-radius: 50%;
+	/* No photo yet: the course colour sits on the plate like food. */
+	background: radial-gradient(circle, var(--course) 0 50%, transparent calc(50% + 1px)), var(--kn-plate);
+	box-shadow: inset 0 0 0 10px var(--kn-plate-well);
+}
+
+.plate .wp-block-post-featured-image {
+	position: absolute;
+	inset: 11%;
+	margin: 0;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.plate .wp-block-post-featured-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.plate-large {
+	max-width: 26rem;
+	margin-inline: auto;
+	border-width: 10px;
+	box-shadow: inset 0 0 0 14px var(--kn-plate-well);
+}
+
+/* The chip in the enamel: once, on the big plate. */
+.plate-large::after {
+	content: "";
+	position: absolute;
+	top: 8%;
+	right: 13%;
+	width: 24px;
+	height: 17px;
+	background: #16213E;
+	border-radius: 58% 42% 63% 37% / 45% 60% 40% 55%;
+	transform: rotate(28deg);
+}
+
+.plates .wp-block-post-template {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 9.5rem), 1fr));
+	gap: 2.25rem 1.25rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.plate-card {
+	position: relative;
+	display: grid;
+	gap: 0.75rem;
+	justify-items: center;
+	text-align: center;
+}
+
+.plate-title {
+	font-size: 1.25rem;
+	line-height: 1.1;
+}
+
+.plate-title a {
+	color: var(--wp--preset--color--ink);
+	text-decoration: none;
+}
+
+/* The whole card is the link. */
+.plate-title a::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+}
+
+.plate-card:hover .plate-title a {
+	text-decoration: underline;
+}
+
+.plate-card .tags {
+	justify-content: center;
+}
+
+.pagination {
+	margin-top: 2.5rem;
+	font-weight: 700;
+}
+
+/* ---------- Home hero ---------- */
+
+.hero {
+	padding-block: 3rem 3.5rem;
+	border-bottom: var(--kn-rim) solid var(--wp--preset--color--cobalt);
+}
+
+.hero-inner {
+	display: grid;
+	grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+	gap: 2.5rem;
+	align-items: center;
+}
+
+.hero-card {
+	display: grid;
+	gap: 1rem;
+	padding: 2rem 2rem 2.25rem;
+	background: var(--wp--preset--color--enamel);
+	border: var(--kn-rim) solid var(--wp--preset--color--cobalt);
+	border-radius: var(--kn-basin);
+}
+
+.hero-title {
+	font-size: var(--wp--preset--font-size--huge);
+	font-stretch: 88%;
+	line-height: 0.92;
+	letter-spacing: -0.035em;
+}
+
+.hero-title .hl {
+	color: var(--kn-hl);
+}
+
+.hero-lede {
+	max-width: 30ch;
+	font-size: 1.3rem;
+	line-height: 1.4;
+}
+
+.hero-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-top: 0.5rem;
+}
+
+.tonight .wp-block-post-template {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tonight-card {
+	position: relative;
+	display: grid;
+	gap: 0.6rem;
+	justify-items: center;
+	padding: 1.25rem;
+	text-align: center;
+	background: var(--wp--preset--color--enamel);
+	border: var(--kn-rim) solid var(--wp--preset--color--cobalt);
+	border-radius: var(--kn-basin);
+}
+
+.tonight-label {
+	margin-top: 0.5rem;
+}
+
+.tonight-title {
+	font-size: var(--wp--preset--font-size--large);
+}
+
+.tonight-title a {
+	color: var(--wp--preset--color--ink);
+	text-decoration: none;
+}
+
+.tonight-title a::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+}
+
+.tonight-card:hover .tonight-title a {
+	text-decoration: underline;
+}
+
+/* ---------- Colour bands (page heads, recipe heads) ---------- */
+
+/* Flow layout, not grid: grid plus the constrained layout's auto margins would centre and
+   shrink every child. */
+.page-band,
+.recipe-band {
+	padding-block: 2.5rem 3rem;
+	color: var(--on-course);
+	background: var(--course);
+}
+
+.page-band > *,
+.recipe-band > * {
+	margin-block: 0;
+}
+
+.page-band > * + *,
+.recipe-band > * + * {
+	margin-block-start: 1rem;
+}
+
+.page-band a:not(.course-chip, .btn) {
+	color: inherit;
+}
+
+.band-title {
+	font-size: var(--wp--preset--font-size--huge);
+	font-stretch: 88%;
+	line-height: 0.95;
+	letter-spacing: -0.03em;
+}
+
+.band-lede {
+	max-width: 46ch;
+	font-size: 1.2rem;
+}
+
+.band-lede p {
+	margin: 0;
+}
+
+.band-actions {
+	margin-top: 0.5rem;
+}
+
+.crumbs {
+	gap: 0.5rem;
+	font-size: 0.9375rem;
+	font-weight: 700;
+}
+
+.crumbs a,
+.recipe-band .wp-block-post-terms a {
+	color: inherit;
+}
+
+.crumb-sep {
+	opacity: 0.7;
+}
+
+/* The photo overlaps the band like a plate set on the table. */
+.recipe-page:has(.recipe-photo img) .recipe-band {
+	padding-bottom: 6.5rem;
+}
+
+.recipe-photo {
+	position: relative;
+	margin-top: -4.5rem !important;
+}
+
+.recipe-photo .wp-block-post-featured-image {
+	margin: 0;
+}
+
+.recipe-photo img {
+	border: var(--kn-rim) solid var(--wp--preset--color--cobalt);
+	border-radius: var(--kn-basin);
+}
+
+.recipe-photo:not(:has(img)) {
+	display: none;
+}
+
+.recipe-content {
+	margin-block-start: 2.5rem;
+}
+
+/* Text-width blocks (the intro) line up with the band title and the wide card on the left
+   edge of the wide column, instead of centring at text width. */
+.recipe-content > :not(.alignwide, .alignfull) {
+	margin-left: max(0px, (100% - var(--wp--style--global--wide-size)) / 2) !important;
+	margin-right: auto !important;
+}
+
+.recipe-content > p:first-child {
+	font-size: 1.2rem;
+	line-height: 1.55;
+}
+
+.page-content {
+	font-size: 1.125rem;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+	margin-top: 5rem;
+	padding-block: 2.5rem;
+	border-top: var(--kn-rim) solid var(--wp--preset--color--cobalt);
+}
+
+.footer-card {
+	display: grid;
+	gap: 1.5rem;
+	padding: 1.5rem 1.75rem;
+	background: var(--wp--preset--color--enamel);
+	border: var(--kn-rim) solid var(--wp--preset--color--cobalt);
+	border-radius: var(--kn-basin);
+}
+
+.footer-top {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 0.5rem 1.5rem;
+}
+
+.footer-line {
+	margin: 0;
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+
+.footer-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem 1.5rem;
+	padding-top: 1.25rem;
+	font-size: 0.9375rem;
+	color: var(--wp--preset--color--ink-2);
+	border-top: 1px solid var(--kn-line);
+}
+
+.footer-bottom p {
+	margin: 0;
+}
+
+.footer-links {
+	display: flex;
+	gap: 1.25rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-links a {
+	font-weight: 700;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 40rem) {
+	.plates .wp-block-post-template {
+		grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+		gap: 3rem 2rem;
+	}
+}
+
+@media (max-width: 56rem) {
+	.hero-inner {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.plate-large {
+		max-width: 18rem;
+	}
+}
+
+@media (max-width: 40rem) {
+	:root {
+		--kn-gutter: 1rem;
+	}
+
+	.hero {
+		padding-block: 1.5rem 2rem;
+	}
+
+	.hero-card {
+		padding: 1.5rem 1.25rem;
+	}
+
+	.wordmark-kusina,
+	.wordmark-notes {
+		font-size: 1.5rem;
+	}
+
+	.site-nav a {
+		padding: 0 0.9rem;
+	}
+
+	.plate-title {
+		font-size: 1.0625rem;
+	}
+
+	.tag {
+		font-size: 0.8125rem;
+	}
+}
+
+/* ---------- Print: the recipe, black on white ---------- */
+
+@media print {
+	.site-masthead,
+	.site-footer,
+	.recipe-band .tags,
+	.crumbs {
+		display: none !important;
+	}
+
+	.page-band,
+	.recipe-band {
+		padding: 0;
+		color: #000;
+		background: none;
+	}
+
+	.recipe-photo {
+		margin-top: 0 !important;
+	}
 }

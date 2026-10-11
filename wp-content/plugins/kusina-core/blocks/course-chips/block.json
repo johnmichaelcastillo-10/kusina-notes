@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kusina/course-chips",
+	"version": "0.4.0",
+	"title": "Course chips",
+	"category": "theme",
+	"icon": "carrot",
+	"description": "Links to every course, each in its own colour.",
+	"textdomain": "kusina-core",
+	"attributes": {
+		"showGloss": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide" ]
+	},
+	"editorScript": "kusina-simple-blocks-editor",
+	"render": "file:./render.php"
+}

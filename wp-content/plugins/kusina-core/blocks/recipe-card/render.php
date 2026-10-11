@@ -111,7 +111,7 @@ $kusina_qty_attr = static fn( ?float $value ): string => null === $value ? '' : 
 
 			<?php if ( '' !== $kusina_recipe['tips'] ) : ?>
 				<aside class="recipe-tips">
-					<h2><?php esc_html_e( 'Tips', 'kusina-core' ); ?></h2>
+					<h2><?php esc_html_e( 'Tita’s note', 'kusina-core' ); ?></h2>
 					<p><?php echo $kusina_recipe['tips']; // Filtered by wp_kses in kusina_normalize_recipe(). ?></p>
 				</aside>
 			<?php endif; ?>
@@ -127,7 +127,7 @@ $kusina_qty_attr = static fn( ?float $value ): string => null === $value ? '' : 
 				data-label-resume="<?php esc_attr_e( 'Resume', 'kusina-core' ); ?>"
 				data-label-done="<?php esc_attr_e( 'Done', 'kusina-core' ); ?>"
 				data-label-next="<?php esc_attr_e( 'Next step', 'kusina-core' ); ?>"
-				data-label-finish="<?php esc_attr_e( 'Finish', 'kusina-core' ); ?>"
+				data-label-finish="<?php esc_attr_e( 'Kain na!', 'kusina-core' ); ?>"
 				data-label-step="<?php /* translators: %s: step number */ echo esc_attr__( 'Step %s', 'kusina-core' ); ?>"
 				data-msg-done="<?php /* translators: %s: step number */ echo esc_attr__( 'Timer done for step %s', 'kusina-core' ); ?>"
 				data-title-done="<?php esc_attr_e( 'Timer done', 'kusina-core' ); ?>">

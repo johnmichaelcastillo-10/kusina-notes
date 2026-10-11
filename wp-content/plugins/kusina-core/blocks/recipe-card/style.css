@@ -1,17 +1,30 @@
-/* Recipe card, front end. Design direction: docs/SPEC.md, section 6. Theme presets with
-   fallbacks so the card still reads without the Kusina Notes theme. */
+/* Recipe card and cook mode, front end. Look: docs/DESIGN.md (enamelware and palengke).
+   Reads the Kusina Notes theme's presets and its --course / --on-course pair (set by the
+   course-<slug> class on <body>), with fallbacks so the card still works on another theme.
+   The recipe stays the plainest thing on the page: no decoration inside the ingredient
+   list or the method text. */
 
 .recipe-card,
 .cook-mode {
-	--kn-paper: var(--wp--preset--color--paper, #F7F2E8);
-	--kn-ink: var(--wp--preset--color--ink, #221C15);
-	--kn-ink-2: var(--wp--preset--color--ink-2, #5A5046);
-	--kn-accent: var(--wp--preset--color--annatto, #B4441C);
-	--kn-green: var(--wp--preset--color--calamansi, #5E7A2C);
-	--kn-paper-2: var(--wp--preset--color--paper-2, #EFE7D7);
-	--kn-line: color-mix(in srgb, currentColor 16%, transparent);
-	--kn-line-strong: color-mix(in srgb, currentColor 38%, transparent);
-	--kn-display: var(--wp--preset--font-family--display, Georgia, serif);
+	--kn-enamel: var(--wp--preset--color--enamel, #FBFAF6);
+	--kn-enamel-2: var(--wp--preset--color--enamel-2, #F0EEE6);
+	--kn-ink: var(--wp--preset--color--ink, #16213E);
+	--kn-ink-2: var(--wp--preset--color--ink-2, #4A5372);
+	--kn-cobalt: var(--wp--preset--color--cobalt, #1F3FA8);
+	--kn-on-cobalt: var(--wp--preset--color--on-cobalt, #FFFFFF);
+	--kn-course: var(--course, var(--kn-cobalt));
+	--kn-on-course: var(--on-course, var(--kn-on-cobalt));
+	--kn-running: #2B7A4B;
+	--kn-done: #C93A26;
+	--kn-note: #FFF8E3;
+	--kn-note-ink: #16213E;
+	--kn-line: color-mix(in srgb, currentColor 14%, transparent);
+	--kn-line-strong: color-mix(in srgb, currentColor 36%, transparent);
+	--kn-display: var(--wp--preset--font-family--display, "Arial Black", sans-serif);
+	--kn-body: var(--wp--preset--font-family--body, system-ui, sans-serif);
+	--kn-hand: var(--wp--preset--font-family--hand, cursive);
+	--kn-rim: 3px;
+	--kn-basin: 20px;
 }
 
 .recipe-card {
@@ -36,7 +49,28 @@
 	border: 0;
 }
 
-/* Buttons */
+.recipe-card h2 {
+	margin: 0 0 1rem;
+	font-family: var(--kn-display);
+	font-size: var(--wp--preset--font-size--large, 1.75rem);
+	font-weight: 800;
+	font-stretch: 90%;
+	letter-spacing: -0.02em;
+	line-height: 1;
+}
+
+.recipe-card h3 {
+	margin: 1.5rem 0 0.25rem;
+	font-family: var(--kn-display);
+	font-size: 0.875rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--kn-ink-2);
+}
+
+/* ---------- Buttons ---------- */
 
 .kn-btn,
 .kn-icon-btn {
@@ -45,22 +79,25 @@
 	justify-content: center;
 	gap: 0.5rem;
 	min-height: 2.75rem;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 1.15rem;
+	box-sizing: border-box;
 	font: inherit;
+	font-family: var(--kn-body);
 	font-size: 0.9375rem;
-	font-weight: 600;
+	font-weight: 700;
 	line-height: 1.2;
 	color: inherit;
 	background: transparent;
-	border: 1px solid var(--kn-line-strong);
-	border-radius: 4px;
+	border: 2px solid var(--kn-cobalt);
+	border-radius: 999px;
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 }
 
 .kn-btn:hover:not(:disabled),
 .kn-icon-btn:hover:not(:disabled) {
-	border-color: currentColor;
+	color: var(--kn-on-cobalt);
+	background: var(--kn-cobalt);
 }
 
 .kn-btn:disabled,
@@ -69,10 +106,15 @@
 	cursor: default;
 }
 
-.kn-btn-primary {
-	color: #fff;
-	background: var(--kn-accent);
-	border-color: var(--kn-accent);
+.kn-btn-primary,
+.kn-btn-primary:hover:not(:disabled) {
+	color: var(--kn-on-course);
+	background: var(--kn-course);
+	border-color: var(--kn-course);
+}
+
+.kn-btn-primary:hover:not(:disabled) {
+	text-decoration: underline;
 }
 
 .kn-btn-quiet {
@@ -82,11 +124,40 @@
 .kn-icon-btn {
 	width: 2.75rem;
 	padding: 0;
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 	border-radius: 50%;
 }
 
-/* Scaler and unit switch */
+/* ---------- Facts ---------- */
+
+.recipe-facts {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 0.875rem 1rem;
+	margin: 0 0 2.5rem;
+	padding: 1rem 1.25rem;
+	border: var(--kn-rim) solid var(--kn-cobalt);
+	border-radius: var(--kn-basin);
+}
+
+.recipe-fact dt {
+	font-family: var(--kn-display);
+	font-size: 0.8125rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--kn-ink-2);
+}
+
+.recipe-fact dd {
+	margin: 0;
+	font-size: 1.0625rem;
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Scaler and unit switch ---------- */
 
 .recipe-scale {
 	display: grid;
@@ -103,24 +174,29 @@
 
 .tool-label {
 	min-width: 3.5rem;
-	font-size: 0.75rem;
-	letter-spacing: 0.08em;
+	font-family: var(--kn-display);
+	font-size: 0.8125rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: var(--kn-ink-2);
 }
 
 .servings-input {
-	width: 3.5rem;
+	width: 3.25rem;
 	height: 2.75rem;
 	box-sizing: border-box;
-	font: inherit;
-	font-weight: 600;
+	font-family: var(--kn-display);
+	font-size: 1.35rem;
+	font-weight: 800;
 	font-variant-numeric: tabular-nums;
 	text-align: center;
 	color: inherit;
 	background: transparent;
-	border: 1px solid var(--kn-line-strong);
-	border-radius: 4px;
+	border: 0;
+	border-bottom: 2px solid var(--kn-line-strong);
+	border-radius: 0;
 	appearance: textfield;
 }
 
@@ -135,8 +211,9 @@
 	width: fit-content;
 	margin: 0;
 	padding: 0;
-	border: 1px solid var(--kn-line-strong);
-	border-radius: 4px;
+	border: 2px solid var(--kn-cobalt);
+	border-radius: 999px;
+	overflow: hidden;
 }
 
 .unit-switch label {
@@ -156,23 +233,56 @@
 	display: flex;
 	align-items: center;
 	min-height: 2.75rem;
-	padding: 0 0.875rem;
+	padding: 0 0.95rem;
 	font-size: 0.875rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .unit-switch label + label span {
-	border-inline-start: 1px solid var(--kn-line-strong);
+	border-inline-start: 2px solid var(--kn-cobalt);
 }
 
 .unit-switch input:checked + span {
-	color: var(--kn-paper);
-	background: var(--kn-ink);
+	color: var(--kn-on-cobalt);
+	background: var(--kn-cobalt);
 }
 
 .unit-switch input:focus-visible + span {
-	outline: 2px solid var(--kn-accent);
-	outline-offset: 2px;
+	outline: 3px solid var(--kn-ink);
+	outline-offset: -5px;
+}
+
+/* ---------- Ingredients ---------- */
+
+.ingredient-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ingredient {
+	padding-block: 0.55rem;
+	border-bottom: 1px solid var(--kn-line);
+	line-height: 1.45;
+}
+
+/* Amounts are set in Bricolage: Atkinson has no ⅓ ⅔ ⅛ glyphs (theme assets/fonts/README). */
+.ingredient-qty {
+	font-family: var(--kn-display);
+	font-size: 1.0625em;
+	font-weight: 800;
+	font-stretch: 88%;
+	font-variant-numeric: tabular-nums;
+}
+
+.ingredient-note {
+	color: var(--kn-ink-2);
+}
+
+/* ---------- Method ---------- */
+
+.recipe-method {
+	margin-top: 2.5rem;
 }
 
 .method-head {
@@ -188,7 +298,138 @@
 	margin: 0;
 }
 
-/* Cook mode: a full-screen modal dialog appended to <body> by view.js. */
+.recipe-steps {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	counter-reset: step;
+}
+
+.recipe-step {
+	display: grid;
+	grid-template-columns: 2.75rem minmax(0, 1fr);
+	column-gap: 1rem;
+	padding-block: 1.1rem;
+	border-bottom: 1px solid var(--kn-line);
+	counter-increment: step;
+}
+
+.recipe-step:first-child {
+	padding-top: 0.25rem;
+}
+
+/* Step numbers sit on little course-coloured plates. */
+.recipe-step::before {
+	grid-row: span 2;
+	display: grid;
+	place-items: center;
+	width: 2.75rem;
+	height: 2.75rem;
+	content: counter(step);
+	font-family: var(--kn-display);
+	font-size: 1.5rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	line-height: 1;
+	color: var(--kn-on-course);
+	background: var(--kn-course);
+	border-radius: 50%;
+}
+
+.step-text {
+	margin: 0;
+	align-self: center;
+}
+
+.step-time {
+	justify-self: start;
+	margin-top: 0.5rem;
+	padding: 0.1rem 0.65rem;
+	font-size: 0.8125rem;
+	font-weight: 700;
+	border: 2px solid var(--kn-running);
+	border-radius: 999px;
+}
+
+/* ---------- Tita's note (the tips) ---------- */
+
+.recipe-tips {
+	position: relative;
+	max-width: 34rem;
+	margin: 2.5rem 0 0.5rem;
+	padding: 1.6rem 1.5rem 1.4rem;
+	color: var(--kn-note-ink);
+	background: var(--kn-note);
+	border-radius: 2px;
+	box-shadow: 2px 3px 0 rgb(22 33 62 / 0.2);
+	transform: rotate(1deg);
+}
+
+.recipe-tips::before {
+	content: "";
+	position: absolute;
+	top: -0.7rem;
+	left: 50%;
+	width: 6rem;
+	height: 1.4rem;
+	background: rgb(226 196 143 / 0.75);
+	transform: translateX(-50%) rotate(-4deg);
+}
+
+.recipe-card .recipe-tips h2 {
+	margin-bottom: 0.4rem;
+	font-family: var(--kn-hand);
+	font-size: 1.9rem;
+	font-weight: 700;
+	font-stretch: normal;
+	letter-spacing: 0;
+}
+
+.recipe-tips p {
+	margin: 0;
+	font-family: var(--kn-hand);
+	font-size: 1.55rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.recipe-tips a {
+	color: inherit;
+}
+
+@media (min-width: 48rem) {
+	.recipe-facts {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem 0;
+	}
+
+	.recipe-fact {
+		padding-inline: 1.5rem;
+		border-inline-start: 1px solid var(--kn-line);
+	}
+
+	.recipe-fact:first-child {
+		padding-inline-start: 0;
+		border-inline-start: 0;
+	}
+
+	.recipe-body {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+		gap: 3.5rem;
+		align-items: start;
+	}
+
+	/* Not sticky: a long ingredient list would either scroll inside itself (cut off on short
+	   screens) or hang off the bottom of the viewport. */
+
+	.recipe-method {
+		margin-top: 0;
+	}
+}
+
+/* ---------- Cook mode: full-screen dialog appended to <body> by view.js ---------- */
 
 html:has(.cook-mode[open]) {
 	overflow: hidden;
@@ -203,14 +444,14 @@ html:has(.cook-mode[open]) {
 	max-height: none;
 	margin: 0;
 	padding: 0;
+	font-family: var(--kn-body);
 	color: var(--kn-ink);
-	background: var(--kn-paper);
+	background: color-mix(in srgb, var(--kn-course) 10%, var(--kn-enamel));
 	border: 0;
-	font-family: var(--wp--preset--font-family--body, system-ui, sans-serif);
 }
 
 .cook-mode::backdrop {
-	background: var(--kn-paper);
+	background: var(--kn-enamel);
 }
 
 .cook-mode-inner {
@@ -220,23 +461,26 @@ html:has(.cook-mode[open]) {
 	gap: 1rem;
 	box-sizing: border-box;
 	height: 100%;
-	max-width: 72rem;
+	max-width: 74rem;
 	margin-inline: auto;
 	padding: max(1rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
 }
 
 .cook-head {
 	grid-area: head;
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto auto;
 	align-items: center;
 	gap: 0.5rem;
 	padding-bottom: 0.75rem;
-	border-bottom: 1px solid var(--kn-line);
+	border-bottom: var(--kn-rim) solid var(--kn-cobalt);
+}
+
+.cook-head .kn-btn {
+	padding-inline: 0.9rem;
 }
 
 .cook-head-text {
-	flex: 1 1 12rem;
 	min-width: 0;
 }
 
@@ -246,14 +490,18 @@ html:has(.cook-mode[open]) {
 }
 
 .cook-title {
-	font-size: 0.75rem;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
+	font-size: 0.9375rem;
+	font-weight: 700;
 	color: var(--kn-ink-2);
 }
 
 .cook-progress {
-	font-weight: 600;
+	font-family: var(--kn-display);
+	font-size: 1.25rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
 	font-variant-numeric: tabular-nums;
 }
 
@@ -265,8 +513,8 @@ html:has(.cook-mode[open]) {
 
 .cook-step .step-text {
 	margin: 0;
-	font-family: var(--kn-display);
 	font-size: clamp(1.5rem, 1.1rem + 2vw, 2.5rem);
+	font-weight: 600;
 	line-height: 1.35;
 	text-wrap: pretty;
 }
@@ -275,43 +523,33 @@ html:has(.cook-mode[open]) {
 	grid-area: main;
 	z-index: 1;
 	overflow-y: auto;
-	padding: 1rem;
-	background: var(--kn-paper-2);
-	border-radius: 4px;
+	padding: 1rem 1.25rem;
+	background: var(--kn-enamel);
+	border: var(--kn-rim) solid var(--kn-cobalt);
+	border-radius: var(--kn-basin);
 }
 
 .cook-ingredients h2 {
 	margin: 0 0 0.5rem;
 	font-family: var(--kn-display);
-	font-size: 1.25rem;
-	font-weight: 500;
+	font-size: 1.5rem;
+	font-weight: 800;
+	font-stretch: 90%;
 }
 
 .cook-ingredients h3 {
 	margin: 1rem 0 0.25rem;
-	font-size: 0.75rem;
-	letter-spacing: 0.08em;
+	font-family: var(--kn-display);
+	font-size: 0.8125rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: var(--kn-ink-2);
 }
 
-.cook-ingredients .ingredient-list {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
 .cook-ingredients .ingredient {
-	padding-block: 0.375rem;
-	border-bottom: 1px solid var(--kn-line);
-}
-
-.cook-ingredients .ingredient-qty {
-	font-weight: 600;
-}
-
-.cook-ingredients .ingredient-note {
-	color: var(--kn-ink-2);
+	padding-block: 0.4rem;
 }
 
 .cook-timer {
@@ -320,30 +558,29 @@ html:has(.cook-mode[open]) {
 	flex-wrap: wrap;
 	align-items: center;
 	gap: 0.75rem;
-	padding: 0.75rem 1rem;
-	border: 1px solid var(--kn-line);
-	border-radius: 4px;
+	padding: 0.6rem 0.6rem 0.6rem 1.4rem;
+	background: var(--kn-enamel);
+	border: var(--kn-rim) solid var(--kn-line-strong);
+	border-radius: 999px;
 }
 
 .cook-timer-display {
 	flex: 1 1 auto;
 	margin: 0;
+	font-family: var(--kn-display);
 	font-size: 2.25rem;
-	font-weight: 600;
+	font-weight: 800;
+	font-stretch: 80%;
 	line-height: 1;
 	font-variant-numeric: tabular-nums;
 }
 
-.cook-timer[data-state="running"] .cook-timer-display {
-	color: var(--kn-green);
+.cook-timer[data-state="running"] {
+	border-color: var(--kn-running);
 }
 
 .cook-timer[data-state="done"] {
-	border-color: var(--kn-accent);
-}
-
-.cook-timer[data-state="done"] .cook-timer-display {
-	color: var(--kn-accent);
+	border-color: var(--kn-done);
 }
 
 .cook-running {
@@ -354,33 +591,40 @@ html:has(.cook-mode[open]) {
 }
 
 .cook-chip {
-	min-height: 2.5rem;
-	padding: 0.25rem 0.875rem;
+	min-height: 2.75rem;
+	padding: 0.25rem 0.95rem;
 	font: inherit;
 	font-size: 0.875rem;
-	font-weight: 600;
+	font-weight: 700;
 	font-variant-numeric: tabular-nums;
-	color: var(--kn-green);
-	background: transparent;
-	border: 1px solid currentColor;
+	color: var(--kn-ink);
+	background: var(--kn-enamel);
+	border: 2px solid var(--kn-running);
 	border-radius: 999px;
 	cursor: pointer;
 }
 
 .cook-chip[data-state="done"] {
-	color: var(--kn-accent);
+	border-color: var(--kn-done);
 }
 
 .cook-nav {
 	grid-area: nav;
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 1.6fr;
 	gap: 0.75rem;
 }
 
 .kn-btn-large {
 	min-height: 3.5rem;
 	font-size: 1.0625rem;
+}
+
+.cook-nav .kn-btn-primary {
+	font-family: var(--kn-display);
+	font-size: 1.25rem;
+	font-weight: 800;
+	font-stretch: 90%;
 }
 
 @media (min-width: 64rem) {
@@ -410,179 +654,11 @@ html:has(.cook-mode[open]) {
 	}
 }
 
-.recipe-card h2 {
-	margin: 0 0 1rem;
-	font-family: var(--kn-display);
-	font-size: var(--wp--preset--font-size--large, 1.75rem);
-	font-weight: 500;
-}
-
-.recipe-card h3 {
-	margin: 1.5rem 0 0.25rem;
-	font-size: 0.8125rem;
-	font-weight: 600;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	color: var(--kn-ink-2);
-}
-
-/* Facts: a grid on phones (a wrapping row leaves stray dividers), a divided row from 48rem */
-
-.recipe-facts {
-	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 0.875rem 1rem;
-	margin: 0 0 2.5rem;
-	padding-block: 0.875rem;
-	border-block: 1px solid var(--kn-line);
-}
-
-.recipe-fact dt {
-	font-size: 0.75rem;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	color: var(--kn-ink-2);
-}
-
-.recipe-fact dd {
-	margin: 0;
-	font-weight: 600;
-	font-variant-numeric: tabular-nums;
-}
-
-/* Ingredients */
-
-.ingredient-list {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.ingredient {
-	padding-block: 0.5rem;
-	border-bottom: 1px solid var(--kn-line);
-	line-height: 1.45;
-}
-
-.ingredient-qty {
-	font-weight: 600;
-	font-variant-numeric: tabular-nums;
-}
-
-.ingredient-note {
-	color: var(--kn-ink-2);
-}
-
-/* Method */
-
-.recipe-method {
-	margin-top: 2.5rem;
-}
-
-.recipe-steps {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	counter-reset: step;
-}
-
-.recipe-step {
-	display: grid;
-	grid-template-columns: 2.75rem minmax(0, 1fr);
-	column-gap: 0.75rem;
-	padding-block: 1rem;
-	border-bottom: 1px solid var(--kn-line);
-	counter-increment: step;
-}
-
-.recipe-step:first-child {
-	padding-top: 0;
-}
-
-.recipe-step::before {
-	grid-row: span 2;
-	content: counter(step);
-	font-family: var(--kn-display);
-	font-size: 2.25rem;
-	line-height: 1;
-	color: var(--kn-accent);
-	font-variant-numeric: lining-nums;
-}
-
-.step-text {
-	margin: 0;
-}
-
-.step-time {
-	justify-self: start;
-	margin-top: 0.375rem;
-	font-size: 0.875rem;
-	font-weight: 600;
-	color: var(--kn-green);
-}
-
-.recipe-tips {
-	margin-top: 2rem;
-	padding: 1.25rem 1.5rem;
-	background: var(--kn-paper-2);
-	border-inline-start: 3px solid var(--kn-accent);
-}
-
-.recipe-tips h2 {
-	font-size: 1.25rem;
-	margin-bottom: 0.5rem;
-}
-
-.recipe-tips p {
-	margin: 0;
-}
-
-@media (min-width: 48rem) {
-	.recipe-facts {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.75rem 0;
-	}
-
-	.recipe-fact {
-		padding-inline: 1.25rem;
-		border-inline-start: 1px solid var(--kn-line);
-	}
-
-	.recipe-fact:first-child {
-		padding-inline-start: 0;
-		border-inline-start: 0;
-	}
-
-	.recipe-body {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-		gap: 3.5rem;
-		align-items: start;
-	}
-
-	.recipe-ingredients {
-		position: sticky;
-		top: 1.5rem;
-		max-height: calc(100vh - 3rem);
-		overflow-y: auto;
-	}
-
-	.recipe-method {
-		margin-top: 0;
-	}
-
-	.recipe-step {
-		grid-template-columns: 3.5rem minmax(0, 1fr);
-	}
-
-	.recipe-step::before {
-		font-size: 2.75rem;
-	}
-}
+/* ---------- Print ---------- */
 
 @media print {
-	.recipe-card {
+	.recipe-card,
+	.recipe-tips {
 		color: #000;
 		background: #fff;
 	}
@@ -590,6 +666,10 @@ html:has(.cook-mode[open]) {
 	.recipe-scale,
 	[data-cook-open] {
 		display: none !important;
+	}
+
+	.recipe-facts {
+		border: 1px solid #000;
 	}
 
 	.recipe-body {
@@ -609,10 +689,17 @@ html:has(.cook-mode[open]) {
 
 	.recipe-step::before {
 		color: #000;
+		background: none;
+		border: 1px solid #000;
 	}
 
 	.recipe-tips {
-		background: none;
-		border-inline-start-color: #000;
+		box-shadow: none;
+		transform: none;
+		border: 1px solid #000;
+	}
+
+	.recipe-tips::before {
+		display: none;
 	}
 }

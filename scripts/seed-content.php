@@ -75,6 +75,61 @@ function kusina_seed_recipe( array $recipe ): int {
 	return $post_id;
 }
 
+// Courses in Tagalog (docs/DESIGN.md); the description is the English gloss shown on the
+// course page.
+$kusina_course_descriptions = array(
+	'ulam'        => 'Mains: what goes on the rice.',
+	'sabaw'       => 'Soups and stews, for rainy days and every other day.',
+	'merienda'    => 'Afternoon snacks, sweet or savoury.',
+	'panghimagas' => 'Desserts.',
+	'almusal'     => 'Breakfast, usually with garlic rice.',
+	'inumin'      => 'Drinks.',
+);
+foreach ( kusina_courses() as $kusina_slug => [ $kusina_name ] ) {
+	$kusina_term = get_term_by( 'slug', $kusina_slug, 'course' );
+	$kusina_args = array(
+		'name'        => $kusina_name,
+		'description' => $kusina_course_descriptions[ $kusina_slug ],
+	);
+	if ( $kusina_term ) {
+		wp_update_term( $kusina_term->term_id, 'course', $kusina_args );
+	} else {
+		wp_insert_term( $kusina_name, 'course', $kusina_args + array( 'slug' => $kusina_slug ) );
+	}
+}
+WP_CLI::log( 'Courses: ' . implode( ', ', wp_list_pluck( kusina_courses(), 0 ) ) );
+
+// About page, in the site's voice but only true statements.
+$kusina_about = get_page_by_path( 'about' );
+$kusina_about_content = implode(
+	"\n\n",
+	array_map(
+		static fn( string $p ): string => "<!-- wp:paragraph -->\n<p>{$p}</p>\n<!-- /wp:paragraph -->",
+		array(
+			'Kusina Notes is a recipe site for everyday Filipino cooking: the ulam, sabaw and merienda people actually make on a weeknight.',
+			'Every recipe opens straight onto the recipe. Change the servings and the amounts follow, switch between metric and US measures, and press Cook mode to get one step at a time with timers, in big type, with the screen kept awake.',
+			'It is a personal project built on WordPress and published as a static site. The food photos are public domain.',
+		)
+	)
+);
+$kusina_about_id = wp_insert_post(
+	wp_slash(
+		array(
+			'ID'           => $kusina_about ? $kusina_about->ID : 0,
+			'post_type'    => 'page',
+			'post_status'  => 'publish',
+			'post_name'    => 'about',
+			'post_title'   => 'About',
+			'post_content' => $kusina_about_content,
+		)
+	),
+	true
+);
+if ( is_wp_error( $kusina_about_id ) ) {
+	WP_CLI::error( $kusina_about_id->get_error_message() );
+}
+WP_CLI::log( ( $kusina_about ? 'Updated' : 'Created' ) . " about (#{$kusina_about_id})" );
+
 kusina_seed_recipe(
 	array(
 		'slug'   => 'chicken-adobo',

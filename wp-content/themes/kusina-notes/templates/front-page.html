@@ -1,0 +1,79 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-masthead"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:group {"align":"full","className":"hero gingham","layout":{"type":"constrained","contentSize":"74rem"}} -->
+<div class="wp-block-group alignfull hero gingham"><!-- wp:group {"className":"hero-inner","layout":{"type":"default"}} -->
+<div class="wp-block-group hero-inner"><!-- wp:group {"className":"hero-card","layout":{"type":"default"}} -->
+<div class="wp-block-group hero-card"><!-- wp:paragraph {"className":"eyebrow"} -->
+<p class="eyebrow">Filipino home cooking</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"className":"hero-title"} -->
+<h1 class="wp-block-heading hero-title">Ano'ng <span class="hl">ulam?</span></h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"hero-lede"} -->
+<p class="hero-lede">Dinner in under an hour, no life story first.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="hero-actions"><a class="btn btn-primary" href="/recipes/">See all recipes</a></div>
+<!-- /wp:html --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":1,"query":{"perPage":1,"pages":0,"offset":0,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"className":"tonight"} -->
+<div class="wp-block-query tonight"><!-- wp:post-template -->
+<!-- wp:group {"className":"tonight-card","layout":{"type":"default"}} -->
+<div class="wp-block-group tonight-card"><!-- wp:group {"className":"plate plate-large","layout":{"type":"default"}} -->
+<div class="wp-block-group plate plate-large"><!-- wp:post-featured-image {"aspectRatio":"1","sizeSlug":"large"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"eyebrow tonight-label"} -->
+<p class="eyebrow tonight-label">Tonight</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-title {"level":2,"isLink":true,"className":"tonight-title"} /-->
+
+<!-- wp:kusina/recipe-tags {"show":["time","difficulty"]} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide section"><!-- wp:heading {"className":"section-title"} -->
+<h2 class="wp-block-heading section-title">Pick a course</h2>
+<!-- /wp:heading -->
+
+<!-- wp:kusina/course-chips /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","className":"section","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide section"><!-- wp:heading {"className":"section-title"} -->
+<h2 class="wp-block-heading section-title">Fresh from the kusina</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":2,"query":{"perPage":6,"pages":0,"offset":1,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"className":"plates"} -->
+<div class="wp-block-query plates"><!-- wp:post-template -->
+<!-- wp:group {"className":"plate-card","layout":{"type":"default"}} -->
+<div class="wp-block-group plate-card"><!-- wp:group {"className":"plate","layout":{"type":"default"}} -->
+<div class="wp-block-group plate"><!-- wp:post-featured-image {"aspectRatio":"1","sizeSlug":"medium_large"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title {"level":3,"isLink":true,"className":"plate-title"} /-->
+
+<!-- wp:kusina/recipe-tags {"show":["time","diet"]} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"className":"empty-note"} -->
+<p class="empty-note">More recipes are on the stove.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

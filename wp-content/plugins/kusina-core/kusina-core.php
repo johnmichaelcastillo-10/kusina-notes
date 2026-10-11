@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Kusina Core
  * Description:       Recipes for the Kusina Notes theme: post type, taxonomies and recipe meta.
- * Version:           0.3.0
+ * Version:           0.4.0
  * Requires at least: 6.6
  * Requires PHP:      8.1
  * Author:            John Michael Castillo
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-const KUSINA_CORE_VERSION = '0.3.0';
+const KUSINA_CORE_VERSION = '0.4.0';
 
 require_once __DIR__ . '/includes/format.php';
 require_once __DIR__ . '/includes/schema.php';
@@ -24,7 +24,36 @@ add_action( 'init', 'kusina_register_content_model' );
 add_action(
 	'init',
 	static function (): void {
+		// One editor script for the small server-rendered blocks; their block.json names it.
+		wp_register_script(
+			'kusina-simple-blocks-editor',
+			plugins_url( 'blocks/simple-editor.js', __FILE__ ),
+			array( 'wp-block-editor', 'wp-blocks', 'wp-components', 'wp-element', 'wp-i18n', 'wp-server-side-render' ),
+			KUSINA_CORE_VERSION,
+			true
+		);
+
 		register_block_type( __DIR__ . '/blocks/recipe-card' );
+		register_block_type( __DIR__ . '/blocks/recipe-tags' );
+		register_block_type( __DIR__ . '/blocks/course-chips' );
+	}
+);
+
+// Lets the theme colour a whole page by course: course-<slug> on <body> for a recipe or a
+// course archive (Query Loop items already get it from post_class()).
+add_filter(
+	'body_class',
+	static function ( array $classes ): array {
+		$slug = '';
+		if ( is_singular( 'recipe' ) ) {
+			$slug = kusina_recipe_course( get_queried_object_id() );
+		} elseif ( is_tax( 'course' ) ) {
+			$slug = (string) get_queried_object()->slug;
+		}
+		if ( '' !== $slug ) {
+			$classes[] = 'course-' . sanitize_html_class( $slug );
+		}
+		return $classes;
 	}
 );
 

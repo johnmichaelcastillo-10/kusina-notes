@@ -45,18 +45,22 @@ desserts are ube purple: the site gets louder without one-off decoration.
 
 Course colours (`course-<slug>` in theme.json; the text colour is fixed per course):
 
-| Course | Colour | Text on it |
-|---|---|---|
-| Ulam (tomato) | #C93A26 | white |
-| Soup / Sabaw (kangkong) | #2B7A4B | white |
-| Merienda (mango) | #F4B62C | ink |
-| Dessert (ube) | #6B48B3 | white |
-| Breakfast (egg yolk) | #EE8A27 | ink |
-| Drink (calamansi) | #9CC43E | ink |
+Course names are Tagalog on the site, with the English gloss beside them on the course
+chips and as the course page's description (owner's choice, 2026-10-11). Search engines get
+English categories via `kusina_courses()` in the plugin.
+
+| Course (slug) | English | Colour | Text on it |
+|---|---|---|---|
+| Ulam (`ulam`, tomato) | Mains | #C93A26 | white |
+| Sabaw (`sabaw`, kangkong) | Soups | #2B7A4B | white |
+| Merienda (`merienda`, mango) | Snacks | #F4B62C | ink |
+| Panghimagas (`panghimagas`, ube) | Desserts | #6B48B3 | white |
+| Almusal (`almusal`, egg yolk) | Breakfast | #EE8A27 | ink |
+| Inumin (`inumin`, calamansi) | Drinks | #9CC43E | ink |
 
 Contrast, measured (WCAG 2): ink on enamel 15.2, ink-2 on enamel 7.3, cobalt on enamel 8.6,
 white on cobalt 9.0, ink on cardboard 9.5. Course pairs above: 5.1 to 8.8. Dark text 15.9,
-dark muted 8.8, dark cobalt 8.0. All pass AA for body text. Course colours are fills, never
+dark muted 8.8, dark cobalt 8.0. All pass AA for body text. The home headline's tomato word is 4.9 on enamel but only 3.5 on navy, so dark mode brightens it to #F0644C (5.7). Course colours are fills, never
 text colours on enamel (several fail there).
 
 ## Type

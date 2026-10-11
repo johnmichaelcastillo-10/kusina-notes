@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kusina/recipe-tags",
+	"version": "0.4.0",
+	"title": "Recipe tags",
+	"category": "theme",
+	"icon": "tag",
+	"description": "Market-sign tags for a recipe: total time, difficulty, servings and diets. Works inside a Query Loop.",
+	"textdomain": "kusina-core",
+	"attributes": {
+		"show": {
+			"type": "array",
+			"default": [ "time", "difficulty", "diet" ]
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"usesContext": [ "postId", "postType" ],
+	"editorScript": "kusina-simple-blocks-editor",
+	"render": "file:./render.php"
+}

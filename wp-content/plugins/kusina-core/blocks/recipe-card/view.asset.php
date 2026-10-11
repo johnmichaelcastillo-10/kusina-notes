@@ -3,5 +3,5 @@
 // WordPress prints no import map (an inline script the static site's CSP would need to hash).
 return array(
 	'dependencies' => array(),
-	'version'      => '0.3.0',
+	'version'      => '0.4.0',
 );

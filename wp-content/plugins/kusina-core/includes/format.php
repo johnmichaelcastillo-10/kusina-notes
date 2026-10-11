@@ -31,6 +31,36 @@ function kusina_units(): array {
 	);
 }
 
+/**
+ * Courses in menu order: slug => [ name on the site, English gloss, schema.org category ].
+ * Names are Tagalog (docs/DESIGN.md); each slug has a colour in the theme (course-<slug>).
+ */
+function kusina_courses(): array {
+	return array(
+		'ulam'        => array( 'Ulam', __( 'Mains', 'kusina-core' ), 'Main course' ),
+		'sabaw'       => array( 'Sabaw', __( 'Soups', 'kusina-core' ), 'Soup' ),
+		'merienda'    => array( 'Merienda', __( 'Snacks', 'kusina-core' ), 'Snack' ),
+		'panghimagas' => array( 'Panghimagas', __( 'Desserts', 'kusina-core' ), 'Dessert' ),
+		'almusal'     => array( 'Almusal', __( 'Breakfast', 'kusina-core' ), 'Breakfast' ),
+		'inumin'      => array( 'Inumin', __( 'Drinks', 'kusina-core' ), 'Drink' ),
+	);
+}
+
+/** Slug of a recipe's first course in menu order, or ''. */
+function kusina_recipe_course( int $post_id ): string {
+	$terms = get_the_terms( $post_id, 'course' );
+	if ( ! is_array( $terms ) ) {
+		return '';
+	}
+	$slugs = wp_list_pluck( $terms, 'slug' );
+	foreach ( array_keys( kusina_courses() ) as $slug ) {
+		if ( in_array( $slug, $slugs, true ) ) {
+			return $slug;
+		}
+	}
+	return '';
+}
+
 /** Inline HTML allowed in step text and tips. */
 function kusina_inline_tags(): array {
 	return array(

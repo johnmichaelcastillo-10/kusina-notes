@@ -100,9 +100,14 @@ function kusina_recipe_schema( WP_Post $post ): array {
 		);
 	}
 
-	$courses = kusina_term_names( $post->ID, 'course' );
-	if ( $courses ) {
-		$data['recipeCategory'] = implode( ', ', array_map( 'kusina_course_category', $courses ) );
+	// English categories for search engines; the page shows the Tagalog course names.
+	$course_terms = get_the_terms( $post->ID, 'course' );
+	if ( is_array( $course_terms ) && $course_terms ) {
+		$known                  = kusina_courses();
+		$data['recipeCategory'] = implode(
+			', ',
+			array_map( static fn( WP_Term $term ): string => $known[ $term->slug ][2] ?? $term->name, $course_terms )
+		);
 	}
 
 	$keywords = array_merge( kusina_term_names( $post->ID, 'diet' ), kusina_term_names( $post->ID, 'key_ingredient' ) );
@@ -149,13 +154,4 @@ function kusina_plain_text( string $html ): string {
 function kusina_term_names( int $post_id, string $taxonomy ): array {
 	$terms = get_the_terms( $post_id, $taxonomy );
 	return is_array( $terms ) ? wp_list_pluck( $terms, 'name' ) : array();
-}
-
-/** English meal category for search engines; Filipino course names on the page. */
-function kusina_course_category( string $course ): string {
-	$map = array(
-		'Ulam'     => 'Main course',
-		'Merienda' => 'Snack',
-	);
-	return $map[ $course ] ?? $course;
 }

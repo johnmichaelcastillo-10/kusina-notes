@@ -372,7 +372,13 @@ function initCookMode( card ) {
 		ui.total.textContent = String( steps.length );
 
 		dialog.addEventListener( 'click', onClick );
-		dialog.addEventListener( 'keydown', onKey );
+		// On the document, not the dialog: when a step without a timer hides the focused
+		// "Start timer" button, focus falls to <body> and a dialog listener would go deaf.
+		document.addEventListener( 'keydown', ( event ) => {
+			if ( dialog.open ) {
+				onKey( event );
+			}
+		} );
 		dialog.addEventListener( 'close', releaseWakeLock );
 
 		// Swipe left/right on the step text (touch and pen; mice use the buttons).
@@ -461,6 +467,11 @@ function initCookMode( card ) {
 		ui.prev.disabled = index === 0;
 		ui.next.textContent = index === steps.length - 1 ? labels.finish : labels.next;
 		renderTimers();
+
+		// Keep keyboard focus in the dialog if the focused control was just hidden.
+		if ( dialog.open && ! dialog.contains( document.activeElement ) ) {
+			ui.next.focus();
+		}
 	}
 
 	// The drawer copies the card's ingredient lists as they are now (scaled, converted).

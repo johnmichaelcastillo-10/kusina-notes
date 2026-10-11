@@ -1,0 +1,33 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-masthead"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:group {"align":"full","className":"page-band course-ulam","layout":{"type":"constrained","contentSize":"74rem"}} -->
+<div class="wp-block-group alignfull page-band course-ulam"><!-- wp:heading {"level":1,"className":"band-title"} -->
+<h1 class="wp-block-heading band-title">Naubos na.</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"band-lede"} -->
+<p class="band-lede">Someone ate this page. Here is what's still on the table.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="band-actions"><a class="btn btn-on-band" href="/recipes/">All recipes</a></div>
+<!-- /wp:html --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":7,"query":{"perPage":3,"pages":0,"offset":0,"postType":"recipe","order":"desc","orderBy":"date","inherit":false},"align":"wide","className":"plates section"} -->
+<div class="wp-block-query alignwide plates section"><!-- wp:post-template -->
+<!-- wp:group {"className":"plate-card","layout":{"type":"default"}} -->
+<div class="wp-block-group plate-card"><!-- wp:group {"className":"plate","layout":{"type":"default"}} -->
+<div class="wp-block-group plate"><!-- wp:post-featured-image {"aspectRatio":"1","sizeSlug":"medium_large"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title {"level":2,"isLink":true,"className":"plate-title"} /-->
+
+<!-- wp:kusina/recipe-tags {"show":["time","diet"]} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
