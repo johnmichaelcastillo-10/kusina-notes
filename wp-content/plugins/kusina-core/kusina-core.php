@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Kusina Core
  * Description:       Recipes for the Kusina Notes theme: post type, taxonomies and recipe meta.
- * Version:           0.1.0
+ * Version:           0.2.0
  * Requires at least: 6.6
  * Requires PHP:      8.1
  * Author:            John Michael Castillo
@@ -14,7 +14,39 @@
 
 defined( 'ABSPATH' ) || exit;
 
+const KUSINA_CORE_VERSION = '0.2.0';
+
+require_once __DIR__ . '/includes/format.php';
+require_once __DIR__ . '/includes/schema.php';
+
 add_action( 'init', 'kusina_register_content_model' );
+
+add_action(
+	'init',
+	static function (): void {
+		register_block_type( __DIR__ . '/blocks/recipe-card' );
+	}
+);
+
+// Recipe details panel (times, servings, difficulty) in the editor sidebar.
+add_action(
+	'enqueue_block_editor_assets',
+	static function (): void {
+		$screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
+		if ( ! $screen || 'recipe' !== $screen->post_type ) {
+			return;
+		}
+
+		$asset = require __DIR__ . '/assets/recipe-meta.asset.php';
+		wp_enqueue_script(
+			'kusina-recipe-meta',
+			plugins_url( 'assets/recipe-meta.js', __FILE__ ),
+			$asset['dependencies'],
+			$asset['version'],
+			true
+		);
+	}
+);
 
 function kusina_register_content_model(): void {
 	register_post_type(
@@ -33,6 +65,10 @@ function kusina_register_content_model(): void {
 			'show_in_rest' => true,
 			'menu_icon'    => 'dashicons-carrot',
 			'supports'     => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'custom-fields' ),
+			'template'     => array(
+				array( 'core/paragraph', array( 'placeholder' => __( 'One or two short paragraphs: what this is and why it works.', 'kusina-core' ) ) ),
+				array( 'kusina/recipe-card', array( 'align' => 'wide' ) ),
+			),
 		)
 	);
 

@@ -79,7 +79,9 @@ still complete and readable at its default servings.
 
 - `Recipe` JSON-LD on each recipe from the same block data: name, image, description,
   prepTime/cookTime/totalTime (ISO 8601), recipeYield, recipeIngredient, recipeInstructions
-  (HowToStep), recipeCategory, recipeCuisine, keywords. **No `aggregateRating` or reviews**:
+  (HowToStep), recipeCategory (Ulam and Merienda mapped to English for search engines),
+  keywords, suitableForDiet (vegetarian, gluten-free only). No recipeCuisine: there is no
+  cuisine taxonomy. **No `aggregateRating` or reviews**:
   there are none, and inventing them breaks the content rule.
 - Open Graph and Twitter tags, canonical, sitemap (users sitemap disabled).
 - Validate with Google's Rich Results Test (paste the HTML: `*.vercel.app` is blocked on the

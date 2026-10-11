@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kusina/recipe-card",
+	"version": "0.2.0",
+	"title": "Recipe card",
+	"category": "text",
+	"icon": "carrot",
+	"description": "Ingredients, method and tips for one recipe. Times and servings come from the Recipe details panel.",
+	"textdomain": "kusina-core",
+	"attributes": {
+		"groups": {
+			"type": "array",
+			"default": [ { "title": "", "items": [] } ]
+		},
+		"steps": {
+			"type": "array",
+			"default": []
+		},
+		"tips": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false,
+		"align": [ "wide" ]
+	},
+	"usesContext": [ "postId", "postType" ],
+	"editorScript": "file:./editor.js",
+	"editorStyle": [ "dashicons", "file:./editor.css" ],
+	"style": "file:./style.css",
+	"render": "file:./render.php"
+}
