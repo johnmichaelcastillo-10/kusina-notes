@@ -74,9 +74,10 @@ recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModul
    reset per step, several at once (chips jump to other running timers), timestamps so
    throttled tabs don't drift, a Web Audio chime plus vibration, remaining time in the tab
    title.
-3. **Ingredient tick boxes**: tap an ingredient to tick it off while cooking, in the card
-   and the cook mode drawer (same state). Per recipe in `sessionStorage`, cleared on
-   leaving.
+3. **Ingredient tick boxes** (built, tested in Edge): tap anywhere on an ingredient line to
+   tick it off, in the card and the cook mode drawer (same state, synced both ways). Per
+   recipe in `sessionStorage`: a reload or Back keeps the ticks, arriving any other way
+   starts fresh. Ticked lines are struck through; print hides the boxes.
 4. **Bahala na**: a button on the home page and recipe index that opens a random recipe
    from the JSON index (never the one you're on).
 5. **Recipe index (JSON)**: the plugin serves `GET /wp-json/kusina/v1/index` (slug, title,
@@ -168,7 +169,7 @@ the JSON, validate, re-seed.
 5. **Done**: pantry finder (`/pantry/`, block `kusina/pantry-finder`, index at
    `/wp-json/kusina/v1/index`) and shopping list (`/list/`, block `kusina/shopping-list`,
    "Add to shopping list" on every recipe, header count). Theme redesigned calmer (DESIGN.md).
-6. JS still open: ingredient tick boxes, recipe index filters, Bahala na.
+6. Ingredient tick boxes **done**. JS still open: recipe index filters, Bahala na.
 7. **Done**: 50 recipes seeded, each with an AI-generated photo (section 8).
 8. **Done**: exporter, CSP, Vercel project, `Deploy.cmd`. Live at https://kusina-notes.vercel.app
    (2026-10-11). Open: Open Graph / Twitter meta tags (WordPress prints none; section 5).

@@ -318,6 +318,34 @@
 	color: var(--kn-ink-2);
 }
 
+/* Tick boxes (view.js wraps each line in a label). The negative margin stretches the label
+   over the line's padding, so the whole row is the tap target. */
+.ingredient-label {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.75rem;
+	margin-block: -0.7rem;
+	padding-block: 0.7rem;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.ingredient-check {
+	flex: none;
+	width: 1.15rem;
+	height: 1.15rem;
+	margin: 0.18rem 0 0;
+	accent-color: var(--kn-leaf);
+	cursor: pointer;
+}
+
+.ingredient:has(.ingredient-check:checked) .ingredient-text,
+.ingredient:has(.ingredient-check:checked) .ingredient-note {
+	color: var(--kn-ink-2);
+	text-decoration: line-through;
+	text-decoration-color: var(--kn-line-strong);
+}
+
 /* ---------- Method ---------- */
 
 .recipe-method {
@@ -606,6 +634,11 @@ html:has(.cook-mode[open]) {
 	padding-block: 0.5rem;
 }
 
+.cook-ingredients .ingredient-label {
+	margin-block: -0.5rem;
+	padding-block: 0.5rem;
+}
+
 .cook-timer {
 	grid-area: timer;
 	display: flex;
@@ -729,8 +762,15 @@ html:has(.cook-mode[open]) {
 	}
 
 	.recipe-scale,
+	.ingredient-check,
 	[data-cook-open] {
 		display: none !important;
+	}
+
+	.ingredient .ingredient-text,
+	.ingredient .ingredient-note {
+		color: #000 !important;
+		text-decoration: none !important;
 	}
 
 	.recipe-ingredients {

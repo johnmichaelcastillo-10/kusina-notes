@@ -1,6 +1,6 @@
 /**
- * Recipe card behaviour (docs/SPEC.md, section 4): servings scaler, unit switch and cook
- * mode. Progressive enhancement: without this file the card is complete at its default
+ * Recipe card behaviour (docs/SPEC.md, section 4): servings scaler, unit switch, ingredient
+ * tick boxes and cook mode. Progressive enhancement: without this file the card is complete at its default
  * servings, and the controls stay hidden.
  *
  * Quantity text must match kusina_format_qty() in includes/format.php: at the default
@@ -406,6 +406,77 @@ function initListButton( card, tools, currentServings ) {
 	show();
 }
 
+/* ---------- Ingredient tick boxes ---------- */
+
+// Tick ingredients off while cooking. The card and the cook mode drawer (a copy of the card's
+// lists) share one state through data-tick. Kept per recipe in sessionStorage so a reload or
+// Back keeps the ticks; arriving any other way starts fresh.
+function initTicks( card ) {
+	const items = card.querySelectorAll( '.recipe-ingredients .ingredient' );
+	if ( ! items.length ) {
+		return;
+	}
+
+	let key = 'kusina-ticked';
+	try {
+		key += ':' + JSON.parse( card.querySelector( '.recipe-data' ).textContent ).slug;
+	} catch {
+		// One shared key: fine, there is one recipe per page.
+	}
+	const nav = performance.getEntriesByType ? performance.getEntriesByType( 'navigation' )[ 0 ] : null;
+	const keep = nav && ( nav.type === 'reload' || nav.type === 'back_forward' );
+	let ticked = new Set();
+	try {
+		if ( keep ) {
+			ticked = new Set( JSON.parse( window.sessionStorage.getItem( key ) || '[]' ) );
+		} else {
+			window.sessionStorage.removeItem( key );
+		}
+	} catch {
+		// Blocked storage: ticks work, they just don't survive a reload.
+	}
+
+	// The label holds the checkbox and the line's text, so the whole line is the tap target
+	// and the checkbox's name is the ingredient. The qty span is moved, not copied, so the
+	// scaler keeps updating it.
+	items.forEach( ( li, i ) => {
+		const box = document.createElement( 'input' );
+		box.type = 'checkbox';
+		box.className = 'ingredient-check';
+		box.dataset.tick = String( i );
+		box.checked = ticked.has( i );
+		const text = document.createElement( 'span' );
+		text.className = 'ingredient-text';
+		text.append( ...li.childNodes );
+		const label = document.createElement( 'label' );
+		label.className = 'ingredient-label';
+		label.append( box, text );
+		li.append( label );
+	} );
+
+	// On the document: the drawer lives in a dialog appended to <body>, outside the card.
+	document.addEventListener( 'change', ( event ) => {
+		const box = event.target;
+		if ( ! box.matches || ! box.matches( '.ingredient-check' ) ) {
+			return;
+		}
+		const i = parseInt( box.dataset.tick, 10 );
+		if ( box.checked ) {
+			ticked.add( i );
+		} else {
+			ticked.delete( i );
+		}
+		for ( const other of document.querySelectorAll( `.ingredient-check[data-tick="${ i }"]` ) ) {
+			other.checked = box.checked;
+		}
+		try {
+			window.sessionStorage.setItem( key, JSON.stringify( [ ...ticked ] ) );
+		} catch {
+			// Not remembered across a reload.
+		}
+	} );
+}
+
 /* ---------- Cook mode ---------- */
 
 function initCookMode( card ) {
@@ -764,5 +835,6 @@ function initCookMode( card ) {
 const card = document.querySelector( '.recipe-card' );
 if ( card ) {
 	initScaler( card );
+	initTicks( card );
 	initCookMode( card );
 }
