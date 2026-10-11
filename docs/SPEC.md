@@ -84,8 +84,12 @@ recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModul
    URL, thumbnail, course, diet, key ingredients, total minutes). The static export writes
    the same payload to `/recipes.json`; the JS fetches `recipes.json` on the static site and
    the REST route locally (same switch pattern as Terra & Thread's `staticApi()`).
-6. **Filters** on `/recipes/`: course-coloured chips over the index, results update without
-   reload, state mirrored in the query string, "n recipes" announced via `aria-live`.
+6. **Filters** on `/recipes/` (built, tested in Edge; block `kusina/recipe-filters`): course,
+   diet and time (30 min / 1 hr or less) toggles, one value each, over the JSON index.
+   Results replace the paginated Query Loop (class `recipe-index`) in place, 24 at a time
+   with "Show more"; state mirrored in the query string (`?course=ulam&diet=vegetarian&max=30`,
+   unknown values ignored); "n recipes" announced via `aria-live`. Pescatarian includes
+   vegetarian dishes. Without JS, or if the index fails to load, the plain course links stay.
 7. **Pantry finder**: chips for key ingredients (grouped: proteins, vegetables, pantry);
    rank = matched ÷ needed, ties by total time; shows "missing: x, y".
 8. **Shopping list**: "Add to list" stores `{slug, servings}`; `/list/` rebuilds lines from
@@ -169,7 +173,7 @@ the JSON, validate, re-seed.
 5. **Done**: pantry finder (`/pantry/`, block `kusina/pantry-finder`, index at
    `/wp-json/kusina/v1/index`) and shopping list (`/list/`, block `kusina/shopping-list`,
    "Add to shopping list" on every recipe, header count). Theme redesigned calmer (DESIGN.md).
-6. Ingredient tick boxes **done**. JS still open: recipe index filters, Bahala na.
+6. Ingredient tick boxes and recipe index filters **done**. JS still open: Bahala na.
 7. **Done**: 50 recipes seeded, each with an AI-generated photo (section 8).
 8. **Done**: exporter, CSP, Vercel project, `Deploy.cmd`. Live at https://kusina-notes.vercel.app
    (2026-10-11). Open: Open Graph / Twitter meta tags (WordPress prints none; section 5).

@@ -1,0 +1,126 @@
+/* Recipe index filters. Course toggles reuse the theme's .course-chip look; result tiles
+   reuse .tiles / .tile. */
+
+.recipe-filters {
+	--kn-ink: var(--wp--preset--color--ink, #17221C);
+	--kn-ink-2: var(--wp--preset--color--ink-2, #55615A);
+	--kn-leaf: var(--wp--preset--color--leaf, #2D5A41);
+	--kn-leaf-soft: var(--wp--preset--color--leaf-soft, #DCE6D2);
+	--kn-line-strong: color-mix(in srgb, var(--kn-ink) 22%, transparent);
+	display: grid;
+	gap: 1rem;
+}
+
+.recipe-filters [hidden],
+.recipe-filter-results[hidden],
+.recipe-filter-results [hidden],
+.recipe-index[hidden] {
+	display: none !important;
+}
+
+.recipe-filters-panel {
+	display: grid;
+	gap: 1rem;
+}
+
+.recipe-filters button {
+	font: inherit;
+	background: transparent;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.recipe-filters .course-chip[aria-pressed="true"] {
+	background: var(--kn-leaf-soft);
+	border-color: transparent;
+}
+
+.filter-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.5rem;
+}
+
+.filter-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+}
+
+.filter-chip {
+	min-height: 2.4rem;
+	padding: 0.3rem 0.95rem;
+	font-size: 0.9375rem !important;
+	font-weight: 500;
+	color: var(--kn-ink);
+	border: 1px solid var(--kn-line-strong);
+	border-radius: 999px;
+	transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.filter-chip:hover {
+	border-color: var(--kn-ink);
+}
+
+.filter-chip[aria-pressed="true"] {
+	font-weight: 600;
+	color: var(--kn-leaf);
+	background: var(--kn-leaf-soft);
+	border-color: transparent;
+}
+
+.filter-chip[aria-pressed="true"]::before {
+	margin-right: 0.35rem;
+	content: "✓";
+}
+
+.filter-status {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.25rem 1rem;
+	min-height: 2.5rem;
+}
+
+.filter-summary {
+	margin: 0;
+	font-family: var(--wp--preset--font-family--display, Georgia, serif);
+	font-size: 1.75rem;
+	line-height: 1.2;
+}
+
+.filter-summary:empty {
+	display: none;
+}
+
+.filter-clear {
+	padding: 0.4rem 0;
+	font-size: 0.875rem !important;
+	font-weight: 600;
+	color: var(--kn-ink-2);
+	border: 0;
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
+}
+
+.recipe-filter-results .filter-more {
+	justify-self: center;
+	display: flex;
+	min-height: 2.75rem;
+	margin: 3.5rem auto 0;
+	padding: 0.5rem 1.4rem;
+	font: inherit;
+	font-size: 0.9375rem;
+	font-weight: 600;
+	color: var(--wp--preset--color--ink, #17221C);
+	background: transparent;
+	border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+	border-radius: 999px;
+	cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.filter-chip {
+		transition: none;
+	}
+}

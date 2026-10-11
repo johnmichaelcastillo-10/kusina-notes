@@ -307,13 +307,14 @@ foreach ( $it as $f ) {
 		continue;
 	}
 	$html = file_get_contents( $f->getPathname() );
-	// The pantry reads the index from a file instead of the REST API (before the URL rewrite).
+	// The pantry and the recipe filters read the index from a file instead of the REST API
+	// (before the URL rewrite).
 	$html = str_replace( 'data-index="' . $index_url . '"', 'data-index="/recipes.json"', $html );
 	$html = preg_replace( '#<link[^>]+(wp-json|xmlrpc\.php|/feed/|EditURI|rel=["\']shortlink)[^>]*>\s*#i', '', $html );
 	$html = preg_replace( '#<meta name="generator"[^>]*>\s*#i', '', $html );
 	$html = $rewrite( $html );
-	if ( str_contains( $html, 'class="wp-block-kusina-pantry-finder' ) && ! str_contains( $html, 'data-index="/recipes.json"' ) ) {
-		$errors[] = 'the pantry finder still points at the REST API (its data-index markup changed)';
+	if ( preg_match( '#data-index="(?!/recipes\.json")#', $html ) ) {
+		$errors[] = 'a block still points data-index at the REST API (its markup changed): ' . substr( $f->getPathname(), strlen( $out ) );
 	}
 	$collect_csp( $html, substr( $f->getPathname(), strlen( $out ) ) );
 	file_put_contents( $f->getPathname(), $html );

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kusina/recipe-filters",
+	"version": "0.1.0",
+	"title": "Recipe filters",
+	"category": "widgets",
+	"icon": "filter",
+	"description": "Course, diet and time filters over the recipe index. Course links without JavaScript.",
+	"textdomain": "kusina-core",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": [ "wide" ]
+	},
+	"editorScript": "kusina-simple-blocks-editor",
+	"style": "file:./style.css",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}

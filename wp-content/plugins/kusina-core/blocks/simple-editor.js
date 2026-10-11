@@ -66,6 +66,10 @@
 		edit: placeholder( __( 'Pantry finder: ingredient chips and ranked recipes appear here on the site.', 'kusina-core' ) ),
 		save: () => null,
 	} );
+	registerBlockType( 'kusina/recipe-filters', {
+		edit: placeholder( __( 'Recipe filters: course, diet and time toggles over the recipe list appear here on the site.', 'kusina-core' ) ),
+		save: () => null,
+	} );
 	registerBlockType( 'kusina/shopping-list', {
 		edit: placeholder( __( "Shopping list: the visitor's saved recipes and merged ingredients appear here on the site.", 'kusina-core' ) ),
 		save: () => null,
