@@ -115,30 +115,24 @@ async function init( root ) {
 		chip.disabled = false;
 	}
 
-	// Long groups fold their less used chips behind "+N more"; a ticked chip always shows.
-	const expands = [ ...root.querySelectorAll( '[data-pantry-expand]' ) ];
-	function fold() {
-		for ( const button of expands ) {
-			const open = button.getAttribute( 'aria-expanded' ) === 'true';
-			for ( const chip of button.parentElement.querySelectorAll( '.pantry-chip[data-extra]' ) ) {
-				chip.hidden = ! open && ! selected.has( chip.dataset.key );
-			}
-			button.textContent = open ? button.dataset.labelLess : button.dataset.labelMore;
+	const groups = [ ...root.querySelectorAll( '.pantry-group' ) ];
+
+	// The sidebar only offers ingredients the listed recipes use (all of them, not just the
+	// page shown), plus whatever is ticked. A group with nothing left hides.
+	function trimChips( listed ) {
+		const used = new Set( listed.flatMap( ( recipe ) => recipe.k || [] ) );
+		for ( const chip of chips ) {
+			chip.hidden = ! used.has( chip.dataset.key ) && ! selected.has( chip.dataset.key );
 		}
-	}
-	for ( const button of expands ) {
-		button.hidden = false;
-		button.addEventListener( 'click', () => {
-			button.setAttribute( 'aria-expanded', String( button.getAttribute( 'aria-expanded' ) !== 'true' ) );
-			fold();
-		} );
+		for ( const group of groups ) {
+			group.hidden = ! group.querySelector( '.pantry-chip:not([hidden])' );
+		}
 	}
 
 	function render() {
 		for ( const chip of chips ) {
 			chip.setAttribute( 'aria-pressed', String( selected.has( chip.dataset.key ) ) );
 		}
-		fold();
 		save( { keys: [ ...selected ], course: course.value } );
 
 		const inCourse = recipes.filter( ( recipe ) => ! course.value || recipe.c === course.value );
@@ -151,6 +145,7 @@ async function init( root ) {
 		// (the index is newest first) instead of leaving it blank.
 		if ( ! selected.size ) {
 			summary.textContent = msg.start;
+			trimChips( inCourse );
 			for ( const recipe of inCourse.slice( 0, 8 ) ) {
 				list.append( card( recipe, null, msg ) );
 			}
@@ -185,6 +180,8 @@ async function init( root ) {
 		summary.textContent = ranked.length
 			? ( ranked.length === 1 ? msg.one : msg.count.replace( '%s', String( ranked.length ) ) )
 			: msg.none;
+		// No matches: offer the whole course again, so there is a way out besides unticking.
+		trimChips( ranked.length ? ranked.map( ( r ) => r.recipe ) : inCourse );
 
 		for ( const { recipe, missing } of ranked.slice( 0, shown ) ) {
 			list.append( card( recipe, missing, msg ) );
@@ -206,6 +203,13 @@ async function init( root ) {
 			}
 			shown = PAGE;
 			render();
+			// An unticked chip can trim itself away: keep keyboard focus in the picker.
+			if ( chip.hidden ) {
+				const next = chips.slice( chips.indexOf( chip ) ).find( ( c ) => ! c.hidden ) || chips.find( ( c ) => ! c.hidden );
+				if ( next ) {
+					next.focus();
+				}
+			}
 		}
 	} );
 	course.addEventListener( 'change', () => {

@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
 	"name": "kusina/pantry-finder",
-	"version": "0.6.2",
+	"version": "0.6.3",
 	"title": "Pantry finder",
 	"category": "widgets",
 	"icon": "search",
