@@ -9,6 +9,22 @@ It is the third personal WordPress project alongside **jmcastillo-portfolio** an
 dynamic block, structured data for search, and interactive tools that keep working on a
 static host.
 
+**Live site:** https://kusina-notes.vercel.app
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshot-home-dark.webp">
+  <img alt="Kusina Notes home page: the headline Ano’ng ulam tonight? beside a photo of chicken adobo and rice on a banana leaf, with Browse recipes, Cook from your pantry and Bahala na buttons" src="docs/screenshot-home.webp">
+</picture>
+
+<p>
+  <img src="docs/screenshot-recipe.webp" width="49%" alt="Chicken adobo recipe card: prep, cook and total times, a servings stepper, a unit switch, ingredients with two ticked off, and numbered steps with times">
+  <img src="docs/screenshot-cook.webp" width="49%" alt="Cook mode on step 5 of 8: the step in large type, the ingredients beside it and a 25 minute timer running">
+</p>
+<p>
+  <img src="docs/screenshot-pantry.webp" width="49%" alt="Pantry finder with chicken, carrot and the kitchen basics ticked: the sidebar shows only the ingredients those recipes use, and 12 recipes are ranked by what is missing">
+  <img src="docs/screenshot-filters.webp" width="49%" alt="Recipe index filtered to Ulam and 1 hr or less: course, diet and time chips, 10 recipes, a Clear filters link and the Bahala na random pick button">
+</p>
+
 ## What a visitor can do
 
 - **Scale a recipe**: change the servings and every quantity updates, shown as kitchen
