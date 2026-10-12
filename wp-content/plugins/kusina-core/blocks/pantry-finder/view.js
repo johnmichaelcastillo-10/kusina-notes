@@ -115,10 +115,30 @@ async function init( root ) {
 		chip.disabled = false;
 	}
 
+	// Long groups fold their less used chips behind "+N more"; a ticked chip always shows.
+	const expands = [ ...root.querySelectorAll( '[data-pantry-expand]' ) ];
+	function fold() {
+		for ( const button of expands ) {
+			const open = button.getAttribute( 'aria-expanded' ) === 'true';
+			for ( const chip of button.parentElement.querySelectorAll( '.pantry-chip[data-extra]' ) ) {
+				chip.hidden = ! open && ! selected.has( chip.dataset.key );
+			}
+			button.textContent = open ? button.dataset.labelLess : button.dataset.labelMore;
+		}
+	}
+	for ( const button of expands ) {
+		button.hidden = false;
+		button.addEventListener( 'click', () => {
+			button.setAttribute( 'aria-expanded', String( button.getAttribute( 'aria-expanded' ) !== 'true' ) );
+			fold();
+		} );
+	}
+
 	function render() {
 		for ( const chip of chips ) {
 			chip.setAttribute( 'aria-pressed', String( selected.has( chip.dataset.key ) ) );
 		}
+		fold();
 		save( { keys: [ ...selected ], course: course.value } );
 
 		const inCourse = recipes.filter( ( recipe ) => ! course.value || recipe.c === course.value );

@@ -98,6 +98,9 @@ recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModul
    and a hint asks for a meat or vegetable; once anything else is ticked, a recipe must use
    one of those. Nothing ticked shows the newest recipes. The course menu applies in every
    state. (Until 2026-10-12 the basics and the course menu did nothing on their own.)
+   Chips in each group are sorted by how many recipes use them; groups with 9 or more
+   (vegetables, pantry) show 6 and fold the rest behind "+N more" (a ticked chip always
+   shows). The basics group never folds.
 8. **Shopping list**: "Add to list" stores `{slug, servings}`; `/list/` rebuilds lines from
    the index plus each recipe's ingredient data (add `ingredients` to the index), merges
    same name + unit, groups by aisle (a fixed map in the plugin), checkboxes, print button.
