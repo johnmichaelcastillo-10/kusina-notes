@@ -184,7 +184,10 @@ the JSON, validate, re-seed.
 7. **Done**: 50 recipes seeded, each with an AI-generated photo (section 8).
 8. **Done**: exporter, CSP, Vercel project, `Deploy.cmd`. Live at https://kusina-notes.vercel.app
    (2026-10-11). Open Graph / Twitter tags added 2026-10-12 (section 5).
-9. Add the project to the portfolio (screenshots 1920×1200 WebP).
+9. **Done** (2026-10-12): on the portfolio as project post 58 (four 1920×1200 WebP
+   screenshots: home, recipe card, cook mode, pantry finder), live at
+   https://jmcastillo-portfolio.vercel.app/projects/kusina-notes/. Retake them if the look
+   changes.
 
 ## 10. Done means
 

@@ -49,5 +49,6 @@ Live at **https://kusina-notes.vercel.app** (a static export of the local WordPr
 with `Deploy.cmd`). 50 recipes, each with an AI-generated photo, recipe card with
 scaler, units, ingredient tick boxes and cook mode, recipe filters, "Bahala na" random
 pick, pantry finder, shopping list, sharing tags (Open Graph, Twitter), and the "banana
-leaf editorial" theme. Still open: adding it to the portfolio. Plan and
+leaf editorial" theme. Shown on the portfolio at
+https://jmcastillo-portfolio.vercel.app/projects/kusina-notes/. Plan and
 progress: [`docs/SPEC.md`](docs/SPEC.md); look and voice: [`docs/DESIGN.md`](docs/DESIGN.md).
