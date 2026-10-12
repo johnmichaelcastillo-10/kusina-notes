@@ -93,7 +93,11 @@ recipe card's lives at `blocks/recipe-card/view.js` (block.json `viewScriptModul
    unknown values ignored); "n recipes" announced via `aria-live`. Pescatarian includes
    vegetarian dishes. Without JS, or if the index fails to load, the plain course links stay.
 7. **Pantry finder**: chips for key ingredients (grouped: proteins, vegetables, pantry);
-   rank = matched ÷ needed, ties by total time; shows "missing: x, y".
+   rank = matched ÷ needed, ties by total time; shows "missing: x, y". The basics start
+   ticked. With only basics ticked they are the picks (so unticking one changes the list)
+   and a hint asks for a meat or vegetable; once anything else is ticked, a recipe must use
+   one of those. Nothing ticked shows the newest recipes. The course menu applies in every
+   state. (Until 2026-10-12 the basics and the course menu did nothing on their own.)
 8. **Shopping list**: "Add to list" stores `{slug, servings}`; `/list/` rebuilds lines from
    the index plus each recipe's ingredient data (add `ingredients` to the index), merges
    same name + unit, groups by aisle (a fixed map in the plugin), checkboxes, print button.

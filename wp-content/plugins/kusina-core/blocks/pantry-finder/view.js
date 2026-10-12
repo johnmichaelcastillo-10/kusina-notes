@@ -86,6 +86,7 @@ async function init( root ) {
 	const chips = [ ...root.querySelectorAll( '.pantry-chip' ) ];
 	const basics = new Set( chips.filter( ( c ) => c.hasAttribute( 'data-basic' ) ).map( ( c ) => c.dataset.key ) );
 	const summary = root.querySelector( '[data-pantry-summary]' );
+	const hint = root.querySelector( '[data-pantry-hint]' );
 	const list = root.querySelector( '[data-pantry-list]' );
 	const more = root.querySelector( '[data-pantry-more]' );
 	const course = root.querySelector( '[data-pantry-course]' );
@@ -120,30 +121,33 @@ async function init( root ) {
 		}
 		save( { keys: [ ...selected ], course: course.value } );
 
+		const inCourse = recipes.filter( ( recipe ) => ! course.value || recipe.c === course.value );
 		const chosen = [ ...selected ].filter( ( k ) => ! basics.has( k ) );
 		list.replaceChildren();
 		more.hidden = true;
+		hint.hidden = true;
 
-		// Nothing beyond the basics ticked yet: say what to do, and fill the space with the
-		// newest recipes (the index is newest first) instead of leaving it blank.
-		if ( ! chosen.length ) {
-			summary.textContent = selected.size ? msg.basics : msg.start;
-			for ( const recipe of recipes.slice( 0, 8 ) ) {
+		// Nothing ticked at all: say what to do, and fill the space with the newest recipes
+		// (the index is newest first) instead of leaving it blank.
+		if ( ! selected.size ) {
+			summary.textContent = msg.start;
+			for ( const recipe of inCourse.slice( 0, 8 ) ) {
 				list.append( card( recipe, null, msg ) );
 			}
 			return;
 		}
 
-		// A recipe qualifies when it uses at least one non-basic thing you ticked. Order:
-		// fewest missing, then most of your non-basic picks used (chicken AND coconut milk
-		// beats chicken alone), then most matched overall, then quickest.
+		// A recipe qualifies when it uses at least one thing you ticked; once anything beyond
+		// the basics is ticked, it must use one of those (chicken should bring chicken dishes,
+		// not everything with garlic). With only basics ticked they are the picks, so
+		// unticking one changes the list. Order: fewest missing, then most picks used
+		// (chicken AND coconut milk beats chicken alone), then most matched, then quickest.
+		const counts = chosen.length ? ( k ) => ! basics.has( k ) : () => true;
+		hint.hidden = chosen.length > 0;
 		const ranked = [];
-		for ( const recipe of recipes ) {
-			if ( course.value && recipe.c !== course.value ) {
-				continue;
-			}
+		for ( const recipe of inCourse ) {
 			const keys = recipe.k || [];
-			const picks = keys.filter( ( k ) => selected.has( k ) && ! basics.has( k ) ).length;
+			const picks = keys.filter( ( k ) => selected.has( k ) && counts( k ) ).length;
 			if ( ! picks ) {
 				continue;
 			}

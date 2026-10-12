@@ -158,6 +158,13 @@
 	border-radius: 999px;
 }
 
+/* Shown while only the basics are ticked; sits under the results head. */
+.pantry-hint {
+	margin: -1.25rem 0 0;
+	font-size: 0.9375rem;
+	color: var(--kn-ink-2);
+}
+
 .pantry-missing {
 	margin: 0;
 	font-size: 0.875rem;

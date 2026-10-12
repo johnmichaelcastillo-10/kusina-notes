@@ -24,7 +24,6 @@ $kusina_messages = array(
 	'one'       => __( '1 recipe you can make', 'kusina-core' ),
 	'none'      => __( 'Nothing matches yet. Tick a few more things.', 'kusina-core' ),
 	'start'     => __( 'Nothing yet. Add rice: there is always rice.', 'kusina-core' ),
-	'basics'    => __( 'Now tick what is in the fridge: a meat, a vegetable, anything.', 'kusina-core' ),
 	'all'       => __( 'You have everything', 'kusina-core' ),
 	/* translators: %s: comma-separated ingredients */
 	'missing'   => __( 'Missing: %s', 'kusina-core' ),
@@ -71,6 +70,7 @@ $kusina_messages = array(
 				</select>
 			</label>
 		</div>
+		<p class="pantry-hint" data-pantry-hint hidden><?php esc_html_e( 'Now tick what is in the fridge: a meat, a vegetable, anything.', 'kusina-core' ); ?></p>
 		<div class="tiles pantry-tiles"><ul class="wp-block-post-template" data-pantry-list></ul></div>
 		<button type="button" class="kn-btn pantry-more" data-pantry-more hidden></button>
 	</div>
