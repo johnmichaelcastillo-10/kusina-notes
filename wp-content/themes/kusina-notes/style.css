@@ -2,7 +2,7 @@
 Theme Name:        Kusina Notes
 Author:            John Michael Castillo
 Description:       An editorial recipe journal block theme: rice-paper white, banana-leaf green, Instrument Serif. Pairs with the Kusina Core plugin for recipes.
-Version:           0.4.3
+Version:           0.4.4
 Requires at least: 6.6
 Tested up to:      7.1
 Requires PHP:      8.1
@@ -26,10 +26,15 @@ Text Domain:       kusina-notes
 	--kn-leaf-art: url("assets/art/leaf-light.svg");
 	--kn-shadow: 0 1px 2px rgb(23 34 28 / 0.06), 0 24px 48px -32px rgb(23 34 28 / 0.45);
 	--kn-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+	--kn-icon-sun: none;
+	--kn-icon-moon: block;
+	color-scheme: light;
 }
 
+/* Dark: follows the system unless the header toggle chose a theme (data-theme on <html>,
+   set before paint by functions.php). The two blocks must stay identical. */
 @media (prefers-color-scheme: dark) {
-	:root:root {
+	:root:root:not([data-theme="light"]) {
 		--wp--preset--color--paper: #0F1712;
 		--wp--preset--color--paper-2: #17221B;
 		--wp--preset--color--ink: #ECEFE7;
@@ -40,8 +45,26 @@ Text Domain:       kusina-notes
 		--wp--preset--color--leaf-soft: #22332A;
 		--kn-leaf-art: url("assets/art/leaf-night.svg");
 		--kn-shadow: 0 24px 48px -32px rgb(0 0 0 / 0.8);
+		--kn-icon-sun: block;
+		--kn-icon-moon: none;
 		color-scheme: dark;
 	}
+}
+
+:root:root[data-theme="dark"] {
+	--wp--preset--color--paper: #0F1712;
+	--wp--preset--color--paper-2: #17221B;
+	--wp--preset--color--ink: #ECEFE7;
+	--wp--preset--color--ink-2: #A9B5AC;
+	--wp--preset--color--leaf: #9CC79A;
+	--wp--preset--color--on-leaf: #0F1712;
+	--wp--preset--color--leaf-deep: #0B120E;
+	--wp--preset--color--leaf-soft: #22332A;
+	--kn-leaf-art: url("assets/art/leaf-night.svg");
+	--kn-shadow: 0 24px 48px -32px rgb(0 0 0 / 0.8);
+	--kn-icon-sun: block;
+	--kn-icon-moon: none;
+	color-scheme: dark;
 }
 
 /* ---------- Base ---------- */
@@ -264,6 +287,48 @@ button.btn {
 
 .nav-count[hidden] {
 	display: none;
+}
+
+/* Light/dark toggle (assets/js/site.js). Shows the theme it switches to. */
+.theme-toggle {
+	display: inline-grid;
+	place-items: center;
+	width: 2.75rem;
+	height: 2.75rem;
+	margin: -0.25rem -0.6rem -0.25rem 0;
+	padding: 0;
+	color: var(--wp--preset--color--ink);
+	background: transparent;
+	border: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background-color 0.2s var(--kn-ease);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.theme-toggle[hidden] {
+	display: none;
+}
+
+.theme-toggle:hover {
+	background: var(--wp--preset--color--paper-2);
+}
+
+.theme-toggle svg {
+	width: 1.25rem;
+	height: 1.25rem;
+}
+
+.theme-toggle .icon-moon {
+	display: var(--kn-icon-moon);
+}
+
+.theme-toggle .icon-sun {
+	display: var(--kn-icon-sun);
+}
+
+.site-nav {
+	margin-left: auto;
 }
 
 .nav-count {
@@ -908,6 +973,18 @@ button.btn {
 
 	.site-nav ul {
 		gap: 0 1.35rem;
+	}
+
+	/* The nav wraps to its own row; the toggle stays beside the wordmark. */
+	.theme-toggle {
+		order: 1;
+		margin-left: auto;
+	}
+
+	.site-nav {
+		order: 2;
+		flex-basis: 100%;
+		margin-left: 0;
 	}
 
 	.tonight-caption {

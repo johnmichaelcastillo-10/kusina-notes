@@ -37,6 +37,9 @@ uppercase label in green).
 | Footer, teaser, hover on primary | `leaf-deep` | #1E3B2C | #0B120E |
 | Chips, time pills, selected states | `leaf-soft` | #DCE6D2 | #22332A |
 
+Dark follows the system until the visitor uses the sun/moon toggle in the header; the
+choice is remembered, and flipping back to what the system shows forgets it.
+
 Contrast (WCAG 2): ink on paper 15.2, ink-2 on paper 6.0 (5.6 on paper-2), leaf on paper
 7.4, white on leaf 7.9, paper on leaf-deep 11.4, #B9CCB0 on leaf-deep 7.2; dark mode text
 15.7, muted 8.6, leaf 9.6. All AA for body text.

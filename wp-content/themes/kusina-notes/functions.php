@@ -19,6 +19,19 @@ add_action(
 	}
 );
 
+// A theme chosen with the header toggle applies before first paint, so a dark-mode choice
+// never flashes light. Blocking and inline on purpose; the static exporter hashes it into
+// the CSP. site.js reads and writes the same key.
+add_action(
+	'wp_head',
+	static function (): void {
+		wp_print_inline_script_tag(
+			"try{var t=localStorage.getItem('kusina-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}"
+		);
+	},
+	0
+);
+
 // Headlines are Instrument Serif and body text Figtree: fetch both before the CSS asks, the
 // headline is the LCP text.
 add_action(
